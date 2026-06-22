@@ -1,0 +1,23 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "world-god-only-knows",
+  "nodes": [
+    {"id": "loose-souls", "label": "驱魂", "type": "supernatural-threat"},
+    {"id": "heart-gap", "label": "心灵空隙", "type": "condition"},
+    {"id": "capture-contract", "label": "驱魂捕获契约", "type": "system"},
+    {"id": "new-hell", "label": "新地狱", "type": "faction/location"},
+    {"id": "vintage", "label": "正统恶魔社", "type": "enemy-faction"},
+    {"id": "jupiter-sisters", "label": "朱比特六姐妹", "type": "goddess-group"},
+    {"id": "goddess-hosts", "label": "女神宿主", "type": "character-state"},
+    {"id": "maijima", "label": "舞岛市", "type": "location"},
+    {"id": "dating-sim-logic", "label": "攻略逻辑", "type": "narrative-method"}
+  ],
+  "edges": [
+    {"from": "loose-souls", "to": "heart-gap", "type": "inhabits", "note": "驱魂寄宿心灵有空隙的对象。"},
+    {"from": "capture-contract", "to": "loose-souls", "type": "captures", "note": "人类协力者与恶魔搭档通过攻略填补空隙捕获驱魂。"},
+    {"from": "new-hell", "to": "capture-contract", "type": "administers", "note": "新地狱组织驱魂队。"},
+    {"from": "vintage", "to": "jupiter-sisters", "type": "hunts", "note": "正统恶魔社威胁女神与宿主。"},
+    {"from": "jupiter-sisters", "to": "goddess-hosts", "type": "resides-in", "note": "女神寄宿于特定攻略对象体内。"},
+    {"from": "dating-sim-logic", "to": "heart-gap", "type": "diagnoses", "note": "桂马以游戏逻辑分析现实情感缺口，但常需被现实修正。"}
+  ]
+}

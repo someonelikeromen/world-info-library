@@ -1,0 +1,21 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "to-love-ru",
+  "nodes": ["rito-yuuki", "lala-deviluke", "haruna-sairenji", "mikan-yuuki", "nana-deviluke", "momo-deviluke", "yami", "mea-kurosaki", "nemesis", "sastin", "gidalucione-deviluke", "yui-kotegawa", "run-ren", "ryoko-mikado"],
+  "edges": [
+    {"from": "rito-yuuki", "to": "lala-deviluke", "type": "accidental-engagement", "note": "误会告白导致名义婚约，后逐渐成为相互信赖。"},
+    {"from": "rito-yuuki", "to": "haruna-sairenji", "type": "mutual-crush", "note": "青涩双向好感常被误会打断。"},
+    {"from": "rito-yuuki", "to": "mikan-yuuki", "type": "siblings", "note": "兄妹；美柑承担家务和冷静判断。"},
+    {"from": "lala-deviluke", "to": "nana-deviluke", "type": "sisters", "note": "戴比路克王女姐妹。"},
+    {"from": "lala-deviluke", "to": "momo-deviluke", "type": "sisters", "note": "戴比路克王女姐妹。"},
+    {"from": "momo-deviluke", "to": "rito-yuuki", "type": "harem-plan-target", "note": "梦梦推动梨斗成为乐园计划中心。"},
+    {"from": "sastin", "to": "lala-deviluke", "type": "guard", "note": "王家亲卫队长负责带回/保护王女。"},
+    {"from": "gidalucione-deviluke", "to": "lala-deviluke", "type": "father-daughter", "note": "银河霸主父亲带来婚约压力。"},
+    {"from": "yami", "to": "rito-yuuki", "type": "target-to-friend", "note": "小暗从暗杀目标关系转为被梨斗影响的同伴。"},
+    {"from": "mea-kurosaki", "to": "yami", "type": "weapon-lineage", "note": "芽亚与小暗同属暗影兵器主题。"},
+    {"from": "nemesis", "to": "mea-kurosaki", "type": "manipulates", "note": "涅墨西斯借芽亚推动 Darkness。"},
+    {"from": "yui-kotegawa", "to": "rito-yuuki", "type": "discipline-and-romantic-tension", "note": "风纪批判与逐步好感并存。"},
+    {"from": "run-ren", "to": "lala-deviluke", "type": "childhood-acquaintance/rival", "note": "旧识兼恋爱竞争角色。"},
+    {"from": "ryoko-mikado", "to": "yami", "type": "medical-support", "note": "御门老师能解释和处理外星/兵器问题。"}
+  ]
+}

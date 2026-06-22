@@ -1,0 +1,30 @@
+{
+  "schema": "curated-characters-index-v1",
+  "worldSlug": "overlord",
+  "characters": [
+    {"name": "安兹·乌尔·恭", "aliases": ["飞鼠", "飞飞"], "role": "主角；纳萨力克统治者", "affiliation": "纳萨力克", "notes": "不死者之王，极度谨慎，扮演深谋远虑的无上至尊。"},
+    {"name": "雅儿贝德", "role": "守护者总管", "affiliation": "纳萨力克", "notes": "魅魔，管理能力卓越，对安兹极端恋慕。"},
+    {"name": "夏提雅·布拉德弗伦", "role": "阶层守护者", "affiliation": "纳萨力克", "notes": "真祖吸血鬼，强大战斗力，曾遭世界级道具控制。"},
+    {"name": "科塞特斯", "role": "第五阶层守护者", "affiliation": "纳萨力克", "notes": "虫王武士，崇尚荣誉，庇护蜥蜴人。"},
+    {"name": "迪米乌哥斯", "role": "第七阶层守护者/智囊", "affiliation": "纳萨力克", "notes": "最高阶恶魔，擅长谋略，常过度解读安兹。"},
+    {"name": "亚乌菈·贝拉·菲欧拉", "role": "第六阶层守护者", "affiliation": "纳萨力克", "notes": "黑暗精灵驯兽师，马雷之姐。"},
+    {"name": "马雷·贝罗·菲欧雷", "role": "第六阶层守护者", "affiliation": "纳萨力克", "notes": "黑暗精灵德鲁伊，亚乌菈之弟。"},
+    {"name": "塞巴斯·蒂安", "role": "管家", "affiliation": "纳萨力克", "notes": "具正义倾向，救助琪雅蕾引发王都事件。"},
+    {"name": "潘多拉·亚克特", "role": "宝物殿领域守护者", "affiliation": "纳萨力克", "notes": "安兹亲自创造的变身型NPC。"},
+    {"name": "娜贝拉尔·伽玛", "aliases": ["娜贝"], "role": "昴宿星团；飞飞搭档", "affiliation": "纳萨力克/冒险者伪装", "notes": "随安兹在耶·兰提尔行动。"},
+    {"name": "由莉·阿尔法", "role": "昴宿星团队长", "affiliation": "纳萨力克", "notes": "战斗女仆之一。"},
+    {"name": "露普丝雷其娜·β", "role": "昴宿星团；卡恩村监视者", "affiliation": "纳萨力克", "notes": "表面开朗，负责接触安莉。"},
+    {"name": "索留香·艾普西隆", "role": "昴宿星团；暗杀/潜入", "affiliation": "纳萨力克", "notes": "捕食型史莱姆，王都篇与塞巴斯同住。"},
+    {"name": "希姿·德尔塔", "role": "昴宿星团", "affiliation": "纳萨力克", "notes": "战斗女仆之一。"},
+    {"name": "艾多玛·巴西丽莎·泽塔", "role": "昴宿星团", "affiliation": "纳萨力克", "notes": "昆虫系女仆。"},
+    {"name": "安莉·艾默特", "role": "卡恩村村长/将军", "affiliation": "卡恩村", "notes": "受安兹救助，后指挥哥布林军。"},
+    {"name": "恩弗雷亚·巴雷亚雷", "role": "药师", "affiliation": "耶·兰提尔/卡恩村", "notes": "天才药师，后与安莉结婚。"},
+    {"name": "葛杰夫·史托罗诺夫", "role": "王国战士长", "affiliation": "里·耶斯提杰王国", "notes": "王国武人代表，与安兹形成强者敬意。"},
+    {"name": "克莱门汀", "role": "前黑色圣典/反派", "affiliation": "叛逃者", "notes": "耶·兰提尔早期事件反派。"},
+    {"name": "尼根", "role": "阳光圣典队长", "affiliation": "斯连教国", "notes": "卡恩村袭击相关。"},
+    {"name": "布莉塔", "role": "女冒险者", "affiliation": "冒险者公会", "notes": "因飞飞药水引出药师线索。"},
+    {"name": "莉吉·巴雷亚雷", "role": "药师", "affiliation": "耶·兰提尔", "notes": "鉴定安兹药水为神之血。"},
+    {"name": "琪雅蕾", "role": "被塞巴斯救助者", "affiliation": "王都/塞巴斯线", "notes": "王都八指事件核心被害者。"},
+    {"name": "艾克雷亚·艾克雷尔·艾伊克雷亚", "role": "管家助理", "affiliation": "纳萨力克", "notes": "企鹅型鸟人，有统治纳萨力克的玩笑设定。"}
+  ]
+}

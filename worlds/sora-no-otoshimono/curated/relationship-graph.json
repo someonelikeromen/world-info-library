@@ -1,0 +1,16 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "sora-no-otoshimono",
+  "relationships": [
+    {"source": "樱井智树", "target": "伊卡洛斯", "type": "Master/搭档/救赎", "notes": "铭刻确立主从，后逐步转化为自由与情感羁绊。"},
+    {"source": "樱井智树", "target": "见月楚原", "type": "青梅竹马", "notes": "楚原是智树日常制衡者与重要同伴。"},
+    {"source": "樱井智树", "target": "妮姆芙", "type": "保护者/同伴", "notes": "智树给予妮姆芙自由与绝不准输的支撑。"},
+    {"source": "樱井智树", "target": "阿斯特蕾亚", "type": "同伴", "notes": "从西纳普斯兵器阵营转入地面日常。"},
+    {"source": "樱井智树", "target": "卡奥斯", "type": "依恋/救赎难题", "notes": "卡奥斯将智树视为支撑自身理解爱的核心。"},
+    {"source": "伊卡洛斯", "target": "代达罗斯", "type": "创造者与造物", "notes": "代达罗斯是伊卡洛斯的科学母亲与梦境线索。"},
+    {"source": "守形英四郎", "target": "五月田根美香子", "type": "复杂同伴/暧昧", "notes": "美香子常以腹黑方式支援或推动守形行动。"},
+    {"source": "守形英四郎", "target": "西纳普斯", "type": "调查者/入侵者", "notes": "守形试图解析空中黑洞、石板与世界重构。"},
+    {"source": "空之主", "target": "万能天使群", "type": "支配者", "notes": "通过命令、锁链与改造维持控制。"},
+    {"source": "风音日和", "target": "妮姆芙", "type": "被救援者/电子战核心", "notes": "日和改造事件促使妮姆芙情感进化。"}
+  ]
+}

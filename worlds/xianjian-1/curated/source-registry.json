@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "xianjian-1",
+  "displayName": "仙剑奇侠传Ⅰ",
+  "curatedFrom": [
+    {
+      "sourceId": "src-xianjian-1-001",
+      "title": "仙剑奇侠传Ⅰ 世界书",
+      "sourceRegistryPath": "campaigns/world-library/worlds/xianjian-1/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/xianjian-1/raw/imported-worldbooks/仙剑奇侠传Ⅰ 世界书.worldbook.json",
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "canon-reference/plot-summary.json",
+        "graphs/knowledge-graph.json",
+        "graphs/relationship-graph.json"
+      ],
+      "reliability": "B",
+      "notes": "人工阅读既有归档后归纳；原归档含大量 UI/状态栏/技术控制文本，curated 中仅保留世界观可用信息。"
+    }
+  ],
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+}

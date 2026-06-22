@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "chunibyo",
+  "nodes": [
+    "takanashi-rikka",
+    "togashi-yuuta",
+    "dekomori-sanae",
+    "tsuyuri-kumin",
+    "nibutani-shinka",
+    "isshiki-makoto",
+    "takanashi-touka",
+    "tsukumo-nanase",
+    "shichimiya-satone"
+  ],
+  "edges": [
+    {"from": "takanashi-rikka", "to": "togashi-yuuta", "type": "romantic_core", "description": "六花憧憬并依赖勇太；勇太在吐槽与照顾中逐渐接受她。"},
+    {"from": "takanashi-rikka", "to": "dekomori-sanae", "type": "master_retainer", "description": "凸守称六花为 Master，是其最忠实的中二追随者。"},
+    {"from": "dekomori-sanae", "to": "nibutani-shinka", "type": "rivalry_and_attachment", "description": "凸守崇拜 Mori Summer 又无法接受其现实身份，经常与森夏冲突。"},
+    {"from": "tsuyuri-kumin", "to": "far-east-napping-society", "type": "club_senior", "description": "茴香以前辈身份将午睡元素带入社团。"},
+    {"from": "takanashi-rikka", "to": "takanashi-touka", "type": "sisters", "description": "十花严厉纠正六花但本质关心妹妹。"},
+    {"from": "togashi-yuuta", "to": "shichimiya-satone", "type": "old_chunibyo_companions", "description": "七宫是勇太初中时代的中二挚友，并对勇太有压抑情感。"},
+    {"from": "takanashi-rikka", "to": "shichimiya-satone", "type": "friendly_rivalry", "description": "两人都是中二幻想角色，同时因勇太形成情感张力。"},
+    {"from": "togashi-yuuta", "to": "isshiki-makoto", "type": "classmate_friend", "description": "一色诚是勇太同班朋友和校园喜剧支线来源。"},
+    {"from": "tsukumo-nanase", "to": "togashi-yuuta", "type": "teacher_student", "description": "七濑作为班主任关心学生。"}
+  ]
+}

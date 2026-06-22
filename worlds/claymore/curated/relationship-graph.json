@@ -1,0 +1,17 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "claymore",
+  "relationships": [
+    {"from": "organization", "to": "teresa", "type": "commands-and-hunts-if-renegade", "summary": "迪妮莎为组织No.1，但其底线与情感觉醒可使她脱离组织控制。"},
+    {"from": "teresa", "to": "priscilla", "type": "rival/trigger", "summary": "普莉西亚被派参与围杀迪妮莎，战败崩溃后走向觉醒。"},
+    {"from": "irene", "to": "sophia", "type": "comrade", "summary": "同属迪妮莎时代高位战士。"},
+    {"from": "sophia", "to": "noel", "type": "best-friend-rival", "summary": "苏菲亚与罗亚路形影不离且互为竞争者。"},
+    {"from": "miria", "to": "organization", "type": "future-rebellion", "summary": "米莉雅未来组织反抗军。"},
+    {"from": "isley", "to": "priscilla", "type": "obsession/interest", "summary": "北之深渊伊斯力对后代战士普莉西亚有异常执着。"},
+    {"from": "liful", "to": "duff", "type": "partner-controller", "summary": "达夫完全追随莉芙露，莉芙露将其视为所有物/伴侣。"},
+    {"from": "luciela", "to": "rafaela", "type": "sisters-tragic-bond", "summary": "双子姐妹，拉花娜执着于斩杀觉醒后的露西艾拉。"},
+    {"from": "dae", "to": "organization", "type": "technician", "summary": "达耶服务组织研究与外科改造体系。"},
+    {"from": "riful-agent", "to": "claymore", "type": "handler", "summary": "鲁路作为代理人/联络员与战士接触。"}
+  ],
+  "playerSlot": {"id": "user-slot", "label": "{{user}}", "handling": "仅作为RP玩家位/可变角色，不列为原作固定人物。"}
+}

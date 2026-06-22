@@ -1,0 +1,27 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "zero-no-tsukaima",
+  "displayName": "零之使魔",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-zero-no-tsukaima-001",
+      "title": "零之使魔",
+      "sourceFile": "campaigns/world-library/worlds/zero-no-tsukaima/source-registry.json",
+      "rawWorldbook": "campaigns/world-library/worlds/zero-no-tsukaima/raw/imported-worldbooks/零之使魔.worldbook.json",
+      "consultedArchiveFiles": [
+        "campaigns/world-library/worlds/zero-no-tsukaima/characters/characters.json",
+        "campaigns/world-library/worlds/zero-no-tsukaima/world/world.json",
+        "campaigns/world-library/worlds/zero-no-tsukaima/factions/factions.json",
+        "campaigns/world-library/worlds/zero-no-tsukaima/locations/locations.json",
+        "campaigns/world-library/worlds/zero-no-tsukaima/power-systems/power-systems.json"
+      ],
+      "reliability": "B",
+      "usage": "整理哈尔凯尼亚、四元素/虚无魔法、使魔系统、托里斯汀与主要人物。"
+    }
+  ],
+  "exclusions": [
+    "源中 {{user}} 视为 RP 玩家/使魔槽位，不作为固定人物索引。",
+    "排除 chat 状态栏、格式模板、技术控制与成人化细节。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "toaru",
+  "displayName": "魔法禁书目录 / 超炮相关",
+  "curatedFrom": [
+    {
+      "sourceId": "src-toaru-001",
+      "title": "魔法禁书目录_v1.0",
+      "type": "user-file-source",
+      "localRegistry": "campaigns/world-library/worlds/toaru/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/toaru/characters/characters.json",
+        "campaigns/world-library/worlds/toaru/world/world.json",
+        "campaigns/world-library/worlds/toaru/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "本地世界书归档；curated 层人工阅读 comments、世界观与人物条目后整理。"
+    }
+  ],
+  "excludedAsInstructions": ["[InitVar]", "[mvu_update]变量更新规则", "变量列表", "剧情规则中的执行格式", "剧情线标记"]
+}

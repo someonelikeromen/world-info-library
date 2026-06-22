@@ -1,0 +1,17 @@
+{
+  "schema": "curated-world-v1",
+  "worldSlug": "overlord",
+  "displayName": "OVERLORD",
+  "curationMethod": "manual reading of existing archive files",
+  "premise": "YGGDRASIL公会纳萨力克地下大坟墓转移到异世界，安兹·乌尔·恭在守护同伴遗产与扮演无上至尊的压力中扩张影响。",
+  "coreSystems": [
+    {"name": "YGGDRASIL等级/职业体系", "description": "角色强度以等级、种族职业、职业职业、装备与世界级道具综合体现。"},
+    {"name": "阶位魔法", "description": "异世界与YGGDRASIL均存在的魔法体系，高阶魔法对凡人近乎天灾。"},
+    {"name": "纳萨力克阶层守护", "description": "地下大坟墓各阶层由守护者统辖，绝对忠于安兹。"},
+    {"name": "冒险者/王国政治", "description": "耶·兰提尔、王国、帝国、教国等势力构成外部舞台。"}
+  ],
+  "majorLocations": ["纳萨力克地下大坟墓", "耶·兰提尔", "卡恩村", "里·耶斯提杰王国", "巴哈斯帝国", "斯连教国", "蜥蜴人部落", "矮人国"],
+  "majorFactions": ["安兹·乌尔·恭魔导国/纳萨力克", "昴宿星团", "王国", "帝国", "教国", "八指", "冒险者公会", "蜥蜴人部落"],
+  "tone": ["黑暗奇幻", "统治模拟", "误解喜剧", "压倒性力量", "阴谋与恐怖"],
+  "rpUse": "OC可作为异世界居民、冒险者、纳萨力克造物或外部国家人物介入；技术控制条目不作为当前指令。"
+}

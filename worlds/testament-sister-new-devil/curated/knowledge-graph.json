@@ -1,0 +1,23 @@
+{
+  "schema": "curated-knowledge-graph-v1",
+  "worldSlug": "testament-sister-new-devil",
+  "nodes": [
+    {"id": "master-servant-contract", "type": "system", "label": "主从契约", "summary": "角色间的保护、联系、定位与誓约系统；curated 层仅保留功能性描述。"},
+    {"id": "demon-lord-power", "type": "power", "label": "魔王之力", "summary": "成濑澪继承的前任魔王威尔贝特力量。"},
+    {"id": "banishing-shift", "type": "ability", "label": "无次元的执行", "summary": "东城刃更的核心能力，可处理空间/结界/异能干涉。"},
+    {"id": "hero-clan", "type": "faction", "label": "勇者一族", "summary": "与魔族对立的人类/勇者体系。"},
+    {"id": "demon-realm", "type": "location", "label": "魔界", "summary": "现任魔王派、稳健派、枢机院等势力竞争舞台。"},
+    {"id": "current-demon-lord-faction", "type": "faction", "label": "现任魔王派", "summary": "围绕雷欧哈特的魔界势力。"},
+    {"id": "moderate-faction", "type": "faction", "label": "稳健派", "summary": "与威尔贝特/拉姆萨斯相关的魔界政治力量。"},
+    {"id": "cardinals", "type": "faction", "label": "枢机院", "summary": "魔界暗中操控与阴谋势力，曾唤醒魔神凯欧斯。"},
+    {"id": "three-races", "type": "concept", "label": "三族血脉", "summary": "神族、魔族、人类/勇者血脉交汇的禁忌主题。"}
+  ],
+  "edges": [
+    {"from": "master-servant-contract", "to": "demon-lord-power", "type": "stabilizes/protects"},
+    {"from": "banishing-shift", "to": "master-servant-contract", "type": "interacts-with"},
+    {"from": "current-demon-lord-faction", "to": "demon-realm", "type": "competes-in"},
+    {"from": "moderate-faction", "to": "demon-realm", "type": "competes-in"},
+    {"from": "cardinals", "to": "demon-realm", "type": "conspires-in"},
+    {"from": "hero-clan", "to": "demon-lord-power", "type": "targets"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "majo-no-tabitabi",
+  "nodes": [
+    {"id": "magic", "type": "power", "label": "魔法"},
+    {"id": "witch", "type": "rank", "label": "魔女"},
+    {"id": "apprentice", "type": "rank", "label": "魔女见习生"},
+    {"id": "association", "type": "faction", "label": "魔法统合协会"},
+    {"id": "brooch", "type": "symbol", "label": "魔女胸针"},
+    {"id": "witch-name", "type": "symbol", "label": "魔女名"},
+    {"id": "exam", "type": "process", "label": "见习魔女考试"},
+    {"id": "broom", "type": "tool", "label": "扫帚"},
+    {"id": "travel", "type": "theme", "label": "旅行见闻"},
+    {"id": "time-magic", "type": "power", "label": "时间回溯魔法"}
+  ],
+  "edges": [
+    {"from": "association", "to": "exam", "type": "organizes"},
+    {"from": "exam", "to": "apprentice", "type": "grants-status"},
+    {"from": "apprentice", "to": "witch", "type": "can-advance-to"},
+    {"from": "witch", "to": "brooch", "type": "identified-by"},
+    {"from": "witch", "to": "witch-name", "type": "identified-by"},
+    {"from": "witch", "to": "association", "type": "may-serve"},
+    {"from": "witch", "to": "travel", "type": "often-practices"},
+    {"from": "magic", "to": "broom", "type": "enables-use"},
+    {"from": "time-magic", "to": "travel", "type": "creates-memory-and-causality-hooks"}
+  ]
+}

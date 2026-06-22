@@ -1,0 +1,14 @@
+{
+  "schema":"rp-relationship-graph-v1","campaignId":"world-library-naruto","cardId":"naruto","nodes":[
+    {"id":"naruto-uzumaki","type":"character","name":"漩涡鸣人","aliases":[],"visibility":"public","summary":"主角与九尾人柱力。","tags":["protagonist"],"metadata":{}},
+    {"id":"sasuke-uchiha","type":"character","name":"宇智波佐助","aliases":[],"visibility":"public","summary":"鸣人的竞争者与羁绊对象。","tags":["rival"],"metadata":{}},
+    {"id":"sakura-haruno","type":"character","name":"春野樱","aliases":[],"visibility":"public","summary":"第七班医疗忍者。","tags":["team7"],"metadata":{}},
+    {"id":"kakashi-hatake","type":"character","name":"旗木卡卡西","aliases":[],"visibility":"public","summary":"第七班导师。","tags":["mentor"],"metadata":{}},
+    {"id":"akatsuki","type":"faction","name":"晓","aliases":[],"visibility":"private","summary":"猎捕尾兽组织。","tags":["antagonist"],"metadata":{}},
+    {"id":"konohagakure","type":"faction","name":"木叶隐村","aliases":[],"visibility":"public","summary":"火之国忍村。","tags":["village"],"metadata":{}}
+  ],"edges":[
+    {"id":"rel-naruto-sasuke","from":"naruto-uzumaki","to":"sasuke-uchiha","type":"rival","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"竞争、友情与拯救执念并存。"},"facets":{"trust":"B","affection":"A","fear":null,"suspicion":"C","debt":null,"loyalty":null,"hostility":"C"},"publicDescription":"二人是宿敌也是最强羁绊。","gmTruth":"佐助阶段性敌对不等于羁绊断裂。","evidence":["src-naruto-import-readme"],"history":[],"conditions":[],"notes":"按时间线调整敌友。"},
+    {"id":"rel-team7-kakashi","from":"kakashi-hatake","to":"naruto-uzumaki","type":"mentor","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"第七班师生。"},"facets":{"trust":"A","affection":"B","fear":null,"suspicion":null,"debt":null,"loyalty":"B","hostility":null},"publicDescription":"卡卡西指导鸣人、佐助和小樱。","gmTruth":"卡卡西的暗部经历影响其教学。","evidence":["src-naruto-import-readme"],"history":[],"conditions":[],"notes":""},
+    {"id":"rel-akatsuki-konoha","from":"akatsuki","to":"konohagakure","type":"enemy","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"晓猎捕九尾并袭击木叶。"},"facets":{"trust":null,"affection":null,"fear":"B","suspicion":"A","debt":null,"loyalty":null,"hostility":"A"},"publicDescription":"晓是木叶重大外部威胁。","gmTruth":"不同成员动机并不一致。","evidence":["src-naruto-classification-report"],"history":[],"conditions":[],"notes":""}
+  ],"views":{"playerVisibleNodeIds":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","konohagakure"],"gmHighlightedNodeIds":["akatsuki"],"activeSceneNodeIds":[]}
+}

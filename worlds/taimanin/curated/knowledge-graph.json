@@ -1,0 +1,30 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "taimanin",
+  "nodes": [
+    {"id": "taimanin-org", "type": "faction", "label": "对魔忍组织"},
+    {"id": "gocha-academy", "type": "location-faction", "label": "五车学园"},
+    {"id": "demon-realm", "type": "dimension", "label": "魔界"},
+    {"id": "demon-rifts", "type": "phenomenon", "label": "空间裂隙"},
+    {"id": "demons", "type": "species", "label": "魔族"},
+    {"id": "ninjutsu", "type": "power-system", "label": "忍法"},
+    {"id": "water-style", "type": "ninjutsu", "label": "水遁之术"},
+    {"id": "lightning-style", "type": "ninjutsu", "label": "雷遁之术"},
+    {"id": "space-style", "type": "ninjutsu", "label": "空遁之术"},
+    {"id": "wood-style", "type": "ninjutsu", "label": "木遁之术"},
+    {"id": "anti-demon-sword", "type": "martial-art", "label": "逸刀流·对魔杀法"},
+    {"id": "yomihara", "type": "location", "label": "黄泉原"}
+  ],
+  "edges": [
+    {"from": "demon-realm", "to": "demon-rifts", "type": "connected-by"},
+    {"from": "demon-rifts", "to": "demons", "type": "entry-route-for"},
+    {"from": "taimanin-org", "to": "demons", "type": "opposes"},
+    {"from": "gocha-academy", "to": "taimanin-org", "type": "trains-members-for"},
+    {"from": "ninjutsu", "to": "water-style", "type": "includes"},
+    {"from": "ninjutsu", "to": "lightning-style", "type": "includes"},
+    {"from": "ninjutsu", "to": "space-style", "type": "includes"},
+    {"from": "ninjutsu", "to": "wood-style", "type": "includes"},
+    {"from": "ninjutsu", "to": "anti-demon-sword", "type": "combines-with"},
+    {"from": "yomihara", "to": "demons", "type": "risk-area"}
+  ]
+}

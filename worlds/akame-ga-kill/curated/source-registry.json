@@ -1,0 +1,21 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "akame-ga-kill",
+  "sources": [
+    {
+      "sourceId": "src-akame-ga-kill-001",
+      "title": "斩！赤红之瞳",
+      "type": "user-file-source",
+      "reliability": "B",
+      "usedFor": ["world", "characters", "teigu", "factions", "relationships"],
+      "localEvidence": [
+        "campaigns/world-library/worlds/akame-ga-kill/source-registry.json",
+        "campaigns/world-library/worlds/akame-ga-kill/world/world.json",
+        "campaigns/world-library/worlds/akame-ga-kill/characters/characters.json"
+      ],
+      "notes": "人工阅读世界观、主角色、配角、帝具、帝国、夜袭、狩人条目。"
+    }
+  ],
+  "conflicts": [],
+  "curationPolicy": "保留 SFW 世界观、组织、帝具和人物关系；不引入无关 UI/状态栏模板。"
+}

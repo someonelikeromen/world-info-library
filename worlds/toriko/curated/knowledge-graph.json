@@ -1,0 +1,34 @@
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "toriko",
+  "nodes": [
+    { "id": "gourmet-age", "type": "era", "label": "美食时代" },
+    { "id": "gourmet-cells", "type": "powerSystem", "label": "美食细胞" },
+    { "id": "capture-level", "type": "system", "label": "捕获等级" },
+    { "id": "appetite-demon", "type": "powerSystem", "label": "食欲恶魔" },
+    { "id": "igo", "type": "faction", "label": "IGO" },
+    { "id": "bishokukai", "type": "faction", "label": "美食会" },
+    { "id": "neo", "type": "faction", "label": "NEO" },
+    { "id": "human-world", "type": "location", "label": "人间界" },
+    { "id": "gourmet-world", "type": "location", "label": "美食界" },
+    { "id": "hotel-gourmet", "type": "location", "label": "Hotel Gourmet" },
+    { "id": "vegetable-sky", "type": "location", "label": "蔬菜天空" },
+    { "id": "food-temple", "type": "location", "label": "食林寺" },
+    { "id": "acacia-full-menu", "type": "legend", "label": "阿卡西亚全套菜单" },
+    { "id": "eight-kings", "type": "legend", "label": "八王" },
+    { "id": "toriko-combo", "type": "relationshipConcept", "label": "阿虏与小松的搭档关系" }
+  ],
+  "edges": [
+    { "from": "gourmet-age", "to": "gourmet-cells", "type": "enables" },
+    { "from": "gourmet-cells", "to": "appetite-demon", "type": "creates" },
+    { "from": "capture-level", "to": "igo", "type": "standardizedBy" },
+    { "from": "igo", "to": "human-world", "type": "administers" },
+    { "from": "bishokukai", "to": "gourmet-world", "type": "operatesIn" },
+    { "from": "neo", "to": "acacia-full-menu", "type": "seeksToCorrupt" },
+    { "from": "eight-kings", "to": "gourmet-world", "type": "rules" },
+    { "from": "hotel-gourmet", "to": "igo", "type": "facilityOf" },
+    { "from": "vegetable-sky", "to": "toriko-combo", "type": "tests" },
+    { "from": "food-temple", "to": "gourmet-cells", "type": "trains" }
+  ],
+  "sourceRefs": ["src-toriko-001"]
+}

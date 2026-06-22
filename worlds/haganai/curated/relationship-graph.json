@@ -1,0 +1,19 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "haganai",
+  "nodes": ["hasegawa-kodaka", "mikazuki-yozora", "kashiwazaki-sena", "hasegawa-kobato", "takayama-maria", "takayama-kate", "kusunoki-yukimura", "shiguma-rika", "hasegawa-hayato", "kashiwazaki-pegasus", "hidaka-hinata"],
+  "edges": [
+    {"from": "hasegawa-kodaka", "to": "mikazuki-yozora", "type": "childhood_friend_and_tension", "description": "小鹰与夜空有童年旧识关系，夜空对其执着。"},
+    {"from": "hasegawa-kodaka", "to": "kashiwazaki-sena", "type": "romantic_engagement_tension", "description": "两人有父辈定下的童年婚约，星奈对小鹰感情直率。"},
+    {"from": "mikazuki-yozora", "to": "kashiwazaki-sena", "type": "rivals_to_friends", "description": "夜空与星奈日常互怼，绰号“肉”成为关系标志。"},
+    {"from": "hasegawa-kodaka", "to": "hasegawa-kobato", "type": "siblings", "description": "小鹰照顾妹妹小鸠。"},
+    {"from": "kashiwazaki-sena", "to": "hasegawa-kobato", "type": "obsessive_affection_comedy", "description": "星奈因小鸠形象而异常喜爱她。"},
+    {"from": "takayama-maria", "to": "takayama-kate", "type": "sisters", "description": "凯特是玛丽亚的姐姐。"},
+    {"from": "takayama-maria", "to": "rinjinbu", "type": "club_advisor", "description": "玛丽亚名义上担任邻人部顾问。"},
+    {"from": "kusunoki-yukimura", "to": "hasegawa-kodaka", "type": "admiration_service", "description": "幸村崇拜并侍奉小鹰。"},
+    {"from": "shiguma-rika", "to": "hasegawa-kodaka", "type": "friend_and_challenger", "description": "理科常以直率方式推动小鹰面对关系。"},
+    {"from": "hasegawa-hayato", "to": "hasegawa-kodaka", "type": "father_son", "description": "隼人是小鹰父亲。"},
+    {"from": "kashiwazaki-pegasus", "to": "kashiwazaki-sena", "type": "father_daughter", "description": "天马是星奈父亲，溺爱她。"},
+    {"from": "hasegawa-hayato", "to": "kashiwazaki-pegasus", "type": "old_friends", "description": "两位父亲关系推动小鹰与星奈婚约。"}
+  ]
+}

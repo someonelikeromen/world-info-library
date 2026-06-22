@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "jojo",
+  "displayName": "JOJO",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-jojo-001",
+      "title": "JOJO (1)",
+      "sourceFile": "campaigns/world-library/worlds/jojo/source-registry.json",
+      "rawWorldbook": "campaigns/world-library/worlds/jojo/raw/imported-worldbooks/JOJO (1).worldbook.json",
+      "consultedArchiveFiles": [
+        "campaigns/world-library/worlds/jojo/characters/characters.json",
+        "campaigns/world-library/worlds/jojo/world/world.json",
+        "campaigns/world-library/worlds/jojo/power-systems/power-systems.json",
+        "campaigns/world-library/worlds/jojo/assets/items.json"
+      ],
+      "reliability": "B",
+      "usage": "提供第一至第三部主线概述、石鬼面/波纹/柱之男/替身体系说明。人物索引以源中明确出现的人名与主线关系人工整理。"
+    }
+  ],
+  "exclusions": [
+    "未访问外部链接；仅使用本地归档中已保存文本。",
+    "未把说明性概念如替身、波纹、石鬼面列为人物。"
+  ]
+}

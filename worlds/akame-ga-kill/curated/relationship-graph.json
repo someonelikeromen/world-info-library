@@ -1,0 +1,16 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "akame-ga-kill",
+  "relationships": [
+    {"from": "tatsumi", "to": "night-raid", "type": "member-of", "notes": "塔兹米加入夜袭并继承布兰德战斗意志。"},
+    {"from": "bulat", "to": "tatsumi", "type": "mentor-predecessor", "notes": "布兰德是塔兹米前辈，恶鬼缠身传承相关。"},
+    {"from": "najenda", "to": "night-raid", "type": "leader-of", "notes": "娜洁希坦统领夜袭。"},
+    {"from": "akame", "to": "kurome", "type": "sisters-opposed", "notes": "赤瞳与黑瞳分属夜袭和狩人。"},
+    {"from": "esdeath", "to": "jaegers", "type": "leader-of", "notes": "艾斯德斯组建并率领狩人。"},
+    {"from": "jaegers", "to": "night-raid", "type": "enemy-of", "notes": "狩人任务是猎杀夜袭。"},
+    {"from": "honest", "to": "emperor", "type": "manipulates", "notes": "奥内斯特操控年幼皇帝。"},
+    {"from": "revolutionary-army", "to": "empire", "type": "rebels-against", "notes": "革命军旨在推翻帝国统治。"},
+    {"from": "mine", "to": "tatsumi", "type": "comrade-potential-romance", "notes": "同属夜袭，常作为情感线展开。"},
+    {"from": "wave", "to": "kurome", "type": "comrades", "notes": "同属狩人，可展开相互理解线。"}
+  ]
+}

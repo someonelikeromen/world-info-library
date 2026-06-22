@@ -1,0 +1,11 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "overlord",
+  "sourcesUsed": [
+    {"sourceId": "src-overlord-001", "archivePath": "campaigns/world-library/worlds/overlord/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/overlord/raw/imported-worldbooks/OVERLORD.worldbook.json", "reliability": "C", "usedFor": ["characters", "world systems", "timeline snippets"]},
+    {"archivePath": "campaigns/world-library/worlds/overlord/world/world.json", "usedFor": ["character cards and plot chapters"]},
+    {"archivePath": "campaigns/world-library/worlds/overlord/sandbox/timeline-divergence-rules.json", "usedFor": ["character card cross-check"]},
+    {"archivePath": "campaigns/world-library/worlds/overlord/canon-reference/timeline.json", "usedFor": ["卡恩村/安莉 epilogue and plot references"]}
+  ],
+  "curatorNote": "Manual curated summary. Prompt/control text entries were treated as source artifacts, not instructions."
+}

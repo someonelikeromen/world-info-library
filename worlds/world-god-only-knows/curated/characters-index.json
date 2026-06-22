@@ -1,0 +1,32 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "world-god-only-knows",
+  "displayName": "只有神知道的世界",
+  "characters": [
+    {"id": "keima", "name": "桂木桂马", "type": "主角", "affiliation": ["舞岛学园", "新地狱契约者"], "role": "落神/攻略之神，被迫攻略现实少女", "traits": ["理性", "宅向", "策略化", "逃避现实却负责"], "abilities": ["恋爱游戏攻略逻辑", "观察与推理", "多线任务管理"], "rpUse": "攻略指挥、契约者模板、现实与游戏逻辑冲突核心。"},
+    {"id": "elsie", "name": "艾鲁西/艾露西", "type": "恶魔协力者", "affiliation": ["新地狱驱魂队", "桂木家"], "role": "桂马搭档，自称妹妹", "traits": ["天然", "善良", "笨拙", "情感真挚"], "abilities": ["羽衣", "驱魂探测", "基础封印"], "rpUse": "任务触发、喜剧日常、情感缓冲。"},
+    {"id": "haqua", "name": "哈克雅", "type": "恶魔协力者", "affiliation": ["新地狱驱魂队"], "role": "优秀驱魂队员，艾鲁西好友", "traits": ["自尊强", "认真", "傲娇", "责任感"], "abilities": ["高级羽衣操控", "驱魂捕获", "战斗支援"], "rpUse": "专业恶魔视角、调查与危机处理。"},
+    {"id": "ayumi", "name": "高原步美", "type": "攻略对象/女神宿主", "affiliation": ["舞岛学园", "田径部"], "role": "活泼运动少女，早期攻略对象之一", "traits": ["开朗", "努力", "直球"], "abilities": ["田径", "女神相关潜力"], "rpUse": "运动社团、女神篇与桂马情感回收线。"},
+    {"id": "mio", "name": "青山美生", "type": "攻略对象", "affiliation": ["舞岛学园"], "role": "落魄大小姐气质的少女", "traits": ["骄傲", "孤独", "重视尊严"], "abilities": ["社交伪装", "大小姐礼仪"], "rpUse": "贫富落差与自尊攻略线。"},
+    {"id": "kanon", "name": "中川花音", "type": "攻略对象/女神宿主", "affiliation": ["偶像界", "舞岛学园"], "role": "人气偶像，内心害怕被遗忘", "traits": ["闪耀", "不安", "努力"], "abilities": ["歌唱", "公众影响力", "女神阿波罗宿主"], "rpUse": "演艺圈、暗杀危机、女神唤醒线。"},
+    {"id": "shiori", "name": "汐宫栞", "type": "攻略对象/女神宿主", "affiliation": ["图书馆"], "role": "沉默书虫，内心语言丰富", "traits": ["内向", "文学化", "细腻"], "abilities": ["阅读", "写作", "女神宿主潜力"], "rpUse": "图书馆静态攻略与心声表达线。"},
+    {"id": "kusunoki", "name": "春日楠", "type": "攻略对象", "affiliation": ["武道社/春日流"], "role": "武道少女，压抑可爱与柔软面", "traits": ["严厉", "认真", "害羞"], "abilities": ["武术", "身体能力"], "rpUse": "刚柔冲突、社团训练线。"},
+    {"id": "chihiro", "name": "小阪千寻", "type": "攻略对象/关键普通人", "affiliation": ["舞岛学园", "轻音相关"], "role": "普通少女，反衬桂马攻略观", "traits": ["平凡", "直率", "现实感强"], "abilities": ["音乐兴趣", "现实情感洞察"], "rpUse": "打破攻略公式、现实恋爱核心变量。"},
+    {"id": "jun", "name": "长濑纯", "type": "攻略对象", "affiliation": ["教育实习/教师线"], "role": "热血教师系角色", "traits": ["理想主义", "热情", "笨拙"], "abilities": ["教育热情", "运动"], "rpUse": "师生边界、理想与现实挫折线。"},
+    {"id": "tsukiyo", "name": "九条月夜", "type": "攻略对象/女神宿主", "affiliation": ["天文/人偶"], "role": "追求完美与美的少女", "traits": ["孤高", "审美强", "易受伤"], "abilities": ["人偶制作", "女神宿主潜力"], "rpUse": "美学、孤独与女神线。"},
+    {"id": "minami", "name": "生驹南", "type": "攻略对象", "affiliation": ["游泳相关"], "role": "游泳少女", "traits": ["活力", "迷茫", "青春感"], "abilities": ["游泳"], "rpUse": "暑期/运动路线。"},
+    {"id": "rieko", "name": "日永梨枝子", "type": "攻略对象", "affiliation": ["舞岛市"], "role": "年长女性单元角色", "traits": ["温柔", "怀旧", "时间感"], "abilities": ["生活经验"], "rpUse": "记忆、年龄与心灵空隙单元。"},
+    {"id": "sumire", "name": "上本堇", "type": "攻略对象", "affiliation": ["拉面店"], "role": "拉面店少女", "traits": ["勤劳", "元气", "家业压力"], "abilities": ["料理", "店铺经营"], "rpUse": "家庭事业与料理线。"},
+    {"id": "nanaka", "name": "榛原七香", "type": "攻略对象", "affiliation": ["将棋/棋道"], "role": "棋道少女", "traits": ["好胜", "专注", "自我证明"], "abilities": ["将棋"], "rpUse": "胜负、挫败与自尊攻略。"},
+    {"id": "yui", "name": "五位堂结", "type": "攻略对象/女神宿主", "affiliation": ["富裕家庭", "舞岛学园"], "role": "与桂马发生性别/身份错位剧情的少女", "traits": ["主动", "开朗", "突破常规"], "abilities": ["社交行动力", "女神宿主潜力"], "rpUse": "身份置换、主动攻略者与女神线。"},
+    {"id": "hinoki", "name": "春日桧", "type": "攻略对象", "affiliation": ["春日家"], "role": "春日楠姐姐，成熟与自我实现线", "traits": ["奔放", "独立", "压迫感"], "abilities": ["旅行/模特气质", "强势行动"], "rpUse": "姐妹关系与自我价值单元。"},
+    {"id": "akari", "name": "仓川灯", "type": "攻略对象/特殊存在", "affiliation": ["舞岛学园"], "role": "带有超常背景的重要攻略对象", "traits": ["神秘", "理性", "实验感"], "abilities": ["特殊知识/异常性"], "rpUse": "超自然谜团与非典型攻略。"},
+    {"id": "tenri", "name": "鲇川天理", "type": "青梅/女神宿主", "affiliation": ["桂马旧识", "朱比特女神"], "role": "桂马青梅竹马，女神狄安娜宿主", "traits": ["温柔", "胆怯", "坚定"], "abilities": ["女神狄安娜共存", "记忆保持"], "rpUse": "女神篇入口、过去篇与保护线。"},
+    {"id": "diana", "name": "狄安娜", "type": "朱比特女神", "affiliation": ["朱比特六姐妹"], "role": "寄宿天理的女神", "traits": ["高贵", "急切", "使命感"], "abilities": ["女神力量", "记忆与侦测"], "rpUse": "女神情报与宿主保护任务。"},
+    {"id": "nora", "name": "诺拉", "type": "恶魔", "affiliation": ["新地狱驱魂队"], "role": "竞争性驱魂队员", "traits": ["强势", "功利", "不服输"], "abilities": ["驱魂捕获", "恶魔装备"], "rpUse": "任务竞争者或临时盟友。"},
+    {"id": "fiore", "name": "菲欧蕾", "type": "敌对恶魔", "affiliation": ["正统恶魔社"], "role": "旧地狱势力执行者", "traits": ["危险", "隐秘", "极端"], "abilities": ["恶魔术式", "暗杀/封印"], "rpUse": "女神篇威胁、潜伏者。"},
+    {"id": "lune", "name": "琉妮", "type": "敌对恶魔", "affiliation": ["正统恶魔社"], "role": "正统恶魔社成员", "traits": ["残酷", "执着"], "abilities": ["战斗魔法", "追踪"], "rpUse": "追杀女神宿主的高压反派。"},
+    {"id": "mari", "name": "桂木麻里", "type": "家人", "affiliation": ["桂木家"], "role": "桂马母亲", "traits": ["强势", "爱家", "曾有不良气质"], "abilities": ["家庭压制力", "店铺经营"], "rpUse": "日常喜剧与家庭压力。"},
+    {"id": "nikaido", "name": "二阶堂由梨", "type": "教师/隐藏关键", "affiliation": ["舞岛学园", "女神相关前史"], "role": "教师，牵涉超自然真相", "traits": ["冷静", "观察者", "隐藏信息"], "abilities": ["教育", "情报"], "rpUse": "校园监管、前史线与真相揭示。"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "curated-knowledge-graph-v1",
+  "worldSlug": "claymore",
+  "nodes": [
+    {"id": "organization", "type": "faction", "label": "组织", "summary": "制造和支配大剑，发布妖魔讨伐任务，执行铁律。"},
+    {"id": "claymore", "type": "class", "label": "大剑战士", "summary": "半人半妖的女性战士，力量源自妖力，受组织编号。"},
+    {"id": "yoma", "type": "species", "label": "妖魔", "summary": "捕食人类并伪装潜伏的怪物。"},
+    {"id": "awakened", "type": "species/state", "label": "觉醒者", "summary": "大剑释放妖力过度后的不可逆转化形态。"},
+    {"id": "abyssal-ones", "type": "rank", "label": "深渊者", "summary": "极强觉醒者，分别盘踞大陆区域。"},
+    {"id": "three-laws", "type": "law", "label": "三大铁律", "summary": "绝对服从、不得杀人、不得觉醒。"},
+    {"id": "black-letter", "type": "procedure", "label": "黑函", "summary": "战士觉醒前请求同伴处决自己的死亡通知。"},
+    {"id": "pieta", "type": "event/location", "label": "皮埃塔之战", "summary": "北方战役核心，促使大剑质疑组织。"},
+    {"id": "holy-city-rabone", "type": "location", "label": "圣都拉波勒", "summary": "最终圣都之战舞台。"}
+  ],
+  "edges": [
+    {"from": "organization", "to": "claymore", "type": "creates-controls"},
+    {"from": "claymore", "to": "yoma", "type": "hunts"},
+    {"from": "claymore", "to": "awakened", "type": "risks-becoming"},
+    {"from": "three-laws", "to": "claymore", "type": "binds"},
+    {"from": "abyssal-ones", "to": "awakened", "type": "elite-subset"},
+    {"from": "organization", "to": "black-letter", "type": "institutionalizes"}
+  ]
+}

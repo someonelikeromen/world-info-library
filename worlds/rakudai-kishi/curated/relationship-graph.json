@@ -1,0 +1,17 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "rakudai-kishi",
+  "relationships": [
+    {"source": "黑铁一辉", "target": "史黛菈·法米利昂", "type": "恋人/宿命对手", "notes": "从决斗与室友关系发展为恋人，最终在七星剑武祭决赛相争。"},
+    {"source": "黑铁一辉", "target": "黑铁珠雫", "type": "兄妹", "notes": "珠雫追随并守护兄长。"},
+    {"source": "黑铁珠雫", "target": "有栖院凪", "type": "室友/羁绊", "notes": "艾莉丝因与珠雫的情感选择背叛原阵营。"},
+    {"source": "黑铁一辉", "target": "黑铁严", "type": "父子冲突", "notes": "家族压迫与断绝关系构成一辉成长压力。"},
+    {"source": "黑铁一辉", "target": "黑铁王马", "type": "兄弟/强敌", "notes": "王马追逐巅峰并多次冲击一辉心理。"},
+    {"source": "黑铁一辉", "target": "绫辻绚濑", "type": "师徒/救赎", "notes": "一辉教导绚濑并帮她夺回道场。"},
+    {"source": "绫辻绚濑", "target": "仓敷藏人", "type": "仇敌", "notes": "仓敷夺走绫辻道场并击败海斗。"},
+    {"source": "黑铁一辉", "target": "东堂刀华", "type": "强敌/训练伙伴", "notes": "刀华既是珠雫强敌，也是后期模拟战助力。"},
+    {"source": "史黛菈·法米利昂", "target": "黑铁王马", "type": "准决赛对手", "notes": "史黛菈以巨龙概念击败王马。"},
+    {"source": "黑铁一辉", "target": "爱德怀斯", "type": "挑战者与世界最强", "notes": "一辉虽败却留下剑痕。"},
+    {"source": "月影总理", "target": "新宫寺黑乃", "type": "师生/政治对立", "notes": "黑乃揭穿月影推动日本脱离联盟的企图。"}
+  ]
+}

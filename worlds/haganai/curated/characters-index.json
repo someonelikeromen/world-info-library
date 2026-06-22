@@ -1,0 +1,19 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "haganai",
+  "displayName": "我的朋友很少",
+  "sourceIds": ["src-haganai-001"],
+  "characters": [
+    {"id": "hasegawa-kodaka", "name": "羽濑川小鹰", "aliases": ["Kodaka Hasegawa", "小鹰"], "role": "男主角；邻人部成员；被误认不良的转学生", "affiliations": ["圣克罗尼亚学园", "邻人部", "羽濑川家"], "traits": ["外表凶但本质温和", "照顾妹妹", "回避恋爱表态", "渴望朋友"], "notes": "与夜空有童年旧识关系；与星奈有父辈定下的婚约。", "sourceEntries": ["羽濑川小鹰"]},
+    {"id": "mikazuki-yozora", "name": "三日月夜空", "aliases": ["Yozora Mikazuki"], "role": "邻人部创立者；毒舌孤独少女", "affiliations": ["圣克罗尼亚学园", "邻人部"], "traits": ["尖锐毒舌", "社交笨拙", "执着童年友情", "与星奈互怼"], "notes": "创建邻人部以获得朋友，也与小鹰过去有重要联系。", "sourceEntries": ["三日月夜空"]},
+    {"id": "kashiwazaki-sena", "name": "柏崎星奈", "aliases": ["Kashiwazaki Sena", "星奈", "肉"], "role": "邻人部核心成员；理事长之女；大小姐与残念系游戏宅", "affiliations": ["圣克罗尼亚学园", "邻人部", "柏崎家"], "traits": ["高傲自负", "文武双全", "渴望真正朋友", "沉迷 Galgame", "对小鹰直率"], "notes": "被夜空称为“肉”；与小鹰有童年婚约，后逐渐确认感情。", "sourceEntries": [1]},
+    {"id": "hasegawa-kobato", "name": "羽濑川小鸠", "aliases": ["Kobato Hasegawa"], "role": "小鹰妹妹；中二哥特吸血鬼风角色", "affiliations": ["羽濑川家", "圣克罗尼亚学园相关"], "traits": ["依恋哥哥", "哥特/吸血鬼式自我设定", "被星奈热烈追逐"], "notes": "源中作为小鹰家庭与星奈怪癖的重要关系节点。", "sourceEntries": ["羽濑川小鸠"]},
+    {"id": "takayama-maria", "name": "高山玛丽亚", "aliases": ["Maria Takayama"], "role": "邻人部顾问；年幼修女教师", "affiliations": ["圣克罗尼亚学园", "邻人部", "教会"], "traits": ["孩子气", "容易被诱导", "担任顾问名义", "喜欢被照顾"], "notes": "使邻人部取得活动室/顾问正当性。", "sourceEntries": ["高山玛丽亚"]},
+    {"id": "takayama-kate", "name": "高山凯特", "aliases": ["高山哥特", "Kate Takayama"], "role": "玛丽亚的姐姐；修女/教师侧人物", "affiliations": ["圣克罗尼亚学园", "教会"], "traits": ["照看玛丽亚", "较成熟", "与学生保持成人视角"], "notes": "源 comment 写作“高山哥特”，按常见译名整理为高山凯特并保留别名。", "sourceEntries": ["高山哥特"]},
+    {"id": "kusunoki-yukimura", "name": "楠幸村", "aliases": ["Yukimura Kusunoki"], "role": "邻人部成员；崇拜小鹰的后辈", "affiliations": ["圣克罗尼亚学园", "邻人部"], "traits": ["忠诚", "想成为男子汉", "服从小鹰", "身份认知喜剧"], "notes": "常以侍奉小鹰的方式参与邻人部日常。", "sourceEntries": ["楠幸村"]},
+    {"id": "shiguma-rika", "name": "志熊理科", "aliases": ["Rika Shiguma"], "role": "邻人部成员；天才理科生与发明担当", "affiliations": ["圣克罗尼亚学园", "邻人部", "理科实验室"], "traits": ["天才", "宅向脑洞", "发明能力强", "直率推动小鹰面对现实"], "notes": "是邻人部中较能看穿人际回避的人物。", "sourceEntries": ["志熊理科"]},
+    {"id": "hasegawa-hayato", "name": "羽濑川隼人", "aliases": ["Hayato Hasegawa"], "role": "小鹰与小鸠的父亲", "affiliations": ["羽濑川家"], "traits": ["父辈关系链", "与柏崎天马有旧交"], "notes": "父辈婚约与家庭背景的重要来源。", "sourceEntries": ["羽濑川隼人"]},
+    {"id": "kashiwazaki-pegasus", "name": "柏崎天马", "aliases": ["Pegasus Kashiwazaki", "天马"], "role": "圣克罗尼亚学园理事长；星奈父亲", "affiliations": ["圣克罗尼亚学园", "柏崎家"], "traits": ["溺爱星奈", "理事长", "父辈婚约推动者"], "notes": "与羽濑川家关系密切，涉及小鹰与星奈童年婚约。", "sourceEntries": ["柏崎天马"]},
+    {"id": "hidaka-hinata", "name": "日高日向", "aliases": ["Hinata Hidaka"], "role": "学生会/校园主流侧人物", "affiliations": ["圣克罗尼亚学园"], "traits": ["校园现充侧", "与邻人部形成对照"], "notes": "源中列为人物条目，用于扩展校园社交生态。", "sourceEntries": ["日高日向"]}
+  ]
+}

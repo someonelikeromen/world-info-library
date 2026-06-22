@@ -1,0 +1,19 @@
+{
+  "schema": "curated-knowledge-graph-v1",
+  "worldSlug": "acg-character-database",
+  "nodes": [
+    {"id": "database", "type": "collection", "label": "ACG角色心理/类脑数据库", "summary": "跨作品角色资料与心理模型集合。"},
+    {"id": "character-entry", "type": "entry-type", "label": "角色条目", "summary": "单个角色的姓名、来源、心理/人格、行为倾向与关系资料。"},
+    {"id": "psychological-model", "type": "entry-type", "label": "心理模型", "summary": "用于推演角色动机、反应、语气和互动边界的模型。"},
+    {"id": "archetype-entry", "type": "entry-type", "label": "人格原型", "summary": "傲娇、御姐、三无、大小姐等可复用类型模板。"},
+    {"id": "source-work", "type": "metadata", "label": "来源作品/系列", "summary": "每个角色条目需保留所属作品或来源标签。"},
+    {"id": "safety-filter", "type": "curation-rule", "label": "SFW整理规则", "summary": "curated 层不保留露骨身体、性暴力与成人场景细节。"}
+  ],
+  "edges": [
+    {"from": "database", "to": "character-entry", "type": "contains"},
+    {"from": "database", "to": "psychological-model", "type": "contains"},
+    {"from": "database", "to": "archetype-entry", "type": "contains"},
+    {"from": "character-entry", "to": "source-work", "type": "tagged-by"},
+    {"from": "safety-filter", "to": "character-entry", "type": "curates"}
+  ]
+}

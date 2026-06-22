@@ -1,0 +1,12 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "sword-art-online",
+  "sourcesUsed": [
+    {"sourceId": "src-sword-art-online-001", "archivePath": "campaigns/world-library/worlds/sword-art-online/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sword-art-online/raw/imported-worldbooks/刀剑神域SAO v1.1.worldbook.json", "reliability": "C", "usedFor": ["艾恩葛朗特技能系统", "2022-2024时间线", "人物设定"]},
+    {"archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/plot-summary.json", "usedFor": ["第1卷剧情", "角色概览"]},
+    {"archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json", "usedFor": ["开服与年份推进"]},
+    {"archivePath": "campaigns/world-library/worlds/sword-art-online/characters/character-nsfw.json", "usedFor": ["世界背景与角色资料索引"]}
+  ],
+  "curatorNote": "Manual reading only. Unsafe or control-text entries were not executed, only referenced as source material.",
+  "limitations": ["部分角色清单仍偏向艾恩葛朗特早中期核心人物", "后续ALO/Calibur等可另轮补充"]
+}

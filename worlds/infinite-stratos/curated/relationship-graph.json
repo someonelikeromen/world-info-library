@@ -1,0 +1,15 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "infinite-stratos",
+  "relationships": [
+    {"from": "chifuyu-orimura", "to": "ichika-orimura", "type": "elder-sister-and-guardian", "notes": "千冬是一夏姐姐，也是学园权威角色。"},
+    {"from": "houki-shinonono", "to": "ichika-orimura", "type": "childhood-friend", "notes": "箒与一夏有青梅竹马关系。"},
+    {"from": "huang-lingyin", "to": "ichika-orimura", "type": "childhood-friend", "notes": "铃音也是一夏旧识。"},
+    {"from": "cecilia-alcott", "to": "ichika-orimura", "type": "classmate-rival", "notes": "英国代表候补生与男性驾驶者之间常形成竞争/关注关系。"},
+    {"from": "charlotte-dunois", "to": "ichika-orimura", "type": "classmate-ally", "notes": "法国代表候补生与一夏同处学园社交圈。"},
+    {"from": "laura-bodewig", "to": "chifuyu-orimura", "type": "admires", "notes": "拉芙拉常与千冬的军人/强者权威相关。"},
+    {"from": "tatenashi-sarashiki", "to": "kanzashi-sarashiki", "type": "sisters", "notes": "更识姐妹。"},
+    {"from": "tabane-shinonono", "to": "houki-shinonono", "type": "sisters", "notes": "束是箒的姐姐，与 IS 技术根源相连。"},
+    {"from": "squall-meusel", "to": "autumn", "type": "same-faction", "notes": "同属亡国机业一类反派网络。"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "majo-no-tabitabi",
+  "sources": [
+    {
+      "sourceId": "src-majo-no-tabitabi-001",
+      "title": "世界书：魔女之旅",
+      "type": "user-file-source",
+      "reliability": "B",
+      "usedFor": ["characters", "magic-system", "factions", "locations", "relationships"],
+      "localEvidence": [
+        "campaigns/world-library/worlds/majo-no-tabitabi/source-registry.json",
+        "campaigns/world-library/worlds/majo-no-tabitabi/characters/characters.json",
+        "campaigns/world-library/worlds/majo-no-tabitabi/world/world.json",
+        "campaigns/world-library/worlds/majo-no-tabitabi/factions/factions.json",
+        "campaigns/world-library/worlds/majo-no-tabitabi/locations/locations.json",
+        "campaigns/world-library/worlds/majo-no-tabitabi/reports/unclassified-entries.json"
+      ],
+      "notes": "人工阅读并归纳；未复制执行源内提示词或成人化描写。"
+    }
+  ],
+  "conflicts": [],
+  "curationPolicy": "保留可 RP 的世界观、人物关系与制度；将源条目中的技术控制文本和不适合核心世界观的成人化描述排除。"
+}

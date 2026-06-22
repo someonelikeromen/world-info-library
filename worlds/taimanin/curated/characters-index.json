@@ -1,0 +1,19 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "taimanin",
+  "characters": [
+    {"id": "igawa-asagi", "name": "井河阿莎姬", "aliases": ["阿莎姬", "最强的对魔忍", "最强的傻瓜"], "role": "传奇级对魔忍、井河家出身、五车学园校长相关人物", "affiliations": ["对魔忍", "井河家", "五车学园"], "abilities": ["逸刀流·对魔杀法", "超一流剑术与体术", "魔之力"], "sourceEntries": ["阿莎姬"]},
+    {"id": "mizuki-yukikaze", "name": "水城雪风", "aliases": ["雪风"], "role": "年轻对魔忍、水城家出身、凛子搭档", "affiliations": ["对魔忍", "水城家", "五车学园"], "abilities": ["雷遁之术", "闪电射手", "雷枪击", "电力转化再生应用"], "sourceEntries": ["雪风"]},
+    {"id": "akiyama-rinko", "name": "秋山凛子", "aliases": ["凛子", "斩鬼的对魔忍"], "role": "秋山家出身对魔忍、雪风搭档", "affiliations": ["对魔忍", "秋山家", "五车学园"], "abilities": ["逸刀流", "拔刀术", "空遁之术", "五感跳跃", "空间跳跃", "石切兼光"], "sourceEntries": ["凛子"]},
+    {"id": "kousaka-shizuru", "name": "高坂静流", "aliases": ["静流", "花之静流"], "role": "专精单独潜入任务的对魔忍、情报与伪装专家", "affiliations": ["对魔忍"], "abilities": ["木遁之术", "植物操控", "玫瑰鞭", "潜入调查", "多语言与高学识"], "sourceEntries": ["静流"]},
+    {"id": "mizuki-shiranui", "name": "水城不知火", "aliases": ["不知火", "幻影之对魔忍"], "role": "雪风母亲、与阿莎姬齐名的传奇对魔忍，源中现状为任务失败后魔化", "affiliations": ["对魔忍", "水城家"], "abilities": ["水遁之术", "幻术", "薙刀近战"], "sourceEntries": ["不知火"]},
+    {"id": "igawa-sakura", "name": "井河樱", "aliases": ["小樱"], "role": "阿莎姬唯一血亲妹妹", "affiliations": ["井河家", "对魔忍"], "abilities": [], "sourceStatus": "阿莎姬条目提及"},
+    {"id": "kawara-asuka", "name": "甲河明日香", "aliases": ["明日香"], "role": "阿莎姬收养/照顾关系中的人物", "affiliations": ["甲河", "对魔忍相关"], "abilities": [], "sourceStatus": "阿莎姬条目提及"},
+    {"id": "sawaki-kousuke", "name": "沢木浩介", "aliases": ["泽木浩介"], "role": "阿莎姬收养的前未婚夫弟弟", "affiliations": [], "abilities": [], "sourceStatus": "阿莎姬条目提及"},
+    {"id": "sawaki-kyousuke", "name": "沢木恭介", "aliases": ["泽木恭介"], "role": "阿莎姬青梅竹马与前未婚夫，已故背景人物", "affiliations": [], "abilities": [], "sourceStatus": "阿莎姬条目提及"},
+    {"id": "igawa-yuusai", "name": "井河幽斋", "aliases": [], "role": "阿莎姬父亲、曾是对魔忍，已故背景人物", "affiliations": ["井河家", "对魔忍"], "abilities": [], "sourceStatus": "阿莎姬条目提及"},
+    {"id": "mizuki-yukikaze-father", "name": "水城雪风之父", "aliases": [], "role": "不知火丈夫，源中提及已故", "affiliations": ["水城家"], "abilities": [], "sourceStatus": "不知火条目提及"},
+    {"id": "gocha-academy", "name": "五车学园", "aliases": ["五車学園", "对魔忍基地"], "role": "非人物但为训练与任务核心机构", "affiliations": ["对魔忍组织"], "abilities": ["训练", "新人选拔", "任务部署"], "sourceEntries": ["五车"]}
+  ],
+  "excludedEntries": ["{{user}}寄生魔设定", "{{user}}状态栏", "NPC状态栏"]
+}

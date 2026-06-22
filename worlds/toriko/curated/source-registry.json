@@ -1,0 +1,46 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "toriko",
+  "displayName": "美食的俘虏 / Toriko",
+  "sources": [
+    {
+      "sourceId": "src-toriko-001",
+      "type": "user-file-source",
+      "title": "美食的俘虏 Toriko",
+      "origin": "用户提供世界书/角色卡世界书导入",
+      "location": "imports/raw/world-sources/msfl.png",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "单一导入源，覆盖世界总纲、角色、势力、地点、能力、剧情与风格规则。",
+      "quotedOrExtractedText": "完整条目内容已保存在 raw/ 与分类归档中；curated 层仅做结构化整理。",
+      "capture": {
+        "method": "manual review of existing archive",
+        "capturedAt": "2026-06-20T17:26:09.574790+00:00",
+        "url": "",
+        "filePath": "imports/raw/world-sources/msfl.png",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "archive output already present in world-library toriko files",
+        "artifactPath": "campaigns/world-library/worlds/toriko/curated/"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "toriko",
+          "field": "all curated outputs"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Only one source in current archive; no multi-source conflict resolution required for curated baseline."
+    }
+  ],
+  "conflictLog": []
+}

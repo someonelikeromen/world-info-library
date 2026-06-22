@@ -1,0 +1,23 @@
+{
+  "schema": "curated-knowledge-graph-v1",
+  "worldSlug": "sora-no-otoshimono",
+  "nodes": [
+    {"id": "sorami", "label": "空美町", "type": "location"},
+    {"id": "synapse", "label": "西纳普斯", "type": "civilization/faction"},
+    {"id": "angeloid", "label": "万能天使", "type": "species/technology"},
+    {"id": "imprint", "label": "铭刻", "type": "system"},
+    {"id": "cards", "label": "万能卡片/传送装置", "type": "item/technology"},
+    {"id": "emotion", "label": "情感回路/进化", "type": "system"},
+    {"id": "world-rebuild", "label": "世界重构", "type": "event/threat"},
+    {"id": "new-continent-club", "label": "新大陆发现部", "type": "faction"}
+  ],
+  "edges": [
+    {"from": "synapse", "to": "angeloid", "relation": "creates-and-controls"},
+    {"from": "angeloid", "to": "imprint", "relation": "binds-through"},
+    {"from": "cards", "to": "sorami", "relation": "disrupts-daily-life"},
+    {"from": "emotion", "to": "angeloid", "relation": "enables-free-will"},
+    {"from": "synapse", "to": "sorami", "relation": "observes-and-interferes"},
+    {"from": "world-rebuild", "to": "synapse", "relation": "triggered-via-synapse-system"},
+    {"from": "new-continent-club", "to": "synapse", "relation": "investigates"}
+  ]
+}

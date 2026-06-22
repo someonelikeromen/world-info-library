@@ -1,0 +1,42 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "dantalian-no-shoka",
+  "displayName": "丹特丽安的书架",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-dantalian-no-shoka-001",
+      "type": "user-file-source",
+      "title": "丹特丽安的书架 幻書啟示錄",
+      "origin": "用户提供世界书/角色卡世界书导入",
+      "archiveLocation": "campaigns/world-library/worlds/dantalian-no-shoka/",
+      "rawLocation": "imports/raw/world-sources/dtla.png",
+      "worldbookFile": "raw/imported-worldbooks/dtla_card.worldbook.json",
+      "reliability": "B",
+      "visibility": "public",
+      "entryCount": 59,
+      "appliesTo": ["world", "characters", "factions", "locations", "power-systems", "canon-reference", "sandbox"],
+      "curationUse": "人工阅读自动归档文件后归纳为 RP 框架；未用脚本抽取或生成正文。",
+      "notes": "单一来源，条目保存完整内容于 raw/original-entry-index.json 与各分类文件。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "conflictId": "name-variants-001",
+      "topic": "译名与罗马化混用",
+      "sourceRefs": ["src-dantalian-no-shoka-001"],
+      "summary": "修伊/修·安东尼·迪斯瓦德/迪斯瓦特、妲丽安/达利安/但他林、拉结尔/拉洁爱尔、芙兰/芙兰卑尔奇等译名并存。",
+      "resolution": "curated 主档统一常用中文名，aliases 保留异名。",
+      "confidence": "A"
+    },
+    {
+      "conflictId": "canon-vs-scenario-001",
+      "topic": "世界书含 RP 分支结局与回溯提示",
+      "sourceRefs": ["src-dantalian-no-shoka-001"],
+      "summary": "多处条目给出正常路线与坏结局路线。",
+      "resolution": "world.json 将正常路线作为默认公共基线，将坏结局视为 sandbox/if 分支，不写成既定正史。",
+      "confidence": "A"
+    }
+  ]
+}

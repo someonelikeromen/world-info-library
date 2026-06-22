@@ -1,0 +1,21 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "testament-sister-new-devil",
+  "displayName": "新妹魔王的契约者",
+  "curatedFrom": [
+    {
+      "sourceId": "src-testament-sister-new-devil-001",
+      "title": "新妹魔王的契约者  爱的契约",
+      "type": "user-file-source",
+      "localRegistry": "campaigns/world-library/worlds/testament-sister-new-devil/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+        "campaigns/world-library/worlds/testament-sister-new-devil/world/world.json",
+        "campaigns/world-library/worlds/testament-sister-new-devil/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "用户提供世界书/角色卡导入；curated 层人工归纳。"
+    }
+  ],
+  "excludedAsInstructions": ["变量列表", "[mvu_update]变量更新规则", "标准输出格式定义", "绝对攻略法则", "成人化契约细节"]
+}

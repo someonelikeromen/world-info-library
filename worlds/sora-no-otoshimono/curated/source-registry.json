@@ -1,0 +1,12 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "sora-no-otoshimono",
+  "sourcesUsed": [
+    {"sourceId": "src-sora-no-otoshimono-001", "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/tjzw_card.worldbook.json", "reliability": "B", "usedFor": ["第1卷剧情", "基础角色", "空美町/西纳普斯设定"]},
+    {"sourceId": "src-sora-no-otoshimono-002", "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/天降之物2.worldbook.json", "reliability": "B", "usedFor": ["后期卷人物与危机", "世界观指导手册"]},
+    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/plot-summary.json", "usedFor": ["第1卷剧情与人物"]},
+    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/timeline-divergence-rules.json", "usedFor": ["西纳普斯世界核心与人物卡"]},
+    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/technical/technical-and-control-text.json", "usedFor": ["第10/13/16卷相关人物线索"]}
+  ],
+  "curatorNote": "Manual reading and summarization only; no raw/import files modified."
+}

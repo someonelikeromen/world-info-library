@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "haganai",
+  "displayName": "我的朋友很少",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-haganai-001",
+      "title": "我的朋友很少",
+      "sourceFile": "campaigns/world-library/worlds/haganai/source-registry.json",
+      "rawWorldbook": "campaigns/world-library/worlds/haganai/raw/imported-worldbooks/我的朋友很少.worldbook.json",
+      "consultedArchiveFiles": [
+        "campaigns/world-library/worlds/haganai/characters/characters.json",
+        "campaigns/world-library/worlds/haganai/world/world.json",
+        "campaigns/world-library/worlds/haganai/factions/factions.json",
+        "campaigns/world-library/worlds/haganai/locations/locations.json"
+      ],
+      "reliability": "B",
+      "usage": "整理圣克罗尼亚学园、邻人部、主角群与家族/师生关系。"
+    }
+  ],
+  "exclusions": [
+    "剔除成人化身体描写、技术提示、状态栏和不适合作为 SFW 世界观的细节。",
+    "将地点/活动误分到 characters 的条目改按地点或事件处理。"
+  ]
+}

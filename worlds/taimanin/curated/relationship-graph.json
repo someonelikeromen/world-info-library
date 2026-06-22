@@ -1,0 +1,18 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "taimanin",
+  "relationships": [
+    {"from": "mizuki-shiranui", "to": "mizuki-yukikaze", "type": "mother-of", "notes": "不知火是雪风亲生母亲。"},
+    {"from": "akiyama-rinko", "to": "mizuki-yukikaze", "type": "partners", "notes": "凛子与雪风是搭档，凛子视雪风如后辈和妹妹。"},
+    {"from": "igawa-asagi", "to": "mizuki-shiranui", "type": "legendary-peers", "notes": "源称不知火与阿莎姬齐名。"},
+    {"from": "igawa-asagi", "to": "igawa-sakura", "type": "sisters", "notes": "小樱是阿莎姬唯一血亲。"},
+    {"from": "igawa-asagi", "to": "sawaki-kyousuke", "type": "former-fiance", "notes": "恭介为阿莎姬青梅竹马与前未婚夫，后被杀害。"},
+    {"from": "igawa-asagi", "to": "sawaki-kousuke", "type": "guardian-adoptive", "notes": "阿莎姬收养前未婚夫的弟弟浩介。"},
+    {"from": "igawa-asagi", "to": "kawara-asuka", "type": "guardian-adoptive", "notes": "阿莎姬收养/照顾甲河明日香。"},
+    {"from": "igawa-yuusai", "to": "igawa-asagi", "type": "father-of", "notes": "井河幽斋是阿莎姬父亲，曾为对魔忍。"},
+    {"from": "gocha-academy", "to": "mizuki-yukikaze", "type": "trained", "notes": "雪风在五车学园接受训练。"},
+    {"from": "gocha-academy", "to": "akiyama-rinko", "type": "trained", "notes": "凛子在五车学园接受训练。"},
+    {"from": "mizuki-shiranui", "to": "yomihara", "type": "failed-mission-at", "notes": "不知火五年前潜入黄泉原任务失败。"},
+    {"from": "taimanin-org", "to": "demons", "type": "enemy-of", "notes": "对魔忍组织的核心职责是对抗魔族。"}
+  ]
+}

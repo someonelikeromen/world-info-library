@@ -1,0 +1,17 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "kill-la-kill",
+  "relationships": [
+    {"from": "ryuko-matoi", "to": "satsuki-kiryuin", "type": "sisters-rivals-allies", "notes": "源条目标注皋月为流子姐姐；初期对立，后可联手。"},
+    {"from": "ryuko-matoi", "to": "senketsu", "type": "wearer-and-kamui", "notes": "流子与鲜血同步战斗。"},
+    {"from": "satsuki-kiryuin", "to": "junketsu", "type": "wearer-and-kamui", "notes": "皋月穿着神衣纯洁。"},
+    {"from": "ragyo-kiryuin", "to": "satsuki-kiryuin", "type": "mother-antagonist", "notes": "罗晓为皋月母亲与主要压迫源。"},
+    {"from": "ragyo-kiryuin", "to": "ryuko-matoi", "type": "mother-antagonist", "notes": "源条目标注罗晓与流子亲属关系。"},
+    {"from": "soichiro-kiryuin", "to": "ryuko-matoi", "type": "father-of", "notes": "缠一身/鬼龙院总一郎为流子父亲。"},
+    {"from": "ryuko-matoi", "to": "mako-mankanshoku", "type": "friends", "notes": "真子是流子同学兼好友。"},
+    {"from": "satsuki-kiryuin", "to": "ira-gamagoori", "type": "leader-subordinate", "notes": "蟇郡苛崇拜并效忠皋月。"},
+    {"from": "satsuki-kiryuin", "to": "houka-inumuta", "type": "leader-subordinate", "notes": "犬牟田被皋月纳为部下。"},
+    {"from": "satsuki-kiryuin", "to": "nonon-jakuzure", "type": "childhood-friend-leader", "notes": "乃音幼时即追随皋月。"},
+    {"from": "nudist-beach", "to": "revocs", "type": "opposes", "notes": "裸体海滩反抗 REVOCS 和生命纤维计划。"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "cheng-long-adventures",
+  "displayName": "成龙历险记",
+  "curatedFrom": [
+    {
+      "sourceId": "src-cheng-long-adventures-001",
+      "title": "成龙历险记世界 (1)",
+      "sourceRegistryPath": "campaigns/world-library/worlds/cheng-long-adventures/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/cheng-long-adventures/raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json",
+      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "factions/factions.json", "locations/locations.json", "power-systems/power-systems.json", "raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json"],
+      "reliability": "B",
+      "notes": "原归档以剧情时代、符咒与恶魔设定为主，人物条目较少；人物清单按已读条目中出现的角色与势力成员人工整理。"
+    }
+  ],
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+}

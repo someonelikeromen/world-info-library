@@ -1,0 +1,17 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "blue-archive",
+  "displayName": "蔚蓝档案 / 基沃托斯",
+  "curatedFrom": [
+    {
+      "sourceId": "src-blue-archive-001",
+      "title": "鸡窝托斯",
+      "sourceRegistryPath": "campaigns/world-library/worlds/blue-archive/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/blue-archive/raw/imported-worldbooks/鸡窝托斯.worldbook.json",
+      "consultedArchiveFiles": ["world/world.json", "factions/factions.json", "locations/locations.json", "power-systems/power-systems.json", "characters/characters.json", "raw/imported-worldbooks/鸡窝托斯.worldbook.json"],
+      "reliability": "B",
+      "notes": "characters/characters.json entryCount 为 0；curated 人物清单明确区分归档提及姓名与 RP 常用岗位/角色类型。"
+    }
+  ],
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+}

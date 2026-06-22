@@ -1,0 +1,19 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "testament-sister-new-devil",
+  "relationships": [
+    {"from": "toujou-basara", "to": "naruse-mio", "type": "protector/family/contract", "summary": "刃更以哥哥和守护者身份保护澪，两人有主从契约与家人羁绊。"},
+    {"from": "naruse-mio", "to": "naruse-maria", "type": "master-retainer/family", "summary": "万理亚原为澪的梦魔随从，后成为东城家共同体成员。"},
+    {"from": "toujou-basara", "to": "nonaka-yuki", "type": "childhood-friend/ally/contract", "summary": "柚希是刃更青梅竹马，勇者一族出身，后与刃更阵营协作。"},
+    {"from": "nonaka-yuki", "to": "nonaka-kurumi", "type": "sisters/hero-clan", "summary": "野中姐妹同属勇者一族相关阵营。"},
+    {"from": "toujou-basara", "to": "toujou-jin", "type": "father-son", "summary": "迅是刃更父亲，并促成澪、万理亚进入东城家的开局。"},
+    {"from": "naruse-mio", "to": "ramsus-wilbert", "type": "inherits-power", "summary": "澪继承前任魔王威尔贝特之力。"},
+    {"from": "leohart", "to": "current-demon-lord-faction", "type": "leader", "summary": "雷欧哈特为现任魔王派核心。"},
+    {"from": "ramsus-wilbert", "to": "moderate-faction", "type": "associated", "summary": "拉姆萨斯/威尔贝特与稳健派和前任魔王秩序相关。"},
+    {"from": "zokiel", "to": "naruse-mio", "type": "abductor/enemy", "summary": "佐基尔曾掳走澪，企图夺取魔王之力。"},
+    {"from": "takigawa-yahiro-lars", "to": "toujou-basara", "type": "secret-deal/ally-rival", "summary": "拉斯与刃更有秘密交易和复杂协作关系。"},
+    {"from": "hasegawa-chisato", "to": "toujou-basara", "type": "guardian/mentor", "summary": "长谷川暗中庇护并引导刃更阵营。"},
+    {"from": "belphegor", "to": "cardinals", "type": "member/mastermind", "summary": "贝尔费格代表枢机院阴谋势力。"},
+    {"from": "hero-clan", "to": "naruse-mio", "type": "target", "summary": "勇者一族因澪的魔王之力曾下达消灭目标。"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "curated-world-v1",
+  "worldSlug": "acg-character-database",
+  "displayName": "ACG 角色心理/类脑数据库",
+  "type": "cross-work-character-psychology-database",
+  "isSingleFictionalWorld": false,
+  "summary": "这是跨作品角色与性格模型参考库，不是单一世界观。它汇集大量 ACG、游戏、漫画、动画、历史/模因及成人作品角色条目，并附带心理、人格、行为、外观与关系模板；另包含通用人格原型条目。",
+  "intendedUse": [
+    "作为 RP/写作时的人物心理与性格参考",
+    "作为跨作品角色索引",
+    "作为人格原型与角色语气的参考库"
+  ],
+  "notAWorldBecause": [
+    "角色来自多个互不相干作品与现实/模因来源",
+    "不存在统一地理、历史、国家或单一剧情线",
+    "同名/重复条目跨 2025年2月号、3月号与心理模型包出现"
+  ],
+  "majorSourceFamiliesObserved": ["原神", "碧蓝航线", "碧蓝档案", "星穹铁道", "Fate系列", "无职转生", "不要欺负我，长瀞同学", "艾尔登法环", "黑执事", "黑兽/黑兽2", "零之使魔", "火影忍者/博人传", "食戟之灵", "电锯人", "Loveplus", "东方Project", "网络模因", "现实历史", "人格模板"]
+}

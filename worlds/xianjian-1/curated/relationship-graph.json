@@ -1,0 +1,20 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "xianjian-1",
+  "relationships": [
+    {"from": "李逍遥", "to": "赵灵儿", "type": "命定伴侣/保护与亏欠", "status": "可因 RP 分歧改变"},
+    {"from": "李逍遥", "to": "林月如", "type": "欢喜冤家/同行情感", "status": "锁妖塔命运关键"},
+    {"from": "赵灵儿", "to": "林青儿", "type": "母女/女娲血脉传承", "status": "前史牺牲影响主线"},
+    {"from": "阿奴", "to": "唐钰", "type": "青梅与守护/恋情", "status": "南诏牺牲线"},
+    {"from": "酒剑仙", "to": "李逍遥", "type": "导师", "status": "授艺与救场"},
+    {"from": "酒剑仙", "to": "剑圣", "type": "同门/理念冲突", "status": "人情与天道对照"},
+    {"from": "剑圣", "to": "赵灵儿", "type": "囚禁/秩序判断", "status": "锁妖塔导火索"},
+    {"from": "拜月教主", "to": "南诏国", "type": "操控", "status": "主线政治阴谋"},
+    {"from": "拜月教主", "to": "水魔兽", "type": "利用/融合灾厄", "status": "终局威胁"},
+    {"from": "林天南", "to": "林月如", "type": "父女", "status": "苏州江湖约束"},
+    {"from": "刘晋元", "to": "林月如", "type": "表亲/倾慕", "status": "情感支线"},
+    {"from": "刘晋元", "to": "彩依", "type": "救命报恩/悲恋", "status": "单元剧情"},
+    {"from": "石长老", "to": "赵灵儿", "type": "追捕/护国误判", "status": "忠诚与真相冲突"},
+    {"from": "圣姑", "to": "阿奴", "type": "长辈/传承", "status": "南疆巫术支点"}
+  ]
+}

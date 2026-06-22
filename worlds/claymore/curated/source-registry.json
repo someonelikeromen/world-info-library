@@ -1,0 +1,27 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "claymore",
+  "displayName": "大剑 / Claymore",
+  "curatedFrom": [
+    {
+      "sourceId": "src-claymore-001",
+      "title": "迪妮莎",
+      "type": "user-file-source",
+      "localRegistry": "campaigns/world-library/worlds/claymore/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/claymore/characters/characters.json",
+        "campaigns/world-library/worlds/claymore/world/world.json",
+        "campaigns/world-library/worlds/claymore/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "用户提供世界书/角色卡导入；curated 层人工归纳，未访问外部链接。"
+    }
+  ],
+  "excludedAsInstructions": [
+    "主线剧情指导中的执行口吻",
+    "状态栏输出规范",
+    "关系变量与好感度规则",
+    "成人/NSFW 细节",
+    "{{user}}人设具体化文本"
+  ]
+}

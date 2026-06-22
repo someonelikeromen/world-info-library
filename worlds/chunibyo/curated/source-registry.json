@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "chunibyo",
+  "displayName": "中二病也想谈恋爱",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-chunibyo-001",
+      "title": "AAA中二病也想谈恋爱",
+      "sourceFile": "campaigns/world-library/worlds/chunibyo/source-registry.json",
+      "rawWorldbook": "campaigns/world-library/worlds/chunibyo/raw/imported-worldbooks/AAA中二病也想谈恋爱.worldbook.json",
+      "consultedArchiveFiles": [
+        "campaigns/world-library/worlds/chunibyo/characters/characters.json",
+        "campaigns/world-library/worlds/chunibyo/world/world.json",
+        "campaigns/world-library/worlds/chunibyo/factions/factions.json",
+        "campaigns/world-library/worlds/chunibyo/locations/locations.json"
+      ],
+      "reliability": "B",
+      "usage": "人物卡、社团与学园日常、关系与口吻参考；curated 层仅保留原作向青春日常和幻想自称设定。"
+    }
+  ],
+  "exclusions": [
+    "未将状态栏、技术控制文本或成人化标签作为世界观事实。",
+    "幻想招式与称号按中二病表演处理，不视为现实魔法系统。"
+  ]
+}

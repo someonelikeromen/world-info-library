@@ -1,0 +1,10 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "hidan-no-aria",
+  "displayName": "绯弹的亚里亚",
+  "sources": [
+    {"sourceId":"src-hidan-no-aria-001","type":"user-file-source","title":"緋彈的婭莉婭","origin":"用户提供世界书导入","location":"campaigns/world-library/imports/worldviews/hidan-no-aria/worldbooks/緋彈的婭莉婭.worldbook.json","reliability":"B","visibility":"public","summary":"含武侦高、主要人物、组织、能力与剧情条目。","appliesTo":[{"targetType":"world","targetId":"hidan-no-aria","field":"all-curated"}],"conflictsWith":[],"notes":"长篇后期组织关系复杂；本次为初始人工框架。"}
+  ],
+  "conflictLog": []
+}

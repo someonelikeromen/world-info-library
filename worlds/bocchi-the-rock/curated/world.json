@@ -1,0 +1,22 @@
+{
+  "schema": "rp-curated-world-v1",
+  "worldSlug": "bocchi-the-rock",
+  "displayName": "孤独摇滚",
+  "genre": ["现代音乐日常", "校园", "乐队成长", "喜剧"],
+  "summary": "以东京下北泽的地下音乐场景和高中日常为舞台，纽带乐队四名成员在练习、打工、Live 演出和人际磨合中寻找自己的音乐个性。",
+  "primaryLocations": [
+    {"id": "shimokitazawa", "name": "下北泽", "description": "虹夏日常居住、STARRY 所在、乐队文化浓厚的主要舞台。"},
+    {"id": "starry", "name": "STARRY", "description": "伊地知星歌经营的展演厅，虹夏打工，纽带乐队登台与练习的核心地点。"},
+    {"id": "shuka-high", "name": "秀华高校", "description": "后藤独与喜多郁代就读的高中。"},
+    {"id": "shimokitazawa-high", "name": "下北泽高中", "description": "虹夏、山田凉相关高中生活背景。"}
+  ],
+  "organizations": [
+    {"id": "kessoku-band", "name": "纽带乐队/结束乐队", "type": "高中生乐队", "members": ["后藤独", "伊地知虹夏", "山田凉", "喜多郁代"], "description": "由虹夏组织和统整，四人分别负责吉他、鼓、贝斯/作曲、主唱/吉他。"}
+  ],
+  "rules": [
+    "核心冲突来自社交障碍、音乐个性、演出压力与成员互补。",
+    "没有超自然能力；夸张演出应作为喜剧化心理表现。",
+    "乐队实践包括练习、创作、售票、打工、Live 舞台与社交媒体曝光。"
+  ],
+  "sourceTrace": ["src-bocchi-the-rock-001"]
+}

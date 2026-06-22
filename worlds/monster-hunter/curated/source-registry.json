@@ -1,0 +1,11 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "monster-hunter",
+  "sourcesUsed": [
+    {"sourceId": "src-monster-hunter-001", "archivePath": "campaigns/world-library/worlds/monster-hunter/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/monster-hunter/raw/imported-worldbooks/000怪物猎人.worldbook.json", "reliability": "C", "usedFor": ["world geography", "organizations", "hunter systems", "narrative guide"]},
+    {"archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/plot-summary.json", "usedFor": ["geography and narrative guide"]},
+    {"archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/full-plot.json", "usedFor": ["social organizations"]},
+    {"archivePath": "campaigns/world-library/worlds/monster-hunter/power-systems/power-systems.json", "usedFor": ["hunter rank/task systems"]}
+  ],
+  "curatorNote": "Manual curated summary; fixed named character coverage is limited because source emphasizes systems and archetypes."
+}

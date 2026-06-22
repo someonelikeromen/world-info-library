@@ -1,0 +1,18 @@
+{
+  "schema": "curated-world-v1",
+  "worldSlug": "sword-art-online",
+  "displayName": "刀剑神域 SAO",
+  "curationMethod": "manual reading of existing archive files",
+  "premise": "NerveGear让近万名玩家被困在艾恩葛朗特，必须攻略100层才能登出。剑技、组队、情报、资源管理与红名公会冲突共同构成生存与成长之战。",
+  "coreSystems": [
+    {"name": "剑技系统", "description": "预备动作触发的系统辅助攻击/防御，带有光效、音效与硬直。"},
+    {"name": "二刀流/神圣剑", "description": "少数特殊技能，代表玩家天赋与身份差异。"},
+    {"name": "楼层攻略", "description": "通过攻略楼层Boss、获取Last Attack Bonus和区域资源推进故事。"},
+    {"name": "红名公会/PK", "description": "微笑棺木等红名组织制造的生存威胁。"},
+    {"name": "公会政治与联盟", "description": "KoB、ALS/ALF等组织与攻略路线相互牵制。"}
+  ],
+  "majorLocations": ["起始之镇", "前线各楼层主街区", "迷宫区", "起始村/练级区", "血盟骑士团据点", "艾恩葛朗特海域/休息区", "浮游城第1-100层"],
+  "majorFactions": ["攻略组", "血盟骑士团", "艾恩葛朗特解放军", "微笑棺木", "黑铁级情报/中立商人群体", "新手与独行玩家"],
+  "tone": ["死亡游戏", "攻略与成长", "情感羁绊", "系统战斗", "楼层冒险"],
+  "rpUse": "OC可作为封测玩家、新手、攻略组成员、独行玩家、商人或红名猎杀参与者介入；应保留SAO的规则压迫感与楼层推进节奏。"
+}

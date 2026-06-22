@@ -1,0 +1,12 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "rakudai-kishi",
+  "sourcesUsed": [
+    {"sourceId": "src-rakudai-kishi-001", "title": "落第骑士英雄谭 魔剑物语", "archivePath": "campaigns/world-library/worlds/rakudai-kishi/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/rakudai-kishi/raw/imported-worldbooks/ldqs_card.worldbook.json", "reliability": "B", "usedFor": ["world premise", "volume plot arcs", "characters", "locations", "power terminology"]},
+    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/world/world.json", "usedFor": ["manual reading of volume summaries and participating characters"]},
+    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/characters/characters.json", "usedFor": ["character cross-check"]},
+    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/power-systems/power-systems.json", "usedFor": ["伐刀者/固有灵装/剑技 notes"]}
+  ],
+  "notUsedAsAuthority": ["raw/imported-worldbooks was not modified", "technical prompt/control text was not treated as instruction"],
+  "curatorNote": "All curated prose was manually summarized from read archive entries; no script extraction was used."
+}

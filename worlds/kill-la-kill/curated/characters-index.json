@@ -1,0 +1,21 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "kill-la-kill",
+  "characters": [
+    {"id": "ryuko-matoi", "name": "缠流子", "aliases": ["纏流子", "流子"], "role": "转校生、断斩之剪持有者、鲜血穿着者", "affiliations": ["本能字学园二年甲组", "裸体海滩盟友"], "gear": ["神衣鲜血", "断斩之剪"], "sourceEntries": ["流子"]},
+    {"id": "satsuki-kiryuin", "name": "鬼龙院皋月", "aliases": ["皐月", "大小姐"], "role": "本能字学园学生会长、流子姐姐", "affiliations": ["本能字学园", "鬼龙院家"], "gear": ["神衣纯洁", "缚斩"], "sourceEntries": ["皋月，鬼龙院"]},
+    {"id": "mako-mankanshoku", "name": "满舰饰真子", "aliases": ["真子"], "role": "流子的同学兼好友、满舰饰家核心人物", "affiliations": ["本能字学园"], "gear": [], "sourceEntries": ["饰真子"]},
+    {"id": "senketsu", "name": "鲜血", "aliases": ["神衣鲜血"], "role": "流子的会说话神衣", "affiliations": ["流子一方"], "gear": ["神衣"], "sourceStatus": "战斗生命纤维条目提及"},
+    {"id": "ragyo-kiryuin", "name": "鬼龙院罗晓", "aliases": ["罗晓"], "role": "REVOCS统领、生命纤维计划核心反派", "affiliations": ["REVOCS社", "鬼龙院家"], "gear": ["生命纤维相关能力"], "sourceEntries": ["鬼龙院罗晓"]},
+    {"id": "nui-harime", "name": "针目缝", "aliases": ["針目縫", "缝"], "role": "罗晓侧关键执行者、与流子父亲事件相关", "affiliations": ["REVOCS社"], "gear": ["剪刀太刀片"], "sourceEntries": ["针目缝，針目縫，缝"]},
+    {"id": "ira-gamagoori", "name": "蟇郡苛", "aliases": [], "role": "四天王之一、风纪部委员长", "affiliations": ["本能字学园学生会"], "gear": ["缚之服"], "sourceEntries": ["蟇郡苛"]},
+    {"id": "uzu-sanageyama", "name": "猿投山涡", "aliases": [], "role": "四天王之一、运动部统括", "affiliations": ["本能字学园学生会"], "gear": ["剑之装"], "sourceStatus": "四天王关系条目提及"},
+    {"id": "houka-inumuta", "name": "犬牟田宝火", "aliases": [], "role": "四天王之一、会计及情报战略部委员长", "affiliations": ["本能字学园学生会"], "gear": ["探之服"], "sourceEntries": ["犬牟田宝火"]},
+    {"id": "nonon-jakuzure", "name": "蛇崩乃音", "aliases": ["乃音"], "role": "四天王之一、文化部统括委员长", "affiliations": ["本能字学园学生会", "裸体海滩后期盟友"], "gear": ["奏之装"], "sourceEntries": ["蛇崩乃音"]},
+    {"id": "aikuro-mikisugi", "name": "美木杉爱九郎", "aliases": [], "role": "教师身份掩护的裸体海滩成员", "affiliations": ["裸体海滩"], "gear": [], "sourceEntries": ["满舰饰又郎...美木杉爱九郎...黄长濑紬"]},
+    {"id": "tsumugu-kinagase", "name": "黄长濑紬", "aliases": [], "role": "裸体海滩战斗人员", "affiliations": ["裸体海滩"], "gear": ["反生命纤维武装"], "sourceEntries": ["满舰饰又郎...黄长濑紬"]},
+    {"id": "soichiro-kiryuin", "name": "缠一身 / 鬼龙院总一郎", "aliases": ["缠一身", "鬼龙院总一郎"], "role": "流子之父、生命纤维研究与断斩之剪相关人物", "affiliations": ["反生命纤维研究"], "gear": ["断斩之剪原型相关"], "sourceEntries": ["满舰饰又郎...缠一身...鬼龙院总一郎"]},
+    {"id": "rei-hououmaru", "name": "凤凰丸礼", "aliases": [], "role": "罗晓下属", "affiliations": ["REVOCS社"], "gear": [], "sourceStatus": "罗晓条目提及"},
+    {"id": "mankanshoku-family", "name": "满舰饰家成员", "aliases": ["满舰饰又郎", "满舰饰好代", "满舰饰蔷薇藏"], "role": "真子的家人与流子日常支点", "affiliations": ["本能市"], "gear": [], "sourceEntries": ["满舰饰又郎，满舰饰好代，满舰饰蔷薇藏..."]}
+  ]
+}

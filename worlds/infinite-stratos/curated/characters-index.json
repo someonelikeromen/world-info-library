@@ -1,0 +1,19 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "infinite-stratos",
+  "characters": [
+    {"id": "ichika-orimura", "name": "织斑一夏", "aliases": ["一夏"], "role": "罕见男性 IS 驾驶者、学园主轴学生", "affiliations": ["IS学园"], "machines": ["白式"], "sourceStatus": "源内关系网与描述细节多次提及"},
+    {"id": "chifuyu-orimura", "name": "织斑千冬", "aliases": [], "role": "一夏的姐姐、教师/前强者", "affiliations": ["IS学园"], "machines": [], "sourceStatus": "源内核心关系人物"},
+    {"id": "houki-shinonono", "name": "筱之之箒", "aliases": ["篠之之箒"], "role": "一夏青梅竹马、日本侧驾驶员", "affiliations": ["IS学园", "日本"], "machines": ["红椿"], "sourceStatus": "源内机体展开细节提及"},
+    {"id": "cecilia-alcott", "name": "塞西莉亚·奥尔科特", "aliases": ["塞西莉亚"], "role": "英国代表候补生", "affiliations": ["英国", "IS学园"], "machines": ["蓝色眼泪"], "sourceStatus": "源内机体展开细节提及"},
+    {"id": "huang-lingyin", "name": "凰铃音", "aliases": ["铃", "凰鈴音"], "role": "中国代表候补生、一夏青梅竹马之一", "affiliations": ["中国", "IS学园"], "machines": ["甲龙"], "sourceStatus": "源内机体展开细节提及"},
+    {"id": "charlotte-dunois", "name": "夏洛特·迪努亚", "aliases": ["夏洛特", "夏露"], "role": "法国代表候补生", "affiliations": ["法国", "IS学园"], "machines": ["疾风·里凡穆"], "sourceStatus": "RP 常用核心人物；源内角色网语境支持"},
+    {"id": "laura-bodewig", "name": "拉芙拉·布迪威伊", "aliases": ["拉芙拉"], "role": "德国代表候补生、军人气质驾驶员", "affiliations": ["德国", "IS学园"], "machines": ["黑雨"], "sourceStatus": "RP 常用核心人物；源内角色网语境支持"},
+    {"id": "tatenashi-sarashiki", "name": "更识楯无", "aliases": ["楯无"], "role": "学生会长、强力驾驶员", "affiliations": ["IS学园", "更识家"], "machines": ["雾缠的淑女"], "sourceStatus": "RP 常用核心人物"},
+    {"id": "kanzashi-sarashiki", "name": "更识簪", "aliases": ["簪"], "role": "更识楯无之妹、技术与驾驶相关人物", "affiliations": ["IS学园", "更识家"], "machines": ["打铁二式"], "sourceStatus": "RP 常用核心人物"},
+    {"id": "maya-yamada", "name": "山田真耶", "aliases": [], "role": "教师/副班主任类型角色", "affiliations": ["IS学园"], "machines": [], "sourceStatus": "RP 常用校园人物"},
+    {"id": "tabane-shinonono", "name": "筱之之束", "aliases": ["篠之之束", "束"], "role": "IS核心研发相关天才、箒的姐姐", "affiliations": ["IS研发网络"], "machines": [], "sourceStatus": "世界设定关键人物"},
+    {"id": "squall-meusel", "name": "斯可儿·缪洁尔", "aliases": ["Squall"], "role": "反派/地下组织相关人物", "affiliations": ["亡国机业"], "machines": [], "sourceStatus": "RP 常用反派扩展"},
+    {"id": "autumn", "name": "奥坦姆", "aliases": ["Autumn"], "role": "亡国机业行动人员", "affiliations": ["亡国机业"], "machines": [], "sourceStatus": "RP 常用反派扩展"}
+  ]
+}

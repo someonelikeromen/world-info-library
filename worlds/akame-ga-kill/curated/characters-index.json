@@ -1,0 +1,25 @@
+{
+  "schema": "rp-curated-characters-index-v1",
+  "worldSlug": "akame-ga-kill",
+  "characters": [
+    {"id": "tatsumi", "name": "塔兹米", "aliases": [], "role": "乡村少年、夜袭成员、恶鬼缠身继承者", "affiliations": ["Night Raid", "革命军"], "teigu": "恶鬼缠身·操作铠甲", "sourceEntries": ["主角色1[塔兹米]"]},
+    {"id": "akame", "name": "赤瞳", "aliases": [], "role": "夜袭核心杀手", "affiliations": ["Night Raid"], "teigu": "一斩必杀·村雨", "sourceEntries": ["主角色2[赤瞳]"]},
+    {"id": "mine", "name": "玛茵", "aliases": [], "role": "夜袭狙击手", "affiliations": ["Night Raid"], "teigu": "浪漫炮台·南瓜", "sourceEntries": ["配角1[玛茵]"]},
+    {"id": "sheele", "name": "希尔", "aliases": [], "role": "夜袭成员、温柔天然呆杀手", "affiliations": ["Night Raid"], "teigu": "万物两断·销魂", "sourceEntries": ["配角2[希尔]"]},
+    {"id": "bulat", "name": "布兰德", "aliases": ["ブラート"], "role": "夜袭成员、塔兹米前辈", "affiliations": ["Night Raid"], "teigu": "恶鬼缠身·操作铠甲", "sourceEntries": ["ブラート"]},
+    {"id": "leone", "name": "雷欧奈", "aliases": [], "role": "夜袭成员、近战与侦查支援", "affiliations": ["Night Raid"], "teigu": "百兽王化·狮子王", "sourceEntries": ["雷欧奈"]},
+    {"id": "najenda", "name": "娜洁希坦", "aliases": [], "role": "夜袭首领、前帝国将军", "affiliations": ["Night Raid", "革命军"], "teigu": null, "sourceEntries": ["娜洁希坦"]},
+    {"id": "lubbock", "name": "拉伯克", "aliases": ["ラバック"], "role": "夜袭成员、线型帝具使用者", "affiliations": ["Night Raid"], "teigu": "千变万化·交叉之尾", "sourceEntries": ["ラバック"]},
+    {"id": "susanoo", "name": "须佐之男", "aliases": [], "role": "生物型帝具、娜洁希坦一方战力", "affiliations": ["Night Raid"], "teigu": "电光石火·须佐之男", "sourceEntries": ["须佐之男"]},
+    {"id": "chelsea", "name": "切尔茜", "aliases": [], "role": "夜袭后期成员、变身与潜入担当", "affiliations": ["Night Raid"], "teigu": "变身自在·盖亚粉底", "sourceStatus": "RP 常用夜袭成员"},
+    {"id": "esdeath", "name": "艾斯德斯", "aliases": [], "role": "帝国最强将军、狩人队长", "affiliations": ["帝国", "Jaegers"], "teigu": "魔神显现·恶魔之粹", "sourceStatus": "世界观狩人条目明确为组建者"},
+    {"id": "kurome", "name": "黑瞳", "aliases": [], "role": "狩人成员、赤瞳妹妹", "affiliations": ["Jaegers", "帝国"], "teigu": "死者行军·八房", "sourceStatus": "RP 常用狩人成员"},
+    {"id": "wave", "name": "威尔", "aliases": [], "role": "狩人成员、海军出身帝具使", "affiliations": ["Jaegers", "帝国"], "teigu": "修罗化身·贵族战车", "sourceEntries": ["威尔"]},
+    {"id": "seryuu", "name": "赛琉", "aliases": [], "role": "帝都警备/狩人侧正义执念者", "affiliations": ["Jaegers", "帝国"], "teigu": "魔兽变化·百臂巨人", "sourceEntries": ["赛琉"]},
+    {"id": "dr-stylish", "name": "Dr.时尚", "aliases": [], "role": "狩人成员、改造与实验担当", "affiliations": ["Jaegers", "帝国"], "teigu": "神之御手·完美者", "sourceEntries": ["Dr.时尚"]},
+    {"id": "bols", "name": "波鲁斯", "aliases": [], "role": "狩人成员、焚烧部队出身", "affiliations": ["Jaegers", "帝国"], "teigu": "炼狱招致·路比冈德", "sourceEntries": ["波鲁斯"]},
+    {"id": "run", "name": "兰", "aliases": [], "role": "狩人成员、文官气质帝具使", "affiliations": ["Jaegers", "帝国"], "teigu": "万里飞翔·莫斯提马", "sourceEntries": ["兰"]},
+    {"id": "honest", "name": "奥内斯特", "aliases": ["大臣"], "role": "帝国实际操控者、腐败核心", "affiliations": ["帝国"], "teigu": "伊雷斯顿", "sourceEntries": ["奥内斯特", "帝国"]},
+    {"id": "emperor", "name": "小皇帝", "aliases": ["幼帝"], "role": "帝国象征统治者", "affiliations": ["帝国"], "teigu": "至高王座", "sourceEntries": ["小皇帝", "帝国"]}
+  ]
+}

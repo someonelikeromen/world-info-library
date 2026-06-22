@@ -1,0 +1,17 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "persona-5",
+  "displayName": "女神异闻录5 / Persona 5",
+  "curatedFrom": [
+    {
+      "sourceId": "src-persona-5-001",
+      "title": "--女神5",
+      "sourceRegistryPath": "campaigns/world-library/worlds/persona-5/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/persona-5/raw/imported-worldbooks/--女神5.worldbook.json",
+      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "locations/locations.json", "power-systems/power-systems.json", "canon-reference/timeline.json", "canon-reference/plot-summary.json", "factions/factions.json"],
+      "reliability": "B",
+      "notes": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。"
+    }
+  ],
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+}

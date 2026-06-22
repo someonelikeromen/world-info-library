@@ -1,0 +1,31 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "saijaku-muhai-bahamut",
+  "curatedAt": "2026-06-21",
+  "sources": [
+    {
+      "sourceId": "src-saijaku-muhai-bahamut-001",
+      "title": "最弱无败神装机龙《巴哈姆特》",
+      "type": "user-file-source",
+      "rawLocation": "imports/raw/world-sources/zrwb.png",
+      "archiveArtifact": "campaigns/world-library/imports/worldviews/saijaku-muhai-bahamut/worldbooks/zrwb_card.worldbook.json",
+      "archivePathsRead": [
+        "manifest.json",
+        "source-registry.json",
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "canon-reference/full-plot.json"
+      ],
+      "reliability": "B",
+      "curationUse": "primary",
+      "notes": "人工阅读卷剧情与分类归档后整理；未改动 raw/imports 或自动归档。"
+    }
+  ],
+  "conflicts": [
+    {"topic": "译名", "note": "人名与机体名存在中日/音译差异；curated 采用归档中较常见中文译名，别名放入 aliases。"},
+    {"topic": "能力细节", "note": "部分神装技能名和后期卷数仍需逐卷校对。"}
+  ]
+}

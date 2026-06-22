@@ -1,0 +1,17 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "world-god-only-knows",
+  "displayName": "只有神知道的世界",
+  "curatedFrom": [
+    {
+      "sourceId": "src-world-god-only-knows-001",
+      "title": "只有神知道的世界",
+      "sourceRegistryPath": "campaigns/world-library/worlds/world-god-only-knows/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/world-god-only-knows/raw/imported-worldbooks/zyszddsj_card.worldbook.json",
+      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "factions/factions.json", "locations/locations.json", "canon-reference/plot-summary.json", "graphs/knowledge-graph.json", "graphs/relationship-graph.json"],
+      "reliability": "B",
+      "notes": "原归档 comments 明确列出大量角色条目；curated 人物清单按这些条目人工归纳。"
+    }
+  ],
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+}

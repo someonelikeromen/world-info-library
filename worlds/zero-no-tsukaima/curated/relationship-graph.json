@@ -1,0 +1,22 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "zero-no-tsukaima",
+  "nodes": ["louise-valliere", "user-familiar", "tabitha", "tiffania", "kirche", "guiche", "montmorency", "julio-cesare", "siesta", "henrietta", "joseph-gallia", "sheffield", "josette", "wales-tudor", "osman", "agnes", "eleonore-valliere", "cattleya-valliere"],
+  "edges": [
+    {"from": "louise-valliere", "to": "user-familiar", "type": "master_familiar_contract", "description": "露易丝召唤并契约异界使魔；这是 RP 玩家位核心关系。"},
+    {"from": "louise-valliere", "to": "tabitha", "type": "classmates_allies", "description": "塔巴莎是露易丝同学/室友，会在关键时刻支援她。"},
+    {"from": "louise-valliere", "to": "kirche", "type": "rival_classmates", "description": "丘鲁克与露易丝在家族和性格上形成竞争与对照。"},
+    {"from": "guiche", "to": "montmorency", "type": "romantic_entanglement", "description": "基修与蒙莫朗西存在学院恋爱纠葛。"},
+    {"from": "henrietta", "to": "wales-tudor", "type": "tragic_lovers", "description": "威尔士是安丽埃塔生前挚爱。"},
+    {"from": "henrietta", "to": "agnes", "type": "queen_guard", "description": "阿尼埃斯绝对忠诚于安丽埃塔并守护托里斯汀。"},
+    {"from": "tabitha", "to": "joseph-gallia", "type": "usurper_enemy", "description": "约瑟夫篡位并视塔巴莎为威胁。"},
+    {"from": "joseph-gallia", "to": "sheffield", "type": "master_servant", "description": "谢菲尔德作为神之心执行约瑟夫命令。"},
+    {"from": "tabitha", "to": "josette", "type": "royal_family_bond", "description": "约赛特崇敬并思念塔巴莎。"},
+    {"from": "joseph-gallia", "to": "josette", "type": "father_daughter_political_tool", "description": "约瑟夫是约赛特父亲，但将其作为政治工具。"},
+    {"from": "osman", "to": "louise-valliere", "type": "academy_head_observer", "description": "欧斯曼院长特别关注零之露易丝和异界使魔。"},
+    {"from": "eleonore-valliere", "to": "louise-valliere", "type": "sisters_strict", "description": "艾蕾欧诺尔严厉斥责露易丝但内心关心。"},
+    {"from": "cattleya-valliere", "to": "louise-valliere", "type": "sisters_supportive", "description": "卡特莉亚是最理解和疼爱露易丝的姐姐。"},
+    {"from": "siesta", "to": "user-familiar", "type": "friendly_commoner_view", "description": "谢斯塔对异界使魔友善，提供平民视角。"},
+    {"from": "julio-cesare", "to": "romalia", "type": "affiliated_with", "description": "朱力欧连接罗马利亚教国与虚无主线。"}
+  ]
+}

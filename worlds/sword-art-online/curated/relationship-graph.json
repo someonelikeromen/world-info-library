@@ -1,0 +1,17 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "sword-art-online",
+  "relationships": [
+    {"source": "桐人", "target": "亚丝娜", "type": "搭档/恋人", "notes": "从攻略伙伴成长为艾恩葛朗特篇核心伴侣。"},
+    {"source": "桐人", "target": "克莱因", "type": "开服友人", "notes": "开服初期相识，桐人教导基础操作。"},
+    {"source": "桐人", "target": "阿尔戈", "type": "情报合作", "notes": "封测与攻略信息网络相关。"},
+    {"source": "亚丝娜", "target": "希兹克利夫", "type": "副团长/团长", "notes": "同属血盟骑士团；希兹克利夫隐藏茅场身份。"},
+    {"source": "桐人", "target": "希兹克利夫", "type": "决斗/真相对峙", "notes": "二刀流与神圣剑、玩家与GM真相的核心冲突。"},
+    {"source": "桐人", "target": "莉兹贝特", "type": "朋友/装备关联", "notes": "铁匠与武器制作线。"},
+    {"source": "桐人", "target": "西莉卡", "type": "保护/支援", "notes": "桐人帮助较弱玩家应对危险。"},
+    {"source": "桐人", "target": "幸", "type": "队友/创伤", "notes": "月夜黑猫团悲剧塑造桐人心理。"},
+    {"source": "启太", "target": "幸", "type": "团队同伴", "notes": "月夜黑猫团成员关系。"},
+    {"source": "微笑棺木成员", "target": "攻略组", "type": "敌对", "notes": "PK组织威胁前线和普通玩家。"},
+    {"source": "辛卡", "target": "由莉耶儿", "type": "支线同伴", "notes": "艾恩葛朗特解放军内部冲突相关。"}
+  ]
+}

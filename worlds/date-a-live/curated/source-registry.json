@@ -1,0 +1,86 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "date-a-live",
+  "displayName": "约会大作战 / DATE A LIVE",
+  "curation": {
+    "curatedAt": "2026-06-22",
+    "method": "人工阅读既有归档后手工归纳；未使用脚本自动抽取/分类/生成正文。",
+    "mutationScope": "campaigns/world-library/worlds/date-a-live/curated/"
+  },
+  "sources": [
+    {
+      "sourceId": "src-date-a-live-001",
+      "type": "user-file-source",
+      "title": "RE：DATE A LIVE",
+      "origin": "用户提供世界书/角色卡世界书导入",
+      "location": "imports/raw/world-sources/yhdzz.png",
+      "archiveLocations": [
+        "campaigns/world-library/worlds/date-a-live/manifest.json",
+        "campaigns/world-library/worlds/date-a-live/source-registry.json",
+        "campaigns/world-library/worlds/date-a-live/world/world.json",
+        "campaigns/world-library/worlds/date-a-live/characters/characters.json",
+        "campaigns/world-library/worlds/date-a-live/factions/factions.json",
+        "campaigns/world-library/worlds/date-a-live/power-systems/power-systems.json",
+        "campaigns/world-library/worlds/date-a-live/locations/locations.json",
+        "campaigns/world-library/worlds/date-a-live/canon-reference/plot-summary.json"
+      ],
+      "reliability": "B",
+      "visibility": "public",
+      "appliesTo": [
+        {"targetType": "world", "targetId": "date-a-live", "field": "baseline"},
+        {"targetType": "characters", "targetId": "main-spirits", "field": "character-rosters"},
+        {"targetType": "factions", "targetId": "ratatoskr-ast-dem", "field": "organization-conflict"},
+        {"targetType": "powerSystem", "targetId": "spirits-angels-realizer", "field": "abilities"},
+        {"targetType": "sandbox", "targetId": "player-identity-branches", "field": "optional-if"}
+      ],
+      "summary": "单一导入世界书，条目覆盖主要精灵、主角身份分支、DEM/AST/Ratatoskr、临界支线、状态栏与 RP 行为规则。来源包含大量成人向和扮演控制文本；curated 仅保留世界观、人设和关系所需内容。",
+      "capture": {
+        "method": "既有归档读取",
+        "capturedAt": "2026-06-20T17:26:09.574790+00:00",
+        "parserOrTool": "archive_worldviews.py / existing archive",
+        "artifactPath": "campaigns/world-library/imports/worldviews/date-a-live/worldbooks/yhdzz_card.worldbook.json"
+      },
+      "conflictsWith": [],
+      "notes": "人物条目证据等级多为 B；临界支线和玩家身份分支多为 C。"
+    },
+    {
+      "sourceId": "manual-plan-001",
+      "type": "project-curation-plan",
+      "title": "世界观手工框架化整理计划",
+      "origin": "campaigns/world-library/manual-curation/PLAN.md",
+      "location": "campaigns/world-library/manual-curation/PLAN.md",
+      "reliability": "A",
+      "visibility": "public",
+      "appliesTo": [
+        {"targetType": "curation", "targetId": "date-a-live", "field": "required-products"}
+      ],
+      "summary": "规定 curated 标准产物、characters-index 字段、不得覆盖 raw/imports/自动归档文件等规则。",
+      "conflictsWith": [],
+      "notes": "PLAN 中提到的 rules/templates/skill 路径当前未在仓库找到。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "conf-date-001",
+      "topic": "成人向来源内容与标准 RP 世界观整理",
+      "sources": ["src-date-a-live-001"],
+      "resolution": "不纳入 curated 默认世界规则；仅保留非露骨的人物创伤、关系、能力、势力、剧情功能。",
+      "status": "resolved"
+    },
+    {
+      "id": "conf-date-002",
+      "topic": "五河士道、士织、玩家替代身份",
+      "sources": ["src-date-a-live-001"],
+      "resolution": "五河士道为默认主线主角；士织作为士道女装/变身身份；玩家同班同学、DEM BOSS、真士转生等仅作为可选 IF。",
+      "status": "resolved"
+    },
+    {
+      "id": "conf-date-003",
+      "topic": "主线与临界支线混合",
+      "sources": ["src-date-a-live-001"],
+      "resolution": "主线天宫市为默认层；临界/Date A Bullet 作为可选支线层列入低置信摘要。",
+      "status": "resolved-with-risk"
+    }
+  ]
+}

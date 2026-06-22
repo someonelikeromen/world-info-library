@@ -1,0 +1,23 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "bocchi-the-rock",
+  "nodes": [
+    {"id": "kessoku-band", "label": "纽带乐队/结束乐队", "type": "organization"},
+    {"id": "shimokitazawa", "label": "下北泽", "type": "location"},
+    {"id": "starry", "label": "STARRY", "type": "location"},
+    {"id": "live-house", "label": "展演厅文化", "type": "concept"},
+    {"id": "band-practice", "label": "乐队练习", "type": "activity"},
+    {"id": "music-individuality", "label": "音乐个性", "type": "theme"},
+    {"id": "social-anxiety", "label": "社交恐惧", "type": "theme"},
+    {"id": "social-media", "label": "社交平台分享", "type": "activity"}
+  ],
+  "edges": [
+    {"from": "kessoku-band", "to": "starry", "type": "performs_at"},
+    {"from": "starry", "to": "shimokitazawa", "type": "located_in"},
+    {"from": "starry", "to": "live-house", "type": "instance_of"},
+    {"from": "kessoku-band", "to": "band-practice", "type": "requires"},
+    {"from": "music-individuality", "to": "kessoku-band", "type": "creative_value"},
+    {"from": "social-anxiety", "to": "kessoku-band", "type": "character_growth_driver"},
+    {"from": "social-media", "to": "kessoku-band", "type": "publicity_context"}
+  ]
+}

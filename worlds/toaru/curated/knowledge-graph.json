@@ -1,0 +1,24 @@
+{
+  "schema": "curated-knowledge-graph-v1",
+  "worldSlug": "toaru",
+  "nodes": [
+    {"id": "academy-city", "type": "location/faction", "label": "学园都市", "summary": "科学侧核心城市，实行超能力开发并由亚雷斯塔统治。"},
+    {"id": "science-side", "type": "concept", "label": "科学侧", "summary": "以超能力、个人现实、先进科技与暗部实验构成的阵营。"},
+    {"id": "magic-side", "type": "concept", "label": "魔法侧", "summary": "以宗教、魔导书、圣人、术式和秘密结社构成的阵营。"},
+    {"id": "personal-reality", "type": "power-rule", "label": "个人现实", "summary": "能力者扭曲微观世界并干涉宏观现实的基础。"},
+    {"id": "imagine-breaker", "type": "ability", "label": "幻想杀手", "summary": "上条当麻右手中消除异能之力的能力。"},
+    {"id": "index-library", "type": "knowledge", "label": "十万三千本魔导书", "summary": "茵蒂克丝脑内记忆的魔导书集合。"},
+    {"id": "sisters-project", "type": "experiment", "label": "妹妹计划", "summary": "御坂美琴克隆体与一方通行绝对能力进化相关实验。"},
+    {"id": "tree-diagram", "type": "asset", "label": "树状图设计者/残骸", "summary": "学园都市超级演算装置及其残骸引发争夺。"},
+    {"id": "gods-right-seat", "type": "faction", "label": "神之右席", "summary": "罗马正教侧高位敌对势力，含前方之风、左方之地、后方之水、右方之火。"}
+  ],
+  "edges": [
+    {"from": "academy-city", "to": "science-side", "type": "core-of"},
+    {"from": "personal-reality", "to": "science-side", "type": "enables"},
+    {"from": "imagine-breaker", "to": "science-side", "type": "negates-powers"},
+    {"from": "imagine-breaker", "to": "magic-side", "type": "negates-magic"},
+    {"from": "index-library", "to": "magic-side", "type": "dangerous-knowledge"},
+    {"from": "sisters-project", "to": "academy-city", "type": "dark-experiment"},
+    {"from": "gods-right-seat", "to": "magic-side", "type": "belongs-to"}
+  ]
+}

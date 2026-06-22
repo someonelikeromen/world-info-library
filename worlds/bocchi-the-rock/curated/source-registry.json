@@ -1,0 +1,27 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "bocchi-the-rock",
+  "displayName": "孤独摇滚",
+  "curatedAt": "2026-06-22",
+  "sources": [
+    {
+      "sourceId": "src-bocchi-the-rock-001",
+      "title": "世界书：孤独摇滚",
+      "sourceFile": "campaigns/world-library/worlds/bocchi-the-rock/source-registry.json",
+      "rawWorldbook": "campaigns/world-library/worlds/bocchi-the-rock/raw/imported-worldbooks/世界书：孤独摇滚.worldbook.json",
+      "consultedArchiveFiles": [
+        "campaigns/world-library/worlds/bocchi-the-rock/characters/characters.json",
+        "campaigns/world-library/worlds/bocchi-the-rock/world/world.json",
+        "campaigns/world-library/worlds/bocchi-the-rock/factions/factions.json",
+        "campaigns/world-library/worlds/bocchi-the-rock/locations/locations.json",
+        "campaigns/world-library/worlds/bocchi-the-rock/reports/unclassified-entries.json"
+      ],
+      "reliability": "B",
+      "usage": "以虹夏/乐队/下北泽相关条目为主，结合未分类条目补足乐队成员与场景结构。"
+    }
+  ],
+  "exclusions": [
+    "未将纯说明性昵称或重复改写条目单独升格为人物。",
+    "未改动原始归档与未分类文件。"
+  ]
+}

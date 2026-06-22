@@ -1,0 +1,22 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "saijaku-muhai-bahamut",
+  "nodes": ["lux-arcadia", "lieselotte-atisimarta", "airi-arcadia", "philuffy-aingram", "krulcifer-einfolk", "celistia-ralgris", "triad-sharis", "triad-tillfur", "triad-noct", "reiri-aingram", "fugil-arcadia", "balzeride-kreutzer", "barzeride", "old-empire", "new-kingdom", "academy"],
+  "edges": [
+    {"from": "lux-arcadia", "to": "airi-arcadia", "type": "siblings", "note": "亲兄妹；爱理是路克斯最稳定的支援者。"},
+    {"from": "lux-arcadia", "to": "fugil-arcadia", "type": "half-siblings/rivals", "note": "兄弟关系与政变真相相连。"},
+    {"from": "lux-arcadia", "to": "lieselotte-atisimarta", "type": "trust-and-romantic-tension", "note": "由浴场误会和决斗开始，因守护秘密建立信赖。"},
+    {"from": "lux-arcadia", "to": "philuffy-aingram", "type": "childhood-friends", "note": "青梅竹马，菲尔菲高度信赖路克斯。"},
+    {"from": "lux-arcadia", "to": "krulcifer-einfolk", "type": "fake-lovers-to-trust", "note": "七日情人委托后，路克斯保护其自由和生存者身份。"},
+    {"from": "lux-arcadia", "to": "celistia-ralgris", "type": "conflict-to-ally", "note": "围绕男性进入学园的矛盾逐渐化为伙伴关系。"},
+    {"from": "triad-sharis", "to": "triad-tillfur", "type": "team", "note": "三和音成员。"},
+    {"from": "triad-sharis", "to": "triad-noct", "type": "team", "note": "三和音成员。"},
+    {"from": "reiri-aingram", "to": "philuffy-aingram", "type": "siblings", "note": "姐妹。"},
+    {"from": "reiri-aingram", "to": "academy", "type": "leads", "note": "蕾莉为学园长。"},
+    {"from": "lieselotte-atisimarta", "to": "new-kingdom", "type": "princess-of", "note": "新王国第一公主。"},
+    {"from": "lux-arcadia", "to": "old-empire", "type": "former-prince-of", "note": "前帝国皇子，戴罪生存。"},
+    {"from": "old-empire", "to": "new-kingdom", "type": "political-enmity", "note": "政权更替造成制度和身份裂痕。"},
+    {"from": "balzeride-kreutzer", "to": "krulcifer-einfolk", "type": "exploits", "note": "觊觎其遗迹钥匙/生存者价值。"},
+    {"from": "barzeride", "to": "new-kingdom", "type": "rebels-against", "note": "前帝国近卫骑士团长发动袭击。"}
+  ]
+}

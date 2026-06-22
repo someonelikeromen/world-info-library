@@ -1,0 +1,16 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "majo-no-tabitabi",
+  "relationships": [
+    {"from": "fran", "to": "elaina", "type": "mentor-of", "notes": "芙兰教导伊蕾娜并赐予灰之魔女名。"},
+    {"from": "victorica", "to": "fran", "type": "mentor-of", "notes": "维多利加曾收芙兰为弟子。"},
+    {"from": "victorica", "to": "sheila", "type": "mentor-of", "notes": "维多利加打败并收下年轻席拉。"},
+    {"from": "fran", "to": "sheila", "type": "fellow-disciple", "notes": "早期不和，后在库诺兹相关事件后关系缓和。"},
+    {"from": "sheila", "to": "saya", "type": "mentor-of", "notes": "席拉指导沙耶并给出炭之魔女名。"},
+    {"from": "sheila", "to": "mina", "type": "mentor-of", "notes": "席拉指导美奈并给出煤之魔女名。"},
+    {"from": "saya", "to": "mina", "type": "sisters", "notes": "沙耶依赖妹妹，美奈也重视姐姐。"},
+    {"from": "saya", "to": "elaina", "type": "admires", "notes": "沙耶憧憬伊蕾娜，受伊蕾娜鼓励通过挫折。"},
+    {"from": "victorica", "to": "elaina", "type": "mother-of", "notes": "维多利加是伊蕾娜母亲。"},
+    {"from": "estelle", "to": "selena", "type": "former-friend-tragedy", "notes": "艾丝黛尔曾试图通过时间回溯拯救瑟琳娜。"}
+  ]
+}

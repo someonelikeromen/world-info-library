@@ -1,0 +1,28 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "jojo",
+  "nodes": [
+    {"id": "joestar-bloodline", "label": "乔斯达血脉", "type": "lineage"},
+    {"id": "stone-mask", "label": "石鬼面", "type": "artifact"},
+    {"id": "vampire", "label": "吸血鬼/尸生人", "type": "species_state"},
+    {"id": "hamon", "label": "波纹气功", "type": "power_system"},
+    {"id": "pillar-men", "label": "柱之男", "type": "species_faction"},
+    {"id": "red-stone", "label": "超级艾哲红石", "type": "artifact"},
+    {"id": "stands", "label": "替身", "type": "power_system"},
+    {"id": "stand-user", "label": "替身使者", "type": "role"},
+    {"id": "the-world", "label": "世界/The World", "type": "stand"},
+    {"id": "time-stop", "label": "时间停止", "type": "ability"},
+    {"id": "egypt", "label": "埃及", "type": "location"}
+  ],
+  "edges": [
+    {"from": "stone-mask", "to": "vampire", "type": "transforms_into"},
+    {"from": "pillar-men", "to": "stone-mask", "type": "created_by_kars"},
+    {"from": "red-stone", "to": "pillar-men", "type": "desired_by"},
+    {"from": "hamon", "to": "vampire", "type": "counters"},
+    {"from": "hamon", "to": "pillar-men", "type": "used_against"},
+    {"from": "stands", "to": "stand-user", "type": "manifested_by"},
+    {"from": "the-world", "to": "time-stop", "type": "has_ability"},
+    {"from": "joestar-bloodline", "to": "stands", "type": "awakened_by_dio_resurrection"},
+    {"from": "egypt", "to": "the-world", "type": "dio_hideout_context"}
+  ]
+}

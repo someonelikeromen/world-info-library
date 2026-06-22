@@ -1,0 +1,18 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "world-god-only-knows",
+  "relationships": [
+    {"from": "桂木桂马", "to": "艾鲁西", "type": "契约搭档/伪兄妹", "status": "驱魂捕获主组合"},
+    {"from": "艾鲁西", "to": "哈克雅", "type": "好友/同僚", "status": "新地狱驱魂队"},
+    {"from": "桂木桂马", "to": "高原步美", "type": "攻略对象/女神篇回收", "status": "关键情感线"},
+    {"from": "桂木桂马", "to": "中川花音", "type": "攻略对象/保护对象", "status": "女神宿主危机"},
+    {"from": "桂木桂马", "to": "汐宫栞", "type": "攻略对象", "status": "图书馆与女神线"},
+    {"from": "桂木桂马", "to": "小阪千寻", "type": "现实情感冲击", "status": "打破公式的重要关系"},
+    {"from": "桂木桂马", "to": "鲇川天理", "type": "青梅竹马/女神宿主", "status": "过去篇与狄安娜线"},
+    {"from": "鲇川天理", "to": "狄安娜", "type": "宿主与女神共存", "status": "记忆保持"},
+    {"from": "正统恶魔社", "to": "朱比特六姐妹", "type": "猎杀/封印", "status": "女神篇主要冲突"},
+    {"from": "诺拉", "to": "哈克雅", "type": "竞争/同僚", "status": "驱魂队内部张力"},
+    {"from": "菲欧蕾", "to": "中川花音", "type": "袭击", "status": "女神篇危机触发"},
+    {"from": "桂木麻里", "to": "桂木桂马", "type": "母子", "status": "日常生活压力"}
+  ]
+}

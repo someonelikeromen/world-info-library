@@ -1,0 +1,15 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "monster-hunter",
+  "relationships": [
+    {"source": "主角猎人/OC猎人", "target": "猎人公会", "type": "认证/管理", "notes": "公会授予任务、星级与合法狩猎资格。"},
+    {"source": "主角猎人/OC猎人", "target": "艾露猫伙伴", "type": "搭档", "notes": "狩猎、采集、支援和日常陪伴。"},
+    {"source": "主角猎人/OC猎人", "target": "加工屋工匠", "type": "素材-装备循环", "notes": "狩猎所得素材交由工匠锻造成成长节点。"},
+    {"source": "村长", "target": "猎人公会", "type": "委托关系", "notes": "村落通过公会请求解决怪物威胁。"},
+    {"source": "王立书士队学者", "target": "主角猎人/OC猎人", "type": "知识支援", "notes": "提供物种记录与生态解释。"},
+    {"source": "古龙观测员", "target": "猎人公会", "type": "预警协作", "notes": "古龙活动触发高危任务和区域疏散。"},
+    {"source": "生态顶点怪物", "target": "区域村落", "type": "威胁/生态压力", "notes": "区域主线常由非典型生态位入侵引发。"},
+    {"source": "保守派长老", "target": "激进派技师", "type": "价值冲突", "notes": "传统狩猎与新技术开发的冲突推动主题讨论。"},
+    {"source": "禁忌怪物", "target": "古龙观测局", "type": "未知灾厄", "notes": "作为长期谜团被追踪和隐约揭示。"}
+  ]
+}

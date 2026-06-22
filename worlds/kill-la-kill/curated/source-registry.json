@@ -1,0 +1,21 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "kill-la-kill",
+  "sources": [
+    {
+      "sourceId": "src-kill-la-kill-001",
+      "title": "斩服少女",
+      "type": "user-file-source",
+      "reliability": "B",
+      "usedFor": ["world", "characters", "life-fibers", "factions", "locations", "relationships"],
+      "localEvidence": [
+        "campaigns/world-library/worlds/kill-la-kill/source-registry.json",
+        "campaigns/world-library/worlds/kill-la-kill/world/world.json",
+        "campaigns/world-library/worlds/kill-la-kill/characters/characters.json"
+      ],
+      "notes": "人工阅读世界观、本能市/本能字学园、战斗生命纤维及主要人物条目。"
+    }
+  ],
+  "conflicts": [],
+  "curationPolicy": "源内存在大量成人化活动、状态栏和人物身体描写；curated 层排除这些内容，仅保留原作可用世界观与关系。"
+}

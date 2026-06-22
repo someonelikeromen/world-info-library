@@ -1,0 +1,17 @@
+{
+  "schema": "curated-relationship-graph-v1",
+  "worldSlug": "acg-character-database",
+  "relationshipPolicy": "不虚构跨作品人物关系；只记录数据库包含关系、同系列归类与少量源条目中明确的同作品/同系列关系。",
+  "relationships": [
+    {"from": "database", "to": "genshin-impact", "type": "contains-source-family", "summary": "原神角色簇。"},
+    {"from": "database", "to": "azur-lane", "type": "contains-source-family", "summary": "碧蓝航线角色簇。"},
+    {"from": "database", "to": "blue-archive", "type": "contains-source-family", "summary": "碧蓝档案角色簇。"},
+    {"from": "database", "to": "honkai-star-rail", "type": "contains-source-family", "summary": "星穹铁道角色簇。"},
+    {"from": "database", "to": "fate", "type": "contains-source-family", "summary": "Fate系列角色簇。"},
+    {"from": "database", "to": "archetypes", "type": "contains", "summary": "人格原型模板簇。"},
+    {"from": "louise-zero", "to": "tabitha-zero", "type": "same-source-work", "summary": "均为零之使魔条目，不在本库构造零之使魔世界关系。"},
+    {"from": "nagatoro", "to": "nagatoro-supporting-cast", "type": "same-source-work", "summary": "早濑长瀞及同作配角同属《不要欺负我，长瀞同学》。"},
+    {"from": "uzaki-hana", "to": "uzaki-tsuki", "type": "same-source-work/family", "summary": "同属《宇崎学妹想要玩！》条目。"},
+    {"from": "ben-tennyson", "to": "gwen-tennyson", "type": "same-source-work/family", "summary": "同属 Ben10 坦尼森家族条目。"}
+  ]
+}

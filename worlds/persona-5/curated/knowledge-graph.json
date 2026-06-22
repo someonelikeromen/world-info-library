@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "persona-5",
+  "nodes": [
+    {"id": "metaverse", "label": "认知世界", "type": "dimension"},
+    {"id": "palace", "label": "殿堂", "type": "cognitive-dungeon"},
+    {"id": "treasure", "label": "秘宝", "type": "cognitive-core"},
+    {"id": "mementos", "label": "印象空间", "type": "collective-unconscious"},
+    {"id": "persona", "label": "人格面具", "type": "power-system"},
+    {"id": "shadow", "label": "阴影", "type": "cognitive-entity"},
+    {"id": "phantom-thieves", "label": "心之怪盗团", "type": "faction"},
+    {"id": "velvet-room", "label": "天鹅绒房间", "type": "liminal-location"},
+    {"id": "confidant", "label": "协助者羁绊", "type": "social-system"},
+    {"id": "actualization", "label": "丸喜现实改写", "type": "p5r-system"}
+  ],
+  "edges": [
+    {"from": "palace", "to": "treasure", "type": "contains", "note": "秘宝是扭曲欲望核心，盗取后目标悔改。"},
+    {"from": "palace", "to": "shadow", "type": "ruled-by", "note": "殿堂统治者是现实目标的阴影。"},
+    {"from": "mementos", "to": "collective-public", "type": "formed-by", "note": "印象空间由大众集体认知形成。"},
+    {"from": "persona", "to": "rebellion", "type": "manifests", "note": "人格面具是叛逆之心的具现。"},
+    {"from": "phantom-thieves", "to": "palace", "type": "infiltrates", "note": "怪盗团潜入殿堂并发预告信。"},
+    {"from": "velvet-room", "to": "persona", "type": "fuses", "note": "天鹅绒房间提供合成与成长机制。"},
+    {"from": "confidant", "to": "phantom-thieves", "type": "empowers", "note": "现实羁绊转化为怪盗能力与资源。"},
+    {"from": "actualization", "to": "free-will", "type": "conflicts-with", "note": "丸喜以消除痛苦为名改写现实，挑战自由意志。"}
+  ]
+}

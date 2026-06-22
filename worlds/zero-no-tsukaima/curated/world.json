@@ -1,0 +1,26 @@
+{
+  "schema": "rp-curated-world-v1",
+  "worldSlug": "zero-no-tsukaima",
+  "displayName": "零之使魔",
+  "genre": ["异世界奇幻", "魔法学院", "贵族政治", "战争冒险", "恋爱喜剧"],
+  "summary": "舞台是拥有双月的哈尔凯尼亚大陆。贵族以魔法统治平民，魔法能力决定身份价值。托里斯汀魔法学院的露易丝因无法使用常规魔法被称为零，却在召唤使魔仪式中召来异界存在，并逐渐卷入虚无魔法、王国政治与战争。",
+  "setting": {"continent": "哈尔凯尼亚", "features": ["红蓝双月", "封建贵族社会", "魔法血统阶级", "平民与贵族差异"]},
+  "nations": [
+    {"id": "tristain", "name": "托里斯汀王国", "role": "核心舞台与露易丝/安丽埃塔所属国家"},
+    {"id": "germania", "name": "日耳曼尼亚", "role": "军事强国，丘鲁克出身背景"},
+    {"id": "gallia", "name": "戈里亚", "role": "塔巴莎与约瑟夫相关王位阴谋主线"},
+    {"id": "albion", "name": "阿尔比昂", "role": "空中王国与内战、威尔士悲剧相关"},
+    {"id": "romalia", "name": "罗马利亚教国", "role": "宗教政治中心，虚无体系相关"}
+  ],
+  "powerSystems": [
+    {"id": "four-elements", "name": "四大元素魔法", "description": "火、水、风、土；魔法师通常按亲和元素学习。等级从点、线、三角到四边形。"},
+    {"id": "void", "name": "虚无魔法", "description": "传说中失落的第五元素，拥有独特而强大的能力，可与特殊使魔契约。"},
+    {"id": "familiar", "name": "使魔系统", "description": "魔法师通过召唤仆役仪式召唤终生伙伴/仆从，并通过契约符文建立联系。"}
+  ],
+  "primaryLocations": [
+    {"id": "tristain-academy", "name": "托里斯汀魔法学院", "description": "露易丝等贵族学生学习魔法、召唤使魔和发生学院事件的核心场所。"},
+    {"id": "valliere-estate", "name": "瓦利埃尔家", "description": "露易丝家族荣誉、姐妹关系与压力来源。"},
+    {"id": "gallia-court", "name": "戈里亚宫廷", "description": "约瑟夫、塔巴莎、约赛特与王位阴谋相关。"}
+  ],
+  "sourceTrace": ["src-zero-no-tsukaima-001"]
+}

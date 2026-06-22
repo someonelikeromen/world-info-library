@@ -1,0 +1,23 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "haganai",
+  "nodes": [
+    {"id": "st-chronica", "label": "圣克罗尼亚学园", "type": "location"},
+    {"id": "rinjinbu", "label": "邻人部", "type": "organization"},
+    {"id": "friendlessness", "label": "缺少朋友", "type": "theme"},
+    {"id": "zannen", "label": "残念系反差", "type": "theme"},
+    {"id": "galgame", "label": "美少女游戏/Galgame", "type": "activity"},
+    {"id": "church-school", "label": "教会学校氛围", "type": "setting"},
+    {"id": "school-events", "label": "校园与假日活动", "type": "scenario_group"},
+    {"id": "engagement", "label": "小鹰与星奈的童年婚约", "type": "plot_device"}
+  ],
+  "edges": [
+    {"from": "rinjinbu", "to": "friendlessness", "type": "created_to_address"},
+    {"from": "rinjinbu", "to": "st-chronica", "type": "located_in"},
+    {"from": "st-chronica", "to": "church-school", "type": "has_atmosphere"},
+    {"from": "zannen", "to": "rinjinbu", "type": "characterizes_members"},
+    {"from": "galgame", "to": "zannen", "type": "reveals"},
+    {"from": "school-events", "to": "friendlessness", "type": "tests_social_growth"},
+    {"from": "engagement", "to": "rinjinbu", "type": "creates_romantic_tension"}
+  ]
+}

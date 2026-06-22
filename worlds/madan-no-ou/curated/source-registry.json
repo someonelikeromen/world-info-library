@@ -1,0 +1,65 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldId": "madan-no-ou",
+  "displayName": "魔弹之王与战姬",
+  "curation": {
+    "method": "manual reading and synthesis",
+    "scriptExtractionUsedForCuratedText": false,
+    "curatedAt": "2026-06-22",
+    "notes": "本 curated 来源于人工阅读既有归档文件后整理；未改动 raw/imports/自动归档文件。"
+  },
+  "sources": [
+    {
+      "sourceId": "src-madan-no-ou-001",
+      "type": "user-file-source",
+      "title": "魔弹之王与战姬 / 魔弹之王与冻涟的雪姬 世界书",
+      "origin": "用户提供角色卡 character_book 导入",
+      "sourceKind": "character-card-character_book",
+      "location": "campaigns/world-library/worlds/madan-no-ou/raw/imported-worldbooks/mdzwyzj_card.worldbook.json",
+      "derivedArchivePaths": [
+        "campaigns/world-library/worlds/madan-no-ou/manifest.json",
+        "campaigns/world-library/worlds/madan-no-ou/world/world.json",
+        "campaigns/world-library/worlds/madan-no-ou/characters/characters.json",
+        "campaigns/world-library/worlds/madan-no-ou/factions/factions.json",
+        "campaigns/world-library/worlds/madan-no-ou/locations/locations.json",
+        "campaigns/world-library/worlds/madan-no-ou/power-systems/power-systems.json",
+        "campaigns/world-library/worlds/madan-no-ou/assets/items.json",
+        "campaigns/world-library/worlds/madan-no-ou/canon-reference/*.json"
+      ],
+      "reliability": "B",
+      "visibility": "public",
+      "entryCount": 93,
+      "summary": "单一世界书同时覆盖本篇《魔弹之王与战姬》与 IF/派生《冻涟的雪姬》模式。包含世界总纲、世界蓝图、七战姬、布琉努/吉斯塔特/亚斯瓦尔/墨吉涅等势力、龙具、黑弓、魔物和卷别剧情。",
+      "appliesTo": [
+        {"targetType": "world", "targetId": "madan-no-ou", "field": "all"},
+        {"targetType": "characters", "targetId": "characters-index", "field": "characters"},
+        {"targetType": "graph", "targetId": "knowledge-graph", "field": "nodes/edges"},
+        {"targetType": "graph", "targetId": "relationship-graph", "field": "nodes/edges"}
+      ],
+      "evidenceExamples": [
+        {"ref": "src-madan-no-ou-001#entry-0", "comment": "世界总纲", "usedFor": ["世界设定", "主要国家", "龙具/黑弓/魔物", "三部时间线"]},
+        {"ref": "src-madan-no-ou-001#entry-5", "comment": "世界蓝图", "usedFor": ["地理", "政治结构", "龙具传承", "黑弓谜团", "起点时间线"]},
+        {"ref": "src-madan-no-ou-001#entry-14", "comment": "莱德梅里兹与奥尔米兹的对立", "usedFor": ["公国传统对立", "艾莲与米拉关系"]},
+        {"ref": "src-madan-no-ou-001#entry-15..43", "comment": "人物条目群", "usedFor": ["人物清单", "关系图谱"]},
+        {"ref": "src-madan-no-ou-001#entry-44..", "comment": "卷别剧情/冻涟 IF 条目", "usedFor": ["事件线", "分支标注", "低置信说明"]}
+      ],
+      "conflictsWith": [],
+      "notes": "自动 source-registry 中 location 写为 imports/raw/world-sources/mdzwyzj.png；本 curated 记录以当前世界目录内 raw/imported-worldbooks 作为可追踪本地路径。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "conflict-main-vs-mira-if",
+      "description": "同一世界书合并本篇战姬线与《冻涟的雪姬》IF 线；米拉、拉娜、堤格尔父亲存活状况和人物相遇顺序可能随模式变化。",
+      "resolution": "world.json 采用本篇主线为默认 canonicalMain；IF 内容以 alternateContinuities 标注，不强行合并。",
+      "affectedFiles": ["world.json", "characters-index.json", "curation-notes.md"]
+    },
+    {
+      "id": "conflict-user-role-modes",
+      "description": "世界书含原作/取代/共存等 RP 模式规则，主角是否为堤格尔由模式变量决定。",
+      "resolution": "curated 档案按世界事实记录；RP 控制规则只在 notes/README 说明，不将 {{user}} 身份写死。",
+      "affectedFiles": ["README.md", "curation-notes.md"]
+    }
+  ]
+}

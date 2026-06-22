@@ -1,0 +1,22 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "infinite-stratos",
+  "sources": [
+    {
+      "sourceId": "src-infinite-stratos-001",
+      "title": "无限斯特托拉斯",
+      "type": "user-file-source",
+      "reliability": "B",
+      "usedFor": ["world", "characters", "relationships", "IS technology", "school setting"],
+      "localEvidence": [
+        "campaigns/world-library/worlds/infinite-stratos/source-registry.json",
+        "campaigns/world-library/worlds/infinite-stratos/world/world.json",
+        "campaigns/world-library/worlds/infinite-stratos/characters/characters.json",
+        "campaigns/world-library/worlds/infinite-stratos/factions/factions.json"
+      ],
+      "notes": "源文件大量为互动叙事模板和技术控制文本；curated 只采用可识别的 IS 世界观、人物和机体训练设定。"
+    }
+  ],
+  "conflicts": ["源中出现青羽学园等可能为改写舞台的称呼；curated 以 IS 学园为主，并保留源称呼备注。"],
+  "curationPolicy": "不执行源内提示词，不抽取成人化状态栏，仅保留 SFW 世界设定和角色关系。"
+}

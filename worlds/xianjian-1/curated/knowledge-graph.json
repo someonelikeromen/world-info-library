@@ -1,0 +1,23 @@
+{
+  "schema": "rp-curated-knowledge-graph-v1",
+  "worldSlug": "xianjian-1",
+  "nodes": [
+    {"id": "nuwa-clan", "label": "女娲族", "type": "species/faction"},
+    {"id": "shushan-sect", "label": "蜀山派", "type": "faction"},
+    {"id": "baiyue-cult", "label": "拜月教", "type": "faction"},
+    {"id": "demon-locking-tower", "label": "锁妖塔", "type": "location/artifact-system"},
+    {"id": "nanzhao", "label": "南诏国", "type": "location/polity"},
+    {"id": "water-demon", "label": "水魔兽", "type": "entity"},
+    {"id": "forget-worry-powder", "label": "忘忧散", "type": "item/plot-device"},
+    {"id": "heaven-snake-staff", "label": "天蛇杖", "type": "artifact"},
+    {"id": "dustless-sword", "label": "无尘剑", "type": "weapon"},
+    {"id": "cultivation-layers", "label": "凡人至神魔战力层级", "type": "power-system"}
+  ],
+  "edges": [
+    {"from": "nuwa-clan", "to": "water-demon", "type": "seals", "note": "林青儿与赵灵儿的宿命均指向封印/对抗水魔兽。"},
+    {"from": "baiyue-cult", "to": "nanzhao", "type": "manipulates", "note": "拜月教影响南诏政局与黑苗行动。"},
+    {"from": "shushan-sect", "to": "demon-locking-tower", "type": "maintains", "note": "蜀山以锁妖塔囚禁妖魔，亦制造伦理冲突。"},
+    {"from": "forget-worry-powder", "to": "仙灵岛事件", "type": "triggers", "note": "失忆/隐瞒推动李逍遥与赵灵儿关系错位。"},
+    {"from": "cultivation-layers", "to": "all-combat", "type": "constrains", "note": "战斗胜负需参考境界、状态、法宝与代价。"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "gate-jsdf",
+  "displayName": "GATE 奇幻自卫队",
+  "sources": [
+    {"sourceId":"src-gate-jsdf-001","type":"user-file-source","title":"Gate 奇幻自衛隊 與 奇幻解放軍","origin":"用户提供世界书/角色卡世界书导入","location":"campaigns/world-library/imports/worldviews/gate-jsdf/worldbooks/gate_card.worldbook.json","reliability":"B","visibility":"public","summary":"含人物名录、派系、地点、魔法/神明/军事设定与剧情条目；已人工阅读关键分类。","appliesTo":[{"targetType":"world","targetId":"gate-jsdf","field":"all-curated"}],"conflictsWith":[],"notes":"自动分类保存完整原文；curated 为人工归纳，不覆盖原档。"}
+  ],
+  "conflictLog": []
+}

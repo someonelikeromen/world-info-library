@@ -1,0 +1,15 @@
+{
+  "schema": "curated-source-registry-v1",
+  "worldSlug": "acg-character-database",
+  "displayName": "ACG 角色心理/类脑数据库",
+  "curatedFrom": [
+    {"sourceId": "src-acg-character-database-001", "title": "✨SSSR-类脑同人角色数据库2025年2月号", "type": "user-file-source", "reliability": "B", "localRegistry": "campaigns/world-library/worlds/acg-character-database/source-registry.json"},
+    {"sourceId": "src-acg-character-database-002", "title": "✨SSSR-类脑同人角色数据库2025年3月号", "type": "user-file-source", "reliability": "B", "localRegistry": "campaigns/world-library/worlds/acg-character-database/source-registry.json"},
+    {"sourceId": "src-acg-character-database-003", "title": "咩咩_acg角色心理模型_1.3.0", "type": "user-file-source", "reliability": "B", "localRegistry": "campaigns/world-library/worlds/acg-character-database/source-registry.json"}
+  ],
+  "classificationFilesRead": [
+    "campaigns/world-library/worlds/acg-character-database/characters/characters.json",
+    "campaigns/world-library/worlds/acg-character-database/world/world.json"
+  ],
+  "excludedFromCuratedDetail": ["露骨身体细节", "性暴力细节", "成人作品具体场景", "预设使用教程中的操作指令"]
+}

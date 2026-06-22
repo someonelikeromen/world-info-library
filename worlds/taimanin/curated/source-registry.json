@@ -1,0 +1,21 @@
+{
+  "schema": "rp-curated-source-registry-v1",
+  "worldSlug": "taimanin",
+  "sources": [
+    {
+      "sourceId": "src-taimanin-001",
+      "title": "0010对魔忍",
+      "type": "user-file-source",
+      "reliability": "B",
+      "usedFor": ["world", "characters", "ninjutsu", "factions", "locations", "relationships"],
+      "localEvidence": [
+        "campaigns/world-library/worlds/taimanin/source-registry.json",
+        "campaigns/world-library/worlds/taimanin/world/world.json",
+        "campaigns/world-library/worlds/taimanin/characters/characters.json"
+      ],
+      "notes": "人工阅读世界设定、五车学园及主要人物条目。"
+    }
+  ],
+  "conflicts": [],
+  "curationPolicy": "源内包含成人化玩家设定和状态栏控制文本；curated 层不采用这些内容，只保留 SFW 世界观、组织、忍法和人物关系。"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "cheng-long-adventures",
+  "relationships": [
+    {"from": "成龙", "to": "小玉", "type": "叔侄/保护与被拖入冒险", "status": "主角团核心"},
+    {"from": "成龙", "to": "老爹", "type": "家人/导师", "status": "魔法知识来源"},
+    {"from": "成龙", "to": "布莱克警长", "type": "朋友/十三区合作", "status": "官方支援"},
+    {"from": "老爹", "to": "特鲁", "type": "师徒", "status": "特鲁转正后学习气魔法"},
+    {"from": "瓦龙", "to": "圣主", "type": "合作被利用", "status": "圣主常背叛承诺"},
+    {"from": "瓦龙", "to": "阿奋/拉苏/周/阿福", "type": "首领与部下", "status": "黑手帮行动队"},
+    {"from": "圣主", "to": "八大恶魔", "type": "同类/互相欺骗", "status": "圣主曾独自逃脱并背叛"},
+    {"from": "八仙", "to": "八大恶魔", "type": "封印者与被封印者", "status": "上古正邪平衡"},
+    {"from": "塔拉", "to": "鬼影兵团", "type": "统御", "status": "面具时代威胁"},
+    {"from": "小玉", "to": "鬼影兵团", "type": "短暂掌控/被侵蚀风险", "status": "源自塔拉图案事件"}
+  ]
+}

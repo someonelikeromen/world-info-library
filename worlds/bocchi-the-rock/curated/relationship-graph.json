@@ -1,0 +1,15 @@
+{
+  "schema": "rp-curated-relationship-graph-v1",
+  "worldSlug": "bocchi-the-rock",
+  "nodes": ["gotoh-hitori", "ijichi-nijika", "yamada-ryo", "kita-ikuyo", "ijichi-seika"],
+  "edges": [
+    {"from": "ijichi-nijika", "to": "kessoku-band", "type": "founder_leader", "description": "虹夏组建并统整纽带乐队。"},
+    {"from": "gotoh-hitori", "to": "kita-ikuyo", "type": "guitar_support", "description": "喜多在波奇鼓励下回归，并由波奇指导吉他。"},
+    {"from": "kita-ikuyo", "to": "yamada-ryo", "type": "admiration", "description": "喜多因憧憬山田凉而加入乐队。"},
+    {"from": "yamada-ryo", "to": "ijichi-nijika", "type": "best_friends", "description": "凉是虹夏挚友，受虹夏邀请重新追逐音乐梦。"},
+    {"from": "ijichi-seika", "to": "ijichi-nijika", "type": "sisters_guardian", "description": "星歌是虹夏姐姐，基本抚养虹夏，并经营 STARRY。"},
+    {"from": "ijichi-seika", "to": "starry", "type": "manager", "description": "星歌担任展演厅 STARRY 店长。"},
+    {"from": "ijichi-nijika", "to": "gotoh-hitori", "type": "bandmates", "description": "虹夏引导乐队前进，波奇提供吉他核心战力。"},
+    {"from": "yamada-ryo", "to": "gotoh-hitori", "type": "bandmates", "description": "凉常冷静吐槽波奇，但本质是队友。"}
+  ]
+}
