@@ -1,0 +1,135 @@
+{
+  "schema": "rp-map-delta-v1",
+  "deltaId": "mdelta-sess-YYYYMMDD-01",
+  "campaignId": "camp-<world-slug>-<name>",
+  "sessionId": "sess-YYYYMMDD-01",
+  "currentWorld": {
+    "worldId": "<worldId>",
+    "worldSlug": "<world-slug>",
+    "worldName": "<worldName>"
+  },
+  "baseLocationSources": [
+    "worlds/<world-slug>/curated/world.json",
+    "campaign state mapState"
+  ],
+  "mapDeltas": [
+    {
+      "id": "map-delta-001",
+      "operation": "create-map|update-map|archive-map|annotate-map",
+      "mapId": "map-001",
+      "mapName": "<map display name>",
+      "before": null,
+      "after": {
+        "scale": "scene|site|city|region|world|abstract",
+        "orientation": "<north/up/relative>",
+        "playerVisibleDescription": "<safe map summary>",
+        "gmOnlyDescription": "<hidden topology or secrets>"
+      },
+      "visibility": "player_known",
+      "confidence": "B",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": []
+    }
+  ],
+  "locationDeltas": [
+    {
+      "id": "loc-delta-001",
+      "operation": "create|update|reveal|conceal|destroy|restore|rename|annotate",
+      "locationId": "<curated or campaign location id>",
+      "newLocationId": null,
+      "parentLocationId": "<parent id or null>",
+      "mapId": "map-001",
+      "locationType": "room|building|district|settlement|region|route|landmark|abstract",
+      "nameBefore": null,
+      "nameAfter": "<location name>",
+      "statusBefore": "unknown",
+      "statusAfter": "known|visited|rumored|hidden|sealed|dangerous|destroyed|changed",
+      "descriptionBefore": null,
+      "playerVisibleDescriptionAfter": "<what players see or know>",
+      "gmOnlyDescriptionAfter": "<hidden details>",
+      "visibilityBefore": "unknown",
+      "visibilityAfter": "player_known",
+      "coordinates": {
+        "system": "abstract|grid|latlong|relative",
+        "x": null,
+        "y": null,
+        "z": null,
+        "relativeTo": null,
+        "notes": "<optional>"
+      },
+      "tags": [],
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B",
+      "lowConfidenceNotes": "<if applicable>"
+    }
+  ],
+  "routeDeltas": [
+    {
+      "id": "route-delta-001",
+      "operation": "create|update|reveal|block|unblock|destroy|annotate",
+      "routeId": "route-001",
+      "fromLocationId": "<location id>",
+      "toLocationId": "<location id>",
+      "routeType": "path|road|portal|transit|line-of-sight|social-access|unknown",
+      "travelTimeBefore": null,
+      "travelTimeAfter": "<duration or unknown>",
+      "statusBefore": "unknown",
+      "statusAfter": "open|blocked|dangerous|hidden|one-way|conditional",
+      "requirements": [],
+      "hazards": [],
+      "visibilityBefore": "unknown",
+      "visibilityAfter": "player_known",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B"
+    }
+  ],
+  "occupancyDeltas": [
+    {
+      "id": "occ-delta-001",
+      "operation": "arrive|depart|move|appear|disappear|unknown",
+      "cardOrCharacterId": "pc-001",
+      "fromLocationId": "<old location or null>",
+      "toLocationId": "<new location or null>",
+      "time": "<in-world time>",
+      "visibility": "player_known",
+      "sourceEventIds": ["evt-001"],
+      "confidence": "A"
+    }
+  ],
+  "hazardAndAssetDeltas": [
+    {
+      "id": "hazard-delta-001",
+      "operation": "create|update|reveal|neutralize|conceal",
+      "targetId": "hazard-or-asset-001",
+      "locationId": "<location id>",
+      "type": "hazard|resource|clue|treasure|barrier|npc-presence|environmental-state",
+      "statusBefore": "unknown",
+      "statusAfter": "active|inactive|depleted|hidden|removed",
+      "playerVisibleDescription": "<safe description>",
+      "gmOnlyDescription": "<private mechanics or secret>",
+      "visibility": "gm_only",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B"
+    }
+  ],
+  "crossReferenceChecks": {
+    "referencedLocationIds": [],
+    "referencedMapIds": ["map-001"],
+    "referencedRouteIds": [],
+    "referencedCardOrCharacterIds": ["pc-001"],
+    "referencedEventIds": ["evt-001"],
+    "unresolvedRefs": [],
+    "notes": "Resolve against curated world locations plus campaign-created map/location ids."
+  },
+  "applicationPolicy": {
+    "applyToCurated": false,
+    "applyToCampaignState": true,
+    "requiresGmApproval": true,
+    "playerMapSafe": false
+  },
+  "createdAt": "<ISO-8601>",
+  "updatedAt": "<ISO-8601>"
+}

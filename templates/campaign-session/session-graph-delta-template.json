@@ -1,0 +1,122 @@
+{
+  "schema": "rp-session-graph-delta-v1",
+  "deltaId": "gdelta-sess-YYYYMMDD-01",
+  "campaignId": "camp-<world-slug>-<name>",
+  "sessionId": "sess-YYYYMMDD-01",
+  "currentWorld": {
+    "worldId": "<worldId>",
+    "worldSlug": "<world-slug>",
+    "worldName": "<worldName>"
+  },
+  "baseGraphs": {
+    "knowledgeGraphPath": "worlds/<world-slug>/curated/knowledge-graph.json",
+    "relationshipGraphPath": "worlds/<world-slug>/curated/relationship-graph.json",
+    "charactersIndexPath": "worlds/<world-slug>/curated/characters-index.json"
+  },
+  "relationshipDeltas": [
+    {
+      "id": "rel-delta-001",
+      "operation": "create|update|delete|reveal|conceal|annotate",
+      "targetRelationshipId": "<existing rel id or null>",
+      "newRelationshipId": "camp-rel-001",
+      "from": "<character id or card id>",
+      "to": "<character id or card id>",
+      "typeBefore": null,
+      "typeAfter": "ally|rival|enemy|neutral|mentor|debt|romance|family|unknown",
+      "directional": false,
+      "visibilityBefore": "gm_only",
+      "visibilityAfter": "player_known",
+      "playerKnownBefore": false,
+      "playerKnownAfter": true,
+      "strengthBefore": {
+        "level": "D",
+        "score": 30,
+        "description": "<before>"
+      },
+      "strengthAfter": {
+        "level": "C",
+        "score": 55,
+        "description": "<after>"
+      },
+      "facetDeltas": {
+        "trust": "+1 step",
+        "affection": null,
+        "fear": null,
+        "suspicion": "-1 step",
+        "debt": null,
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescriptionDelta": "<what players can know>",
+      "gmTruthDelta": "<private relationship truth>",
+      "reason": "<fictional trigger>",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B",
+      "lowConfidenceNotes": "<if confidence C/D/E, explain>"
+    }
+  ],
+  "knowledgeDeltas": [
+    {
+      "id": "kg-delta-001",
+      "operation": "create|update|reveal|conceal|contradict|resolve-contradiction|annotate",
+      "targetKnowledgeNodeId": "<kg node id or null>",
+      "newKnowledgeNodeId": "camp-kg-001",
+      "type": "fact|clue|rule|location|character-secret|power-system|event|rumor",
+      "title": "<knowledge title>",
+      "summaryBefore": null,
+      "summaryAfter": "<new or changed knowledge>",
+      "fullTextAfter": "<optional full GM text>",
+      "tags": [],
+      "visibilityBefore": "secret",
+      "visibilityAfter": "player_known",
+      "knownByCardIds": ["pc-001"],
+      "revealConditions": [
+        {
+          "condition": "<what caused or can cause reveal>",
+          "satisfied": true,
+          "eventId": "evt-001"
+        }
+      ],
+      "contradictedBy": [],
+      "resolvedContradictions": [],
+      "reason": "<discovery, deduction, confession, document, etc.>",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B",
+      "lowConfidenceNotes": "<if applicable>"
+    }
+  ],
+  "characterIndexDeltas": [
+    {
+      "id": "char-delta-001",
+      "operation": "create-card-link|update-status|add-alias|add-role|add-note|reveal-private-field",
+      "targetCharacterId": "<curated character id or null>",
+      "targetCardId": "<campaign card id or null>",
+      "field": "<field name>",
+      "before": null,
+      "after": "<new value>",
+      "visibility": "gm_only",
+      "sourceEventIds": ["evt-001"],
+      "sourceRefs": [],
+      "confidence": "B"
+    }
+  ],
+  "crossReferenceChecks": {
+    "referencedCardIds": ["pc-001", "npc-001"],
+    "referencedCharacterIds": [],
+    "referencedKnowledgeNodeIds": [],
+    "referencedRelationshipIds": [],
+    "referencedEventIds": ["evt-001"],
+    "unresolvedRefs": [],
+    "notes": "All refs should resolve to campaign/session state or curated files before finalizing."
+  },
+  "applicationPolicy": {
+    "applyToCurated": false,
+    "applyToCampaignState": true,
+    "requiresGmApproval": true,
+    "playerJournalSafe": false
+  },
+  "createdAt": "<ISO-8601>",
+  "updatedAt": "<ISO-8601>"
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "rp-campaign-state-v1",
+  "stateId": "state-<campaign-id>-latest",
+  "campaignId": "camp-<world-slug>-<name>",
+  "basedOnSessionId": "sess-YYYYMMDD-01-or-initial",
+  "currentWorld": {
+    "worldId": "<worldId>",
+    "worldSlug": "<world-slug>",
+    "worldName": "<worldName>",
+    "curatedRoot": "worlds/<world-slug>/curated/"
+  },
+  "clock": {
+    "currentInWorldTime": "<time>",
+    "currentDateLabel": "<date label>",
+    "elapsedSinceCampaignStart": "<duration>",
+    "pendingTimeSkips": []
+  },
+  "activeLocation": {
+    "locationId": "<location id from curated or campaign map>",
+    "locationName": "<display name>",
+    "parentLocationId": null,
+    "mapId": "<map id or null>",
+    "visibility": "player_known",
+    "confidence": "B",
+    "sourceRefs": []
+  },
+  "knownLocations": [
+    {
+      "locationId": "<location id>",
+      "locationName": "<display name>",
+      "status": "known|visited|rumored|hidden|destroyed|changed",
+      "lastVisitedSessionId": null,
+      "playerVisibleDescription": "<safe description>",
+      "gmOnlyDescription": "<private facts>",
+      "visibility": "player_known",
+      "confidence": "B",
+      "sourceRefs": []
+    }
+  ],
+  "characterStates": [
+    {
+      "cardId": "pc-001",
+      "linkedCharacterId": null,
+      "name": "<player/protagonist name>",
+      "type": "player-character",
+      "currentLocationId": "<location id>",
+      "availability": "active",
+      "vitals": {
+        "health": "normal",
+        "injuries": [],
+        "fatigue": "none",
+        "stress": "none"
+      },
+      "resources": {
+        "currency": null,
+        "power": {},
+        "consumables": {},
+        "custom": {}
+      },
+      "conditions": [],
+      "inventory": [],
+      "abilitiesUnlocked": [],
+      "goals": {
+        "shortTerm": [],
+        "longTerm": [],
+        "secret": []
+      },
+      "reputation": [],
+      "visibility": "player_known",
+      "confidence": "A",
+      "sourceRefs": []
+    },
+    {
+      "cardId": "npc-001",
+      "linkedCharacterId": "<curated character id or null>",
+      "name": "<npc name>",
+      "type": "npc",
+      "currentLocationId": "<location id or unknown>",
+      "availability": "active|offscreen|missing|unknown",
+      "publicState": "<what players know>",
+      "gmOnlyState": "<hidden agenda, true status, secrets>",
+      "visibility": "gm_only",
+      "confidence": "B",
+      "sourceRefs": []
+    }
+  ],
+  "relationshipOverlay": {
+    "baseGraphPath": "worlds/<world-slug>/curated/relationship-graph.json",
+    "activeRelationshipIds": [],
+    "campaignEdges": [
+      {
+        "id": "camp-rel-001",
+        "from": "pc-001",
+        "to": "npc-001",
+        "type": "ally|rival|enemy|family|mentor|debt|unknown",
+        "directional": false,
+        "strength": {
+          "level": "C",
+          "score": 50,
+          "description": "<current relationship strength>"
+        },
+        "facets": {
+          "trust": "C",
+          "affection": null,
+          "fear": null,
+          "suspicion": null,
+          "debt": null,
+          "loyalty": null,
+          "hostility": null
+        },
+        "playerVisibleDescription": "<safe description>",
+        "gmTruth": "<private truth>",
+        "visibility": "player_known",
+        "confidence": "B",
+        "sourceRefs": []
+      }
+    ],
+    "pendingRelationshipDeltas": []
+  },
+  "knowledgeOverlay": {
+    "baseGraphPath": "worlds/<world-slug>/curated/knowledge-graph.json",
+    "playerKnownNodeIds": [],
+    "gmOnlyNodeIds": [],
+    "revealedFacts": [
+      {
+        "id": "fact-001",
+        "linkedKnowledgeNodeId": null,
+        "title": "<revealed knowledge>",
+        "summary": "<what is known>",
+        "knownByCardIds": ["pc-001"],
+        "revealSessionId": "sess-YYYYMMDD-01",
+        "revealEventId": "evt-001",
+        "visibility": "player_known",
+        "confidence": "B",
+        "sourceRefs": []
+      }
+    ],
+    "lockedSecrets": [],
+    "contradictions": []
+  },
+  "mapState": {
+    "mapIds": [],
+    "visibleRegionIds": [],
+    "hiddenRegionIds": [],
+    "blockedRouteIds": [],
+    "activeHazards": [],
+    "occupantsByLocation": {},
+    "lastMapDeltaIds": []
+  },
+  "continuityFlags": {
+    "canonAnchorsPreserved": [],
+    "branchDivergences": [],
+    "retconsPendingApproval": [],
+    "openThreads": [],
+    "resolvedThreads": []
+  },
+  "lowConfidenceNotes": [
+    {
+      "id": "lc-state-001",
+      "topic": "<uncertain ongoing state>",
+      "currentAssumption": "<assumed value>",
+      "whyLowConfidence": "<reason>",
+      "visibility": "gm_only",
+      "impactIfWrong": "low|medium|high",
+      "reviewAction": "<how to verify>",
+      "sourceRefs": []
+    }
+  ],
+  "sourceRefs": [],
+  "createdAt": "<ISO-8601>",
+  "updatedAt": "<ISO-8601>"
+}

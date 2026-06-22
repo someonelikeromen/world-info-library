@@ -1,0 +1,147 @@
+{
+  "schema": "rp-session-v1",
+  "sessionId": "sess-YYYYMMDD-01",
+  "campaignId": "camp-<world-slug>-<name>",
+  "sessionTitle": "<session title>",
+  "status": "planned",
+  "currentWorld": {
+    "worldId": "<worldId>",
+    "worldSlug": "<world-slug>",
+    "worldName": "<worldName>"
+  },
+  "sessionScope": {
+    "startStateId": "state-<campaign-id>-before-session",
+    "endStateId": "state-<campaign-id>-after-session-or-null",
+    "startInWorldTime": "<in-world time>",
+    "endInWorldTime": "<in-world time or null>",
+    "startLocationId": "<location id>",
+    "expectedFocus": ["<scene goal>", "<character arc>"]
+  },
+  "participants": {
+    "players": [
+      {
+        "playerId": "player-001",
+        "displayName": "<player name>",
+        "characterCardId": "pc-001",
+        "visibility": "player_known"
+      }
+    ],
+    "protagonists": ["pc-001"],
+    "activeNpcCards": ["npc-001"],
+    "offscreenNpcCards": []
+  },
+  "runtimeRetrieval": {
+    "retrievalLog": [
+      {
+        "id": "ret-001",
+        "purpose": "session prep | rule lookup | character lookup | location lookup | continuity check",
+        "path": "worlds/<world-slug>/curated/<file>",
+        "queriedIds": ["<world/character/location/kg/rel id>"],
+        "summary": "<what was retrieved>",
+        "visibility": "gm_only",
+        "confidence": "B"
+      }
+    ],
+    "unreadButRelevant": [],
+    "retrievalGaps": [
+      {
+        "topic": "<missing detail>",
+        "risk": "low|medium|high",
+        "fallback": "improvise as non-canon branch and mark low confidence"
+      }
+    ]
+  },
+  "sceneList": [
+    {
+      "sceneId": "scene-001",
+      "title": "<scene title>",
+      "status": "planned",
+      "locationId": "<location id>",
+      "inWorldStartTime": "<time>",
+      "inWorldEndTime": null,
+      "povCharacterCardId": "pc-001",
+      "presentCharacterCardIds": ["pc-001"],
+      "visibleKnowledgeNodeIds": [],
+      "privateKnowledgeNodeIds": [],
+      "goals": [],
+      "beats": [],
+      "outcomeSummary": "",
+      "sourceRefs": []
+    }
+  ],
+  "eventLog": [
+    {
+      "eventId": "evt-001",
+      "sceneId": "scene-001",
+      "order": 1,
+      "inWorldTime": "<time>",
+      "actorCardId": "pc-001",
+      "eventType": "dialogue|action|combat|travel|discovery|downtime|gm-ruling",
+      "summary": "<event summary>",
+      "mechanicalImpact": "<state/resource changes>",
+      "visibility": "player_known",
+      "confidence": "A",
+      "sourceRefs": []
+    }
+  ],
+  "playerAndProtagonistStateChanges": [
+    {
+      "cardId": "pc-001",
+      "healthDelta": 0,
+      "resourceDeltas": {},
+      "conditionAdded": [],
+      "conditionRemoved": [],
+      "inventoryAdded": [],
+      "inventoryRemoved": [],
+      "notes": "<growth, trauma, promises, flags>",
+      "sourceEventIds": ["evt-001"]
+    }
+  ],
+  "generatedDeltas": {
+    "graphDeltaFile": "session-graph-delta-template.json or instance path",
+    "mapDeltaFile": "map-delta-template.json or instance path",
+    "stateUpdateTarget": "state-template.json or campaign state instance"
+  },
+  "knowledgeRevealsThisSession": [
+    {
+      "knowledgeId": "<kg node id or campaign fact id>",
+      "fromVisibility": "gm_only",
+      "toVisibility": "player_known",
+      "revealedToCardIds": ["pc-001"],
+      "revealEventId": "evt-001",
+      "summary": "<what exactly became known>",
+      "confidence": "B",
+      "sourceRefs": []
+    }
+  ],
+  "relationshipDeltasThisSession": [
+    {
+      "relationshipId": "<existing rel id or new id>",
+      "fromCardOrCharacterId": "pc-001",
+      "toCardOrCharacterId": "npc-001",
+      "changeType": "create|update|weaken|strengthen|reveal|conceal",
+      "summary": "<relationship change>",
+      "sourceEventIds": ["evt-001"],
+      "visibility": "player_known",
+      "confidence": "B"
+    }
+  ],
+  "lowConfidenceNotes": [
+    {
+      "id": "lc-001",
+      "topic": "<uncertain fact>",
+      "whyLowConfidence": "<reason>",
+      "impactIfWrong": "low|medium|high",
+      "reviewAction": "check curated source or GM ruling",
+      "sourceRefs": []
+    }
+  ],
+  "sessionSummary": {
+    "playerVisibleSummary": "<safe recap>",
+    "gmOnlySummary": "<private recap>",
+    "openQuestions": [],
+    "nextSessionHooks": []
+  },
+  "createdAt": "<ISO-8601>",
+  "updatedAt": "<ISO-8601>"
+}

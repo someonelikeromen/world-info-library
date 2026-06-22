@@ -1,0 +1,112 @@
+{
+  "schema": "rp-campaign-v1",
+  "campaignId": "camp-<world-slug>-<name>",
+  "campaignName": "<campaign display name>",
+  "status": "planning",
+  "language": "zh-CN",
+  "currentWorld": {
+    "worldId": "<worldId from curated/world.json>",
+    "worldSlug": "<world-slug>",
+    "worldName": "<worldName>",
+    "curatedRoot": "worlds/<world-slug>/curated/",
+    "loadedFiles": [
+      "world.json",
+      "source-registry.json",
+      "characters-index.json",
+      "knowledge-graph.json",
+      "relationship-graph.json",
+      "curation-notes.md"
+    ],
+    "worldAssumptions": [
+      {
+        "id": "assumption-001",
+        "text": "<campaign-specific interpretation that does not rewrite curated facts>",
+        "visibility": "gm_only",
+        "confidence": "B",
+        "sourceRefs": []
+      }
+    ]
+  },
+  "characterCards": [
+    {
+      "cardId": "pc-001",
+      "type": "player-character",
+      "linkedCharacterId": null,
+      "displayName": "<player/protagonist name>",
+      "playerName": "<optional player name>",
+      "role": "protagonist",
+      "visibility": "player_known",
+      "publicSummary": "<what other player-visible records may state>",
+      "gmNotes": "<private hooks, secrets, constraints>",
+      "sourceRefs": []
+    },
+    {
+      "cardId": "npc-001",
+      "type": "canon-or-original-npc",
+      "linkedCharacterId": "<character id from characters-index.json or null>",
+      "displayName": "<npc name>",
+      "role": "supporting",
+      "visibility": "public",
+      "publicSummary": "<short summary>",
+      "gmNotes": "<private motives or uncertainties>",
+      "sourceRefs": []
+    }
+  ],
+  "runtimeRetrievalPolicy": {
+    "defaultLookupOrder": [
+      "manual-curation/INDEX.md",
+      "worlds/<world-slug>/curated/README.md",
+      "worlds/<world-slug>/curated/world.json",
+      "worlds/<world-slug>/curated/characters-index.json",
+      "worlds/<world-slug>/curated/knowledge-graph.json",
+      "worlds/<world-slug>/curated/relationship-graph.json",
+      "worlds/<world-slug>/curated/source-registry.json",
+      "worlds/<world-slug>/curated/curation-notes.md",
+      "campaign/session state and deltas"
+    ],
+    "doNotModifyCurated": true,
+    "preferPlayerVisibleFacts": true,
+    "requireSourceRefsForMajorChanges": true,
+    "lowConfidenceAction": "mark_and_queue_review"
+  },
+  "visibilityPolicy": {
+    "defaultNewFactVisibility": "gm_only",
+    "allowedValues": ["public", "player_known", "gm_only", "secret", "unknown"],
+    "leakPrevention": "Do not narrate gm_only or secret fields unless a reveal delta changes visibility.",
+    "playerJournalMode": "omit_or_summarize_private_fields"
+  },
+  "safetyAndTone": {
+    "rating": "<table rating or content limits>",
+    "tone": ["<adventure>", "<drama>"],
+    "hardLimits": [],
+    "softLimits": [],
+    "canonFlexibility": "sandbox: preserve curated facts, allow non-conflicting branches"
+  },
+  "campaignClock": {
+    "calendarSystem": "<world default or custom>",
+    "startTime": "<in-world start time>",
+    "currentTime": "<in-world current time>",
+    "timeScaleNotes": "<how turns/scenes advance time>"
+  },
+  "campaignLocations": {
+    "currentLocationId": "<location id>",
+    "knownLocationIds": [],
+    "activeMapIds": [],
+    "locationNotes": []
+  },
+  "continuity": {
+    "canonAnchors": [],
+    "branchDecisions": [],
+    "retcons": [],
+    "openThreads": [],
+    "resolvedThreads": []
+  },
+  "qualityGates": {
+    "jsonSchemaValidation": "pending",
+    "crossReferenceValidation": "pending",
+    "highRiskSampleReview": "pending",
+    "runtimeRetrievalDocs": "pending"
+  },
+  "createdAt": "<ISO-8601>",
+  "updatedAt": "<ISO-8601>"
+}
