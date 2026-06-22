@@ -1,5 +1,5 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "toaru",
   "displayName": "魔法禁书目录 / 超炮相关",
   "curatedFrom": [
@@ -17,5 +17,740 @@
       "notes": "本地世界书归档；curated 层人工阅读 comments、世界观与人物条目后整理。"
     }
   ],
-  "excludedAsInstructions": ["[InitVar]", "[mvu_update]变量更新规则", "变量列表", "剧情规则中的执行格式", "剧情线标记"]
+  "excludedAsInstructions": [
+    "[InitVar]",
+    "[mvu_update]变量更新规则",
+    "变量列表",
+    "剧情规则中的执行格式",
+    "剧情线标记"
+  ],
+  "campaignId": "toaru",
+  "sources": [
+    {
+      "sourceId": "src-toaru-001",
+      "title": "魔法禁书目录_v1.0",
+      "type": "user-file-source",
+      "sourceKind": "character-card-or-worldbook-derived-archive",
+      "localRegistry": "campaigns/world-library/worlds/toaru/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/toaru/characters/characters.json",
+        "campaigns/world-library/worlds/toaru/world/world.json",
+        "campaigns/world-library/worlds/toaru/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "本地世界书归档；curated 层人工阅读 comments、世界观与人物条目后整理。；source-ref 修复：登记为派生片段 sourceId 的父来源，不新增 canon 事实。"
+    },
+    {
+      "sourceId": "characters.json comment 一方通行",
+      "title": "characters.json comment 一方通行",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "一方通行"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 上条当麻",
+      "title": "characters.json comment 上条当麻",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "上条当麻"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 五和",
+      "title": "characters.json comment 五和",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "五和"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 亚雷斯塔",
+      "title": "characters.json comment 亚雷斯塔",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "亚雷斯塔"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 佐天泪子",
+      "title": "characters.json comment 佐天泪子",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "佐天泪子"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 冥土追魂",
+      "title": "characters.json comment 冥土追魂",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "冥土追魂"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 初春饰利",
+      "title": "characters.json comment 初春饰利",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "初春饰利"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 削板军霸",
+      "title": "characters.json comment 削板军霸",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "削板军霸"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 前方之风",
+      "title": "characters.json comment 前方之风",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "前方之风"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 史提尔·马格努斯",
+      "title": "characters.json comment 史提尔·马格努斯",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "史提尔·马格努斯"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 右方之火",
+      "title": "characters.json comment 右方之火",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "右方之火"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 后方之水",
+      "title": "characters.json comment 后方之水",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "后方之水"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 吹寄制理",
+      "title": "characters.json comment 吹寄制理",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "吹寄制理"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 土御门元春",
+      "title": "characters.json comment 土御门元春",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "土御门元春"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 垣根帝督",
+      "title": "characters.json comment 垣根帝督",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "垣根帝督"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 奥索拉",
+      "title": "characters.json comment 奥索拉",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "奥索拉"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 奥雷欧斯",
+      "title": "characters.json comment 奥雷欧斯",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "奥雷欧斯"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 姬神秋沙",
+      "title": "characters.json comment 姬神秋沙",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "姬神秋沙"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 婚后光子",
+      "title": "characters.json comment 婚后光子",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "婚后光子"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 左方之地",
+      "title": "characters.json comment 左方之地",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "左方之地"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 帆风润子",
+      "title": "characters.json comment 帆风润子",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "帆风润子"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 建宫斋字",
+      "title": "characters.json comment 建宫斋字",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "建宫斋字"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 御坂美琴",
+      "title": "characters.json comment 御坂美琴",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "御坂美琴"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 最后之作",
+      "title": "characters.json comment 最后之作",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "最后之作"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 月咏小萌",
+      "title": "characters.json comment 月咏小萌",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "月咏小萌"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 木原唯一",
+      "title": "characters.json comment 木原唯一",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "木原唯一"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 木原数多",
+      "title": "characters.json comment 木原数多",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "木原数多"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 木原脑干",
+      "title": "characters.json comment 木原脑干",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "木原脑干"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 欧提努斯",
+      "title": "characters.json comment 欧提努斯",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "欧提努斯"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 欧莉安娜",
+      "title": "characters.json comment 欧莉安娜",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "欧莉安娜"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 泷壶理后",
+      "title": "characters.json comment 泷壶理后",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "泷壶理后"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 滨面仕上",
+      "title": "characters.json comment 滨面仕上",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "滨面仕上"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 狱彩海美",
+      "title": "characters.json comment 狱彩海美",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "狱彩海美"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 白井黑子",
+      "title": "characters.json comment 白井黑子",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "白井黑子"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 神裂火织",
+      "title": "characters.json comment 神裂火织",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "神裂火织"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 结标淡希",
+      "title": "characters.json comment 结标淡希",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "结标淡希"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 绢旗最爱",
+      "title": "characters.json comment 绢旗最爱",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "绢旗最爱"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 艾扎力",
+      "title": "characters.json comment 艾扎力",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "艾扎力"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 芙兰达·塞维伦",
+      "title": "characters.json comment 芙兰达·塞维伦",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "芙兰达·塞维伦"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 芙蕾梅亚·塞维伦",
+      "title": "characters.json comment 芙蕾梅亚·塞维伦",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "芙蕾梅亚·塞维伦"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 茵蒂克丝",
+      "title": "characters.json comment 茵蒂克丝",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "茵蒂克丝"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 莎夏·克洛伊洁芙",
+      "title": "characters.json comment 莎夏·克洛伊洁芙",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "莎夏·克洛伊洁芙"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 萝拉·斯图亚特",
+      "title": "characters.json comment 萝拉·斯图亚特",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "萝拉·斯图亚特"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 誉望万化",
+      "title": "characters.json comment 誉望万化",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "誉望万化"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 雅妮丝",
+      "title": "characters.json comment 雅妮丝",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "雅妮丝"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 雪莉·克伦威尔",
+      "title": "characters.json comment 雪莉·克伦威尔",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "雪莉·克伦威尔"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 食蜂操祈",
+      "title": "characters.json comment 食蜂操祈",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "食蜂操祈"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 麦野沈利",
+      "title": "characters.json comment 麦野沈利",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "麦野沈利"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 黄泉川爱穗",
+      "title": "characters.json comment 黄泉川爱穗",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "黄泉川爱穗"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 黑夜海鸟",
+      "title": "characters.json comment 黑夜海鸟",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-toaru-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-toaru-001",
+      "location": "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "黑夜海鸟"
+      }
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "source-ref 修复（2026-06-22）：将 comment/entryIndex/#entry 形式 sourceRefs 登记为父来源的派生别名；这些条目只修复 provenance 可追踪性，不新增或改写 canon 事实。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

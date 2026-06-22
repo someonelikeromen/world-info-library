@@ -1,1 +1,233 @@
-{"schema":"rp-world-v1","worldId":"dungeon-fighter-online","worldName":"地下城与勇士 / 阿拉德","aliases":["DNF","DFO","阿拉德"],"genre":["地下城冒险","多职业战斗","奇幻灾厄"],"summary":"阿拉德是多国家、多种族和多职业者并存的大陆。转移现象、使徒、帝国战争、魔界与天界科技构成主要冲突；冒险家通过职业技艺、魔法、鬼手、枪械、格斗等体系成长。","sandboxPrinciple":"不固定使徒讨伐与主线，冒险者行动可改变地区政治和灾厄进程。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["职业体系过多，本档只做上位分类。"],"powerSystems":[{"id":"adventurer-classes","name":"冒险家职业/转职/觉醒","category":"class-progression","principle":"不同出身与技艺路线形成鬼剑士、格斗家、神枪手、魔法师、圣职者等职业，并可转职觉醒。","classification":["Technique","Magic","Technology"],"energySource":"mixed","hasExternalEnergy":true,"externalEnergyName":"魔力/气/神圣力/鬼神之力等","energyTraits":[],"levelMapping":[],"commonResources":["职业熟练度","装备","觉醒力量"],"commonAbilities":["转职技能","觉醒技","装备强化"],"limitations":["依赖职业路线与装备资源。"],"compatibilityNotes":[]},{"id":"apostle-power","name":"使徒与灾厄级存在","category":"transcendent-entity","principle":"使徒是跨区域灾厄级强者，其存在与转移、魔界、阿拉德命运密切相关。","classification":["Entity","Disaster"],"energySource":"internal/external","hasExternalEnergy":true,"externalEnergyName":"使徒之力","energyTraits":[{"tag":"catastrophic","level":"S","description":"可引发地区级甚至世界级事件。"}],"levelMapping":[],"commonResources":["使徒本体","权能","追随者"],"commonAbilities":["超规格战斗","污染/转移影响"],"limitations":["具体弱点依使徒而异。"],"compatibilityNotes":[]}],"factions":[{"id":"adventurers","name":"冒险家群体","type":"loose-heroes","summary":"玩家式职业者与自由冒险者。","powerSystemAffinity":["adventurer-classes"],"publicRules":[],"hiddenRules":[],"attitudeToOutsiders":"variable","knownMembers":["player-adventurer"],"territories":["赫顿玛尔","各地下城"],"resources":["装备","公会"],"conflicts":["apostles"]},{"id":"de-los-empire","name":"德洛斯帝国","type":"empire","summary":"阿拉德重要军事政治势力。","powerSystemAffinity":["adventurer-classes"],"publicRules":[],"hiddenRules":[],"attitudeToOutsiders":"expansionist","knownMembers":["emperor-faction"],"territories":["帝国领土"],"resources":["军队","实验机构"],"conflicts":[]},{"id":"apostles","name":"使徒","type":"disaster-entities","summary":"巴卡尔、希洛克、奥兹玛等超规格存在。","powerSystemAffinity":["apostle-power"],"publicRules":[],"hiddenRules":[],"attitudeToOutsiders":"dangerous","knownMembers":["sirocco","ozma","bakal"],"territories":["魔界","特殊地下城"],"resources":["灾厄权能"],"conflicts":["adventurers"]}],"energyEnvironment":{"externalEnergies":[{"name":"魔力与转移能量","density":"uneven","distribution":"地下城、魔界、灾厄区域更高","traits":["多源混杂"],"recoveryImpact":"支持魔法职业与异常事件。"}],"restrictedZones":["高危地下城","魔界裂隙"],"specialFields":["转移现象","异界裂缝"]},"worldRules":{"publicLaws":["各国与城市自治秩序"],"supernaturalRules":["转职觉醒、魔法、鬼神契约和科技并存。"],"taboos":["使徒实验","大规模转移灾害"],"knownExceptions":["使徒和太初级存在可突破常规职业尺度。"]},"locations":["赫顿玛尔","格兰之森","天界","魔界","暗黑城","德洛斯帝国"],"publicEvents":["地下城讨伐","转移事件"],"hiddenEvents":["使徒阴谋","帝国实验"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "dungeon-fighter-online",
+  "worldName": "地下城与勇士 / 阿拉德",
+  "aliases": [
+    "DNF",
+    "DFO",
+    "阿拉德"
+  ],
+  "genre": [
+    "地下城冒险",
+    "多职业战斗",
+    "奇幻灾厄"
+  ],
+  "summary": "阿拉德是多国家、多种族和多职业者并存的大陆。转移现象、使徒、帝国战争、魔界与天界科技构成主要冲突；冒险家通过职业技艺、魔法、鬼手、枪械、格斗等体系成长。",
+  "sandboxPrinciple": {
+    "summary": "不固定使徒讨伐与主线，冒险者行动可改变地区政治和灾厄进程。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "职业体系过多，本档只做上位分类。"
+  ],
+  "powerSystems": [
+    {
+      "id": "adventurer-classes",
+      "name": "冒险家职业/转职/觉醒",
+      "category": "class-progression",
+      "principle": "不同出身与技艺路线形成鬼剑士、格斗家、神枪手、魔法师、圣职者等职业，并可转职觉醒。",
+      "classification": [
+        "Technique",
+        "Magic",
+        "Technology"
+      ],
+      "energySource": "mixed",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "魔力/气/神圣力/鬼神之力等",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "职业熟练度",
+        "装备",
+        "觉醒力量"
+      ],
+      "commonAbilities": [
+        "转职技能",
+        "觉醒技",
+        "装备强化"
+      ],
+      "limitations": [
+        "依赖职业路线与装备资源。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "apostle-power",
+      "name": "使徒与灾厄级存在",
+      "category": "transcendent-entity",
+      "principle": "使徒是跨区域灾厄级强者，其存在与转移、魔界、阿拉德命运密切相关。",
+      "classification": [
+        "Entity",
+        "Disaster"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "使徒之力",
+      "energyTraits": [
+        {
+          "tag": "catastrophic",
+          "level": "S",
+          "description": "可引发地区级甚至世界级事件。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "使徒本体",
+        "权能",
+        "追随者"
+      ],
+      "commonAbilities": [
+        "超规格战斗",
+        "污染/转移影响"
+      ],
+      "limitations": [
+        "具体弱点依使徒而异。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "adventurers",
+      "name": "冒险家群体",
+      "type": "loose-heroes",
+      "summary": "玩家式职业者与自由冒险者。",
+      "powerSystemAffinity": [
+        "adventurer-classes"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "variable",
+      "knownMembers": [
+        "player-adventurer"
+      ],
+      "territories": [
+        "赫顿玛尔",
+        "各地下城"
+      ],
+      "resources": [
+        "装备",
+        "公会"
+      ],
+      "conflicts": [
+        "apostles"
+      ]
+    },
+    {
+      "id": "de-los-empire",
+      "name": "德洛斯帝国",
+      "type": "empire",
+      "summary": "阿拉德重要军事政治势力。",
+      "powerSystemAffinity": [
+        "adventurer-classes"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "expansionist",
+      "knownMembers": [],
+      "territories": [
+        "帝国领土"
+      ],
+      "resources": [
+        "军队",
+        "实验机构"
+      ],
+      "conflicts": [],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "emperor-faction"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): emperor-faction"
+      ]
+    },
+    {
+      "id": "apostles",
+      "name": "使徒",
+      "type": "disaster-entities",
+      "summary": "巴卡尔、希洛克、奥兹玛等超规格存在。",
+      "powerSystemAffinity": [
+        "apostle-power"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "dangerous",
+      "knownMembers": [
+        "sirocco",
+        "ozma",
+        "bakal"
+      ],
+      "territories": [
+        "魔界",
+        "特殊地下城"
+      ],
+      "resources": [
+        "灾厄权能"
+      ],
+      "conflicts": [
+        "adventurers"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "魔力与转移能量",
+        "density": "uneven",
+        "distribution": "地下城、魔界、灾厄区域更高",
+        "traits": [
+          "多源混杂"
+        ],
+        "recoveryImpact": "支持魔法职业与异常事件。"
+      }
+    ],
+    "restrictedZones": [
+      "高危地下城",
+      "魔界裂隙"
+    ],
+    "specialFields": [
+      "转移现象",
+      "异界裂缝"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "各国与城市自治秩序"
+    ],
+    "supernaturalRules": [
+      "转职觉醒、魔法、鬼神契约和科技并存。"
+    ],
+    "taboos": [
+      "使徒实验",
+      "大规模转移灾害"
+    ],
+    "knownExceptions": [
+      "使徒和太初级存在可突破常规职业尺度。"
+    ]
+  },
+  "locations": [
+    "赫顿玛尔",
+    "格兰之森",
+    "天界",
+    "魔界",
+    "暗黑城",
+    "德洛斯帝国"
+  ],
+  "publicEvents": [
+    "地下城讨伐",
+    "转移事件"
+  ],
+  "hiddenEvents": [
+    "使徒阴谋",
+    "帝国实验"
+  ]
+}

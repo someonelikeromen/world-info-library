@@ -1,1 +1,541 @@
-{"schema":"rp-characters-index-v1","worldId":"marvel-cinematic-universe","characters":[{"id":"tony-stark","name":"托尼·斯塔克","aliases":["钢铁侠","Iron Man"],"visibility":"public","summary":"天才工程师和复仇者创始人，以装甲科技承担超级英雄责任。","roles":["hero","engineer"],"factions":["avengers","stark-industries"],"locations":["纽约","复仇者基地"],"powerSystems":["super-soldier-tech"],"abilities":["钢铁战甲","纳米装甲","工程发明","战术分析"],"items":["方舟反应堆","Iron Man armor"],"relationships":["steve-rogers:ally/rival","peter-parker:mentor","pepper-potts:partner"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"装甲型号决定战斗表现。"},{"id":"steve-rogers","name":"史蒂夫·罗杰斯","aliases":["美国队长","Captain America"],"visibility":"public","summary":"超级士兵血清强化者，复仇者精神领袖。","roles":["hero","leader"],"factions":["avengers"],"locations":["美国","复仇者基地"],"powerSystems":["super-soldier-tech"],"abilities":["强化体能","盾牌格斗","领导"],"items":["振金盾牌"],"relationships":["tony-stark:ally/rival","bucky-barnes:best-friend"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"内战阶段关系需调整。"},{"id":"thor-odinson","name":"索尔·奥丁森","aliases":["雷神"],"visibility":"public","summary":"阿斯加德王子/国王，掌握雷霆神力。","roles":["hero","asgardian"],"factions":["avengers","asgard"],"locations":["阿斯加德","地球","宇宙"],"powerSystems":["asgardian-divinity"],"abilities":["雷霆","神族体质","风暴战斧"],"items":["妙尔尼尔","风暴战斧"],"relationships":["loki:brother/rival","avengers:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"武器与觉醒状态需分开。"},{"id":"bruce-banner","name":"布鲁斯·班纳","aliases":["浩克","Hulk"],"visibility":"public","summary":"伽马辐射科学家，愤怒时化身浩克。","roles":["hero","scientist"],"factions":["avengers"],"locations":["地球"],"powerSystems":["super-soldier-tech"],"abilities":["浩克形态","超强力量","伽马知识"],"items":[],"relationships":["natasha-romanoff:bond","tony-stark:science-ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"班纳/浩克/智慧浩克状态需区分。"},{"id":"natasha-romanoff","name":"娜塔莎·罗曼诺夫","aliases":["黑寡妇"],"visibility":"public","summary":"前红房特工，复仇者核心成员。","roles":["spy","hero"],"factions":["avengers","shield"],"locations":["地球"],"powerSystems":[],"abilities":["间谍术","格斗","枪械","审讯"],"items":["寡妇蛰"],"relationships":["clint-barton:close-ally","bruce-banner:bond"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":""},{"id":"doctor-strange","name":"史蒂芬·斯特兰奇","aliases":["奇异博士","至尊法师候选"],"visibility":"public","summary":"外科医生转为秘术师，守护现实与时间线。","roles":["sorcerer","guardian"],"factions":["masters-of-mystic-arts"],"locations":["纽约圣殿","卡玛泰姬"],"powerSystems":["mystic-arts"],"abilities":["传送门","镜像空间","法术护盾","时间宝石曾用"],"items":["悬浮斗篷","阿戈摩托之眼"],"relationships":["wong:ally","avengers:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"时间宝石状态按阶段。"},{"id":"thanos","name":"灭霸","aliases":["疯狂泰坦"],"visibility":"private","summary":"宇宙级军阀，追求无限宝石以执行平衡宇宙计划。","roles":["main-antagonist","warlord"],"factions":["black-order"],"locations":["宇宙","泰坦星"],"powerSystems":["infinity-stones"],"abilities":["泰坦体质","战略统帅","无限手套使用"],"items":["无限手套","无限宝石"],"relationships":["gamora:adopted-daughter","avengers:enemy"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"持宝石数量决定评级。"},{"id":"peter-parker","name":"彼得·帕克","aliases":["蜘蛛侠"],"visibility":"public","summary":"被蜘蛛咬伤获得能力的年轻英雄。","roles":["hero","student"],"factions":["avengers-adjacent"],"locations":["纽约"],"powerSystems":["super-soldier-tech"],"abilities":["蜘蛛感应","攀附","超人体能","蛛丝装备"],"items":["蛛网发射器","蜘蛛战衣"],"relationships":["tony-stark:mentor","may-parker:family"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-mcu-import-readme"],"notes":"身份公开状态按时间线。"}],"indices":{"byFaction":{"avengers":["tony-stark","steve-rogers","thor-odinson","bruce-banner","natasha-romanoff"],"shield":["natasha-romanoff"],"masters-of-mystic-arts":["doctor-strange"],"black-order":["thanos"]},"byPowerSystem":{"super-soldier-tech":["tony-stark","steve-rogers","bruce-banner","peter-parker"],"mystic-arts":["doctor-strange"],"infinity-stones":["thanos"]},"byVisibility":{"public":["tony-stark","steve-rogers","thor-odinson","bruce-banner","natasha-romanoff","doctor-strange","peter-parker"],"private":["thanos"]},"majorCharacters":["tony-stark","steve-rogers","thor-odinson","doctor-strange","thanos"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "marvel-cinematic-universe",
+  "characters": [
+    {
+      "id": "tony-stark",
+      "name": "托尼·斯塔克",
+      "aliases": [
+        "钢铁侠",
+        "Iron Man"
+      ],
+      "visibility": "public",
+      "summary": "天才工程师和复仇者创始人，以装甲科技承担超级英雄责任。",
+      "roles": [
+        "hero",
+        "engineer"
+      ],
+      "factions": [
+        "avengers",
+        "stark-industries"
+      ],
+      "locations": [
+        "new-york",
+        "avengers-compound"
+      ],
+      "powerSystems": [
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "钢铁战甲",
+        "纳米装甲",
+        "工程发明",
+        "战术分析"
+      ],
+      "items": [
+        "方舟反应堆",
+        "Iron Man armor"
+      ],
+      "relationships": [
+        {
+          "target": "steve-rogers",
+          "targetType": "character",
+          "relation": "ally/rival",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "peter-parker",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "pepper-potts",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "装甲型号决定战斗表现。",
+      "normalizationNotes": [
+        "locations: 纽约 -> new-york",
+        "locations: 复仇者基地 -> avengers-compound"
+      ]
+    },
+    {
+      "id": "steve-rogers",
+      "name": "史蒂夫·罗杰斯",
+      "aliases": [
+        "美国队长",
+        "Captain America"
+      ],
+      "visibility": "public",
+      "summary": "超级士兵血清强化者，复仇者精神领袖。",
+      "roles": [
+        "hero",
+        "leader"
+      ],
+      "factions": [
+        "avengers"
+      ],
+      "locations": [
+        "united-states",
+        "avengers-compound"
+      ],
+      "powerSystems": [
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "强化体能",
+        "盾牌格斗",
+        "领导"
+      ],
+      "items": [
+        "振金盾牌"
+      ],
+      "relationships": [
+        {
+          "target": "tony-stark",
+          "targetType": "character",
+          "relation": "ally/rival",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "bucky-barnes",
+          "targetType": "character",
+          "relation": "best-friend",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "内战阶段关系需调整。",
+      "normalizationNotes": [
+        "locations: 复仇者基地 -> avengers-compound"
+      ]
+    },
+    {
+      "id": "thor-odinson",
+      "name": "索尔·奥丁森",
+      "aliases": [
+        "雷神"
+      ],
+      "visibility": "public",
+      "summary": "阿斯加德王子/国王，掌握雷霆神力。",
+      "roles": [
+        "hero",
+        "asgardian"
+      ],
+      "factions": [
+        "avengers",
+        "asgard"
+      ],
+      "locations": [
+        "asgard",
+        "earth",
+        "cosmos"
+      ],
+      "powerSystems": [
+        "asgardian-divinity"
+      ],
+      "abilities": [
+        "雷霆",
+        "神族体质",
+        "风暴战斧"
+      ],
+      "items": [
+        "妙尔尼尔",
+        "风暴战斧"
+      ],
+      "relationships": [
+        {
+          "target": "loki",
+          "targetType": "character",
+          "relation": "brother/rival",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "avengers",
+          "targetType": "group",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "武器与觉醒状态需分开。",
+      "normalizationNotes": [
+        "locations: 阿斯加德 -> asgard"
+      ]
+    },
+    {
+      "id": "bruce-banner",
+      "name": "布鲁斯·班纳",
+      "aliases": [
+        "浩克",
+        "Hulk"
+      ],
+      "visibility": "public",
+      "summary": "伽马辐射科学家，愤怒时化身浩克。",
+      "roles": [
+        "hero",
+        "scientist"
+      ],
+      "factions": [
+        "avengers"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "浩克形态",
+        "超强力量",
+        "伽马知识"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "natasha-romanoff",
+          "targetType": "character",
+          "relation": "bond",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tony-stark",
+          "targetType": "character",
+          "relation": "science-ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "班纳/浩克/智慧浩克状态需区分。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "natasha-romanoff",
+      "name": "娜塔莎·罗曼诺夫",
+      "aliases": [
+        "黑寡妇"
+      ],
+      "visibility": "public",
+      "summary": "前红房特工，复仇者核心成员。",
+      "roles": [
+        "spy",
+        "hero"
+      ],
+      "factions": [
+        "avengers",
+        "shield"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "间谍术",
+        "格斗",
+        "枪械",
+        "审讯"
+      ],
+      "items": [
+        "寡妇蛰"
+      ],
+      "relationships": [
+        {
+          "target": "clint-barton",
+          "targetType": "character",
+          "relation": "close-ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "bruce-banner",
+          "targetType": "character",
+          "relation": "bond",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": []
+    },
+    {
+      "id": "doctor-strange",
+      "name": "史蒂芬·斯特兰奇",
+      "aliases": [
+        "奇异博士",
+        "至尊法师候选"
+      ],
+      "visibility": "public",
+      "summary": "外科医生转为秘术师，守护现实与时间线。",
+      "roles": [
+        "sorcerer",
+        "guardian"
+      ],
+      "factions": [
+        "masters-of-mystic-arts"
+      ],
+      "locations": [
+        "new-york-sanctum",
+        "kamar-taj"
+      ],
+      "powerSystems": [
+        "mystic-arts"
+      ],
+      "abilities": [
+        "传送门",
+        "镜像空间",
+        "法术护盾",
+        "时间宝石曾用"
+      ],
+      "items": [
+        "悬浮斗篷",
+        "阿戈摩托之眼"
+      ],
+      "relationships": [
+        {
+          "target": "wong",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "avengers",
+          "targetType": "group",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "时间宝石状态按阶段。",
+      "normalizationNotes": [
+        "locations: 纽约圣殿 -> new-york-sanctum",
+        "locations: 卡玛泰姬 -> kamar-taj"
+      ]
+    },
+    {
+      "id": "thanos",
+      "name": "灭霸",
+      "aliases": [
+        "疯狂泰坦"
+      ],
+      "visibility": "private",
+      "summary": "宇宙级军阀，追求无限宝石以执行平衡宇宙计划。",
+      "roles": [
+        "main-antagonist",
+        "warlord"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "cosmos",
+        "titan"
+      ],
+      "powerSystems": [
+        "infinity-stones"
+      ],
+      "abilities": [
+        "泰坦体质",
+        "战略统帅",
+        "无限手套使用"
+      ],
+      "items": [
+        "无限手套",
+        "无限宝石"
+      ],
+      "relationships": [
+        {
+          "target": "gamora",
+          "targetType": "character",
+          "relation": "adopted-daughter",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "avengers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "持宝石数量决定评级。",
+      "normalizationNotes": [
+        "locations: 泰坦星 -> titan"
+      ]
+    },
+    {
+      "id": "peter-parker",
+      "name": "彼得·帕克",
+      "aliases": [
+        "蜘蛛侠"
+      ],
+      "visibility": "public",
+      "summary": "被蜘蛛咬伤获得能力的年轻英雄。",
+      "roles": [
+        "hero",
+        "student"
+      ],
+      "factions": [],
+      "locations": [
+        "new-york"
+      ],
+      "powerSystems": [
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "蜘蛛感应",
+        "攀附",
+        "超人体能",
+        "蛛丝装备"
+      ],
+      "items": [
+        "蛛网发射器",
+        "蜘蛛战衣"
+      ],
+      "relationships": [
+        {
+          "target": "tony-stark",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "may-parker",
+          "targetType": "character",
+          "relation": "family",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-import-readme"
+      ],
+      "notes": "身份公开状态按时间线。",
+      "normalizationNotes": [
+        "locations: 纽约 -> new-york",
+        "factions: avengers-adjacent 是邻接关系标签，不等同于 Avengers 正式成员；未强行改写。",
+        "factions: avengers-adjacent 保留为 notes 中的关系标签；未伪造为 canonical faction。"
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "avengers": [
+        "tony-stark",
+        "steve-rogers",
+        "thor-odinson",
+        "bruce-banner",
+        "natasha-romanoff"
+      ],
+      "stark-industries": [
+        "tony-stark"
+      ],
+      "asgard": [
+        "thor-odinson"
+      ],
+      "shield": [
+        "natasha-romanoff"
+      ],
+      "masters-of-mystic-arts": [
+        "doctor-strange"
+      ],
+      "black-order": [
+        "thanos"
+      ]
+    },
+    "byPowerSystem": {
+      "super-soldier-tech": [
+        "tony-stark",
+        "steve-rogers",
+        "bruce-banner",
+        "peter-parker"
+      ],
+      "asgardian-divinity": [
+        "thor-odinson"
+      ],
+      "mystic-arts": [
+        "doctor-strange"
+      ],
+      "infinity-stones": [
+        "thanos"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "tony-stark",
+        "steve-rogers",
+        "thor-odinson",
+        "bruce-banner",
+        "natasha-romanoff",
+        "doctor-strange",
+        "peter-parker"
+      ],
+      "private": [
+        "thanos"
+      ]
+    },
+    "majorCharacters": [
+      "tony-stark",
+      "steve-rogers",
+      "thor-odinson",
+      "bruce-banner",
+      "natasha-romanoff",
+      "doctor-strange",
+      "thanos",
+      "peter-parker"
+    ],
+    "byId": {
+      "tony-stark": 0,
+      "steve-rogers": 1,
+      "thor-odinson": 2,
+      "bruce-banner": 3,
+      "natasha-romanoff": 4,
+      "doctor-strange": 5,
+      "thanos": 6,
+      "peter-parker": 7
+    },
+    "byName": {
+      "托尼·斯塔克": "tony-stark",
+      "史蒂夫·罗杰斯": "steve-rogers",
+      "索尔·奥丁森": "thor-odinson",
+      "布鲁斯·班纳": "bruce-banner",
+      "娜塔莎·罗曼诺夫": "natasha-romanoff",
+      "史蒂芬·斯特兰奇": "doctor-strange",
+      "灭霸": "thanos",
+      "彼得·帕克": "peter-parker"
+    },
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

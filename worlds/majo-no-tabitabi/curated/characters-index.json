@@ -1,18 +1,203 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "majo-no-tabitabi",
   "characters": [
-    {"id": "elaina", "name": "伊蕾娜", "aliases": ["灰之魔女"], "role": "旅行魔女、主角", "affiliations": ["魔女"], "abilities": ["高阶魔法", "扫帚飞行"], "sourceStatus": "源条目多次作为关系核心提及"},
-    {"id": "saya", "name": "沙耶", "aliases": ["炭之魔女"], "role": "来自东方国度的魔女、魔法统合协会成员", "affiliations": ["魔法统合协会", "席拉门下"], "abilities": ["魔法", "协会任务执行"], "sourceEntries": [0, 1]},
-    {"id": "mina", "name": "美奈", "aliases": ["煤之魔女"], "role": "沙耶的妹妹、协会中坚魔女", "affiliations": ["魔法统合协会", "席拉门下"], "abilities": ["潜伏", "救援", "镇压武装集团", "高天赋魔法"], "sourceEntries": [8]},
-    {"id": "fran", "name": "芙兰", "aliases": ["星尘魔女", "芙兰老师"], "role": "伊蕾娜的师父、王立瑟雷斯特利亚教师", "affiliations": ["魔女", "维多利加门下"], "abilities": ["魔法教学", "高潜力魔法"], "sourceEntries": [2]},
-    {"id": "sheila", "name": "席拉", "aliases": ["暗夜魔女"], "role": "魔法统合协会中坚、沙耶与美奈的师父", "affiliations": ["魔法统合协会", "维多利加门下"], "abilities": ["治安任务", "魔法指导", "扫帚改造"], "sourceEntries": ["factions:席拉"]},
-    {"id": "victorica", "name": "维多利加", "aliases": ["妈妈", "母亲"], "role": "伊蕾娜的母亲、芙兰与席拉的师父", "affiliations": ["魔女"], "abilities": ["高阶魔法", "收徒与旅行经验"], "sourceEntries": [9]},
-    {"id": "amnesia", "name": "艾姆妮西亚", "aliases": [], "role": "源归档列名角色", "affiliations": [], "abilities": [], "sourceEntries": [4]},
-    {"id": "avilia", "name": "艾维莉亚", "aliases": [], "role": "源归档列名角色", "affiliations": [], "abilities": [], "sourceEntries": [7]},
-    {"id": "estelle", "name": "艾丝黛尔", "aliases": ["薰衣魔女"], "role": "时钟乡罗斯特洛夫的优秀魔女", "affiliations": ["魔法统合协会"], "abilities": ["时间回溯魔法", "高阶魔法"], "sourceEntries": ["factions:罗斯特洛夫"]},
-    {"id": "selena", "name": "瑟琳娜", "aliases": ["二丁目杀人魔"], "role": "艾丝黛尔挚友与时间事件关键人物", "affiliations": [], "abilities": [], "sourceEntries": ["factions:艾丝黛尔条目"]},
-    {"id": "unnamed-grey-witch", "name": "灰发的魔女", "aliases": [], "role": "芙兰幼年事件中的关键导师/时间悖论人物", "affiliations": ["魔女"], "abilities": ["魔法", "揭露国家真相"], "sourceEntries": [2]}
+    {
+      "id": "elaina",
+      "name": "伊蕾娜",
+      "aliases": [
+        "灰之魔女"
+      ],
+      "role": "旅行魔女、主角",
+      "affiliations": [
+        "魔女"
+      ],
+      "abilities": [
+        "高阶魔法",
+        "扫帚飞行"
+      ],
+      "sourceStatus": "源条目多次作为关系核心提及"
+    },
+    {
+      "id": "saya",
+      "name": "沙耶",
+      "aliases": [
+        "炭之魔女"
+      ],
+      "role": "来自东方国度的魔女、魔法统合协会成员",
+      "affiliations": [
+        "魔法统合协会",
+        "席拉门下"
+      ],
+      "abilities": [
+        "魔法",
+        "协会任务执行"
+      ],
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mina",
+      "name": "美奈",
+      "aliases": [
+        "煤之魔女"
+      ],
+      "role": "沙耶的妹妹、协会中坚魔女",
+      "affiliations": [
+        "魔法统合协会",
+        "席拉门下"
+      ],
+      "abilities": [
+        "潜伏",
+        "救援",
+        "镇压武装集团",
+        "高天赋魔法"
+      ],
+      "sourceEntries": [
+        8
+      ]
+    },
+    {
+      "id": "fran",
+      "name": "芙兰",
+      "aliases": [
+        "星尘魔女",
+        "芙兰老师"
+      ],
+      "role": "伊蕾娜的师父、王立瑟雷斯特利亚教师",
+      "affiliations": [
+        "魔女",
+        "维多利加门下"
+      ],
+      "abilities": [
+        "魔法教学",
+        "高潜力魔法"
+      ],
+      "sourceEntries": [
+        2
+      ]
+    },
+    {
+      "id": "sheila",
+      "name": "席拉",
+      "aliases": [
+        "暗夜魔女"
+      ],
+      "role": "魔法统合协会中坚、沙耶与美奈的师父",
+      "affiliations": [
+        "魔法统合协会",
+        "维多利加门下"
+      ],
+      "abilities": [
+        "治安任务",
+        "魔法指导",
+        "扫帚改造"
+      ],
+      "sourceEntries": [
+        "factions:席拉"
+      ]
+    },
+    {
+      "id": "victorica",
+      "name": "维多利加",
+      "aliases": [
+        "妈妈",
+        "母亲"
+      ],
+      "role": "伊蕾娜的母亲、芙兰与席拉的师父",
+      "affiliations": [
+        "魔女"
+      ],
+      "abilities": [
+        "高阶魔法",
+        "收徒与旅行经验"
+      ],
+      "sourceEntries": [
+        9
+      ]
+    },
+    {
+      "id": "amnesia",
+      "name": "艾姆妮西亚",
+      "aliases": [],
+      "role": "源归档列名角色",
+      "affiliations": [],
+      "abilities": [],
+      "sourceEntries": [
+        4
+      ]
+    },
+    {
+      "id": "avilia",
+      "name": "艾维莉亚",
+      "aliases": [],
+      "role": "源归档列名角色",
+      "affiliations": [],
+      "abilities": [],
+      "sourceEntries": [
+        7
+      ]
+    },
+    {
+      "id": "estelle",
+      "name": "艾丝黛尔",
+      "aliases": [
+        "薰衣魔女"
+      ],
+      "role": "时钟乡罗斯特洛夫的优秀魔女",
+      "affiliations": [
+        "魔法统合协会"
+      ],
+      "abilities": [
+        "时间回溯魔法",
+        "高阶魔法"
+      ],
+      "sourceEntries": [
+        "factions:罗斯特洛夫"
+      ]
+    },
+    {
+      "id": "selena",
+      "name": "瑟琳娜",
+      "aliases": [
+        "二丁目杀人魔"
+      ],
+      "role": "艾丝黛尔挚友与时间事件关键人物",
+      "affiliations": [],
+      "abilities": [],
+      "sourceEntries": [
+        "factions:艾丝黛尔条目"
+      ]
+    },
+    {
+      "id": "unnamed-grey-witch",
+      "name": "灰发的魔女",
+      "aliases": [],
+      "role": "芙兰幼年事件中的关键导师/时间悖论人物",
+      "affiliations": [
+        "魔女"
+      ],
+      "abilities": [
+        "魔法",
+        "揭露国家真相"
+      ],
+      "sourceEntries": [
+        2
+      ]
+    }
   ],
-  "nonCharacterEntriesNoted": ["扫帚", "魔女", "魔女名"]
+  "nonCharacterEntriesNoted": [
+    "扫帚",
+    "魔女",
+    "魔女名"
+  ],
+  "worldId": "majo-no-tabitabi",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

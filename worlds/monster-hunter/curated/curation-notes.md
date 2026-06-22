@@ -18,3 +18,9 @@
 
 ## 修改范围
 仅创建 `campaigns/world-library/worlds/monster-hunter/curated/` 下标准产物。未修改 raw/imports/既有自动归档。
+
+## 运行时门禁补充
+
+- `characters-index.json` 不是完整《怪物猎人》历代固定 NPC 姓名库。
+- 猎人、公会、村落、研究机构、古龙/禁忌怪物等条目主要是职业/组织/生态角色槽位。
+- 运行时不应把生态角色当作善恶固定人物，也不应从岗位条目推断未登记 canon NPC。

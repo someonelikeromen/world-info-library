@@ -1,25 +1,101 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "infinite-stratos",
   "nodes": [
-    {"id": "is", "type": "technology", "label": "Infinite Stratos 机体"},
-    {"id": "core", "type": "technology", "label": "IS核心"},
-    {"id": "academy", "type": "location", "label": "IS学园"},
-    {"id": "candidate", "type": "status", "label": "代表候补生"},
-    {"id": "personal-unit", "type": "equipment", "label": "专用机"},
-    {"id": "shield", "type": "mechanic", "label": "能量护盾/耐久"},
-    {"id": "sync", "type": "mechanic", "label": "同步率/适性"},
-    {"id": "international", "type": "theme", "label": "国际技术竞争"},
-    {"id": "ichika-exception", "type": "plot-device", "label": "男性驾驶者例外"}
+    {
+      "id": "is",
+      "type": "technology",
+      "label": "Infinite Stratos 机体"
+    },
+    {
+      "id": "core",
+      "type": "technology",
+      "label": "IS核心"
+    },
+    {
+      "id": "academy",
+      "type": "location",
+      "label": "IS学园"
+    },
+    {
+      "id": "candidate",
+      "type": "status",
+      "label": "代表候补生"
+    },
+    {
+      "id": "personal-unit",
+      "type": "equipment",
+      "label": "专用机"
+    },
+    {
+      "id": "shield",
+      "type": "mechanic",
+      "label": "能量护盾/耐久"
+    },
+    {
+      "id": "sync",
+      "type": "mechanic",
+      "label": "同步率/适性"
+    },
+    {
+      "id": "international",
+      "type": "theme",
+      "label": "国际技术竞争"
+    },
+    {
+      "id": "ichika-exception",
+      "type": "plot-device",
+      "label": "男性驾驶者例外"
+    }
   ],
   "edges": [
-    {"from": "core", "to": "is", "type": "enables"},
-    {"from": "academy", "to": "candidate", "type": "trains"},
-    {"from": "candidate", "to": "personal-unit", "type": "may-receive"},
-    {"from": "personal-unit", "to": "international", "type": "represents-national-tech"},
-    {"from": "is", "to": "shield", "type": "uses"},
-    {"from": "is", "to": "sync", "type": "requires"},
-    {"from": "ichika-exception", "to": "international", "type": "destabilizes"},
-    {"from": "academy", "to": "ichika-exception", "type": "hosts"}
-  ]
+    {
+      "from": "core",
+      "to": "is",
+      "type": "enables"
+    },
+    {
+      "from": "academy",
+      "to": "candidate",
+      "type": "trains"
+    },
+    {
+      "from": "candidate",
+      "to": "personal-unit",
+      "type": "may-receive"
+    },
+    {
+      "from": "personal-unit",
+      "to": "international",
+      "type": "represents-national-tech"
+    },
+    {
+      "from": "is",
+      "to": "shield",
+      "type": "uses"
+    },
+    {
+      "from": "is",
+      "to": "sync",
+      "type": "requires"
+    },
+    {
+      "from": "ichika-exception",
+      "to": "international",
+      "type": "destabilizes"
+    },
+    {
+      "from": "academy",
+      "to": "ichika-exception",
+      "type": "hosts"
+    }
+  ],
+  "campaignId": "infinite-stratos",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

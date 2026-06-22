@@ -3,16 +3,173 @@
   "worldId": "gate-jsdf",
   "displayName": "GATE 奇幻自卫队",
   "curationStatus": "manual-initial",
-  "sourceRefs": ["src-gate-jsdf-001"],
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
   "summary": "银座事件后，日本自卫队穿越通往异世界特区的门，与罗马式帝国、亚人、龙、神明使徒和诸外国利益竞争发生军事、外交与文化冲突。",
   "powerSystems": [
-    {"id":"modern-military","name":"现代军事体系","rules":["枪炮、装甲、航空与通信对中世纪军队形成压倒性代差","后勤、政治授权与门的控制决定投送规模","在城镇/人质环境中火力须受交战规则限制"]},
-    {"id":"magic","name":"特区魔法","rules":["魔导师可施展攻击、防御、翻译辅助与学术研究类术式","天赋和师承影响上限","魔法无法整体抵消现代体系但能在局部创造奇袭/情报优势"]},
-    {"id":"apostles-gods","name":"诸神与亚神使徒","rules":["使徒拥有超常寿命、神域职责与压倒性个人战力","诸神干预会影响门、死亡、誓约和复仇等概念","使徒之间受神格立场与信仰约束"]}
+    {
+      "id": "modern-military",
+      "name": "现代军事体系",
+      "rules": [
+        "枪炮、装甲、航空与通信对中世纪军队形成压倒性代差",
+        "后勤、政治授权与门的控制决定投送规模",
+        "在城镇/人质环境中火力须受交战规则限制"
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "特区魔法",
+      "rules": [
+        "魔导师可施展攻击、防御、翻译辅助与学术研究类术式",
+        "天赋和师承影响上限",
+        "魔法无法整体抵消现代体系但能在局部创造奇袭/情报优势"
+      ]
+    },
+    {
+      "id": "apostles-gods",
+      "name": "诸神与亚神使徒",
+      "rules": [
+        "使徒拥有超常寿命、神域职责与压倒性个人战力",
+        "诸神干预会影响门、死亡、誓约和复仇等概念",
+        "使徒之间受神格立场与信仰约束"
+      ]
+    },
+    {
+      "id": "political-authority",
+      "name": "政治权力/外交影响",
+      "rules": [
+        "非超自然能力；用于规范化原角色表中的 political 标记。"
+      ]
+    },
+    {
+      "id": "martial-training",
+      "name": "冷兵器武艺/骑士训练",
+      "rules": [
+        "非超自然能力；用于规范化骑士角色的 martial 标记。"
+      ]
+    }
   ],
-  "factions": ["陆上自卫队特地派遣方面队","第三侦查队","日本政府/外务省/防卫省","帝国讲和派","帝国主战派","蔷薇骑士团","阿尔努斯协同生活组合","俄摩拉教团","美国/中国/俄罗斯等地球列强","特区诸王国与亚人部族"],
-  "locations": ["银座","门/GATE","阿尔努斯丘陵与自卫队基地","伊塔黎卡","帝都","帝都黑街","炎龙巢域","易北藩王国","希密斯特","日本国会/东京"],
-  "combatRules": ["现代部队在开阔战场优先级极高；奇幻强者可在近身、夜战、地下、政治限制环境中制造反转。","炎龙、亚神与高阶魔物按超常威胁处理，需专门火力或英雄级角色配合。","门的控制权相当于战略核按钮：封门、夺门、破坏门会改变世界格局。"],
-  "timelineNotes": ["默认覆盖银座事件、阿尔努斯建基地、伊塔黎卡防卫、炎龙讨伐、帝国政变与战后外传分支。"],
-  "visibility": "public"
+  "factions": [
+    {
+      "id": "jsdf-special-region-expeditionary-force",
+      "name": "陆上自卫队特地派遣方面队"
+    },
+    {
+      "id": "third-recon-team",
+      "name": "第三侦查队"
+    },
+    {
+      "id": "japan-government",
+      "name": "日本政府/外务省/防卫省"
+    },
+    {
+      "id": "empire-peace-faction",
+      "name": "帝国讲和派"
+    },
+    {
+      "id": "empire-war-faction",
+      "name": "帝国主战派"
+    },
+    {
+      "id": "rose-order",
+      "name": "蔷薇骑士团"
+    },
+    {
+      "id": "alnus-cooperative",
+      "name": "阿尔努斯协同生活组合"
+    },
+    {
+      "id": "emroy-cult",
+      "name": "俄摩拉教团"
+    },
+    {
+      "id": "earth-great-powers",
+      "name": "美国/中国/俄罗斯等地球列强"
+    },
+    {
+      "id": "special-region-kingdoms-and-demi-humans",
+      "name": "特区诸王国与亚人部族"
+    },
+    {
+      "id": "apostles",
+      "name": "诸神使徒",
+      "summary": "亚神使徒角色的归属性分组。"
+    },
+    {
+      "id": "kato-students",
+      "name": "加图门下",
+      "summary": "蕾莱相关师承归属。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "ginza",
+      "name": "银座"
+    },
+    {
+      "id": "gate",
+      "name": "门/GATE"
+    },
+    {
+      "id": "alnus-hill-base",
+      "name": "阿尔努斯丘陵与自卫队基地"
+    },
+    {
+      "id": "italica",
+      "name": "伊塔黎卡"
+    },
+    {
+      "id": "imperial-capital",
+      "name": "帝都"
+    },
+    {
+      "id": "imperial-black-street",
+      "name": "帝都黑街"
+    },
+    {
+      "id": "fire-dragon-territory",
+      "name": "炎龙巢域"
+    },
+    {
+      "id": "eblan-kingdom",
+      "name": "易北藩王国"
+    },
+    {
+      "id": "schwester",
+      "name": "希密斯特"
+    },
+    {
+      "id": "japanese-diet-tokyo",
+      "name": "日本国会/东京"
+    },
+    {
+      "id": "special-region",
+      "name": "特区",
+      "aliases": [
+        "特区各地"
+      ],
+      "summary": "门另一侧的异世界广域称呼。"
+    }
+  ],
+  "combatRules": [
+    "现代部队在开阔战场优先级极高；奇幻强者可在近身、夜战、地下、政治限制环境中制造反转。",
+    "炎龙、亚神与高阶魔物按超常威胁处理，需专门火力或英雄级角色配合。",
+    "门的控制权相当于战略核按钮：封门、夺门、破坏门会改变世界格局。"
+  ],
+  "timelineNotes": [
+    "默认覆盖银座事件、阿尔努斯建基地、伊塔黎卡防卫、炎龙讨伐、帝国政变与战后外传分支。"
+  ],
+  "visibility": "public",
+  "worldName": "GATE 奇幻自卫队",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
 }

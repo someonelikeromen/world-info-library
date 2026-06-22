@@ -1,1 +1,374 @@
-{"schema":"rp-characters-index-v1","worldId":"elemental-gelade","characters":[{"id":"coud","name":"库德·范·基鲁艾特","aliases":["Coud Van Giruet","酷德"],"visibility":"public","summary":"红山猫空贼团少年，遇见蕾后成为她的同契者并护送她前往艾迪鲁庭园。","roles":["主角","同契使用者","空贼少年"],"factions":["coud-party"],"locations":["airship","journey-route"],"powerSystems":["react"],"abilities":["近战同契战斗","高行动力","保护意志"],"items":["蕾化成的武器"],"relationships":["ren:同契/守护/恋情萌芽","cisqua:旅伴/被管束","rowen:旅伴","kuea:旅伴"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-elemental-gelade-001"],"notes":"成长型而非初始强者。"},{"id":"ren","name":"蕾芙丽·梅札兰斯","aliases":["Reverie Metherlence","蕾","七煌宝树"],"visibility":"public","summary":"稀有七煌宝树艾迪鲁雷德，沉睡后被库德唤醒，渴望前往艾迪鲁庭园。","roles":["女主角","艾迪鲁雷德","同契武器"],"factions":["coud-party"],"locations":["journey-route","edel-garden"],"powerSystems":["react"],"abilities":["风属性/七煌宝树级同契","武器化","歌之共鸣"],"items":["核石/圣战天使核心"],"relationships":["coud:同契者/信任","edil-garden:目标与谜团"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-elemental-gelade-001"],"notes":"被猎捕风险极高。"},{"id":"cisqua","name":"希丝卡","aliases":["Cisqua"],"visibility":"public","summary":"圣战天使保护协会成员，火力充足、精明强势，负责护送与监管。","roles":["保护协会队长","枪械火力"],"factions":["arc-aile","coud-party"],"locations":["journey-route"],"powerSystems":[],"abilities":["枪械/重火器","战术指挥","交涉"],"items":["枪械装备"],"relationships":["rowen:同僚","kuea:同僚","coud:监督/伙伴"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-elemental-gelade-001"],"notes":"无同契但战斗支援重要。"},{"id":"rowen","name":"罗温","aliases":["Rowen"],"visibility":"public","summary":"保护协会成员，沉稳礼貌的同契使用者，奇雅的搭档。","roles":["护卫","同契使用者"],"factions":["arc-aile","coud-party"],"locations":["journey-route"],"powerSystems":["react"],"abilities":["同契战斗","队伍调停"],"items":[],"relationships":["kuea:同契搭档","cisqua:同僚"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-elemental-gelade-001"],"notes":"常承担稳定队伍的功能。"},{"id":"kuea","name":"奇雅","aliases":["Kuea"],"visibility":"public","summary":"保护协会所属艾迪鲁雷德，罗温同契对象，食量大且性格直率。","roles":["艾迪鲁雷德","同契武器"],"factions":["arc-aile","coud-party"],"locations":["journey-route"],"powerSystems":["react"],"abilities":["同契武器化","近战强化"],"items":[],"relationships":["rowen:同契者","cisqua:同伴"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-elemental-gelade-001"],"notes":"日常喜剧与战斗支柱兼具。"},{"id":"rasati","name":"拉萨蒂","aliases":["Rasati"],"visibility":"public","summary":"赌斗场相关少女/斗士，牵涉爱与欲望的赌斗场篇。","roles":["篇章角色","斗士"],"factions":[],"locations":["arena"],"powerSystems":[],"abilities":["格斗/竞技"],"items":[],"relationships":["lilia:关联人物"],"importance":"medium","evidenceLevel":"C","sourceRefs":["src-elemental-gelade-001"],"notes":"细节待补。"},{"id":"viro","name":"薇罗","aliases":["Viro"],"visibility":"public","summary":"旅途中出现的艾迪鲁雷德/同契相关角色，身份与阵营存在阶段性反转。","roles":["篇章角色"],"factions":[],"locations":["journey-route"],"powerSystems":["react"],"abilities":["同契相关能力"],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"C","sourceRefs":["src-elemental-gelade-001"],"notes":"需进一步核对原条目。"}],"indices":{"byFaction":{"coud-party":["coud","ren","cisqua","rowen","kuea"],"arc-aile":["cisqua","rowen","kuea"]},"byPowerSystem":{"react":["coud","ren","rowen","kuea","viro"]},"byVisibility":{"public":["coud","ren","cisqua","rowen","kuea","rasati","viro"]},"majorCharacters":["coud","ren","cisqua","rowen","kuea"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "elemental-gelade",
+  "characters": [
+    {
+      "id": "coud",
+      "name": "库德·范·基鲁艾特",
+      "aliases": [
+        "Coud Van Giruet",
+        "酷德"
+      ],
+      "visibility": "public",
+      "summary": "红山猫空贼团少年，遇见蕾后成为她的同契者并护送她前往艾迪鲁庭园。",
+      "roles": [
+        "主角",
+        "同契使用者",
+        "空贼少年"
+      ],
+      "factions": [
+        "coud-party"
+      ],
+      "locations": [
+        "airship"
+      ],
+      "powerSystems": [
+        "react"
+      ],
+      "abilities": [
+        "近战同契战斗",
+        "高行动力",
+        "保护意志"
+      ],
+      "items": [
+        "蕾化成的武器"
+      ],
+      "relationships": [
+        "ren:同契/守护/恋情萌芽",
+        "cisqua:旅伴/被管束",
+        "rowen:旅伴",
+        "kuea:旅伴"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "成长型而非初始强者。 locations unresolved (no safe canonical id): journey-route",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ren",
+      "name": "蕾芙丽·梅札兰斯",
+      "aliases": [
+        "Reverie Metherlence",
+        "蕾",
+        "七煌宝树"
+      ],
+      "visibility": "public",
+      "summary": "稀有七煌宝树艾迪鲁雷德，沉睡后被库德唤醒，渴望前往艾迪鲁庭园。",
+      "roles": [
+        "女主角",
+        "艾迪鲁雷德",
+        "同契武器"
+      ],
+      "factions": [
+        "coud-party"
+      ],
+      "locations": [
+        "edel-garden"
+      ],
+      "powerSystems": [
+        "react"
+      ],
+      "abilities": [
+        "风属性/七煌宝树级同契",
+        "武器化",
+        "歌之共鸣"
+      ],
+      "items": [
+        "核石/圣战天使核心"
+      ],
+      "relationships": [
+        "coud:同契者/信任"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "被猎捕风险极高。 locations unresolved (no safe canonical id): journey-route relationship semantic preserved in notes: edil-garden is a destination/goal, not a canonical character id.",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "cisqua",
+      "name": "希丝卡",
+      "aliases": [
+        "Cisqua"
+      ],
+      "visibility": "public",
+      "summary": "圣战天使保护协会成员，火力充足、精明强势，负责护送与监管。",
+      "roles": [
+        "保护协会队长",
+        "枪械火力"
+      ],
+      "factions": [
+        "arc-aile",
+        "coud-party"
+      ],
+      "locations": [],
+      "powerSystems": [],
+      "abilities": [
+        "枪械/重火器",
+        "战术指挥",
+        "交涉"
+      ],
+      "items": [
+        "枪械装备"
+      ],
+      "relationships": [
+        "rowen:同僚",
+        "kuea:同僚",
+        "coud:监督/伙伴"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "无同契但战斗支援重要。 locations unresolved (no safe canonical id): journey-route",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "rowen",
+      "name": "罗温",
+      "aliases": [
+        "Rowen"
+      ],
+      "visibility": "public",
+      "summary": "保护协会成员，沉稳礼貌的同契使用者，奇雅的搭档。",
+      "roles": [
+        "护卫",
+        "同契使用者"
+      ],
+      "factions": [
+        "arc-aile",
+        "coud-party"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "react"
+      ],
+      "abilities": [
+        "同契战斗",
+        "队伍调停"
+      ],
+      "items": [],
+      "relationships": [
+        "kuea:同契搭档",
+        "cisqua:同僚"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "常承担稳定队伍的功能。 locations unresolved (no safe canonical id): journey-route",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "kuea",
+      "name": "奇雅",
+      "aliases": [
+        "Kuea"
+      ],
+      "visibility": "public",
+      "summary": "保护协会所属艾迪鲁雷德，罗温同契对象，食量大且性格直率。",
+      "roles": [
+        "艾迪鲁雷德",
+        "同契武器"
+      ],
+      "factions": [
+        "arc-aile",
+        "coud-party"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "react"
+      ],
+      "abilities": [
+        "同契武器化",
+        "近战强化"
+      ],
+      "items": [],
+      "relationships": [
+        "rowen:同契者",
+        "cisqua:同伴"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "日常喜剧与战斗支柱兼具。 locations unresolved (no safe canonical id): journey-route",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "rasati",
+      "name": "拉萨蒂",
+      "aliases": [
+        "Rasati"
+      ],
+      "visibility": "public",
+      "summary": "赌斗场相关少女/斗士，牵涉爱与欲望的赌斗场篇。",
+      "roles": [
+        "篇章角色",
+        "斗士"
+      ],
+      "factions": [],
+      "locations": [],
+      "powerSystems": [],
+      "abilities": [
+        "格斗/竞技"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "细节待补。 locations unresolved (no safe canonical id): arena relationship semantic preserved in notes: lilia is not a canonical character id in the current index.",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "arena"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "viro",
+      "name": "薇罗",
+      "aliases": [
+        "Viro"
+      ],
+      "visibility": "public",
+      "summary": "旅途中出现的艾迪鲁雷德/同契相关角色，身份与阵营存在阶段性反转。",
+      "roles": [
+        "篇章角色"
+      ],
+      "factions": [],
+      "locations": [],
+      "powerSystems": [
+        "react"
+      ],
+      "abilities": [
+        "同契相关能力"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-elemental-gelade-001"
+      ],
+      "notes": "需进一步核对原条目。 locations unresolved (no safe canonical id): journey-route",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "journey-route"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "coud-party": [
+        "coud",
+        "ren",
+        "cisqua",
+        "rowen",
+        "kuea"
+      ],
+      "arc-aile": [
+        "cisqua",
+        "rowen",
+        "kuea"
+      ]
+    },
+    "byPowerSystem": {
+      "react": [
+        "coud",
+        "ren",
+        "rowen",
+        "kuea",
+        "viro"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "coud",
+        "ren",
+        "cisqua",
+        "rowen",
+        "kuea",
+        "rasati",
+        "viro"
+      ]
+    },
+    "majorCharacters": [
+      "coud",
+      "ren",
+      "cisqua",
+      "rowen",
+      "kuea"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

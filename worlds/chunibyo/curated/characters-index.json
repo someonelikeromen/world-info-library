@@ -1,98 +1,219 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "chunibyo",
   "displayName": "中二病也想谈恋爱",
-  "sourceIds": ["src-chunibyo-001"],
+  "sourceIds": [
+    "src-chunibyo-001"
+  ],
   "characters": [
     {
       "id": "takanashi-rikka",
       "name": "小鸟游六花",
-      "aliases": ["Takanashi Rikka", "邪王真眼的使用者"],
+      "aliases": [
+        "Takanashi Rikka",
+        "邪王真眼的使用者"
+      ],
       "role": "女主角；现役重度中二病患者；勇太的同学与恋爱对象",
-      "affiliations": ["远东魔法午睡结社之夏", "高中部"],
-      "traits": ["想象力丰富", "纯真善良", "生活自理能力弱", "寻找不可视境界线"],
+      "affiliations": [
+        "远东魔法午睡结社之夏",
+        "高中部"
+      ],
+      "traits": [
+        "想象力丰富",
+        "纯真善良",
+        "生活自理能力弱",
+        "寻找不可视境界线"
+      ],
       "notes": "因父亲去世而以幻想设定处理现实创伤；眼罩与邪王真眼是自我设定象征。",
-      "sourceEntries": [0]
+      "sourceEntries": [
+        0
+      ]
     },
     {
       "id": "togashi-yuuta",
       "name": "富樫勇太",
-      "aliases": ["Togashi Yuuta", "Dark Flame Master"],
+      "aliases": [
+        "Togashi Yuuta",
+        "Dark Flame Master"
+      ],
       "role": "男主角；前中二病患者；吐槽役与照顾者",
-      "affiliations": ["远东魔法午睡结社之夏", "高中部"],
-      "traits": ["想摆脱黑历史", "关心他人", "容易被中二节奏带动"],
+      "affiliations": [
+        "远东魔法午睡结社之夏",
+        "高中部"
+      ],
+      "traits": [
+        "想摆脱黑历史",
+        "关心他人",
+        "容易被中二节奏带动"
+      ],
       "notes": "初中时期自称 Dark Flame Master；高中试图过普通生活却与六花相遇。",
-      "sourceEntries": [1]
+      "sourceEntries": [
+        1
+      ]
     },
     {
       "id": "dekomori-sanae",
       "name": "凸守早苗",
-      "aliases": ["Dekomori Sanae", "雷神战锤的使用者"],
+      "aliases": [
+        "Dekomori Sanae",
+        "雷神战锤的使用者"
+      ],
       "role": "六花的头号侍从；中等部后辈；成绩优秀的中二病成员",
-      "affiliations": ["远东魔法午睡结社之夏", "中等部"],
-      "traits": ["崇拜 Master", "崇拜 Mori Summer", "与森夏频繁冲突", "学习成绩优秀"],
+      "affiliations": [
+        "远东魔法午睡结社之夏",
+        "中等部"
+      ],
+      "traits": [
+        "崇拜 Master",
+        "崇拜 Mori Summer",
+        "与森夏频繁冲突",
+        "学习成绩优秀"
+      ],
       "notes": "双马尾配重自称雷神战锤；其战斗力为幻想表演。",
-      "sourceEntries": [2]
+      "sourceEntries": [
+        2
+      ]
     },
     {
       "id": "tsuyuri-kumin",
       "name": "五月七日茴香",
-      "aliases": ["Tsuyuri Kumin"],
+      "aliases": [
+        "Tsuyuri Kumin"
+      ],
       "role": "高中二年级前辈；午睡同好会发起者；社团成员",
-      "affiliations": ["午睡同好会", "远东魔法午睡结社之夏"],
-      "traits": ["悠闲", "天然呆", "嗜睡", "和平主义"],
+      "affiliations": [
+        "午睡同好会",
+        "远东魔法午睡结社之夏"
+      ],
+      "traits": [
+        "悠闲",
+        "天然呆",
+        "嗜睡",
+        "和平主义"
+      ],
       "notes": "以午睡和枕头为角色核心，是社团日常的缓冲与治愈角色。",
-      "sourceEntries": [3]
+      "sourceEntries": [
+        3
+      ]
     },
     {
       "id": "nibutani-shinka",
       "name": "丹生谷森夏",
-      "aliases": ["Nibutani Shinka", "Mori Summer", "森大人"],
+      "aliases": [
+        "Nibutani Shinka",
+        "Mori Summer",
+        "森大人"
+      ],
       "role": "同班同学；前中二病患者；现充伪装者；社团成员",
-      "affiliations": ["远东魔法午睡结社之夏", "啦啦队/班级中心圈"],
-      "traits": ["擅长社交", "掩盖黑历史", "腹黑急躁", "被凸守纠缠"],
+      "affiliations": [
+        "远东魔法午睡结社之夏",
+        "啦啦队/班级中心圈"
+      ],
+      "traits": [
+        "擅长社交",
+        "掩盖黑历史",
+        "腹黑急躁",
+        "被凸守纠缠"
+      ],
       "notes": "Mori Summer 是她极力否认的过去，也是凸守崇拜对象。",
-      "sourceEntries": [4]
+      "sourceEntries": [
+        4
+      ]
     },
     {
       "id": "isshiki-makoto",
       "name": "一色诚",
-      "aliases": ["Isshiki Makoto"],
+      "aliases": [
+        "Isshiki Makoto"
+      ],
       "role": "勇太的同班朋友；校园轻浮喜剧角色",
-      "affiliations": ["高中部", "同班同学"],
-      "traits": ["开朗", "想受女生欢迎", "讲义气", "常因轻率行动失败"],
+      "affiliations": [
+        "高中部",
+        "同班同学"
+      ],
+      "traits": [
+        "开朗",
+        "想受女生欢迎",
+        "讲义气",
+        "常因轻率行动失败"
+      ],
       "notes": "承担校园恋爱喜剧中的失败追求者与信息搜集者功能。",
-      "sourceEntries": [5]
+      "sourceEntries": [
+        5
+      ]
     },
     {
       "id": "takanashi-touka",
       "name": "小鸟游十花",
-      "aliases": ["Takanashi Tooka", "圣调理人"],
+      "aliases": [
+        "Takanashi Tooka",
+        "圣调理人"
+      ],
       "role": "六花的姐姐；厨师；现实侧监护力量",
-      "affiliations": ["小鸟游家"],
-      "traits": ["冷静严厉", "料理职业级", "关心六花但不善表达"],
+      "affiliations": [
+        "小鸟游家"
+      ],
+      "traits": [
+        "冷静严厉",
+        "料理职业级",
+        "关心六花但不善表达"
+      ],
       "notes": "常代表现实压力与家人关怀，对六花的中二病持纠正态度。",
-      "sourceEntries": [6]
+      "sourceEntries": [
+        6
+      ]
     },
     {
       "id": "tsukumo-nanase",
       "name": "九十九七濑",
-      "aliases": ["Tsukumo Nanase"],
+      "aliases": [
+        "Tsukumo Nanase"
+      ],
       "role": "勇太等人的班主任；温和教师",
-      "affiliations": ["高中部教师"],
-      "traits": ["迷糊", "亲切", "关心学生", "宽容青春期表现"],
+      "affiliations": [
+        "高中部教师"
+      ],
+      "traits": [
+        "迷糊",
+        "亲切",
+        "关心学生",
+        "宽容青春期表现"
+      ],
       "notes": "适合作为校园事件的成人协调者。",
-      "sourceEntries": [7]
+      "sourceEntries": [
+        7
+      ]
     },
     {
       "id": "shichimiya-satone",
       "name": "七宫智音",
-      "aliases": ["Shichimiya Satone", "索菲亚琳·SP·撒旦7世", "魔法魔王少女"],
+      "aliases": [
+        "Shichimiya Satone",
+        "索菲亚琳·SP·撒旦7世",
+        "魔法魔王少女"
+      ],
       "role": "勇太初中同学；引导勇太进入中二世界的旧友；恋爱三角张力角色",
-      "affiliations": ["高中部", "勇太旧友圈"],
-      "traits": ["极度开朗", "真中二病", "压抑感情", "口癖 Nyan"],
+      "affiliations": [
+        "高中部",
+        "勇太旧友圈"
+      ],
+      "traits": [
+        "极度开朗",
+        "真中二病",
+        "压抑感情",
+        "口癖 Nyan"
+      ],
       "notes": "她与勇太的旧日契约关系会刺激六花与勇太的成长。",
-      "sourceEntries": [8]
+      "sourceEntries": [
+        8
+      ]
     }
-  ]
+  ],
+  "worldId": "chunibyo",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

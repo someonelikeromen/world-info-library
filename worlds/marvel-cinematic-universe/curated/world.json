@@ -1,1 +1,522 @@
-{"schema":"rp-world-v1","worldId":"marvel-cinematic-universe","worldName":"漫威电影宇宙","aliases":["MCU","Marvel Cinematic Universe"],"genre":["超级英雄","科幻奇幻","多宇宙"],"summary":"现代地球逐步暴露在超人类、外星文明、魔法维度和多元宇宙威胁下。复仇者、神盾局、阿斯加德、瓦坎达和银河势力围绕地球与宇宙危机行动；无限宝石曾是宇宙级核心资源。","sandboxPrinciple":"已读世界书强调动态世界和无固定剧情；本档遵循 RP core rules，不固定原电影事件结局。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["抽读 world/world.json 中核心规则：人物独立生活、动态剧情、时间空间连续性。","跨阶段开局需锁定时间点。"],"powerSystems":[{"id":"super-soldier-tech","name":"超级士兵/科技强化","category":"biotech-enhancement","principle":"血清、装甲、纳米科技、辐射或实验造成的身体与装备强化。","classification":["Technology","Biology"],"energySource":"mixed","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[],"levelMapping":[],"commonResources":["血清","反应堆","纳米装甲","振金"],"commonAbilities":["强化体能","装甲火力","科技解析"],"limitations":["依赖维护、材料和实验副作用。"],"compatibilityNotes":[]},{"id":"mystic-arts","name":"秘术魔法","category":"dimensional-magic","principle":"秘术师借助维度能量、法器和咒式操控空间、防御和时间相关现象。","classification":["Magic","Dimensional"],"energySource":"external","hasExternalEnergy":true,"externalEnergyName":"维度能量","energyTraits":[{"tag":"dimensional","level":"A","description":"可开启传送门、镜像空间与防护咒。"}],"levelMapping":[],"commonResources":["法器","咒式","维度契约"],"commonAbilities":["传送门","镜像空间","防护法术"],"limitations":["需训练、专注与法器。"],"compatibilityNotes":[]},{"id":"infinity-stones","name":"无限宝石","category":"cosmic-artifact","principle":"六枚宝石对应宇宙基础侧面：空间、心灵、现实、力量、时间、灵魂。","classification":["Artifact","Cosmic"],"energySource":"external","hasExternalEnergy":true,"externalEnergyName":"宇宙本源力量","energyTraits":[{"tag":"cosmic","level":"EX","description":"完整手套可造成宇宙尺度影响。"}],"levelMapping":[],"commonResources":["宝石","容器","使用者耐受"],"commonAbilities":["空间跃迁","时间操控","现实改写","能量爆发"],"limitations":["使用者需承受反噬；宝石状态按时间线。"],"compatibilityNotes":[]}],"factions":[{"id":"avengers","name":"复仇者联盟","type":"superhero-team","summary":"地球主要超级英雄协作团队。","powerSystemAffinity":["super-soldier-tech","mystic-arts"],"publicRules":["保护地球"],"hiddenRules":[],"attitudeToOutsiders":"protective","knownMembers":["tony-stark","steve-rogers","thor-odinson","bruce-banner","natasha-romanoff","clint-barton"],"territories":["纽约","复仇者基地"],"resources":["英雄网络","科技资源"],"conflicts":["thanos","hydra"]},{"id":"shield","name":"神盾局","type":"intelligence-agency","summary":"处理超常威胁的情报机构。","powerSystemAffinity":["super-soldier-tech"],"publicRules":[],"hiddenRules":["九头蛇潜伏风险"],"attitudeToOutsiders":"classified","knownMembers":["nick-fury","phil-coulson"],"territories":[],"resources":["情报","航母"],"conflicts":["hydra"]},{"id":"hydra","name":"九头蛇","type":"secret-organization","summary":"长期渗透并追求控制的秘密组织。","powerSystemAffinity":["super-soldier-tech"],"publicRules":[],"hiddenRules":["潜伏网络"],"attitudeToOutsiders":"hostile","knownMembers":["winter-soldier"],"territories":[],"resources":["渗透网络","洗脑技术"],"conflicts":["shield","avengers"]}],"energyEnvironment":{"externalEnergies":[{"name":"宇宙能量/维度能量","density":"uneven","distribution":"宝石、维度节点和宇宙区域高密度","traits":["高危","多源"],"recoveryImpact":"支持魔法、神器和外星科技。"}],"restrictedZones":["镜像空间","量子领域","宇宙深空"],"specialFields":["多元宇宙裂隙","时间线分支"]},"worldRules":{"publicLaws":["现代国家法律与超级英雄监管"],"supernaturalRules":["科技、魔法、外星血统与宇宙神器并存。"],"taboos":["无限宝石滥用","时间线破坏","外星入侵"],"knownExceptions":["天神组、多元宇宙实体、量子领域。"]},"locations":["纽约","复仇者基地","瓦坎达","阿斯加德","卡玛泰姬","量子领域","泰坦星"],"publicEvents":["纽约之战","索科维亚事件","无限战争"],"hiddenEvents":["九头蛇渗透神盾局","时间线分支与变体"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "marvel-cinematic-universe",
+  "worldName": "漫威电影宇宙",
+  "aliases": [
+    "MCU",
+    "Marvel Cinematic Universe"
+  ],
+  "genre": [
+    "超级英雄",
+    "科幻奇幻",
+    "多宇宙"
+  ],
+  "summary": "现代地球逐步暴露在超人类、外星文明、魔法维度和多元宇宙威胁下。复仇者、神盾局、阿斯加德、瓦坎达和银河势力围绕地球与宇宙危机行动；无限宝石曾是宇宙级核心资源。",
+  "sandboxPrinciple": {
+    "summary": "已读世界书强调动态世界和无固定剧情；本档遵循 RP core rules，不固定原电影事件结局。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "抽读 world/world.json 中核心规则：人物独立生活、动态剧情、时间空间连续性。",
+    "跨阶段开局需锁定时间点。"
+  ],
+  "powerSystems": [
+    {
+      "id": "super-soldier-tech",
+      "name": "超级士兵/科技强化",
+      "category": "biotech-enhancement",
+      "principle": "血清、装甲、纳米科技、辐射或实验造成的身体与装备强化。",
+      "classification": [
+        "Technology",
+        "Biology"
+      ],
+      "energySource": "mixed",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "血清",
+        "反应堆",
+        "纳米装甲",
+        "振金"
+      ],
+      "commonAbilities": [
+        "强化体能",
+        "装甲火力",
+        "科技解析"
+      ],
+      "limitations": [
+        "依赖维护、材料和实验副作用。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "mystic-arts",
+      "name": "秘术魔法",
+      "category": "dimensional-magic",
+      "principle": "秘术师借助维度能量、法器和咒式操控空间、防御和时间相关现象。",
+      "classification": [
+        "Magic",
+        "Dimensional"
+      ],
+      "energySource": "external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "维度能量",
+      "energyTraits": [
+        {
+          "tag": "dimensional",
+          "level": "A",
+          "description": "可开启传送门、镜像空间与防护咒。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "法器",
+        "咒式",
+        "维度契约"
+      ],
+      "commonAbilities": [
+        "传送门",
+        "镜像空间",
+        "防护法术"
+      ],
+      "limitations": [
+        "需训练、专注与法器。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "infinity-stones",
+      "name": "无限宝石",
+      "category": "cosmic-artifact",
+      "principle": "六枚宝石对应宇宙基础侧面：空间、心灵、现实、力量、时间、灵魂。",
+      "classification": [
+        "Artifact",
+        "Cosmic"
+      ],
+      "energySource": "external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "宇宙本源力量",
+      "energyTraits": [
+        {
+          "tag": "cosmic",
+          "level": "EX",
+          "description": "完整手套可造成宇宙尺度影响。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "宝石",
+        "容器",
+        "使用者耐受"
+      ],
+      "commonAbilities": [
+        "空间跃迁",
+        "时间操控",
+        "现实改写",
+        "能量爆发"
+      ],
+      "limitations": [
+        "使用者需承受反噬；宝石状态按时间线。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "asgardian-divinity",
+      "name": "阿斯加德神族体质/神力",
+      "category": "alien-divinity",
+      "principle": "",
+      "classification": [],
+      "energySource": "mixed",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [],
+      "commonAbilities": [],
+      "limitations": [],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "avengers",
+      "name": "复仇者联盟",
+      "type": "superhero-team",
+      "summary": "地球主要超级英雄协作团队。",
+      "powerSystemAffinity": [
+        "super-soldier-tech",
+        "mystic-arts"
+      ],
+      "publicRules": [
+        "保护地球"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "protective",
+      "knownMembers": [
+        "tony-stark",
+        "steve-rogers",
+        "thor-odinson",
+        "bruce-banner",
+        "natasha-romanoff"
+      ],
+      "territories": [
+        "new-york",
+        "avengers-compound"
+      ],
+      "resources": [
+        "英雄网络",
+        "科技资源"
+      ],
+      "conflicts": [
+        "thanos",
+        "hydra"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "clint-barton"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): clint-barton"
+      ]
+    },
+    {
+      "id": "shield",
+      "name": "神盾局",
+      "type": "intelligence-agency",
+      "summary": "处理超常威胁的情报机构。",
+      "powerSystemAffinity": [
+        "super-soldier-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "九头蛇潜伏风险"
+      ],
+      "attitudeToOutsiders": "classified",
+      "knownMembers": [],
+      "territories": [],
+      "resources": [
+        "情报",
+        "航母"
+      ],
+      "conflicts": [
+        "hydra"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "nick-fury",
+            "phil-coulson"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): nick-fury, phil-coulson"
+      ]
+    },
+    {
+      "id": "hydra",
+      "name": "九头蛇",
+      "type": "secret-organization",
+      "summary": "长期渗透并追求控制的秘密组织。",
+      "powerSystemAffinity": [
+        "super-soldier-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "潜伏网络"
+      ],
+      "attitudeToOutsiders": "hostile",
+      "knownMembers": [],
+      "territories": [],
+      "resources": [
+        "渗透网络",
+        "洗脑技术"
+      ],
+      "conflicts": [
+        "shield",
+        "avengers"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "winter-soldier"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): winter-soldier"
+      ]
+    },
+    {
+      "id": "asgard",
+      "name": "阿斯加德",
+      "type": "realm-faction",
+      "summary": "",
+      "powerSystemAffinity": [
+        "asgardian-divinity"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "thor-odinson"
+      ],
+      "territories": [
+        "asgard"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "阿斯加德"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "loki"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): loki"
+      ]
+    },
+    {
+      "id": "black-order",
+      "name": "黑曜五将/黑暗教团",
+      "type": "alien-faction",
+      "summary": "",
+      "powerSystemAffinity": [
+        "infinity-stones"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "thanos"
+      ],
+      "territories": [
+        "titan"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "黑曜五将/黑暗教团"
+      ]
+    },
+    {
+      "id": "masters-of-mystic-arts",
+      "name": "秘术师",
+      "type": "mystic-order",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mystic-arts"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [],
+      "territories": [
+        "kamar-taj",
+        "new-york-sanctum"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "秘术师"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "stephen-strange"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): stephen-strange"
+      ]
+    },
+    {
+      "id": "stark-industries",
+      "name": "斯塔克工业",
+      "type": "corporation",
+      "summary": "",
+      "powerSystemAffinity": [
+        "super-soldier-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "tony-stark"
+      ],
+      "territories": [
+        "new-york"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "斯塔克工业"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "宇宙能量/维度能量",
+        "density": "uneven",
+        "distribution": "宝石、维度节点和宇宙区域高密度",
+        "traits": [
+          "高危",
+          "多源"
+        ],
+        "recoveryImpact": "支持魔法、神器和外星科技。"
+      }
+    ],
+    "restrictedZones": [
+      "镜像空间",
+      "量子领域",
+      "宇宙深空"
+    ],
+    "specialFields": [
+      "多元宇宙裂隙",
+      "时间线分支"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代国家法律与超级英雄监管"
+    ],
+    "supernaturalRules": [
+      "科技、魔法、外星血统与宇宙神器并存。"
+    ],
+    "taboos": [
+      "无限宝石滥用",
+      "时间线破坏",
+      "外星入侵"
+    ],
+    "knownExceptions": [
+      "天神组、多元宇宙实体、量子领域。"
+    ]
+  },
+  "locations": [
+    {
+      "id": "new-york",
+      "name": "纽约",
+      "type": "city",
+      "summary": "",
+      "aliases": [
+        "纽约"
+      ]
+    },
+    {
+      "id": "avengers-compound",
+      "name": "复仇者基地",
+      "type": "base",
+      "summary": "",
+      "aliases": [
+        "复仇者基地"
+      ]
+    },
+    {
+      "id": "wakanda",
+      "name": "瓦坎达",
+      "type": "nation",
+      "summary": "",
+      "aliases": [
+        "瓦坎达"
+      ]
+    },
+    {
+      "id": "asgard",
+      "name": "阿斯加德",
+      "type": "realm",
+      "summary": "",
+      "aliases": [
+        "阿斯加德"
+      ]
+    },
+    {
+      "id": "kamar-taj",
+      "name": "卡玛泰姬",
+      "type": "sanctum-training",
+      "summary": "",
+      "aliases": [
+        "卡玛泰姬"
+      ]
+    },
+    {
+      "id": "quantum-realm",
+      "name": "量子领域",
+      "type": "special-realm",
+      "summary": "",
+      "aliases": [
+        "量子领域"
+      ]
+    },
+    {
+      "id": "titan",
+      "name": "泰坦星",
+      "type": "planet",
+      "summary": "",
+      "aliases": [
+        "泰坦星"
+      ]
+    },
+    {
+      "id": "new-york-sanctum",
+      "name": "纽约圣殿",
+      "type": "sanctum",
+      "summary": "",
+      "aliases": [
+        "纽约圣殿"
+      ]
+    },
+    {
+      "id": "united-states",
+      "name": "美国",
+      "type": "nation",
+      "summary": "美国相关地点集合标签。",
+      "aliases": [
+        "美国"
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "地球",
+      "type": "planet",
+      "summary": "地球主舞台集合标签。",
+      "aliases": [
+        "地球"
+      ]
+    },
+    {
+      "id": "cosmos",
+      "name": "宇宙",
+      "type": "space-region",
+      "summary": "宇宙线活动区域集合标签。",
+      "aliases": [
+        "宇宙"
+      ]
+    }
+  ],
+  "publicEvents": [
+    "纽约之战",
+    "索科维亚事件",
+    "无限战争"
+  ],
+  "hiddenEvents": [
+    "九头蛇渗透神盾局",
+    "时间线分支与变体"
+  ]
+}

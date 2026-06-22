@@ -16,3 +16,8 @@
 1. 按作品线拆分子索引。
 2. 建立从者职阶/宝具表。
 3. 对冬木圣杯战争、迦勒底、人理/异闻带分别建事件图谱。
+
+## 2026-06-22 MED 规范化补记
+- 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
+- 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。
+- 已补足 `waver-velvet` 与 `romani-archaman` 以对齐 `knownMembers`。

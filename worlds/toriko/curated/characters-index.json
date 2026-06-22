@@ -5,20 +5,88 @@
     {
       "id": "toriko",
       "name": "阿虏",
-      "aliases": ["Toriko", "大胃王", "美食四天王·大胃王"],
+      "aliases": [
+        "Toriko",
+        "大胃王",
+        "美食四天王·大胃王"
+      ],
       "visibility": "public",
       "summary": "美食四天王之一，IGO注册美食猎人，主线核心行动者。",
-      "roles": ["主角", "美食猎人", "四天王"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level", "appetite-demon"],
-      "abilities": ["钉拳", "食欲感知", "超强再生", "高强度肉体战斗"],
-      "items": ["美食猎人装备"],
-      "relationships": ["komatsu:partner", "tairy:animal-partner", "coco:fellow-four-heavenly-kings", "sunny:fellow-four-heavenly-kings", "zebra:fellow-four-heavenly-kings", "ichiryu:mentor"],
+      "roles": [
+        "主角",
+        "美食猎人",
+        "四天王"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level",
+        "appetite-demon"
+      ],
+      "abilities": [
+        "钉拳",
+        "食欲感知",
+        "超强再生",
+        "高强度肉体战斗"
+      ],
+      "items": [
+        "美食猎人装备"
+      ],
+      "relationships": [
+        {
+          "target": "komatsu",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tairy",
+          "targetType": "character",
+          "relation": "animal-partner",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "coco",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "sunny",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "zebra",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ichiryu",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "取代模式下不得强加给用户。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "取代模式下不得强加给用户。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "komatsu",
@@ -26,71 +94,237 @@
       "aliases": [],
       "visibility": "public",
       "summary": "Hotel Gourmet 出身的天才厨师，与阿虏结成不可替代的料理搭档。",
-      "roles": ["厨师", "搭档", "料理人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["Hotel Gourmet", "人间界"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["料理解析", "食材处理", "料理灵感"],
-      "items": ["厨师工具"],
-      "relationships": ["toriko:partner", "setsuno:mentor"],
+      "roles": [
+        "厨师",
+        "搭档",
+        "料理人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "hotel-gourmet",
+        "human-world"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "料理解析",
+        "食材处理",
+        "料理灵感"
+      ],
+      "items": [
+        "厨师工具"
+      ],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "setsuno",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "取代模式下视为首次遇见用户。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "取代模式下视为首次遇见用户。",
+      "normalizationNotes": [
+        "locations: Hotel Gourmet -> hotel-gourmet",
+        "locations: 人间界 -> human-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "coco",
       "name": "可可",
-      "aliases": ["四天王可可"],
+      "aliases": [
+        "四天王可可"
+      ],
       "visibility": "public",
       "summary": "四天王之一，以毒与情报见长的猎人。",
-      "roles": ["四天王", "情报型猎人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["毒素操控", "危机预判", "远程战斗"],
+      "roles": [
+        "四天王",
+        "情报型猎人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "毒素操控",
+        "危机预判",
+        "远程战斗"
+      ],
       "items": [],
-      "relationships": ["toriko:fellow-four-heavenly-kings", "sunny:fellow-four-heavenly-kings", "zebra:fellow-four-heavenly-kings"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "sunny",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "zebra",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "四天王主力成员。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "四天王主力成员。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "sunny",
       "name": "萨尼",
-      "aliases": ["四天王萨尼"],
+      "aliases": [
+        "四天王萨尼"
+      ],
       "visibility": "public",
       "summary": "四天王之一，以审美、触觉与长发武装战斗闻名。",
-      "roles": ["四天王", "美学型猎人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["长发操控", "感官精度", "高速机动"],
+      "roles": [
+        "四天王",
+        "美学型猎人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "长发操控",
+        "感官精度",
+        "高速机动"
+      ],
       "items": [],
-      "relationships": ["toriko:fellow-four-heavenly-kings", "coco:fellow-four-heavenly-kings", "zebra:fellow-four-heavenly-kings"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "coco",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "zebra",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "四天王主力成员。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "四天王主力成员。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "zebra",
       "name": "泽布拉",
-      "aliases": ["四天王泽布拉"],
+      "aliases": [
+        "四天王泽布拉"
+      ],
       "visibility": "public",
       "summary": "四天王之一，以音压、压制力与暴力型战斗著称。",
-      "roles": ["四天王", "强攻型猎人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["超强声波", "威压", "近身破坏"],
+      "roles": [
+        "四天王",
+        "强攻型猎人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "超强声波",
+        "威压",
+        "近身破坏"
+      ],
       "items": [],
-      "relationships": ["toriko:fellow-four-heavenly-kings", "coco:fellow-four-heavenly-kings", "sunny:fellow-four-heavenly-kings"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "coco",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "sunny",
+          "targetType": "character",
+          "relation": "fellow-four-heavenly-kings",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "四天王主力成员。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "四天王主力成员。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "ichiryu",
@@ -98,17 +332,59 @@
       "aliases": [],
       "visibility": "public",
       "summary": "IGO前会长，美食时代最重要的守门人之一。",
-      "roles": ["前会长", "导师", "传说猎人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["IGO总部", "人间界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["少数派结界", "高阶战斗", "统御"],
+      "roles": [
+        "前会长",
+        "导师",
+        "传说猎人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "igo-headquarters",
+        "human-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "少数派结界",
+        "高阶战斗",
+        "统御"
+      ],
       "items": [],
-      "relationships": ["toriko:mentor", "jirou:brother", "midora:brother"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "jirou",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "midora",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "世界秩序核心人物。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "世界秩序核心人物。",
+      "normalizationNotes": [
+        "locations: IGO总部 -> igo-headquarters",
+        "locations: 人间界 -> human-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "jirou",
@@ -116,35 +392,127 @@
       "aliases": [],
       "visibility": "public",
       "summary": "传说级猎人，精通点穴与封印系技巧。",
-      "roles": ["传说猎人", "封印者"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["点穴", "封印", "极限体术"],
+      "roles": [
+        "传说猎人",
+        "封印者"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "点穴",
+        "封印",
+        "极限体术"
+      ],
       "items": [],
-      "relationships": ["ichiryu:brother", "midora:brother"],
+      "relationships": [
+        {
+          "target": "ichiryu",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "midora",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "终局级战力。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "终局级战力。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "midora",
       "name": "三虎",
-      "aliases": ["斯塔久之父", "Midora"],
+      "aliases": [
+        "斯塔久之父",
+        "Midora"
+      ],
       "visibility": "public",
       "summary": "美食会创立者与终局级巨头之一，亦为阿卡西亚之子。",
-      "roles": ["美食会首领", "终局角色"],
-      "factions": ["美食会"],
-      "locations": ["美食会据点", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level", "appetite-demon"],
-      "abilities": ["食霸压制", "高阶战斗", "组织统率"],
+      "roles": [
+        "美食会首领",
+        "终局角色"
+      ],
+      "factions": [
+        "gourmet-corps"
+      ],
+      "locations": [
+        "gourmet-society-base",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level",
+        "appetite-demon"
+      ],
+      "abilities": [
+        "食霸压制",
+        "高阶战斗",
+        "组织统率"
+      ],
       "items": [],
-      "relationships": ["stajyu:ally", "ichiryu:brother", "jirou:brother", "acacia:son", "joa:enemy"],
+      "relationships": [
+        {
+          "target": "stajyu",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ichiryu",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "jirou",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "acacia",
+          "targetType": "character",
+          "relation": "son",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "joa",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "部分资料以三虎/三虎(三虎)形式出现。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "部分资料以三虎/三虎(三虎)形式出现。",
+      "normalizationNotes": [
+        "locations: 美食会据点 -> gourmet-society-base",
+        "locations: 美食界 -> gourmet-world",
+        "factions: 美食会 -> gourmet-corps"
+      ]
     },
     {
       "id": "acacia",
@@ -152,17 +520,64 @@
       "aliases": [],
       "visibility": "gm-only",
       "summary": "美食神，发现美食细胞并开启美食时代的传说人物。",
-      "roles": ["美食神", "创世级人物"],
-      "factions": ["独立"],
-      "locations": ["历史线", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level", "appetite-demon"],
-      "abilities": ["食材发现", "终局级战力", "全套菜单统合"],
-      "items": ["全套菜单"],
-      "relationships": ["midora:son", "joa:host", "neo:associated-entity"],
+      "roles": [
+        "美食神",
+        "创世级人物"
+      ],
+      "factions": [
+        "independent-gourmet-ecosystem"
+      ],
+      "locations": [
+        "historical-line",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level",
+        "appetite-demon"
+      ],
+      "abilities": [
+        "食材发现",
+        "终局级战力",
+        "全套菜单统合"
+      ],
+      "items": [
+        "全套菜单"
+      ],
+      "relationships": [
+        {
+          "target": "midora",
+          "targetType": "character",
+          "relation": "son",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "joa",
+          "targetType": "character",
+          "relation": "host",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "faction",
+          "relation": "associated-entity",
+          "resolutionStatus": "resolved",
+          "target": "neo",
+          "notes": [
+            "NEO is represented as a faction node, not a character."
+          ]
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "终局剧透核心。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "终局剧透核心。",
+      "normalizationNotes": [
+        "locations: 历史线 -> historical-line",
+        "locations: 美食界 -> gourmet-world",
+        "factions: 独立 -> independent-gourmet-ecosystem"
+      ]
     },
     {
       "id": "joa",
@@ -170,17 +585,60 @@
       "aliases": [],
       "visibility": "gm-only",
       "summary": "暗黑料理人、NEO核心人物，终局阴谋的关键执行者。",
-      "roles": ["反派", "料理人", "阴谋者"],
-      "factions": ["NEO"],
-      "locations": ["NEO基地", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level", "appetite-demon"],
-      "abilities": ["高阶料理", "阴谋操控", "终局级战斗"],
+      "roles": [
+        "反派",
+        "料理人",
+        "阴谋者"
+      ],
+      "factions": [
+        "neo"
+      ],
+      "locations": [
+        "neo-base",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level",
+        "appetite-demon"
+      ],
+      "abilities": [
+        "高阶料理",
+        "阴谋操控",
+        "终局级战斗"
+      ],
       "items": [],
-      "relationships": ["acacia:linked", "midora:enemy", "ichiryu:enemy"],
+      "relationships": [
+        {
+          "target": "acacia",
+          "targetType": "character",
+          "relation": "linked",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "midora",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ichiryu",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "高剧透角色。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "高剧透角色。",
+      "normalizationNotes": [
+        "locations: NEO基地 -> neo-base",
+        "locations: 美食界 -> gourmet-world",
+        "factions: NEO -> neo"
+      ]
     },
     {
       "id": "mansam",
@@ -188,17 +646,51 @@
       "aliases": [],
       "visibility": "public",
       "summary": "IGO现任会长，美食秩序的组织者与扩音器式领导者。",
-      "roles": ["会长", "组织者"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["IGO总部", "人间界"],
-      "powerSystems": ["capture-level"],
-      "abilities": ["管理", "宣传", "战时统合"],
+      "roles": [
+        "会长",
+        "组织者"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "igo-headquarters",
+        "human-world"
+      ],
+      "powerSystems": [
+        "capture-level"
+      ],
+      "abilities": [
+        "管理",
+        "宣传",
+        "战时统合"
+      ],
       "items": [],
-      "relationships": ["ichiryu:successor", "toriko:ally"],
+      "relationships": [
+        {
+          "target": "ichiryu",
+          "targetType": "character",
+          "relation": "successor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "秩序侧关键人物。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "秩序侧关键人物。",
+      "normalizationNotes": [
+        "locations: IGO总部 -> igo-headquarters",
+        "locations: 人间界 -> human-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "setsuno",
@@ -206,53 +698,154 @@
       "aliases": [],
       "visibility": "public",
       "summary": "顶级料理人之一，美食人间国宝级人物。",
-      "roles": ["料理人", "美食国宝"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界", "料理舞台"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["顶级料理", "食材处理", "经验传承"],
+      "roles": [
+        "料理人",
+        "美食国宝"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world",
+        "cooking-festival-stage"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "顶级料理",
+        "食材处理",
+        "经验传承"
+      ],
       "items": [],
-      "relationships": ["komatsu:mentor", "mansam:peer"],
+      "relationships": [
+        {
+          "target": "komatsu",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "mansam",
+          "targetType": "character",
+          "relation": "peer",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "厨师线核心人物。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "厨师线核心人物。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 料理舞台 -> cooking-festival-stage",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "stajyu",
       "name": "斯塔久",
-      "aliases": ["Stajyu"],
+      "aliases": [
+        "Stajyu"
+      ],
       "visibility": "public",
       "summary": "美食会高层干部，和阿虏有特殊血缘关联的强者。",
-      "roles": ["美食会干部", "强者"],
-      "factions": ["美食会"],
-      "locations": ["美食会据点", "美食界"],
-      "powerSystems": ["gourmet-cells", "capture-level"],
-      "abilities": ["高强度战斗", "组织级指挥"],
+      "roles": [
+        "美食会干部",
+        "强者"
+      ],
+      "factions": [
+        "gourmet-corps"
+      ],
+      "locations": [
+        "gourmet-society-base",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "abilities": [
+        "高强度战斗",
+        "组织级指挥"
+      ],
       "items": [],
-      "relationships": ["midora:serves", "toriko:brother"],
+      "relationships": [
+        {
+          "target": "midora",
+          "targetType": "character",
+          "relation": "serves",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "brother",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "重要兄弟线角色。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "重要兄弟线角色。",
+      "normalizationNotes": [
+        "locations: 美食会据点 -> gourmet-society-base",
+        "locations: 美食界 -> gourmet-world",
+        "factions: 美食会 -> gourmet-corps"
+      ]
     },
     {
       "id": "tairy",
       "name": "泰利",
-      "aliases": ["斗狼泰利", "Terry"],
+      "aliases": [
+        "斗狼泰利",
+        "Terry"
+      ],
       "visibility": "public",
       "summary": "阿虏的搭档斗狼，兼具机动性与野兽直觉。",
-      "roles": ["动物搭档", "战斗伙伴"],
-      "factions": ["阿虏阵营"],
-      "locations": ["人间界", "美食界"],
-      "powerSystems": ["capture-level"],
-      "abilities": ["高速奔袭", "追踪", "野性战斗"],
+      "roles": [
+        "动物搭档",
+        "战斗伙伴"
+      ],
+      "factions": [
+        "toriko-camp"
+      ],
+      "locations": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "powerSystems": [
+        "capture-level"
+      ],
+      "abilities": [
+        "高速奔袭",
+        "追踪",
+        "野性战斗"
+      ],
       "items": [],
-      "relationships": ["toriko:partner"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "A",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "取代模式下不应默认绑定用户。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "取代模式下不应默认绑定用户。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "locations: 美食界 -> gourmet-world",
+        "factions: 阿虏阵营 -> toriko-camp"
+      ]
     },
     {
       "id": "rin",
@@ -260,17 +853,43 @@
       "aliases": [],
       "visibility": "public",
       "summary": "与阿虏关系密切的女性角色，具备独立行动力。",
-      "roles": ["同伴", "支援角色"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界"],
-      "powerSystems": ["capture-level"],
-      "abilities": ["支援", "情报联络", "行动协助"],
+      "roles": [
+        "同伴",
+        "支援角色"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world"
+      ],
+      "powerSystems": [
+        "capture-level"
+      ],
+      "abilities": [
+        "支援",
+        "情报联络",
+        "行动协助"
+      ],
       "items": [],
-      "relationships": ["toriko:close-ally"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "close-ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "具体时间线可变。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "具体时间线可变。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "teppei",
@@ -278,17 +897,42 @@
       "aliases": [],
       "visibility": "public",
       "summary": "以食材与情报流通相关的辅助人物。",
-      "roles": ["辅助角色", "情报/物流"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["人间界"],
-      "powerSystems": ["capture-level"],
-      "abilities": ["食材传递", "情报支援"],
+      "roles": [
+        "辅助角色",
+        "情报/物流"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "human-world"
+      ],
+      "powerSystems": [
+        "capture-level"
+      ],
+      "abilities": [
+        "食材传递",
+        "情报支援"
+      ],
       "items": [],
-      "relationships": ["toriko:ally"],
+      "relationships": [
+        {
+          "target": "toriko",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "作为辅助角色纳入。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "作为辅助角色纳入。",
+      "normalizationNotes": [
+        "locations: 人间界 -> human-world",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "saturn",
@@ -296,91 +940,338 @@
       "aliases": [],
       "visibility": "gm-only",
       "summary": "世界厨师巅峰级人物之一，常见于终局料理阵营。",
-      "roles": ["料理人", "世界级名厨"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["料理竞赛场"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["超高料理技术", "赛事统治力"],
+      "roles": [
+        "料理人",
+        "世界级名厨"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "gourmet-colosseum-market"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "超高料理技术",
+        "赛事统治力"
+      ],
       "items": [],
-      "relationships": ["setsuno:peer"],
+      "relationships": [
+        {
+          "target": "setsuno",
+          "targetType": "character",
+          "relation": "peer",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "终局厨师线较强，保留但不扩写。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "终局厨师线较强，保留但不扩写。",
+      "normalizationNotes": [
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "brunch",
       "name": "布朗奇",
-      "aliases": ["布兰奇"],
+      "aliases": [
+        "布兰奇"
+      ],
       "visibility": "gm-only",
       "summary": "世界顶级料理人之一。",
-      "roles": ["料理人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["世界料理舞台"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["高阶料理", "特殊食材处理"],
+      "roles": [
+        "料理人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "cooking-festival-stage"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "高阶料理",
+        "特殊食材处理"
+      ],
       "items": [],
-      "relationships": ["setsuno:peer"],
+      "relationships": [
+        {
+          "target": "setsuno",
+          "targetType": "character",
+          "relation": "peer",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "low",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "保留为世界厨师排名代表。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "保留为世界厨师排名代表。",
+      "normalizationNotes": [
+        "locations: 世界料理舞台 -> cooking-festival-stage",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "damala-sky-13",
       "name": "达玛拉·天空十三世",
-      "aliases": ["咖喱国王"],
+      "aliases": [
+        "咖喱国王"
+      ],
       "visibility": "gm-only",
       "summary": "世界料理排行中的代表人物之一。",
-      "roles": ["料理人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["料理舞台"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["香料料理", "大型宴席统筹"],
+      "roles": [
+        "料理人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "cooking-festival-stage"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "香料料理",
+        "大型宴席统筹"
+      ],
       "items": [],
-      "relationships": ["setsuno:peer"],
+      "relationships": [
+        {
+          "target": "setsuno",
+          "targetType": "character",
+          "relation": "peer",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "low",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "按厨师榜单保留。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "按厨师榜单保留。",
+      "normalizationNotes": [
+        "locations: 料理舞台 -> cooking-festival-stage",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     },
     {
       "id": "yuda",
       "name": "犹塔",
-      "aliases": ["药膳泰斗"],
+      "aliases": [
+        "药膳泰斗"
+      ],
       "visibility": "gm-only",
       "summary": "世界级料理人之一，以药膳与养生料理闻名。",
-      "roles": ["料理人"],
-      "factions": ["IGO国际美食机构"],
-      "locations": ["料理舞台"],
-      "powerSystems": ["food-honor"],
-      "abilities": ["药膳料理", "疗愈料理"],
+      "roles": [
+        "料理人"
+      ],
+      "factions": [
+        "igo"
+      ],
+      "locations": [
+        "cooking-festival-stage"
+      ],
+      "powerSystems": [
+        "food-honor"
+      ],
+      "abilities": [
+        "药膳料理",
+        "疗愈料理"
+      ],
       "items": [],
-      "relationships": ["setsuno:peer"],
+      "relationships": [
+        {
+          "target": "setsuno",
+          "targetType": "character",
+          "relation": "peer",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "low",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-toriko-001"],
-      "notes": "按厨师榜单保留。"
+      "sourceRefs": [
+        "src-toriko-001"
+      ],
+      "notes": "按厨师榜单保留。",
+      "normalizationNotes": [
+        "locations: 料理舞台 -> cooking-festival-stage",
+        "factions: IGO国际美食机构 -> igo"
+      ]
     }
   ],
   "indices": {
     "byFaction": {
-      "IGO国际美食机构": ["toriko", "komatsu", "coco", "sunny", "zebra", "ichiryu", "jirou", "mansam", "setsuno", "teppei", "rin"],
-      "美食会": ["midora", "stajyu"],
-      "NEO": ["joa"],
-      "独立": ["acacia"],
-      "阿虏阵营": ["tairy"]
+      "gourmet-corps": [
+        "midora",
+        "stajyu"
+      ],
+      "igo": [
+        "toriko",
+        "komatsu",
+        "coco",
+        "sunny",
+        "zebra",
+        "ichiryu",
+        "jirou",
+        "mansam",
+        "setsuno",
+        "rin",
+        "teppei",
+        "saturn",
+        "brunch",
+        "damala-sky-13",
+        "yuda"
+      ],
+      "independent-gourmet-ecosystem": [
+        "acacia"
+      ],
+      "neo": [
+        "joa"
+      ],
+      "toriko-camp": [
+        "tairy"
+      ]
     },
     "byPowerSystem": {
-      "gourmet-cells": ["toriko", "coco", "sunny", "zebra", "ichiryu", "jirou", "midora", "acacia", "joa", "stajyu"],
-      "capture-level": ["toriko", "coco", "sunny", "zebra", "ichiryu", "jirou", "midora", "mansam", "tairy", "rin", "teppei"],
-      "appetite-demon": ["toriko", "midora", "acacia", "joa"],
-      "food-honor": ["komatsu", "setsuno", "saturn", "brunch", "damala-sky-13", "yuda"]
+      "appetite-demon": [
+        "toriko",
+        "midora",
+        "acacia",
+        "joa"
+      ],
+      "capture-level": [
+        "toriko",
+        "coco",
+        "sunny",
+        "zebra",
+        "ichiryu",
+        "jirou",
+        "midora",
+        "acacia",
+        "joa",
+        "mansam",
+        "stajyu",
+        "tairy",
+        "rin",
+        "teppei"
+      ],
+      "food-honor": [
+        "komatsu",
+        "setsuno",
+        "saturn",
+        "brunch",
+        "damala-sky-13",
+        "yuda"
+      ],
+      "gourmet-cells": [
+        "toriko",
+        "coco",
+        "sunny",
+        "zebra",
+        "ichiryu",
+        "jirou",
+        "midora",
+        "acacia",
+        "joa",
+        "stajyu"
+      ]
     },
     "byVisibility": {
-      "public": ["toriko", "komatsu", "coco", "sunny", "zebra", "ichiryu", "jirou", "midora", "mansam", "setsuno", "stajyu", "tairy", "rin", "teppei"],
-      "gm-only": ["acacia", "joa", "saturn", "brunch", "damala-sky-13", "yuda"]
+      "gm-only": [
+        "acacia",
+        "joa",
+        "saturn",
+        "brunch",
+        "damala-sky-13",
+        "yuda"
+      ],
+      "public": [
+        "toriko",
+        "komatsu",
+        "coco",
+        "sunny",
+        "zebra",
+        "ichiryu",
+        "jirou",
+        "midora",
+        "mansam",
+        "setsuno",
+        "stajyu",
+        "tairy",
+        "rin",
+        "teppei"
+      ]
     },
-    "majorCharacters": ["toriko", "komatsu", "coco", "sunny", "zebra", "ichiryu", "jirou", "midora", "acacia", "joa", "mansam", "setsuno", "stajyu"]
+    "majorCharacters": [
+      "toriko",
+      "komatsu",
+      "coco",
+      "sunny",
+      "zebra",
+      "ichiryu",
+      "jirou",
+      "midora",
+      "acacia",
+      "joa",
+      "mansam",
+      "setsuno",
+      "stajyu"
+    ],
+    "byId": {
+      "toriko": 0,
+      "komatsu": 1,
+      "coco": 2,
+      "sunny": 3,
+      "zebra": 4,
+      "ichiryu": 5,
+      "jirou": 6,
+      "midora": 7,
+      "acacia": 8,
+      "joa": 9,
+      "mansam": 10,
+      "setsuno": 11,
+      "stajyu": 12,
+      "tairy": 13,
+      "rin": 14,
+      "teppei": 15,
+      "saturn": 16,
+      "brunch": 17,
+      "damala-sky-13": 18,
+      "yuda": 19
+    },
+    "byName": {
+      "阿虏": "toriko",
+      "小松": "komatsu",
+      "可可": "coco",
+      "萨尼": "sunny",
+      "泽布拉": "zebra",
+      "一龙": "ichiryu",
+      "次郎": "jirou",
+      "三虎": "midora",
+      "阿卡西亚": "acacia",
+      "乔亚": "joa",
+      "曼萨姆": "mansam",
+      "节乃": "setsuno",
+      "斯塔久": "stajyu",
+      "泰利": "tairy",
+      "琳": "rin",
+      "铁平": "teppei",
+      "萨乌斯": "saturn",
+      "布朗奇": "brunch",
+      "达玛拉·天空十三世": "damala-sky-13",
+      "犹塔": "yuda"
+    },
+    "byAffiliation": {},
+    "byTag": {}
   }
 }

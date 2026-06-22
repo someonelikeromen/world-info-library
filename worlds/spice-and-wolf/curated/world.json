@@ -1,1 +1,199 @@
-{"schema":"rp-world-v1","worldId":"spice-and-wolf","worldName":"狼与香辛料","aliases":["Spice and Wolf","Ookami to Koushinryou"],"genre":["中世纪商路","旅途经济","神明与行商"],"summary":"以中世纪欧洲风格的行商旅途为舞台，贤狼赫萝与行商克拉福·罗伦斯结伴穿越城镇、教会和市场，在贸易、货币、信仰与情感之间周旋。","sandboxPrinciple":"不固定旅途终点；可走商业、神祇、教会、故乡或婚后生活路线。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["无高魔战斗体系，核心是商业谈判与神性。"],"powerSystems":[{"id":"spice-trade","name":"行商与市场博弈","category":"economic-social","principle":"价格、汇率、信用、契约和供需决定风险与收益。","classification":["Economy","Negotiation","Travel"],"energySource":"none","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[],"levelMapping":[],"commonResources":["金币","货物","信用","信息"],"commonAbilities":["议价","套利","风险判断"],"limitations":["信息不对称和信用崩坏会造成巨大损失。"],"compatibilityNotes":[]},{"id":"holo-divinity","name":"贤狼之力","category":"divine-nature","principle":"赫萝以狼神形态操纵感知、自然与威严，但不是无代价全能。","classification":["Divine","Shapeshift","Perception"],"energySource":"inherent-divine-power","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[],"levelMapping":[],"commonResources":["狼耳/尾","长寿记忆","自然感知"],"commonAbilities":["兽化","感知谎言","威压"],"limitations":["受人类社会与信仰变化制约；过度暴露会招致追捕。"],"compatibilityNotes":[]}],"factions":[{"id":"lawrence-route","name":"罗伦斯旅途同伴","type":"traveling-pair","summary":"罗伦斯与赫萝的旅程主轴。","powerSystemAffinity":["spice-trade","holo-divinity"],"publicRules":["共同旅行、共同决策"],"hiddenRules":["情感早已超越单纯交易"],"attitudeToOutsiders":"cautious","knownMembers":["lawrence","holo"],"territories":["road","market-town"],"resources":["货物","商会联系","情报"],"conflicts":["church","traders"]},{"id":"church","name":"教会/异端审判势力","type":"religious-power","summary":"与狼神、货币和地方政治交错的宗教势力。","powerSystemAffinity":["spice-trade"],"publicRules":["异端审判","信仰秩序"],"hiddenRules":[],"attitudeToOutsiders":"suspicious","knownMembers":[],"territories":[],"resources":["影响力","审判权"],"conflicts":["holo","lawrence-route"]}],"energyEnvironment":{"externalEnergies":[],"restrictedZones":[],"specialFields":[]},"worldRules":{"publicLaws":["中世纪城镇法、行会规则、关税和信用"],"supernaturalRules":["神明可降临但受信仰与传说约束","交易与信息是事实上的力量"],"taboos":["轻率毁约","公开亵渎地方信仰"],"knownExceptions":[]},"locations":[{"id":"market-town","name":"城镇与市场","type":"trade-hub","summary":"商品、汇率与阴谋交汇处。"},{"id":"road","name":"商路","type":"travel-route","summary":"旅途与对话的主要空间。"}],"publicEvents":[{"id":"holo-meets-lawrence","name":"赫萝与罗伦斯结伴","summary":"行商与贤狼开始长期旅程。"}],"hiddenEvents":[{"id":"holo-home","name":"约伊兹与故乡回归欲","summary":"赫萝对北方故乡的眷恋持续影响路线选择。"}]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "spice-and-wolf",
+  "worldName": "狼与香辛料",
+  "aliases": [
+    "Spice and Wolf",
+    "Ookami to Koushinryou"
+  ],
+  "genre": [
+    "中世纪商路",
+    "旅途经济",
+    "神明与行商"
+  ],
+  "summary": "以中世纪欧洲风格的行商旅途为舞台，贤狼赫萝与行商克拉福·罗伦斯结伴穿越城镇、教会和市场，在贸易、货币、信仰与情感之间周旋。",
+  "sandboxPrinciple": {
+    "summary": "不固定旅途终点；可走商业、神祇、教会、故乡或婚后生活路线。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "无高魔战斗体系，核心是商业谈判与神性。"
+  ],
+  "powerSystems": [
+    {
+      "id": "spice-trade",
+      "name": "行商与市场博弈",
+      "category": "economic-social",
+      "principle": "价格、汇率、信用、契约和供需决定风险与收益。",
+      "classification": [
+        "Economy",
+        "Negotiation",
+        "Travel"
+      ],
+      "energySource": "none",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "金币",
+        "货物",
+        "信用",
+        "信息"
+      ],
+      "commonAbilities": [
+        "议价",
+        "套利",
+        "风险判断"
+      ],
+      "limitations": [
+        "信息不对称和信用崩坏会造成巨大损失。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "holo-divinity",
+      "name": "贤狼之力",
+      "category": "divine-nature",
+      "principle": "赫萝以狼神形态操纵感知、自然与威严，但不是无代价全能。",
+      "classification": [
+        "Divine",
+        "Shapeshift",
+        "Perception"
+      ],
+      "energySource": "inherent-divine-power",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "狼耳/尾",
+        "长寿记忆",
+        "自然感知"
+      ],
+      "commonAbilities": [
+        "兽化",
+        "感知谎言",
+        "威压"
+      ],
+      "limitations": [
+        "受人类社会与信仰变化制约；过度暴露会招致追捕。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "lawrence-route",
+      "name": "罗伦斯旅途同伴",
+      "type": "traveling-pair",
+      "summary": "罗伦斯与赫萝的旅程主轴。",
+      "powerSystemAffinity": [
+        "spice-trade",
+        "holo-divinity"
+      ],
+      "publicRules": [
+        "共同旅行、共同决策"
+      ],
+      "hiddenRules": [
+        "情感早已超越单纯交易"
+      ],
+      "attitudeToOutsiders": "cautious",
+      "knownMembers": [
+        "lawrence",
+        "holo"
+      ],
+      "territories": [
+        "road",
+        "market-town"
+      ],
+      "resources": [
+        "货物",
+        "商会联系",
+        "情报"
+      ],
+      "conflicts": [
+        "church",
+        "traders"
+      ]
+    },
+    {
+      "id": "church",
+      "name": "教会/异端审判势力",
+      "type": "religious-power",
+      "summary": "与狼神、货币和地方政治交错的宗教势力。",
+      "powerSystemAffinity": [
+        "spice-trade"
+      ],
+      "publicRules": [
+        "异端审判",
+        "信仰秩序"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "suspicious",
+      "knownMembers": [],
+      "territories": [],
+      "resources": [
+        "影响力",
+        "审判权"
+      ],
+      "conflicts": [
+        "holo",
+        "lawrence-route"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [],
+    "restrictedZones": [],
+    "specialFields": []
+  },
+  "worldRules": {
+    "publicLaws": [
+      "中世纪城镇法、行会规则、关税和信用"
+    ],
+    "supernaturalRules": [
+      "神明可降临但受信仰与传说约束",
+      "交易与信息是事实上的力量"
+    ],
+    "taboos": [
+      "轻率毁约",
+      "公开亵渎地方信仰"
+    ],
+    "knownExceptions": []
+  },
+  "locations": [
+    {
+      "id": "market-town",
+      "name": "城镇与市场",
+      "type": "trade-hub",
+      "summary": "商品、汇率与阴谋交汇处。"
+    },
+    {
+      "id": "road",
+      "name": "商路",
+      "type": "travel-route",
+      "summary": "旅途与对话的主要空间。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "holo-meets-lawrence",
+      "name": "赫萝与罗伦斯结伴",
+      "summary": "行商与贤狼开始长期旅程。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "holo-home",
+      "name": "约伊兹与故乡回归欲",
+      "summary": "赫萝对北方故乡的眷恋持续影响路线选择。"
+    }
+  ]
+}

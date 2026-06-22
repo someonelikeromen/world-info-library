@@ -1,16 +1,801 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "sora-no-otoshimono",
   "relationships": [
-    {"source": "樱井智树", "target": "伊卡洛斯", "type": "Master/搭档/救赎", "notes": "铭刻确立主从，后逐步转化为自由与情感羁绊。"},
-    {"source": "樱井智树", "target": "见月楚原", "type": "青梅竹马", "notes": "楚原是智树日常制衡者与重要同伴。"},
-    {"source": "樱井智树", "target": "妮姆芙", "type": "保护者/同伴", "notes": "智树给予妮姆芙自由与绝不准输的支撑。"},
-    {"source": "樱井智树", "target": "阿斯特蕾亚", "type": "同伴", "notes": "从西纳普斯兵器阵营转入地面日常。"},
-    {"source": "樱井智树", "target": "卡奥斯", "type": "依恋/救赎难题", "notes": "卡奥斯将智树视为支撑自身理解爱的核心。"},
-    {"source": "伊卡洛斯", "target": "代达罗斯", "type": "创造者与造物", "notes": "代达罗斯是伊卡洛斯的科学母亲与梦境线索。"},
-    {"source": "守形英四郎", "target": "五月田根美香子", "type": "复杂同伴/暧昧", "notes": "美香子常以腹黑方式支援或推动守形行动。"},
-    {"source": "守形英四郎", "target": "西纳普斯", "type": "调查者/入侵者", "notes": "守形试图解析空中黑洞、石板与世界重构。"},
-    {"source": "空之主", "target": "万能天使群", "type": "支配者", "notes": "通过命令、锁链与改造维持控制。"},
-    {"source": "风音日和", "target": "妮姆芙", "type": "被救援者/电子战核心", "notes": "日和改造事件促使妮姆芙情感进化。"}
-  ]
+    {
+      "source": "樱井智树",
+      "target": "伊卡洛斯",
+      "type": "Master/搭档/救赎",
+      "notes": "铭刻确立主从，后逐步转化为自由与情感羁绊。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "见月楚原",
+      "type": "青梅竹马",
+      "notes": "楚原是智树日常制衡者与重要同伴。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "妮姆芙",
+      "type": "保护者/同伴",
+      "notes": "智树给予妮姆芙自由与绝不准输的支撑。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "阿斯特蕾亚",
+      "type": "同伴",
+      "notes": "从西纳普斯兵器阵营转入地面日常。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "卡奥斯",
+      "type": "依恋/救赎难题",
+      "notes": "卡奥斯将智树视为支撑自身理解爱的核心。"
+    },
+    {
+      "source": "伊卡洛斯",
+      "target": "代达罗斯",
+      "type": "创造者与造物",
+      "notes": "代达罗斯是伊卡洛斯的科学母亲与梦境线索。"
+    },
+    {
+      "source": "守形英四郎",
+      "target": "五月田根美香子",
+      "type": "复杂同伴/暧昧",
+      "notes": "美香子常以腹黑方式支援或推动守形行动。"
+    },
+    {
+      "source": "守形英四郎",
+      "target": "synapse",
+      "type": "调查者/入侵者",
+      "notes": "守形试图解析空中黑洞、石板与世界重构。"
+    },
+    {
+      "source": "空之主",
+      "target": "万能天使群",
+      "type": "支配者",
+      "notes": "通过命令、锁链与改造维持控制。"
+    },
+    {
+      "source": "风音日和",
+      "target": "妮姆芙",
+      "type": "被救援者/电子战核心",
+      "notes": "日和改造事件促使妮姆芙情感进化。"
+    }
+  ],
+  "campaignId": "sora-no-otoshimono",
+  "nodes": [
+    {
+      "id": "樱井智树",
+      "label": "樱井智树",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "樱井智树",
+          "mappedId": "樱井智树",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "樱井智树",
+              "targetLabel": "樱井智树",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=樱井智树"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "樱井智树",
+          "targetLabel": "樱井智树",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=樱井智树"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "伊卡洛斯",
+      "label": "伊卡洛斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "伊卡洛斯",
+          "mappedId": "伊卡洛斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "伊卡洛斯",
+              "targetLabel": "伊卡洛斯",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=伊卡洛斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "伊卡洛斯",
+          "targetLabel": "伊卡洛斯",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=伊卡洛斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "见月楚原",
+      "label": "见月楚原",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "见月楚原",
+          "mappedId": "见月楚原",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "见月楚原",
+              "targetLabel": "见月楚原",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=见月楚原"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "见月楚原",
+          "targetLabel": "见月楚原",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=见月楚原"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "妮姆芙",
+      "label": "妮姆芙",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "妮姆芙",
+          "mappedId": "妮姆芙",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "妮姆芙",
+              "targetLabel": "妮姆芙",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=妮姆芙"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "妮姆芙",
+          "targetLabel": "妮姆芙",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=妮姆芙"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "阿斯特蕾亚",
+      "label": "阿斯特蕾亚",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "阿斯特蕾亚",
+          "mappedId": "阿斯特蕾亚",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "阿斯特蕾亚",
+              "targetLabel": "阿斯特蕾亚",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=阿斯特蕾亚"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "阿斯特蕾亚",
+          "targetLabel": "阿斯特蕾亚",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=阿斯特蕾亚"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "卡奥斯",
+      "label": "卡奥斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "卡奥斯",
+          "mappedId": "卡奥斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "卡奥斯",
+              "targetLabel": "卡奥斯",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=卡奥斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "卡奥斯",
+          "targetLabel": "卡奥斯",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=卡奥斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "代达罗斯",
+      "label": "代达罗斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "代达罗斯",
+          "mappedId": "代达罗斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "代达罗斯",
+              "targetLabel": "代达罗斯",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=代达罗斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "代达罗斯",
+          "targetLabel": "代达罗斯",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=代达罗斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "守形英四郎",
+      "label": "守形英四郎",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "守形英四郎",
+          "mappedId": "守形英四郎",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "守形英四郎",
+              "targetLabel": "守形英四郎",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=守形英四郎"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "守形英四郎",
+          "targetLabel": "守形英四郎",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=守形英四郎"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "五月田根美香子",
+      "label": "五月田根美香子",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "五月田根美香子",
+          "mappedId": "五月田根美香子",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "五月田根美香子",
+              "targetLabel": "五月田根美香子",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=五月田根美香子"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "五月田根美香子",
+          "targetLabel": "五月田根美香子",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=五月田根美香子"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "synapse",
+      "label": "西纳普斯",
+      "type": "civilization/faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'synapse'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "西纳普斯",
+          "mappedId": "synapse",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "空之主",
+      "label": "空之主",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "空之主",
+          "mappedId": "空之主",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "空之主",
+              "targetLabel": "空之主",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=空之主"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "空之主",
+          "targetLabel": "空之主",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=空之主"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "万能天使群",
+      "label": "万能天使群",
+      "type": "group",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "万能天使群",
+          "mappedId": "万能天使群",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "万能天使群",
+              "targetLabel": "万能天使群",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=万能天使群"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "万能天使群",
+          "targetLabel": "万能天使群",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=万能天使群"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "风音日和",
+      "label": "风音日和",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "风音日和",
+          "mappedId": "风音日和",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sora-no-otoshimono-001",
+              "kind": "characters-index",
+              "targetId": "风音日和",
+              "targetLabel": "风音日和",
+              "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+              "match": "name=风音日和"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sora-no-otoshimono-001",
+          "kind": "characters-index",
+          "targetId": "风音日和",
+          "targetLabel": "风音日和",
+          "note": "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sora-no-otoshimono/curated/characters-index.json",
+          "match": "name=风音日和"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sora-no-otoshimono curated index or knowledge graph."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "樱井智树",
+      "target": "伊卡洛斯",
+      "type": "Master/搭档/救赎",
+      "notes": "铭刻确立主从，后逐步转化为自由与情感羁绊。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "见月楚原",
+      "type": "青梅竹马",
+      "notes": "楚原是智树日常制衡者与重要同伴。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "妮姆芙",
+      "type": "保护者/同伴",
+      "notes": "智树给予妮姆芙自由与绝不准输的支撑。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "阿斯特蕾亚",
+      "type": "同伴",
+      "notes": "从西纳普斯兵器阵营转入地面日常。"
+    },
+    {
+      "source": "樱井智树",
+      "target": "卡奥斯",
+      "type": "依恋/救赎难题",
+      "notes": "卡奥斯将智树视为支撑自身理解爱的核心。"
+    },
+    {
+      "source": "伊卡洛斯",
+      "target": "代达罗斯",
+      "type": "创造者与造物",
+      "notes": "代达罗斯是伊卡洛斯的科学母亲与梦境线索。"
+    },
+    {
+      "source": "守形英四郎",
+      "target": "五月田根美香子",
+      "type": "复杂同伴/暧昧",
+      "notes": "美香子常以腹黑方式支援或推动守形行动。"
+    },
+    {
+      "source": "守形英四郎",
+      "target": "synapse",
+      "type": "调查者/入侵者",
+      "notes": "守形试图解析空中黑洞、石板与世界重构。"
+    },
+    {
+      "source": "空之主",
+      "target": "万能天使群",
+      "type": "支配者",
+      "notes": "通过命令、锁链与改造维持控制。"
+    },
+    {
+      "source": "风音日和",
+      "target": "妮姆芙",
+      "type": "被救援者/电子战核心",
+      "notes": "日和改造事件促使妮姆芙情感进化。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

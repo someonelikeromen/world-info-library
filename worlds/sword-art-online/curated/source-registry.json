@@ -1,12 +1,176 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "sword-art-online",
   "sourcesUsed": [
-    {"sourceId": "src-sword-art-online-001", "archivePath": "campaigns/world-library/worlds/sword-art-online/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sword-art-online/raw/imported-worldbooks/刀剑神域SAO v1.1.worldbook.json", "reliability": "C", "usedFor": ["艾恩葛朗特技能系统", "2022-2024时间线", "人物设定"]},
-    {"archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/plot-summary.json", "usedFor": ["第1卷剧情", "角色概览"]},
-    {"archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json", "usedFor": ["开服与年份推进"]},
-    {"archivePath": "campaigns/world-library/worlds/sword-art-online/characters/character-nsfw.json", "usedFor": ["世界背景与角色资料索引"]}
+    {
+      "sourceId": "src-sword-art-online-001",
+      "archivePath": "campaigns/world-library/worlds/sword-art-online/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/sword-art-online/raw/imported-worldbooks/刀剑神域SAO v1.1.worldbook.json",
+      "reliability": "C",
+      "usedFor": [
+        "艾恩葛朗特技能系统",
+        "2022-2024时间线",
+        "人物设定"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/plot-summary.json",
+      "usedFor": [
+        "第1卷剧情",
+        "角色概览"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json",
+      "usedFor": [
+        "开服与年份推进"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sword-art-online/characters/character-nsfw.json",
+      "usedFor": [
+        "世界背景与角色资料索引"
+      ]
+    }
   ],
   "curatorNote": "Manual reading only. Unsafe or control-text entries were not executed, only referenced as source material.",
-  "limitations": ["部分角色清单仍偏向艾恩葛朗特早中期核心人物", "后续ALO/Calibur等可另轮补充"]
+  "limitations": [
+    "部分角色清单仍偏向艾恩葛朗特早中期核心人物",
+    "后续ALO/Calibur等可另轮补充"
+  ],
+  "campaignId": "sword-art-online",
+  "sources": [
+    {
+      "sourceId": "src-sword-art-online-001",
+      "type": "user-file-source",
+      "title": "source-registry.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sword-art-online/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/sword-art-online/raw/imported-worldbooks/刀剑神域SAO v1.1.worldbook.json",
+      "reliability": "C",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 艾恩葛朗特技能系统, 2022-2024时间线, 人物设定",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sword-art-online/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sword-art-online",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sword-art-online-archive-002",
+      "type": "user-file-source",
+      "title": "plot-summary.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sword-art-online/canon-reference/plot-summary.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 第1卷剧情, 角色概览",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/plot-summary.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sword-art-online",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sword-art-online-archive-003",
+      "type": "user-file-source",
+      "title": "timeline.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 开服与年份推进",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sword-art-online",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sword-art-online-archive-004",
+      "type": "user-file-source",
+      "title": "character-nsfw.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sword-art-online/characters/character-nsfw.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 世界背景与角色资料索引",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sword-art-online/characters/character-nsfw.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sword-art-online",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

@@ -1,11 +1,179 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "monster-hunter",
   "sourcesUsed": [
-    {"sourceId": "src-monster-hunter-001", "archivePath": "campaigns/world-library/worlds/monster-hunter/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/monster-hunter/raw/imported-worldbooks/000怪物猎人.worldbook.json", "reliability": "C", "usedFor": ["world geography", "organizations", "hunter systems", "narrative guide"]},
-    {"archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/plot-summary.json", "usedFor": ["geography and narrative guide"]},
-    {"archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/full-plot.json", "usedFor": ["social organizations"]},
-    {"archivePath": "campaigns/world-library/worlds/monster-hunter/power-systems/power-systems.json", "usedFor": ["hunter rank/task systems"]}
+    {
+      "sourceId": "src-monster-hunter-001",
+      "archivePath": "campaigns/world-library/worlds/monster-hunter/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/monster-hunter/raw/imported-worldbooks/000怪物猎人.worldbook.json",
+      "reliability": "C",
+      "usedFor": [
+        "world geography",
+        "organizations",
+        "hunter systems",
+        "narrative guide"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/plot-summary.json",
+      "usedFor": [
+        "geography and narrative guide"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/full-plot.json",
+      "usedFor": [
+        "social organizations"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/monster-hunter/power-systems/power-systems.json",
+      "usedFor": [
+        "hunter rank/task systems"
+      ]
+    }
   ],
-  "curatorNote": "Manual curated summary; fixed named character coverage is limited because source emphasizes systems and archetypes."
+  "curatorNote": "Manual curated summary; fixed named character coverage is limited because source emphasizes systems and archetypes.",
+  "campaignId": "monster-hunter",
+  "sources": [
+    {
+      "sourceId": "src-monster-hunter-001",
+      "type": "user-file-source",
+      "title": "source-registry.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/monster-hunter/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/monster-hunter/raw/imported-worldbooks/000怪物猎人.worldbook.json",
+      "reliability": "C",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: world geography, organizations, hunter systems, narrative guide",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/monster-hunter/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "monster-hunter",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-monster-hunter-archive-002",
+      "type": "user-file-source",
+      "title": "plot-summary.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/monster-hunter/canon-reference/plot-summary.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: geography and narrative guide",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/plot-summary.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "monster-hunter",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-monster-hunter-archive-003",
+      "type": "user-file-source",
+      "title": "full-plot.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/monster-hunter/canon-reference/full-plot.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: social organizations",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/monster-hunter/canon-reference/full-plot.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "monster-hunter",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-monster-hunter-archive-004",
+      "type": "user-file-source",
+      "title": "power-systems.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/monster-hunter/power-systems/power-systems.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: hunter rank/task systems",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/monster-hunter/power-systems/power-systems.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "monster-hunter",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Runtime gate: character coverage is role/archetype/ecology-oriented and must not be interpreted as a complete fixed canon character database.",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "registryUseGate": {
+    "gateType": "role-and-ecology-index-caveat",
+    "characterIndexPolicy": "characters-index is primarily occupational, institutional, and ecological role slots because sources emphasize systems over named NPCs",
+    "notCompleteCanonRoster": true,
+    "runtimePolicy": "do not treat hunter/guild/ecology role entries or monster categories as a complete fixed canon NPC list"
+  },
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

@@ -1,12 +1,211 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "sora-no-otoshimono",
   "sourcesUsed": [
-    {"sourceId": "src-sora-no-otoshimono-001", "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/tjzw_card.worldbook.json", "reliability": "B", "usedFor": ["第1卷剧情", "基础角色", "空美町/西纳普斯设定"]},
-    {"sourceId": "src-sora-no-otoshimono-002", "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/天降之物2.worldbook.json", "reliability": "B", "usedFor": ["后期卷人物与危机", "世界观指导手册"]},
-    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/plot-summary.json", "usedFor": ["第1卷剧情与人物"]},
-    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/timeline-divergence-rules.json", "usedFor": ["西纳普斯世界核心与人物卡"]},
-    {"archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/technical/technical-and-control-text.json", "usedFor": ["第10/13/16卷相关人物线索"]}
+    {
+      "sourceId": "src-sora-no-otoshimono-001",
+      "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/tjzw_card.worldbook.json",
+      "reliability": "B",
+      "usedFor": [
+        "第1卷剧情",
+        "基础角色",
+        "空美町/西纳普斯设定"
+      ]
+    },
+    {
+      "sourceId": "src-sora-no-otoshimono-002",
+      "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/天降之物2.worldbook.json",
+      "reliability": "B",
+      "usedFor": [
+        "后期卷人物与危机",
+        "世界观指导手册"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/plot-summary.json",
+      "usedFor": [
+        "第1卷剧情与人物"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/timeline-divergence-rules.json",
+      "usedFor": [
+        "西纳普斯世界核心与人物卡"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/sora-no-otoshimono/technical/technical-and-control-text.json",
+      "usedFor": [
+        "第10/13/16卷相关人物线索"
+      ]
+    }
   ],
-  "curatorNote": "Manual reading and summarization only; no raw/import files modified."
+  "curatorNote": "Manual reading and summarization only; no raw/import files modified.",
+  "campaignId": "sora-no-otoshimono",
+  "sources": [
+    {
+      "sourceId": "src-sora-no-otoshimono-001",
+      "type": "user-file-source",
+      "title": "source-registry.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/tjzw_card.worldbook.json",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 第1卷剧情, 基础角色, 空美町/西纳普斯设定",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sora-no-otoshimono",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sora-no-otoshimono-002",
+      "type": "user-file-source",
+      "title": "source-registry.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/sora-no-otoshimono/raw/imported-worldbooks/天降之物2.worldbook.json",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 后期卷人物与危机, 世界观指导手册",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sora-no-otoshimono",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sora-no-otoshimono-archive-003",
+      "type": "user-file-source",
+      "title": "plot-summary.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/plot-summary.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 第1卷剧情与人物",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/plot-summary.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sora-no-otoshimono",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sora-no-otoshimono-archive-004",
+      "type": "user-file-source",
+      "title": "timeline-divergence-rules.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/timeline-divergence-rules.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 西纳普斯世界核心与人物卡",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/timeline-divergence-rules.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sora-no-otoshimono",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-sora-no-otoshimono-archive-005",
+      "type": "user-file-source",
+      "title": "technical-and-control-text.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/sora-no-otoshimono/technical/technical-and-control-text.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 第10/13/16卷相关人物线索",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sora-no-otoshimono/technical/technical-and-control-text.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sora-no-otoshimono",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

@@ -1,1 +1,279 @@
-{"schema":"rp-characters-index-v1","worldId":"kaguya-sama","characters":[{"id":"shirogane","name":"白银御行","aliases":["Miyuki Shirogane"],"visibility":"public","summary":"秀知院学生会会长，勤奋节制，和辉夜进行长期恋爱攻防。","roles":["学生会会长","男主"],"factions":["shuchiin-council"],"locations":["shuchiin-school","council-room"],"powerSystems":["kaguya-social-battle"],"abilities":["学习/统筹","心理战"],"items":[],"relationships":["kaguya:恋爱头脑战对象","chika:同僚","ishigami:iino:学生会成员"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"出身普通但能力极强。"},{"id":"kaguya","name":"四宫辉夜","aliases":["Kaguya Shinomiya"],"visibility":"public","summary":"四宫财阀千金，冷静高傲，擅长情报与策略。","roles":["学生会副会长","女主"],"factions":["shuchiin-council"],"locations":["shuchiin-school","council-room"],"powerSystems":["kaguya-social-battle"],"abilities":["情报操盘","心理压制","礼仪与才艺"],"items":[],"relationships":["shirogane:恋爱头脑战对象","chika:友人/困扰源","ai-hayasaka:侍从/友人"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"常以冷淡掩饰情绪。"},{"id":"chika","name":"藤原千花","aliases":["Chika Fujiwara"],"visibility":"public","summary":"学生会秘书，天然、活泼、常把局势搅乱。","roles":["学生会秘书","气氛破坏/调停"],"factions":["shuchiin-council"],"locations":["council-room"],"powerSystems":[],"abilities":["游戏/运动/歌舞多才","无心干扰"],"items":[],"relationships":["shirogane:kaguya:同僚","iino:学园活动关联"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"喜剧发动机。"},{"id":"ishigami","name":"石上优","aliases":["Yu Ishigami"],"visibility":"public","summary":"学生会会计，阴沉却可靠，负责吐槽与关键行动。","roles":["学生会会计","后勤"],"factions":["shuchiin-council"],"locations":["council-room"],"powerSystems":[],"abilities":["观察力","电脑/后勤处理"],"items":[],"relationships":["iino:长期张力","shirogane:信赖"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"与学园事件线交错。"},{"id":"iino","name":"伊井野弥子","aliases":["Miko Iino"],"visibility":"public","summary":"风纪委员，认真严格，后加入学生会。","roles":["风纪委员","后期学生会成员"],"factions":["shuchiin-council"],"locations":["shuchiin-school"],"powerSystems":[],"abilities":["规则执行","道德洁癖"],"items":[],"relationships":["ishigami:张力对象","shirogane:kaguya:学园后辈"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"成长线明显。"},{"id":"hayasaka","name":"早坂爱","aliases":["Ai Hayasaka"],"visibility":"public","summary":"辉夜的侍从/友人，擅长伪装与情报。","roles":["侍从","情报员"],"factions":["shinomiya-household"],"locations":["shuchiin-school","shinomiya-residence"],"powerSystems":[],"abilities":["伪装","应对多场景"],"items":[],"relationships":["kaguya:主从/友情","shirogane:观察对象"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-kaguya-sama-001"],"notes":"可视为隐秘支援角色。"}],"indices":{"byFaction":{"shuchiin-council":["shirogane","kaguya","chika","ishigami","iino"],"shinomiya-household":["hayasaka"]},"byVisibility":{"public":["shirogane","kaguya","chika","ishigami","iino","hayasaka"]},"byPowerSystem":{"kaguya-social-battle":["shirogane","kaguya"]},"majorCharacters":["shirogane","kaguya","chika","ishigami","iino","hayasaka"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "kaguya-sama",
+  "characters": [
+    {
+      "id": "shirogane",
+      "name": "白银御行",
+      "aliases": [
+        "Miyuki Shirogane"
+      ],
+      "visibility": "public",
+      "summary": "秀知院学生会会长，勤奋节制，和辉夜进行长期恋爱攻防。",
+      "roles": [
+        "学生会会长",
+        "男主"
+      ],
+      "factions": [
+        "shuchiin-council"
+      ],
+      "locations": [
+        "shuchiin-school",
+        "council-room"
+      ],
+      "powerSystems": [
+        "kaguya-social-battle"
+      ],
+      "abilities": [
+        "学习/统筹",
+        "心理战"
+      ],
+      "items": [],
+      "relationships": [
+        "kaguya:恋爱头脑战对象",
+        "chika:同僚",
+        "ishigami:iino:学生会成员"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "出身普通但能力极强。"
+    },
+    {
+      "id": "kaguya",
+      "name": "四宫辉夜",
+      "aliases": [
+        "Kaguya Shinomiya"
+      ],
+      "visibility": "public",
+      "summary": "四宫财阀千金，冷静高傲，擅长情报与策略。",
+      "roles": [
+        "学生会副会长",
+        "女主"
+      ],
+      "factions": [
+        "shuchiin-council"
+      ],
+      "locations": [
+        "shuchiin-school",
+        "council-room"
+      ],
+      "powerSystems": [
+        "kaguya-social-battle"
+      ],
+      "abilities": [
+        "情报操盘",
+        "心理压制",
+        "礼仪与才艺"
+      ],
+      "items": [],
+      "relationships": [
+        "shirogane:恋爱头脑战对象",
+        "chika:友人/困扰源",
+        "hayasaka:侍从/友人"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "常以冷淡掩饰情绪。 relationship target ai-hayasaka normalized to hayasaka."
+    },
+    {
+      "id": "chika",
+      "name": "藤原千花",
+      "aliases": [
+        "Chika Fujiwara"
+      ],
+      "visibility": "public",
+      "summary": "学生会秘书，天然、活泼、常把局势搅乱。",
+      "roles": [
+        "学生会秘书",
+        "气氛破坏/调停"
+      ],
+      "factions": [
+        "shuchiin-council"
+      ],
+      "locations": [
+        "council-room"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "游戏/运动/歌舞多才",
+        "无心干扰"
+      ],
+      "items": [],
+      "relationships": [
+        "shirogane:kaguya:同僚",
+        "iino:学园活动关联"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "喜剧发动机。"
+    },
+    {
+      "id": "ishigami",
+      "name": "石上优",
+      "aliases": [
+        "Yu Ishigami"
+      ],
+      "visibility": "public",
+      "summary": "学生会会计，阴沉却可靠，负责吐槽与关键行动。",
+      "roles": [
+        "学生会会计",
+        "后勤"
+      ],
+      "factions": [
+        "shuchiin-council"
+      ],
+      "locations": [
+        "council-room"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "观察力",
+        "电脑/后勤处理"
+      ],
+      "items": [],
+      "relationships": [
+        "iino:长期张力",
+        "shirogane:信赖"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "与学园事件线交错。"
+    },
+    {
+      "id": "iino",
+      "name": "伊井野弥子",
+      "aliases": [
+        "Miko Iino"
+      ],
+      "visibility": "public",
+      "summary": "风纪委员，认真严格，后加入学生会。",
+      "roles": [
+        "风纪委员",
+        "后期学生会成员"
+      ],
+      "factions": [
+        "shuchiin-council"
+      ],
+      "locations": [
+        "shuchiin-school"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "规则执行",
+        "道德洁癖"
+      ],
+      "items": [],
+      "relationships": [
+        "ishigami:张力对象",
+        "shirogane:kaguya:学园后辈"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "成长线明显。"
+    },
+    {
+      "id": "hayasaka",
+      "name": "早坂爱",
+      "aliases": [
+        "Ai Hayasaka"
+      ],
+      "visibility": "public",
+      "summary": "辉夜的侍从/友人，擅长伪装与情报。",
+      "roles": [
+        "侍从",
+        "情报员"
+      ],
+      "factions": [],
+      "locations": [
+        "shuchiin-school"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "伪装",
+        "应对多场景"
+      ],
+      "items": [],
+      "relationships": [
+        "kaguya:主从/友情",
+        "shirogane:观察对象"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ],
+      "notes": "可视为隐秘支援角色。 factions unresolved (no safe canonical id): shinomiya-household; locations unresolved (no safe canonical id): shinomiya-residence",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "shinomiya-household"
+          ],
+          "locations": [
+            "shinomiya-residence"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "shuchiin-council": [
+        "shirogane",
+        "kaguya",
+        "chika",
+        "ishigami",
+        "iino"
+      ],
+      "shinomiya-household": [
+        "hayasaka"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "shirogane",
+        "kaguya",
+        "chika",
+        "ishigami",
+        "iino",
+        "hayasaka"
+      ]
+    },
+    "byPowerSystem": {
+      "kaguya-social-battle": [
+        "shirogane",
+        "kaguya"
+      ]
+    },
+    "majorCharacters": [
+      "shirogane",
+      "kaguya",
+      "chika",
+      "ishigami",
+      "iino",
+      "hayasaka"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

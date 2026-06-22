@@ -1,34 +1,157 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "saijaku-muhai-bahamut",
   "nodes": [
-    {"id": "old-empire", "type": "faction", "label": "阿卡迪亚旧帝国"},
-    {"id": "new-kingdom", "type": "faction", "label": "亚提司玛特新王国"},
-    {"id": "academy", "type": "location/faction", "label": "王立士官学园"},
-    {"id": "drag-ride", "type": "power-system", "label": "装甲机龙"},
-    {"id": "divine-drag-ride", "type": "power-system", "label": "神装机龙"},
-    {"id": "bahamut", "type": "item/mecha", "label": "巴哈姆特"},
-    {"id": "diamat", "type": "item/mecha", "label": "迪亚玛特"},
-    {"id": "fafnir", "type": "item/mecha", "label": "法夫纳"},
-    {"id": "typhon", "type": "item/mecha", "label": "堤丰"},
-    {"id": "ruins", "type": "location/concept", "label": "古代遗迹"},
-    {"id": "abyss", "type": "species/threat", "label": "幻神兽"},
-    {"id": "ragnarok", "type": "species/threat", "label": "Ragnarok"},
-    {"id": "survivor-key", "type": "concept", "label": "生存者/钥匙权限"},
-    {"id": "seven-dragon-paladins", "type": "faction/title", "label": "七龙骑圣"},
-    {"id": "einfolk", "type": "faction", "label": "艾因弗尔克/国际强者圈"}
+    {
+      "id": "old-empire",
+      "type": "faction",
+      "label": "阿卡迪亚旧帝国"
+    },
+    {
+      "id": "new-kingdom",
+      "type": "faction",
+      "label": "亚提司玛特新王国"
+    },
+    {
+      "id": "academy",
+      "type": "location/faction",
+      "label": "王立士官学园"
+    },
+    {
+      "id": "drag-ride",
+      "type": "power-system",
+      "label": "装甲机龙"
+    },
+    {
+      "id": "divine-drag-ride",
+      "type": "power-system",
+      "label": "神装机龙"
+    },
+    {
+      "id": "bahamut",
+      "type": "item/mecha",
+      "label": "巴哈姆特"
+    },
+    {
+      "id": "diamat",
+      "type": "item/mecha",
+      "label": "迪亚玛特"
+    },
+    {
+      "id": "fafnir",
+      "type": "item/mecha",
+      "label": "法夫纳"
+    },
+    {
+      "id": "typhon",
+      "type": "item/mecha",
+      "label": "堤丰"
+    },
+    {
+      "id": "ruins",
+      "type": "location/concept",
+      "label": "古代遗迹"
+    },
+    {
+      "id": "abyss",
+      "type": "species/threat",
+      "label": "幻神兽"
+    },
+    {
+      "id": "ragnarok",
+      "type": "species/threat",
+      "label": "Ragnarok"
+    },
+    {
+      "id": "survivor-key",
+      "type": "concept",
+      "label": "生存者/钥匙权限"
+    },
+    {
+      "id": "seven-dragon-paladins",
+      "type": "faction/title",
+      "label": "七龙骑圣"
+    },
+    {
+      "id": "einfolk",
+      "type": "faction",
+      "label": "艾因弗尔克/国际强者圈"
+    }
   ],
   "edges": [
-    {"from": "old-empire", "to": "new-kingdom", "type": "overthrown-by", "note": "旧帝国被政变推翻，新王国继承统治空间。"},
-    {"from": "academy", "to": "drag-ride", "type": "trains-users-of", "note": "学园培养机龙使。"},
-    {"from": "divine-drag-ride", "to": "drag-ride", "type": "subclass-of", "note": "神装机龙是稀有唯一型装甲机龙。"},
-    {"from": "bahamut", "to": "divine-drag-ride", "type": "instance-of", "note": "路克斯持有。"},
-    {"from": "diamat", "to": "divine-drag-ride", "type": "instance-of", "note": "莉夏持有。"},
-    {"from": "fafnir", "to": "divine-drag-ride", "type": "instance-of", "note": "库露露席法持有。"},
-    {"from": "typhon", "to": "divine-drag-ride", "type": "instance-of", "note": "菲尔菲持有。"},
-    {"from": "ruins", "to": "survivor-key", "type": "recognizes", "note": "遗迹可识别生存者/钥匙权限。"},
-    {"from": "ruins", "to": "abyss", "type": "releases-or-controls", "note": "遗迹事件常伴随幻神兽出现。"},
-    {"from": "ragnarok", "to": "abyss", "type": "high-tier-of", "note": "Ragnarok 为高阶终末级威胁。"},
-    {"from": "seven-dragon-paladins", "to": "divine-drag-ride", "type": "elite-users", "note": "七龙骑圣代表各方顶尖机龙使。"}
-  ]
+    {
+      "from": "old-empire",
+      "to": "new-kingdom",
+      "type": "overthrown-by",
+      "note": "旧帝国被政变推翻，新王国继承统治空间。"
+    },
+    {
+      "from": "academy",
+      "to": "drag-ride",
+      "type": "trains-users-of",
+      "note": "学园培养机龙使。"
+    },
+    {
+      "from": "divine-drag-ride",
+      "to": "drag-ride",
+      "type": "subclass-of",
+      "note": "神装机龙是稀有唯一型装甲机龙。"
+    },
+    {
+      "from": "bahamut",
+      "to": "divine-drag-ride",
+      "type": "instance-of",
+      "note": "路克斯持有。"
+    },
+    {
+      "from": "diamat",
+      "to": "divine-drag-ride",
+      "type": "instance-of",
+      "note": "莉夏持有。"
+    },
+    {
+      "from": "fafnir",
+      "to": "divine-drag-ride",
+      "type": "instance-of",
+      "note": "库露露席法持有。"
+    },
+    {
+      "from": "typhon",
+      "to": "divine-drag-ride",
+      "type": "instance-of",
+      "note": "菲尔菲持有。"
+    },
+    {
+      "from": "ruins",
+      "to": "survivor-key",
+      "type": "recognizes",
+      "note": "遗迹可识别生存者/钥匙权限。"
+    },
+    {
+      "from": "ruins",
+      "to": "abyss",
+      "type": "releases-or-controls",
+      "note": "遗迹事件常伴随幻神兽出现。"
+    },
+    {
+      "from": "ragnarok",
+      "to": "abyss",
+      "type": "high-tier-of",
+      "note": "Ragnarok 为高阶终末级威胁。"
+    },
+    {
+      "from": "seven-dragon-paladins",
+      "to": "divine-drag-ride",
+      "type": "elite-users",
+      "note": "七龙骑圣代表各方顶尖机龙使。"
+    }
+  ],
+  "campaignId": "saijaku-muhai-bahamut",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

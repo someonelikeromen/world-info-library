@@ -1,26 +1,359 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "jojo",
   "displayName": "JOJO",
-  "sourceIds": ["src-jojo-001"],
+  "sourceIds": [
+    "src-jojo-001"
+  ],
   "characters": [
-    {"id": "jonathan-joestar", "name": "乔纳森·乔斯达", "aliases": ["初代JOJO", "Jonathan Joestar"], "role": "第一部主角；乔斯达家族继承人；波纹战士", "affiliations": ["乔斯达家族"], "abilities": ["波纹气功", "强韧体魄"], "notes": "查明迪奥谋害乔治的阴谋，学习波纹并最终在游轮事件中牺牲。", "sourceEntries": [0]},
-    {"id": "george-joestar-i", "name": "乔治·乔斯达", "aliases": ["乔治先生"], "role": "乔纳森之父；收留迪奥的乔斯达家家主", "affiliations": ["乔斯达家族"], "abilities": [], "notes": "因误信迪奥父亲的救命恩情而收养迪奥，后遭慢性毒药谋害。", "sourceEntries": [0]},
-    {"id": "dio-brando", "name": "迪奥·布兰度", "aliases": ["DIO", "迪奥"], "role": "跨代宿敌；第一部吸血鬼反派；第三部替身使者", "affiliations": ["迪奥势力", "吸血鬼/尸生人阵营"], "abilities": ["石鬼面吸血鬼化", "替身：世界/The World", "时间停止"], "notes": "夺取乔纳森身体后沉睡海底，复苏后以替身世界威胁乔斯达血脉。", "sourceEntries": [0]},
-    {"id": "william-zeppelin", "name": "威廉·A·齐贝林", "aliases": ["齐贝林先生", "Will A. Zeppeli"], "role": "波纹导师；乔纳森的重要引路人", "affiliations": ["波纹战士"], "abilities": ["波纹气功"], "notes": "教导乔纳森对抗尸生人和吸血鬼，并在对迪奥一战中付出生命。", "sourceEntries": [0]},
-    {"id": "wang-chan", "name": "温青", "aliases": ["Wang Chan"], "role": "迪奥手下尸生人", "affiliations": ["迪奥势力"], "abilities": ["尸生人体质"], "notes": "游轮结局中被乔纳森最后的波纹控制，导致爆炸并结束第一部悲剧。", "sourceEntries": [0]},
-    {"id": "joseph-joestar", "name": "乔瑟夫·乔斯达", "aliases": ["Joseph Joestar"], "role": "第二部主角；第三部远征队长辈；乔纳森之孙", "affiliations": ["乔斯达家族", "波纹战士", "埃及远征队"], "abilities": ["波纹气功", "替身：隐者之紫"], "notes": "在纽约遭遇柱之男，后因迪奥复苏获得替身并带承太郎前往埃及。", "sourceEntries": [0]},
-    {"id": "george-joestar-ii", "name": "乔治·乔斯达二世", "aliases": ["George Joestar II"], "role": "乔瑟夫之父；乔纳森之子", "affiliations": ["乔斯达家族"], "abilities": [], "notes": "作为先祖牺牲链条的一部分在源中被提及。", "sourceEntries": [0]},
-    {"id": "caesar-zeppeli", "name": "西撒·安东尼·齐贝林", "aliases": ["Caesar Anthonio Zeppeli", "西撒"], "role": "第二部波纹战士；乔瑟夫伙伴", "affiliations": ["齐贝林家族", "波纹战士"], "abilities": ["波纹气功"], "notes": "与乔瑟夫在威尼斯接受莉莎莉莎训练，共同对抗柱之男。", "sourceEntries": [0]},
-    {"id": "mario-zeppeli", "name": "马利奥·齐贝林", "aliases": ["Mario Zeppeli"], "role": "西撒之父", "affiliations": ["齐贝林家族"], "abilities": [], "notes": "作为西撒家族因缘的一部分被提及。", "sourceEntries": [0]},
-    {"id": "lisa-lisa", "name": "莉莎莉莎", "aliases": ["Lisa Lisa"], "role": "波纹老师；威尼斯训练导师", "affiliations": ["波纹战士"], "abilities": ["高阶波纹气功"], "notes": "训练乔瑟夫与西撒，使二人具备对抗柱之男的能力。", "sourceEntries": [0]},
-    {"id": "kars", "name": "卡兹", "aliases": ["Kars"], "role": "柱之男核心敌人；石鬼面创造者", "affiliations": ["柱之男"], "abilities": ["柱之男体质", "追求究极生命"], "notes": "创造石鬼面以获得更强力量，缺少超级艾哲红石时只能制造吸血鬼。", "sourceEntries": [0]},
-    {"id": "jotaro-kujo", "name": "空条承太郎", "aliases": ["Jotaro Kujo"], "role": "第三部主角；乔瑟夫外孙；埃及远征队核心战力", "affiliations": ["乔斯达家族", "埃及远征队"], "abilities": ["替身：白金之星", "高精密近战", "时间停止觉醒"], "notes": "为拯救母亲荷莉前往埃及，最终击败迪奥。", "sourceEntries": [0, 1]},
-    {"id": "holly-kujo", "name": "空条荷莉·乔斯达", "aliases": ["Holly Kujo", "荷莉"], "role": "承太郎之母；乔瑟夫之女；迪奥复苏危机的受害者", "affiliations": ["乔斯达家族"], "abilities": ["替身觉醒但无法承受"], "notes": "因精神强度不足承受替身而重病，推动远征队尽快击败迪奥。", "sourceEntries": [0]},
-    {"id": "muhammad-avdol", "name": "穆罕默德·阿布德尔", "aliases": ["阿布德尔", "Muhammad Avdol"], "role": "占卜师；埃及远征队成员", "affiliations": ["埃及远征队"], "abilities": ["替身：魔术师之红"], "notes": "与乔瑟夫一同行动，是远征队早期核心成员。", "sourceEntries": [0, 1]},
-    {"id": "noriaki-kakyoin", "name": "花京院典明", "aliases": ["Noriaki Kakyoin"], "role": "被救下的替身使者；埃及远征队成员", "affiliations": ["埃及远征队"], "abilities": ["替身：法皇之绿"], "notes": "临死前破解迪奥时间停止能力，并以时钟讯息传达关键情报。", "sourceEntries": [0, 1]},
-    {"id": "jean-pierre-polnareff", "name": "让·皮埃尔·波鲁那雷夫", "aliases": ["波鲁那雷夫", "Jean Pierre Polnareff"], "role": "法国替身使者；埃及远征队成员", "affiliations": ["埃及远征队"], "abilities": ["替身：银色战车"], "notes": "旅途中与承太郎等人建立深厚情谊。", "sourceEntries": [0, 1]},
-    {"id": "iggy", "name": "伊奇", "aliases": ["Iggy"], "role": "小狗替身使者；远征队后期成员", "affiliations": ["埃及远征队"], "abilities": ["替身：愚者"], "notes": "最后入队并帮助找到迪奥藏身地。", "sourceEntries": [0, 1]},
-    {"id": "enya", "name": "恩雅婆婆", "aliases": ["Enya"], "role": "迪奥协力者；替身使者网的组织者", "affiliations": ["迪奥势力"], "abilities": ["替身相关知识"], "notes": "帮助迪奥召集许多拥有替身能力的手下。", "sourceEntries": [0]}
-  ]
+    {
+      "id": "jonathan-joestar",
+      "name": "乔纳森·乔斯达",
+      "aliases": [
+        "初代JOJO",
+        "Jonathan Joestar"
+      ],
+      "role": "第一部主角；乔斯达家族继承人；波纹战士",
+      "affiliations": [
+        "乔斯达家族"
+      ],
+      "abilities": [
+        "波纹气功",
+        "强韧体魄"
+      ],
+      "notes": "查明迪奥谋害乔治的阴谋，学习波纹并最终在游轮事件中牺牲。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "george-joestar-i",
+      "name": "乔治·乔斯达",
+      "aliases": [
+        "乔治先生"
+      ],
+      "role": "乔纳森之父；收留迪奥的乔斯达家家主",
+      "affiliations": [
+        "乔斯达家族"
+      ],
+      "abilities": [],
+      "notes": "因误信迪奥父亲的救命恩情而收养迪奥，后遭慢性毒药谋害。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "dio-brando",
+      "name": "迪奥·布兰度",
+      "aliases": [
+        "DIO",
+        "迪奥"
+      ],
+      "role": "跨代宿敌；第一部吸血鬼反派；第三部替身使者",
+      "affiliations": [
+        "迪奥势力",
+        "吸血鬼/尸生人阵营"
+      ],
+      "abilities": [
+        "石鬼面吸血鬼化",
+        "替身：世界/The World",
+        "时间停止"
+      ],
+      "notes": "夺取乔纳森身体后沉睡海底，复苏后以替身世界威胁乔斯达血脉。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "william-zeppelin",
+      "name": "威廉·A·齐贝林",
+      "aliases": [
+        "齐贝林先生",
+        "Will A. Zeppeli"
+      ],
+      "role": "波纹导师；乔纳森的重要引路人",
+      "affiliations": [
+        "波纹战士"
+      ],
+      "abilities": [
+        "波纹气功"
+      ],
+      "notes": "教导乔纳森对抗尸生人和吸血鬼，并在对迪奥一战中付出生命。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "wang-chan",
+      "name": "温青",
+      "aliases": [
+        "Wang Chan"
+      ],
+      "role": "迪奥手下尸生人",
+      "affiliations": [
+        "迪奥势力"
+      ],
+      "abilities": [
+        "尸生人体质"
+      ],
+      "notes": "游轮结局中被乔纳森最后的波纹控制，导致爆炸并结束第一部悲剧。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "joseph-joestar",
+      "name": "乔瑟夫·乔斯达",
+      "aliases": [
+        "Joseph Joestar"
+      ],
+      "role": "第二部主角；第三部远征队长辈；乔纳森之孙",
+      "affiliations": [
+        "乔斯达家族",
+        "波纹战士",
+        "埃及远征队"
+      ],
+      "abilities": [
+        "波纹气功",
+        "替身：隐者之紫"
+      ],
+      "notes": "在纽约遭遇柱之男，后因迪奥复苏获得替身并带承太郎前往埃及。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "george-joestar-ii",
+      "name": "乔治·乔斯达二世",
+      "aliases": [
+        "George Joestar II"
+      ],
+      "role": "乔瑟夫之父；乔纳森之子",
+      "affiliations": [
+        "乔斯达家族"
+      ],
+      "abilities": [],
+      "notes": "作为先祖牺牲链条的一部分在源中被提及。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "caesar-zeppeli",
+      "name": "西撒·安东尼·齐贝林",
+      "aliases": [
+        "Caesar Anthonio Zeppeli",
+        "西撒"
+      ],
+      "role": "第二部波纹战士；乔瑟夫伙伴",
+      "affiliations": [
+        "齐贝林家族",
+        "波纹战士"
+      ],
+      "abilities": [
+        "波纹气功"
+      ],
+      "notes": "与乔瑟夫在威尼斯接受莉莎莉莎训练，共同对抗柱之男。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "mario-zeppeli",
+      "name": "马利奥·齐贝林",
+      "aliases": [
+        "Mario Zeppeli"
+      ],
+      "role": "西撒之父",
+      "affiliations": [
+        "齐贝林家族"
+      ],
+      "abilities": [],
+      "notes": "作为西撒家族因缘的一部分被提及。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "lisa-lisa",
+      "name": "莉莎莉莎",
+      "aliases": [
+        "Lisa Lisa"
+      ],
+      "role": "波纹老师；威尼斯训练导师",
+      "affiliations": [
+        "波纹战士"
+      ],
+      "abilities": [
+        "高阶波纹气功"
+      ],
+      "notes": "训练乔瑟夫与西撒，使二人具备对抗柱之男的能力。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "kars",
+      "name": "卡兹",
+      "aliases": [
+        "Kars"
+      ],
+      "role": "柱之男核心敌人；石鬼面创造者",
+      "affiliations": [
+        "柱之男"
+      ],
+      "abilities": [
+        "柱之男体质",
+        "追求究极生命"
+      ],
+      "notes": "创造石鬼面以获得更强力量，缺少超级艾哲红石时只能制造吸血鬼。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "jotaro-kujo",
+      "name": "空条承太郎",
+      "aliases": [
+        "Jotaro Kujo"
+      ],
+      "role": "第三部主角；乔瑟夫外孙；埃及远征队核心战力",
+      "affiliations": [
+        "乔斯达家族",
+        "埃及远征队"
+      ],
+      "abilities": [
+        "替身：白金之星",
+        "高精密近战",
+        "时间停止觉醒"
+      ],
+      "notes": "为拯救母亲荷莉前往埃及，最终击败迪奥。",
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "holly-kujo",
+      "name": "空条荷莉·乔斯达",
+      "aliases": [
+        "Holly Kujo",
+        "荷莉"
+      ],
+      "role": "承太郎之母；乔瑟夫之女；迪奥复苏危机的受害者",
+      "affiliations": [
+        "乔斯达家族"
+      ],
+      "abilities": [
+        "替身觉醒但无法承受"
+      ],
+      "notes": "因精神强度不足承受替身而重病，推动远征队尽快击败迪奥。",
+      "sourceEntries": [
+        0
+      ]
+    },
+    {
+      "id": "muhammad-avdol",
+      "name": "穆罕默德·阿布德尔",
+      "aliases": [
+        "阿布德尔",
+        "Muhammad Avdol"
+      ],
+      "role": "占卜师；埃及远征队成员",
+      "affiliations": [
+        "埃及远征队"
+      ],
+      "abilities": [
+        "替身：魔术师之红"
+      ],
+      "notes": "与乔瑟夫一同行动，是远征队早期核心成员。",
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "noriaki-kakyoin",
+      "name": "花京院典明",
+      "aliases": [
+        "Noriaki Kakyoin"
+      ],
+      "role": "被救下的替身使者；埃及远征队成员",
+      "affiliations": [
+        "埃及远征队"
+      ],
+      "abilities": [
+        "替身：法皇之绿"
+      ],
+      "notes": "临死前破解迪奥时间停止能力，并以时钟讯息传达关键情报。",
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "jean-pierre-polnareff",
+      "name": "让·皮埃尔·波鲁那雷夫",
+      "aliases": [
+        "波鲁那雷夫",
+        "Jean Pierre Polnareff"
+      ],
+      "role": "法国替身使者；埃及远征队成员",
+      "affiliations": [
+        "埃及远征队"
+      ],
+      "abilities": [
+        "替身：银色战车"
+      ],
+      "notes": "旅途中与承太郎等人建立深厚情谊。",
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "iggy",
+      "name": "伊奇",
+      "aliases": [
+        "Iggy"
+      ],
+      "role": "小狗替身使者；远征队后期成员",
+      "affiliations": [
+        "埃及远征队"
+      ],
+      "abilities": [
+        "替身：愚者"
+      ],
+      "notes": "最后入队并帮助找到迪奥藏身地。",
+      "sourceEntries": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "enya",
+      "name": "恩雅婆婆",
+      "aliases": [
+        "Enya"
+      ],
+      "role": "迪奥协力者；替身使者网的组织者",
+      "affiliations": [
+        "迪奥势力"
+      ],
+      "abilities": [
+        "替身相关知识"
+      ],
+      "notes": "帮助迪奥召集许多拥有替身能力的手下。",
+      "sourceEntries": [
+        0
+      ]
+    }
+  ],
+  "worldId": "jojo",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

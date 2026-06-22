@@ -1,1 +1,582 @@
-{"schema":"rp-characters-index-v1","worldId":"sekirei","characters":[{"id":"minato","name":"佐桥皆人","aliases":["Sahashi Minato"],"visibility":"public","summary":"落榜青年，超高适性的苇牙，结等多名鹡鸰的契约者。","roles":["主角","苇牙"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["多重羽化适性","协调与保护"],"items":[],"relationships":["musubi:苇牙/契约","tsukiumi:苇牙/恋慕","takami:母子"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"本人直接战斗力低。"},{"id":"musubi","name":"结","aliases":["Musubi","#88"],"visibility":"public","summary":"拳系鹡鸰，单纯热血，皆人最早羽化的主要战力。","roles":["鹡鸰","近战主力"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["怪力拳击","祝词强化"],"items":[],"relationships":["minato:苇牙","tsukiumi:同伴/竞争"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"体内/关联结女设定需后续细化。"},{"id":"tsukiumi","name":"月海","aliases":["Tsukiumi","#9"],"visibility":"public","summary":"水系鹡鸰，傲娇强势，自称皆人正妻。","roles":["鹡鸰","水能力者"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["水流操控","远近结合战斗"],"items":[],"relationships":["minato:苇牙/强烈恋慕","musubi:竞争同伴"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"对羽化曾有抗拒。"},{"id":"kusano","name":"草野","aliases":["Kusano","#108","小草"],"visibility":"public","summary":"幼年植物系鹡鸰，能操纵植物，队伍保护对象兼支援。","roles":["鹡鸰","支援"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["植物操控","束缚/治疗倾向支援"],"items":[],"relationships":["minato:苇牙/兄长式依赖","shiina:兄妹"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"未成年角色仅作保护与剧情节点。"},{"id":"matsu","name":"松","aliases":["Matsu","#2"],"visibility":"public","summary":"情报型鹡鸰，擅长黑客与监控，出云庄情报核心。","roles":["鹡鸰","情报支援"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["电子战","监控","情报分析"],"items":["电脑设备"],"relationships":["minato:苇牙","miya:房东/旧识"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"战斗更多依靠情报优势。"},{"id":"kazehana","name":"风花","aliases":["Kazehana","#3"],"visibility":"public","summary":"风系鹡鸰，成熟奔放，实力强大。","roles":["鹡鸰","风能力者"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["风操控","高速机动"],"items":[],"relationships":["minato:苇牙","miya:旧识"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"前期常以观察/自由行动为主。"},{"id":"homura","name":"焰","aliases":["Homura","Kagari","#6"],"visibility":"public","summary":"火系鹡鸰，曾以惩罚部队相关身份行动，性别/身体状态是重要个人线。","roles":["鹡鸰","火能力者"],"factions":["sahashi-house"],"locations":["shinto-teito"],"powerSystems":["sekirei-winging"],"abilities":["火焰操控","高机动战斗"],"items":[],"relationships":["minato:苇牙","disciplinary-squad:旧关联"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"身体/性别变化处理需尊重路线。"},{"id":"miya","name":"浅间美哉","aliases":["Miya Asama","#01"],"visibility":"private","summary":"出云庄房东，温柔外表下隐藏极高战力与第一编号背景。","roles":["房东","隐藏强者"],"factions":["sahashi-house"],"locations":["izumo-inn"],"powerSystems":["sekirei-winging"],"abilities":["剑术威压","压制级战斗经验"],"items":["刀"],"relationships":["minato:房客","matsu/kazehana:旧识"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"GM可作为安全区守护者。"},{"id":"karasuba","name":"鸦羽","aliases":["Karasuba","#4"],"visibility":"public","summary":"惩罚部队核心战力，嗜战剑士，结的重要对手。","roles":["敌对强者","剑士"],"factions":["disciplinary-squad","mbi"],"locations":["shinto-teito"],"powerSystems":["sekirei-winging"],"abilities":["剑术","高速斩击"],"items":["刀"],"relationships":["musubi:宿敌/执着","mbi:执行者"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"高危战斗节点。"},{"id":"minaka","name":"御中广人","aliases":["Minaka Hiroto"],"visibility":"public","summary":"MBI社长，鹡鸰计划操盘者，性格夸张而危险。","roles":["幕后操盘者","企业支配者"],"factions":["mbi"],"locations":["mbi-tower"],"powerSystems":[],"abilities":["组织控制","计划设计","科技资源"],"items":[],"relationships":["takami:同事/复杂","minato:间接操盘对象"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-sekirei-001"],"notes":"真实目的可作GM秘密。"}],"indices":{"byFaction":{"sahashi-house":["minato","musubi","tsukiumi","kusano","matsu","kazehana","homura","miya"],"mbi":["minaka","karasuba"],"disciplinary-squad":["karasuba"]},"byPowerSystem":{"sekirei-winging":["minato","musubi","tsukiumi","kusano","matsu","kazehana","homura","miya","karasuba"]},"byVisibility":{"public":["minato","musubi","tsukiumi","kusano","matsu","kazehana","homura","karasuba","minaka"],"private":["miya"]},"majorCharacters":["minato","musubi","tsukiumi","miya","minaka"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "sekirei",
+  "characters": [
+    {
+      "id": "minato",
+      "name": "佐桥皆人",
+      "aliases": [
+        "Sahashi Minato"
+      ],
+      "visibility": "public",
+      "summary": "落榜青年，超高适性的苇牙，结等多名鹡鸰的契约者。",
+      "roles": [
+        "主角",
+        "苇牙"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "多重羽化适性",
+        "协调与保护"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "musubi",
+          "targetType": "character",
+          "relation": "苇牙/契约",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tsukiumi",
+          "targetType": "character",
+          "relation": "苇牙/恋慕",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "takami",
+          "targetType": "character",
+          "relation": "母子",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "本人直接战斗力低。"
+    },
+    {
+      "id": "musubi",
+      "name": "结",
+      "aliases": [
+        "Musubi",
+        "#88"
+      ],
+      "visibility": "public",
+      "summary": "拳系鹡鸰，单纯热血，皆人最早羽化的主要战力。",
+      "roles": [
+        "鹡鸰",
+        "近战主力"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "怪力拳击",
+        "祝词强化"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tsukiumi",
+          "targetType": "character",
+          "relation": "同伴/竞争",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "体内/关联结女设定需后续细化。"
+    },
+    {
+      "id": "tsukiumi",
+      "name": "月海",
+      "aliases": [
+        "Tsukiumi",
+        "#9"
+      ],
+      "visibility": "public",
+      "summary": "水系鹡鸰，傲娇强势，自称皆人正妻。",
+      "roles": [
+        "鹡鸰",
+        "水能力者"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "水流操控",
+        "远近结合战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙/强烈恋慕",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "musubi",
+          "targetType": "character",
+          "relation": "竞争同伴",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "对羽化曾有抗拒。"
+    },
+    {
+      "id": "kusano",
+      "name": "草野",
+      "aliases": [
+        "Kusano",
+        "#108",
+        "小草"
+      ],
+      "visibility": "public",
+      "summary": "幼年植物系鹡鸰，能操纵植物，队伍保护对象兼支援。",
+      "roles": [
+        "鹡鸰",
+        "支援"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "植物操控",
+        "束缚/治疗倾向支援"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙/兄长式依赖",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "shiina",
+          "targetType": "character",
+          "relation": "兄妹",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "未成年角色仅作保护与剧情节点。"
+    },
+    {
+      "id": "matsu",
+      "name": "松",
+      "aliases": [
+        "Matsu",
+        "#2"
+      ],
+      "visibility": "public",
+      "summary": "情报型鹡鸰，擅长黑客与监控，出云庄情报核心。",
+      "roles": [
+        "鹡鸰",
+        "情报支援"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "电子战",
+        "监控",
+        "情报分析"
+      ],
+      "items": [
+        "电脑设备"
+      ],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "miya",
+          "targetType": "character",
+          "relation": "房东/旧识",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "战斗更多依靠情报优势。"
+    },
+    {
+      "id": "kazehana",
+      "name": "风花",
+      "aliases": [
+        "Kazehana",
+        "#3"
+      ],
+      "visibility": "public",
+      "summary": "风系鹡鸰，成熟奔放，实力强大。",
+      "roles": [
+        "鹡鸰",
+        "风能力者"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "风操控",
+        "高速机动"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "miya",
+          "targetType": "character",
+          "relation": "旧识",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "前期常以观察/自由行动为主。"
+    },
+    {
+      "id": "homura",
+      "name": "焰",
+      "aliases": [
+        "Homura",
+        "Kagari",
+        "#6"
+      ],
+      "visibility": "public",
+      "summary": "火系鹡鸰，曾以惩罚部队相关身份行动，性别/身体状态是重要个人线。",
+      "roles": [
+        "鹡鸰",
+        "火能力者"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "shinto-teito"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "火焰操控",
+        "高机动战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "苇牙",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "disciplinary-squad",
+          "targetType": "group",
+          "relation": "旧关联",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "身体/性别变化处理需尊重路线。"
+    },
+    {
+      "id": "miya",
+      "name": "浅间美哉",
+      "aliases": [
+        "Miya Asama",
+        "#01"
+      ],
+      "visibility": "private",
+      "summary": "出云庄房东，温柔外表下隐藏极高战力与第一编号背景。",
+      "roles": [
+        "房东",
+        "隐藏强者"
+      ],
+      "factions": [
+        "sahashi-house"
+      ],
+      "locations": [
+        "izumo-inn"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "剑术威压",
+        "压制级战斗经验"
+      ],
+      "items": [
+        "刀"
+      ],
+      "relationships": [
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "房客",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "matsu",
+              "targetType": "character",
+              "matchedLabel": "matsu"
+            },
+            {
+              "target": "kazehana",
+              "targetType": "character",
+              "matchedLabel": "kazehana"
+            }
+          ],
+          "relation": "旧识",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label names multiple indexed characters; kept as multi-target relationship to avoid inventing a single target."
+          ]
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "GM可作为安全区守护者。"
+    },
+    {
+      "id": "karasuba",
+      "name": "鸦羽",
+      "aliases": [
+        "Karasuba",
+        "#4"
+      ],
+      "visibility": "public",
+      "summary": "惩罚部队核心战力，嗜战剑士，结的重要对手。",
+      "roles": [
+        "敌对强者",
+        "剑士"
+      ],
+      "factions": [
+        "mbi"
+      ],
+      "locations": [
+        "shinto-teito"
+      ],
+      "powerSystems": [
+        "sekirei-winging"
+      ],
+      "abilities": [
+        "剑术",
+        "高速斩击"
+      ],
+      "items": [
+        "刀"
+      ],
+      "relationships": [
+        {
+          "target": "musubi",
+          "targetType": "character",
+          "relation": "宿敌/执着",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "mbi",
+          "targetType": "group",
+          "relation": "执行者",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "高危战斗节点。 factions unresolved (no safe canonical id): disciplinary-squad",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "disciplinary-squad"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "minaka",
+      "name": "御中广人",
+      "aliases": [
+        "Minaka Hiroto"
+      ],
+      "visibility": "public",
+      "summary": "MBI社长，鹡鸰计划操盘者，性格夸张而危险。",
+      "roles": [
+        "幕后操盘者",
+        "企业支配者"
+      ],
+      "factions": [
+        "mbi"
+      ],
+      "locations": [
+        "mbi-tower"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "组织控制",
+        "计划设计",
+        "科技资源"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "takami",
+          "targetType": "character",
+          "relation": "同事/复杂",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "minato",
+          "targetType": "character",
+          "relation": "间接操盘对象",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-sekirei-001"
+      ],
+      "notes": "真实目的可作GM秘密。"
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "sahashi-house": [
+        "minato",
+        "musubi",
+        "tsukiumi",
+        "kusano",
+        "matsu",
+        "kazehana",
+        "homura",
+        "miya"
+      ],
+      "mbi": [
+        "minaka",
+        "karasuba"
+      ],
+      "disciplinary-squad": [
+        "karasuba"
+      ]
+    },
+    "byPowerSystem": {
+      "sekirei-winging": [
+        "minato",
+        "musubi",
+        "tsukiumi",
+        "kusano",
+        "matsu",
+        "kazehana",
+        "homura",
+        "miya",
+        "karasuba"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "minato",
+        "musubi",
+        "tsukiumi",
+        "kusano",
+        "matsu",
+        "kazehana",
+        "homura",
+        "karasuba",
+        "minaka"
+      ],
+      "private": [
+        "miya"
+      ]
+    },
+    "majorCharacters": [
+      "minato",
+      "musubi",
+      "tsukiumi",
+      "miya",
+      "minaka"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

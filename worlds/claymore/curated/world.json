@@ -1,8 +1,13 @@
 {
-  "schema": "curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "claymore",
   "displayName": "大剑 / Claymore",
-  "genre": ["暗黑奇幻", "中世纪风", "怪物讨伐", "组织阴谋"],
+  "genre": [
+    "暗黑奇幻",
+    "中世纪风",
+    "怪物讨伐",
+    "组织阴谋"
+  ],
   "summary": "人类聚落被妖魔捕食威胁，半人半妖战士大剑受组织派遣讨伐妖魔；战士既保护人类又被人类恐惧，并随时面临觉醒为怪物的宿命。源归档以公历146年迪妮莎时代为起点，延伸到北方战役、反组织战争与圣都决战。",
   "coreRules": [
     "组织调度战士执行妖魔讨伐任务，并通过代理人、黑函和铁律维持控制。",
@@ -13,7 +18,12 @@
   ],
   "timeframe": {
     "initial": "公历146年10月8日，迪妮莎时代",
-    "futureArcs": ["北方战役/皮埃塔之战", "西部之战/莉芙露领地", "南方之战/组织总部附近", "最终圣都拉波勒之战"]
+    "futureArcs": [
+      "北方战役/皮埃塔之战",
+      "西部之战/莉芙露领地",
+      "南方之战/组织总部附近",
+      "最终圣都拉波勒之战"
+    ]
   },
   "majorLocations": [
     "北境小镇与森林",
@@ -24,10 +34,45 @@
     "人类城市与旅馆/城镇"
   ],
   "factions": [
-    {"id": "organization", "name": "组织", "role": "制造并管理大剑、发布任务、执行铁律与追杀叛徒。"},
-    {"id": "claymore-warriors", "name": "大剑战士", "role": "半人半妖女性战士，讨伐妖魔并承受觉醒风险。"},
-    {"id": "awakened-beings", "name": "觉醒者/深渊者", "role": "越过妖力临界后的强大怪物势力。"},
-    {"id": "human-settlements", "name": "人类聚落", "role": "被妖魔威胁、雇佣组织，同时恐惧和排斥大剑。"}
+    {
+      "id": "organization",
+      "name": "组织",
+      "role": "制造并管理大剑、发布任务、执行铁律与追杀叛徒。"
+    },
+    {
+      "id": "claymore-warriors",
+      "name": "大剑战士",
+      "role": "半人半妖女性战士，讨伐妖魔并承受觉醒风险。"
+    },
+    {
+      "id": "awakened-beings",
+      "name": "觉醒者/深渊者",
+      "role": "越过妖力临界后的强大怪物势力。"
+    },
+    {
+      "id": "human-settlements",
+      "name": "人类聚落",
+      "role": "被妖魔威胁、雇佣组织，同时恐惧和排斥大剑。"
+    }
   ],
-  "tone": ["灰暗", "压抑", "孤独", "宿命感", "残酷美学"]
+  "tone": [
+    "灰暗",
+    "压抑",
+    "孤独",
+    "宿命感",
+    "残酷美学"
+  ],
+  "worldId": "claymore",
+  "worldName": "大剑 / Claymore",
+  "aliases": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "powerSystems": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

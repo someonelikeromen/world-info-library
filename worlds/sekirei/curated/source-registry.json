@@ -1,1 +1,54 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library","sources":[{"sourceId":"src-sekirei-001","type":"user-file-source","title":"ns_card.worldbook.json 导入条目","origin":"鹡鸰女神世界书","location":"campaigns/world-library/worlds/sekirei/characters/characters.json comments: 世界总纲/沙盒人物总览/主要人物条目","reliability":"B","visibility":"public","summary":"包含MBI、羽化、鹡鸰计划及主要人物。","quotedOrExtractedText":"人物条目列出结#88、月海#9、草野#108、松#2、风花#3、焰#6等。","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/sekirei/characters/characters.json","pageRange":"grep comments/manual reads","imageRegion":"","parserOrTool":"read/grep","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"sekirei","field":"all"}],"conflictsWith":[],"notes":"成人化/NSFW扩写未纳入设定事实。"}],"conflictLog":[]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "sources": [
+    {
+      "sourceId": "src-sekirei-001",
+      "type": "user-file-source",
+      "title": "ns_card.worldbook.json 导入条目",
+      "origin": "鹡鸰女神世界书",
+      "location": "campaigns/world-library/worlds/sekirei/characters/characters.json comments: 世界总纲/沙盒人物总览/主要人物条目",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "包含MBI、羽化、鹡鸰计划及主要人物。",
+      "quotedOrExtractedText": "人物条目列出结#88、月海#9、草野#108、松#2、风花#3、焰#6等。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/sekirei/characters/characters.json",
+        "pageRange": "grep comments/manual reads",
+        "imageRegion": "",
+        "parserOrTool": "read/grep",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "sekirei",
+          "field": "all"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "成人化/NSFW扩写未纳入设定事实。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
+}

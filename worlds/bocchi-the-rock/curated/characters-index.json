@@ -1,63 +1,141 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "bocchi-the-rock",
   "displayName": "孤独摇滚",
-  "sourceIds": ["src-bocchi-the-rock-001"],
+  "sourceIds": [
+    "src-bocchi-the-rock-001"
+  ],
   "characters": [
     {
       "id": "gotoh-hitori",
       "name": "后藤独",
-      "aliases": ["小波奇", "波奇", "Bocchi"],
+      "aliases": [
+        "小波奇",
+        "波奇",
+        "Bocchi"
+      ],
       "role": "纽带乐队吉他手；社恐主角",
-      "affiliations": ["纽带乐队", "秀华高校"],
+      "affiliations": [
+        "纽带乐队",
+        "秀华高校"
+      ],
       "instrument": "吉他",
-      "traits": ["极度社交恐惧", "网络吉他经验强", "被喜多指导关系反向支撑", "昵称小波奇谐音小孤独"],
+      "traits": [
+        "极度社交恐惧",
+        "网络吉他经验强",
+        "被喜多指导关系反向支撑",
+        "昵称小波奇谐音小孤独"
+      ],
       "notes": "源中未分类条目说明小波奇是后藤独昵称，并在乐队构成条目中列为吉他手。",
-      "sourceEntries": ["reports/unclassified-entries:小波奇", "reports/unclassified-entries:纽带乐队"]
+      "sourceEntries": [
+        "reports/unclassified-entries:小波奇",
+        "reports/unclassified-entries:纽带乐队"
+      ]
     },
     {
       "id": "ijichi-nijika",
       "name": "伊地知虹夏",
-      "aliases": ["虹夏", "下北泽大天使"],
+      "aliases": [
+        "虹夏",
+        "下北泽大天使"
+      ],
       "role": "纽带乐队鼓手兼队长；组建和统整乐队的人",
-      "affiliations": ["纽带乐队", "下北泽高中", "STARRY"],
+      "affiliations": [
+        "纽带乐队",
+        "下北泽高中",
+        "STARRY"
+      ],
       "instrument": "爵士鼓",
-      "traits": ["阳光开朗", "温柔善良", "主动引导队友", "遭遇挫折时会不甘落泪"],
+      "traits": [
+        "阳光开朗",
+        "温柔善良",
+        "主动引导队友",
+        "遭遇挫折时会不甘落泪"
+      ],
       "notes": "姐姐星歌经营下北泽展演厅 STARRY；虹夏从小受姐姐影响爱上乐队文化。",
-      "sourceEntries": [1, 2]
+      "sourceEntries": [
+        1,
+        2
+      ]
     },
     {
       "id": "yamada-ryo",
       "name": "山田凉",
-      "aliases": ["凉前辈"],
+      "aliases": [
+        "凉前辈"
+      ],
       "role": "纽带乐队贝斯手兼作曲；虹夏挚友",
-      "affiliations": ["纽带乐队", "下北泽高中"],
+      "affiliations": [
+        "纽带乐队",
+        "下北泽高中"
+      ],
       "instrument": "贝斯",
-      "traits": ["沉默寡言", "重视音乐个性", "喜欢被称为怪人", "冷淡但本质善良", "偶有贪财和无节操举动"],
+      "traits": [
+        "沉默寡言",
+        "重视音乐个性",
+        "喜欢被称为怪人",
+        "冷淡但本质善良",
+        "偶有贪财和无节操举动"
+      ],
       "notes": "曾因前乐队失去个性而退团，后在虹夏邀请下重新追逐音乐梦。",
-      "sourceEntries": ["factions/locations:山田凉", "reports/unclassified-entries:山田凉"]
+      "sourceEntries": [
+        "factions/locations:山田凉",
+        "reports/unclassified-entries:山田凉"
+      ]
     },
     {
       "id": "kita-ikuyo",
       "name": "喜多郁代",
-      "aliases": ["喜多"],
+      "aliases": [
+        "喜多"
+      ],
       "role": "纽带乐队主唱兼吉他手；社交阳角",
-      "affiliations": ["纽带乐队", "秀华高校"],
+      "affiliations": [
+        "纽带乐队",
+        "秀华高校"
+      ],
       "instrument": "主唱/吉他",
-      "traits": ["开朗活泼", "社交能力强", "喜欢分享生活", "憧憬山田凉", "直率且偶尔毒舌"],
+      "traits": [
+        "开朗活泼",
+        "社交能力强",
+        "喜欢分享生活",
+        "憧憬山田凉",
+        "直率且偶尔毒舌"
+      ],
       "notes": "曾因不会弹吉他而逃走，后在后藤独鼓励与指导下重新加入并练习。",
-      "sourceEntries": ["factions/locations/character-voice:喜多"]
+      "sourceEntries": [
+        "factions/locations/character-voice:喜多"
+      ]
     },
     {
       "id": "ijichi-seika",
       "name": "伊地知星歌",
-      "aliases": ["星歌"],
+      "aliases": [
+        "星歌"
+      ],
       "role": "虹夏的姐姐；STARRY 店长；乐队文化引路人",
-      "affiliations": ["STARRY", "伊地知家"],
+      "affiliations": [
+        "STARRY",
+        "伊地知家"
+      ],
       "instrument": null,
-      "traits": ["抚养虹夏", "经营展演厅", "赠送虹夏红色发带"],
+      "traits": [
+        "抚养虹夏",
+        "经营展演厅",
+        "赠送虹夏红色发带"
+      ],
       "notes": "源中作为虹夏背景关键人物出现，是下北泽演出场景的成人支点。",
-      "sourceEntries": [1, 2]
+      "sourceEntries": [
+        1,
+        2
+      ]
     }
-  ]
+  ],
+  "worldId": "bocchi-the-rock",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

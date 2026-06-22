@@ -1,1 +1,54 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library","sources":[{"sourceId":"src-kaguya-sama-001","type":"user-file-source","title":"hydxj_card.worldbook.json 导入条目","origin":"辉夜大小姐世界书","location":"campaigns/world-library/worlds/kaguya-sama/characters/characters.json comments: 地点/角色/核心规则","reliability":"B","visibility":"public","summary":"包含秀知院学园、学生会成员与恋爱头脑战设定。","quotedOrExtractedText":"角色条目列出白银御行、四宫辉夜、藤原千花、石上优、伊井野弥子等。","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/kaguya-sama/characters/characters.json","pageRange":"grep comments/manual reads","imageRegion":"","parserOrTool":"read/grep","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"kaguya-sama","field":"all"}],"conflictsWith":[],"notes":"主线以校园恋爱喜剧为准。"}],"conflictLog":[]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "sources": [
+    {
+      "sourceId": "src-kaguya-sama-001",
+      "type": "user-file-source",
+      "title": "hydxj_card.worldbook.json 导入条目",
+      "origin": "辉夜大小姐世界书",
+      "location": "campaigns/world-library/worlds/kaguya-sama/characters/characters.json comments: 地点/角色/核心规则",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "包含秀知院学园、学生会成员与恋爱头脑战设定。",
+      "quotedOrExtractedText": "角色条目列出白银御行、四宫辉夜、藤原千花、石上优、伊井野弥子等。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/kaguya-sama/characters/characters.json",
+        "pageRange": "grep comments/manual reads",
+        "imageRegion": "",
+        "parserOrTool": "read/grep",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "kaguya-sama",
+          "field": "all"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "主线以校园恋爱喜剧为准。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
+}

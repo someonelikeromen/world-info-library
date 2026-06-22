@@ -1,19 +1,456 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "testament-sister-new-devil",
   "relationships": [
-    {"from": "toujou-basara", "to": "naruse-mio", "type": "protector/family/contract", "summary": "刃更以哥哥和守护者身份保护澪，两人有主从契约与家人羁绊。"},
-    {"from": "naruse-mio", "to": "naruse-maria", "type": "master-retainer/family", "summary": "万理亚原为澪的梦魔随从，后成为东城家共同体成员。"},
-    {"from": "toujou-basara", "to": "nonaka-yuki", "type": "childhood-friend/ally/contract", "summary": "柚希是刃更青梅竹马，勇者一族出身，后与刃更阵营协作。"},
-    {"from": "nonaka-yuki", "to": "nonaka-kurumi", "type": "sisters/hero-clan", "summary": "野中姐妹同属勇者一族相关阵营。"},
-    {"from": "toujou-basara", "to": "toujou-jin", "type": "father-son", "summary": "迅是刃更父亲，并促成澪、万理亚进入东城家的开局。"},
-    {"from": "naruse-mio", "to": "ramsus-wilbert", "type": "inherits-power", "summary": "澪继承前任魔王威尔贝特之力。"},
-    {"from": "leohart", "to": "current-demon-lord-faction", "type": "leader", "summary": "雷欧哈特为现任魔王派核心。"},
-    {"from": "ramsus-wilbert", "to": "moderate-faction", "type": "associated", "summary": "拉姆萨斯/威尔贝特与稳健派和前任魔王秩序相关。"},
-    {"from": "zokiel", "to": "naruse-mio", "type": "abductor/enemy", "summary": "佐基尔曾掳走澪，企图夺取魔王之力。"},
-    {"from": "takigawa-yahiro-lars", "to": "toujou-basara", "type": "secret-deal/ally-rival", "summary": "拉斯与刃更有秘密交易和复杂协作关系。"},
-    {"from": "hasegawa-chisato", "to": "toujou-basara", "type": "guardian/mentor", "summary": "长谷川暗中庇护并引导刃更阵营。"},
-    {"from": "belphegor", "to": "cardinals", "type": "member/mastermind", "summary": "贝尔费格代表枢机院阴谋势力。"},
-    {"from": "hero-clan", "to": "naruse-mio", "type": "target", "summary": "勇者一族因澪的魔王之力曾下达消灭目标。"}
-  ]
+    {
+      "from": "toujou-basara",
+      "to": "naruse-mio",
+      "type": "protector/family/contract",
+      "summary": "刃更以哥哥和守护者身份保护澪，两人有主从契约与家人羁绊。"
+    },
+    {
+      "from": "naruse-mio",
+      "to": "naruse-maria",
+      "type": "master-retainer/family",
+      "summary": "万理亚原为澪的梦魔随从，后成为东城家共同体成员。"
+    },
+    {
+      "from": "toujou-basara",
+      "to": "nonaka-yuki",
+      "type": "childhood-friend/ally/contract",
+      "summary": "柚希是刃更青梅竹马，勇者一族出身，后与刃更阵营协作。"
+    },
+    {
+      "from": "nonaka-yuki",
+      "to": "nonaka-kurumi",
+      "type": "sisters/hero-clan",
+      "summary": "野中姐妹同属勇者一族相关阵营。"
+    },
+    {
+      "from": "toujou-basara",
+      "to": "toujou-jin",
+      "type": "father-son",
+      "summary": "迅是刃更父亲，并促成澪、万理亚进入东城家的开局。"
+    },
+    {
+      "from": "naruse-mio",
+      "to": "ramsus-wilbert",
+      "type": "inherits-power",
+      "summary": "澪继承前任魔王威尔贝特之力。"
+    },
+    {
+      "from": "leohart",
+      "to": "current-demon-lord-faction",
+      "type": "leader",
+      "summary": "雷欧哈特为现任魔王派核心。"
+    },
+    {
+      "from": "ramsus-wilbert",
+      "to": "moderate-faction",
+      "type": "associated",
+      "summary": "拉姆萨斯/威尔贝特与稳健派和前任魔王秩序相关。"
+    },
+    {
+      "from": "zokiel",
+      "to": "naruse-mio",
+      "type": "abductor/enemy",
+      "summary": "佐基尔曾掳走澪，企图夺取魔王之力。"
+    },
+    {
+      "from": "takigawa-yahiro-lars",
+      "to": "toujou-basara",
+      "type": "secret-deal/ally-rival",
+      "summary": "拉斯与刃更有秘密交易和复杂协作关系。"
+    },
+    {
+      "from": "hasegawa-chisato",
+      "to": "toujou-basara",
+      "type": "guardian/mentor",
+      "summary": "长谷川暗中庇护并引导刃更阵营。"
+    },
+    {
+      "from": "belphegor",
+      "to": "cardinals",
+      "type": "member/mastermind",
+      "summary": "贝尔费格代表枢机院阴谋势力。"
+    },
+    {
+      "from": "hero-clan",
+      "to": "naruse-mio",
+      "type": "target",
+      "summary": "勇者一族因澪的魔王之力曾下达消灭目标。"
+    }
+  ],
+  "campaignId": "testament-sister-new-devil",
+  "nodes": [
+    {
+      "id": "toujou-basara",
+      "label": "toujou-basara",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'toujou-basara'."
+      ],
+      "name": "东城刃更",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "toujou-basara",
+          "mappedId": "toujou-basara",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "naruse-mio",
+      "label": "naruse-mio",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'naruse-mio'."
+      ],
+      "name": "成濑澪",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "naruse-mio",
+          "mappedId": "naruse-mio",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "naruse-maria",
+      "label": "naruse-maria",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'naruse-maria'."
+      ],
+      "name": "成濑万理亚",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "naruse-maria",
+          "mappedId": "naruse-maria",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nonaka-yuki",
+      "label": "nonaka-yuki",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'nonaka-yuki'."
+      ],
+      "name": "野中柚希",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "nonaka-yuki",
+          "mappedId": "nonaka-yuki",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nonaka-kurumi",
+      "label": "nonaka-kurumi",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'nonaka-kurumi'."
+      ],
+      "name": "野中胡桃",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "nonaka-kurumi",
+          "mappedId": "nonaka-kurumi",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "toujou-jin",
+      "label": "toujou-jin",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'toujou-jin'."
+      ],
+      "name": "东城迅",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "toujou-jin",
+          "mappedId": "toujou-jin",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "ramsus-wilbert",
+      "label": "ramsus-wilbert",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ramsus-wilbert'."
+      ],
+      "name": "拉姆萨斯 / 威尔贝特",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "ramsus-wilbert",
+          "mappedId": "ramsus-wilbert",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "leohart",
+      "label": "leohart",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'leohart'."
+      ],
+      "name": "雷欧哈特",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "leohart",
+          "mappedId": "leohart",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "current-demon-lord-faction",
+      "label": "current-demon-lord-faction",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'current-demon-lord-faction'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "current-demon-lord-faction",
+          "mappedId": "current-demon-lord-faction",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "moderate-faction",
+      "label": "moderate-faction",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'moderate-faction'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "moderate-faction",
+          "mappedId": "moderate-faction",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "zokiel",
+      "label": "zokiel",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'zokiel'."
+      ],
+      "name": "佐基尔",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "zokiel",
+          "mappedId": "zokiel",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "takigawa-yahiro-lars",
+      "label": "takigawa-yahiro-lars",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'takigawa-yahiro-lars'."
+      ],
+      "name": "泷川八寻 / 拉斯",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "takigawa-yahiro-lars",
+          "mappedId": "takigawa-yahiro-lars",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "hasegawa-chisato",
+      "label": "hasegawa-chisato",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'hasegawa-chisato'."
+      ],
+      "name": "长谷川千里",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "hasegawa-chisato",
+          "mappedId": "hasegawa-chisato",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "belphegor",
+      "label": "belphegor",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'belphegor'."
+      ],
+      "name": "贝尔费格",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "belphegor",
+          "mappedId": "belphegor",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "cardinals",
+      "label": "cardinals",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'cardinals'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "cardinals",
+          "mappedId": "cardinals",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "hero-clan",
+      "label": "hero-clan",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'hero-clan'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "hero-clan",
+          "mappedId": "hero-clan",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "toujou-basara",
+      "to": "naruse-mio",
+      "type": "protector/family/contract",
+      "summary": "刃更以哥哥和守护者身份保护澪，两人有主从契约与家人羁绊。"
+    },
+    {
+      "from": "naruse-mio",
+      "to": "naruse-maria",
+      "type": "master-retainer/family",
+      "summary": "万理亚原为澪的梦魔随从，后成为东城家共同体成员。"
+    },
+    {
+      "from": "toujou-basara",
+      "to": "nonaka-yuki",
+      "type": "childhood-friend/ally/contract",
+      "summary": "柚希是刃更青梅竹马，勇者一族出身，后与刃更阵营协作。"
+    },
+    {
+      "from": "nonaka-yuki",
+      "to": "nonaka-kurumi",
+      "type": "sisters/hero-clan",
+      "summary": "野中姐妹同属勇者一族相关阵营。"
+    },
+    {
+      "from": "toujou-basara",
+      "to": "toujou-jin",
+      "type": "father-son",
+      "summary": "迅是刃更父亲，并促成澪、万理亚进入东城家的开局。"
+    },
+    {
+      "from": "naruse-mio",
+      "to": "ramsus-wilbert",
+      "type": "inherits-power",
+      "summary": "澪继承前任魔王威尔贝特之力。"
+    },
+    {
+      "from": "leohart",
+      "to": "current-demon-lord-faction",
+      "type": "leader",
+      "summary": "雷欧哈特为现任魔王派核心。"
+    },
+    {
+      "from": "ramsus-wilbert",
+      "to": "moderate-faction",
+      "type": "associated",
+      "summary": "拉姆萨斯/威尔贝特与稳健派和前任魔王秩序相关。"
+    },
+    {
+      "from": "zokiel",
+      "to": "naruse-mio",
+      "type": "abductor/enemy",
+      "summary": "佐基尔曾掳走澪，企图夺取魔王之力。"
+    },
+    {
+      "from": "takigawa-yahiro-lars",
+      "to": "toujou-basara",
+      "type": "secret-deal/ally-rival",
+      "summary": "拉斯与刃更有秘密交易和复杂协作关系。"
+    },
+    {
+      "from": "hasegawa-chisato",
+      "to": "toujou-basara",
+      "type": "guardian/mentor",
+      "summary": "长谷川暗中庇护并引导刃更阵营。"
+    },
+    {
+      "from": "belphegor",
+      "to": "cardinals",
+      "type": "member/mastermind",
+      "summary": "贝尔费格代表枢机院阴谋势力。"
+    },
+    {
+      "from": "hero-clan",
+      "to": "naruse-mio",
+      "type": "target",
+      "summary": "勇者一族因澪的魔王之力曾下达消灭目标。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

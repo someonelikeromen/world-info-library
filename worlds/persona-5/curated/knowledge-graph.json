@@ -1,26 +1,240 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "persona-5",
   "nodes": [
-    {"id": "metaverse", "label": "认知世界", "type": "dimension"},
-    {"id": "palace", "label": "殿堂", "type": "cognitive-dungeon"},
-    {"id": "treasure", "label": "秘宝", "type": "cognitive-core"},
-    {"id": "mementos", "label": "印象空间", "type": "collective-unconscious"},
-    {"id": "persona", "label": "人格面具", "type": "power-system"},
-    {"id": "shadow", "label": "阴影", "type": "cognitive-entity"},
-    {"id": "phantom-thieves", "label": "心之怪盗团", "type": "faction"},
-    {"id": "velvet-room", "label": "天鹅绒房间", "type": "liminal-location"},
-    {"id": "confidant", "label": "协助者羁绊", "type": "social-system"},
-    {"id": "actualization", "label": "丸喜现实改写", "type": "p5r-system"}
+    {
+      "id": "metaverse",
+      "label": "认知世界",
+      "type": "dimension"
+    },
+    {
+      "id": "palace",
+      "label": "殿堂",
+      "type": "cognitive-dungeon"
+    },
+    {
+      "id": "treasure",
+      "label": "秘宝",
+      "type": "cognitive-core"
+    },
+    {
+      "id": "mementos",
+      "label": "印象空间",
+      "type": "collective-unconscious"
+    },
+    {
+      "id": "persona",
+      "label": "人格面具",
+      "type": "power-system"
+    },
+    {
+      "id": "shadow",
+      "label": "阴影",
+      "type": "cognitive-entity"
+    },
+    {
+      "id": "phantom-thieves",
+      "label": "心之怪盗团",
+      "type": "faction"
+    },
+    {
+      "id": "velvet-room",
+      "label": "天鹅绒房间",
+      "type": "liminal-location"
+    },
+    {
+      "id": "confidant",
+      "label": "协助者羁绊",
+      "type": "social-system"
+    },
+    {
+      "id": "actualization",
+      "label": "丸喜现实改写",
+      "type": "p5r-system"
+    },
+    {
+      "id": "collective-public",
+      "label": "大众集体认知",
+      "type": "concept"
+    },
+    {
+      "id": "rebellion",
+      "label": "叛逆之心",
+      "type": "concept"
+    },
+    {
+      "id": "free-will",
+      "label": "自由意志",
+      "type": "concept"
+    },
+    {
+      "id": "f-shujin-academy",
+      "type": "faction",
+      "label": "秀尽学园",
+      "summary": "秀尽学园：world.json 中列出的阵营/地点/体系实体，Q5 以最小节点纳入 KG 覆盖。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "f-police-prosecution",
+      "type": "faction",
+      "label": "警方/检察体系",
+      "summary": "警方/检察体系：world.json 中列出的阵营/地点/体系实体，Q5 以最小节点纳入 KG 覆盖。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "f-shadows-palace-rulers",
+      "type": "faction",
+      "label": "阴影与殿堂统治者",
+      "summary": "阴影与殿堂统治者：world.json 中列出的阵营/地点/体系实体，Q5 以最小节点纳入 KG 覆盖。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "f-public-opinion-phantom-channel",
+      "type": "faction",
+      "label": "大众舆论/怪盗频道",
+      "summary": "大众舆论/怪盗频道：world.json 中列出的阵营/地点/体系实体，Q5 以最小节点纳入 KG 覆盖。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "yongen-jaya",
+      "type": "location",
+      "label": "四轩茶屋",
+      "summary": "卢布朗咖啡店、主人公日常据点。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "shujin",
+      "type": "location",
+      "label": "秀尽学园/苍山一丁目",
+      "summary": "主角转学学校，鸭志田事件起点。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "shibuya",
+      "type": "location",
+      "label": "涩谷",
+      "summary": "交通、购物、打工、地下通道与社交核心。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "shinjuku",
+      "type": "location",
+      "label": "新宿",
+      "summary": "夜间娱乐、酒吧、占卜、记者线。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kanda",
+      "type": "location",
+      "label": "神田",
+      "summary": "东乡一二三将棋线。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "akihabara",
+      "type": "location",
+      "label": "秋叶原",
+      "summary": "游戏、偶像、织田信也与宅文化。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kichijoji",
+      "type": "location",
+      "label": "吉祥寺",
+      "summary": "P5R 新增休闲、爵士俱乐部、飞镖台球等。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
   ],
   "edges": [
-    {"from": "palace", "to": "treasure", "type": "contains", "note": "秘宝是扭曲欲望核心，盗取后目标悔改。"},
-    {"from": "palace", "to": "shadow", "type": "ruled-by", "note": "殿堂统治者是现实目标的阴影。"},
-    {"from": "mementos", "to": "collective-public", "type": "formed-by", "note": "印象空间由大众集体认知形成。"},
-    {"from": "persona", "to": "rebellion", "type": "manifests", "note": "人格面具是叛逆之心的具现。"},
-    {"from": "phantom-thieves", "to": "palace", "type": "infiltrates", "note": "怪盗团潜入殿堂并发预告信。"},
-    {"from": "velvet-room", "to": "persona", "type": "fuses", "note": "天鹅绒房间提供合成与成长机制。"},
-    {"from": "confidant", "to": "phantom-thieves", "type": "empowers", "note": "现实羁绊转化为怪盗能力与资源。"},
-    {"from": "actualization", "to": "free-will", "type": "conflicts-with", "note": "丸喜以消除痛苦为名改写现实，挑战自由意志。"}
-  ]
+    {
+      "from": "palace",
+      "to": "treasure",
+      "type": "contains",
+      "note": "秘宝是扭曲欲望核心，盗取后目标悔改。",
+      "source": "palace",
+      "target": "treasure"
+    },
+    {
+      "from": "palace",
+      "to": "shadow",
+      "type": "ruled-by",
+      "note": "殿堂统治者是现实目标的阴影。",
+      "source": "palace",
+      "target": "shadow"
+    },
+    {
+      "from": "mementos",
+      "to": "collective-public",
+      "type": "formed-by",
+      "note": "印象空间由大众集体认知形成。",
+      "source": "mementos",
+      "target": "collective-public"
+    },
+    {
+      "from": "persona",
+      "to": "rebellion",
+      "type": "manifests",
+      "note": "人格面具是叛逆之心的具现。",
+      "source": "persona",
+      "target": "rebellion"
+    },
+    {
+      "from": "phantom-thieves",
+      "to": "palace",
+      "type": "infiltrates",
+      "note": "怪盗团潜入殿堂并发预告信。",
+      "source": "phantom-thieves",
+      "target": "palace"
+    },
+    {
+      "from": "velvet-room",
+      "to": "persona",
+      "type": "fuses",
+      "note": "天鹅绒房间提供合成与成长机制。",
+      "source": "velvet-room",
+      "target": "persona"
+    },
+    {
+      "from": "confidant",
+      "to": "phantom-thieves",
+      "type": "empowers",
+      "note": "现实羁绊转化为怪盗能力与资源。",
+      "source": "confidant",
+      "target": "phantom-thieves"
+    },
+    {
+      "from": "actualization",
+      "to": "free-will",
+      "type": "conflicts-with",
+      "note": "丸喜以消除痛苦为名改写现实，挑战自由意志。",
+      "source": "actualization",
+      "target": "free-will"
+    }
+  ],
+  "campaignId": "persona-5",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 11,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
 }

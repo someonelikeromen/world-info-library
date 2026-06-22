@@ -1,24 +1,171 @@
 {
-  "schema": "curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "sword-art-online",
   "characters": [
-    {"name": "桐人", "aliases": ["桐谷和人", "Kirito", "黑衣剑士"], "role": "主角；独行攻略玩家；二刀流持有者", "affiliation": "攻略组/独行", "notes": "封测玩家，擅长单手直剑与二刀流；经历月夜黑猫团创伤后仍推进攻略。"},
-    {"name": "结城明日奈", "aliases": ["亚丝娜", "Asuna", "闪光"], "role": "女主角；血盟骑士团副团长", "affiliation": "血盟骑士团", "notes": "细剑高手，前线核心指挥与战力；与桐人成为伴侣。"},
-    {"name": "克莱因", "aliases": ["Klein"], "role": "开服初期友人；玩家领队", "affiliation": "风林火山/普通玩家", "notes": "桐人开服时教导的新手，重情义。"},
-    {"name": "艾基尔", "aliases": ["Agil"], "role": "商人/战斗玩家", "affiliation": "中立商人", "notes": "提供交易、后勤与情报支持。"},
-    {"name": "阿尔戈", "aliases": ["Argo", "鼠之情报贩子"], "role": "情报商", "affiliation": "中立", "notes": "封测与攻略信息网络的重要人物。"},
-    {"name": "希兹克利夫", "aliases": ["Heathcliff", "茅场晶彦"], "role": "血盟骑士团团长；神圣剑持有者；游戏设计者", "affiliation": "血盟骑士团/SAO系统", "notes": "以神圣剑示人，真实身份关联死亡游戏真相。"},
-    {"name": "莉兹贝特", "aliases": ["Lizbeth", "筱崎里香"], "role": "铁匠；亚丝娜好友", "affiliation": "中立生产玩家", "notes": "武器制作与素材冒险线关键人物。"},
-    {"name": "西莉卡", "aliases": ["Silica", "绫野珪子"], "role": "驯兽师玩家", "affiliation": "普通玩家", "notes": "与使魔伙伴相关，体现中低等级玩家处境。"},
-    {"name": "幸", "aliases": ["Sachi"], "role": "月夜黑猫团成员", "affiliation": "月夜黑猫团", "notes": "其死亡成为桐人心理创伤的重要源头。"},
-    {"name": "启太", "aliases": ["Keita"], "role": "月夜黑猫团团长", "affiliation": "月夜黑猫团", "notes": "新手小队悲剧线人物。"},
-    {"name": "罗莎莉雅", "aliases": ["Rosalia"], "role": "橙/红名威胁相关人物", "affiliation": "泰坦之手等犯罪玩家", "notes": "代表SAO内玩家犯罪与诱杀风险。"},
-    {"name": "辛卡", "aliases": ["Thinker"], "role": "艾恩葛朗特解放军相关人物", "affiliation": "艾恩葛朗特解放军", "notes": "与解放军内部冲突和由莉耶儿支线相关。"},
-    {"name": "由莉耶儿", "aliases": ["Yulier"], "role": "解放军支线人物", "affiliation": "艾恩葛朗特解放军", "notes": "与辛卡相关，体现大型公会内部政治。"},
-    {"name": "绮兹梅尔", "aliases": ["Kizmel"], "role": "黑暗精灵NPC", "affiliation": "艾恩葛朗特NPC/Progressive线", "notes": "源资料列为Progressive重要NPC，体现NPC任务线深度。"},
-    {"name": "PoH", "role": "微笑棺木核心威胁", "affiliation": "微笑棺木", "notes": "红名公会与PK恐怖的代表人物之一。"},
-    {"name": "微笑棺木成员", "role": "红名玩家群像", "affiliation": "微笑棺木", "notes": "对攻略组和普通玩家造成长期威胁。"},
-    {"name": "血盟骑士团成员", "role": "攻略组精英群像", "affiliation": "血盟骑士团", "notes": "前线攻略的主力公会成员。"},
-    {"name": "艾恩葛朗特解放军成员", "role": "大型公会群像", "affiliation": "ALF/ALS", "notes": "承担攻略、治安与组织政治功能。"}
-  ]
+    {
+      "name": "桐人",
+      "aliases": [
+        "桐谷和人",
+        "Kirito",
+        "黑衣剑士"
+      ],
+      "role": "主角；独行攻略玩家；二刀流持有者",
+      "affiliation": "攻略组/独行",
+      "notes": "封测玩家，擅长单手直剑与二刀流；经历月夜黑猫团创伤后仍推进攻略。"
+    },
+    {
+      "name": "结城明日奈",
+      "aliases": [
+        "亚丝娜",
+        "Asuna",
+        "闪光"
+      ],
+      "role": "女主角；血盟骑士团副团长",
+      "affiliation": "血盟骑士团",
+      "notes": "细剑高手，前线核心指挥与战力；与桐人成为伴侣。"
+    },
+    {
+      "name": "克莱因",
+      "aliases": [
+        "Klein"
+      ],
+      "role": "开服初期友人；玩家领队",
+      "affiliation": "风林火山/普通玩家",
+      "notes": "桐人开服时教导的新手，重情义。"
+    },
+    {
+      "name": "艾基尔",
+      "aliases": [
+        "Agil"
+      ],
+      "role": "商人/战斗玩家",
+      "affiliation": "中立商人",
+      "notes": "提供交易、后勤与情报支持。"
+    },
+    {
+      "name": "阿尔戈",
+      "aliases": [
+        "Argo",
+        "鼠之情报贩子"
+      ],
+      "role": "情报商",
+      "affiliation": "中立",
+      "notes": "封测与攻略信息网络的重要人物。"
+    },
+    {
+      "name": "希兹克利夫",
+      "aliases": [
+        "Heathcliff",
+        "茅场晶彦"
+      ],
+      "role": "血盟骑士团团长；神圣剑持有者；游戏设计者",
+      "affiliation": "血盟骑士团/SAO系统",
+      "notes": "以神圣剑示人，真实身份关联死亡游戏真相。"
+    },
+    {
+      "name": "莉兹贝特",
+      "aliases": [
+        "Lizbeth",
+        "筱崎里香"
+      ],
+      "role": "铁匠；亚丝娜好友",
+      "affiliation": "中立生产玩家",
+      "notes": "武器制作与素材冒险线关键人物。"
+    },
+    {
+      "name": "西莉卡",
+      "aliases": [
+        "Silica",
+        "绫野珪子"
+      ],
+      "role": "驯兽师玩家",
+      "affiliation": "普通玩家",
+      "notes": "与使魔伙伴相关，体现中低等级玩家处境。"
+    },
+    {
+      "name": "幸",
+      "aliases": [
+        "Sachi"
+      ],
+      "role": "月夜黑猫团成员",
+      "affiliation": "月夜黑猫团",
+      "notes": "其死亡成为桐人心理创伤的重要源头。"
+    },
+    {
+      "name": "启太",
+      "aliases": [
+        "Keita"
+      ],
+      "role": "月夜黑猫团团长",
+      "affiliation": "月夜黑猫团",
+      "notes": "新手小队悲剧线人物。"
+    },
+    {
+      "name": "罗莎莉雅",
+      "aliases": [
+        "Rosalia"
+      ],
+      "role": "橙/红名威胁相关人物",
+      "affiliation": "泰坦之手等犯罪玩家",
+      "notes": "代表SAO内玩家犯罪与诱杀风险。"
+    },
+    {
+      "name": "辛卡",
+      "aliases": [
+        "Thinker"
+      ],
+      "role": "艾恩葛朗特解放军相关人物",
+      "affiliation": "艾恩葛朗特解放军",
+      "notes": "与解放军内部冲突和由莉耶儿支线相关。"
+    },
+    {
+      "name": "由莉耶儿",
+      "aliases": [
+        "Yulier"
+      ],
+      "role": "解放军支线人物",
+      "affiliation": "艾恩葛朗特解放军",
+      "notes": "与辛卡相关，体现大型公会内部政治。"
+    },
+    {
+      "name": "绮兹梅尔",
+      "aliases": [
+        "Kizmel"
+      ],
+      "role": "黑暗精灵NPC",
+      "affiliation": "艾恩葛朗特NPC/Progressive线",
+      "notes": "源资料列为Progressive重要NPC，体现NPC任务线深度。"
+    },
+    {
+      "name": "PoH",
+      "role": "微笑棺木核心威胁",
+      "affiliation": "微笑棺木",
+      "notes": "红名公会与PK恐怖的代表人物之一。"
+    },
+    {
+      "name": "微笑棺木成员",
+      "role": "红名玩家群像",
+      "affiliation": "微笑棺木",
+      "notes": "对攻略组和普通玩家造成长期威胁。"
+    },
+    {
+      "name": "血盟骑士团成员",
+      "role": "攻略组精英群像",
+      "affiliation": "血盟骑士团",
+      "notes": "前线攻略的主力公会成员。"
+    },
+    {
+      "name": "艾恩葛朗特解放军成员",
+      "role": "大型公会群像",
+      "affiliation": "ALF/ALS",
+      "notes": "承担攻略、治安与组织政治功能。"
+    }
+  ],
+  "worldId": "sword-art-online",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

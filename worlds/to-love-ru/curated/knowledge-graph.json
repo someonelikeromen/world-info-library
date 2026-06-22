@@ -1,25 +1,107 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "to-love-ru",
   "nodes": [
-    {"id": "sainan-town", "type": "location", "label": "彩南町"},
-    {"id": "sainan-high", "type": "location/faction", "label": "彩南高中"},
-    {"id": "yuuki-house", "type": "location", "label": "结城家"},
-    {"id": "deviluke-royal", "type": "faction", "label": "戴比路克王家"},
-    {"id": "deviluke-tech", "type": "technology", "label": "戴比路克科技"},
-    {"id": "peke", "type": "item/ai", "label": "沛凯"},
-    {"id": "alien-suitors", "type": "faction", "label": "外星追求者"},
-    {"id": "assassin-network", "type": "faction", "label": "宇宙暗杀者网络"},
-    {"id": "trans-weapon", "type": "power", "label": "变形兵器能力"},
-    {"id": "darkness", "type": "concept", "label": "Darkness 计划/失控"},
-    {"id": "harem-plan", "type": "concept", "label": "乐园计划"}
+    {
+      "id": "sainan-town",
+      "type": "location",
+      "label": "彩南町"
+    },
+    {
+      "id": "sainan-high",
+      "type": "location/faction",
+      "label": "彩南高中"
+    },
+    {
+      "id": "yuuki-house",
+      "type": "location",
+      "label": "结城家"
+    },
+    {
+      "id": "deviluke-royal",
+      "type": "faction",
+      "label": "戴比路克王家"
+    },
+    {
+      "id": "deviluke-tech",
+      "type": "technology",
+      "label": "戴比路克科技"
+    },
+    {
+      "id": "peke",
+      "type": "item/ai",
+      "label": "沛凯"
+    },
+    {
+      "id": "alien-suitors",
+      "type": "faction",
+      "label": "外星追求者"
+    },
+    {
+      "id": "assassin-network",
+      "type": "faction",
+      "label": "宇宙暗杀者网络"
+    },
+    {
+      "id": "trans-weapon",
+      "type": "power",
+      "label": "变形兵器能力"
+    },
+    {
+      "id": "darkness",
+      "type": "concept",
+      "label": "Darkness 计划/失控"
+    },
+    {
+      "id": "harem-plan",
+      "type": "concept",
+      "label": "乐园计划"
+    }
   ],
   "edges": [
-    {"from": "deviluke-royal", "to": "deviluke-tech", "type": "controls", "note": "王家拥有高阶外星科技与舰队。"},
-    {"from": "deviluke-tech", "to": "peke", "type": "creates", "note": "沛凯为菈菈身边的变装机器人。"},
-    {"from": "sainan-town", "to": "alien-suitors", "type": "attracts", "note": "菈菈停留地球后，外星追求者陆续抵达。"},
-    {"from": "sainan-high", "to": "harem-plan", "type": "stage-for", "note": "梦梦在校园日常中推动乐园计划。"},
-    {"from": "assassin-network", "to": "trans-weapon", "type": "uses", "note": "金色暗影等角色具备兵器化身体。"},
-    {"from": "darkness", "to": "trans-weapon", "type": "corrupts", "note": "Darkness 线围绕兵器身份和精神失控。"}
-  ]
+    {
+      "from": "deviluke-royal",
+      "to": "deviluke-tech",
+      "type": "controls",
+      "note": "王家拥有高阶外星科技与舰队。"
+    },
+    {
+      "from": "deviluke-tech",
+      "to": "peke",
+      "type": "creates",
+      "note": "沛凯为菈菈身边的变装机器人。"
+    },
+    {
+      "from": "sainan-town",
+      "to": "alien-suitors",
+      "type": "attracts",
+      "note": "菈菈停留地球后，外星追求者陆续抵达。"
+    },
+    {
+      "from": "sainan-high",
+      "to": "harem-plan",
+      "type": "stage-for",
+      "note": "梦梦在校园日常中推动乐园计划。"
+    },
+    {
+      "from": "assassin-network",
+      "to": "trans-weapon",
+      "type": "uses",
+      "note": "金色暗影等角色具备兵器化身体。"
+    },
+    {
+      "from": "darkness",
+      "to": "trans-weapon",
+      "type": "corrupts",
+      "note": "Darkness 线围绕兵器身份和精神失控。"
+    }
+  ],
+  "campaignId": "to-love-ru",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

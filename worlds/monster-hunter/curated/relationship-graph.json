@@ -1,15 +1,715 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "monster-hunter",
   "relationships": [
-    {"source": "主角猎人/OC猎人", "target": "猎人公会", "type": "认证/管理", "notes": "公会授予任务、星级与合法狩猎资格。"},
-    {"source": "主角猎人/OC猎人", "target": "艾露猫伙伴", "type": "搭档", "notes": "狩猎、采集、支援和日常陪伴。"},
-    {"source": "主角猎人/OC猎人", "target": "加工屋工匠", "type": "素材-装备循环", "notes": "狩猎所得素材交由工匠锻造成成长节点。"},
-    {"source": "村长", "target": "猎人公会", "type": "委托关系", "notes": "村落通过公会请求解决怪物威胁。"},
-    {"source": "王立书士队学者", "target": "主角猎人/OC猎人", "type": "知识支援", "notes": "提供物种记录与生态解释。"},
-    {"source": "古龙观测员", "target": "猎人公会", "type": "预警协作", "notes": "古龙活动触发高危任务和区域疏散。"},
-    {"source": "生态顶点怪物", "target": "区域村落", "type": "威胁/生态压力", "notes": "区域主线常由非典型生态位入侵引发。"},
-    {"source": "保守派长老", "target": "激进派技师", "type": "价值冲突", "notes": "传统狩猎与新技术开发的冲突推动主题讨论。"},
-    {"source": "禁忌怪物", "target": "古龙观测局", "type": "未知灾厄", "notes": "作为长期谜团被追踪和隐约揭示。"}
-  ]
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "guild",
+      "type": "认证/管理",
+      "notes": "公会授予任务、星级与合法狩猎资格。"
+    },
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "艾露猫伙伴",
+      "type": "搭档",
+      "notes": "狩猎、采集、支援和日常陪伴。"
+    },
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "加工屋工匠",
+      "type": "素材-装备循环",
+      "notes": "狩猎所得素材交由工匠锻造成成长节点。"
+    },
+    {
+      "source": "村长",
+      "target": "guild",
+      "type": "委托关系",
+      "notes": "村落通过公会请求解决怪物威胁。"
+    },
+    {
+      "source": "王立书士队学者",
+      "target": "主角猎人/OC猎人",
+      "type": "知识支援",
+      "notes": "提供物种记录与生态解释。"
+    },
+    {
+      "source": "古龙观测员",
+      "target": "guild",
+      "type": "预警协作",
+      "notes": "古龙活动触发高危任务和区域疏散。"
+    },
+    {
+      "source": "生态顶点怪物",
+      "target": "区域村落",
+      "type": "威胁/生态压力",
+      "notes": "区域主线常由非典型生态位入侵引发。"
+    },
+    {
+      "source": "保守派长老",
+      "target": "激进派技师",
+      "type": "价值冲突",
+      "notes": "传统狩猎与新技术开发的冲突推动主题讨论。"
+    },
+    {
+      "source": "forbidden",
+      "target": "observatory",
+      "type": "未知灾厄",
+      "notes": "作为长期谜团被追踪和隐约揭示。"
+    }
+  ],
+  "campaignId": "monster-hunter",
+  "nodes": [
+    {
+      "id": "主角猎人/OC猎人",
+      "label": "主角猎人/OC猎人",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "主角猎人/OC猎人",
+          "mappedId": "主角猎人/OC猎人",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "主角猎人/OC猎人",
+              "targetLabel": "主角猎人/OC猎人",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=主角猎人/OC猎人"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "主角猎人/OC猎人",
+          "targetLabel": "主角猎人/OC猎人",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=主角猎人/OC猎人"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "guild",
+      "label": "猎人公会",
+      "type": "organization",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'guild'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "猎人公会",
+          "mappedId": "guild",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "艾露猫伙伴",
+      "label": "艾露猫伙伴",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "艾露猫伙伴",
+          "mappedId": "艾露猫伙伴",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "艾露猫伙伴",
+              "targetLabel": "艾露猫伙伴",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=艾露猫伙伴"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "艾露猫伙伴",
+          "targetLabel": "艾露猫伙伴",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=艾露猫伙伴"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "加工屋工匠",
+      "label": "加工屋工匠",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "加工屋工匠",
+          "mappedId": "加工屋工匠",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "加工屋工匠",
+              "targetLabel": "加工屋工匠",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=加工屋工匠"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "加工屋工匠",
+          "targetLabel": "加工屋工匠",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=加工屋工匠"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "村长",
+      "label": "村长",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "村长",
+          "mappedId": "村长",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "村长",
+              "targetLabel": "村长",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=村长"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "村长",
+          "targetLabel": "村长",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=村长"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "王立书士队学者",
+      "label": "王立书士队学者",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "王立书士队学者",
+          "mappedId": "王立书士队学者",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "王立书士队学者",
+              "targetLabel": "王立书士队学者",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=王立书士队学者"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "王立书士队学者",
+          "targetLabel": "王立书士队学者",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=王立书士队学者"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "古龙观测员",
+      "label": "古龙观测员",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "古龙观测员",
+          "mappedId": "古龙观测员",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "古龙观测员",
+              "targetLabel": "古龙观测员",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=古龙观测员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "古龙观测员",
+          "targetLabel": "古龙观测员",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=古龙观测员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "生态顶点怪物",
+      "label": "生态顶点怪物",
+      "type": "threat",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "生态顶点怪物",
+          "mappedId": "生态顶点怪物",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "生态顶点怪物",
+              "targetLabel": "生态顶点怪物",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=生态顶点怪物"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "生态顶点怪物",
+          "targetLabel": "生态顶点怪物",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=生态顶点怪物"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "区域村落",
+      "label": "区域村落",
+      "type": "location",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "区域村落",
+          "mappedId": "区域村落",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "区域村落",
+              "targetLabel": "区域村落",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=区域村落"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "区域村落",
+          "targetLabel": "区域村落",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=区域村落"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "保守派长老",
+      "label": "保守派长老",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "保守派长老",
+          "mappedId": "保守派长老",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "保守派长老",
+              "targetLabel": "保守派长老",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=保守派长老"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "保守派长老",
+          "targetLabel": "保守派长老",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=保守派长老"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "激进派技师",
+      "label": "激进派技师",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "激进派技师",
+          "mappedId": "激进派技师",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-monster-hunter-001",
+              "kind": "characters-index",
+              "targetId": "激进派技师",
+              "targetLabel": "激进派技师",
+              "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/monster-hunter/curated/characters-index.json",
+              "match": "name=激进派技师"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from monster-hunter curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-monster-hunter-001",
+          "kind": "characters-index",
+          "targetId": "激进派技师",
+          "targetLabel": "激进派技师",
+          "note": "Unique curated match from monster-hunter curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/monster-hunter/curated/characters-index.json",
+          "match": "name=激进派技师"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from monster-hunter curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "forbidden",
+      "label": "禁忌怪物",
+      "type": "threat",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'forbidden'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "禁忌怪物",
+          "mappedId": "forbidden",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "observatory",
+      "label": "古龙观测局",
+      "type": "organization",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'observatory'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "古龙观测局",
+          "mappedId": "observatory",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "guild",
+      "type": "认证/管理",
+      "notes": "公会授予任务、星级与合法狩猎资格。"
+    },
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "艾露猫伙伴",
+      "type": "搭档",
+      "notes": "狩猎、采集、支援和日常陪伴。"
+    },
+    {
+      "source": "主角猎人/OC猎人",
+      "target": "加工屋工匠",
+      "type": "素材-装备循环",
+      "notes": "狩猎所得素材交由工匠锻造成成长节点。"
+    },
+    {
+      "source": "村长",
+      "target": "guild",
+      "type": "委托关系",
+      "notes": "村落通过公会请求解决怪物威胁。"
+    },
+    {
+      "source": "王立书士队学者",
+      "target": "主角猎人/OC猎人",
+      "type": "知识支援",
+      "notes": "提供物种记录与生态解释。"
+    },
+    {
+      "source": "古龙观测员",
+      "target": "guild",
+      "type": "预警协作",
+      "notes": "古龙活动触发高危任务和区域疏散。"
+    },
+    {
+      "source": "生态顶点怪物",
+      "target": "区域村落",
+      "type": "威胁/生态压力",
+      "notes": "区域主线常由非典型生态位入侵引发。"
+    },
+    {
+      "source": "保守派长老",
+      "target": "激进派技师",
+      "type": "价值冲突",
+      "notes": "传统狩猎与新技术开发的冲突推动主题讨论。"
+    },
+    {
+      "source": "forbidden",
+      "target": "observatory",
+      "type": "未知灾厄",
+      "notes": "作为长期谜团被追踪和隐约揭示。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

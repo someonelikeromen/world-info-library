@@ -1,1 +1,169 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"negima-uq-holder","nodes":[{"id":"magic","type":"powerSystem","label":"魔法"},{"id":"pactio","type":"powerSystem","label":"契约卡"},{"id":"immortality","type":"powerSystem","label":"不死"},{"id":"mahora","type":"location","label":"麻帆良学园"},{"id":"magic-world","type":"location","label":"魔法世界/火星"},{"id":"uq-holder","type":"faction","label":"UQ Holder"},{"id":"white-wing","type":"faction","label":"白之翼"}],"edges":[{"from":"pactio","to":"magic","type":"derived_from"},{"from":"white-wing","to":"magic-world","type":"expeditions"},{"from":"uq-holder","to":"immortality","type":"organizes"},{"from":"mahora","to":"magic","type":"hides"}],"sourceRefs":["src-negima-uq-holder-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "negima-uq-holder",
+  "nodes": [
+    {
+      "id": "magic",
+      "type": "powerSystem",
+      "label": "魔法"
+    },
+    {
+      "id": "pactio",
+      "type": "powerSystem",
+      "label": "契约卡"
+    },
+    {
+      "id": "immortality",
+      "type": "powerSystem",
+      "label": "不死"
+    },
+    {
+      "id": "mahora",
+      "type": "location",
+      "label": "麻帆良学园"
+    },
+    {
+      "id": "magic-world",
+      "type": "location",
+      "label": "魔法世界/火星"
+    },
+    {
+      "id": "uq-holder",
+      "type": "faction",
+      "label": "UQ Holder"
+    },
+    {
+      "id": "white-wing",
+      "type": "faction",
+      "label": "白之翼"
+    },
+    {
+      "id": "mahora-gakuen-city",
+      "type": "faction/location",
+      "label": "麻帆良学园都市",
+      "summary": "麻帆良学园都市",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "magic-association-world",
+      "type": "faction",
+      "label": "魔法协会/魔法世界",
+      "summary": "魔法协会/魔法世界",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "complete-world",
+      "type": "faction",
+      "label": "完全世界/造物主相关势力",
+      "summary": "完全世界/造物主相关势力",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "vampire-undead",
+      "type": "faction",
+      "label": "吸血鬼与不死者群体",
+      "summary": "吸血鬼与不死者群体",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kyoto-magic-side",
+      "type": "faction",
+      "label": "京都魔法侧",
+      "summary": "京都魔法侧",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kyoto-magic-base",
+      "type": "location",
+      "label": "京都/东方魔法据点",
+      "summary": "京都/东方魔法据点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "orbital-elevator-future-city",
+      "type": "location",
+      "label": "轨道电梯与未来都市",
+      "summary": "轨道电梯与未来都市",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "uq-holder-haven",
+      "type": "location",
+      "label": "UQ Holder 仙境馆",
+      "summary": "UQ Holder 仙境馆",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "martial-arts",
+      "type": "power-system",
+      "label": "气/武术",
+      "summary": "近战高手可用气、步法、武器和反魔技巧对抗术者",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "anti-magic",
+      "type": "power-system",
+      "label": "反魔法",
+      "summary": "反魔法",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "from": "pactio",
+      "to": "magic",
+      "type": "derived_from",
+      "source": "pactio",
+      "target": "magic"
+    },
+    {
+      "from": "white-wing",
+      "to": "magic-world",
+      "type": "expeditions",
+      "source": "white-wing",
+      "target": "magic-world"
+    },
+    {
+      "from": "uq-holder",
+      "to": "immortality",
+      "type": "organizes",
+      "source": "uq-holder",
+      "target": "immortality"
+    },
+    {
+      "from": "mahora",
+      "to": "magic",
+      "type": "hides",
+      "source": "mahora",
+      "target": "magic"
+    }
+  ],
+  "sourceRefs": [
+    "src-negima-uq-holder-001"
+  ],
+  "campaignId": "negima-uq-holder",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 10,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

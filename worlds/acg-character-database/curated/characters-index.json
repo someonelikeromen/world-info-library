@@ -1,7 +1,7 @@
 {
-  "schema": "curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "acg-character-database",
-  "indexType": "cross-work-character-database",
+  "indexType": "reference-library-observed-character-list",
   "note": "本索引按手工复核的 comment 条目列出角色名与来源作品；本库不是单一世界，不为跨作品角色虚构共同关系。",
   "charactersObserved": [
     "扎伊德·灾厄 / 女祭司扎伊德 - 转生奴隶角斗场",
@@ -194,7 +194,67 @@
     "艾米莉亚·索尔瓦 - 黑兽2"
   ],
   "archetypeTemplatesObserved": [
-    "傲娇", "御姐", "三无(绫波丽)", "三无(涅音梦)", "理性", "大小姐", "正直", "社恐", "冷酷", "弱气", "纯娇", "小恶魔", "雌小鬼", "笑面虎", "腹黑", "高傲", "知性", "元气", "假小子", "中二病", "毒舌", "天然系", "天然呆", "电波系", "废柴", "MADAO", "大智若愚", "散漫", "温柔", "怪才", "忠诚", "狂气", "王道", "自我牺牲", "兄控", "姐控", "弟控", "妹控", "多情", "母性", "支配", "暴力女", "热血"
+    "傲娇",
+    "御姐",
+    "三无(绫波丽)",
+    "三无(涅音梦)",
+    "理性",
+    "大小姐",
+    "正直",
+    "社恐",
+    "冷酷",
+    "弱气",
+    "纯娇",
+    "小恶魔",
+    "雌小鬼",
+    "笑面虎",
+    "腹黑",
+    "高傲",
+    "知性",
+    "元气",
+    "假小子",
+    "中二病",
+    "毒舌",
+    "天然系",
+    "天然呆",
+    "电波系",
+    "废柴",
+    "MADAO",
+    "大智若愚",
+    "散漫",
+    "温柔",
+    "怪才",
+    "忠诚",
+    "狂气",
+    "王道",
+    "自我牺牲",
+    "兄控",
+    "姐控",
+    "弟控",
+    "妹控",
+    "多情",
+    "母性",
+    "支配",
+    "暴力女",
+    "热血"
   ],
-  "nonCharacterEntriesHandledElsewhere": ["📜说明", "💡其他预设使用教程", "人格模板条目"]
+  "nonCharacterEntriesHandledElsewhere": [
+    "📜说明",
+    "💡其他预设使用教程",
+    "人格模板条目"
+  ],
+  "worldId": "acg-character-database",
+  "characters": [],
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  },
+  "runtimeUseGate": {
+    "notCanonRosterForSingleWorld": true,
+    "charactersArrayPolicy": "characters remains empty because observed entries are cross-work references, not one-world canon NPC records",
+    "observedListUse": "charactersObserved may be used as a lookup list only after selecting the originating work/continuity",
+    "relationshipPolicy": "do not generate cross-work relationships unless an external crossover campaign explicitly defines them"
+  }
 }

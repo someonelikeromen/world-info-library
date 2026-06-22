@@ -1,1 +1,277 @@
-{"schema":"rp-relationship-graph-v1","worldId":"gate-jsdf","nodes":[{"id":"itami-youji","type":"character","label":"伊丹耀司"},{"id":"rory-mercury","type":"character","label":"萝莉·麦丘利"},{"id":"lelei-la-lelena","type":"character","label":"蕾莱·拉·列娜"},{"id":"tuka-luna-marceau","type":"character","label":"杜嘉"},{"id":"pina-co-lada","type":"character","label":"平娜"},{"id":"zorzal-el-caesar","type":"character","label":"索沙尔"},{"id":"tyuule","type":"character","label":"蒂尤蕾"},{"id":"jsdf","type":"faction","label":"自卫队"},{"id":"empire","type":"faction","label":"帝国"}],"edges":[{"from":"itami-youji","to":"jsdf","type":"member","visibility":"public"},{"from":"itami-youji","to":"rory-mercury","type":"bonded_by_apostle_interest","visibility":"public"},{"from":"itami-youji","to":"lelei-la-lelena","type":"ally_and_translation_partner","visibility":"public"},{"from":"itami-youji","to":"tuka-luna-marceau","type":"protector_father_projection","visibility":"public"},{"from":"pina-co-lada","to":"empire","type":"princess_reformer","visibility":"public"},{"from":"pina-co-lada","to":"jsdf","type":"peace_negotiator","visibility":"public"},{"from":"zorzal-el-caesar","to":"jsdf","type":"enemy","visibility":"public"},{"from":"tyuule","to":"zorzal-el-caesar","type":"enslaved_revenge_manipulation","visibility":"public"},{"from":"empire","to":"jsdf","type":"war_then_negotiation","visibility":"public"}],"sourceRefs":["src-gate-jsdf-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "gate-jsdf",
+  "nodes": [
+    {
+      "id": "itami-youji",
+      "type": "character",
+      "label": "伊丹耀司"
+    },
+    {
+      "id": "rory-mercury",
+      "type": "character",
+      "label": "萝莉·麦丘利"
+    },
+    {
+      "id": "lelei-la-lelena",
+      "type": "character",
+      "label": "蕾莱·拉·列娜"
+    },
+    {
+      "id": "tuka-luna-marceau",
+      "type": "character",
+      "label": "杜嘉"
+    },
+    {
+      "id": "pina-co-lada",
+      "type": "character",
+      "label": "平娜"
+    },
+    {
+      "id": "zorzal-el-caesar",
+      "type": "character",
+      "label": "索沙尔"
+    },
+    {
+      "id": "tyuule",
+      "type": "character",
+      "label": "蒂尤蕾"
+    },
+    {
+      "id": "jsdf",
+      "type": "faction",
+      "label": "自卫队"
+    },
+    {
+      "id": "empire",
+      "type": "faction",
+      "label": "帝国"
+    },
+    {
+      "id": "yanagida-akira",
+      "type": "character",
+      "name": "柳田明",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "特区方面部队幕僚，精英主义但能与伊丹合作，处理外交与谍报。",
+      "tags": [
+        "幕僚",
+        "外交/情报接口"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "kato-el-altestan",
+      "type": "character",
+      "name": "加藤·艾尔·阿尔泰斯坦",
+      "aliases": [
+        "Kato El Altestan"
+      ],
+      "visibility": "public",
+      "summary": "蕾莱的导师。",
+      "tags": [
+        "mage"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "arpeggio-el-lalena",
+      "type": "character",
+      "name": "阿尔佩吉奥·艾尔·拉蕾娜",
+      "aliases": [
+        "Arpeggio El Lalena"
+      ],
+      "visibility": "public",
+      "summary": "蕾莱的姐姐。",
+      "tags": [
+        "mage"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "molt-sol-augustus",
+      "type": "character",
+      "name": "摩特·索尔·奥古斯都",
+      "aliases": [
+        "Molt Sol Augustus"
+      ],
+      "visibility": "public",
+      "summary": "帝国皇帝，匹尼雅与佐尔扎尔之父。",
+      "tags": [
+        "emperor"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "hamilton-uno-ro",
+      "type": "character",
+      "name": "汉密尔顿·乌诺·罗",
+      "aliases": [
+        "Hamilton Uno Ror"
+      ],
+      "visibility": "public",
+      "summary": "匹尼雅身边的帝国骑士团成员。",
+      "tags": [
+        "knight"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "furuta-hitoshi",
+      "type": "character",
+      "name": "古田均",
+      "aliases": [
+        "Furuta Hitoshi"
+      ],
+      "visibility": "public",
+      "summary": "自卫队人员，与图勒有接点。",
+      "tags": [
+        "jsdf"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "delilah",
+      "type": "character",
+      "name": "黛莉拉",
+      "aliases": [
+        "Delilah"
+      ],
+      "visibility": "public",
+      "summary": "兽人女仆/战士，与柳田线相关。",
+      "tags": [
+        "warrior"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "hodoryu",
+      "type": "location",
+      "name": "霍德琉",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "杜嘉相关精灵聚落/故乡。",
+      "tags": [
+        "location"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "giselle",
+      "type": "character",
+      "name": "吉赛儿",
+      "aliases": [
+        "汉蒂使徒"
+      ],
+      "visibility": "public",
+      "summary": "冥界之王汉蒂的龙人族使徒，能使役龙群。",
+      "tags": [
+        "亚神",
+        "龙人"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-target"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "itami-youji",
+      "to": "jsdf",
+      "type": "member",
+      "visibility": "public"
+    },
+    {
+      "from": "itami-youji",
+      "to": "rory-mercury",
+      "type": "bonded_by_apostle_interest",
+      "visibility": "public"
+    },
+    {
+      "from": "itami-youji",
+      "to": "lelei-la-lelena",
+      "type": "ally_and_translation_partner",
+      "visibility": "public"
+    },
+    {
+      "from": "itami-youji",
+      "to": "tuka-luna-marceau",
+      "type": "protector_father_projection",
+      "visibility": "public"
+    },
+    {
+      "from": "pina-co-lada",
+      "to": "empire",
+      "type": "princess_reformer",
+      "visibility": "public"
+    },
+    {
+      "from": "pina-co-lada",
+      "to": "jsdf",
+      "type": "peace_negotiator",
+      "visibility": "public"
+    },
+    {
+      "from": "zorzal-el-caesar",
+      "to": "jsdf",
+      "type": "enemy",
+      "visibility": "public"
+    },
+    {
+      "from": "tyuule",
+      "to": "zorzal-el-caesar",
+      "type": "enslaved_revenge_manipulation",
+      "visibility": "public"
+    },
+    {
+      "from": "empire",
+      "to": "jsdf",
+      "type": "war_then_negotiation",
+      "visibility": "public"
+    }
+  ],
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
+  "campaignId": "gate-jsdf",
+  "views": {
+    "playerVisibleNodeIds": [
+      "yanagida-akira",
+      "kato-el-altestan",
+      "arpeggio-el-lalena",
+      "molt-sol-augustus",
+      "hamilton-uno-ro",
+      "furuta-hitoshi",
+      "delilah",
+      "hodoryu",
+      "giselle"
+    ],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

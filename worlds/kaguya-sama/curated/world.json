@@ -1,1 +1,138 @@
-{"schema":"rp-world-v1","worldId":"kaguya-sama","worldName":"辉夜大小姐想让我告白","aliases":["Kaguya-sama"],"genre":["校园恋爱喜剧","心理博弈","学园日常"],"summary":"秀知院学园学生会内，四宫辉夜与白银御行以‘谁先告白谁就输’的恋爱头脑战互相试探；周围同伴与财阀背景将轻喜剧与门第差距交织。","sandboxPrinciple":"不固定恋爱胜负；可走告白、误会、会长选举、学生会日常或后续人生路线。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["非超自然世界，核心为社交、学园与心理攻防。"],"powerSystems":[{"id":"kaguya-social-battle","name":"恋爱头脑战","category":"social-strategy","principle":"通过言行、情报、诱导、误会和心理压迫争取对话主导权。","classification":["Social","Strategy","Emotion"],"energySource":"none","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[],"levelMapping":[],"commonResources":["学生会职权","情报差","面子"],"commonAbilities":["心理战","社交操盘","误会制造/解除"],"limitations":["不依靠超常战力，情报错误会反噬。"],"compatibilityNotes":[]}],"factions":[{"id":"shuchiin-council","name":"秀知院学生会","type":"school-body","summary":"以白银御行为会长的学生会团队。","powerSystemAffinity":["kaguya-social-battle"],"publicRules":["会议、活动与职务协作"],"hiddenRules":["恋爱攻防长期占据内部议程"],"attitudeToOutsiders":"polite","knownMembers":["shirogane","kaguya","chika","ishigami","iino"],"territories":["shuchiin-school"],"resources":["学园资源","宣传","社交网络"],"conflicts":["family-pressure"]}],"energyEnvironment":{"externalEnergies":[],"restrictedZones":[],"specialFields":[]},"worldRules":{"publicLaws":["现代日本学园制度"],"supernaturalRules":[],"taboos":["在高傲或自尊受损时正面告白"],"knownExceptions":[]},"locations":[{"id":"shuchiin-school","name":"秀知院学园","type":"elite-school","summary":"主舞台。"},{"id":"council-room","name":"学生会活动室","type":"social-stage","summary":"恋爱头脑战最常发生的地点。"}],"publicEvents":[{"id":"student-council-daily","name":"学生会日常","summary":"会议、考试、文化祭与各种误会组成主线。"}],"hiddenEvents":[{"id":"confession-threat","name":"告白与身份压力","summary":"家世、面子与自尊构成真正障碍。"}]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "kaguya-sama",
+  "worldName": "辉夜大小姐想让我告白",
+  "aliases": [
+    "Kaguya-sama"
+  ],
+  "genre": [
+    "校园恋爱喜剧",
+    "心理博弈",
+    "学园日常"
+  ],
+  "summary": "秀知院学园学生会内，四宫辉夜与白银御行以‘谁先告白谁就输’的恋爱头脑战互相试探；周围同伴与财阀背景将轻喜剧与门第差距交织。",
+  "sandboxPrinciple": {
+    "summary": "不固定恋爱胜负；可走告白、误会、会长选举、学生会日常或后续人生路线。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "非超自然世界，核心为社交、学园与心理攻防。"
+  ],
+  "powerSystems": [
+    {
+      "id": "kaguya-social-battle",
+      "name": "恋爱头脑战",
+      "category": "social-strategy",
+      "principle": "通过言行、情报、诱导、误会和心理压迫争取对话主导权。",
+      "classification": [
+        "Social",
+        "Strategy",
+        "Emotion"
+      ],
+      "energySource": "none",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "学生会职权",
+        "情报差",
+        "面子"
+      ],
+      "commonAbilities": [
+        "心理战",
+        "社交操盘",
+        "误会制造/解除"
+      ],
+      "limitations": [
+        "不依靠超常战力，情报错误会反噬。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "shuchiin-council",
+      "name": "秀知院学生会",
+      "type": "school-body",
+      "summary": "以白银御行为会长的学生会团队。",
+      "powerSystemAffinity": [
+        "kaguya-social-battle"
+      ],
+      "publicRules": [
+        "会议、活动与职务协作"
+      ],
+      "hiddenRules": [
+        "恋爱攻防长期占据内部议程"
+      ],
+      "attitudeToOutsiders": "polite",
+      "knownMembers": [
+        "shirogane",
+        "kaguya",
+        "chika",
+        "ishigami",
+        "iino"
+      ],
+      "territories": [
+        "shuchiin-school"
+      ],
+      "resources": [
+        "学园资源",
+        "宣传",
+        "社交网络"
+      ],
+      "conflicts": [
+        "family-pressure"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [],
+    "restrictedZones": [],
+    "specialFields": []
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代日本学园制度"
+    ],
+    "supernaturalRules": [],
+    "taboos": [
+      "在高傲或自尊受损时正面告白"
+    ],
+    "knownExceptions": []
+  },
+  "locations": [
+    {
+      "id": "shuchiin-school",
+      "name": "秀知院学园",
+      "type": "elite-school",
+      "summary": "主舞台。"
+    },
+    {
+      "id": "council-room",
+      "name": "学生会活动室",
+      "type": "social-stage",
+      "summary": "恋爱头脑战最常发生的地点。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "student-council-daily",
+      "name": "学生会日常",
+      "summary": "会议、考试、文化祭与各种误会组成主线。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "confession-threat",
+      "name": "告白与身份压力",
+      "summary": "家世、面子与自尊构成真正障碍。"
+    }
+  ]
+}

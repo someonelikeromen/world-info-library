@@ -1,1 +1,262 @@
-{"schema":"rp-world-v1","worldId":"type-moon-nasuverse","worldName":"型月 / Fate / FGO / 魔法少女伊莉雅","aliases":["Nasuverse","Fate","FGO","型月世界"],"genre":["现代奇幻","魔术","英灵召唤","多时间线"],"summary":"由魔术协会、圣堂教会、死徒、英灵座、根源与多条平行世界线构成的现代神秘世界。神秘会随公开与时代衰退，魔术师以抵达根源为终极目标，圣杯战争与迦勒底人理修复是常见跑团入口。","sandboxPrinciple":"不同作品线可作为可选路线，剧情不固定；需在开局锁定时间线与作品交叉范围。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["神秘隐匿是社会规则而非默认跨界压制。","高阶能力需区分魔术、魔法、宝具、权能、空想具现化等来源。"],"powerSystems":[{"id":"magecraft","name":"魔术/魔术基盘","category":"external-energy-control","principle":"魔术师通过魔术回路、咒文、礼装与基盘再现现代科学可达之外但仍在世界法则内的神秘。","classification":["Energy","Ritual","Technique"],"energySource":"internal/external","hasExternalEnergy":true,"externalEnergyName":"大源/小源魔力","energyTraits":[{"tag":"mystery-dependent","level":"A","description":"越古老、越隐秘的神秘通常越强。"}],"levelMapping":[],"commonResources":["魔术回路","刻印","礼装","工房"],"commonAbilities":["强化","投影","结界","使魔","咒术"],"limitations":["神秘公开会削弱；准备与血统影响大。"],"compatibilityNotes":["外来能力若被解释为神秘，可被结界、概念防御或魔术解析交互。"]},{"id":"servant-system","name":"英灵召唤/从者系统","category":"entity-contract","principle":"英灵座记录的英雄分灵被圣杯或迦勒底系统召唤为从者，以职阶容器行动。","classification":["Entity","Contract","Noble Phantasm"],"energySource":"external","hasExternalEnergy":true,"externalEnergyName":"圣杯/御主魔力","energyTraits":[],"levelMapping":[],"commonResources":["令咒","魔力供给","宝具真名"],"commonAbilities":["职阶技能","固有技能","宝具"],"limitations":["灵基容器限制本体规模；需供魔。"],"compatibilityNotes":[]}],"factions":[{"id":"mage-association","name":"魔术协会","type":"occult-institution","summary":"魔术师世界的主要管理与研究机构。","powerSystemAffinity":["magecraft"],"publicRules":["隐匿神秘"],"hiddenRules":["根源竞争"],"attitudeToOutsiders":"secretive","knownMembers":["rin-tohsaka","waver-velvet"],"territories":["时钟塔"],"resources":["魔术刻印","研究资料"],"conflicts":["holy-church"]},{"id":"chaldea","name":"迦勒底","type":"humanity-preservation-organization","summary":"观测并修复人理的机构。","powerSystemAffinity":["magecraft","servant-system"],"publicRules":[],"hiddenRules":["特异点修复"],"attitudeToOutsiders":"mission-focused","knownMembers":["ritsuka-fujimaru","mash-kyrielight","romani-archaman"],"territories":["迦勒底基地"],"resources":["灵子转移","英灵召唤"],"conflicts":["beasts"]}],"energyEnvironment":{"externalEnergies":[{"name":"大源魔力","density":"uneven","distribution":"灵地与神代遗迹更高","traits":["神秘依存"],"recoveryImpact":"支持工房、仪式与从者供魔。"}],"restrictedZones":["固有结界","圣杯战争结界"],"specialFields":["灵地","特异点","异闻带"]},"worldRules":{"publicLaws":["现代社会法"],"supernaturalRules":["神秘需隐匿；根源为魔术终极目标；魔法是现文明无法达成的奇迹。"],"taboos":["公开神秘","滥用死徒化","非伦理人体实验"],"knownExceptions":["特异点、异闻带和魔法使可突破常规。"]},"locations":["冬木市","时钟塔","迦勒底","圆藏山","柳洞寺","妖精国"],"publicEvents":["第五次圣杯战争","人理烧却危机"],"hiddenEvents":["圣杯污染","根源追寻","异闻带剪定"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "type-moon-nasuverse",
+  "worldName": "型月 / Fate / FGO / 魔法少女伊莉雅",
+  "aliases": [
+    "Nasuverse",
+    "Fate",
+    "FGO",
+    "型月世界"
+  ],
+  "genre": [
+    "现代奇幻",
+    "魔术",
+    "英灵召唤",
+    "多时间线"
+  ],
+  "summary": "由魔术协会、圣堂教会、死徒、英灵座、根源与多条平行世界线构成的现代神秘世界。神秘会随公开与时代衰退，魔术师以抵达根源为终极目标，圣杯战争与迦勒底人理修复是常见跑团入口。",
+  "sandboxPrinciple": {
+    "summary": "不同作品线可作为可选路线，剧情不固定；需在开局锁定时间线与作品交叉范围。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "神秘隐匿是社会规则而非默认跨界压制。",
+    "高阶能力需区分魔术、魔法、宝具、权能、空想具现化等来源。"
+  ],
+  "powerSystems": [
+    {
+      "id": "magecraft",
+      "name": "魔术/魔术基盘",
+      "category": "external-energy-control",
+      "principle": "魔术师通过魔术回路、咒文、礼装与基盘再现现代科学可达之外但仍在世界法则内的神秘。",
+      "classification": [
+        "Energy",
+        "Ritual",
+        "Technique"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "大源/小源魔力",
+      "energyTraits": [
+        {
+          "tag": "mystery-dependent",
+          "level": "A",
+          "description": "越古老、越隐秘的神秘通常越强。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "魔术回路",
+        "刻印",
+        "礼装",
+        "工房"
+      ],
+      "commonAbilities": [
+        "强化",
+        "投影",
+        "结界",
+        "使魔",
+        "咒术"
+      ],
+      "limitations": [
+        "神秘公开会削弱；准备与血统影响大。"
+      ],
+      "compatibilityNotes": [
+        "外来能力若被解释为神秘，可被结界、概念防御或魔术解析交互。"
+      ]
+    },
+    {
+      "id": "servant-system",
+      "name": "英灵召唤/从者系统",
+      "category": "entity-contract",
+      "principle": "英灵座记录的英雄分灵被圣杯或迦勒底系统召唤为从者，以职阶容器行动。",
+      "classification": [
+        "Entity",
+        "Contract",
+        "Noble Phantasm"
+      ],
+      "energySource": "external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "圣杯/御主魔力",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "令咒",
+        "魔力供给",
+        "宝具真名"
+      ],
+      "commonAbilities": [
+        "职阶技能",
+        "固有技能",
+        "宝具"
+      ],
+      "limitations": [
+        "灵基容器限制本体规模；需供魔。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "church-technique",
+      "name": "圣堂教会战技"
+    }
+  ],
+  "factions": [
+    {
+      "id": "mage-association",
+      "name": "魔术协会",
+      "knownMembers": [
+        "rin-tohsaka",
+        "waver-velvet"
+      ]
+    },
+    {
+      "id": "chaldea",
+      "name": "迦勒底",
+      "knownMembers": [
+        "ritsuka-fujimaru",
+        "mash-kyrielight",
+        "romani-archaman"
+      ]
+    },
+    {
+      "id": "fuyuki-masters",
+      "name": "冬木御主阵营",
+      "knownMembers": [
+        "shirou-emiya",
+        "rin-tohsaka",
+        "sakura-matou",
+        "illyasviel"
+      ]
+    },
+    {
+      "id": "fuyuki-servants",
+      "name": "冬木从者阵营",
+      "knownMembers": [
+        "saber-artoria",
+        "gilgamesh"
+      ]
+    },
+    {
+      "id": "tohsaka-family",
+      "name": "远坂家",
+      "knownMembers": [
+        "rin-tohsaka"
+      ]
+    },
+    {
+      "id": "matou-family",
+      "name": "间桐家",
+      "knownMembers": [
+        "sakura-matou"
+      ]
+    },
+    {
+      "id": "einzbern-family",
+      "name": "爱因兹贝伦家",
+      "knownMembers": [
+        "illyasviel"
+      ]
+    },
+    {
+      "id": "holy-church",
+      "name": "圣堂教会",
+      "knownMembers": [
+        "kirei-kotomine"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "大源魔力",
+        "density": "uneven",
+        "distribution": "灵地与神代遗迹更高",
+        "traits": [
+          "神秘依存"
+        ],
+        "recoveryImpact": "支持工房、仪式与从者供魔。"
+      }
+    ],
+    "restrictedZones": [
+      "固有结界",
+      "圣杯战争结界"
+    ],
+    "specialFields": [
+      "灵地",
+      "特异点",
+      "异闻带"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代社会法"
+    ],
+    "supernaturalRules": [
+      "神秘需隐匿；根源为魔术终极目标；魔法是现文明无法达成的奇迹。"
+    ],
+    "taboos": [
+      "公开神秘",
+      "滥用死徒化",
+      "非伦理人体实验"
+    ],
+    "knownExceptions": [
+      "特异点、异闻带和魔法使可突破常规。"
+    ]
+  },
+  "locations": [
+    {
+      "id": "fuyuki-city",
+      "name": "冬木市",
+      "aliases": [
+        "冬木"
+      ]
+    },
+    {
+      "id": "clock-tower",
+      "name": "时钟塔"
+    },
+    {
+      "id": "chaldea-base",
+      "name": "迦勒底"
+    },
+    {
+      "id": "enzou-mountain",
+      "name": "圆藏山"
+    },
+    {
+      "id": "ryudou-temple",
+      "name": "柳洞寺"
+    },
+    {
+      "id": "fairy-country",
+      "name": "妖精国"
+    },
+    {
+      "id": "einzbern-castle",
+      "name": "爱因兹贝伦城"
+    },
+    {
+      "id": "singularity",
+      "name": "特异点"
+    },
+    {
+      "id": "fuyuki-church",
+      "name": "冬木教会"
+    }
+  ],
+  "publicEvents": [
+    "第五次圣杯战争",
+    "人理烧却危机"
+  ],
+  "hiddenEvents": [
+    "圣杯污染",
+    "根源追寻",
+    "异闻带剪定"
+  ]
+}

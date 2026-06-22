@@ -1,17 +1,409 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "claymore",
   "relationships": [
-    {"from": "organization", "to": "teresa", "type": "commands-and-hunts-if-renegade", "summary": "迪妮莎为组织No.1，但其底线与情感觉醒可使她脱离组织控制。"},
-    {"from": "teresa", "to": "priscilla", "type": "rival/trigger", "summary": "普莉西亚被派参与围杀迪妮莎，战败崩溃后走向觉醒。"},
-    {"from": "irene", "to": "sophia", "type": "comrade", "summary": "同属迪妮莎时代高位战士。"},
-    {"from": "sophia", "to": "noel", "type": "best-friend-rival", "summary": "苏菲亚与罗亚路形影不离且互为竞争者。"},
-    {"from": "miria", "to": "organization", "type": "future-rebellion", "summary": "米莉雅未来组织反抗军。"},
-    {"from": "isley", "to": "priscilla", "type": "obsession/interest", "summary": "北之深渊伊斯力对后代战士普莉西亚有异常执着。"},
-    {"from": "liful", "to": "duff", "type": "partner-controller", "summary": "达夫完全追随莉芙露，莉芙露将其视为所有物/伴侣。"},
-    {"from": "luciela", "to": "rafaela", "type": "sisters-tragic-bond", "summary": "双子姐妹，拉花娜执着于斩杀觉醒后的露西艾拉。"},
-    {"from": "dae", "to": "organization", "type": "technician", "summary": "达耶服务组织研究与外科改造体系。"},
-    {"from": "riful-agent", "to": "claymore", "type": "handler", "summary": "鲁路作为代理人/联络员与战士接触。"}
+    {
+      "from": "organization",
+      "to": "teresa",
+      "type": "commands-and-hunts-if-renegade",
+      "summary": "迪妮莎为组织No.1，但其底线与情感觉醒可使她脱离组织控制。"
+    },
+    {
+      "from": "teresa",
+      "to": "priscilla",
+      "type": "rival/trigger",
+      "summary": "普莉西亚被派参与围杀迪妮莎，战败崩溃后走向觉醒。"
+    },
+    {
+      "from": "irene",
+      "to": "sophia",
+      "type": "comrade",
+      "summary": "同属迪妮莎时代高位战士。"
+    },
+    {
+      "from": "sophia",
+      "to": "noel",
+      "type": "best-friend-rival",
+      "summary": "苏菲亚与罗亚路形影不离且互为竞争者。"
+    },
+    {
+      "from": "miria",
+      "to": "organization",
+      "type": "future-rebellion",
+      "summary": "米莉雅未来组织反抗军。"
+    },
+    {
+      "from": "isley",
+      "to": "priscilla",
+      "type": "obsession/interest",
+      "summary": "北之深渊伊斯力对后代战士普莉西亚有异常执着。"
+    },
+    {
+      "from": "liful",
+      "to": "duff",
+      "type": "partner-controller",
+      "summary": "达夫完全追随莉芙露，莉芙露将其视为所有物/伴侣。"
+    },
+    {
+      "from": "luciela",
+      "to": "rafaela",
+      "type": "sisters-tragic-bond",
+      "summary": "双子姐妹，拉花娜执着于斩杀觉醒后的露西艾拉。"
+    },
+    {
+      "from": "dae",
+      "to": "organization",
+      "type": "technician",
+      "summary": "达耶服务组织研究与外科改造体系。"
+    },
+    {
+      "from": "riful-agent",
+      "to": "claymore",
+      "type": "handler",
+      "summary": "鲁路作为代理人/联络员与战士接触。"
+    }
   ],
-  "playerSlot": {"id": "user-slot", "label": "{{user}}", "handling": "仅作为RP玩家位/可变角色，不列为原作固定人物。"}
+  "playerSlot": {
+    "id": "user-slot",
+    "label": "{{user}}",
+    "handling": "仅作为RP玩家位/可变角色，不列为原作固定人物。"
+  },
+  "campaignId": "claymore",
+  "nodes": [
+    {
+      "id": "organization",
+      "label": "organization",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'organization'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "organization",
+          "mappedId": "organization",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "teresa",
+      "label": "teresa",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'teresa'."
+      ],
+      "name": "迪妮莎 / Teresa",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "teresa",
+          "mappedId": "teresa",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "priscilla",
+      "label": "priscilla",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'priscilla'."
+      ],
+      "name": "普莉西亚 / Priscilla",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "priscilla",
+          "mappedId": "priscilla",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "irene",
+      "label": "irene",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'irene'."
+      ],
+      "name": "伊妮莉",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "irene",
+          "mappedId": "irene",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "sophia",
+      "label": "sophia",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'sophia'."
+      ],
+      "name": "苏菲亚",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "sophia",
+          "mappedId": "sophia",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "noel",
+      "label": "noel",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'noel'."
+      ],
+      "name": "罗亚路",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "noel",
+          "mappedId": "noel",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "miria",
+      "label": "miria",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'miria'."
+      ],
+      "name": "米莉雅",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "miria",
+          "mappedId": "miria",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "isley",
+      "label": "isley",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'isley'."
+      ],
+      "name": "伊斯力",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "isley",
+          "mappedId": "isley",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "liful",
+      "label": "liful",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'liful'."
+      ],
+      "name": "莉芙露",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "liful",
+          "mappedId": "liful",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "duff",
+      "label": "duff",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'duff'."
+      ],
+      "name": "达夫",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "duff",
+          "mappedId": "duff",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "luciela",
+      "label": "luciela",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'luciela'."
+      ],
+      "name": "露西艾拉",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "luciela",
+          "mappedId": "luciela",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "rafaela",
+      "label": "rafaela",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'rafaela'."
+      ],
+      "name": "拉花娜",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "rafaela",
+          "mappedId": "rafaela",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "dae",
+      "label": "dae",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'dae'."
+      ],
+      "name": "达耶",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "dae",
+          "mappedId": "dae",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "riful-agent",
+      "label": "riful-agent",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'riful-agent'."
+      ],
+      "name": "鲁路",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "riful-agent",
+          "mappedId": "riful-agent",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "claymore",
+      "label": "claymore",
+      "type": "class",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'claymore'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "claymore",
+          "mappedId": "claymore",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "organization",
+      "to": "teresa",
+      "type": "commands-and-hunts-if-renegade",
+      "summary": "迪妮莎为组织No.1，但其底线与情感觉醒可使她脱离组织控制。"
+    },
+    {
+      "from": "teresa",
+      "to": "priscilla",
+      "type": "rival/trigger",
+      "summary": "普莉西亚被派参与围杀迪妮莎，战败崩溃后走向觉醒。"
+    },
+    {
+      "from": "irene",
+      "to": "sophia",
+      "type": "comrade",
+      "summary": "同属迪妮莎时代高位战士。"
+    },
+    {
+      "from": "sophia",
+      "to": "noel",
+      "type": "best-friend-rival",
+      "summary": "苏菲亚与罗亚路形影不离且互为竞争者。"
+    },
+    {
+      "from": "miria",
+      "to": "organization",
+      "type": "future-rebellion",
+      "summary": "米莉雅未来组织反抗军。"
+    },
+    {
+      "from": "isley",
+      "to": "priscilla",
+      "type": "obsession/interest",
+      "summary": "北之深渊伊斯力对后代战士普莉西亚有异常执着。"
+    },
+    {
+      "from": "liful",
+      "to": "duff",
+      "type": "partner-controller",
+      "summary": "达夫完全追随莉芙露，莉芙露将其视为所有物/伴侣。"
+    },
+    {
+      "from": "luciela",
+      "to": "rafaela",
+      "type": "sisters-tragic-bond",
+      "summary": "双子姐妹，拉花娜执着于斩杀觉醒后的露西艾拉。"
+    },
+    {
+      "from": "dae",
+      "to": "organization",
+      "type": "technician",
+      "summary": "达耶服务组织研究与外科改造体系。"
+    },
+    {
+      "from": "riful-agent",
+      "to": "claymore",
+      "type": "handler",
+      "summary": "鲁路作为代理人/联络员与战士接触。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

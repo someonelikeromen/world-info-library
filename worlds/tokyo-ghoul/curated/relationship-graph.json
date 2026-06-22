@@ -1,1 +1,281 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library-tokyo-ghoul","cardId":"tokyo-ghoul","nodes":[{"id":"ken-kaneki","type":"character","name":"金木研","aliases":[],"visibility":"public","summary":"半喰种。","tags":["protagonist"],"metadata":{}},{"id":"touka-kirishima","type":"character","name":"雾岛董香","aliases":[],"visibility":"public","summary":"安定区成员。","tags":["ghoul"],"metadata":{}},{"id":"ccg","type":"faction","name":"CCG","aliases":[],"visibility":"public","summary":"喰种对策局。","tags":["faction"],"metadata":{}},{"id":"anteiku","type":"faction","name":"安定区","aliases":[],"visibility":"private","summary":"喰种避风港。","tags":["refuge"],"metadata":{}}],"edges":[{"id":"rel-kaneki-touka","from":"ken-kaneki","to":"touka-kirishima","type":"affection","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"共同生存与身份理解。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":"C","debt":"B","loyalty":"B","hostility":null},"publicDescription":"金木与董香互相扶持。","gmTruth":"关系受金木人格变化影响。","evidence":["src-tg-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-ccg-anteiku","from":"ccg","to":"anteiku","type":"enemy","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"机构性猎杀与喰种避难冲突。"},"facets":{"trust":"E","affection":null,"fear":"B","suspicion":"A","debt":null,"loyalty":null,"hostility":"A"},"publicDescription":"CCG 会搜查并清剿喰种据点。","gmTruth":"个体层面可有理解与妥协。","evidence":["src-tg-classification-report"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["ken-kaneki","touka-kirishima","ccg"],"gmHighlightedNodeIds":["anteiku"],"activeSceneNodeIds":[]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-tokyo-ghoul",
+  "cardId": "tokyo-ghoul",
+  "nodes": [
+    {
+      "id": "ken-kaneki",
+      "type": "character",
+      "name": "金木研",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半喰种。",
+      "tags": [
+        "protagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "touka-kirishima",
+      "type": "character",
+      "name": "雾岛董香",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "安定区成员。",
+      "tags": [
+        "ghoul"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ccg",
+      "type": "faction",
+      "name": "CCG",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "喰种对策局。",
+      "tags": [
+        "faction"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "anteiku",
+      "type": "faction",
+      "name": "安定区",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "喰种避风港。",
+      "tags": [
+        "refuge"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rize-kamishiro",
+      "type": "character",
+      "name": "神代利世",
+      "aliases": [
+        "大喰"
+      ],
+      "visibility": "private",
+      "summary": "强大喰种，其器官移植导致金木半喰种化。",
+      "tags": [
+        "catalyst",
+        "ghoul"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "yoshimura",
+      "type": "character",
+      "name": "芳村",
+      "aliases": [
+        "店长",
+        "不杀之枭"
+      ],
+      "visibility": "private",
+      "summary": "安定区店长，强大独眼枭相关人物。",
+      "tags": [
+        "mentor",
+        "ghoul"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "koutarou-amon",
+      "type": "character",
+      "name": "亚门钢太朗",
+      "aliases": [
+        "CCG搜查官"
+      ],
+      "visibility": "public",
+      "summary": "正义感强的 CCG 搜查官，与金木形成镜像关系。",
+      "tags": [
+        "investigator",
+        "rival"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "kishou-arima",
+      "type": "character",
+      "name": "有马贵将",
+      "aliases": [
+        "CCG死神"
+      ],
+      "visibility": "private",
+      "summary": "CCG最强搜查官之一，深层身份牵涉独眼之王计划。",
+      "tags": [
+        "investigator",
+        "secret-kingmaker"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "ayato-kirishima",
+      "type": "character",
+      "name": "雾岛绚都",
+      "aliases": [
+        "Ayato Kirishima"
+      ],
+      "visibility": "public",
+      "summary": "雾岛董香的弟弟。",
+      "tags": [
+        "ghoul"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "eto-yoshimura",
+      "type": "character",
+      "name": "高槻泉",
+      "aliases": [
+        "Eto Yoshimura",
+        "芳村爱支"
+      ],
+      "visibility": "private",
+      "summary": "芳村之女，独眼枭/青铜树核心人物。",
+      "tags": [
+        "ghoul",
+        "aogiri"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "kureo-mado",
+      "type": "character",
+      "name": "真户吴绪",
+      "aliases": [
+        "Kureo Mado"
+      ],
+      "visibility": "public",
+      "summary": "CCG搜查官，亚门钢太朗的上司/导师。",
+      "tags": [
+        "investigator"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "v-organization",
+      "type": "group",
+      "name": "V组织",
+      "aliases": [
+        "V"
+      ],
+      "visibility": "private",
+      "summary": "东京喰种世界暗中操盘的组织。",
+      "tags": [
+        "group"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-kaneki-touka",
+      "from": "ken-kaneki",
+      "to": "touka-kirishima",
+      "type": "affection",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "共同生存与身份理解。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "C",
+        "debt": "B",
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "金木与董香互相扶持。",
+      "gmTruth": "关系受金木人格变化影响。",
+      "evidence": [
+        "src-tg-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-ccg-anteiku",
+      "from": "ccg",
+      "to": "anteiku",
+      "type": "enemy",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "机构性猎杀与喰种避难冲突。"
+      },
+      "facets": {
+        "trust": "E",
+        "affection": null,
+        "fear": "B",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "A"
+      },
+      "publicDescription": "CCG 会搜查并清剿喰种据点。",
+      "gmTruth": "个体层面可有理解与妥协。",
+      "evidence": [
+        "src-tg-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "ken-kaneki",
+      "touka-kirishima",
+      "ccg",
+      "koutarou-amon",
+      "ayato-kirishima",
+      "kureo-mado"
+    ],
+    "gmHighlightedNodeIds": [
+      "anteiku",
+      "rize-kamishiro",
+      "yoshimura",
+      "kishou-arima",
+      "eto-yoshimura",
+      "v-organization"
+    ],
+    "activeSceneNodeIds": []
+  }
+}

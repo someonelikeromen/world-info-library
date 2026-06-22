@@ -1,28 +1,116 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "akame-ga-kill",
   "nodes": [
-    {"id": "teigu", "type": "power-system", "label": "帝具"},
-    {"id": "danger-beasts", "type": "species", "label": "危险种"},
-    {"id": "first-emperor", "type": "historical", "label": "初代皇帝"},
-    {"id": "empire", "type": "faction", "label": "帝国"},
-    {"id": "revolutionary-army", "type": "faction", "label": "革命军"},
-    {"id": "night-raid", "type": "faction", "label": "夜袭"},
-    {"id": "jaegers", "type": "faction", "label": "狩人"},
-    {"id": "capital", "type": "location", "label": "帝都"},
-    {"id": "minister", "type": "role", "label": "奥内斯特大臣"},
-    {"id": "teigu-duel", "type": "rule", "label": "帝具使对决宿命"}
+    {
+      "id": "teigu",
+      "type": "power-system",
+      "label": "帝具"
+    },
+    {
+      "id": "danger-beasts",
+      "type": "species",
+      "label": "危险种"
+    },
+    {
+      "id": "first-emperor",
+      "type": "historical",
+      "label": "初代皇帝"
+    },
+    {
+      "id": "empire",
+      "type": "faction",
+      "label": "帝国"
+    },
+    {
+      "id": "revolutionary-army",
+      "type": "faction",
+      "label": "革命军"
+    },
+    {
+      "id": "night-raid",
+      "type": "faction",
+      "label": "夜袭"
+    },
+    {
+      "id": "jaegers",
+      "type": "faction",
+      "label": "狩人"
+    },
+    {
+      "id": "capital",
+      "type": "location",
+      "label": "帝都"
+    },
+    {
+      "id": "minister",
+      "type": "role",
+      "label": "奥内斯特大臣"
+    },
+    {
+      "id": "teigu-duel",
+      "type": "rule",
+      "label": "帝具使对决宿命"
+    }
   ],
   "edges": [
-    {"from": "first-emperor", "to": "teigu", "type": "created"},
-    {"from": "danger-beasts", "to": "teigu", "type": "materials-for"},
-    {"from": "empire", "to": "capital", "type": "centered-in"},
-    {"from": "minister", "to": "empire", "type": "controls"},
-    {"from": "revolutionary-army", "to": "empire", "type": "opposes"},
-    {"from": "night-raid", "to": "revolutionary-army", "type": "subunit-of"},
-    {"from": "night-raid", "to": "capital", "type": "operates-in"},
-    {"from": "jaegers", "to": "empire", "type": "serves"},
-    {"from": "jaegers", "to": "night-raid", "type": "hunts"},
-    {"from": "teigu", "to": "teigu-duel", "type": "governed-by"}
-  ]
+    {
+      "from": "first-emperor",
+      "to": "teigu",
+      "type": "created"
+    },
+    {
+      "from": "danger-beasts",
+      "to": "teigu",
+      "type": "materials-for"
+    },
+    {
+      "from": "empire",
+      "to": "capital",
+      "type": "centered-in"
+    },
+    {
+      "from": "minister",
+      "to": "empire",
+      "type": "controls"
+    },
+    {
+      "from": "revolutionary-army",
+      "to": "empire",
+      "type": "opposes"
+    },
+    {
+      "from": "night-raid",
+      "to": "revolutionary-army",
+      "type": "subunit-of"
+    },
+    {
+      "from": "night-raid",
+      "to": "capital",
+      "type": "operates-in"
+    },
+    {
+      "from": "jaegers",
+      "to": "empire",
+      "type": "serves"
+    },
+    {
+      "from": "jaegers",
+      "to": "night-raid",
+      "type": "hunts"
+    },
+    {
+      "from": "teigu",
+      "to": "teigu-duel",
+      "type": "governed-by"
+    }
+  ],
+  "campaignId": "akame-ga-kill",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

@@ -1,24 +1,107 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "cheng-long-adventures",
   "nodes": [
-    {"id": "twelve-talismans", "label": "十二符咒", "type": "artifact-set"},
-    {"id": "shendu", "label": "圣主", "type": "demon"},
-    {"id": "eight-demons", "label": "八大恶魔", "type": "entity-set"},
-    {"id": "eight-immortals", "label": "八仙/神明信物", "type": "counterforce"},
-    {"id": "panku-box", "label": "盘库宝盒", "type": "artifact"},
-    {"id": "demon-netherworld", "label": "恶魔地狱", "type": "dimension"},
-    {"id": "chi-magic", "label": "气魔法", "type": "magic-system"},
-    {"id": "shadowkhan", "label": "鬼影兵团", "type": "summoned-army"},
-    {"id": "oni-masks", "label": "鬼影面具", "type": "artifact-set"},
-    {"id": "section-13", "label": "十三区", "type": "organization/location"}
+    {
+      "id": "twelve-talismans",
+      "label": "十二符咒",
+      "type": "artifact-set"
+    },
+    {
+      "id": "shendu",
+      "label": "圣主",
+      "type": "demon"
+    },
+    {
+      "id": "eight-demons",
+      "label": "八大恶魔",
+      "type": "entity-set"
+    },
+    {
+      "id": "eight-immortals",
+      "label": "八仙/神明信物",
+      "type": "counterforce"
+    },
+    {
+      "id": "panku-box",
+      "label": "盘库宝盒",
+      "type": "artifact"
+    },
+    {
+      "id": "demon-netherworld",
+      "label": "恶魔地狱",
+      "type": "dimension"
+    },
+    {
+      "id": "chi-magic",
+      "label": "气魔法",
+      "type": "magic-system"
+    },
+    {
+      "id": "shadowkhan",
+      "label": "鬼影兵团",
+      "type": "summoned-army"
+    },
+    {
+      "id": "oni-masks",
+      "label": "鬼影面具",
+      "type": "artifact-set"
+    },
+    {
+      "id": "section-13",
+      "label": "十三区",
+      "type": "organization/location"
+    },
+    {
+      "id": "demon-magic",
+      "label": "恶魔魔法",
+      "type": "magic-system"
+    }
   ],
   "edges": [
-    {"from": "twelve-talismans", "to": "shendu", "type": "derived-from/held-by", "note": "符咒力量与圣主密切相关，原归档倾向可视为掠夺自十二生肖或圣主力量分化。"},
-    {"from": "eight-immortals", "to": "eight-demons", "type": "sealed", "note": "八仙以信物封印八大恶魔。"},
-    {"from": "panku-box", "to": "demon-netherworld", "type": "opens-portals", "note": "用于定位并打开恶魔之门。"},
-    {"from": "chi-magic", "to": "demon-magic", "type": "opposes", "note": "老爹与特鲁使用正气魔法对抗恶魔魔法。"},
-    {"from": "oni-masks", "to": "shadowkhan", "type": "summons", "note": "面具赋予佩戴者不同鬼影兵团控制权并带来侵蚀。"},
-    {"from": "section-13", "to": "twelve-talismans", "type": "contains", "note": "十三区常收容符咒与超自然遗物。"}
-  ]
+    {
+      "from": "twelve-talismans",
+      "to": "shendu",
+      "type": "derived-from/held-by",
+      "note": "符咒力量与圣主密切相关，原归档倾向可视为掠夺自十二生肖或圣主力量分化。"
+    },
+    {
+      "from": "eight-immortals",
+      "to": "eight-demons",
+      "type": "sealed",
+      "note": "八仙以信物封印八大恶魔。"
+    },
+    {
+      "from": "panku-box",
+      "to": "demon-netherworld",
+      "type": "opens-portals",
+      "note": "用于定位并打开恶魔之门。"
+    },
+    {
+      "from": "chi-magic",
+      "to": "demon-magic",
+      "type": "opposes",
+      "note": "老爹与特鲁使用正气魔法对抗恶魔魔法。"
+    },
+    {
+      "from": "oni-masks",
+      "to": "shadowkhan",
+      "type": "summons",
+      "note": "面具赋予佩戴者不同鬼影兵团控制权并带来侵蚀。"
+    },
+    {
+      "from": "section-13",
+      "to": "twelve-talismans",
+      "type": "contains",
+      "note": "十三区常收容符咒与超自然遗物。"
+    }
+  ],
+  "campaignId": "cheng-long-adventures",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

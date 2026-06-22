@@ -45,3 +45,7 @@
 - 已创建标准产物 7 个：README.md, world.json, source-registry.json, characters-index.json, knowledge-graph.json, relationship-graph.json, curation-notes.md。
 - 未修改 raw/imports/既有自动归档文件。
 - 未刷新总索引：本 step mutation scope 只允许写入 `worlds/dantalian-no-shoka/curated/`。
+
+## 2026-06-22 MED 规范化补记
+- 角色索引中的 `locations` 已基本为 id；本轮补齐 `world.json.locations` 中缺失的事件地点 id（如 `battlefront-airbase`, `glanholm-station`, `asquith-mansion` 等），避免 character-location 指向无 registry 节点。
+- 新补地点均标为事件地点/待补节点，不扩写未核实 canon。

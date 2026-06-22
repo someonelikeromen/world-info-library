@@ -1,1 +1,87 @@
-{"schema":"rp-relationship-graph-v1","worldId":"gundam-seed","nodes":[{"id":"kira-yamato","type":"character","label":"基拉"},{"id":"athrun-zala","type":"character","label":"阿斯兰"},{"id":"lacus-clyne","type":"character","label":"拉克丝"},{"id":"cagalli-yula-athha","type":"character","label":"卡嘉莉"},{"id":"murrue-ramius","type":"character","label":"玛琉"},{"id":"rau-le-creuset","type":"character","label":"劳"},{"id":"three-ships","type":"faction","label":"三舰同盟"}],"edges":[{"from":"kira-yamato","to":"athrun-zala","type":"friend_rival"},{"from":"kira-yamato","to":"lacus-clyne","type":"romantic_partner"},{"from":"kira-yamato","to":"cagalli-yula-athha","type":"siblings"},{"from":"athrun-zala","to":"cagalli-yula-athha","type":"romantic_partner"},{"from":"murrue-ramius","to":"kira-yamato","type":"commander"},{"from":"rau-le-creuset","to":"kira-yamato","type":"enemy"},{"from":"kira-yamato","to":"three-ships","type":"member"}],"sourceRefs":["src-gundam-seed-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "gundam-seed",
+  "nodes": [
+    {
+      "id": "kira-yamato",
+      "type": "character",
+      "label": "基拉"
+    },
+    {
+      "id": "athrun-zala",
+      "type": "character",
+      "label": "阿斯兰"
+    },
+    {
+      "id": "lacus-clyne",
+      "type": "character",
+      "label": "拉克丝"
+    },
+    {
+      "id": "cagalli-yula-athha",
+      "type": "character",
+      "label": "卡嘉莉"
+    },
+    {
+      "id": "murrue-ramius",
+      "type": "character",
+      "label": "玛琉"
+    },
+    {
+      "id": "rau-le-creuset",
+      "type": "character",
+      "label": "劳"
+    },
+    {
+      "id": "three-ships",
+      "type": "faction",
+      "label": "三舰同盟"
+    }
+  ],
+  "edges": [
+    {
+      "from": "kira-yamato",
+      "to": "athrun-zala",
+      "type": "friend_rival"
+    },
+    {
+      "from": "kira-yamato",
+      "to": "lacus-clyne",
+      "type": "romantic_partner"
+    },
+    {
+      "from": "kira-yamato",
+      "to": "cagalli-yula-athha",
+      "type": "siblings"
+    },
+    {
+      "from": "athrun-zala",
+      "to": "cagalli-yula-athha",
+      "type": "romantic_partner"
+    },
+    {
+      "from": "murrue-ramius",
+      "to": "kira-yamato",
+      "type": "commander"
+    },
+    {
+      "from": "rau-le-creuset",
+      "to": "kira-yamato",
+      "type": "enemy"
+    },
+    {
+      "from": "kira-yamato",
+      "to": "three-ships",
+      "type": "member"
+    }
+  ],
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "campaignId": "gundam-seed",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

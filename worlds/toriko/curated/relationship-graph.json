@@ -2,40 +2,176 @@
   "schema": "rp-relationship-graph-v1",
   "worldId": "toriko",
   "nodes": [
-    { "id": "toriko", "type": "character", "label": "阿虏" },
-    { "id": "komatsu", "type": "character", "label": "小松" },
-    { "id": "coco", "type": "character", "label": "可可" },
-    { "id": "sunny", "type": "character", "label": "萨尼" },
-    { "id": "zebra", "type": "character", "label": "泽布拉" },
-    { "id": "ichiryu", "type": "character", "label": "一龙" },
-    { "id": "jirou", "type": "character", "label": "次郎" },
-    { "id": "midora", "type": "character", "label": "三虎" },
-    { "id": "acacia", "type": "character", "label": "阿卡西亚" },
-    { "id": "joa", "type": "character", "label": "乔亚" },
-    { "id": "mansam", "type": "character", "label": "曼萨姆" },
-    { "id": "setsuno", "type": "character", "label": "节乃" },
-    { "id": "stajyu", "type": "character", "label": "斯塔久" },
-    { "id": "tairy", "type": "character", "label": "泰利" },
-    { "id": "igo", "type": "faction", "label": "IGO" },
-    { "id": "bishokukai", "type": "faction", "label": "美食会" },
-    { "id": "neo", "type": "faction", "label": "NEO" }
+    {
+      "id": "toriko",
+      "type": "character",
+      "label": "阿虏"
+    },
+    {
+      "id": "komatsu",
+      "type": "character",
+      "label": "小松"
+    },
+    {
+      "id": "coco",
+      "type": "character",
+      "label": "可可"
+    },
+    {
+      "id": "sunny",
+      "type": "character",
+      "label": "萨尼"
+    },
+    {
+      "id": "zebra",
+      "type": "character",
+      "label": "泽布拉"
+    },
+    {
+      "id": "ichiryu",
+      "type": "character",
+      "label": "一龙"
+    },
+    {
+      "id": "jirou",
+      "type": "character",
+      "label": "次郎"
+    },
+    {
+      "id": "midora",
+      "type": "character",
+      "label": "三虎"
+    },
+    {
+      "id": "acacia",
+      "type": "character",
+      "label": "阿卡西亚"
+    },
+    {
+      "id": "joa",
+      "type": "character",
+      "label": "乔亚"
+    },
+    {
+      "id": "mansam",
+      "type": "character",
+      "label": "曼萨姆"
+    },
+    {
+      "id": "setsuno",
+      "type": "character",
+      "label": "节乃"
+    },
+    {
+      "id": "stajyu",
+      "type": "character",
+      "label": "斯塔久"
+    },
+    {
+      "id": "tairy",
+      "type": "character",
+      "label": "泰利"
+    },
+    {
+      "id": "igo",
+      "type": "faction",
+      "label": "IGO"
+    },
+    {
+      "id": "bishokukai",
+      "type": "faction",
+      "label": "美食会"
+    },
+    {
+      "id": "neo",
+      "type": "faction",
+      "label": "NEO"
+    }
   ],
   "edges": [
-    { "from": "toriko", "to": "komatsu", "type": "partner" },
-    { "from": "toriko", "to": "tairy", "type": "animal_partner" },
-    { "from": "toriko", "to": "coco", "type": "fellow_four_heavenly_kings" },
-    { "from": "toriko", "to": "sunny", "type": "fellow_four_heavenly_kings" },
-    { "from": "toriko", "to": "zebra", "type": "fellow_four_heavenly_kings" },
-    { "from": "ichiryu", "to": "toriko", "type": "mentor" },
-    { "from": "jirou", "to": "toriko", "type": "senior_ally" },
-    { "from": "midora", "to": "toriko", "type": "family_enemy_ally" },
-    { "from": "komatsu", "to": "setsuno", "type": "mentor" },
-    { "from": "midora", "to": "stajyu", "type": "guardian_or_family" },
-    { "from": "midora", "to": "igo", "type": "hostile_to" },
-    { "from": "joa", "to": "neo", "type": "core_member" },
-    { "from": "mansam", "to": "igo", "type": "leader" },
-    { "from": "acacia", "to": "midora", "type": "father_of" },
-    { "from": "acacia", "to": "joa", "type": "linked_to" }
+    {
+      "from": "toriko",
+      "to": "komatsu",
+      "type": "partner"
+    },
+    {
+      "from": "toriko",
+      "to": "tairy",
+      "type": "animal_partner"
+    },
+    {
+      "from": "toriko",
+      "to": "coco",
+      "type": "fellow_four_heavenly_kings"
+    },
+    {
+      "from": "toriko",
+      "to": "sunny",
+      "type": "fellow_four_heavenly_kings"
+    },
+    {
+      "from": "toriko",
+      "to": "zebra",
+      "type": "fellow_four_heavenly_kings"
+    },
+    {
+      "from": "ichiryu",
+      "to": "toriko",
+      "type": "mentor"
+    },
+    {
+      "from": "jirou",
+      "to": "toriko",
+      "type": "senior_ally"
+    },
+    {
+      "from": "midora",
+      "to": "toriko",
+      "type": "family_enemy_ally"
+    },
+    {
+      "from": "komatsu",
+      "to": "setsuno",
+      "type": "mentor"
+    },
+    {
+      "from": "midora",
+      "to": "stajyu",
+      "type": "guardian_or_family"
+    },
+    {
+      "from": "midora",
+      "to": "igo",
+      "type": "hostile_to"
+    },
+    {
+      "from": "joa",
+      "to": "neo",
+      "type": "core_member"
+    },
+    {
+      "from": "mansam",
+      "to": "igo",
+      "type": "leader"
+    },
+    {
+      "from": "acacia",
+      "to": "midora",
+      "type": "father_of"
+    },
+    {
+      "from": "acacia",
+      "to": "joa",
+      "type": "linked_to"
+    }
   ],
-  "sourceRefs": ["src-toriko-001"]
+  "sourceRefs": [
+    "src-toriko-001"
+  ],
+  "campaignId": "toriko",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

@@ -1,1 +1,122 @@
-{"schema":"rp-world-v1","worldId":"ikki-tousen","displayName":"一骑当千 / Ikki Tousen","curationStatus":"manual-initial-expanded","sourceRefs":["src-ikki-tousen-001"],"summary":"现代关东高校之间的斗士战争复现三国宿命。斗士以勾玉承载古代武将之魂，南阳、成都、许昌、洛阳等学校围绕霸王、龙、赤壁与命运改写展开持续冲突。","powerSystems":[{"id":"magatama","name":"勾玉","rules":["斗士佩戴勾玉并继承三国武将宿命与战斗资质。","勾玉影响等级、气、身体潜能和命运牵引。","同名武将宿命不等于人格完全覆盖，可被意志、龙与术式改写。"]},{"id":"toushi","name":"斗士武术","rules":["斗士以武术、气、兵法与校际势力战为主。","等级差可决定常规胜负，但特殊宿命/龙觉醒可逆转。"]},{"id":"dragon-destiny","name":"龙与霸王宿命","rules":["孙策、刘备、曹操等关键斗士与龙/霸王命运相连。","暴走会提升战力并造成失控、伤害同伴或被宿命吞噬。"]}],"factions":["南阳学院","成都学园","许昌学院","洛阳高校","关西势力","大和/卑弥呼线","斗士联盟/大斗士大会"],"locations":["关东各高校","南阳学院","成都学园","许昌学院","洛阳高校","京都/关西","大斗士大会会场"],"combatRules":["斗士战以武术、气与勾玉等级为核心；杀伤风险高但剧情可用昏迷/重伤替代死亡。","龙觉醒、魔王暴走、邪术复苏属于高阶阶段事件，不应常态化。","三国宿命可推动冲突，但允许角色以意志偏离原典命运。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "ikki-tousen",
+  "displayName": "一骑当千 / Ikki Tousen",
+  "curationStatus": "manual-initial-expanded",
+  "sourceRefs": [
+    "src-ikki-tousen-001"
+  ],
+  "summary": "现代关东高校之间的斗士战争复现三国宿命。斗士以勾玉承载古代武将之魂，南阳、成都、许昌、洛阳等学校围绕霸王、龙、赤壁与命运改写展开持续冲突。",
+  "powerSystems": [
+    {
+      "id": "magatama",
+      "name": "勾玉",
+      "rules": [
+        "斗士佩戴勾玉并继承三国武将宿命与战斗资质。",
+        "勾玉影响等级、气、身体潜能和命运牵引。",
+        "同名武将宿命不等于人格完全覆盖，可被意志、龙与术式改写。"
+      ]
+    },
+    {
+      "id": "toushi",
+      "name": "斗士武术",
+      "rules": [
+        "斗士以武术、气、兵法与校际势力战为主。",
+        "等级差可决定常规胜负，但特殊宿命/龙觉醒可逆转。"
+      ]
+    },
+    {
+      "id": "dragon-destiny",
+      "name": "龙与霸王宿命",
+      "rules": [
+        "孙策、刘备、曹操等关键斗士与龙/霸王命运相连。",
+        "暴走会提升战力并造成失控、伤害同伴或被宿命吞噬。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "nanyo-academy",
+      "name": "南阳学院"
+    },
+    {
+      "id": "seito-academy",
+      "name": "成都学园"
+    },
+    {
+      "id": "xuchang-academy",
+      "name": "许昌学院"
+    },
+    {
+      "id": "luoyang-high",
+      "name": "洛阳高校"
+    },
+    {
+      "id": "kansai-faction",
+      "name": "关西势力"
+    },
+    {
+      "id": "yamato-himiko-line",
+      "name": "大和/卑弥呼线"
+    },
+    {
+      "id": "toushi-alliance",
+      "name": "斗士联盟/大斗士大会"
+    },
+    {
+      "id": "secret-line",
+      "name": "隐秘线"
+    }
+  ],
+  "locations": [
+    {
+      "id": "kanto-high-schools",
+      "name": "关东各高校"
+    },
+    {
+      "id": "nanyo-academy",
+      "name": "南阳学院"
+    },
+    {
+      "id": "seito-academy",
+      "name": "成都学园"
+    },
+    {
+      "id": "xuchang-academy",
+      "name": "许昌学院"
+    },
+    {
+      "id": "luoyang-high",
+      "name": "洛阳高校"
+    },
+    {
+      "id": "kyoto-kansai",
+      "name": "京都/关西"
+    },
+    {
+      "id": "toushi-tournament-venue",
+      "name": "大斗士大会会场"
+    },
+    {
+      "id": "kanto-kansai",
+      "name": "关东/关西"
+    }
+  ],
+  "combatRules": [
+    "斗士战以武术、气与勾玉等级为核心；杀伤风险高但剧情可用昏迷/重伤替代死亡。",
+    "龙觉醒、魔王暴走、邪术复苏属于高阶阶段事件，不应常态化。",
+    "三国宿命可推动冲突，但允许角色以意志偏离原典命运。"
+  ],
+  "visibility": "public",
+  "worldName": "一骑当千 / Ikki Tousen",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

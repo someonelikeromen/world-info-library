@@ -1,1 +1,39 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library","worldSlug":"kekkaishi","displayName":"结界师 / Kekkaishi","sources":[{"sourceId":"src-kekkaishi-001","type":"user-file-source","title":"结界师","origin":"用户提供世界书/角色卡世界书导入","location":"campaigns/world-library/worlds/kekkaishi/raw/imported-worldbooks/jjs_card.worldbook.json","reliability":"B","visibility":"public","summary":"单一世界书来源，自动归档 100 条，覆盖乌森、结界术、人物、卷剧情、组织与 RP 规则。","quotedOrExtractedText":"全文见 raw/original-entry-index.json 与分类 JSON。","appliesTo":[{"targetType":"world","targetId":"kekkaishi","field":"all-curated"}],"conflictsWith":[],"notes":"里会、宙心丸、间时守等后期真相建议分阶段公开。"}],"conflictLog":[]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library",
+  "worldSlug": "kekkaishi",
+  "displayName": "结界师 / Kekkaishi",
+  "sources": [
+    {
+      "sourceId": "src-kekkaishi-001",
+      "type": "user-file-source",
+      "title": "结界师",
+      "origin": "用户提供世界书/角色卡世界书导入",
+      "location": "campaigns/world-library/worlds/kekkaishi/raw/imported-worldbooks/jjs_card.worldbook.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "单一世界书来源，自动归档 100 条，覆盖乌森、结界术、人物、卷剧情、组织与 RP 规则。",
+      "quotedOrExtractedText": "全文见 raw/original-entry-index.json 与分类 JSON。",
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "kekkaishi",
+          "field": "all-curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "里会、宙心丸、间时守等后期真相建议分阶段公开。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
+}

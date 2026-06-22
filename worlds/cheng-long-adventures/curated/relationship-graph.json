@@ -1,16 +1,385 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "cheng-long-adventures",
   "relationships": [
-    {"from": "成龙", "to": "小玉", "type": "叔侄/保护与被拖入冒险", "status": "主角团核心"},
-    {"from": "成龙", "to": "老爹", "type": "家人/导师", "status": "魔法知识来源"},
-    {"from": "成龙", "to": "布莱克警长", "type": "朋友/十三区合作", "status": "官方支援"},
-    {"from": "老爹", "to": "特鲁", "type": "师徒", "status": "特鲁转正后学习气魔法"},
-    {"from": "瓦龙", "to": "圣主", "type": "合作被利用", "status": "圣主常背叛承诺"},
-    {"from": "瓦龙", "to": "阿奋/拉苏/周/阿福", "type": "首领与部下", "status": "黑手帮行动队"},
-    {"from": "圣主", "to": "八大恶魔", "type": "同类/互相欺骗", "status": "圣主曾独自逃脱并背叛"},
-    {"from": "八仙", "to": "八大恶魔", "type": "封印者与被封印者", "status": "上古正邪平衡"},
-    {"from": "塔拉", "to": "鬼影兵团", "type": "统御", "status": "面具时代威胁"},
-    {"from": "小玉", "to": "鬼影兵团", "type": "短暂掌控/被侵蚀风险", "status": "源自塔拉图案事件"}
-  ]
+    {
+      "from": "jackie-chan",
+      "to": "jade-chan",
+      "type": "叔侄/保护与被拖入冒险",
+      "status": "主角团核心"
+    },
+    {
+      "from": "jackie-chan",
+      "to": "uncle",
+      "type": "家人/导师",
+      "status": "魔法知识来源"
+    },
+    {
+      "from": "jackie-chan",
+      "to": "captain-black",
+      "type": "朋友/十三区合作",
+      "status": "官方支援"
+    },
+    {
+      "from": "uncle",
+      "to": "tohru",
+      "type": "师徒",
+      "status": "特鲁转正后学习气魔法"
+    },
+    {
+      "from": "valmont",
+      "to": "shendu",
+      "type": "合作被利用",
+      "status": "圣主常背叛承诺"
+    },
+    {
+      "from": "valmont",
+      "to": "阿奋/拉苏/周/阿福",
+      "type": "首领与部下",
+      "status": "黑手帮行动队"
+    },
+    {
+      "from": "shendu",
+      "to": "eight-demons",
+      "type": "同类/互相欺骗",
+      "status": "圣主曾独自逃脱并背叛"
+    },
+    {
+      "from": "eight-immortals",
+      "to": "eight-demons",
+      "type": "封印者与被封印者",
+      "status": "上古正邪平衡"
+    },
+    {
+      "from": "tarakudo",
+      "to": "shadowkhan",
+      "type": "统御",
+      "status": "面具时代威胁"
+    },
+    {
+      "from": "jade-chan",
+      "to": "shadowkhan",
+      "type": "短暂掌控/被侵蚀风险",
+      "status": "源自塔拉图案事件"
+    }
+  ],
+  "campaignId": "cheng-long-adventures",
+  "nodes": [
+    {
+      "id": "jackie-chan",
+      "label": "成龙",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'jackie-chan'."
+      ],
+      "name": "成龙",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "成龙",
+          "mappedId": "jackie-chan",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "jade-chan",
+      "label": "小玉",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'jade-chan'."
+      ],
+      "name": "小玉",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "小玉",
+          "mappedId": "jade-chan",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "uncle",
+      "label": "老爹",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'uncle'."
+      ],
+      "name": "老爹",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "老爹",
+          "mappedId": "uncle",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "captain-black",
+      "label": "布莱克警长",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'captain-black'."
+      ],
+      "name": "布莱克警长",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "布莱克警长",
+          "mappedId": "captain-black",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "tohru",
+      "label": "特鲁",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'tohru'."
+      ],
+      "name": "特鲁",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "特鲁",
+          "mappedId": "tohru",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "valmont",
+      "label": "瓦龙",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'valmont'."
+      ],
+      "name": "瓦龙",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "瓦龙",
+          "mappedId": "valmont",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "shendu",
+      "label": "圣主",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'shendu'."
+      ],
+      "name": "圣主",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "圣主",
+          "mappedId": "shendu",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "阿奋/拉苏/周/阿福",
+      "label": "阿奋/拉苏/周/阿福",
+      "type": "group",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "阿奋/拉苏/周/阿福",
+          "mappedId": "阿奋/拉苏/周/阿福",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-cheng-long-adventures-001",
+              "kind": "characters-index",
+              "targetId": "阿奋/拉苏/周/阿福",
+              "targetLabel": "阿奋/拉苏/周/阿福",
+              "note": "Unique curated match from cheng-long-adventures curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/cheng-long-adventures/curated/characters-index.json",
+              "match": "group-composite=阿奋/拉苏/周/阿福"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from cheng-long-adventures curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-cheng-long-adventures-001",
+          "kind": "characters-index",
+          "targetId": "阿奋/拉苏/周/阿福",
+          "targetLabel": "阿奋/拉苏/周/阿福",
+          "note": "Unique curated match from cheng-long-adventures curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/cheng-long-adventures/curated/characters-index.json",
+          "match": "group-composite=阿奋/拉苏/周/阿福"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from cheng-long-adventures curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "eight-demons",
+      "label": "八大恶魔",
+      "type": "entity-set",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'eight-demons'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "八大恶魔",
+          "mappedId": "eight-demons",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "eight-immortals",
+      "label": "八仙",
+      "type": "counterforce",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'eight-immortals'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "八仙",
+          "mappedId": "eight-immortals",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "tarakudo",
+      "label": "塔拉",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'tarakudo'."
+      ],
+      "name": "塔拉",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "塔拉",
+          "mappedId": "tarakudo",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "shadowkhan",
+      "label": "鬼影兵团",
+      "type": "summoned-army",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'shadowkhan'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "鬼影兵团",
+          "mappedId": "shadowkhan",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "jackie-chan",
+      "to": "jade-chan",
+      "type": "叔侄/保护与被拖入冒险",
+      "status": "主角团核心"
+    },
+    {
+      "from": "jackie-chan",
+      "to": "uncle",
+      "type": "家人/导师",
+      "status": "魔法知识来源"
+    },
+    {
+      "from": "jackie-chan",
+      "to": "captain-black",
+      "type": "朋友/十三区合作",
+      "status": "官方支援"
+    },
+    {
+      "from": "uncle",
+      "to": "tohru",
+      "type": "师徒",
+      "status": "特鲁转正后学习气魔法"
+    },
+    {
+      "from": "valmont",
+      "to": "shendu",
+      "type": "合作被利用",
+      "status": "圣主常背叛承诺"
+    },
+    {
+      "from": "valmont",
+      "to": "阿奋/拉苏/周/阿福",
+      "type": "首领与部下",
+      "status": "黑手帮行动队"
+    },
+    {
+      "from": "shendu",
+      "to": "eight-demons",
+      "type": "同类/互相欺骗",
+      "status": "圣主曾独自逃脱并背叛"
+    },
+    {
+      "from": "eight-immortals",
+      "to": "eight-demons",
+      "type": "封印者与被封印者",
+      "status": "上古正邪平衡"
+    },
+    {
+      "from": "tarakudo",
+      "to": "shadowkhan",
+      "type": "统御",
+      "status": "面具时代威胁"
+    },
+    {
+      "from": "jade-chan",
+      "to": "shadowkhan",
+      "type": "短暂掌控/被侵蚀风险",
+      "status": "源自塔拉图案事件"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

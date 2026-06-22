@@ -1,18 +1,296 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "persona-5",
   "relationships": [
-    {"from": "Joker", "to": "心之怪盗团", "type": "领袖", "status": "负责潜入决策与羁绊凝聚"},
-    {"from": "Joker", "to": "佐仓惣治郎", "type": "监护/家人化", "status": "卢布朗日常核心"},
-    {"from": "佐仓惣治郎", "to": "佐仓双叶", "type": "养父女", "status": "双叶复健线"},
-    {"from": "新岛真", "to": "新岛冴", "type": "姐妹", "status": "法律与压力主题"},
-    {"from": "明智吾郎", "to": "Joker", "type": "宿敌/镜像/临时同伴", "status": "正义与复仇对照"},
-    {"from": "丸喜拓人", "to": "芳泽堇", "type": "心理干预/现实改写", "status": "P5R 身份线核心"},
-    {"from": "丸喜拓人", "to": "心之怪盗团", "type": "温柔对立", "status": "第三学期最终冲突"},
-    {"from": "狮童正义", "to": "Joker", "type": "冤案源头/政敌", "status": "主线复仇与社会改革"},
-    {"from": "奥村春", "to": "奥村邦和", "type": "父女/压迫", "status": "宇宙基地殿堂"},
-    {"from": "喜多川祐介", "to": "斑目", "type": "师徒/剥削", "status": "美术馆殿堂"},
-    {"from": "怪盗频道", "to": "大众舆论", "type": "反馈/操纵风险", "status": "三岛线与主线舆论"},
-    {"from": "天鹅绒房间", "to": "Joker", "type": "命运引导/试炼", "status": "人格面具成长"}
-  ]
+    {
+      "from": "joker",
+      "to": "phantom-thieves",
+      "type": "领袖",
+      "status": "负责潜入决策与羁绊凝聚"
+    },
+    {
+      "from": "joker",
+      "to": "sojiro",
+      "type": "监护/家人化",
+      "status": "卢布朗日常核心"
+    },
+    {
+      "from": "sojiro",
+      "to": "futaba",
+      "type": "养父女",
+      "status": "双叶复健线"
+    },
+    {
+      "from": "makoto",
+      "to": "sae",
+      "type": "姐妹",
+      "status": "法律与压力主题"
+    },
+    {
+      "from": "akechi",
+      "to": "joker",
+      "type": "宿敌/镜像/临时同伴",
+      "status": "正义与复仇对照"
+    },
+    {
+      "from": "maruki",
+      "to": "kasumi-sumire",
+      "type": "心理干预/现实改写",
+      "status": "P5R 身份线核心"
+    },
+    {
+      "from": "maruki",
+      "to": "phantom-thieves",
+      "type": "温柔对立",
+      "status": "第三学期最终冲突"
+    },
+    {
+      "from": "shido",
+      "to": "joker",
+      "type": "冤案源头/政敌",
+      "status": "主线复仇与社会改革"
+    },
+    {
+      "from": "haru",
+      "to": "okumura",
+      "type": "父女/压迫",
+      "status": "宇宙基地殿堂"
+    },
+    {
+      "from": "yusuke",
+      "to": "madarame",
+      "type": "师徒/剥削",
+      "status": "美术馆殿堂"
+    },
+    {
+      "from": "phantom-aficionado-website",
+      "to": "public-opinion",
+      "type": "反馈/操纵风险",
+      "status": "三岛线与主线舆论"
+    },
+    {
+      "from": "velvet-room",
+      "to": "joker",
+      "type": "命运引导/试炼",
+      "status": "人格面具成长"
+    }
+  ],
+  "campaignId": "persona-5",
+  "nodes": [
+    {
+      "id": "joker",
+      "label": "Joker",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "phantom-thieves",
+      "label": "心之怪盗团",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to faction node."
+      ]
+    },
+    {
+      "id": "sojiro",
+      "label": "佐仓惣治郎",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "futaba",
+      "label": "佐仓双叶",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "makoto",
+      "label": "新岛真",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "sae",
+      "label": "新岛冴",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "akechi",
+      "label": "明智吾郎",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "maruki",
+      "label": "丸喜拓人",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "kasumi-sumire",
+      "label": "芳泽霞/芳泽堇",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to indexed character node."
+      ]
+    },
+    {
+      "id": "shido",
+      "label": "狮童正义",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "haru",
+      "label": "奥村春",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "okumura",
+      "label": "奥村邦和",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "yusuke",
+      "label": "喜多川祐介",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "madarame",
+      "label": "斑目",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "phantom-aficionado-website",
+      "label": "怪盗频道",
+      "type": "object",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to object node."
+      ]
+    },
+    {
+      "id": "public-opinion",
+      "label": "大众舆论",
+      "type": "object",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to object node."
+      ]
+    },
+    {
+      "id": "velvet-room",
+      "label": "天鹅绒房间",
+      "type": "object",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to object node."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "joker",
+      "to": "phantom-thieves",
+      "type": "领袖",
+      "status": "负责潜入决策与羁绊凝聚"
+    },
+    {
+      "from": "joker",
+      "to": "sojiro",
+      "type": "监护/家人化",
+      "status": "卢布朗日常核心"
+    },
+    {
+      "from": "sojiro",
+      "to": "futaba",
+      "type": "养父女",
+      "status": "双叶复健线"
+    },
+    {
+      "from": "makoto",
+      "to": "sae",
+      "type": "姐妹",
+      "status": "法律与压力主题"
+    },
+    {
+      "from": "akechi",
+      "to": "joker",
+      "type": "宿敌/镜像/临时同伴",
+      "status": "正义与复仇对照"
+    },
+    {
+      "from": "maruki",
+      "to": "kasumi-sumire",
+      "type": "心理干预/现实改写",
+      "status": "P5R 身份线核心"
+    },
+    {
+      "from": "maruki",
+      "to": "phantom-thieves",
+      "type": "温柔对立",
+      "status": "第三学期最终冲突"
+    },
+    {
+      "from": "shido",
+      "to": "joker",
+      "type": "冤案源头/政敌",
+      "status": "主线复仇与社会改革"
+    },
+    {
+      "from": "haru",
+      "to": "okumura",
+      "type": "父女/压迫",
+      "status": "宇宙基地殿堂"
+    },
+    {
+      "from": "yusuke",
+      "to": "madarame",
+      "type": "师徒/剥削",
+      "status": "美术馆殿堂"
+    },
+    {
+      "from": "phantom-aficionado-website",
+      "to": "public-opinion",
+      "type": "反馈/操纵风险",
+      "status": "三岛线与主线舆论"
+    },
+    {
+      "from": "velvet-room",
+      "to": "joker",
+      "type": "命运引导/试炼",
+      "status": "人格面具成长"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

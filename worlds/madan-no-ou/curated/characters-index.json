@@ -5,146 +5,703 @@
     {
       "id": "tigrevurmud-vorn",
       "name": "堤格尔维尔穆德·冯伦",
-      "aliases": ["堤格尔", "Tigre", "亚尔萨斯伯爵", "魔弹之王"],
+      "aliases": [
+        "堤格尔",
+        "Tigre",
+        "亚尔萨斯伯爵",
+        "魔弹之王"
+      ],
       "visibility": "public",
       "summary": "布琉努北部亚尔萨斯领主，少数以弓术为骄傲的贵族。迪南特战役后被艾莲俘虏，凭黑弓和远距离狙击才能卷入并改变多国战争。",
-      "roles": ["protagonist", "archer", "lord", "black-bow-holder"],
-      "factions": ["布琉努王国", "亚尔萨斯", "银色流星军"],
-      "locations": ["亚尔萨斯", "榭雷斯塔"],
-      "powerSystems": ["黑弓", "弓术", "龙具共鸣"],
-      "abilities": ["超远距离精准射击", "猎人之眼", "战场观察", "黑弓与龙具共鸣"],
-      "items": ["黑弓"],
-      "relationships": ["艾蕾欧诺拉：俘虏者、盟友、核心羁绊", "琉德米拉：初期敌对后互相认可", "蒂塔：主仆/家人般亲近", "马斯哈：长辈与盟友", "蕾琪：王室同盟", "嘉奴隆/泰纳帝迪耶：敌对"],
+      "roles": [
+        "protagonist",
+        "archer",
+        "lord",
+        "black-bow-holder"
+      ],
+      "factions": [
+        "brune",
+        "alsace-domain",
+        "silver-meteor-army"
+      ],
+      "locations": [
+        "alsace",
+        "sheresuta"
+      ],
+      "powerSystems": [
+        "black-bow",
+        "archery-martial-arts",
+        "dragon-gear-resonance"
+      ],
+      "abilities": [
+        "超远距离精准射击",
+        "猎人之眼",
+        "战场观察",
+        "黑弓与龙具共鸣"
+      ],
+      "items": [
+        "黑弓"
+      ],
+      "relationships": [
+        {
+          "target": "elenora-viltaria",
+          "targetType": "character",
+          "relation": "艾蕾欧诺拉：俘虏者、盟友、核心羁绊",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ludmila-lourie",
+          "targetType": "character",
+          "relation": "琉德米拉：初期敌对后互相认可",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "titta",
+          "targetType": "character",
+          "relation": "蒂塔：主仆/家人般亲近",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "mashas-rodat",
+          "targetType": "character",
+          "relation": "马斯哈：长辈与盟友",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "regin",
+          "targetType": "character",
+          "relation": "蕾琪：王室同盟",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "thenardier",
+              "targetType": "character",
+              "matchedLabel": "泰纳帝迪耶"
+            },
+            {
+              "target": "ganalon",
+              "targetType": "character",
+              "matchedLabel": "嘉奴隆"
+            }
+          ],
+          "relation": "嘉奴隆/泰纳帝迪耶：敌对",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-15", "src-madan-no-ou-001#entry-44.."],
-      "notes": "取代模式下可能不存在；共存模式为 NPC。冻涟 IF 中家庭与相遇顺序有差异。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-15",
+        "src-madan-no-ou-001#entry-44.."
+      ],
+      "notes": "取代模式下可能不存在；共存模式为 NPC。冻涟 IF 中家庭与相遇顺序有差异。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚尔萨斯",
+            "榭雷斯塔"
+          ],
+          "factions": [
+            "布琉努王国",
+            "亚尔萨斯",
+            "银色流星军"
+          ],
+          "powerSystems": [
+            "黑弓",
+            "弓术",
+            "龙具共鸣"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "elenora-viltaria",
       "name": "艾蕾欧诺拉·维尔塔利亚",
-      "aliases": ["艾莲", "银闪的风姬", "Elen", "Eleonora Viltaria"],
+      "aliases": [
+        "艾莲",
+        "银闪的风姬",
+        "Elen",
+        "Eleonora Viltaria"
+      ],
       "visibility": "public",
       "summary": "吉斯塔特莱德梅里兹战姬，持风之龙具银闪艾利菲尔。俘虏堤格尔后成为其最早且最重要的战姬盟友。",
-      "roles": ["vanadis", "duchess", "war-leader"],
-      "factions": ["吉斯塔特王国", "莱德梅里兹公国"],
-      "locations": ["莱德梅里兹", "孚日山脉边境"],
-      "powerSystems": ["龙具"],
-      "abilities": ["风之操控", "龙技", "剑术", "统率莱德梅里兹军"],
-      "items": ["银闪艾利菲尔"],
-      "relationships": ["堤格尔：俘虏对象转为盟友/恋慕核心", "米拉：公国传统对立下的竞争者", "莉姆亚莉夏：副官", "凡伦蒂娜：政治与军事阻碍"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "war-leader"
+      ],
+      "factions": [
+        "zhcted",
+        "leitmeritz"
+      ],
+      "locations": [
+        "leitmeritz-seat",
+        "vosges"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "风之操控",
+        "龙技",
+        "剑术",
+        "统率莱德梅里兹军"
+      ],
+      "items": [
+        "银闪艾利菲尔"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：俘虏对象转为盟友/恋慕核心",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ludmila-lourie",
+          "targetType": "character",
+          "relation": "米拉：公国传统对立下的竞争者",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "limlisha",
+          "targetType": "character",
+          "relation": "莉姆亚莉夏：副官",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "valentina-glinka-estes",
+          "targetType": "character",
+          "relation": "凡伦蒂娜：政治与军事阻碍",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-17", "src-madan-no-ou-001#entry-14"],
-      "notes": "本篇第一位核心战姬；冻涟 IF 中重心下降但仍为七战姬之一。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-17",
+        "src-madan-no-ou-001#entry-14"
+      ],
+      "notes": "本篇第一位核心战姬；冻涟 IF 中重心下降但仍为七战姬之一。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "莱德梅里兹",
+            "孚日山脉边境"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "莱德梅里兹公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "ludmila-lourie",
       "name": "琉德米拉·露利叶",
-      "aliases": ["米拉", "冻涟的雪姬", "Mira", "Ludmila Lourie"],
+      "aliases": [
+        "米拉",
+        "冻涟的雪姬",
+        "Mira",
+        "Ludmila Lourie"
+      ],
       "visibility": "public",
       "summary": "奥尔米兹战姬，持冰之龙具冻涟拉斐亚斯。露利叶家三代战姬传承罕见，性格高傲冷澈但重视认可者。",
-      "roles": ["vanadis", "duchess", "if-heroine"],
-      "factions": ["吉斯塔特王国", "奥尔米兹公国", "露利叶家"],
-      "locations": ["奥尔米兹", "塔特洛山"],
-      "powerSystems": ["龙具"],
-      "abilities": ["冰之操控", "短枪术", "防御战术", "龙技"],
-      "items": ["冻涟拉斐亚斯"],
-      "relationships": ["堤格尔：敌视到认可的重要存在", "艾莲：传统对立竞争者", "拉娜：母亲/前代冻涟持有者", "奥尔嘉：年幼同伴"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "if-heroine"
+      ],
+      "factions": [
+        "zhcted",
+        "olmutz",
+        "lourie-family"
+      ],
+      "locations": [
+        "olmutz-seat",
+        "tatras"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "冰之操控",
+        "短枪术",
+        "防御战术",
+        "龙技"
+      ],
+      "items": [
+        "冻涟拉斐亚斯"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：敌视到认可的重要存在",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "elenora-viltaria",
+          "targetType": "character",
+          "relation": "艾莲：传统对立竞争者",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "lana-lourie",
+          "targetType": "character",
+          "relation": "拉娜：母亲/前代冻涟持有者",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "olga-tamm",
+          "targetType": "character",
+          "relation": "奥尔嘉：年幼同伴",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-18", "src-madan-no-ou-001#entry-14"],
-      "notes": "《冻涟的雪姬》IF 的第一女主角；拉娜是否存活需按分支处理。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-18",
+        "src-madan-no-ou-001#entry-14"
+      ],
+      "notes": "《冻涟的雪姬》IF 的第一女主角；拉娜是否存活需按分支处理。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "奥尔米兹",
+            "塔特洛山"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "奥尔米兹公国",
+            "露利叶家"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "sophia-obertas",
       "name": "苏菲亚·欧贝达斯",
-      "aliases": ["苏菲", "光华的耀姬", "Sophia Obertas"],
+      "aliases": [
+        "苏菲",
+        "光华的耀姬",
+        "Sophia Obertas"
+      ],
       "visibility": "public",
       "summary": "波利西亚战姬，持光之龙具光华萨德。温和稳重，常承担外交、协调和支援角色。",
-      "roles": ["vanadis", "duchess", "diplomat"],
-      "factions": ["吉斯塔特王国", "波利西亚公国"],
-      "locations": ["波利西亚"],
-      "powerSystems": ["龙具"],
-      "abilities": ["光之操控", "龙技", "外交协调", "情报/支援"],
-      "items": ["光华萨德"],
-      "relationships": ["堤格尔：友好协力", "其他战姬：协调者"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "diplomat"
+      ],
+      "factions": [
+        "zhcted",
+        "polesia"
+      ],
+      "locations": [
+        "polesia-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "光之操控",
+        "龙技",
+        "外交协调",
+        "情报/支援"
+      ],
+      "items": [
+        "光华萨德"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：友好协力",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "其他战姬：协调者",
+          "relation": "其他战姬：协调者",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-19", "src-madan-no-ou-001#entry-0"],
-      "notes": "资料中定位明确但个人剧情摘要少于艾莲/米拉/凡伦蒂娜。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-19",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "资料中定位明确但个人剧情摘要少于艾莲/米拉/凡伦蒂娜。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "波利西亚"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "波利西亚公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "alexandra-alshavin",
       "name": "亚莉莎德拉·阿尔夏芬",
-      "aliases": ["莎夏", "煌炎的胧姬", "Alexandra Alshavin"],
+      "aliases": [
+        "莎夏",
+        "煌炎的胧姬",
+        "Alexandra Alshavin"
+      ],
       "visibility": "public",
       "summary": "莱格尼察战姬，持炎之双剑煌炎巴尔格雷。身体状态和后继问题与莱格尼察及菲尼莉雅相关。",
-      "roles": ["vanadis", "duchess", "swordswoman"],
-      "factions": ["吉斯塔特王国", "莱格尼察公国", "阿尔夏芬家"],
-      "locations": ["莱格尼察"],
-      "powerSystems": ["龙具"],
-      "abilities": ["炎之操控", "双剑术", "龙技"],
-      "items": ["煌炎巴尔格雷"],
-      "relationships": ["菲尼莉雅：同族/后继相关", "艾莲等战姬：同僚"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "swordswoman"
+      ],
+      "factions": [
+        "zhcted",
+        "legnica",
+        "alshavin-family"
+      ],
+      "locations": [
+        "legnica-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "炎之操控",
+        "双剑术",
+        "龙技"
+      ],
+      "items": [
+        "煌炎巴尔格雷"
+      ],
+      "relationships": [
+        {
+          "target": "finilia-alshavin",
+          "targetType": "character",
+          "relation": "菲尼莉雅：同族/后继相关",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "elenora-viltaria",
+          "targetType": "character",
+          "relation": "艾莲等战姬：同僚",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-20", "src-madan-no-ou-001#entry-0"],
-      "notes": "本 curated 未展开全部卷别命运，需后续逐卷核对。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-20",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "本 curated 未展开全部卷别命运，需后续逐卷核对。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "莱格尼察"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "莱格尼察公国",
+            "阿尔夏芬家"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "elizaveta-fomina",
       "name": "伊莉莎维塔·法米那",
-      "aliases": ["莉莎", "雷涡的闪姬", "Elizaveta Fomina", "法丽丝（冻涟相关别名）"],
+      "aliases": [
+        "莉莎",
+        "雷涡的闪姬",
+        "Elizaveta Fomina",
+        "法丽丝（冻涟相关别名）"
+      ],
       "visibility": "public",
       "summary": "路伯修战姬，持雷之龙具雷涡沃利兹夫。异彩虹瞳在本国受到尊崇，性格带刺且与堤格尔失忆篇相关。",
-      "roles": ["vanadis", "duchess"],
-      "factions": ["吉斯塔特王国", "路伯修公国"],
-      "locations": ["路伯修"],
-      "powerSystems": ["龙具"],
-      "abilities": ["雷击操控", "鞭术", "龙技"],
-      "items": ["雷涡沃利兹夫"],
-      "relationships": ["堤格尔：失忆漂流篇相关", "七战姬：同僚/竞争"],
+      "roles": [
+        "vanadis",
+        "duchess"
+      ],
+      "factions": [
+        "zhcted",
+        "lebus"
+      ],
+      "locations": [
+        "lebus-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "雷击操控",
+        "鞭术",
+        "龙技"
+      ],
+      "items": [
+        "雷涡沃利兹夫"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：失忆漂流篇相关",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "七战姬：同僚/竞争",
+          "relation": "七战姬：同僚/竞争",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-21", "src-madan-no-ou-001#entry-0"],
-      "notes": "冻涟条目另有法丽丝相关称呼，需按 IF 分支标注。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-21",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "冻涟条目另有法丽丝相关称呼，需按 IF 分支标注。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "路伯修"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "路伯修公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "valentina-glinka-estes",
       "name": "凡伦蒂娜·葛林卡·埃斯堤斯",
-      "aliases": ["凡伦蒂娜", "虚影的幻姬", "Valentina Glinka Estes"],
+      "aliases": [
+        "凡伦蒂娜",
+        "虚影的幻姬",
+        "Valentina Glinka Estes"
+      ],
       "visibility": "gm-only",
       "summary": "奥斯特罗德战姬，持空间龙具虚影艾萨帝斯。表面体弱优雅，实则有成为吉斯塔特女王的长期野心并策划内乱。",
-      "roles": ["vanadis", "duchess", "schemer", "antagonist"],
-      "factions": ["吉斯塔特王国", "奥斯特罗德公国"],
-      "locations": ["奥斯特罗德", "席雷吉亚"],
-      "powerSystems": ["龙具"],
-      "abilities": ["瞬间移动", "空间裂隙", "内政治理", "长期谋略"],
-      "items": ["虚影艾萨帝斯"],
-      "relationships": ["堤格尔：不可预测变量", "艾莲：主要阻碍", "卢斯兰：利用对象", "米莉札/米莉兹：后继相关"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "schemer",
+        "antagonist"
+      ],
+      "factions": [
+        "zhcted",
+        "osterode"
+      ],
+      "locations": [
+        "osterode-seat",
+        "silesia"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "瞬间移动",
+        "空间裂隙",
+        "内政治理",
+        "长期谋略"
+      ],
+      "items": [
+        "虚影艾萨帝斯"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：不可预测变量",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "elenora-viltaria",
+          "targetType": "character",
+          "relation": "艾莲：主要阻碍",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ruslan",
+          "targetType": "character",
+          "relation": "卢斯兰：利用对象",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "miliz",
+          "targetType": "character",
+          "relation": "米莉札/米莉兹：后继相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-22"],
-      "notes": "后期死亡与龙具舍弃她属于重大剧透，默认 GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-22"
+      ],
+      "notes": "后期死亡与龙具舍弃她属于重大剧透，默认 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "奥斯特罗德",
+            "席雷吉亚"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "奥斯特罗德公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "olga-tamm",
       "name": "奥尔嘉·塔姆",
-      "aliases": ["奥尔嘉", "罗轰战姬", "Olga Tamm"],
+      "aliases": [
+        "奥尔嘉",
+        "罗轰战姬",
+        "Olga Tamm"
+      ],
       "visibility": "public",
       "summary": "布列斯特战姬，持土之斧龙具罗轰姆玛。年幼直率，代表骑马之民和布列斯特公国。",
-      "roles": ["vanadis", "duchess", "young-warrior"],
-      "factions": ["吉斯塔特王国", "布列斯特公国"],
-      "locations": ["布列斯特"],
-      "powerSystems": ["龙具"],
-      "abilities": ["土之操控", "斧术", "骑马作战", "龙技"],
-      "items": ["罗轰姆玛"],
-      "relationships": ["米拉：保护/照顾关系", "七战姬：同僚"],
+      "roles": [
+        "vanadis",
+        "duchess",
+        "young-warrior"
+      ],
+      "factions": [
+        "zhcted",
+        "brest"
+      ],
+      "locations": [
+        "brest-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "土之操控",
+        "斧术",
+        "骑马作战",
+        "龙技"
+      ],
+      "items": [
+        "罗轰姆玛"
+      ],
+      "relationships": [
+        {
+          "target": "ludmila-lourie",
+          "targetType": "character",
+          "relation": "米拉：保护/照顾关系",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "七战姬：同僚",
+          "relation": "七战姬：同僚",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-23", "src-madan-no-ou-001#entry-0"],
-      "notes": "主线与冻涟 IF 均需保留其年幼战姬定位。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-23",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "主线与冻涟 IF 均需保留其年幼战姬定位。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "布列斯特"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "布列斯特公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "titta",
@@ -152,71 +709,258 @@
       "aliases": [],
       "visibility": "public",
       "summary": "亚尔萨斯侍女，长期服侍堤格尔，是其领地日常和情感根基的重要人物。",
-      "roles": ["maid", "support"],
-      "factions": ["亚尔萨斯"],
-      "locations": ["亚尔萨斯", "榭雷斯塔"],
+      "roles": [
+        "maid",
+        "support"
+      ],
+      "factions": [
+        "alsace-domain"
+      ],
+      "locations": [
+        "alsace",
+        "sheresuta"
+      ],
       "powerSystems": [],
-      "abilities": ["侍奉", "照料领地日常"],
+      "abilities": [
+        "侍奉",
+        "照料领地日常"
+      ],
       "items": [],
-      "relationships": ["堤格尔：少爷/亲近照顾", "亚尔萨斯民众：同乡"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：少爷/亲近照顾",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "亚尔萨斯民众：同乡",
+          "relation": "亚尔萨斯民众：同乡",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-24"],
-      "notes": "非战斗核心，但对亚尔萨斯生活感重要。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-24"
+      ],
+      "notes": "非战斗核心，但对亚尔萨斯生活感重要。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚尔萨斯",
+            "榭雷斯塔"
+          ],
+          "factions": [
+            "亚尔萨斯"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "limlisha",
       "name": "莉姆亚莉夏",
-      "aliases": ["莉姆"],
+      "aliases": [
+        "莉姆"
+      ],
       "visibility": "public",
       "summary": "艾莲副官，莱德梅里兹军政运转的重要辅助者。",
-      "roles": ["aide", "soldier", "administrator"],
-      "factions": ["莱德梅里兹公国"],
-      "locations": ["莱德梅里兹"],
+      "roles": [
+        "aide",
+        "soldier",
+        "administrator"
+      ],
+      "factions": [
+        "leitmeritz"
+      ],
+      "locations": [
+        "leitmeritz-seat"
+      ],
       "powerSystems": [],
-      "abilities": ["军务辅佐", "纪律管理", "战场协助"],
+      "abilities": [
+        "军务辅佐",
+        "纪律管理",
+        "战场协助"
+      ],
       "items": [],
-      "relationships": ["艾莲：主君与副官", "堤格尔：协作/监督"],
+      "relationships": [
+        {
+          "target": "elenora-viltaria",
+          "targetType": "character",
+          "relation": "艾莲：主君与副官",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：协作/监督",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-25"],
-      "notes": "常用于表现吉斯塔特军政秩序。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-25"
+      ],
+      "notes": "常用于表现吉斯塔特军政秩序。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "莱德梅里兹"
+          ],
+          "factions": [
+            "莱德梅里兹公国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "regin",
       "name": "蕾琪",
-      "aliases": ["雷格纳斯王子", "布琉努女王"],
+      "aliases": [
+        "雷格纳斯王子",
+        "布琉努女王"
+      ],
       "visibility": "gm-only",
       "summary": "被认为战死的布琉努王子雷格纳斯之真身，实为女性。内乱平定后继位，成为布琉努首位女王。",
-      "roles": ["princess", "queen", "royal-heir"],
-      "factions": ["布琉努王室"],
-      "locations": ["尼斯"],
+      "roles": [
+        "princess",
+        "queen",
+        "royal-heir"
+      ],
+      "factions": [
+        "brune-royal-house"
+      ],
+      "locations": [
+        "nice"
+      ],
       "powerSystems": [],
-      "abilities": ["王位继承正统性", "政治象征"],
+      "abilities": [
+        "王位继承正统性",
+        "政治象征"
+      ],
       "items": [],
-      "relationships": ["法隆：父王", "堤格尔：拥立与盟友", "两大公爵：政治威胁"],
+      "relationships": [
+        {
+          "target": "faron",
+          "targetType": "character",
+          "relation": "法隆：父王",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：拥立与盟友",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "两大公爵：政治威胁",
+          "relation": "两大公爵：政治威胁",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-26", "src-madan-no-ou-001#entry-31"],
-      "notes": "性别和存活是第一部重大剧透，GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-26",
+        "src-madan-no-ou-001#entry-31"
+      ],
+      "notes": "性别和存活是第一部重大剧透，GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "尼斯"
+          ],
+          "factions": [
+            "布琉努王室"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "mashas-rodat",
       "name": "马斯哈·罗达特",
-      "aliases": ["马斯哈"],
+      "aliases": [
+        "马斯哈"
+      ],
       "visibility": "public",
       "summary": "布琉努北部奥德领主，堤格尔的长辈和政治军事支持者。",
-      "roles": ["lord", "mentor", "ally"],
-      "factions": ["布琉努王国", "奥德"],
-      "locations": ["奥德"],
+      "roles": [
+        "lord",
+        "mentor",
+        "ally"
+      ],
+      "factions": [
+        "brune",
+        "ode-nobility"
+      ],
+      "locations": [
+        "ode"
+      ],
       "powerSystems": [],
-      "abilities": ["贵族政治", "军事支援", "长者判断"],
+      "abilities": [
+        "贵族政治",
+        "军事支援",
+        "长者判断"
+      ],
       "items": [],
-      "relationships": ["堤格尔：长辈盟友", "布琉努贵族：同僚"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：长辈盟友",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "布琉努贵族：同僚",
+          "relation": "布琉努贵族：同僚",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-27", "src-madan-no-ou-001#entry-0"],
-      "notes": "用于支撑布琉努北部贵族网。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-27",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "用于支撑布琉努北部贵族网。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "奥德"
+          ],
+          "factions": [
+            "布琉努王国",
+            "奥德"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "badouin",
@@ -224,8 +968,12 @@
       "aliases": [],
       "visibility": "public",
       "summary": "布琉努相关人物，归档列为独立角色；具体定位需后续逐条补读确认。",
-      "roles": ["supporting-character"],
-      "factions": ["布琉努王国"],
+      "roles": [
+        "supporting-character"
+      ],
+      "factions": [
+        "brune"
+      ],
       "locations": [],
       "powerSystems": [],
       "abilities": [],
@@ -233,152 +981,540 @@
       "relationships": [],
       "importance": "low",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-28"],
-      "notes": "仅从人物条目标题和分类确认存在，详细设定低置信。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-28"
+      ],
+      "notes": "仅从人物条目标题和分类确认存在，详细设定低置信。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "布琉努王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "urus-vorn",
       "name": "乌鲁斯·冯伦",
-      "aliases": ["乌鲁斯"],
+      "aliases": [
+        "乌鲁斯"
+      ],
       "visibility": "public",
       "summary": "冯伦家人物，堤格尔父亲。其存亡状态在本篇与冻涟 IF 间可能不同。",
-      "roles": ["family", "lord"],
-      "factions": ["冯伦家", "亚尔萨斯"],
-      "locations": ["亚尔萨斯"],
+      "roles": [
+        "family",
+        "lord"
+      ],
+      "factions": [
+        "vorn-family",
+        "alsace-domain"
+      ],
+      "locations": [
+        "alsace"
+      ],
       "powerSystems": [],
-      "abilities": ["领主经验"],
+      "abilities": [
+        "领主经验"
+      ],
       "items": [],
-      "relationships": ["堤格尔：父亲"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：父亲",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-29", "src-madan-no-ou-001#entry-44.."],
-      "notes": "冻涟原作模式注明父健在，需分支处理。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-29",
+        "src-madan-no-ou-001#entry-44.."
+      ],
+      "notes": "冻涟原作模式注明父健在，需分支处理。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚尔萨斯"
+          ],
+          "factions": [
+            "冯伦家",
+            "亚尔萨斯"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "ganalon",
       "name": "马克西米利安·贝努萨·嘉奴隆",
-      "aliases": ["嘉奴隆公爵"],
+      "aliases": [
+        "嘉奴隆公爵"
+      ],
       "visibility": "gm-only",
       "summary": "布琉努两大公爵之一，卢堤迪亚/亚尔堤西姆相关领主。后期与墨吉涅、魔物和圣窟宫决战相关，是长期反派核心。",
-      "roles": ["duke", "antagonist", "schemer"],
-      "factions": ["布琉努王国", "卢堤迪亚"],
-      "locations": ["亚尔堤西姆", "圣窟宫"],
-      "powerSystems": ["魔物相关（后期）"],
-      "abilities": ["贵族政治", "阴谋", "与外敌勾结"],
+      "roles": [
+        "duke",
+        "antagonist",
+        "schemer"
+      ],
+      "factions": [
+        "brune",
+        "lutetia"
+      ],
+      "locations": [
+        "artishem"
+      ],
+      "powerSystems": [
+        "demon-related-late"
+      ],
+      "abilities": [
+        "贵族政治",
+        "阴谋",
+        "与外敌勾结"
+      ],
       "items": [],
-      "relationships": ["堤格尔：敌人", "泰纳帝迪耶：并列大公/竞争", "墨吉涅：后期勾结", "魔物：后期吞噬/关联"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：敌人",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "thenardier",
+          "targetType": "character",
+          "relation": "泰纳帝迪耶：并列大公/竞争",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "墨吉涅：后期勾结",
+          "relation": "墨吉涅：后期勾结",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        },
+        {
+          "label": "魔物：后期吞噬/关联",
+          "relation": "魔物：后期吞噬/关联",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-32", "src-madan-no-ou-001#entry-0"],
-      "notes": "后期真相和结局为 GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-32",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "后期真相和结局为 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚尔堤西姆",
+            "圣窟宫"
+          ],
+          "factions": [
+            "布琉努王国",
+            "卢堤迪亚"
+          ],
+          "powerSystems": [
+            "魔物相关（后期）"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "thenardier",
       "name": "锡安·泰纳帝迪耶",
-      "aliases": ["泰纳帝迪耶公爵"],
+      "aliases": [
+        "泰纳帝迪耶公爵"
+      ],
       "visibility": "public",
       "summary": "布琉努两大公爵之一，涅梅塔库和兰斯相关权力者，第一部内乱主要发动者之一。",
-      "roles": ["duke", "antagonist", "warlord"],
-      "factions": ["布琉努王国", "涅梅塔库"],
-      "locations": ["兰斯", "涅梅塔库"],
+      "roles": [
+        "duke",
+        "antagonist",
+        "warlord"
+      ],
+      "factions": [
+        "brune",
+        "nemetacum-duchy"
+      ],
+      "locations": [
+        "reims",
+        "nemetacum"
+      ],
       "powerSystems": [],
-      "abilities": ["贵族军权", "政治压迫"],
+      "abilities": [
+        "贵族军权",
+        "政治压迫"
+      ],
       "items": [],
-      "relationships": ["堤格尔：敌人", "嘉奴隆：同为大公势力", "法隆王：趁其失政扩权"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：敌人",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ganalon",
+          "targetType": "character",
+          "relation": "嘉奴隆：同为大公势力",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "faron",
+          "targetType": "character",
+          "relation": "法隆王：趁其失政扩权",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-34", "src-madan-no-ou-001#entry-0"],
-      "notes": "名字音译以原归档为准。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-34",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "名字音译以原归档为准。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "兰斯",
+            "涅梅塔库"
+          ],
+          "factions": [
+            "布琉努王国",
+            "涅梅塔库"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "roland",
       "name": "罗兰",
-      "aliases": ["黑骑士", "杜兰达尔持有者"],
+      "aliases": [
+        "黑骑士",
+        "杜兰达尔持有者"
+      ],
       "visibility": "public",
       "summary": "布琉努最强骑士级人物，持有宝剑杜兰达尔。其死亡后杜兰达尔一度留于堤格尔手中后归还王室。",
-      "roles": ["knight", "elite-warrior"],
-      "factions": ["布琉努王国"],
+      "roles": [
+        "knight",
+        "elite-warrior"
+      ],
+      "factions": [
+        "brune"
+      ],
       "locations": [],
-      "powerSystems": ["杜兰达尔"],
-      "abilities": ["剑术", "斩断咒术/打破龙技"],
-      "items": ["杜兰达尔"],
-      "relationships": ["堤格尔：战后遗物相关", "布琉努王室：忠诚"],
+      "powerSystems": [],
+      "abilities": [
+        "剑术",
+        "斩断咒术/打破龙技"
+      ],
+      "items": [
+        "杜兰达尔"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：战后遗物相关",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "布琉努王室：忠诚",
+          "relation": "布琉努王室：忠诚",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-33", "src-madan-no-ou-001#entry-0"],
-      "notes": "其死亡是主线重要战损。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-33",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "其死亡是主线重要战损。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "布琉努王国"
+          ],
+          "powerSystems": [
+            "杜兰达尔"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems unresolved (no safe canonical id): 杜兰达尔"
+      ]
     },
     {
       "id": "kreshu-shahin-balamir",
       "name": "克雷伊修·沙希姆·巴拉米尔",
-      "aliases": ["克雷伊修", "墨吉涅国王"],
+      "aliases": [
+        "克雷伊修",
+        "墨吉涅国王"
+      ],
       "visibility": "public",
       "summary": "墨吉涅王国国王，好战沙漠国家的统治者。与布琉努战事和后期外患相关。",
-      "roles": ["king", "foreign-ruler", "antagonistic-force"],
-      "factions": ["墨吉涅王国"],
-      "locations": ["墨吉涅"],
+      "roles": [
+        "king",
+        "foreign-ruler",
+        "antagonistic-force"
+      ],
+      "factions": [
+        "muozinel"
+      ],
+      "locations": [
+        "muozinel-region"
+      ],
       "powerSystems": [],
-      "abilities": ["国王权威", "军事侵攻", "外交谋略"],
+      "abilities": [
+        "国王权威",
+        "军事侵攻",
+        "外交谋略"
+      ],
       "items": [],
-      "relationships": ["堤格尔/布琉努：军事对手", "嘉奴隆：后期勾结相关"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔/布琉努：军事对手",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ganalon",
+          "targetType": "character",
+          "relation": "嘉奴隆：后期勾结相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-35", "src-madan-no-ou-001#entry-0"],
-      "notes": "墨吉涅为沙漠奴隶制国家，RP 时避免现代化改写。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-35",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "墨吉涅为沙漠奴隶制国家，RP 时避免现代化改写。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "墨吉涅"
+          ],
+          "factions": [
+            "墨吉涅王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "guinevere",
       "name": "桂妮薇亚",
-      "aliases": ["Guinevere"],
+      "aliases": [
+        "Guinevere"
+      ],
       "visibility": "public",
       "summary": "亚斯瓦尔王国相关女性角色，卷入王位内乱与塔拉多线。",
-      "roles": ["asvarre-character"],
-      "factions": ["亚斯瓦尔王国"],
-      "locations": ["亚斯瓦尔"],
+      "roles": [
+        "asvarre-character"
+      ],
+      "factions": [
+        "asvarre"
+      ],
+      "locations": [
+        "asvarre-region"
+      ],
       "powerSystems": [],
       "abilities": [],
       "items": [],
-      "relationships": ["塔拉多：亚斯瓦尔王位线相关"],
+      "relationships": [
+        {
+          "target": "tallard-graham",
+          "targetType": "character",
+          "relation": "塔拉多：亚斯瓦尔王位线相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-36"],
-      "notes": "需后续读取卷别条目补强具体身份。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-36"
+      ],
+      "notes": "需后续读取卷别条目补强具体身份。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚斯瓦尔"
+          ],
+          "factions": [
+            "亚斯瓦尔王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "finilia-alshavin",
       "name": "菲尼莉雅·阿尔夏芬",
-      "aliases": ["菲尼莉雅"],
+      "aliases": [
+        "菲尼莉雅"
+      ],
       "visibility": "gm-only",
       "summary": "阿尔夏芬家相关人物，新任战姬/后继相关，被凡伦蒂娜布局利用。",
-      "roles": ["vanadis-candidate-or-successor", "political-piece"],
-      "factions": ["吉斯塔特王国", "阿尔夏芬家"],
-      "locations": ["莱格尼察"],
-      "powerSystems": ["龙具相关"],
+      "roles": [
+        "vanadis-candidate-or-successor",
+        "political-piece"
+      ],
+      "factions": [
+        "zhcted",
+        "alshavin-family"
+      ],
+      "locations": [
+        "legnica-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear-related"
+      ],
       "abilities": [],
       "items": [],
-      "relationships": ["亚莉莎德拉：同族/后继", "凡伦蒂娜：利用对象"],
+      "relationships": [
+        {
+          "target": "elizaveta-fomina",
+          "targetType": "character",
+          "relation": "亚莉莎德拉：同族/后继",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "valentina-glinka-estes",
+          "targetType": "character",
+          "relation": "凡伦蒂娜：利用对象",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-37", "src-madan-no-ou-001#entry-22"],
-      "notes": "涉及后期吉斯塔特内乱，默认 GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-37",
+        "src-madan-no-ou-001#entry-22"
+      ],
+      "notes": "涉及后期吉斯塔特内乱，默认 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "莱格尼察"
+          ],
+          "factions": [
+            "吉斯塔特王国",
+            "阿尔夏芬家"
+          ],
+          "powerSystems": [
+            "龙具相关"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "viktor",
       "name": "维克特国王",
-      "aliases": ["维克特"],
+      "aliases": [
+        "维克特"
+      ],
       "visibility": "public",
       "summary": "吉斯塔特现任国王，处于国王与七战姬长期猜忌结构的顶点。",
-      "roles": ["king"],
-      "factions": ["吉斯塔特王室"],
-      "locations": ["席雷吉亚"],
+      "roles": [
+        "king"
+      ],
+      "factions": [
+        "zhcted-royal-house"
+      ],
+      "locations": [
+        "silesia"
+      ],
       "powerSystems": [],
-      "abilities": ["王权", "宫廷政治"],
+      "abilities": [
+        "王权",
+        "宫廷政治"
+      ],
       "items": [],
-      "relationships": ["七战姬：权力制衡/猜忌", "卢斯兰：王子", "凡伦蒂娜：表面臣属实为觊觎王位者"],
+      "relationships": [
+        {
+          "label": "七战姬：权力制衡/猜忌",
+          "relation": "七战姬：权力制衡/猜忌",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        },
+        {
+          "target": "ruslan",
+          "targetType": "character",
+          "relation": "卢斯兰：王子",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "valentina-glinka-estes",
+          "targetType": "character",
+          "relation": "凡伦蒂娜：表面臣属实为觊觎王位者",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-38", "src-madan-no-ou-001#entry-0"],
-      "notes": "王权与战姬制衡是吉斯塔特政治核心。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-38",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "王权与战姬制衡是吉斯塔特政治核心。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "席雷吉亚"
+          ],
+          "factions": [
+            "吉斯塔特王室"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "eugene",
@@ -386,8 +1522,10 @@
       "aliases": [],
       "visibility": "public",
       "summary": "王族/继承线相关角色；归档列为独立条目。",
-      "roles": ["prince"],
-      "factions": ["王室"],
+      "roles": [
+        "prince"
+      ],
+      "factions": [],
       "locations": [],
       "powerSystems": [],
       "abilities": [],
@@ -395,26 +1533,80 @@
       "relationships": [],
       "importance": "low",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-39"],
-      "notes": "仅确认条目存在，所属王室与剧情节点需后续核对。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-39"
+      ],
+      "notes": "仅确认条目存在，所属王室与剧情节点需后续核对。",
+      "normalizationNotes": [
+        "factions unresolved (no safe canonical id): 王室"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "王室"
+          ]
+        }
+      }
     },
     {
       "id": "tallard-graham",
       "name": "塔拉多·格拉墨",
-      "aliases": ["塔拉多"],
+      "aliases": [
+        "塔拉多"
+      ],
       "visibility": "public",
       "summary": "亚斯瓦尔王国王位继承战争的胜者，在堤格尔协助下继位。",
-      "roles": ["prince-or-claimant", "king"],
-      "factions": ["亚斯瓦尔王国"],
-      "locations": ["亚斯瓦尔"],
+      "roles": [
+        "prince-or-claimant",
+        "king"
+      ],
+      "factions": [
+        "asvarre"
+      ],
+      "locations": [
+        "asvarre-region"
+      ],
       "powerSystems": [],
-      "abilities": ["王位竞争", "军事/政治判断"],
+      "abilities": [
+        "王位竞争",
+        "军事/政治判断"
+      ],
       "items": [],
-      "relationships": ["堤格尔：协助者/盟友", "杰梅因：王位竞争相关"],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：协助者/盟友",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "germain",
+          "targetType": "character",
+          "relation": "杰梅因：王位竞争相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-40", "src-madan-no-ou-001#entry-0"],
-      "notes": "亚斯瓦尔篇核心人物。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-40",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "亚斯瓦尔篇核心人物。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚斯瓦尔"
+          ],
+          "factions": [
+            "亚斯瓦尔王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "drekavac",
@@ -422,53 +1614,194 @@
       "aliases": [],
       "visibility": "gm-only",
       "summary": "魔物相关命名角色。魔物群体拥有超常身体、自愈和颠覆世界的目的，并重视黑弓持有者。",
-      "roles": ["monster", "antagonist"],
-      "factions": ["魔物"],
+      "roles": [
+        "monster",
+        "antagonist"
+      ],
+      "factions": [
+        "demons"
+      ],
       "locations": [],
-      "powerSystems": ["魔物能力"],
-      "abilities": ["异形身体", "超常自愈", "黑血", "被击杀后土块化"],
+      "powerSystems": [
+        "demon-abilities"
+      ],
+      "abilities": [
+        "异形身体",
+        "超常自愈",
+        "黑血",
+        "被击杀后土块化"
+      ],
       "items": [],
-      "relationships": ["黑弓持有者：捕获/利用价值", "战姬：宿敌"],
+      "relationships": [
+        {
+          "label": "黑弓持有者：捕获/利用价值",
+          "relation": "黑弓持有者：捕获/利用价值",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        },
+        {
+          "label": "战姬：宿敌",
+          "relation": "战姬：宿敌",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-41", "src-madan-no-ou-001#entry-0"],
-      "notes": "具体个体能力需后续从魔物条目补全。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-41",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "具体个体能力需后续从魔物条目补全。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "魔物"
+          ],
+          "powerSystems": [
+            "魔物能力"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "faron",
       "name": "法隆国王",
-      "aliases": ["法隆"],
+      "aliases": [
+        "法隆"
+      ],
       "visibility": "public",
       "summary": "布琉努国王。因王子被认为战死而放弃政务，导致两大公爵趁机发动内乱。",
-      "roles": ["king", "weakened-ruler"],
-      "factions": ["布琉努王室"],
-      "locations": ["尼斯"],
+      "roles": [
+        "king",
+        "weakened-ruler"
+      ],
+      "factions": [
+        "brune-royal-house"
+      ],
+      "locations": [
+        "nice"
+      ],
       "powerSystems": [],
-      "abilities": ["王权正统"],
+      "abilities": [
+        "王权正统"
+      ],
       "items": [],
-      "relationships": ["蕾琪/雷格纳斯：子嗣", "泰纳帝迪耶/嘉奴隆：趁其失政扩权"],
+      "relationships": [
+        {
+          "target": "regin",
+          "targetType": "character",
+          "relation": "蕾琪/雷格纳斯：子嗣",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "thenardier",
+              "targetType": "character",
+              "matchedLabel": "泰纳帝迪耶"
+            },
+            {
+              "target": "ganalon",
+              "targetType": "character",
+              "matchedLabel": "嘉奴隆"
+            }
+          ],
+          "relation": "泰纳帝迪耶/嘉奴隆：趁其失政扩权",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-42", "src-madan-no-ou-001#entry-0"],
-      "notes": "其失政是第一部政治危机根源。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-42",
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "其失政是第一部政治危机根源。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "尼斯"
+          ],
+          "factions": [
+            "布琉努王室"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "ruslan",
       "name": "卢斯兰王子",
-      "aliases": ["卢斯兰"],
+      "aliases": [
+        "卢斯兰"
+      ],
       "visibility": "gm-only",
       "summary": "吉斯塔特王子，后期被凡伦蒂娜布局利用，牵动吉斯塔特王位继承与内乱。",
-      "roles": ["prince", "political-piece"],
-      "factions": ["吉斯塔特王室"],
-      "locations": ["席雷吉亚"],
+      "roles": [
+        "prince",
+        "political-piece"
+      ],
+      "factions": [
+        "zhcted-royal-house"
+      ],
+      "locations": [
+        "silesia"
+      ],
       "powerSystems": [],
-      "abilities": ["王位继承影响力"],
+      "abilities": [
+        "王位继承影响力"
+      ],
       "items": [],
-      "relationships": ["维克特：王室关系", "凡伦蒂娜：利用对象"],
+      "relationships": [
+        {
+          "target": "viktor",
+          "targetType": "character",
+          "relation": "维克特：王室关系",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "valentina-glinka-estes",
+          "targetType": "character",
+          "relation": "凡伦蒂娜：利用对象",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "high",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-43", "src-madan-no-ou-001#entry-22"],
-      "notes": "后期剧透，GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-43",
+        "src-madan-no-ou-001#entry-22"
+      ],
+      "notes": "后期剧透，GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "席雷吉亚"
+          ],
+          "factions": [
+            "吉斯塔特王室"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "greast",
@@ -476,7 +1809,9 @@
       "aliases": [],
       "visibility": "public",
       "summary": "归档列名人物，具体身份与势力需二次核对。",
-      "roles": ["supporting-character"],
+      "roles": [
+        "supporting-character"
+      ],
       "factions": [],
       "locations": [],
       "powerSystems": [],
@@ -485,62 +1820,164 @@
       "relationships": [],
       "importance": "low",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-44"],
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-44"
+      ],
       "notes": "低置信保留，避免误归类。"
     },
     {
       "id": "zacharias",
       "name": "撒迦利亚国王",
-      "aliases": ["撒迦利亚"],
+      "aliases": [
+        "撒迦利亚"
+      ],
       "visibility": "public",
       "summary": "国王级人物，归档列为独立角色；所属国家需后续核对。",
-      "roles": ["king"],
+      "roles": [
+        "king"
+      ],
       "factions": [],
       "locations": [],
       "powerSystems": [],
-      "abilities": ["王权"],
+      "abilities": [
+        "王权"
+      ],
       "items": [],
       "relationships": [],
       "importance": "low",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-45"],
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-45"
+      ],
       "notes": "低置信保留。"
     },
     {
       "id": "lana-lourie",
       "name": "拉娜·露利叶",
-      "aliases": ["拉娜", "前代冻涟持有者"],
+      "aliases": [
+        "拉娜",
+        "前代冻涟持有者"
+      ],
       "visibility": "private",
       "summary": "米拉母亲，前代冻涟拉斐亚斯持有者。本篇与冻涟 IF 中存活状态不同。",
-      "roles": ["former-vanadis", "mother"],
-      "factions": ["露利叶家", "奥尔米兹公国"],
-      "locations": ["奥尔米兹"],
-      "powerSystems": ["龙具"],
-      "abilities": ["冰之龙具经验", "战姬传承"],
-      "items": ["冻涟拉斐亚斯（前代）"],
-      "relationships": ["琉德米拉：母亲", "露利叶祖母：三代战姬传承"],
+      "roles": [
+        "former-vanadis",
+        "mother"
+      ],
+      "factions": [
+        "lourie-family",
+        "olmutz"
+      ],
+      "locations": [
+        "olmutz-seat"
+      ],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "冰之龙具经验",
+        "战姬传承"
+      ],
+      "items": [
+        "冻涟拉斐亚斯（前代）"
+      ],
+      "relationships": [
+        {
+          "target": "ludmila-lourie",
+          "targetType": "character",
+          "relation": "琉德米拉：母亲",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "露利叶祖母：三代战姬传承",
+          "relation": "露利叶祖母：三代战姬传承",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-48", "src-madan-no-ou-001#entry-18"],
-      "notes": "本篇已故、冻涟 IF 存活的冲突需按分支标记。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-48",
+        "src-madan-no-ou-001#entry-18"
+      ],
+      "notes": "本篇已故、冻涟 IF 存活的冲突需按分支标记。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "奥尔米兹"
+          ],
+          "factions": [
+            "露利叶家",
+            "奥尔米兹公国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "miliz",
       "name": "米莉兹",
-      "aliases": ["米莉札"],
+      "aliases": [
+        "米莉札"
+      ],
       "visibility": "gm-only",
       "summary": "虚影艾萨帝斯后继/相关人物，和凡伦蒂娜死亡后龙具去向相关。",
-      "roles": ["successor", "vanadis-related"],
-      "factions": ["吉斯塔特王国"],
+      "roles": [
+        "successor",
+        "vanadis-related"
+      ],
+      "factions": [
+        "zhcted"
+      ],
       "locations": [],
-      "powerSystems": ["龙具"],
-      "abilities": ["虚影艾萨帝斯相关潜力"],
-      "items": ["虚影艾萨帝斯（后继相关）"],
-      "relationships": ["凡伦蒂娜：前任/关联"],
+      "powerSystems": [
+        "dragon-gear"
+      ],
+      "abilities": [
+        "虚影艾萨帝斯相关潜力"
+      ],
+      "items": [
+        "虚影艾萨帝斯（后继相关）"
+      ],
+      "relationships": [
+        {
+          "target": "valentina-glinka-estes",
+          "targetType": "character",
+          "relation": "凡伦蒂娜：前任/关联",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-49", "src-madan-no-ou-001#entry-22"],
-      "notes": "译名米莉兹/米莉札需统一核对。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-49",
+        "src-madan-no-ou-001#entry-22"
+      ],
+      "notes": "译名米莉兹/米莉札需统一核对。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "吉斯塔特王国"
+          ],
+          "powerSystems": [
+            "龙具"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     },
     {
       "id": "liudie",
@@ -548,17 +1985,61 @@
       "aliases": [],
       "visibility": "private",
       "summary": "冻涟 IF/露利叶线相关人物，归档列为独立角色。",
-      "roles": ["if-supporting-character"],
-      "factions": ["奥尔米兹公国", "露利叶家"],
-      "locations": ["奥尔米兹"],
+      "roles": [
+        "if-supporting-character"
+      ],
+      "factions": [
+        "olmutz",
+        "lourie-family"
+      ],
+      "locations": [
+        "olmutz-seat"
+      ],
       "powerSystems": [],
       "abilities": [],
       "items": [],
-      "relationships": ["米拉/拉娜：冻涟线相关"],
+      "relationships": [
+        {
+          "targets": [
+            {
+              "target": "ludmila-lourie",
+              "targetType": "character",
+              "matchedLabel": "米拉"
+            },
+            {
+              "target": "lana-lourie",
+              "targetType": "character",
+              "matchedLabel": "拉娜"
+            }
+          ],
+          "relation": "米拉/拉娜：冻涟线相关",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
       "importance": "low",
       "evidenceLevel": "C",
-      "sourceRefs": ["src-madan-no-ou-001#entry-50"],
-      "notes": "具体身份需后续补读冻涟 IF 条目。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-50"
+      ],
+      "notes": "具体身份需后续补读冻涟 IF 条目。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "奥尔米兹"
+          ],
+          "factions": [
+            "奥尔米兹公国",
+            "露利叶家"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "germain",
@@ -566,77 +2047,711 @@
       "aliases": [],
       "visibility": "public",
       "summary": "亚斯瓦尔王子，国王驾崩后屠杀弟妹，引发王位内乱。",
-      "roles": ["prince", "antagonist"],
-      "factions": ["亚斯瓦尔王国"],
-      "locations": ["亚斯瓦尔"],
+      "roles": [
+        "prince",
+        "antagonist"
+      ],
+      "factions": [
+        "asvarre"
+      ],
+      "locations": [
+        "asvarre-region"
+      ],
       "powerSystems": [],
-      "abilities": ["王位争夺", "暴力肃清"],
+      "abilities": [
+        "王位争夺",
+        "暴力肃清"
+      ],
       "items": [],
-      "relationships": ["塔拉多：王位竞争对手", "堤格尔：亚斯瓦尔篇敌对/对立"],
+      "relationships": [
+        {
+          "target": "tallard-graham",
+          "targetType": "character",
+          "relation": "塔拉多：王位竞争对手",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：亚斯瓦尔篇敌对/对立",
+          "resolutionStatus": "resolved"
+        }
+      ],
       "importance": "medium",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0"],
-      "notes": "世界总纲明示但未在 grep 到的人物标题内单列。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "世界总纲明示但未在 grep 到的人物标题内单列。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "亚斯瓦尔"
+          ],
+          "factions": [
+            "亚斯瓦尔王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "augustus",
       "name": "奥古斯都",
-      "aliases": ["萨克斯坦国王"],
+      "aliases": [
+        "萨克斯坦国王"
+      ],
       "visibility": "public",
       "summary": "萨克斯坦王国国王。萨克斯坦以山森、多土豪、佣兵和投石机闻名。",
-      "roles": ["king", "foreign-ruler"],
-      "factions": ["萨克斯坦王国"],
-      "locations": ["萨克斯坦"],
+      "roles": [
+        "king",
+        "foreign-ruler"
+      ],
+      "factions": [
+        "sachstein"
+      ],
+      "locations": [
+        "sachstein-region"
+      ],
       "powerSystems": [],
-      "abilities": ["王权", "佣兵国家调度"],
+      "abilities": [
+        "王权",
+        "佣兵国家调度"
+      ],
       "items": [],
       "relationships": [],
       "importance": "low",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0"],
-      "notes": "世界总纲列名，缺少独立人物细节。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ],
+      "notes": "世界总纲列名，缺少独立人物细节。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "萨克斯坦"
+          ],
+          "factions": [
+            "萨克斯坦王国"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
     },
     {
       "id": "tir-na-fa",
       "name": "蒂尔·纳·法",
-      "aliases": ["女神蒂尔·纳·法"],
+      "aliases": [
+        "女神蒂尔·纳·法"
+      ],
       "visibility": "gm-only",
       "summary": "与黑弓真正来历相关的女神。黑弓持有者可能成为其降临容器，是圣窟宫与魔物谜团的核心。",
-      "roles": ["goddess", "hidden-mythic-force"],
-      "factions": ["远古/神性"],
-      "locations": ["圣窟宫相关"],
-      "powerSystems": ["黑弓"],
-      "abilities": ["赐予黑弓", "降临容器机制"],
-      "items": ["黑弓"],
-      "relationships": ["堤格尔：黑弓持有者/潜在容器", "魔物：知晓其谜团"],
+      "roles": [
+        "goddess",
+        "hidden-mythic-force"
+      ],
+      "factions": [
+        "ancient-divine"
+      ],
+      "locations": [
+        "artishem"
+      ],
+      "powerSystems": [
+        "black-bow"
+      ],
+      "abilities": [
+        "赐予黑弓",
+        "降临容器机制"
+      ],
+      "items": [
+        "黑弓"
+      ],
+      "relationships": [
+        {
+          "target": "tigrevurmud-vorn",
+          "targetType": "character",
+          "relation": "堤格尔：黑弓持有者/潜在容器",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "魔物：知晓其谜团",
+          "relation": "魔物：知晓其谜团",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
       "importance": "critical",
       "evidenceLevel": "B",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5"],
-      "notes": "隐藏神话设定，默认 GM-only。"
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-5"
+      ],
+      "notes": "隐藏神话设定，默认 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "圣窟宫相关"
+          ],
+          "factions": [
+            "远古/神性"
+          ],
+          "powerSystems": [
+            "黑弓"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
     }
   ],
   "indices": {
     "byFaction": {
-      "布琉努王国": ["tigrevurmud-vorn", "regin", "mashas-rodat", "faron", "ganalon", "thenardier", "roland"],
-      "吉斯塔特王国": ["elenora-viltaria", "ludmila-lourie", "sophia-obertas", "alexandra-alshavin", "elizaveta-fomina", "valentina-glinka-estes", "olga-tamm", "viktor", "ruslan"],
-      "亚斯瓦尔王国": ["tallard-graham", "germain", "guinevere"],
-      "墨吉涅王国": ["kreshu-shahin-balamir"],
-      "萨克斯坦王国": ["augustus"],
-      "魔物": ["drekavac"],
-      "神性/远古": ["tir-na-fa"]
+      "brune": [
+        "tigrevurmud-vorn",
+        "mashas-rodat",
+        "badouin",
+        "ganalon",
+        "thenardier",
+        "roland"
+      ],
+      "alsace-domain": [
+        "tigrevurmud-vorn",
+        "titta",
+        "urus-vorn"
+      ],
+      "silver-meteor-army": [
+        "tigrevurmud-vorn"
+      ],
+      "zhcted": [
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "valentina-glinka-estes",
+        "olga-tamm",
+        "finilia-alshavin",
+        "miliz"
+      ],
+      "leitmeritz": [
+        "elenora-viltaria",
+        "limlisha"
+      ],
+      "olmutz": [
+        "ludmila-lourie",
+        "lana-lourie",
+        "liudie"
+      ],
+      "lourie-family": [
+        "ludmila-lourie",
+        "lana-lourie",
+        "liudie"
+      ],
+      "polesia": [
+        "sophia-obertas"
+      ],
+      "legnica": [
+        "alexandra-alshavin"
+      ],
+      "alshavin-family": [
+        "alexandra-alshavin",
+        "finilia-alshavin"
+      ],
+      "lebus": [
+        "elizaveta-fomina"
+      ],
+      "osterode": [
+        "valentina-glinka-estes"
+      ],
+      "brest": [
+        "olga-tamm"
+      ],
+      "brune-royal-house": [
+        "regin",
+        "faron"
+      ],
+      "ode-nobility": [
+        "mashas-rodat"
+      ],
+      "vorn-family": [
+        "urus-vorn"
+      ],
+      "lutetia": [
+        "ganalon"
+      ],
+      "nemetacum-duchy": [
+        "thenardier"
+      ],
+      "muozinel": [
+        "kreshu-shahin-balamir"
+      ],
+      "asvarre": [
+        "guinevere",
+        "tallard-graham",
+        "germain"
+      ],
+      "zhcted-royal-house": [
+        "viktor",
+        "ruslan"
+      ],
+      "demons": [
+        "drekavac"
+      ],
+      "sachstein": [
+        "augustus"
+      ],
+      "ancient-divine": [
+        "tir-na-fa"
+      ]
     },
     "byPowerSystem": {
-      "龙具": ["elenora-viltaria", "ludmila-lourie", "sophia-obertas", "alexandra-alshavin", "elizaveta-fomina", "valentina-glinka-estes", "olga-tamm", "lana-lourie", "miliz"],
-      "黑弓": ["tigrevurmud-vorn", "tir-na-fa"],
-      "杜兰达尔": ["roland"],
-      "魔物能力": ["drekavac"]
+      "black-bow": [
+        "tigrevurmud-vorn",
+        "tir-na-fa"
+      ],
+      "archery-martial-arts": [
+        "tigrevurmud-vorn"
+      ],
+      "dragon-gear-resonance": [
+        "tigrevurmud-vorn"
+      ],
+      "dragon-gear": [
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "valentina-glinka-estes",
+        "olga-tamm",
+        "lana-lourie",
+        "miliz"
+      ],
+      "demon-related-late": [
+        "ganalon"
+      ],
+      "dragon-gear-related": [
+        "finilia-alshavin"
+      ],
+      "demon-abilities": [
+        "drekavac"
+      ]
     },
     "byVisibility": {
-      "public": ["tigrevurmud-vorn", "elenora-viltaria", "ludmila-lourie", "sophia-obertas", "alexandra-alshavin", "elizaveta-fomina", "olga-tamm", "titta", "limlisha", "mashas-rodat", "urus-vorn", "thenardier", "roland", "kreshu-shahin-balamir", "tallard-graham", "faron", "germain", "augustus"],
-      "private": ["lana-lourie", "liudie"],
-      "gm-only": ["valentina-glinka-estes", "regin", "ganalon", "finilia-alshavin", "drekavac", "ruslan", "miliz", "tir-na-fa"],
-      "low-confidence-public": ["badouin", "guinevere", "eugene", "greast", "zacharias"]
+      "public": [
+        "tigrevurmud-vorn",
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "olga-tamm",
+        "titta",
+        "limlisha",
+        "mashas-rodat",
+        "badouin",
+        "urus-vorn",
+        "thenardier",
+        "roland",
+        "kreshu-shahin-balamir",
+        "guinevere",
+        "viktor",
+        "eugene",
+        "tallard-graham",
+        "faron",
+        "greast",
+        "zacharias",
+        "germain",
+        "augustus"
+      ],
+      "gm-only": [
+        "valentina-glinka-estes",
+        "regin",
+        "ganalon",
+        "finilia-alshavin",
+        "drekavac",
+        "ruslan",
+        "miliz",
+        "tir-na-fa"
+      ],
+      "private": [
+        "lana-lourie",
+        "liudie"
+      ]
     },
-    "majorCharacters": ["tigrevurmud-vorn", "elenora-viltaria", "ludmila-lourie", "regin", "valentina-glinka-estes", "ganalon", "viktor", "tir-na-fa"]
+    "majorCharacters": [
+      "tigrevurmud-vorn",
+      "elenora-viltaria",
+      "ludmila-lourie",
+      "sophia-obertas",
+      "alexandra-alshavin",
+      "elizaveta-fomina",
+      "valentina-glinka-estes",
+      "olga-tamm",
+      "regin",
+      "ganalon",
+      "thenardier",
+      "roland",
+      "kreshu-shahin-balamir",
+      "viktor",
+      "tallard-graham",
+      "drekavac",
+      "ruslan",
+      "tir-na-fa"
+    ],
+    "byId": {
+      "tigrevurmud-vorn": "堤格尔维尔穆德·冯伦",
+      "elenora-viltaria": "艾蕾欧诺拉·维尔塔利亚",
+      "ludmila-lourie": "琉德米拉·露利叶",
+      "sophia-obertas": "苏菲亚·欧贝达斯",
+      "alexandra-alshavin": "亚莉莎德拉·阿尔夏芬",
+      "elizaveta-fomina": "伊莉莎维塔·法米那",
+      "valentina-glinka-estes": "凡伦蒂娜·葛林卡·埃斯堤斯",
+      "olga-tamm": "奥尔嘉·塔姆",
+      "titta": "蒂塔",
+      "limlisha": "莉姆亚莉夏",
+      "regin": "蕾琪",
+      "mashas-rodat": "马斯哈·罗达特",
+      "badouin": "巴多兰",
+      "urus-vorn": "乌鲁斯·冯伦",
+      "ganalon": "马克西米利安·贝努萨·嘉奴隆",
+      "thenardier": "锡安·泰纳帝迪耶",
+      "roland": "罗兰",
+      "kreshu-shahin-balamir": "克雷伊修·沙希姆·巴拉米尔",
+      "guinevere": "桂妮薇亚",
+      "finilia-alshavin": "菲尼莉雅·阿尔夏芬",
+      "viktor": "维克特国王",
+      "eugene": "尤金王子",
+      "tallard-graham": "塔拉多·格拉墨",
+      "drekavac": "德雷卡瓦克",
+      "faron": "法隆国王",
+      "ruslan": "卢斯兰王子",
+      "greast": "葛雷亚斯特",
+      "zacharias": "撒迦利亚国王",
+      "lana-lourie": "拉娜·露利叶",
+      "miliz": "米莉兹",
+      "liudie": "琉蒂",
+      "germain": "杰梅因",
+      "augustus": "奥古斯都",
+      "tir-na-fa": "蒂尔·纳·法"
+    },
+    "byName": {
+      "堤格尔维尔穆德·冯伦": "tigrevurmud-vorn",
+      "艾蕾欧诺拉·维尔塔利亚": "elenora-viltaria",
+      "琉德米拉·露利叶": "ludmila-lourie",
+      "苏菲亚·欧贝达斯": "sophia-obertas",
+      "亚莉莎德拉·阿尔夏芬": "alexandra-alshavin",
+      "伊莉莎维塔·法米那": "elizaveta-fomina",
+      "凡伦蒂娜·葛林卡·埃斯堤斯": "valentina-glinka-estes",
+      "奥尔嘉·塔姆": "olga-tamm",
+      "蒂塔": "titta",
+      "莉姆亚莉夏": "limlisha",
+      "蕾琪": "regin",
+      "马斯哈·罗达特": "mashas-rodat",
+      "巴多兰": "badouin",
+      "乌鲁斯·冯伦": "urus-vorn",
+      "马克西米利安·贝努萨·嘉奴隆": "ganalon",
+      "锡安·泰纳帝迪耶": "thenardier",
+      "罗兰": "roland",
+      "克雷伊修·沙希姆·巴拉米尔": "kreshu-shahin-balamir",
+      "桂妮薇亚": "guinevere",
+      "菲尼莉雅·阿尔夏芬": "finilia-alshavin",
+      "维克特国王": "viktor",
+      "尤金王子": "eugene",
+      "塔拉多·格拉墨": "tallard-graham",
+      "德雷卡瓦克": "drekavac",
+      "法隆国王": "faron",
+      "卢斯兰王子": "ruslan",
+      "葛雷亚斯特": "greast",
+      "撒迦利亚国王": "zacharias",
+      "拉娜·露利叶": "lana-lourie",
+      "米莉兹": "miliz",
+      "琉蒂": "liudie",
+      "杰梅因": "germain",
+      "奥古斯都": "augustus",
+      "蒂尔·纳·法": "tir-na-fa"
+    },
+    "byAffiliation": {
+      "brune": [
+        "tigrevurmud-vorn",
+        "mashas-rodat",
+        "badouin",
+        "ganalon",
+        "thenardier",
+        "roland"
+      ],
+      "alsace-domain": [
+        "tigrevurmud-vorn",
+        "titta",
+        "urus-vorn"
+      ],
+      "silver-meteor-army": [
+        "tigrevurmud-vorn"
+      ],
+      "zhcted": [
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "valentina-glinka-estes",
+        "olga-tamm",
+        "finilia-alshavin",
+        "miliz"
+      ],
+      "leitmeritz": [
+        "elenora-viltaria",
+        "limlisha"
+      ],
+      "olmutz": [
+        "ludmila-lourie",
+        "lana-lourie",
+        "liudie"
+      ],
+      "lourie-family": [
+        "ludmila-lourie",
+        "lana-lourie",
+        "liudie"
+      ],
+      "polesia": [
+        "sophia-obertas"
+      ],
+      "legnica": [
+        "alexandra-alshavin"
+      ],
+      "alshavin-family": [
+        "alexandra-alshavin",
+        "finilia-alshavin"
+      ],
+      "lebus": [
+        "elizaveta-fomina"
+      ],
+      "osterode": [
+        "valentina-glinka-estes"
+      ],
+      "brest": [
+        "olga-tamm"
+      ],
+      "brune-royal-house": [
+        "regin",
+        "faron"
+      ],
+      "ode-nobility": [
+        "mashas-rodat"
+      ],
+      "vorn-family": [
+        "urus-vorn"
+      ],
+      "lutetia": [
+        "ganalon"
+      ],
+      "nemetacum-duchy": [
+        "thenardier"
+      ],
+      "muozinel": [
+        "kreshu-shahin-balamir"
+      ],
+      "asvarre": [
+        "guinevere",
+        "tallard-graham",
+        "germain"
+      ],
+      "zhcted-royal-house": [
+        "viktor",
+        "ruslan"
+      ],
+      "王室": [
+        "eugene"
+      ],
+      "demons": [
+        "drekavac"
+      ],
+      "sachstein": [
+        "augustus"
+      ],
+      "ancient-divine": [
+        "tir-na-fa"
+      ]
+    },
+    "byTag": {
+      "protagonist": [
+        "tigrevurmud-vorn"
+      ],
+      "archer": [
+        "tigrevurmud-vorn"
+      ],
+      "lord": [
+        "tigrevurmud-vorn",
+        "mashas-rodat",
+        "urus-vorn"
+      ],
+      "black-bow-holder": [
+        "tigrevurmud-vorn"
+      ],
+      "vanadis": [
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "valentina-glinka-estes",
+        "olga-tamm"
+      ],
+      "duchess": [
+        "elenora-viltaria",
+        "ludmila-lourie",
+        "sophia-obertas",
+        "alexandra-alshavin",
+        "elizaveta-fomina",
+        "valentina-glinka-estes",
+        "olga-tamm"
+      ],
+      "war-leader": [
+        "elenora-viltaria"
+      ],
+      "if-heroine": [
+        "ludmila-lourie"
+      ],
+      "diplomat": [
+        "sophia-obertas"
+      ],
+      "swordswoman": [
+        "alexandra-alshavin"
+      ],
+      "schemer": [
+        "valentina-glinka-estes",
+        "ganalon"
+      ],
+      "antagonist": [
+        "valentina-glinka-estes",
+        "ganalon",
+        "thenardier",
+        "drekavac",
+        "germain"
+      ],
+      "young-warrior": [
+        "olga-tamm"
+      ],
+      "maid": [
+        "titta"
+      ],
+      "support": [
+        "titta"
+      ],
+      "aide": [
+        "limlisha"
+      ],
+      "soldier": [
+        "limlisha"
+      ],
+      "administrator": [
+        "limlisha"
+      ],
+      "princess": [
+        "regin"
+      ],
+      "queen": [
+        "regin"
+      ],
+      "royal-heir": [
+        "regin"
+      ],
+      "mentor": [
+        "mashas-rodat"
+      ],
+      "ally": [
+        "mashas-rodat"
+      ],
+      "supporting-character": [
+        "badouin",
+        "greast"
+      ],
+      "family": [
+        "urus-vorn"
+      ],
+      "duke": [
+        "ganalon",
+        "thenardier"
+      ],
+      "warlord": [
+        "thenardier"
+      ],
+      "knight": [
+        "roland"
+      ],
+      "elite-warrior": [
+        "roland"
+      ],
+      "king": [
+        "kreshu-shahin-balamir",
+        "viktor",
+        "tallard-graham",
+        "faron",
+        "zacharias",
+        "augustus"
+      ],
+      "foreign-ruler": [
+        "kreshu-shahin-balamir",
+        "augustus"
+      ],
+      "antagonistic-force": [
+        "kreshu-shahin-balamir"
+      ],
+      "asvarre-character": [
+        "guinevere"
+      ],
+      "vanadis-candidate-or-successor": [
+        "finilia-alshavin"
+      ],
+      "political-piece": [
+        "finilia-alshavin",
+        "ruslan"
+      ],
+      "prince": [
+        "eugene",
+        "ruslan",
+        "germain"
+      ],
+      "prince-or-claimant": [
+        "tallard-graham"
+      ],
+      "monster": [
+        "drekavac"
+      ],
+      "weakened-ruler": [
+        "faron"
+      ],
+      "former-vanadis": [
+        "lana-lourie"
+      ],
+      "mother": [
+        "lana-lourie"
+      ],
+      "successor": [
+        "miliz"
+      ],
+      "vanadis-related": [
+        "miliz"
+      ],
+      "if-supporting-character": [
+        "liudie"
+      ],
+      "goddess": [
+        "tir-na-fa"
+      ],
+      "hidden-mythic-force": [
+        "tir-na-fa"
+      ]
+    }
   }
 }

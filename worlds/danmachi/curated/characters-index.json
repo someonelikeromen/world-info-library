@@ -1,1 +1,481 @@
-{"schema":"rp-characters-index-v1","worldId":"danmachi","characters":[{"id":"bell-cranel","name":"贝尔·克朗尼","aliases":["小新秀","兔子"],"visibility":"public","summary":"赫斯缇雅眷族冒险者，以快速成长与纯粹憧憬著称。","roles":["protagonist","adventurer"],"factions":["hestia-familia"],"locations":["欧拉丽","地下城"],"powerSystems":["falna"],"abilities":["一途憧憬","火焰闪电","阿尔戈英雄"],"items":["赫斯缇雅之刃"],"relationships":["hestia:deity","ais-wallenstein:admiration","liliruca-arde:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":"等级按时间线变化。"},{"id":"hestia","name":"赫斯缇雅","aliases":["炉灶女神"],"visibility":"public","summary":"贝尔的主神，眷族规模小但凝聚力强。","roles":["deity","familia-leader"],"factions":["hestia-familia"],"locations":["欧拉丽"],"powerSystems":["falna"],"abilities":["授予恩惠","神格威慑"],"items":[],"relationships":["bell-cranel:protective-affection"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":"下界禁用神力。"},{"id":"ais-wallenstein","name":"艾丝·华伦斯坦","aliases":["剑姬"],"visibility":"public","summary":"洛基眷族顶级剑士，贝尔憧憬对象。","roles":["adventurer","swordswoman"],"factions":["loki-familia"],"locations":["欧拉丽","地下城"],"powerSystems":["falna"],"abilities":["风灵疾走","剑术","复仇者"],"items":["绝望之剑"],"relationships":["bell-cranel:mentor/admired","loki:deity"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":""},{"id":"liliruca-arde","name":"莉莉露卡·厄德","aliases":["莉莉"],"visibility":"public","summary":"支援者，后成为赫斯缇雅眷族核心成员。","roles":["supporter","strategist"],"factions":["hestia-familia"],"locations":["欧拉丽"],"powerSystems":["falna"],"abilities":["变身魔法","支援战术"],"items":[],"relationships":["bell-cranel:loyalty","hestia:familia"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":""},{"id":"welf-crozzo","name":"韦尔夫·克罗佐","aliases":["魔剑锻造者"],"visibility":"public","summary":"铁匠冒险者，克罗佐血脉继承者。","roles":["blacksmith","adventurer"],"factions":["hestia-familia"],"locations":["欧拉丽"],"powerSystems":["falna"],"abilities":["锻造","魔剑制作","火抗"],"items":["锻造工具"],"relationships":["bell-cranel:ally","hephaestus:mentor"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":""},{"id":"ryu-lion","name":"琉·璃昂","aliases":["疾风","精灵店员"],"visibility":"private","summary":"前阿斯特莉亚眷族成员，丰饶的女主人店员，隐藏强大冒险者身份。","roles":["adventurer","waitress"],"factions":["benevolent-mistress","astraea-familia"],"locations":["丰饶的女主人"],"powerSystems":["falna"],"abilities":["精灵魔法","高速战斗"],"items":[],"relationships":["bell-cranel:ally","syr-flova:friend"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":"过去身份可作为秘密。"},{"id":"freya","name":"芙蕾雅","aliases":["美神"],"visibility":"private","summary":"欧拉丽最强势神明之一，关注贝尔灵魂光辉。","roles":["deity","power-broker"],"factions":["freya-familia"],"locations":["欧拉丽"],"powerSystems":["falna"],"abilities":["魅惑","识魂","眷族指挥"],"items":[],"relationships":["bell-cranel:obsession","ottar:loyalty"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-danmachi-import-readme"],"notes":"席儿身份关联需按路线隐藏。"}],"indices":{"byFaction":{"hestia-familia":["bell-cranel","hestia","liliruca-arde","welf-crozzo"],"loki-familia":["ais-wallenstein"],"freya-familia":["freya"]},"byPowerSystem":{"falna":["bell-cranel","hestia","ais-wallenstein","liliruca-arde","welf-crozzo","ryu-lion","freya"]},"byVisibility":{"public":["bell-cranel","hestia","ais-wallenstein","liliruca-arde","welf-crozzo"],"private":["ryu-lion","freya"]},"majorCharacters":["bell-cranel","hestia","ais-wallenstein","freya","ryu-lion"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "danmachi",
+  "characters": [
+    {
+      "id": "bell-cranel",
+      "name": "贝尔·克朗尼",
+      "aliases": [
+        "小新秀",
+        "兔子"
+      ],
+      "visibility": "public",
+      "summary": "赫斯缇雅眷族冒险者，以快速成长与纯粹憧憬著称。",
+      "roles": [
+        "protagonist",
+        "adventurer"
+      ],
+      "factions": [
+        "hestia-familia"
+      ],
+      "locations": [
+        "orario",
+        "dungeon"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "一途憧憬",
+        "火焰闪电",
+        "阿尔戈英雄"
+      ],
+      "items": [
+        "赫斯缇雅之刃"
+      ],
+      "relationships": [
+        {
+          "target": "hestia",
+          "targetType": "character",
+          "relation": "deity",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ais-wallenstein",
+          "targetType": "character",
+          "relation": "admiration",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "liliruca-arde",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "等级按时间线变化。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽",
+            "地下城"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "hestia",
+      "name": "赫斯缇雅",
+      "aliases": [
+        "炉灶女神"
+      ],
+      "visibility": "public",
+      "summary": "贝尔的主神，眷族规模小但凝聚力强。",
+      "roles": [
+        "deity",
+        "familia-leader"
+      ],
+      "factions": [
+        "hestia-familia"
+      ],
+      "locations": [
+        "orario"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "授予恩惠",
+        "神格威慑"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "protective-affection",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "下界禁用神力。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ais-wallenstein",
+      "name": "艾丝·华伦斯坦",
+      "aliases": [
+        "剑姬"
+      ],
+      "visibility": "public",
+      "summary": "洛基眷族顶级剑士，贝尔憧憬对象。",
+      "roles": [
+        "adventurer",
+        "swordswoman"
+      ],
+      "factions": [
+        "loki-familia"
+      ],
+      "locations": [
+        "orario",
+        "dungeon"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "风灵疾走",
+        "剑术",
+        "复仇者"
+      ],
+      "items": [
+        "绝望之剑"
+      ],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "mentor/admired",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "loki",
+          "targetType": "character",
+          "relation": "deity",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽",
+            "地下城"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "liliruca-arde",
+      "name": "莉莉露卡·厄德",
+      "aliases": [
+        "莉莉"
+      ],
+      "visibility": "public",
+      "summary": "支援者，后成为赫斯缇雅眷族核心成员。",
+      "roles": [
+        "supporter",
+        "strategist"
+      ],
+      "factions": [
+        "hestia-familia"
+      ],
+      "locations": [
+        "orario"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "变身魔法",
+        "支援战术"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "loyalty",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "hestia",
+          "targetType": "character",
+          "relation": "familia",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "welf-crozzo",
+      "name": "韦尔夫·克罗佐",
+      "aliases": [
+        "魔剑锻造者"
+      ],
+      "visibility": "public",
+      "summary": "铁匠冒险者，克罗佐血脉继承者。",
+      "roles": [
+        "blacksmith",
+        "adventurer"
+      ],
+      "factions": [
+        "hestia-familia"
+      ],
+      "locations": [
+        "orario"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "锻造",
+        "魔剑制作",
+        "火抗"
+      ],
+      "items": [
+        "锻造工具"
+      ],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "hephaestus",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ryu-lion",
+      "name": "琉·璃昂",
+      "aliases": [
+        "疾风",
+        "精灵店员"
+      ],
+      "visibility": "private",
+      "summary": "前阿斯特莉亚眷族成员，丰饶的女主人店员，隐藏强大冒险者身份。",
+      "roles": [
+        "adventurer",
+        "waitress"
+      ],
+      "factions": [
+        "benevolent-mistress",
+        "astraea-familia"
+      ],
+      "locations": [
+        "benevolent-mistress-inn"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "精灵魔法",
+        "高速战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "syr-flova",
+          "targetType": "character",
+          "relation": "friend",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "过去身份可作为秘密。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "丰饶的女主人"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "freya",
+      "name": "芙蕾雅",
+      "aliases": [
+        "美神"
+      ],
+      "visibility": "private",
+      "summary": "欧拉丽最强势神明之一，关注贝尔灵魂光辉。",
+      "roles": [
+        "deity",
+        "power-broker"
+      ],
+      "factions": [
+        "freya-familia"
+      ],
+      "locations": [
+        "orario"
+      ],
+      "powerSystems": [
+        "falna"
+      ],
+      "abilities": [
+        "魅惑",
+        "识魂",
+        "眷族指挥"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "bell-cranel",
+          "targetType": "character",
+          "relation": "obsession",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ottar",
+          "targetType": "character",
+          "relation": "loyalty",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-danmachi-import-readme"
+      ],
+      "notes": "席儿身份关联需按路线隐藏。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧拉丽"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "hestia-familia": [
+        "bell-cranel",
+        "hestia",
+        "liliruca-arde",
+        "welf-crozzo"
+      ],
+      "loki-familia": [
+        "ais-wallenstein"
+      ],
+      "benevolent-mistress": [
+        "ryu-lion"
+      ],
+      "astraea-familia": [
+        "ryu-lion"
+      ],
+      "freya-familia": [
+        "freya"
+      ]
+    },
+    "byPowerSystem": {
+      "falna": [
+        "bell-cranel",
+        "hestia",
+        "ais-wallenstein",
+        "liliruca-arde",
+        "welf-crozzo",
+        "ryu-lion",
+        "freya"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "bell-cranel",
+        "hestia",
+        "ais-wallenstein",
+        "liliruca-arde",
+        "welf-crozzo"
+      ],
+      "private": [
+        "ryu-lion",
+        "freya"
+      ]
+    },
+    "majorCharacters": [
+      "bell-cranel",
+      "hestia",
+      "ais-wallenstein",
+      "liliruca-arde",
+      "welf-crozzo",
+      "ryu-lion",
+      "freya"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

@@ -1,1 +1,243 @@
-{"schema":"rp-characters-index-v1","worldId":"campione","characters":[{"id":"godou-kusanagi","name":"草薙护堂","aliases":["第七位弑神者"],"visibility":"public","summary":"日本少年弑神者，夺取韦勒斯拉纳权能后卷入神话战争。","roles":["主角","弑神者"],"factions":["弑神者","日本相关势力"],"locations":["日本","欧洲"],"powerSystems":["authority"],"abilities":["东方军神权能","高魔抗","对神战"],"items":[],"relationships":["erica-blandelli:partner","athena:enemy-ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-campione-001"],"notes":"权能细项需逐条化。"},{"id":"erica-blandelli","name":"艾丽卡·布朗特里","aliases":["赤色恶魔"],"visibility":"public","summary":"意大利名门骑士，护堂重要同伴与魔术支援者。","roles":["骑士","女主角"],"factions":["赤铜黑十字"],"locations":["意大利","日本"],"powerSystems":["magic"],"abilities":["剑术","魔术","神话知识"],"items":["魔剑/骑士装备"],"relationships":["godou-kusanagi:partner"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-campione-001"],"notes":"常作为情报与战术桥梁。"},{"id":"yuri-mariya","name":"万里谷祐理","aliases":[],"visibility":"public","summary":"日本媛巫女，具灵视和净化能力。","roles":["巫女","支援"],"factions":["正史编纂委员会"],"locations":["日本"],"powerSystems":["magic"],"abilities":["灵视","净化","神话解读"],"items":[],"relationships":["godou-kusanagi:ally"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-campione-001"],"notes":"灵视可触发关键线索。"},{"id":"athena","name":"雅典娜","aliases":["不从之神"],"visibility":"public","summary":"以不从之神显现的女神，兼具敌人与复杂盟友可能。","roles":["神","强敌"],"factions":["不从之神"],"locations":["神显现地"],"powerSystems":["heretic-god"],"abilities":["死亡/蛇/智慧神格权能","神威"],"items":[],"relationships":["godou-kusanagi:enemy-ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-campione-001"],"notes":"具体形态随剧情阶段变化。"},{"id":"luo-hao","name":"罗濠","aliases":["武侠王"],"visibility":"public","summary":"古老强大的弑神者，中华武术与权能结合。","roles":["弑神者","霸者"],"factions":["弑神者"],"locations":["中国"],"powerSystems":["authority","martial-arts"],"abilities":["武术","神权能","压倒性威压"],"items":[],"relationships":["godou-kusanagi:peer-rival"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-campione-001"],"notes":"高阶 NPC，慎用。"}],"indices":{"byFaction":{"弑神者":["godou-kusanagi","luo-hao"],"赤铜黑十字":["erica-blandelli"],"正史编纂委员会":["yuri-mariya"],"不从之神":["athena"]},"byPowerSystem":{"authority":["godou-kusanagi","luo-hao"],"magic":["erica-blandelli","yuri-mariya"],"heretic-god":["athena"]},"byVisibility":{"public":["godou-kusanagi","erica-blandelli","yuri-mariya","athena","luo-hao"]},"majorCharacters":["godou-kusanagi","erica-blandelli","athena"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "campione",
+  "characters": [
+    {
+      "id": "godou-kusanagi",
+      "name": "草薙护堂",
+      "aliases": [
+        "第七位弑神者"
+      ],
+      "visibility": "public",
+      "summary": "日本少年弑神者，夺取韦勒斯拉纳权能后卷入神话战争。",
+      "roles": [
+        "主角",
+        "弑神者"
+      ],
+      "factions": [
+        "弑神者",
+        "日本相关势力"
+      ],
+      "locations": [
+        "日本",
+        "欧洲"
+      ],
+      "powerSystems": [
+        "authority"
+      ],
+      "abilities": [
+        "东方军神权能",
+        "高魔抗",
+        "对神战"
+      ],
+      "items": [],
+      "relationships": [
+        "erica-blandelli:partner",
+        "athena:enemy-ally"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-campione-001"
+      ],
+      "notes": "权能细项需逐条化。"
+    },
+    {
+      "id": "erica-blandelli",
+      "name": "艾丽卡·布朗特里",
+      "aliases": [
+        "赤色恶魔"
+      ],
+      "visibility": "public",
+      "summary": "意大利名门骑士，护堂重要同伴与魔术支援者。",
+      "roles": [
+        "骑士",
+        "女主角"
+      ],
+      "factions": [
+        "赤铜黑十字"
+      ],
+      "locations": [
+        "意大利",
+        "日本"
+      ],
+      "powerSystems": [
+        "magic"
+      ],
+      "abilities": [
+        "剑术",
+        "魔术",
+        "神话知识"
+      ],
+      "items": [
+        "魔剑/骑士装备"
+      ],
+      "relationships": [
+        "godou-kusanagi:partner"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-campione-001"
+      ],
+      "notes": "常作为情报与战术桥梁。"
+    },
+    {
+      "id": "yuri-mariya",
+      "name": "万里谷祐理",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "日本媛巫女，具灵视和净化能力。",
+      "roles": [
+        "巫女",
+        "支援"
+      ],
+      "factions": [
+        "正史编纂委员会"
+      ],
+      "locations": [
+        "日本"
+      ],
+      "powerSystems": [
+        "magic"
+      ],
+      "abilities": [
+        "灵视",
+        "净化",
+        "神话解读"
+      ],
+      "items": [],
+      "relationships": [
+        "godou-kusanagi:ally"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-campione-001"
+      ],
+      "notes": "灵视可触发关键线索。"
+    },
+    {
+      "id": "athena",
+      "name": "雅典娜",
+      "aliases": [
+        "不从之神"
+      ],
+      "visibility": "public",
+      "summary": "以不从之神显现的女神，兼具敌人与复杂盟友可能。",
+      "roles": [
+        "神",
+        "强敌"
+      ],
+      "factions": [
+        "不从之神"
+      ],
+      "locations": [
+        "神显现地"
+      ],
+      "powerSystems": [
+        "heretic-god"
+      ],
+      "abilities": [
+        "死亡/蛇/智慧神格权能",
+        "神威"
+      ],
+      "items": [],
+      "relationships": [
+        "godou-kusanagi:enemy-ally"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-campione-001"
+      ],
+      "notes": "具体形态随剧情阶段变化。"
+    },
+    {
+      "id": "luo-hao",
+      "name": "罗濠",
+      "aliases": [
+        "武侠王"
+      ],
+      "visibility": "public",
+      "summary": "古老强大的弑神者，中华武术与权能结合。",
+      "roles": [
+        "弑神者",
+        "霸者"
+      ],
+      "factions": [
+        "弑神者"
+      ],
+      "locations": [
+        "中国"
+      ],
+      "powerSystems": [
+        "authority",
+        "martial-arts"
+      ],
+      "abilities": [
+        "武术",
+        "神权能",
+        "压倒性威压"
+      ],
+      "items": [],
+      "relationships": [
+        "godou-kusanagi:peer-rival"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-campione-001"
+      ],
+      "notes": "高阶 NPC，慎用。"
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "弑神者": [
+        "godou-kusanagi",
+        "luo-hao"
+      ],
+      "赤铜黑十字": [
+        "erica-blandelli"
+      ],
+      "正史编纂委员会": [
+        "yuri-mariya"
+      ],
+      "不从之神": [
+        "athena"
+      ]
+    },
+    "byPowerSystem": {
+      "authority": [
+        "godou-kusanagi",
+        "luo-hao"
+      ],
+      "magic": [
+        "erica-blandelli",
+        "yuri-mariya"
+      ],
+      "heretic-god": [
+        "athena"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "godou-kusanagi",
+        "erica-blandelli",
+        "yuri-mariya",
+        "athena",
+        "luo-hao"
+      ]
+    },
+    "majorCharacters": [
+      "godou-kusanagi",
+      "erica-blandelli",
+      "athena"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

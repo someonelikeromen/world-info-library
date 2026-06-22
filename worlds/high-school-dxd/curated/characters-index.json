@@ -1,1 +1,353 @@
-{"schema":"rp-characters-index-v1","worldId":"high-school-dxd","characters":[{"id":"issei-hyoudou","name":"兵藤一诚","aliases":["赤龙帝","乳龙帝"],"visibility":"public","summary":"主角，莉雅丝眷族兵士，赤龙帝笼手宿主。","roles":["protagonist","devil","sacred-gear-user"],"factions":["gremory-peerage"],"locations":["驹王镇"],"powerSystems":["devil-piece","sacred-gear"],"abilities":["Boosted Gear 倍增","禁手","龙化相关"],"items":["赤龙帝的笼手"],"relationships":["rias-gremory:master/lover","drianig:partner","asia-argento:protective"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":"形态多，需分阶段评级。"},{"id":"rias-gremory","name":"莉雅丝·吉蒙里","aliases":["红发灭杀姬"],"visibility":"public","summary":"吉蒙里家继承人，超自然研究部部长，一诚的主人。","roles":["king","devil-noble"],"factions":["gremory-peerage"],"locations":["驹王镇","冥界"],"powerSystems":["devil-piece"],"abilities":["毁灭之力","眷族指挥"],"items":[],"relationships":["issei-hyoudou:servant/lover","akeno-himejima:queen/friend"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme","src-dxd-world-map-sample"],"notes":""},{"id":"akeno-himejima","name":"姬岛朱乃","aliases":["雷之巫女","堕天使混血"],"visibility":"public","summary":"莉雅丝眷族皇后，擅长雷光与魔法。","roles":["queen","devil"],"factions":["gremory-peerage"],"locations":["驹王镇"],"powerSystems":["devil-piece"],"abilities":["雷光","魔法阵","堕天使光力"],"items":[],"relationships":["rias-gremory:best-friend","issei-hyoudou:affection"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":"混血身份有私人创伤。"},{"id":"asia-argento","name":"爱西亚·阿基多","aliases":["圣女","治愈神器宿主"],"visibility":"public","summary":"原教会修女，转生恶魔，拥有治愈神器。","roles":["bishop","healer"],"factions":["gremory-peerage"],"locations":["驹王镇"],"powerSystems":["devil-piece","sacred-gear"],"abilities":["圣母的微笑","治愈"],"items":[],"relationships":["issei-hyoudou:trust/affection","rias-gremory:master"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":"恶魔化后圣力相性风险。"},{"id":"koneko-toujou","name":"塔城小猫","aliases":["猫又"],"visibility":"public","summary":"莉雅丝眷族战车，猫又妖怪，近战强。","roles":["rook","youkai"],"factions":["gremory-peerage"],"locations":["驹王镇"],"powerSystems":["devil-piece"],"abilities":["怪力","仙术潜质","猫又能力"],"items":[],"relationships":["kuroka:sister","rias-gremory:master"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":"仙术与姐姐线待扩展。"},{"id":"yuuto-kiba","name":"木场佑斗","aliases":["魔剑创造者"],"visibility":"public","summary":"莉雅丝眷族骑士，圣剑计划幸存者。","roles":["knight","swordsman"],"factions":["gremory-peerage"],"locations":["驹王镇"],"powerSystems":["devil-piece","sacred-gear"],"abilities":["魔剑创造","高速剑术"],"items":["魔剑"],"relationships":["rias-gremory:master","issei-hyoudou:friend"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":"圣剑创伤为人物核心。"},{"id":"azazel","name":"阿萨谢尔","aliases":["堕天使总督"],"visibility":"private","summary":"堕天使领袖，神器研究者，后期导师型角色。","roles":["leader","researcher"],"factions":["fallen-angels","three-factions"],"locations":["人界","堕天使据点"],"powerSystems":["sacred-gear"],"abilities":["神器研究","光力","战术指导"],"items":[],"relationships":["issei-hyoudou:mentor","rias-gremory:ally"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dxd-import-readme"],"notes":""}],"indices":{"byFaction":{"gremory-peerage":["issei-hyoudou","rias-gremory","akeno-himejima","asia-argento","koneko-toujou","yuuto-kiba"],"three-factions":["azazel"]},"byPowerSystem":{"devil-piece":["issei-hyoudou","rias-gremory","akeno-himejima","asia-argento","koneko-toujou","yuuto-kiba"],"sacred-gear":["issei-hyoudou","asia-argento","yuuto-kiba","azazel"]},"byVisibility":{"public":["issei-hyoudou","rias-gremory","akeno-himejima","asia-argento","koneko-toujou","yuuto-kiba"],"private":["azazel"]},"majorCharacters":["issei-hyoudou","rias-gremory","akeno-himejima","asia-argento","azazel"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "high-school-dxd",
+  "characters": [
+    {
+      "id": "issei-hyoudou",
+      "name": "兵藤一诚",
+      "aliases": [
+        "赤龙帝",
+        "乳龙帝"
+      ],
+      "visibility": "public",
+      "summary": "主角，莉雅丝眷族兵士，赤龙帝笼手宿主。",
+      "roles": [
+        "protagonist",
+        "devil",
+        "sacred-gear-user"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "sacred-gear"
+      ],
+      "abilities": [
+        "Boosted Gear 倍增",
+        "禁手",
+        "龙化相关"
+      ],
+      "items": [
+        "赤龙帝的笼手"
+      ],
+      "relationships": [
+        "rias-gremory:master/lover",
+        "drianig:partner",
+        "asia-argento:protective"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "形态多，需分阶段评级。"
+    },
+    {
+      "id": "rias-gremory",
+      "name": "莉雅丝·吉蒙里",
+      "aliases": [
+        "红发灭杀姬"
+      ],
+      "visibility": "public",
+      "summary": "吉蒙里家继承人，超自然研究部部长，一诚的主人。",
+      "roles": [
+        "king",
+        "devil-noble"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇",
+        "冥界"
+      ],
+      "powerSystems": [
+        "devil-piece"
+      ],
+      "abilities": [
+        "毁灭之力",
+        "眷族指挥"
+      ],
+      "items": [],
+      "relationships": [
+        "issei-hyoudou:servant/lover",
+        "akeno-himejima:queen/friend"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme",
+        "src-dxd-world-map-sample"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "akeno-himejima",
+      "name": "姬岛朱乃",
+      "aliases": [
+        "雷之巫女",
+        "堕天使混血"
+      ],
+      "visibility": "public",
+      "summary": "莉雅丝眷族皇后，擅长雷光与魔法。",
+      "roles": [
+        "queen",
+        "devil"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece"
+      ],
+      "abilities": [
+        "雷光",
+        "魔法阵",
+        "堕天使光力"
+      ],
+      "items": [],
+      "relationships": [
+        "rias-gremory:best-friend",
+        "issei-hyoudou:affection"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "混血身份有私人创伤。"
+    },
+    {
+      "id": "asia-argento",
+      "name": "爱西亚·阿基多",
+      "aliases": [
+        "圣女",
+        "治愈神器宿主"
+      ],
+      "visibility": "public",
+      "summary": "原教会修女，转生恶魔，拥有治愈神器。",
+      "roles": [
+        "bishop",
+        "healer"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "sacred-gear"
+      ],
+      "abilities": [
+        "圣母的微笑",
+        "治愈"
+      ],
+      "items": [],
+      "relationships": [
+        "issei-hyoudou:trust/affection",
+        "rias-gremory:master"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "恶魔化后圣力相性风险。"
+    },
+    {
+      "id": "koneko-toujou",
+      "name": "塔城小猫",
+      "aliases": [
+        "猫又"
+      ],
+      "visibility": "public",
+      "summary": "莉雅丝眷族战车，猫又妖怪，近战强。",
+      "roles": [
+        "rook",
+        "youkai"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece"
+      ],
+      "abilities": [
+        "怪力",
+        "仙术潜质",
+        "猫又能力"
+      ],
+      "items": [],
+      "relationships": [
+        "kuroka:sister",
+        "rias-gremory:master"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "仙术与姐姐线待扩展。"
+    },
+    {
+      "id": "yuuto-kiba",
+      "name": "木场佑斗",
+      "aliases": [
+        "魔剑创造者"
+      ],
+      "visibility": "public",
+      "summary": "莉雅丝眷族骑士，圣剑计划幸存者。",
+      "roles": [
+        "knight",
+        "swordsman"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "sacred-gear"
+      ],
+      "abilities": [
+        "魔剑创造",
+        "高速剑术"
+      ],
+      "items": [
+        "魔剑"
+      ],
+      "relationships": [
+        "rias-gremory:master",
+        "issei-hyoudou:friend"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "圣剑创伤为人物核心。"
+    },
+    {
+      "id": "azazel",
+      "name": "阿萨谢尔",
+      "aliases": [
+        "堕天使总督"
+      ],
+      "visibility": "private",
+      "summary": "堕天使领袖，神器研究者，后期导师型角色。",
+      "roles": [
+        "leader",
+        "researcher"
+      ],
+      "factions": [
+        "three-factions"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "sacred-gear"
+      ],
+      "abilities": [
+        "神器研究",
+        "光力",
+        "战术指导"
+      ],
+      "items": [],
+      "relationships": [
+        "issei-hyoudou:mentor",
+        "rias-gremory:ally"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dxd-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "fallen-angels"
+          ],
+          "locations": [
+            "人界",
+            "堕天使据点"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions unresolved (no safe canonical id): fallen-angels",
+        "locations unresolved (no safe canonical id): 人界, 堕天使据点"
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "gremory-peerage": [
+        "issei-hyoudou",
+        "rias-gremory",
+        "akeno-himejima",
+        "asia-argento",
+        "koneko-toujou",
+        "yuuto-kiba"
+      ],
+      "three-factions": [
+        "azazel"
+      ]
+    },
+    "byPowerSystem": {
+      "devil-piece": [
+        "issei-hyoudou",
+        "rias-gremory",
+        "akeno-himejima",
+        "asia-argento",
+        "koneko-toujou",
+        "yuuto-kiba"
+      ],
+      "sacred-gear": [
+        "issei-hyoudou",
+        "asia-argento",
+        "yuuto-kiba",
+        "azazel"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "issei-hyoudou",
+        "rias-gremory",
+        "akeno-himejima",
+        "asia-argento",
+        "koneko-toujou",
+        "yuuto-kiba"
+      ],
+      "private": [
+        "azazel"
+      ]
+    },
+    "majorCharacters": [
+      "issei-hyoudou",
+      "rias-gremory",
+      "akeno-himejima",
+      "asia-argento",
+      "koneko-toujou",
+      "yuuto-kiba",
+      "azazel"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

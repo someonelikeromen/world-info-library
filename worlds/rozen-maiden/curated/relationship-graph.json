@@ -1,1 +1,408 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library","cardId":"rozen-maiden","nodes":[{"id":"sakurada-jun","type":"character","name":"樱田纯","aliases":["Jun"],"visibility":"public","summary":"核心媒介。","tags":["medium"],"metadata":{}},{"id":"shinku","type":"character","name":"真红","aliases":["第五人偶"],"visibility":"public","summary":"纯的首位契约人偶。","tags":["rozen-doll"],"metadata":{}},{"id":"suigintou","type":"character","name":"水银灯","aliases":["第一人偶"],"visibility":"public","summary":"强敌/反英雄。","tags":["rozen-doll","rival"],"metadata":{}},{"id":"suiseiseki","type":"character","name":"翠星石","aliases":[],"visibility":"public","summary":"双子之一。","tags":["rozen-doll"],"metadata":{}},{"id":"souseiseki","type":"character","name":"苍星石","aliases":[],"visibility":"public","summary":"双子之一。","tags":["rozen-doll"],"metadata":{}},{"id":"rozen","type":"character","name":"罗真","aliases":["父亲大人"],"visibility":"private","summary":"创造者。","tags":["creator"],"metadata":{}},{"id":"rozen-contract-camp","type":"faction","name":"契约阵营","aliases":[],"visibility":"public","summary":"樱田家箱庭。","tags":["faction"],"metadata":{}}],"edges":[{"id":"rel-jun-shinku-contract","from":"sakurada-jun","to":"shinku","type":"contract","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":92,"description":"最核心契约与情感羁绊。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":"D","debt":"A","loyalty":"A","hostility":"E"},"publicDescription":"真红称纯为仆人，纯为她供能并守护她。","gmTruth":"两者互相改变人生轨迹，依赖远高于口头承认。","evidence":["src-rozen-maiden-001"],"history":["纯唤醒真红并被卷入爱丽丝游戏"],"conditions":[],"notes":""},{"id":"rel-shinku-suigintou-rival","from":"shinku","to":"suigintou","type":"rival","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"长期宿敌。"},"facets":{"trust":"E","affection":"D","fear":"C","suspicion":"A","debt":null,"loyalty":null,"hostility":"A"},"publicDescription":"两位人偶常因爱丽丝游戏与旧怨对立。","gmTruth":"敌意中混有同为被造物的理解。","evidence":["src-rozen-maiden-001"],"history":[],"conditions":[],"notes":""},{"id":"rel-suiseiseki-souseiseki-family","from":"suiseiseki","to":"souseiseki","type":"family","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"双子羁绊。"},"facets":{"trust":"A","affection":"A","fear":"C","suspicion":"E","debt":null,"loyalty":"A","hostility":"E"},"publicDescription":"翠星石与苍星石为双子人偶。","gmTruth":"爱丽丝游戏会撕裂这种羁绊。","evidence":["src-rozen-maiden-001"],"history":[],"conditions":[],"notes":""},{"id":"rel-rozen-dolls-creator","from":"rozen","to":"shinku","type":"ownership","directional":true,"visibility":"private","playerKnown":false,"strength":{"level":"S","score":95,"description":"造物主与人偶。"},"facets":{"trust":null,"affection":"A","fear":"B","suspicion":"B","debt":"S","loyalty":"A","hostility":null},"publicDescription":"蔷薇少女称罗真为父亲大人。","gmTruth":"父亲执念是游戏的情感燃料。","evidence":["src-rozen-maiden-001"],"history":[],"conditions":[],"notes":"代表罗真对全体蔷薇少女的创造关系。"}],"views":{"playerVisibleNodeIds":["sakurada-jun","shinku","suigintou","suiseiseki","souseiseki","rozen-contract-camp"],"gmHighlightedNodeIds":["rozen"],"activeSceneNodeIds":["sakurada-jun","shinku"]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library",
+  "cardId": "rozen-maiden",
+  "nodes": [
+    {
+      "id": "sakurada-jun",
+      "type": "character",
+      "name": "樱田纯",
+      "aliases": [
+        "Jun"
+      ],
+      "visibility": "public",
+      "summary": "核心媒介。",
+      "tags": [
+        "medium"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "shinku",
+      "type": "character",
+      "name": "真红",
+      "aliases": [
+        "第五人偶"
+      ],
+      "visibility": "public",
+      "summary": "纯的首位契约人偶。",
+      "tags": [
+        "rozen-doll"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "suigintou",
+      "type": "character",
+      "name": "水银灯",
+      "aliases": [
+        "第一人偶"
+      ],
+      "visibility": "public",
+      "summary": "强敌/反英雄。",
+      "tags": [
+        "rozen-doll",
+        "rival"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "suiseiseki",
+      "type": "character",
+      "name": "翠星石",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "双子之一。",
+      "tags": [
+        "rozen-doll"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "souseiseki",
+      "type": "character",
+      "name": "苍星石",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "双子之一。",
+      "tags": [
+        "rozen-doll"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rozen",
+      "type": "character",
+      "name": "罗真",
+      "aliases": [
+        "父亲大人"
+      ],
+      "visibility": "private",
+      "summary": "创造者。",
+      "tags": [
+        "creator"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rozen-contract-camp",
+      "type": "faction",
+      "name": "契约阵营",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "樱田家箱庭。",
+      "tags": [
+        "faction"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "hinaichigo",
+      "type": "character",
+      "name": "雏莓",
+      "aliases": [
+        "Hinaichigo",
+        "第六人偶"
+      ],
+      "visibility": "public",
+      "summary": "第六人偶，幼稚天真，依赖性强，常被樱田家保护。",
+      "tags": [
+        "蔷薇少女",
+        "被保护者"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "kirakishou",
+      "type": "character",
+      "name": "雪华绮晶",
+      "aliases": [
+        "Kirakishou",
+        "第七人偶"
+      ],
+      "visibility": "public",
+      "summary": "第七人偶，未拥有实体/梦境寄生倾向，常作为后期高危操盘者。",
+      "tags": [
+        "终盘敌对者",
+        "精神/梦境威胁"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "kakizaki-megumi",
+      "type": "character",
+      "name": "柿崎惠",
+      "aliases": [
+        "Megumi Kakizaki"
+      ],
+      "visibility": "public",
+      "summary": "病弱少女，水银灯媒介/重要羁绊，影响水银灯情感线。",
+      "tags": [
+        "媒介",
+        "病弱人类"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "nori",
+      "type": "character",
+      "name": "樱田纪",
+      "aliases": [
+        "Nori Sakurada"
+      ],
+      "visibility": "public",
+      "summary": "樱田纯的姐姐，樱田家日常照顾者。",
+      "tags": [
+        "family"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "kusabue-mitsuko",
+      "type": "character",
+      "name": "草笛美津子",
+      "aliases": [
+        "Mitsuko Kusabue"
+      ],
+      "visibility": "public",
+      "summary": "金丝雀的媒介。",
+      "tags": [
+        "medium"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "kashiwaba-tomoe",
+      "type": "character",
+      "name": "柏叶巴",
+      "aliases": [
+        "Tomoe Kashiwaba"
+      ],
+      "visibility": "public",
+      "summary": "雏莓的前媒介。",
+      "tags": [
+        "medium"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "enju",
+      "type": "character",
+      "name": "槐",
+      "aliases": [
+        "Enju"
+      ],
+      "visibility": "private",
+      "summary": "动画相关人偶师，蔷薇水晶的创造者/操控者。",
+      "tags": [
+        "creator"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "other-dolls",
+      "type": "group",
+      "name": "其他蔷薇少女",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "非当前单体条目的其他蔷薇少女集合。",
+      "tags": [
+        "group"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "all-dolls",
+      "type": "group",
+      "name": "全体蔷薇少女",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "罗真创造的蔷薇少女整体。",
+      "tags": [
+        "group"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-jun-shinku-contract",
+      "from": "sakurada-jun",
+      "to": "shinku",
+      "type": "contract",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 92,
+        "description": "最核心契约与情感羁绊。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "D",
+        "debt": "A",
+        "loyalty": "A",
+        "hostility": "E"
+      },
+      "publicDescription": "真红称纯为仆人，纯为她供能并守护她。",
+      "gmTruth": "两者互相改变人生轨迹，依赖远高于口头承认。",
+      "evidence": [
+        "src-rozen-maiden-001"
+      ],
+      "history": [
+        "纯唤醒真红并被卷入爱丽丝游戏"
+      ],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-shinku-suigintou-rival",
+      "from": "shinku",
+      "to": "suigintou",
+      "type": "rival",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "长期宿敌。"
+      },
+      "facets": {
+        "trust": "E",
+        "affection": "D",
+        "fear": "C",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "A"
+      },
+      "publicDescription": "两位人偶常因爱丽丝游戏与旧怨对立。",
+      "gmTruth": "敌意中混有同为被造物的理解。",
+      "evidence": [
+        "src-rozen-maiden-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-suiseiseki-souseiseki-family",
+      "from": "suiseiseki",
+      "to": "souseiseki",
+      "type": "family",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "双子羁绊。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": "C",
+        "suspicion": "E",
+        "debt": null,
+        "loyalty": "A",
+        "hostility": "E"
+      },
+      "publicDescription": "翠星石与苍星石为双子人偶。",
+      "gmTruth": "爱丽丝游戏会撕裂这种羁绊。",
+      "evidence": [
+        "src-rozen-maiden-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-rozen-dolls-creator",
+      "from": "rozen",
+      "to": "shinku",
+      "type": "ownership",
+      "directional": true,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "S",
+        "score": 95,
+        "description": "造物主与人偶。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": "A",
+        "fear": "B",
+        "suspicion": "B",
+        "debt": "S",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "蔷薇少女称罗真为父亲大人。",
+      "gmTruth": "父亲执念是游戏的情感燃料。",
+      "evidence": [
+        "src-rozen-maiden-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "代表罗真对全体蔷薇少女的创造关系。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "sakurada-jun",
+      "shinku",
+      "suigintou",
+      "suiseiseki",
+      "souseiseki",
+      "rozen-contract-camp",
+      "hinaichigo",
+      "kirakishou",
+      "kakizaki-megumi",
+      "nori",
+      "kusabue-mitsuko",
+      "kashiwaba-tomoe",
+      "other-dolls"
+    ],
+    "gmHighlightedNodeIds": [
+      "rozen",
+      "enju",
+      "all-dolls"
+    ],
+    "activeSceneNodeIds": [
+      "sakurada-jun",
+      "shinku"
+    ]
+  }
+}

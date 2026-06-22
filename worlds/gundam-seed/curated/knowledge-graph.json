@@ -1,1 +1,184 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"gundam-seed","nodes":[{"id":"coordinator","type":"speciesSocialClass","label":"调整者"},{"id":"natural","type":"speciesSocialClass","label":"自然人"},{"id":"zaft","type":"faction","label":"ZAFT/PLANT"},{"id":"earth-alliance","type":"faction","label":"地球联合"},{"id":"orb","type":"faction","label":"奥布"},{"id":"mobile-suit-tech","type":"technology","label":"机动战士"},{"id":"seed-factor","type":"abilityState","label":"SEED 因子"}],"edges":[{"from":"coordinator","to":"natural","type":"social_conflict"},{"from":"zaft","to":"earth-alliance","type":"war"},{"from":"orb","to":"zaft","type":"neutral_then_conflicted"},{"from":"mobile-suit-tech","to":"zaft","type":"primary_weapon"},{"from":"seed-factor","to":"mobile-suit-tech","type":"enhances_piloting"}],"sourceRefs":["src-gundam-seed-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "gundam-seed",
+  "nodes": [
+    {
+      "id": "coordinator",
+      "type": "speciesSocialClass",
+      "label": "调整者"
+    },
+    {
+      "id": "natural",
+      "type": "speciesSocialClass",
+      "label": "自然人"
+    },
+    {
+      "id": "zaft",
+      "type": "faction",
+      "label": "ZAFT/PLANT"
+    },
+    {
+      "id": "earth-alliance",
+      "type": "faction",
+      "label": "地球联合"
+    },
+    {
+      "id": "orb",
+      "type": "faction",
+      "label": "奥布"
+    },
+    {
+      "id": "mobile-suit-tech",
+      "type": "technology",
+      "label": "机动战士"
+    },
+    {
+      "id": "seed-factor",
+      "type": "abilityState",
+      "label": "SEED 因子"
+    },
+    {
+      "id": "orb-union",
+      "type": "faction",
+      "label": "奥布联合首长国",
+      "summary": "奥布联合首长国",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "three-ships-alliance",
+      "type": "faction",
+      "label": "三舰同盟",
+      "summary": "三舰同盟",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "archangel-crew",
+      "type": "faction",
+      "label": "大天使号阵营",
+      "summary": "大天使号阵营",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "klein-faction",
+      "type": "faction",
+      "label": "克莱因派",
+      "summary": "克莱因派",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "archangel",
+      "type": "location",
+      "label": "大天使号",
+      "summary": "大天使号",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "messiah",
+      "type": "location",
+      "label": "弥赛亚",
+      "summary": "弥赛亚",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "plant",
+      "type": "location",
+      "label": "PLANT 殖民卫星",
+      "summary": "PLANT 殖民卫星",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "josh-a",
+      "type": "location",
+      "label": "阿拉斯加 JOSH-A",
+      "summary": "阿拉斯加 JOSH-A",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "yakin-due",
+      "type": "location",
+      "label": "雅金·杜维",
+      "summary": "雅金·杜维",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "eternal",
+      "type": "location",
+      "label": "永恒号",
+      "summary": "永恒号",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "space-battlefields",
+      "type": "location",
+      "label": "宇宙战场",
+      "summary": "宇宙战场",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "from": "coordinator",
+      "to": "natural",
+      "type": "social_conflict",
+      "source": "coordinator",
+      "target": "natural"
+    },
+    {
+      "from": "zaft",
+      "to": "earth-alliance",
+      "type": "war",
+      "source": "zaft",
+      "target": "earth-alliance"
+    },
+    {
+      "from": "orb",
+      "to": "zaft",
+      "type": "neutral_then_conflicted",
+      "source": "orb",
+      "target": "zaft"
+    },
+    {
+      "from": "mobile-suit-tech",
+      "to": "zaft",
+      "type": "primary_weapon",
+      "source": "mobile-suit-tech",
+      "target": "zaft"
+    },
+    {
+      "from": "seed-factor",
+      "to": "mobile-suit-tech",
+      "type": "enhances_piloting",
+      "source": "seed-factor",
+      "target": "mobile-suit-tech"
+    }
+  ],
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "campaignId": "gundam-seed",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 11,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

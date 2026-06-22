@@ -40,3 +40,8 @@
 ## 当前完成度
 - 已补齐标准产物：`world.json`、`source-registry.json`、`characters-index.json`、`knowledge-graph.json`、`relationship-graph.json`、`curation-notes.md`。
 - `README.md` 仍需保持并说明来源与整理状态，作为 curator 入口。
+
+## 2026-06-22 MED 规范化补记
+- 已将角色索引中的地点/势力/能力显示名尽量改为 `world.json` 内 canonical id，并在角色 `metadata.originalReferenceLabels` 保留原显示名。
+- 为可安全确认但原世界注册表缺少 id 的公国驻地、家族/王室、银色流星军、魔物相关能力等补入 `normalization-stub` 节点，标明需后续补强。
+- `亚尔萨斯` 作为 character-faction 时按“亚尔萨斯领/冯伦领民共同体”补入 `alsace-domain`；未强行伪造的残留仅包括：`杜兰达尔` 是 artifact 而非 powerSystem；`王室` 未能安全判定所属王室。以上保留在角色 `normalizationNotes`。

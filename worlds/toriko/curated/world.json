@@ -3,7 +3,9 @@
   "worldId": "toriko",
   "displayName": "美食的俘虏 / Toriko",
   "curationStatus": "manual-initial",
-  "sourceRefs": ["src-toriko-001"],
+  "sourceRefs": [
+    "src-toriko-001"
+  ],
   "summary": "被美食支配一切的奇幻地球。人间界由IGO维持秩序，美食界由八王统治；美食细胞、食欲恶魔与捕获等级共同构成战斗与探索的核心框架。",
   "powerSystems": [
     {
@@ -44,22 +46,285 @@
     }
   ],
   "factions": [
-    "IGO国际美食机构",
-    "美食会",
-    "NEO",
-    "美食骑士/食林寺系统",
-    "美食黑社会",
-    "八王/美食界生态王权"
+    {
+      "id": "igo",
+      "name": "IGO国际美食机构",
+      "type": "international-organization",
+      "summary": "",
+      "powerSystemAffinity": [
+        "capture-level",
+        "gourmet-cells"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "toriko",
+        "komatsu",
+        "ichiryu",
+        "mansam"
+      ],
+      "territories": [
+        "igo-headquarters"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "IGO国际美食机构"
+      ]
+    },
+    {
+      "id": "gourmet-corps",
+      "name": "美食会",
+      "type": "antagonist-organization",
+      "summary": "",
+      "powerSystemAffinity": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "midora",
+        "stajyu"
+      ],
+      "territories": [
+        "gourmet-society-base"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "美食会"
+      ]
+    },
+    {
+      "id": "neo",
+      "name": "NEO",
+      "type": "secret-organization",
+      "summary": "",
+      "powerSystemAffinity": [
+        "gourmet-cells",
+        "appetite-demon"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "joa"
+      ],
+      "territories": [
+        "neo-base"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "NEO"
+      ]
+    },
+    {
+      "id": "gourmet-knights-chef-network",
+      "name": "美食骑士/厨师系统",
+      "type": "professional-network",
+      "summary": "",
+      "powerSystemAffinity": [
+        "food-honor"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "komatsu",
+        "setsuno"
+      ],
+      "territories": [
+        "cooking-festival-stage"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "美食骑士/厨师系统"
+      ]
+    },
+    {
+      "id": "four-heavenly-kings",
+      "name": "美食四天王",
+      "type": "hunter-group",
+      "summary": "",
+      "powerSystemAffinity": [
+        "gourmet-cells",
+        "capture-level"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "toriko",
+        "coco",
+        "sunny",
+        "zebra"
+      ],
+      "territories": [
+        "human-world"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "美食四天王"
+      ]
+    },
+    {
+      "id": "independent-gourmet-ecosystem",
+      "name": "独立/美食生态霸权",
+      "type": "independent-force",
+      "summary": "",
+      "powerSystemAffinity": [
+        "gourmet-cells",
+        "appetite-demon"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "acacia"
+      ],
+      "territories": [
+        "gourmet-world"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "独立/美食生态霸权"
+      ]
+    },
+    {
+      "id": "toriko-camp",
+      "name": "阿虏阵营",
+      "type": "protagonist-camp",
+      "summary": "",
+      "powerSystemAffinity": [
+        "capture-level",
+        "gourmet-cells"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "toriko",
+        "komatsu",
+        "tairy"
+      ],
+      "territories": [
+        "human-world",
+        "gourmet-world"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "阿虏阵营"
+      ]
+    }
   ],
   "locations": [
-    "人间界",
-    "美食界",
-    "IGO第0区与八大生物保护区",
-    "美食中央批发市场",
-    "Hotel Gourmet",
-    "食林寺",
-    "蔬菜天空",
-    "美食界各区域与八王领地"
+    {
+      "id": "human-world",
+      "name": "人间界",
+      "type": "world-region",
+      "summary": "",
+      "aliases": [
+        "人间界"
+      ]
+    },
+    {
+      "id": "gourmet-world",
+      "name": "美食界",
+      "type": "world-region",
+      "summary": "",
+      "aliases": [
+        "美食界"
+      ]
+    },
+    {
+      "id": "igo-0-biotope",
+      "name": "IGO第0生物保护区",
+      "type": "protected-zone",
+      "summary": "",
+      "aliases": [
+        "IGO第0生物保护区"
+      ]
+    },
+    {
+      "id": "gourmet-colosseum-market",
+      "name": "美食竞技场/市场",
+      "type": "venue",
+      "summary": "",
+      "aliases": [
+        "美食竞技场/市场"
+      ]
+    },
+    {
+      "id": "hotel-gourmet",
+      "name": "Hotel Gourmet",
+      "type": "hotel",
+      "summary": "",
+      "aliases": [
+        "Hotel Gourmet"
+      ]
+    },
+    {
+      "id": "cooking-festival-stage",
+      "name": "料理舞台",
+      "type": "venue",
+      "summary": "",
+      "aliases": [
+        "料理舞台"
+      ]
+    },
+    {
+      "id": "vegetable-sky",
+      "name": "蔬菜天空",
+      "type": "special-zone",
+      "summary": "",
+      "aliases": [
+        "蔬菜天空"
+      ]
+    },
+    {
+      "id": "gourmet-society-base",
+      "name": "美食会据点",
+      "type": "base",
+      "summary": "",
+      "aliases": [
+        "美食会据点"
+      ]
+    },
+    {
+      "id": "igo-headquarters",
+      "name": "IGO总部",
+      "type": "headquarters",
+      "summary": "",
+      "aliases": [
+        "IGO总部"
+      ]
+    },
+    {
+      "id": "neo-base",
+      "name": "NEO基地",
+      "type": "base",
+      "summary": "",
+      "aliases": [
+        "NEO基地"
+      ]
+    },
+    {
+      "id": "historical-line",
+      "name": "历史线",
+      "type": "narrative-label",
+      "summary": "",
+      "aliases": [
+        "历史线"
+      ]
+    }
   ],
   "combatRules": [
     "捕获等级应优先按场景、环境和食材生态解释，避免简单等同于纯数值战力。",
@@ -67,12 +332,14 @@
     "四天王、一龙、次郎、三虎等高端战力不宜在低威胁场景中无条件降格使用。",
     "顶级战斗描写应兼顾料理、感官与物理冲击，而非只写招式名称。"
   ],
-  "worldRules": [
-    "故事默认基于原作模式；取代/共存模式需要重新处理阿虏与小松的初始关系。",
-    "美食时代的核心驱动力是捕获、料理、进化与菜单完成度。",
-    "阿卡西亚全套菜单与八王守护物构成终局级叙事骨架。",
-    "战力、食材和地点都应保留世界尺度感，不可缩小为普通现实冒险。"
-  ],
+  "worldRules": {
+    "rules": [
+      "故事默认基于原作模式；取代/共存模式需要重新处理阿虏与小松的初始关系。",
+      "美食时代的核心驱动力是捕获、料理、进化与菜单完成度。",
+      "阿卡西亚全套菜单与八王守护物构成终局级叙事骨架。",
+      "战力、食材和地点都应保留世界尺度感，不可缩小为普通现实冒险。"
+    ]
+  },
   "publicEvents": [
     "美食大战结束后，美食时代开启。",
     "阿虏在Hotel Gourmet与小松相遇，主线正式展开。",
@@ -89,5 +356,12 @@
     "本世界为单一来源整理，当前以 src-toriko-001 的共识设定为主。",
     "阿虏相关内容在取代模式中必须重新映射，避免与用户角色冲突。",
     "人物、势力与战力均按美食世界尺度保留，不做现实化压缩。"
-  ]
+  ],
+  "worldName": "美食的俘虏 / Toriko",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "energyEnvironment": {}
 }

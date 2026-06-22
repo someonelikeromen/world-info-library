@@ -1,17 +1,850 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "sword-art-online",
   "relationships": [
-    {"source": "桐人", "target": "亚丝娜", "type": "搭档/恋人", "notes": "从攻略伙伴成长为艾恩葛朗特篇核心伴侣。"},
-    {"source": "桐人", "target": "克莱因", "type": "开服友人", "notes": "开服初期相识，桐人教导基础操作。"},
-    {"source": "桐人", "target": "阿尔戈", "type": "情报合作", "notes": "封测与攻略信息网络相关。"},
-    {"source": "亚丝娜", "target": "希兹克利夫", "type": "副团长/团长", "notes": "同属血盟骑士团；希兹克利夫隐藏茅场身份。"},
-    {"source": "桐人", "target": "希兹克利夫", "type": "决斗/真相对峙", "notes": "二刀流与神圣剑、玩家与GM真相的核心冲突。"},
-    {"source": "桐人", "target": "莉兹贝特", "type": "朋友/装备关联", "notes": "铁匠与武器制作线。"},
-    {"source": "桐人", "target": "西莉卡", "type": "保护/支援", "notes": "桐人帮助较弱玩家应对危险。"},
-    {"source": "桐人", "target": "幸", "type": "队友/创伤", "notes": "月夜黑猫团悲剧塑造桐人心理。"},
-    {"source": "启太", "target": "幸", "type": "团队同伴", "notes": "月夜黑猫团成员关系。"},
-    {"source": "微笑棺木成员", "target": "攻略组", "type": "敌对", "notes": "PK组织威胁前线和普通玩家。"},
-    {"source": "辛卡", "target": "由莉耶儿", "type": "支线同伴", "notes": "艾恩葛朗特解放军内部冲突相关。"}
-  ]
+    {
+      "source": "桐人",
+      "target": "亚丝娜",
+      "type": "搭档/恋人",
+      "notes": "从攻略伙伴成长为艾恩葛朗特篇核心伴侣。"
+    },
+    {
+      "source": "桐人",
+      "target": "克莱因",
+      "type": "开服友人",
+      "notes": "开服初期相识，桐人教导基础操作。"
+    },
+    {
+      "source": "桐人",
+      "target": "阿尔戈",
+      "type": "情报合作",
+      "notes": "封测与攻略信息网络相关。"
+    },
+    {
+      "source": "亚丝娜",
+      "target": "希兹克利夫",
+      "type": "副团长/团长",
+      "notes": "同属血盟骑士团；希兹克利夫隐藏茅场身份。"
+    },
+    {
+      "source": "桐人",
+      "target": "希兹克利夫",
+      "type": "决斗/真相对峙",
+      "notes": "二刀流与神圣剑、玩家与GM真相的核心冲突。"
+    },
+    {
+      "source": "桐人",
+      "target": "莉兹贝特",
+      "type": "朋友/装备关联",
+      "notes": "铁匠与武器制作线。"
+    },
+    {
+      "source": "桐人",
+      "target": "西莉卡",
+      "type": "保护/支援",
+      "notes": "桐人帮助较弱玩家应对危险。"
+    },
+    {
+      "source": "桐人",
+      "target": "幸",
+      "type": "队友/创伤",
+      "notes": "月夜黑猫团悲剧塑造桐人心理。"
+    },
+    {
+      "source": "启太",
+      "target": "幸",
+      "type": "团队同伴",
+      "notes": "月夜黑猫团成员关系。"
+    },
+    {
+      "source": "微笑棺木成员",
+      "target": "攻略组",
+      "type": "敌对",
+      "notes": "PK组织威胁前线和普通玩家。"
+    },
+    {
+      "source": "辛卡",
+      "target": "由莉耶儿",
+      "type": "支线同伴",
+      "notes": "艾恩葛朗特解放军内部冲突相关。"
+    }
+  ],
+  "campaignId": "sword-art-online",
+  "nodes": [
+    {
+      "id": "桐人",
+      "label": "桐人",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "桐人",
+          "mappedId": "桐人",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "桐人",
+              "targetLabel": "桐人",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=桐人"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "桐人",
+          "targetLabel": "桐人",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=桐人"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "亚丝娜",
+      "label": "结城明日奈",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "亚丝娜",
+          "mappedId": "亚丝娜",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "亚丝娜",
+              "targetLabel": "结城明日奈",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=结城明日奈 aliases=亚丝娜"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "亚丝娜",
+          "targetLabel": "结城明日奈",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=结城明日奈 aliases=亚丝娜"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "克莱因",
+      "label": "克莱因",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "克莱因",
+          "mappedId": "克莱因",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "克莱因",
+              "targetLabel": "克莱因",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=克莱因"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "克莱因",
+          "targetLabel": "克莱因",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=克莱因"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "阿尔戈",
+      "label": "阿尔戈",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "阿尔戈",
+          "mappedId": "阿尔戈",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "阿尔戈",
+              "targetLabel": "阿尔戈",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=阿尔戈"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "阿尔戈",
+          "targetLabel": "阿尔戈",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=阿尔戈"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "希兹克利夫",
+      "label": "希兹克利夫",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "希兹克利夫",
+          "mappedId": "希兹克利夫",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "希兹克利夫",
+              "targetLabel": "希兹克利夫",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=希兹克利夫"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "希兹克利夫",
+          "targetLabel": "希兹克利夫",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=希兹克利夫"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "莉兹贝特",
+      "label": "莉兹贝特",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "莉兹贝特",
+          "mappedId": "莉兹贝特",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "莉兹贝特",
+              "targetLabel": "莉兹贝特",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=莉兹贝特"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "莉兹贝特",
+          "targetLabel": "莉兹贝特",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=莉兹贝特"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "西莉卡",
+      "label": "西莉卡",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "西莉卡",
+          "mappedId": "西莉卡",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "西莉卡",
+              "targetLabel": "西莉卡",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=西莉卡"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "西莉卡",
+          "targetLabel": "西莉卡",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=西莉卡"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "幸",
+      "label": "幸",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "幸",
+          "mappedId": "幸",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "幸",
+              "targetLabel": "幸",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=幸"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "幸",
+          "targetLabel": "幸",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=幸"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "启太",
+      "label": "启太",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "启太",
+          "mappedId": "启太",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "启太",
+              "targetLabel": "启太",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=启太"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "启太",
+          "targetLabel": "启太",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=启太"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "微笑棺木成员",
+      "label": "微笑棺木成员",
+      "type": "organization",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "微笑棺木成员",
+          "mappedId": "微笑棺木成员",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "微笑棺木成员",
+              "targetLabel": "微笑棺木成员",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=微笑棺木成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "微笑棺木成员",
+          "targetLabel": "微笑棺木成员",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=微笑棺木成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "攻略组",
+      "label": "攻略组",
+      "type": "organization",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "攻略组",
+          "mappedId": "攻略组",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "攻略组",
+              "targetLabel": "攻略组",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=攻略组"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "攻略组",
+          "targetLabel": "攻略组",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=攻略组"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "辛卡",
+      "label": "辛卡",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "辛卡",
+          "mappedId": "辛卡",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "辛卡",
+              "targetLabel": "辛卡",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=辛卡"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "辛卡",
+          "targetLabel": "辛卡",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=辛卡"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "由莉耶儿",
+      "label": "由莉耶儿",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "由莉耶儿",
+          "mappedId": "由莉耶儿",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-sword-art-online-001",
+              "kind": "characters-index",
+              "targetId": "由莉耶儿",
+              "targetLabel": "由莉耶儿",
+              "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/sword-art-online/curated/characters-index.json",
+              "match": "name=由莉耶儿"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from sword-art-online curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-sword-art-online-001",
+          "kind": "characters-index",
+          "targetId": "由莉耶儿",
+          "targetLabel": "由莉耶儿",
+          "note": "Unique curated match from sword-art-online curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/sword-art-online/curated/characters-index.json",
+          "match": "name=由莉耶儿"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from sword-art-online curated index or knowledge graph."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "桐人",
+      "target": "亚丝娜",
+      "type": "搭档/恋人",
+      "notes": "从攻略伙伴成长为艾恩葛朗特篇核心伴侣。"
+    },
+    {
+      "source": "桐人",
+      "target": "克莱因",
+      "type": "开服友人",
+      "notes": "开服初期相识，桐人教导基础操作。"
+    },
+    {
+      "source": "桐人",
+      "target": "阿尔戈",
+      "type": "情报合作",
+      "notes": "封测与攻略信息网络相关。"
+    },
+    {
+      "source": "亚丝娜",
+      "target": "希兹克利夫",
+      "type": "副团长/团长",
+      "notes": "同属血盟骑士团；希兹克利夫隐藏茅场身份。"
+    },
+    {
+      "source": "桐人",
+      "target": "希兹克利夫",
+      "type": "决斗/真相对峙",
+      "notes": "二刀流与神圣剑、玩家与GM真相的核心冲突。"
+    },
+    {
+      "source": "桐人",
+      "target": "莉兹贝特",
+      "type": "朋友/装备关联",
+      "notes": "铁匠与武器制作线。"
+    },
+    {
+      "source": "桐人",
+      "target": "西莉卡",
+      "type": "保护/支援",
+      "notes": "桐人帮助较弱玩家应对危险。"
+    },
+    {
+      "source": "桐人",
+      "target": "幸",
+      "type": "队友/创伤",
+      "notes": "月夜黑猫团悲剧塑造桐人心理。"
+    },
+    {
+      "source": "启太",
+      "target": "幸",
+      "type": "团队同伴",
+      "notes": "月夜黑猫团成员关系。"
+    },
+    {
+      "source": "微笑棺木成员",
+      "target": "攻略组",
+      "type": "敌对",
+      "notes": "PK组织威胁前线和普通玩家。"
+    },
+    {
+      "source": "辛卡",
+      "target": "由莉耶儿",
+      "type": "支线同伴",
+      "notes": "艾恩葛朗特解放军内部冲突相关。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

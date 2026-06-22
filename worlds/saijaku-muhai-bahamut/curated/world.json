@@ -1,36 +1,125 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "saijaku-muhai-bahamut",
   "displayName": "最弱无败神装机龙",
   "curationStatus": "manual-curated",
-  "sourceRefs": ["src-saijaku-muhai-bahamut-001"],
+  "sourceRefs": [
+    "src-saijaku-muhai-bahamut-001"
+  ],
   "premise": "旧阿卡迪亚帝国覆灭后，新生的亚提司玛特新王国以王立士官学园培养机龙使。前帝国第七皇子路克斯以戴罪杂务员身份进入女子学园，却隐藏着推翻帝国的黑色英雄身份与神装机龙《巴哈姆特》。",
-  "tone": ["学园战斗", "后宫误会喜剧", "政权更替后的身份张力", "古代遗迹冒险", "高负荷机甲决斗"],
+  "tone": [
+    "学园战斗",
+    "后宫误会喜剧",
+    "政权更替后的身份张力",
+    "古代遗迹冒险",
+    "高负荷机甲决斗"
+  ],
   "coreLocations": [
-    {"id": "crossfield", "name": "城塞都市克罗斯菲德", "role": "王都防卫据点与学园所在城市"},
-    {"id": "academy", "name": "王立士官学园", "role": "培养女性机龙使的核心舞台，路克斯成为唯一男学生"},
-    {"id": "hangar", "name": "机龙工房", "role": "莉夏改造和检修机龙的据点"},
-    {"id": "ruins", "name": "古代遗迹群", "role": "箱庭等遗迹保存古代权限、钥匙与幻神兽危机"},
-    {"id": "yggdrasil", "name": "世界树/艾因弗尔克活动圈", "role": "后期强者与七龙骑圣相关政治军事舞台"}
+    {
+      "id": "crossfield",
+      "name": "城塞都市克罗斯菲德",
+      "role": "王都防卫据点与学园所在城市"
+    },
+    {
+      "id": "academy",
+      "name": "王立士官学园",
+      "role": "培养女性机龙使的核心舞台，路克斯成为唯一男学生"
+    },
+    {
+      "id": "hangar",
+      "name": "机龙工房",
+      "role": "莉夏改造和检修机龙的据点"
+    },
+    {
+      "id": "ruins",
+      "name": "古代遗迹群",
+      "role": "箱庭等遗迹保存古代权限、钥匙与幻神兽危机"
+    },
+    {
+      "id": "yggdrasil",
+      "name": "世界树/艾因弗尔克活动圈",
+      "role": "后期强者与七龙骑圣相关政治军事舞台"
+    }
   ],
   "powerSystems": [
-    {"id": "drag-ride", "name": "装甲机龙", "summary": "由机攻壳剑召唤的古代兵装，分泛用机龙与神装机龙。驾驶技术、装甲负荷和机体特性决定战力。"},
-    {"id": "divine-drag-ride", "name": "神装机龙", "summary": "全球稀有的唯一机龙，拥有独自神装能力，如《巴哈姆特》《迪亚玛特》《法夫纳》《堤丰》等。"},
-    {"id": "bahamut", "name": "巴哈姆特与暴食", "summary": "路克斯的漆黑神装机龙，具备时间压缩/强化性质的高风险爆发力，使用后负担极大。"},
-    {"id": "ruin-authority", "name": "遗迹权限/钥匙", "summary": "生存者、钥匙和管理权限能打开遗迹深层，引发政治争夺与幻神兽危机。"},
-    {"id": "abyss", "name": "幻神兽/Abyss", "summary": "遗迹相关的怪物威胁，包含石像鬼、迪亚波罗斯、Ragnarok 等强敌。"}
+    {
+      "id": "drag-ride",
+      "name": "装甲机龙",
+      "summary": "由机攻壳剑召唤的古代兵装，分泛用机龙与神装机龙。驾驶技术、装甲负荷和机体特性决定战力。"
+    },
+    {
+      "id": "divine-drag-ride",
+      "name": "神装机龙",
+      "summary": "全球稀有的唯一机龙，拥有独自神装能力，如《巴哈姆特》《迪亚玛特》《法夫纳》《堤丰》等。"
+    },
+    {
+      "id": "bahamut",
+      "name": "巴哈姆特与暴食",
+      "summary": "路克斯的漆黑神装机龙，具备时间压缩/强化性质的高风险爆发力，使用后负担极大。"
+    },
+    {
+      "id": "ruin-authority",
+      "name": "遗迹权限/钥匙",
+      "summary": "生存者、钥匙和管理权限能打开遗迹深层，引发政治争夺与幻神兽危机。"
+    },
+    {
+      "id": "abyss",
+      "name": "幻神兽/Abyss",
+      "summary": "遗迹相关的怪物威胁，包含石像鬼、迪亚波罗斯、Ragnarok 等强敌。"
+    }
   ],
   "majorFactions": [
-    {"id": "new-kingdom", "name": "亚提司玛特新王国", "stance": "现政权，试图摆脱旧帝国阴影"},
-    {"id": "old-empire", "name": "阿卡迪亚旧帝国残党", "stance": "旧政权残余，常利用路克斯身份与王国裂痕制造危机"},
-    {"id": "academy-knights", "name": "王立士官学园/骑士团", "stance": "学园与学生自警队，主角团日常和作战核心"},
-    {"id": "yggdrasil", "name": "艾因弗尔克/七龙骑圣", "stance": "各国顶尖机龙使与强者网络，牵涉国际秩序"},
-    {"id": "ruin-powers", "name": "遗迹势力与管理者", "stance": "围绕遗迹权限、幻神兽和终末兵器展开行动"}
+    {
+      "id": "new-kingdom",
+      "name": "亚提司玛特新王国",
+      "stance": "现政权，试图摆脱旧帝国阴影"
+    },
+    {
+      "id": "old-empire",
+      "name": "阿卡迪亚旧帝国残党",
+      "stance": "旧政权残余，常利用路克斯身份与王国裂痕制造危机"
+    },
+    {
+      "id": "academy-knights",
+      "name": "王立士官学园/骑士团",
+      "stance": "学园与学生自警队，主角团日常和作战核心"
+    },
+    {
+      "id": "yggdrasil",
+      "name": "艾因弗尔克/七龙骑圣",
+      "stance": "各国顶尖机龙使与强者网络，牵涉国际秩序"
+    },
+    {
+      "id": "ruin-powers",
+      "name": "遗迹势力与管理者",
+      "stance": "围绕遗迹权限、幻神兽和终末兵器展开行动"
+    }
   ],
   "rpGuidelines": [
     "OC 可以作为新生、机龙使、贵族、遗迹调查员或旧帝国相关者介入，但不应抹除路克斯曾推翻帝国的既定事实。",
     "战斗应强调机龙型号、神装能力、负荷、驾驶技与环境，而非单纯数值碾压。",
     "旧帝国身份、莉夏烙印、库露露席法生存者身份等秘密应按剧情阶段逐步揭露。",
     "使用成人导向原始条目时，curated 视图仅保留全年龄人物与世界观框架。"
-  ]
+  ],
+  "worldId": "saijaku-muhai-bahamut",
+  "worldName": "最弱无败神装机龙",
+  "aliases": [],
+  "genre": [
+    "学园战斗",
+    "后宫误会喜剧",
+    "政权更替后的身份张力",
+    "古代遗迹冒险",
+    "高负荷机甲决斗"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

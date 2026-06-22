@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "saijaku-muhai-bahamut",
   "curatedAt": "2026-06-21",
   "sources": [
@@ -25,7 +25,24 @@
     }
   ],
   "conflicts": [
-    {"topic": "译名", "note": "人名与机体名存在中日/音译差异；curated 采用归档中较常见中文译名，别名放入 aliases。"},
-    {"topic": "能力细节", "note": "部分神装技能名和后期卷数仍需逐卷校对。"}
+    {
+      "topic": "译名",
+      "note": "人名与机体名存在中日/音译差异；curated 采用归档中较常见中文译名，别名放入 aliases。"
+    },
+    {
+      "topic": "能力细节",
+      "note": "部分神装技能名和后期卷数仍需逐卷校对。"
+    }
+  ],
+  "campaignId": "saijaku-muhai-bahamut",
+  "conflictLog": [
+    {
+      "topic": "译名",
+      "note": "人名与机体名存在中日/音译差异；curated 采用归档中较常见中文译名，别名放入 aliases。"
+    },
+    {
+      "topic": "能力细节",
+      "note": "部分神装技能名和后期卷数仍需逐卷校对。"
+    }
   ]
 }

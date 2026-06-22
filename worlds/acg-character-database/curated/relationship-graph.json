@@ -1,17 +1,406 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "acg-character-database",
   "relationshipPolicy": "不虚构跨作品人物关系；只记录数据库包含关系、同系列归类与少量源条目中明确的同作品/同系列关系。",
   "relationships": [
-    {"from": "database", "to": "genshin-impact", "type": "contains-source-family", "summary": "原神角色簇。"},
-    {"from": "database", "to": "azur-lane", "type": "contains-source-family", "summary": "碧蓝航线角色簇。"},
-    {"from": "database", "to": "blue-archive", "type": "contains-source-family", "summary": "碧蓝档案角色簇。"},
-    {"from": "database", "to": "honkai-star-rail", "type": "contains-source-family", "summary": "星穹铁道角色簇。"},
-    {"from": "database", "to": "fate", "type": "contains-source-family", "summary": "Fate系列角色簇。"},
-    {"from": "database", "to": "archetypes", "type": "contains", "summary": "人格原型模板簇。"},
-    {"from": "louise-zero", "to": "tabitha-zero", "type": "same-source-work", "summary": "均为零之使魔条目，不在本库构造零之使魔世界关系。"},
-    {"from": "nagatoro", "to": "nagatoro-supporting-cast", "type": "same-source-work", "summary": "早濑长瀞及同作配角同属《不要欺负我，长瀞同学》。"},
-    {"from": "uzaki-hana", "to": "uzaki-tsuki", "type": "same-source-work/family", "summary": "同属《宇崎学妹想要玩！》条目。"},
-    {"from": "ben-tennyson", "to": "gwen-tennyson", "type": "same-source-work/family", "summary": "同属 Ben10 坦尼森家族条目。"}
-  ]
+    {
+      "from": "database",
+      "to": "genshin-impact",
+      "type": "contains-source-family",
+      "summary": "原神角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "azur-lane",
+      "type": "contains-source-family",
+      "summary": "碧蓝航线角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "blue-archive",
+      "type": "contains-source-family",
+      "summary": "碧蓝档案角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "honkai-star-rail",
+      "type": "contains-source-family",
+      "summary": "星穹铁道角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "fate",
+      "type": "contains-source-family",
+      "summary": "Fate系列角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "archetypes",
+      "type": "contains",
+      "summary": "人格原型模板簇。"
+    },
+    {
+      "from": "louise-zero",
+      "to": "tabitha-zero",
+      "type": "same-source-work",
+      "summary": "均为零之使魔条目，不在本库构造零之使魔世界关系。"
+    },
+    {
+      "from": "nagatoro",
+      "to": "nagatoro-supporting-cast",
+      "type": "same-source-work",
+      "summary": "早濑长瀞及同作配角同属《不要欺负我，长瀞同学》。"
+    },
+    {
+      "from": "uzaki-hana",
+      "to": "uzaki-tsuki",
+      "type": "same-source-work/family",
+      "summary": "同属《宇崎学妹想要玩！》条目。"
+    },
+    {
+      "from": "ben-tennyson",
+      "to": "gwen-tennyson",
+      "type": "same-source-work/family",
+      "summary": "同属 Ben10 坦尼森家族条目。"
+    }
+  ],
+  "campaignId": "acg-character-database",
+  "nodes": [
+    {
+      "id": "database",
+      "label": "database",
+      "type": "collection",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'database'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "database",
+          "mappedId": "database",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "genshin-impact",
+      "label": "genshin-impact",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "azur-lane",
+      "label": "azur-lane",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "blue-archive",
+      "label": "blue-archive",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "honkai-star-rail",
+      "label": "honkai-star-rail",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "fate",
+      "label": "fate",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "archetypes",
+      "label": "archetypes",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "louise-zero",
+      "label": "louise-zero",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "tabitha-zero",
+      "label": "tabitha-zero",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nagatoro",
+      "label": "nagatoro",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nagatoro-supporting-cast",
+      "label": "nagatoro-supporting-cast",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "uzaki-hana",
+      "label": "uzaki-hana",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "uzaki-tsuki",
+      "label": "uzaki-tsuki",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "ben-tennyson",
+      "label": "ben-tennyson",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "gwen-tennyson",
+      "label": "gwen-tennyson",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "database",
+      "to": "genshin-impact",
+      "type": "contains-source-family",
+      "summary": "原神角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "azur-lane",
+      "type": "contains-source-family",
+      "summary": "碧蓝航线角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "blue-archive",
+      "type": "contains-source-family",
+      "summary": "碧蓝档案角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "honkai-star-rail",
+      "type": "contains-source-family",
+      "summary": "星穹铁道角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "fate",
+      "type": "contains-source-family",
+      "summary": "Fate系列角色簇。"
+    },
+    {
+      "from": "database",
+      "to": "archetypes",
+      "type": "contains",
+      "summary": "人格原型模板簇。"
+    },
+    {
+      "from": "louise-zero",
+      "to": "tabitha-zero",
+      "type": "same-source-work",
+      "summary": "均为零之使魔条目，不在本库构造零之使魔世界关系。"
+    },
+    {
+      "from": "nagatoro",
+      "to": "nagatoro-supporting-cast",
+      "type": "same-source-work",
+      "summary": "早濑长瀞及同作配角同属《不要欺负我，长瀞同学》。"
+    },
+    {
+      "from": "uzaki-hana",
+      "to": "uzaki-tsuki",
+      "type": "same-source-work/family",
+      "summary": "同属《宇崎学妹想要玩！》条目。"
+    },
+    {
+      "from": "ben-tennyson",
+      "to": "gwen-tennyson",
+      "type": "same-source-work/family",
+      "summary": "同属 Ben10 坦尼森家族条目。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

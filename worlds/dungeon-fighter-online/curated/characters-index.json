@@ -1,1 +1,368 @@
-{"schema":"rp-characters-index-v1","worldId":"dungeon-fighter-online","characters":[{"id":"player-adventurer","name":"冒险家","aliases":["玩家角色","阿拉德冒险者"],"visibility":"public","summary":"可代表多职业主角群体，参与地下城、使徒与地区主线。","roles":["protagonist","adventurer"],"factions":["adventurers"],"locations":["阿拉德"],"powerSystems":["adventurer-classes"],"abilities":["转职技能","觉醒","装备成长"],"items":["职业武器"],"relationships":["seria-kirmin:ally","apostles:enemy"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-dfo-import-readme"],"notes":"需按具体职业生成独立人物。"},{"id":"seria-kirmin","name":"赛丽亚·克鲁敏","aliases":["赛丽亚"],"visibility":"public","summary":"冒险旅途中的关键引导者与支援人物。","roles":["guide","support"],"factions":["adventurers"],"locations":["旅店/城镇"],"powerSystems":[],"abilities":["引导","支援"],"items":[],"relationships":["player-adventurer:ally"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-dfo-import-readme"],"notes":"不同版本定位有差异。"},{"id":"sirocco","name":"希洛克","aliases":["第五使徒"],"visibility":"private","summary":"使徒之一，与悲鸣洞穴等事件相关。","roles":["apostle","antagonist"],"factions":["apostles"],"locations":["悲鸣洞穴/相关副本"],"powerSystems":["apostle-power"],"abilities":["精神/变异相关力量","使徒级战斗"],"items":[],"relationships":["adventurers:enemy"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-dfo-import-readme"],"notes":"版本剧情需校准。"},{"id":"ozma","name":"奥兹玛","aliases":["混沌之神","使徒"],"visibility":"private","summary":"黑色大地与伪装者灾厄核心。","roles":["apostle","antagonist"],"factions":["apostles"],"locations":["黑色大地"],"powerSystems":["apostle-power"],"abilities":["混沌污染","伪装者制造"],"items":[],"relationships":["michael:enemy","adventurers:enemy"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-dfo-import-readme"],"notes":""},{"id":"bakal","name":"巴卡尔","aliases":["爆龙王"],"visibility":"private","summary":"龙族使徒/暴君，与天界封锁和龙之战争相关。","roles":["apostle","dragon-king"],"factions":["apostles"],"locations":["天界/龙之领域"],"powerSystems":["apostle-power"],"abilities":["龙之力量","火焰","统治"],"items":[],"relationships":["adventurers:enemy","heaven:oppressor"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-dfo-import-readme"],"notes":""},{"id":"kazan","name":"卡赞","aliases":["毁灭之鬼神"],"visibility":"private","summary":"鬼剑士鬼手与鬼神传说中的核心存在。","roles":["spirit","legend"],"factions":[],"locations":["传说/封印"],"powerSystems":["adventurer-classes"],"abilities":["鬼神之力","狂暴影响"],"items":[],"relationships":["ghostblade-line:source"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-dfo-classification-report"],"notes":"作为力量源处理。"}],"indices":{"byFaction":{"adventurers":["player-adventurer","seria-kirmin"],"apostles":["sirocco","ozma","bakal"]},"byPowerSystem":{"adventurer-classes":["player-adventurer","kazan"],"apostle-power":["sirocco","ozma","bakal"]},"byVisibility":{"public":["player-adventurer","seria-kirmin"],"private":["sirocco","ozma","bakal","kazan"]},"majorCharacters":["player-adventurer","sirocco","ozma","bakal"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "dungeon-fighter-online",
+  "characters": [
+    {
+      "id": "player-adventurer",
+      "name": "冒险家",
+      "aliases": [
+        "玩家角色",
+        "阿拉德冒险者"
+      ],
+      "visibility": "public",
+      "summary": "可代表多职业主角群体，参与地下城、使徒与地区主线。",
+      "roles": [
+        "protagonist",
+        "adventurer"
+      ],
+      "factions": [
+        "adventurers"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "adventurer-classes"
+      ],
+      "abilities": [
+        "转职技能",
+        "觉醒",
+        "装备成长"
+      ],
+      "items": [
+        "职业武器"
+      ],
+      "relationships": [
+        {
+          "target": "seria-kirmin",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "apostles",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-import-readme"
+      ],
+      "notes": "需按具体职业生成独立人物。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "阿拉德"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 阿拉德"
+      ]
+    },
+    {
+      "id": "seria-kirmin",
+      "name": "赛丽亚·克鲁敏",
+      "aliases": [
+        "赛丽亚"
+      ],
+      "visibility": "public",
+      "summary": "冒险旅途中的关键引导者与支援人物。",
+      "roles": [
+        "guide",
+        "support"
+      ],
+      "factions": [
+        "adventurers"
+      ],
+      "locations": [],
+      "powerSystems": [],
+      "abilities": [
+        "引导",
+        "支援"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "player-adventurer",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-import-readme"
+      ],
+      "notes": "不同版本定位有差异。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "旅店/城镇"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 旅店/城镇"
+      ]
+    },
+    {
+      "id": "sirocco",
+      "name": "希洛克",
+      "aliases": [
+        "第五使徒"
+      ],
+      "visibility": "private",
+      "summary": "使徒之一，与悲鸣洞穴等事件相关。",
+      "roles": [
+        "apostle",
+        "antagonist"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "精神/变异相关力量",
+        "使徒级战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-import-readme"
+      ],
+      "notes": "版本剧情需校准。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "悲鸣洞穴/相关副本"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 悲鸣洞穴/相关副本"
+      ]
+    },
+    {
+      "id": "ozma",
+      "name": "奥兹玛",
+      "aliases": [
+        "混沌之神",
+        "使徒"
+      ],
+      "visibility": "private",
+      "summary": "黑色大地与伪装者灾厄核心。",
+      "roles": [
+        "apostle",
+        "antagonist"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "混沌污染",
+        "伪装者制造"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "michael",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "黑色大地"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 黑色大地"
+      ]
+    },
+    {
+      "id": "bakal",
+      "name": "巴卡尔",
+      "aliases": [
+        "爆龙王"
+      ],
+      "visibility": "private",
+      "summary": "龙族使徒/暴君，与天界封锁和龙之战争相关。",
+      "roles": [
+        "apostle",
+        "dragon-king"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "龙之力量",
+        "火焰",
+        "统治"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "heaven",
+          "targetType": "location",
+          "relation": "oppressor",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "天界/龙之领域"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 天界/龙之领域"
+      ]
+    },
+    {
+      "id": "kazan",
+      "name": "卡赞",
+      "aliases": [
+        "毁灭之鬼神"
+      ],
+      "visibility": "private",
+      "summary": "鬼剑士鬼手与鬼神传说中的核心存在。",
+      "roles": [
+        "spirit",
+        "legend"
+      ],
+      "factions": [],
+      "locations": [],
+      "powerSystems": [
+        "adventurer-classes"
+      ],
+      "abilities": [
+        "鬼神之力",
+        "狂暴影响"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ghostblade-line",
+          "targetType": "concept",
+          "relation": "source",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-classification-report"
+      ],
+      "notes": "作为力量源处理。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "传说/封印"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations unresolved (no safe canonical id): 传说/封印"
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "adventurers": [
+        "player-adventurer",
+        "seria-kirmin"
+      ],
+      "apostles": [
+        "sirocco",
+        "ozma",
+        "bakal"
+      ]
+    },
+    "byPowerSystem": {
+      "adventurer-classes": [
+        "player-adventurer",
+        "kazan"
+      ],
+      "apostle-power": [
+        "sirocco",
+        "ozma",
+        "bakal"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "player-adventurer",
+        "seria-kirmin"
+      ],
+      "private": [
+        "sirocco",
+        "ozma",
+        "bakal",
+        "kazan"
+      ]
+    },
+    "majorCharacters": [
+      "player-adventurer",
+      "seria-kirmin",
+      "sirocco",
+      "ozma",
+      "bakal",
+      "kazan"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

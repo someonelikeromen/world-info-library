@@ -1,1 +1,209 @@
-{"schema":"rp-characters-index-v1","worldId":"spice-and-wolf","characters":[{"id":"lawrence","name":"克拉福·罗伦斯","aliases":["Kraft Lawrence"],"visibility":"public","summary":"行商，聪明稳重，擅长交易与判断风险。","roles":["主角","行商"],"factions":["lawrence-route"],"locations":["road","market-town"],"powerSystems":["spice-trade"],"abilities":["商业谈判","风险控制","旅行规划"],"items":["货车","金币","账本"],"relationships":["holo:旅伴/恋人","colleagues:商路往来"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-spice-and-wolf-001"],"notes":"战力低于见识与嘴炮。"},{"id":"holo","name":"赫萝","aliases":["Holo","约伊兹的贤狼"],"visibility":"public","summary":"狼神，机敏狡黠，喜食苹果并对故乡怀有强烈眷恋。","roles":["女主","神明","贤狼"],"factions":["lawrence-route"],"locations":["road","market-town"],"powerSystems":["holo-divinity"],"abilities":["感知谎言","自然威压","狼形变化"],"items":["尾巴/耳朵","苹果"],"relationships":["lawrence:旅伴/恋人","nora:商路交集"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-spice-and-wolf-001"],"notes":"神性与人性并存。"},{"id":"totto","name":"托特·寇尔","aliases":["Tote Col"],"visibility":"public","summary":"同业/路人角色，体现商路网络与交易生态。","roles":["商人","配角"],"factions":[],"locations":["road","towns"],"powerSystems":["spice-trade"],"abilities":["交易","情报流通"],"items":[],"relationships":[],"importance":"low","evidenceLevel":"C","sourceRefs":["src-spice-and-wolf-001"],"notes":"根据章节可扩展。"},{"id":"muri","name":"缪里","aliases":["Murry"],"visibility":"public","summary":"旅行与信仰线相关的年轻角色。","roles":["配角"],"factions":["church"],"locations":["road","towns"],"powerSystems":[],"abilities":["观察/行动"],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"C","sourceRefs":["src-spice-and-wolf-001"],"notes":"续作线可扩展。"}],"indices":{"byFaction":{"lawrence-route":["lawrence","holo"],"church":["muri"]},"byPowerSystem":{"spice-trade":["lawrence","totto"],"holo-divinity":["holo"]},"byVisibility":{"public":["lawrence","holo","totto","muri"]},"majorCharacters":["lawrence","holo"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "spice-and-wolf",
+  "characters": [
+    {
+      "id": "lawrence",
+      "name": "克拉福·罗伦斯",
+      "aliases": [
+        "Kraft Lawrence"
+      ],
+      "visibility": "public",
+      "summary": "行商，聪明稳重，擅长交易与判断风险。",
+      "roles": [
+        "主角",
+        "行商"
+      ],
+      "factions": [
+        "lawrence-route"
+      ],
+      "locations": [
+        "road",
+        "market-town"
+      ],
+      "powerSystems": [
+        "spice-trade"
+      ],
+      "abilities": [
+        "商业谈判",
+        "风险控制",
+        "旅行规划"
+      ],
+      "items": [
+        "货车",
+        "金币",
+        "账本"
+      ],
+      "relationships": [
+        "holo:旅伴/恋人"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-spice-and-wolf-001"
+      ],
+      "notes": "战力低于见识与嘴炮。 relationship semantic preserved in notes: colleagues is a generic relation label, not a canonical character id."
+    },
+    {
+      "id": "holo",
+      "name": "赫萝",
+      "aliases": [
+        "Holo",
+        "约伊兹的贤狼"
+      ],
+      "visibility": "public",
+      "summary": "狼神，机敏狡黠，喜食苹果并对故乡怀有强烈眷恋。",
+      "roles": [
+        "女主",
+        "神明",
+        "贤狼"
+      ],
+      "factions": [
+        "lawrence-route"
+      ],
+      "locations": [
+        "road",
+        "market-town"
+      ],
+      "powerSystems": [
+        "holo-divinity"
+      ],
+      "abilities": [
+        "感知谎言",
+        "自然威压",
+        "狼形变化"
+      ],
+      "items": [
+        "尾巴/耳朵",
+        "苹果"
+      ],
+      "relationships": [
+        "lawrence:旅伴/恋人"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-spice-and-wolf-001"
+      ],
+      "notes": "神性与人性并存。 relationship semantic preserved in notes: nora is not a canonical character id in the current index."
+    },
+    {
+      "id": "totto",
+      "name": "托特·寇尔",
+      "aliases": [
+        "Tote Col"
+      ],
+      "visibility": "public",
+      "summary": "同业/路人角色，体现商路网络与交易生态。",
+      "roles": [
+        "商人",
+        "配角"
+      ],
+      "factions": [],
+      "locations": [
+        "road"
+      ],
+      "powerSystems": [
+        "spice-trade"
+      ],
+      "abilities": [
+        "交易",
+        "情报流通"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-spice-and-wolf-001"
+      ],
+      "notes": "根据章节可扩展。 locations unresolved (no safe canonical id): towns",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "towns"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "muri",
+      "name": "缪里",
+      "aliases": [
+        "Murry"
+      ],
+      "visibility": "public",
+      "summary": "旅行与信仰线相关的年轻角色。",
+      "roles": [
+        "配角"
+      ],
+      "factions": [
+        "church"
+      ],
+      "locations": [
+        "road"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "观察/行动"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-spice-and-wolf-001"
+      ],
+      "notes": "续作线可扩展。 locations unresolved (no safe canonical id): towns",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "towns"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "lawrence-route": [
+        "lawrence",
+        "holo"
+      ],
+      "church": [
+        "muri"
+      ]
+    },
+    "byPowerSystem": {
+      "spice-trade": [
+        "lawrence",
+        "totto"
+      ],
+      "holo-divinity": [
+        "holo"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "lawrence",
+        "holo",
+        "totto",
+        "muri"
+      ]
+    },
+    "majorCharacters": [
+      "lawrence",
+      "holo"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

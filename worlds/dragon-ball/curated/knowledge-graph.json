@@ -1,1 +1,221 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"dragon-ball","nodes":[{"id":"ki","type":"powerSystem","label":"气"},{"id":"dragon-balls","type":"artifactSystem","label":"龙珠"},{"id":"saiyans","type":"species","label":"赛亚人"},{"id":"namekians","type":"species","label":"那美克星人"},{"id":"z-fighters","type":"faction","label":"Z 战士"},{"id":"frieza-force","type":"faction","label":"弗利萨军"},{"id":"earth","type":"location","label":"地球"},{"id":"namek","type":"location","label":"那美克星"},{"id":"buu-arc","type":"eventArc","label":"魔人布欧篇"}],"edges":[{"from":"saiyans","to":"ki","type":"uses"},{"from":"namekians","to":"dragon-balls","type":"creates"},{"from":"z-fighters","to":"earth","type":"protects"},{"from":"frieza-force","to":"namek","type":"invades"},{"from":"buu-arc","to":"earth","type":"threatens"},{"from":"dragon-balls","to":"earth","type":"can_restore"}],"sourceRefs":["src-dragon-ball-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "dragon-ball",
+  "nodes": [
+    {
+      "id": "ki",
+      "type": "powerSystem",
+      "label": "气"
+    },
+    {
+      "id": "dragon-balls",
+      "type": "artifactSystem",
+      "label": "龙珠"
+    },
+    {
+      "id": "saiyans",
+      "type": "species",
+      "label": "赛亚人"
+    },
+    {
+      "id": "namekians",
+      "type": "species",
+      "label": "那美克星人"
+    },
+    {
+      "id": "z-fighters",
+      "type": "faction",
+      "label": "Z 战士"
+    },
+    {
+      "id": "frieza-force",
+      "type": "faction",
+      "label": "弗利萨军"
+    },
+    {
+      "id": "earth",
+      "type": "location",
+      "label": "地球"
+    },
+    {
+      "id": "namek",
+      "type": "location",
+      "label": "那美克星"
+    },
+    {
+      "id": "buu-arc",
+      "type": "eventArc",
+      "label": "魔人布欧篇"
+    },
+    {
+      "id": "kame-school-earth-martial-arts",
+      "type": "faction",
+      "label": "龟仙流与地球武道界"
+    },
+    {
+      "id": "saiyan-survivors",
+      "type": "faction",
+      "label": "赛亚人残存者"
+    },
+    {
+      "id": "red-ribbon-androids",
+      "type": "faction",
+      "label": "红缎带军团与人造人系统"
+    },
+    {
+      "id": "kai-underworld-system",
+      "type": "faction",
+      "label": "界王神与阴间体系"
+    },
+    {
+      "id": "babidi-majin-buu-camp",
+      "type": "faction",
+      "label": "巴比迪/魔人布欧阵营"
+    },
+    {
+      "id": "capsule-corporation",
+      "type": "faction",
+      "label": "胶囊公司",
+      "summary": "布尔玛家族主导的科技企业。"
+    },
+    {
+      "id": "satan-friendly-buu-branch",
+      "type": "faction",
+      "label": "撒旦友方分支",
+      "summary": "魔人布欧后期友方分支标记。"
+    },
+    {
+      "id": "kame-house",
+      "type": "location",
+      "label": "龟仙屋"
+    },
+    {
+      "id": "world-martial-arts-tournament",
+      "type": "location",
+      "label": "天下第一武道会会场"
+    },
+    {
+      "id": "korin-tower-kami-lookout",
+      "type": "location",
+      "label": "卡林塔/神殿"
+    },
+    {
+      "id": "planet-vegeta-legacy",
+      "type": "location",
+      "label": "贝吉塔行星遗产"
+    },
+    {
+      "id": "king-kai-world-kaioshin-realm",
+      "type": "location",
+      "label": "界王星/界王神界"
+    },
+    {
+      "id": "hyperbolic-time-chamber",
+      "type": "location",
+      "label": "精神时光屋"
+    },
+    {
+      "id": "west-city",
+      "type": "location",
+      "label": "西都",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "universe",
+      "type": "location",
+      "label": "宇宙",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "kami-lookout",
+      "type": "location",
+      "label": "地球神殿",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "king-kai-planet",
+      "type": "location",
+      "label": "界王星",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "kaioshin-realm",
+      "type": "location",
+      "label": "界王神界",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "saiyan-transform",
+      "type": "powerSystem",
+      "label": "赛亚人变身"
+    },
+    {
+      "id": "fusion",
+      "type": "powerSystem",
+      "label": "融合/合体"
+    },
+    {
+      "id": "namekian-biology",
+      "type": "powerSystem",
+      "label": "那美克星人体质/同化"
+    },
+    {
+      "id": "capsule-technology",
+      "type": "powerSystem",
+      "label": "胶囊公司科技"
+    },
+    {
+      "id": "alien-biology",
+      "type": "powerSystem",
+      "label": "宇宙种族体质"
+    },
+    {
+      "id": "magic",
+      "type": "powerSystem",
+      "label": "魔法/魔人术式"
+    }
+  ],
+  "edges": [
+    {
+      "from": "saiyans",
+      "to": "ki",
+      "type": "uses"
+    },
+    {
+      "from": "namekians",
+      "to": "dragon-balls",
+      "type": "creates"
+    },
+    {
+      "from": "z-fighters",
+      "to": "earth",
+      "type": "protects"
+    },
+    {
+      "from": "frieza-force",
+      "to": "namek",
+      "type": "invades"
+    },
+    {
+      "from": "buu-arc",
+      "to": "earth",
+      "type": "threatens"
+    },
+    {
+      "from": "dragon-balls",
+      "to": "earth",
+      "type": "can_restore"
+    }
+  ],
+  "sourceRefs": [
+    "src-dragon-ball-001"
+  ],
+  "campaignId": "dragon-ball",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

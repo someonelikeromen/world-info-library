@@ -1,18 +1,272 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "world-god-only-knows",
   "relationships": [
-    {"from": "桂木桂马", "to": "艾鲁西", "type": "契约搭档/伪兄妹", "status": "驱魂捕获主组合"},
-    {"from": "艾鲁西", "to": "哈克雅", "type": "好友/同僚", "status": "新地狱驱魂队"},
-    {"from": "桂木桂马", "to": "高原步美", "type": "攻略对象/女神篇回收", "status": "关键情感线"},
-    {"from": "桂木桂马", "to": "中川花音", "type": "攻略对象/保护对象", "status": "女神宿主危机"},
-    {"from": "桂木桂马", "to": "汐宫栞", "type": "攻略对象", "status": "图书馆与女神线"},
-    {"from": "桂木桂马", "to": "小阪千寻", "type": "现实情感冲击", "status": "打破公式的重要关系"},
-    {"from": "桂木桂马", "to": "鲇川天理", "type": "青梅竹马/女神宿主", "status": "过去篇与狄安娜线"},
-    {"from": "鲇川天理", "to": "狄安娜", "type": "宿主与女神共存", "status": "记忆保持"},
-    {"from": "正统恶魔社", "to": "朱比特六姐妹", "type": "猎杀/封印", "status": "女神篇主要冲突"},
-    {"from": "诺拉", "to": "哈克雅", "type": "竞争/同僚", "status": "驱魂队内部张力"},
-    {"from": "菲欧蕾", "to": "中川花音", "type": "袭击", "status": "女神篇危机触发"},
-    {"from": "桂木麻里", "to": "桂木桂马", "type": "母子", "status": "日常生活压力"}
-  ]
+    {
+      "from": "keima",
+      "to": "elsie",
+      "type": "契约搭档/伪兄妹",
+      "status": "驱魂捕获主组合"
+    },
+    {
+      "from": "elsie",
+      "to": "haqua",
+      "type": "好友/同僚",
+      "status": "新地狱驱魂队"
+    },
+    {
+      "from": "keima",
+      "to": "ayumi",
+      "type": "攻略对象/女神篇回收",
+      "status": "关键情感线"
+    },
+    {
+      "from": "keima",
+      "to": "kanon",
+      "type": "攻略对象/保护对象",
+      "status": "女神宿主危机"
+    },
+    {
+      "from": "keima",
+      "to": "shiori",
+      "type": "攻略对象",
+      "status": "图书馆与女神线"
+    },
+    {
+      "from": "keima",
+      "to": "chihiro",
+      "type": "现实情感冲击",
+      "status": "打破公式的重要关系"
+    },
+    {
+      "from": "keima",
+      "to": "tenri",
+      "type": "青梅竹马/女神宿主",
+      "status": "过去篇与狄安娜线"
+    },
+    {
+      "from": "tenri",
+      "to": "diana",
+      "type": "宿主与女神共存",
+      "status": "记忆保持"
+    },
+    {
+      "from": "runaway-spirit-squad",
+      "to": "jupiter-sisters",
+      "type": "猎杀/封印",
+      "status": "女神篇主要冲突"
+    },
+    {
+      "from": "nora",
+      "to": "haqua",
+      "type": "竞争/同僚",
+      "status": "驱魂队内部张力"
+    },
+    {
+      "from": "fiore",
+      "to": "kanon",
+      "type": "袭击",
+      "status": "女神篇危机触发"
+    },
+    {
+      "from": "mari",
+      "to": "keima",
+      "type": "母子",
+      "status": "日常生活压力"
+    }
+  ],
+  "campaignId": "world-god-only-knows",
+  "nodes": [
+    {
+      "id": "keima",
+      "label": "桂木桂马",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "elsie",
+      "label": "艾鲁西",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "haqua",
+      "label": "哈克雅",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "ayumi",
+      "label": "高原步美",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "kanon",
+      "label": "中川花音",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "shiori",
+      "label": "汐宫栞",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "chihiro",
+      "label": "小阪千寻",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "tenri",
+      "label": "鲇川天理",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "diana",
+      "label": "狄安娜",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "runaway-spirit-squad",
+      "label": "正统恶魔社",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to faction node."
+      ]
+    },
+    {
+      "id": "jupiter-sisters",
+      "label": "朱比特六姐妹",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to faction node."
+      ]
+    },
+    {
+      "id": "nora",
+      "label": "诺拉",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "fiore",
+      "label": "菲欧蕾",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    },
+    {
+      "id": "mari",
+      "label": "桂木麻里",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub label to character node."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "keima",
+      "to": "elsie",
+      "type": "契约搭档/伪兄妹",
+      "status": "驱魂捕获主组合"
+    },
+    {
+      "from": "elsie",
+      "to": "haqua",
+      "type": "好友/同僚",
+      "status": "新地狱驱魂队"
+    },
+    {
+      "from": "keima",
+      "to": "ayumi",
+      "type": "攻略对象/女神篇回收",
+      "status": "关键情感线"
+    },
+    {
+      "from": "keima",
+      "to": "kanon",
+      "type": "攻略对象/保护对象",
+      "status": "女神宿主危机"
+    },
+    {
+      "from": "keima",
+      "to": "shiori",
+      "type": "攻略对象",
+      "status": "图书馆与女神线"
+    },
+    {
+      "from": "keima",
+      "to": "chihiro",
+      "type": "现实情感冲击",
+      "status": "打破公式的重要关系"
+    },
+    {
+      "from": "keima",
+      "to": "tenri",
+      "type": "青梅竹马/女神宿主",
+      "status": "过去篇与狄安娜线"
+    },
+    {
+      "from": "tenri",
+      "to": "diana",
+      "type": "宿主与女神共存",
+      "status": "记忆保持"
+    },
+    {
+      "from": "runaway-spirit-squad",
+      "to": "jupiter-sisters",
+      "type": "猎杀/封印",
+      "status": "女神篇主要冲突"
+    },
+    {
+      "from": "nora",
+      "to": "haqua",
+      "type": "竞争/同僚",
+      "status": "驱魂队内部张力"
+    },
+    {
+      "from": "fiore",
+      "to": "kanon",
+      "type": "袭击",
+      "status": "女神篇危机触发"
+    },
+    {
+      "from": "mari",
+      "to": "keima",
+      "type": "母子",
+      "status": "日常生活压力"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

@@ -12,3 +12,7 @@
 
 ## 来源追踪
 - 主要依据：`src-kekkaishi-001`；分类报告显示 100 条已完整归档。
+
+## 2026-06-22 MED 规范化补记
+- 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
+- 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。

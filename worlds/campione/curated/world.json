@@ -1,1 +1,67 @@
-{"schema":"rp-world-v1","worldId":"campione","displayName":"弑神者 / Campione","curationStatus":"manual-initial","sourceRefs":["src-campione-001"],"summary":"神话中的神以“不从之神”姿态降临现实，击杀神者成为 Campione 并夺取权能。魔术结社、骑士与巫女围绕弑神者展开政治与战斗。","powerSystems":[{"id":"authority","name":"权能","rules":["弑神夺取神格权柄后形成独特能力组","权能通常有神话条件、咒文、次数或相性限制","理解神话真名可提高对抗效率"]},{"id":"heretic-god","name":"不从之神","rules":["神脱离神话秩序显现，具灾害级存在感","神话属性决定能力与弱点"]},{"id":"magic","name":"魔术/咒术","rules":["人类魔术师以仪式、结社知识、灵视和辅助为主","直接对抗 Campione 或神通常风险极高"]}],"factions":["弑神者们","正史编纂委员会","铜黑十字/赤铜黑十字等魔术结社","不从之神","各国魔术组织"],"locations":["意大利魔术结社圈","日本","神显现灾害现场","各神话遗迹"],"combatRules":["权能需声明触发条件和神话解释。","Campione 对常规魔术具高抗性，但会被同级权能和神格克制。","情报战与神话考据可决定战斗策略。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "campione",
+  "displayName": "弑神者 / Campione",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "summary": "神话中的神以“不从之神”姿态降临现实，击杀神者成为 Campione 并夺取权能。魔术结社、骑士与巫女围绕弑神者展开政治与战斗。",
+  "powerSystems": [
+    {
+      "id": "authority",
+      "name": "权能",
+      "rules": [
+        "弑神夺取神格权柄后形成独特能力组",
+        "权能通常有神话条件、咒文、次数或相性限制",
+        "理解神话真名可提高对抗效率"
+      ]
+    },
+    {
+      "id": "heretic-god",
+      "name": "不从之神",
+      "rules": [
+        "神脱离神话秩序显现，具灾害级存在感",
+        "神话属性决定能力与弱点"
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "魔术/咒术",
+      "rules": [
+        "人类魔术师以仪式、结社知识、灵视和辅助为主",
+        "直接对抗 Campione 或神通常风险极高"
+      ]
+    }
+  ],
+  "factions": [
+    "弑神者们",
+    "正史编纂委员会",
+    "铜黑十字/赤铜黑十字等魔术结社",
+    "不从之神",
+    "各国魔术组织"
+  ],
+  "locations": [
+    "意大利魔术结社圈",
+    "日本",
+    "神显现灾害现场",
+    "各神话遗迹"
+  ],
+  "combatRules": [
+    "权能需声明触发条件和神话解释。",
+    "Campione 对常规魔术具高抗性，但会被同级权能和神格克制。",
+    "情报战与神话考据可决定战斗策略。"
+  ],
+  "visibility": "public",
+  "worldName": "弑神者 / Campione",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

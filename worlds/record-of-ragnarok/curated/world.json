@@ -1,1 +1,65 @@
-{"schema":"rp-world-v1","worldId":"record-of-ragnarok","displayName":"终末的女武神","curationStatus":"manual-initial","sourceRefs":["src-record-of-ragnarok-001"],"summary":"神明审判人类存亡，女武神提出人神十三番决斗。核心是擂台式高概念单挑、神话权能与人类技艺的极限碰撞。","powerSystems":[{"id":"divine-power","name":"神力/神格","rules":["神明具神话权能、神体耐久与专属神器","神格属性决定招式逻辑和弱点"]},{"id":"volundr","name":"神器炼成/Völundr","rules":["女武神与人类斗士灵魂共鸣化作神器","神器形态贴合人类战斗风格","共鸣失败会削弱甚至致命"]},{"id":"human-peak","name":"人类极限技艺","rules":["历史英雄以武技、经验、意志、异能或策略对抗神","情绪与信念可制造突破" ]}],"factions":["诸神阵营","人类代表","女武神十三姊妹","瓦尔哈拉观众/议会"],"locations":["瓦尔哈拉竞技场","神明议会","各回合特设擂台"],"combatRules":["以一对一擂台决胜为默认框架。","神器炼成是人类伤神的关键条件。","战斗叙事重视招式揭示、回忆补完和心理反转。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "record-of-ragnarok",
+  "displayName": "终末的女武神",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-record-of-ragnarok-001"
+  ],
+  "summary": "神明审判人类存亡，女武神提出人神十三番决斗。核心是擂台式高概念单挑、神话权能与人类技艺的极限碰撞。",
+  "powerSystems": [
+    {
+      "id": "divine-power",
+      "name": "神力/神格",
+      "rules": [
+        "神明具神话权能、神体耐久与专属神器",
+        "神格属性决定招式逻辑和弱点"
+      ]
+    },
+    {
+      "id": "volundr",
+      "name": "神器炼成/Völundr",
+      "rules": [
+        "女武神与人类斗士灵魂共鸣化作神器",
+        "神器形态贴合人类战斗风格",
+        "共鸣失败会削弱甚至致命"
+      ]
+    },
+    {
+      "id": "human-peak",
+      "name": "人类极限技艺",
+      "rules": [
+        "历史英雄以武技、经验、意志、异能或策略对抗神",
+        "情绪与信念可制造突破"
+      ]
+    }
+  ],
+  "factions": [
+    "诸神阵营",
+    "人类代表",
+    "女武神十三姊妹",
+    "瓦尔哈拉观众/议会"
+  ],
+  "locations": [
+    "瓦尔哈拉竞技场",
+    "神明议会",
+    "各回合特设擂台"
+  ],
+  "combatRules": [
+    "以一对一擂台决胜为默认框架。",
+    "神器炼成是人类伤神的关键条件。",
+    "战斗叙事重视招式揭示、回忆补完和心理反转。"
+  ],
+  "visibility": "public",
+  "worldName": "终末的女武神",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

@@ -1,1 +1,590 @@
-{"schema":"rp-characters-index-v1","worldId":"dragon-ball","characters":[{"id":"son-goku","name":"孙悟空","aliases":["卡卡罗特"],"visibility":"public","summary":"赛亚人出身的地球武道家，龙珠主要战斗标尺。","roles":["主角","武道家"],"factions":["Z 战士","赛亚人"],"locations":["地球","界王星"],"powerSystems":["ki","saiyan-transform","fusion"],"abilities":["龟派气功","界王拳","元气弹","瞬间移动","超级赛亚人"],"items":[],"relationships":["vegeta:rival","son-gohan:father","bulma:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"强度需按时间线阶段限定。"},{"id":"vegeta","name":"贝吉塔","aliases":["赛亚人王子"],"visibility":"public","summary":"骄傲的赛亚人王子，由敌转友，悟空最重要宿敌。","roles":["宿敌","反英雄"],"factions":["Z 战士","赛亚人"],"locations":["地球"],"powerSystems":["ki","saiyan-transform","fusion"],"abilities":["终极闪光","大爆炸攻击","最终爆炸","超级赛亚人"],"items":["巴特拉耳环"],"relationships":["son-goku:rival","bulma:spouse","trunks:father"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"魔人化属于布欧篇特定状态。"},{"id":"son-gohan","name":"孙悟饭","aliases":["神秘悟饭","赛亚蒙面超人"],"visibility":"public","summary":"悟空长子，混血赛亚人潜力极高，兼具学者与战士身份。","roles":["混血赛亚人","守护者"],"factions":["Z 战士"],"locations":["地球","界王神界"],"powerSystems":["ki","saiyan-transform"],"abilities":["潜力爆发","魔闪光","神秘形态"],"items":[],"relationships":["son-goku:son","piccolo:mentor","videl:spouse"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"情绪与责任感显著影响战斗表现。"},{"id":"piccolo","name":"比克","aliases":["短笛"],"visibility":"public","summary":"那美克星战士，由魔族敌人转为悟饭导师与地球守护者。","roles":["导师","战术家"],"factions":["Z 战士","那美克星人"],"locations":["地球神殿"],"powerSystems":["ki","namekian"],"abilities":["魔贯光杀炮","再生","伸缩肢体","融合同化"],"items":[],"relationships":["son-gohan:mentor","kami:fused"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"同化后强度阶段差异大。"},{"id":"bulma","name":"布尔玛","aliases":[],"visibility":"public","summary":"天才科学家，龙珠雷达与多项技术的核心提供者。","roles":["科学家","后勤"],"factions":["胶囊公司","Z 战士"],"locations":["西都"],"powerSystems":["technology"],"abilities":["发明","维修","情报组织"],"items":["龙珠雷达","万能胶囊"],"relationships":["vegeta:spouse","trunks:mother","son-goku:old-friend"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"非战斗但战略价值极高。"},{"id":"frieza","name":"弗利萨","aliases":["宇宙帝王"],"visibility":"public","summary":"统治宇宙军团的强大暴君，赛亚人与那美克星篇主要敌人。","roles":["反派","统治者"],"factions":["弗利萨军"],"locations":["宇宙","那美克星"],"powerSystems":["ki","alien-biology"],"abilities":["多阶段变身","死亡光束","念动力"],"items":[],"relationships":["son-goku:enemy","vegeta:former-overlord"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"不同复活/形态分支需另行标注。"},{"id":"majin-buu","name":"魔人布欧","aliases":["胖布欧","大布欧","小布欧"],"visibility":"public","summary":"具再生、吸收、魔法变形的古老魔人，布欧篇核心灾厄。","roles":["灾厄","反派/盟友分支"],"factions":["巴比迪阵营","撒旦友方分支"],"locations":["地球","界王神界"],"powerSystems":["magic","ki"],"abilities":["超再生","吸收融合","糖果魔法","星球破坏"],"items":[],"relationships":["mr-satan:friend","babidi:former-master","son-goku:enemy"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dragon-ball-001"],"notes":"形态决定人格与危险级。"}],"indices":{"byFaction":{"Z 战士":["son-goku","vegeta","son-gohan","piccolo","bulma"],"弗利萨军":["frieza"],"巴比迪阵营":["majin-buu"]},"byPowerSystem":{"ki":["son-goku","vegeta","son-gohan","piccolo","frieza","majin-buu"],"saiyan-transform":["son-goku","vegeta","son-gohan"]},"byVisibility":{"public":["son-goku","vegeta","son-gohan","piccolo","bulma","frieza","majin-buu"]},"majorCharacters":["son-goku","vegeta","son-gohan","frieza","majin-buu"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "dragon-ball",
+  "characters": [
+    {
+      "id": "son-goku",
+      "name": "孙悟空",
+      "aliases": [
+        "卡卡罗特"
+      ],
+      "visibility": "public",
+      "summary": "赛亚人出身的地球武道家，龙珠主要战斗标尺。",
+      "roles": [
+        "主角",
+        "武道家"
+      ],
+      "factions": [
+        "z-fighters",
+        "saiyan-survivors"
+      ],
+      "locations": [
+        "earth",
+        "king-kai-planet"
+      ],
+      "powerSystems": [
+        "ki",
+        "saiyan-transform",
+        "fusion"
+      ],
+      "abilities": [
+        "龟派气功",
+        "界王拳",
+        "元气弹",
+        "瞬间移动",
+        "超级赛亚人"
+      ],
+      "items": [],
+      "relationships": [
+        "vegeta:rival",
+        "son-gohan:father",
+        "bulma:ally"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "强度需按时间线阶段限定。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "地球",
+            "界王星"
+          ],
+          "factions": [
+            "Z 战士",
+            "赛亚人"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "vegeta",
+      "name": "贝吉塔",
+      "aliases": [
+        "赛亚人王子"
+      ],
+      "visibility": "public",
+      "summary": "骄傲的赛亚人王子，由敌转友，悟空最重要宿敌。",
+      "roles": [
+        "宿敌",
+        "反英雄"
+      ],
+      "factions": [
+        "z-fighters",
+        "saiyan-survivors"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [
+        "ki",
+        "saiyan-transform",
+        "fusion"
+      ],
+      "abilities": [
+        "终极闪光",
+        "大爆炸攻击",
+        "最终爆炸",
+        "超级赛亚人"
+      ],
+      "items": [
+        "巴特拉耳环"
+      ],
+      "relationships": [
+        "son-goku:rival",
+        "bulma:spouse",
+        "trunks:father"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "魔人化属于布欧篇特定状态。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "地球"
+          ],
+          "factions": [
+            "Z 战士",
+            "赛亚人"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "son-gohan",
+      "name": "孙悟饭",
+      "aliases": [
+        "神秘悟饭",
+        "赛亚蒙面超人"
+      ],
+      "visibility": "public",
+      "summary": "悟空长子，混血赛亚人潜力极高，兼具学者与战士身份。",
+      "roles": [
+        "混血赛亚人",
+        "守护者"
+      ],
+      "factions": [
+        "z-fighters"
+      ],
+      "locations": [
+        "earth",
+        "kaioshin-realm"
+      ],
+      "powerSystems": [
+        "ki",
+        "saiyan-transform"
+      ],
+      "abilities": [
+        "潜力爆发",
+        "魔闪光",
+        "神秘形态"
+      ],
+      "items": [],
+      "relationships": [
+        "son-goku:son",
+        "piccolo:mentor",
+        "videl:spouse"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "情绪与责任感显著影响战斗表现。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "地球",
+            "界王神界"
+          ],
+          "factions": [
+            "Z 战士"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "piccolo",
+      "name": "比克",
+      "aliases": [
+        "短笛"
+      ],
+      "visibility": "public",
+      "summary": "那美克星战士，由魔族敌人转为悟饭导师与地球守护者。",
+      "roles": [
+        "导师",
+        "战术家"
+      ],
+      "factions": [
+        "z-fighters",
+        "namekians"
+      ],
+      "locations": [
+        "kami-lookout"
+      ],
+      "powerSystems": [
+        "ki",
+        "namekian-biology"
+      ],
+      "abilities": [
+        "魔贯光杀炮",
+        "再生",
+        "伸缩肢体",
+        "融合同化"
+      ],
+      "items": [],
+      "relationships": [
+        "son-gohan:mentor",
+        "kami:fused"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "同化后强度阶段差异大。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "地球神殿"
+          ],
+          "factions": [
+            "Z 战士",
+            "那美克星人"
+          ],
+          "powerSystems": [
+            "ki",
+            "namekian"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
+    },
+    {
+      "id": "bulma",
+      "name": "布尔玛",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "天才科学家，龙珠雷达与多项技术的核心提供者。",
+      "roles": [
+        "科学家",
+        "后勤"
+      ],
+      "factions": [
+        "capsule-corporation",
+        "z-fighters"
+      ],
+      "locations": [
+        "west-city"
+      ],
+      "powerSystems": [
+        "capsule-technology"
+      ],
+      "abilities": [
+        "发明",
+        "维修",
+        "情报组织"
+      ],
+      "items": [
+        "龙珠雷达",
+        "万能胶囊"
+      ],
+      "relationships": [
+        "vegeta:spouse",
+        "trunks:mother",
+        "son-goku:old-friend"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "非战斗但战略价值极高。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "西都"
+          ],
+          "factions": [
+            "胶囊公司",
+            "Z 战士"
+          ],
+          "powerSystems": [
+            "technology"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "powerSystems normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.powerSystems."
+      ]
+    },
+    {
+      "id": "frieza",
+      "name": "弗利萨",
+      "aliases": [
+        "宇宙帝王"
+      ],
+      "visibility": "public",
+      "summary": "统治宇宙军团的强大暴君，赛亚人与那美克星篇主要敌人。",
+      "roles": [
+        "反派",
+        "统治者"
+      ],
+      "factions": [
+        "frieza-force"
+      ],
+      "locations": [
+        "universe",
+        "namek"
+      ],
+      "powerSystems": [
+        "ki",
+        "alien-biology"
+      ],
+      "abilities": [
+        "多阶段变身",
+        "死亡光束",
+        "念动力"
+      ],
+      "items": [],
+      "relationships": [
+        "son-goku:enemy",
+        "vegeta:former-overlord"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "不同复活/形态分支需另行标注。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "宇宙",
+            "那美克星"
+          ],
+          "factions": [
+            "弗利萨军"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "majin-buu",
+      "name": "魔人布欧",
+      "aliases": [
+        "胖布欧",
+        "大布欧",
+        "小布欧"
+      ],
+      "visibility": "public",
+      "summary": "具再生、吸收、魔法变形的古老魔人，布欧篇核心灾厄。",
+      "roles": [
+        "灾厄",
+        "反派/盟友分支"
+      ],
+      "factions": [
+        "babidi-majin-buu-camp",
+        "satan-friendly-buu-branch"
+      ],
+      "locations": [
+        "earth",
+        "kaioshin-realm"
+      ],
+      "powerSystems": [
+        "magic",
+        "ki"
+      ],
+      "abilities": [
+        "超再生",
+        "吸收融合",
+        "糖果魔法",
+        "星球破坏"
+      ],
+      "items": [],
+      "relationships": [
+        "mr-satan:friend",
+        "babidi:former-master",
+        "son-goku:enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dragon-ball-001"
+      ],
+      "notes": "形态决定人格与危险级。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "地球",
+            "界王神界"
+          ],
+          "factions": [
+            "巴比迪阵营",
+            "撒旦友方分支"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "z-fighters": [
+        "son-goku",
+        "vegeta",
+        "son-gohan",
+        "piccolo",
+        "bulma"
+      ],
+      "saiyan-survivors": [
+        "son-goku",
+        "vegeta"
+      ],
+      "namekians": [
+        "piccolo"
+      ],
+      "capsule-corporation": [
+        "bulma"
+      ],
+      "frieza-force": [
+        "frieza"
+      ],
+      "babidi-majin-buu-camp": [
+        "majin-buu"
+      ],
+      "satan-friendly-buu-branch": [
+        "majin-buu"
+      ]
+    },
+    "byPowerSystem": {
+      "ki": [
+        "son-goku",
+        "vegeta",
+        "son-gohan",
+        "piccolo",
+        "frieza",
+        "majin-buu"
+      ],
+      "saiyan-transform": [
+        "son-goku",
+        "vegeta",
+        "son-gohan"
+      ],
+      "fusion": [
+        "son-goku",
+        "vegeta"
+      ],
+      "namekian-biology": [
+        "piccolo"
+      ],
+      "capsule-technology": [
+        "bulma"
+      ],
+      "alien-biology": [
+        "frieza"
+      ],
+      "magic": [
+        "majin-buu"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "son-goku",
+        "vegeta",
+        "son-gohan",
+        "piccolo",
+        "bulma",
+        "frieza",
+        "majin-buu"
+      ]
+    },
+    "majorCharacters": [
+      "son-goku",
+      "vegeta",
+      "son-gohan",
+      "frieza",
+      "majin-buu"
+    ],
+    "byId": {
+      "son-goku": "孙悟空",
+      "vegeta": "贝吉塔",
+      "son-gohan": "孙悟饭",
+      "piccolo": "比克",
+      "bulma": "布尔玛",
+      "frieza": "弗利萨",
+      "majin-buu": "魔人布欧"
+    },
+    "byName": {
+      "孙悟空": "son-goku",
+      "贝吉塔": "vegeta",
+      "孙悟饭": "son-gohan",
+      "比克": "piccolo",
+      "布尔玛": "bulma",
+      "弗利萨": "frieza",
+      "魔人布欧": "majin-buu"
+    },
+    "byAffiliation": {
+      "z-fighters": [
+        "son-goku",
+        "vegeta",
+        "son-gohan",
+        "piccolo",
+        "bulma"
+      ],
+      "saiyan-survivors": [
+        "son-goku",
+        "vegeta"
+      ],
+      "namekians": [
+        "piccolo"
+      ],
+      "capsule-corporation": [
+        "bulma"
+      ],
+      "frieza-force": [
+        "frieza"
+      ],
+      "babidi-majin-buu-camp": [
+        "majin-buu"
+      ],
+      "satan-friendly-buu-branch": [
+        "majin-buu"
+      ]
+    },
+    "byTag": {
+      "主角": [
+        "son-goku"
+      ],
+      "武道家": [
+        "son-goku"
+      ],
+      "宿敌": [
+        "vegeta"
+      ],
+      "反英雄": [
+        "vegeta"
+      ],
+      "混血赛亚人": [
+        "son-gohan"
+      ],
+      "守护者": [
+        "son-gohan"
+      ],
+      "导师": [
+        "piccolo"
+      ],
+      "战术家": [
+        "piccolo"
+      ],
+      "科学家": [
+        "bulma"
+      ],
+      "后勤": [
+        "bulma"
+      ],
+      "反派": [
+        "frieza"
+      ],
+      "统治者": [
+        "frieza"
+      ],
+      "灾厄": [
+        "majin-buu"
+      ],
+      "反派/盟友分支": [
+        "majin-buu"
+      ]
+    }
+  }
+}

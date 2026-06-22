@@ -18,3 +18,9 @@
 - JSON 为人工编写，未运行机器校验。
 - 角色表偏“RP 角色类型索引”，不是完整 Blue Archive 全角色数据库。
 - 未修改 raw/imports/既有自动归档文件。
+
+## 运行时门禁补充
+
+- `characters-index.json` 不是完整 Blue Archive 官方固定人物库。
+- 岗位角色、组织角色与 RP 常用身份仅表示可用角色槽位；除明确姓名/`sourceStatus` 标注外，不应当作固定 canon NPC。
+- 运行时应保留“老师/先生”为成人调停者/保护者定位，不从岗位条目推断额外 canon 学生。

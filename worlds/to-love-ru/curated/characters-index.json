@@ -1,29 +1,298 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "to-love-ru",
-  "sourceRefs": ["src-to-love-ru-001"],
+  "sourceRefs": [
+    "src-to-love-ru-001"
+  ],
   "characters": [
-    {"id": "rito-yuuki", "name": "结城梨斗", "aliases": ["梨斗"], "role": "原作主角；彩南高中学生；菈菈名义未婚夫", "affiliations": ["彩南高中", "结城家"], "abilities": "普通人但具有惊人善良、责任感和误会触发体质", "notes": "OC 模式可被替代或作为 NPC。"},
-    {"id": "lala-deviluke", "name": "菈菈·萨塔琳·戴比路克", "aliases": ["拉拉"], "role": "戴比路克第一王女；发明家；第一女主角", "affiliations": ["戴比路克王家", "彩南高中"], "abilities": "超人身体能力、尾巴弱点、各类发明", "notes": "逃婚到地球，引发婚约主线。"},
-    {"id": "haruna-sairenji", "name": "西连寺春菜", "aliases": [], "role": "梨斗暗恋对象；温柔同班同学", "affiliations": ["彩南高中"], "abilities": "日常侧", "notes": "三角关系核心之一。"},
-    {"id": "mikan-yuuki", "name": "结城美柑", "aliases": [], "role": "梨斗妹妹；结城家实际管理者", "affiliations": ["结城家"], "abilities": "家务与冷静判断", "notes": "年少但成熟，常负责收拾混乱。"},
-    {"id": "peke", "name": "沛凯", "aliases": ["佩克", "万能变装机器人"], "role": "菈菈的服装机器人与支援 AI", "affiliations": ["菈菈"], "abilities": "换装、拟态、信息辅助", "notes": "能量不足常导致喜剧危机。"},
-    {"id": "sastin", "name": "萨斯丁", "aliases": ["扎斯丁"], "role": "戴比路克王家亲卫队长", "affiliations": ["戴比路克王家"], "abilities": "剑术与外星战斗力", "notes": "一开始追捕菈菈，后认可梨斗。"},
-    {"id": "gidalucione-deviluke", "name": "戴比路克王", "aliases": ["银河霸主"], "role": "菈菈父亲；银河统治者", "affiliations": ["戴比路克王家"], "abilities": "压倒性王族战力与毁灭地球威慑", "notes": "婚约危机的最高压力源。"},
-    {"id": "nana-deviluke", "name": "娜娜·阿丝达·戴比路克", "aliases": ["娜娜"], "role": "戴比路克第二王女", "affiliations": ["戴比路克王家", "彩南高中"], "abilities": "与动物沟通/使役，王族体能", "notes": "傲娇，常与梦梦成双行动。"},
-    {"id": "momo-deviluke", "name": "梦梦·贝莉雅·戴比路克", "aliases": ["梦梦"], "role": "戴比路克第三王女；乐园计划推动者", "affiliations": ["戴比路克王家", "彩南高中"], "abilities": "植物操控、谋略、社交操盘", "notes": "试图建立以后宫为核心的乐园计划。"},
-    {"id": "yami", "name": "金色暗影", "aliases": ["小暗", "伊芙"], "role": "宇宙暗杀者；生体兵器", "affiliations": ["暗杀者网络", "彩南町"], "abilities": "身体变形、武器化、超高速战斗", "notes": "从追杀梨斗转为重要同伴。"},
-    {"id": "mea-kurosaki", "name": "黑咲芽亚", "aliases": ["芽亚"], "role": "暗影相关兵器少女；转学生", "affiliations": ["涅墨西斯", "彩南高中"], "abilities": "变形与精神干涉相关能力", "notes": "Darkness 线关键人物。"},
-    {"id": "nemesis", "name": "涅墨西斯", "aliases": [], "role": "Darkness 计划相关意识/少女", "affiliations": ["暗影兵器线"], "abilities": "寄生、精神干涉、策划", "notes": "推动小暗失控风险。"},
-    {"id": "yui-kotegawa", "name": "古手川唯", "aliases": [], "role": "风纪委员型同学", "affiliations": ["彩南高中"], "abilities": "纪律与正义感", "notes": "常批判梨斗和菈菈引发的不健全事件。"},
-    {"id": "run-ren", "name": "伦/连·艾尔西·裘利亚", "aliases": ["伦", "连"], "role": "具性别转换特征的外星人；菈菈旧识", "affiliations": ["宇宙社会", "彩南高中/演艺圈"], "abilities": "打喷嚏触发性别人格转换", "notes": "恋爱竞争与演艺线人物。"},
-    {"id": "oshizu", "name": "御门凉子/村雨静", "aliases": ["小静"], "role": "幽灵少女，后与外星技术相关", "affiliations": ["彩南町"], "abilities": "灵体能力", "notes": "常与御门老师和校内怪谈线相关。"},
-    {"id": "ryoko-mikado", "name": "御门凉子", "aliases": ["御门老师"], "role": "校医；宇宙知识持有者", "affiliations": ["彩南高中", "宇宙社会"], "abilities": "医疗、外星技术知识", "notes": "为主角团提供解释与治疗。"},
-    {"id": "celine", "name": "瑟琳", "aliases": [], "role": "菈菈植物生命体/幼女化同伴", "affiliations": ["结城家"], "abilities": "植物生命特性", "notes": "日常治愈与骚动源。"},
-    {"id": "kenichi-saruyama", "name": "猿山健一", "aliases": [], "role": "梨斗好友", "affiliations": ["彩南高中"], "abilities": "普通学生", "notes": "常提供校园男生视角。"},
-    {"id": "zastin-subordinates", "name": "玛乌尔、布瓦兹、布瓦茨", "aliases": ["萨斯丁部下"], "role": "戴比路克亲卫队成员", "affiliations": ["戴比路克王家"], "abilities": "外星士兵能力", "notes": "常用于喜剧支援或王家任务。"},
-    {"id": "giblet", "name": "吉布利/基·不离", "aliases": ["基·不离"], "role": "早期外星追求者反派", "affiliations": ["外星追求者"], "abilities": "伪装与外星体质", "notes": "绑架春菜，促使梨斗证明守护意志。"},
-    {"id": "kyoko-kirisaki", "name": "雾崎恭子", "aliases": [], "role": "魔法少女/演艺角色", "affiliations": ["演艺圈"], "abilities": "火焰等特殊能力", "notes": "可用于外传与演艺事件。"},
-    {"id": "tearju-lunatique", "name": "提亚悠·鲁娜提克", "aliases": [], "role": "金色暗影相关研究者/教师", "affiliations": ["兵器研究线", "彩南高中"], "abilities": "科学知识", "notes": "暗影身世线重要人物。"}
-  ]
+    {
+      "id": "rito-yuuki",
+      "name": "结城梨斗",
+      "aliases": [
+        "梨斗"
+      ],
+      "role": "原作主角；彩南高中学生；菈菈名义未婚夫",
+      "affiliations": [
+        "彩南高中",
+        "结城家"
+      ],
+      "abilities": "普通人但具有惊人善良、责任感和误会触发体质",
+      "notes": "OC 模式可被替代或作为 NPC。"
+    },
+    {
+      "id": "lala-deviluke",
+      "name": "菈菈·萨塔琳·戴比路克",
+      "aliases": [
+        "拉拉"
+      ],
+      "role": "戴比路克第一王女；发明家；第一女主角",
+      "affiliations": [
+        "戴比路克王家",
+        "彩南高中"
+      ],
+      "abilities": "超人身体能力、尾巴弱点、各类发明",
+      "notes": "逃婚到地球，引发婚约主线。"
+    },
+    {
+      "id": "haruna-sairenji",
+      "name": "西连寺春菜",
+      "aliases": [],
+      "role": "梨斗暗恋对象；温柔同班同学",
+      "affiliations": [
+        "彩南高中"
+      ],
+      "abilities": "日常侧",
+      "notes": "三角关系核心之一。"
+    },
+    {
+      "id": "mikan-yuuki",
+      "name": "结城美柑",
+      "aliases": [],
+      "role": "梨斗妹妹；结城家实际管理者",
+      "affiliations": [
+        "结城家"
+      ],
+      "abilities": "家务与冷静判断",
+      "notes": "年少但成熟，常负责收拾混乱。"
+    },
+    {
+      "id": "peke",
+      "name": "沛凯",
+      "aliases": [
+        "佩克",
+        "万能变装机器人"
+      ],
+      "role": "菈菈的服装机器人与支援 AI",
+      "affiliations": [
+        "菈菈"
+      ],
+      "abilities": "换装、拟态、信息辅助",
+      "notes": "能量不足常导致喜剧危机。"
+    },
+    {
+      "id": "sastin",
+      "name": "萨斯丁",
+      "aliases": [
+        "扎斯丁"
+      ],
+      "role": "戴比路克王家亲卫队长",
+      "affiliations": [
+        "戴比路克王家"
+      ],
+      "abilities": "剑术与外星战斗力",
+      "notes": "一开始追捕菈菈，后认可梨斗。"
+    },
+    {
+      "id": "gidalucione-deviluke",
+      "name": "戴比路克王",
+      "aliases": [
+        "银河霸主"
+      ],
+      "role": "菈菈父亲；银河统治者",
+      "affiliations": [
+        "戴比路克王家"
+      ],
+      "abilities": "压倒性王族战力与毁灭地球威慑",
+      "notes": "婚约危机的最高压力源。"
+    },
+    {
+      "id": "nana-deviluke",
+      "name": "娜娜·阿丝达·戴比路克",
+      "aliases": [
+        "娜娜"
+      ],
+      "role": "戴比路克第二王女",
+      "affiliations": [
+        "戴比路克王家",
+        "彩南高中"
+      ],
+      "abilities": "与动物沟通/使役，王族体能",
+      "notes": "傲娇，常与梦梦成双行动。"
+    },
+    {
+      "id": "momo-deviluke",
+      "name": "梦梦·贝莉雅·戴比路克",
+      "aliases": [
+        "梦梦"
+      ],
+      "role": "戴比路克第三王女；乐园计划推动者",
+      "affiliations": [
+        "戴比路克王家",
+        "彩南高中"
+      ],
+      "abilities": "植物操控、谋略、社交操盘",
+      "notes": "试图建立以后宫为核心的乐园计划。"
+    },
+    {
+      "id": "yami",
+      "name": "金色暗影",
+      "aliases": [
+        "小暗",
+        "伊芙"
+      ],
+      "role": "宇宙暗杀者；生体兵器",
+      "affiliations": [
+        "暗杀者网络",
+        "彩南町"
+      ],
+      "abilities": "身体变形、武器化、超高速战斗",
+      "notes": "从追杀梨斗转为重要同伴。"
+    },
+    {
+      "id": "mea-kurosaki",
+      "name": "黑咲芽亚",
+      "aliases": [
+        "芽亚"
+      ],
+      "role": "暗影相关兵器少女；转学生",
+      "affiliations": [
+        "涅墨西斯",
+        "彩南高中"
+      ],
+      "abilities": "变形与精神干涉相关能力",
+      "notes": "Darkness 线关键人物。"
+    },
+    {
+      "id": "nemesis",
+      "name": "涅墨西斯",
+      "aliases": [],
+      "role": "Darkness 计划相关意识/少女",
+      "affiliations": [
+        "暗影兵器线"
+      ],
+      "abilities": "寄生、精神干涉、策划",
+      "notes": "推动小暗失控风险。"
+    },
+    {
+      "id": "yui-kotegawa",
+      "name": "古手川唯",
+      "aliases": [],
+      "role": "风纪委员型同学",
+      "affiliations": [
+        "彩南高中"
+      ],
+      "abilities": "纪律与正义感",
+      "notes": "常批判梨斗和菈菈引发的不健全事件。"
+    },
+    {
+      "id": "run-ren",
+      "name": "伦/连·艾尔西·裘利亚",
+      "aliases": [
+        "伦",
+        "连"
+      ],
+      "role": "具性别转换特征的外星人；菈菈旧识",
+      "affiliations": [
+        "宇宙社会",
+        "彩南高中/演艺圈"
+      ],
+      "abilities": "打喷嚏触发性别人格转换",
+      "notes": "恋爱竞争与演艺线人物。"
+    },
+    {
+      "id": "oshizu",
+      "name": "御门凉子/村雨静",
+      "aliases": [
+        "小静"
+      ],
+      "role": "幽灵少女，后与外星技术相关",
+      "affiliations": [
+        "彩南町"
+      ],
+      "abilities": "灵体能力",
+      "notes": "常与御门老师和校内怪谈线相关。"
+    },
+    {
+      "id": "ryoko-mikado",
+      "name": "御门凉子",
+      "aliases": [
+        "御门老师"
+      ],
+      "role": "校医；宇宙知识持有者",
+      "affiliations": [
+        "彩南高中",
+        "宇宙社会"
+      ],
+      "abilities": "医疗、外星技术知识",
+      "notes": "为主角团提供解释与治疗。"
+    },
+    {
+      "id": "celine",
+      "name": "瑟琳",
+      "aliases": [],
+      "role": "菈菈植物生命体/幼女化同伴",
+      "affiliations": [
+        "结城家"
+      ],
+      "abilities": "植物生命特性",
+      "notes": "日常治愈与骚动源。"
+    },
+    {
+      "id": "kenichi-saruyama",
+      "name": "猿山健一",
+      "aliases": [],
+      "role": "梨斗好友",
+      "affiliations": [
+        "彩南高中"
+      ],
+      "abilities": "普通学生",
+      "notes": "常提供校园男生视角。"
+    },
+    {
+      "id": "zastin-subordinates",
+      "name": "玛乌尔、布瓦兹、布瓦茨",
+      "aliases": [
+        "萨斯丁部下"
+      ],
+      "role": "戴比路克亲卫队成员",
+      "affiliations": [
+        "戴比路克王家"
+      ],
+      "abilities": "外星士兵能力",
+      "notes": "常用于喜剧支援或王家任务。"
+    },
+    {
+      "id": "giblet",
+      "name": "吉布利/基·不离",
+      "aliases": [
+        "基·不离"
+      ],
+      "role": "早期外星追求者反派",
+      "affiliations": [
+        "外星追求者"
+      ],
+      "abilities": "伪装与外星体质",
+      "notes": "绑架春菜，促使梨斗证明守护意志。"
+    },
+    {
+      "id": "kyoko-kirisaki",
+      "name": "雾崎恭子",
+      "aliases": [],
+      "role": "魔法少女/演艺角色",
+      "affiliations": [
+        "演艺圈"
+      ],
+      "abilities": "火焰等特殊能力",
+      "notes": "可用于外传与演艺事件。"
+    },
+    {
+      "id": "tearju-lunatique",
+      "name": "提亚悠·鲁娜提克",
+      "aliases": [],
+      "role": "金色暗影相关研究者/教师",
+      "affiliations": [
+        "兵器研究线",
+        "彩南高中"
+      ],
+      "abilities": "科学知识",
+      "notes": "暗影身世线重要人物。"
+    }
+  ],
+  "worldId": "to-love-ru",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

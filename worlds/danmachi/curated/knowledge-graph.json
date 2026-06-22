@@ -1,1 +1,233 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-danmachi","cardId":"danmachi","nodes":[{"id":"kg-falna","type":"power-system","title":"神之恩惠 Falna","aliases":[],"visibility":"public","summary":"神明给予眷族成长系统。","fullText":"能力值、技能、魔法和升级由主神更新。","tags":["power"],"importance":"critical","source":{"kind":"worldbook","ref":"src-danmachi-classification-report"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-dungeon","type":"location","title":"地下城","aliases":[],"visibility":"public","summary":"欧拉丽地下的巨大迷宫与怪物源头。","fullText":"楼层越深越危险，产出魔石和素材。","tags":["dungeon"],"importance":"critical","source":{"kind":"worldbook","ref":"src-danmachi-import-readme"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-xenos","type":"secret","title":"异端儿","aliases":["Xenos"],"visibility":"gm-only","summary":"拥有智慧与情感的怪物群体。","fullText":"若公开会冲击冒险者与怪物的二元秩序。","tags":["monster","secret"],"importance":"high","source":{"kind":"inference","ref":"src-danmachi-classification-report"},"revealConditions":["地下城特殊遭遇"],"evidenceLevel":"B","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-1","from":"kg-dungeon","to":"kg-falna","type":"supports","visibility":"public","strength":{"level":"A","score":80,"description":"地下城冒险提供成长伟业。"},"description":"冒险者通过地下城战斗积累成长。","gmNotes":""},{"id":"kg-edge-2","from":"kg-xenos","to":"kg-dungeon","type":"located-in","visibility":"gm-only","strength":{"level":"A","score":80,"description":"异端儿隐藏于地下城生态。"},"description":"异端儿秘密连接地下城深层剧情。","gmNotes":""}],"indices":{"byVisibility":{"public":["kg-falna","kg-dungeon"],"gm-only":["kg-xenos"]},"byType":{"power-system":["kg-falna"],"location":["kg-dungeon"],"secret":["kg-xenos"]},"byTag":{"power":["kg-falna"],"dungeon":["kg-dungeon"],"secret":["kg-xenos"]},"activeClues":[],"lockedSecrets":["kg-xenos"]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-danmachi",
+  "cardId": "danmachi",
+  "nodes": [
+    {
+      "id": "kg-falna",
+      "type": "power-system",
+      "title": "神之恩惠 Falna",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "神明给予眷族成长系统。",
+      "fullText": "能力值、技能、魔法和升级由主神更新。",
+      "tags": [
+        "power"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-danmachi-classification-report"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-dungeon",
+      "type": "location",
+      "title": "地下城",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "欧拉丽地下的巨大迷宫与怪物源头。",
+      "fullText": "楼层越深越危险，产出魔石和素材。",
+      "tags": [
+        "dungeon"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-danmachi-import-readme"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-xenos",
+      "type": "secret",
+      "title": "异端儿",
+      "aliases": [
+        "Xenos"
+      ],
+      "visibility": "gm-only",
+      "summary": "拥有智慧与情感的怪物群体。",
+      "fullText": "若公开会冲击冒险者与怪物的二元秩序。",
+      "tags": [
+        "monster",
+        "secret"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "inference",
+        "ref": "src-danmachi-classification-report"
+      },
+      "revealConditions": [
+        "地下城特殊遭遇"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "hestia-familia",
+      "type": "faction",
+      "label": "赫斯缇雅眷族",
+      "summary": "赫斯缇雅眷族",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loki-familia",
+      "type": "faction",
+      "label": "洛基眷族",
+      "summary": "洛基眷族",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "freya-familia",
+      "type": "faction",
+      "label": "芙蕾雅眷族",
+      "summary": "芙蕾雅眷族",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "benevolent-mistress",
+      "type": "faction",
+      "label": "丰饶的女主人",
+      "summary": "丰饶的女主人",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "astraea-familia",
+      "type": "faction",
+      "label": "阿斯特莉亚眷族",
+      "summary": "阿斯特莉亚眷族",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "orario",
+      "type": "location",
+      "label": "欧拉丽",
+      "summary": "欧拉丽",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "babel-tower",
+      "type": "location",
+      "label": "巴别塔",
+      "summary": "巴别塔",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "benevolent-mistress-inn",
+      "type": "location",
+      "label": "丰饶的女主人",
+      "summary": "丰饶的女主人",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "hearth-stone",
+      "type": "location",
+      "label": "炉灶馆",
+      "summary": "炉灶馆",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "dungeon-monster",
+      "type": "power-system",
+      "label": "地下城与魔石生态",
+      "summary": "地下城与魔石生态",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "id": "kg-edge-1",
+      "from": "kg-dungeon",
+      "to": "kg-falna",
+      "type": "supports",
+      "visibility": "public",
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "地下城冒险提供成长伟业。"
+      },
+      "description": "冒险者通过地下城战斗积累成长。",
+      "gmNotes": "",
+      "source": "kg-dungeon",
+      "target": "kg-falna"
+    },
+    {
+      "id": "kg-edge-2",
+      "from": "kg-xenos",
+      "to": "kg-dungeon",
+      "type": "located-in",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "异端儿隐藏于地下城生态。"
+      },
+      "description": "异端儿秘密连接地下城深层剧情。",
+      "gmNotes": "",
+      "source": "kg-xenos",
+      "target": "kg-dungeon"
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "kg-falna",
+        "kg-dungeon"
+      ],
+      "gm-only": [
+        "kg-xenos"
+      ]
+    },
+    "byType": {
+      "power-system": [
+        "kg-falna"
+      ],
+      "location": [
+        "kg-dungeon"
+      ],
+      "secret": [
+        "kg-xenos"
+      ]
+    },
+    "byTag": {
+      "power": [
+        "kg-falna"
+      ],
+      "dungeon": [
+        "kg-dungeon"
+      ],
+      "secret": [
+        "kg-xenos"
+      ]
+    },
+    "activeClues": [],
+    "lockedSecrets": [
+      "kg-xenos"
+    ]
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 10,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

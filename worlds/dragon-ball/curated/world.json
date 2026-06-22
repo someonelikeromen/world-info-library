@@ -1,14 +1,200 @@
 {
-  "schema":"rp-world-v1","worldId":"dragon-ball","displayName":"龙珠","curationStatus":"manual-initial","sourceRefs":["src-dragon-ball-001"],
-  "summary":"以地球武道、宇宙种族、龙珠许愿与跨星系强者战争为核心的高强度战斗世界。力量随修行、血统、变身、合体和神格训练阶梯式膨胀。",
-  "powerSystems":[
-    {"id":"ki","name":"气/战斗力","rules":["气可外放为冲击波、飞行、感知、屏障与强化","战斗力会因爆气、愤怒、濒死恢复和训练急剧变化","隐藏气息与瞬间爆发会误导侦测"]},
-    {"id":"saiyan-transform","name":"赛亚人变身","rules":["尾巴满月可巨猿化","超级赛亚人及后续形态以情绪、训练和能量负荷驱动","混血赛亚人潜力高但受心态影响"]},
-    {"id":"dragon-balls","name":"龙珠许愿","rules":["集齐龙珠召唤神龙/波仑伽实现受制于制造者能力的愿望","复活、修复星球、转移人群等可改变战役结局","冷却与分散机制限制连续使用"]},
-    {"id":"fusion","name":"融合/合体","rules":["融合舞步需姿势同步且有时限","巴特拉耳环提供更稳定强力合体但存在规则例外","合体战士人格与战术独立"]}
+  "schema": "rp-world-v1",
+  "worldId": "dragon-ball",
+  "displayName": "龙珠",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-dragon-ball-001"
   ],
-  "factions":["Z 战士/地球守护者","龟仙流与地球武道界","赛亚人残存者","弗利萨军/宇宙帝王势力","红缎带军团与人造人系统","那美克星人","界王神与阴间体系","巴比迪/魔人布欧阵营"],
-  "locations":["地球","龟仙屋","天下第一武道会会场","卡林塔/神殿","那美克星","贝吉塔行星遗产","界王星/界王神界","精神时光屋"],
-  "combatRules":["速度、能量输出、耐久和再生常比技巧更决定胜负，但武道经验可制造反制窗口。","气弹可造成区域毁灭，RP 中需声明是否压制威力以避免误伤。","瞬间移动、太阳拳、封印、吸收、石化等非纯输出能力可越级影响战局。","龙珠复活会降低死亡的永久性，但召唤条件和敌方干扰是重要限制。"],
-  "timelineNotes":["归档时间线覆盖第一部、Z、布欧篇及剧场版异闻；沙盒默认可从任一节点分歧。"],"visibility":"public"
+  "summary": "以地球武道、宇宙种族、龙珠许愿与跨星系强者战争为核心的高强度战斗世界。力量随修行、血统、变身、合体和神格训练阶梯式膨胀。",
+  "powerSystems": [
+    {
+      "id": "ki",
+      "name": "气/战斗力",
+      "rules": [
+        "气可外放为冲击波、飞行、感知、屏障与强化",
+        "战斗力会因爆气、愤怒、濒死恢复和训练急剧变化",
+        "隐藏气息与瞬间爆发会误导侦测"
+      ]
+    },
+    {
+      "id": "saiyan-transform",
+      "name": "赛亚人变身",
+      "rules": [
+        "尾巴满月可巨猿化",
+        "超级赛亚人及后续形态以情绪、训练和能量负荷驱动",
+        "混血赛亚人潜力高但受心态影响"
+      ]
+    },
+    {
+      "id": "dragon-balls",
+      "name": "龙珠许愿",
+      "rules": [
+        "集齐龙珠召唤神龙/波仑伽实现受制于制造者能力的愿望",
+        "复活、修复星球、转移人群等可改变战役结局",
+        "冷却与分散机制限制连续使用"
+      ]
+    },
+    {
+      "id": "fusion",
+      "name": "融合/合体",
+      "rules": [
+        "融合舞步需姿势同步且有时限",
+        "巴特拉耳环提供更稳定强力合体但存在规则例外",
+        "合体战士人格与战术独立"
+      ]
+    },
+    {
+      "id": "namekian-biology",
+      "name": "那美克星人体质/同化",
+      "rules": [
+        "用于规范化 namekian 标记。"
+      ]
+    },
+    {
+      "id": "capsule-technology",
+      "name": "胶囊公司科技",
+      "rules": [
+        "用于规范化 technology 标记。"
+      ]
+    },
+    {
+      "id": "alien-biology",
+      "name": "宇宙种族体质",
+      "rules": [
+        "用于规范化 alien-biology 标记。"
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "魔法/魔人术式",
+      "rules": [
+        "用于规范化 magic 标记。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "z-fighters",
+      "name": "Z 战士/地球守护者"
+    },
+    {
+      "id": "kame-school-earth-martial-arts",
+      "name": "龟仙流与地球武道界"
+    },
+    {
+      "id": "saiyan-survivors",
+      "name": "赛亚人残存者"
+    },
+    {
+      "id": "frieza-force",
+      "name": "弗利萨军/宇宙帝王势力"
+    },
+    {
+      "id": "red-ribbon-androids",
+      "name": "红缎带军团与人造人系统"
+    },
+    {
+      "id": "namekians",
+      "name": "那美克星人"
+    },
+    {
+      "id": "kai-underworld-system",
+      "name": "界王神与阴间体系"
+    },
+    {
+      "id": "babidi-majin-buu-camp",
+      "name": "巴比迪/魔人布欧阵营"
+    },
+    {
+      "id": "capsule-corporation",
+      "name": "胶囊公司",
+      "summary": "布尔玛家族主导的科技企业。"
+    },
+    {
+      "id": "satan-friendly-buu-branch",
+      "name": "撒旦友方分支",
+      "summary": "魔人布欧后期友方分支标记。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "earth",
+      "name": "地球"
+    },
+    {
+      "id": "kame-house",
+      "name": "龟仙屋"
+    },
+    {
+      "id": "world-martial-arts-tournament",
+      "name": "天下第一武道会会场"
+    },
+    {
+      "id": "korin-tower-kami-lookout",
+      "name": "卡林塔/神殿"
+    },
+    {
+      "id": "namek",
+      "name": "那美克星"
+    },
+    {
+      "id": "planet-vegeta-legacy",
+      "name": "贝吉塔行星遗产"
+    },
+    {
+      "id": "king-kai-world-kaioshin-realm",
+      "name": "界王星/界王神界"
+    },
+    {
+      "id": "hyperbolic-time-chamber",
+      "name": "精神时光屋"
+    },
+    {
+      "id": "west-city",
+      "name": "西都",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "universe",
+      "name": "宇宙",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "kami-lookout",
+      "name": "地球神殿",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "king-kai-planet",
+      "name": "界王星",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    },
+    {
+      "id": "kaioshin-realm",
+      "name": "界王神界",
+      "summary": "为角色索引规范化补入/拆分的地点节点。"
+    }
+  ],
+  "combatRules": [
+    "速度、能量输出、耐久和再生常比技巧更决定胜负，但武道经验可制造反制窗口。",
+    "气弹可造成区域毁灭，RP 中需声明是否压制威力以避免误伤。",
+    "瞬间移动、太阳拳、封印、吸收、石化等非纯输出能力可越级影响战局。",
+    "龙珠复活会降低死亡的永久性，但召唤条件和敌方干扰是重要限制。"
+  ],
+  "timelineNotes": [
+    "归档时间线覆盖第一部、Z、布欧篇及剧场版异闻；沙盒默认可从任一节点分歧。"
+  ],
+  "visibility": "public",
+  "worldName": "龙珠",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
 }

@@ -1,31 +1,312 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "saijaku-muhai-bahamut",
-  "sourceRefs": ["src-saijaku-muhai-bahamut-001"],
+  "sourceRefs": [
+    "src-saijaku-muhai-bahamut-001"
+  ],
   "characters": [
-    {"id": "lux-arcadia", "name": "路克斯·阿卡迪亚", "aliases": ["杂务王子", "最弱无败", "黑色英雄"], "role": "主角；旧帝国第七皇子；王立士官学园唯一男学生", "affiliations": ["阿卡迪亚旧帝国", "王立士官学园"], "dragRide": "飞翔机龙；神装机龙《巴哈姆特》", "notes": "以防御和观察著称，真正实力来自高超驾驶技与巴哈姆特。"},
-    {"id": "lieselotte-atisimarta", "name": "莉姿夏尔蒂·亚提司玛特", "aliases": ["莉夏", "朱红战姬"], "role": "新王国第一公主；女主角之一", "affiliations": ["亚提司玛特新王国", "王立士官学园"], "dragRide": "神装机龙《迪亚玛特》", "notes": "擅长火力与重力控制，隐藏旧帝国烙印秘密。"},
-    {"id": "airi-arcadia", "name": "爱理·阿卡迪亚", "aliases": [], "role": "路克斯亲妹妹；军师与财务监督", "affiliations": ["阿卡迪亚旧帝国", "王立士官学园"], "dragRide": null, "notes": "体弱但头脑优秀，负责吐槽与现实约束。"},
-    {"id": "philuffy-aingram", "name": "菲尔菲·爱格兰姆", "aliases": ["菲酱"], "role": "路克斯青梅竹马；天才机龙使", "affiliations": ["王立士官学园", "爱格兰姆家"], "dragRide": "神装机龙《堤丰》", "notes": "天然呆、嗜甜，肉体与机龙适性异常。"},
-    {"id": "krulcifer-einfolk", "name": "库露露席法·恩芙尔克", "aliases": ["苍蓝的生存者"], "role": "北方大国留学生；遗迹生存者", "affiliations": ["王立士官学园", "恩芙尔克家"], "dragRide": "神装机龙《法夫纳》", "notes": "具备遗迹权限，被保泽里多等势力觊觎。"},
-    {"id": "celistia-ralgris", "name": "赛莉丝缇雅·拉尔格莉丝", "aliases": ["赛莉丝"], "role": "学园骑士团核心；强力机龙使", "affiliations": ["王立士官学园", "四大贵族"], "dragRide": "神装机龙《林德沃姆》", "notes": "起初因男性问题与路克斯冲突，后成为重要同伴。"},
-    {"id": "yueyue", "name": "媛媛/夜架·库莱法", "aliases": ["夜架"], "role": "异国少女与神装机龙使", "affiliations": ["外部势力", "主角团"], "dragRide": "神装机龙《夜叉》", "notes": "后期加入路克斯周边关系网，常与暗杀/异国政治相关。"},
-    {"id": "triad-sharis", "name": "谢里丝·巴尔哈特", "aliases": ["三和音之首"], "role": "学生自警队领袖", "affiliations": ["王立士官学园", "三和音"], "dragRide": "泛用机龙", "notes": "正义感强，负责学园秩序。"},
-    {"id": "triad-tillfur", "name": "媞尔珐·里尔密特", "aliases": [], "role": "三和音成员；情报与协调", "affiliations": ["王立士官学园", "三和音"], "dragRide": "泛用机龙", "notes": "性格开朗，常推动日常事件。"},
-    {"id": "triad-noct", "name": "诺珂特·理芙蕾特", "aliases": [], "role": "三和音成员；冷静支援", "affiliations": ["王立士官学园", "三和音"], "dragRide": "泛用机龙", "notes": "寡言，以 Yes 开头的口癖明显。"},
-    {"id": "reiri-aingram", "name": "蕾莉·爱格兰姆", "aliases": [], "role": "王立士官学园学园长；菲尔菲姐姐", "affiliations": ["王立士官学园", "爱格兰姆家"], "dragRide": null, "notes": "性格强硬随性，常以策略和恶作剧推动局面。"},
-    {"id": "fugil-arcadia", "name": "弗基尔·阿卡迪亚", "aliases": [], "role": "路克斯同父异母兄长；政变关键人物", "affiliations": ["阿卡迪亚旧帝国", "遗迹相关势力"], "dragRide": "神装机龙《乌洛波洛斯》", "notes": "行踪诡秘，是世界真相与终盘危机的重要人物。"},
-    {"id": "hayes", "name": "海兹", "aliases": [], "role": "旧帝国/阴谋侧人物", "affiliations": ["旧帝国残党"], "dragRide": null, "notes": "与旧帝国复辟和遗迹阴谋有关。"},
-    {"id": "rosa-granhide", "name": "萝莎·格兰海德", "aliases": [], "role": "七龙骑圣级机龙使", "affiliations": ["七龙骑圣", "海布格共和国"], "dragRide": "神装机龙", "notes": "代表国际高阶武力。"},
-    {"id": "singlen-shelbrit", "name": "辛格伦·谢布利特", "aliases": [], "role": "七龙骑圣；强硬派", "affiliations": ["七龙骑圣"], "dragRide": "神装机龙", "notes": "野心与强权逻辑明显，常成为路克斯的压力源。"},
-    {"id": "mel-gizalut", "name": "梅尔·吉扎鲁特", "aliases": [], "role": "七龙骑圣之一", "affiliations": ["七龙骑圣"], "dragRide": "神装机龙", "notes": "后期国际强者群像成员。"},
-    {"id": "aeril-vi-arcadia", "name": "艾莉尔/艾莉露·V·阿卡迪亚", "aliases": [], "role": "与阿卡迪亚血统和遗迹秘密相关的人物", "affiliations": ["阿卡迪亚相关"], "dragRide": null, "notes": "用于展开旧帝国血脉与核心真相。"},
-    {"id": "alterize-meiklyea", "name": "艾露堤莉泽·梅可雷雅", "aliases": [], "role": "恩芙尔克家管家；特级机龙使", "affiliations": ["恩芙尔克家"], "dragRide": "泛用/高阶机龙", "notes": "卷二二对二决斗中的关键对手兼保护者。"},
-    {"id": "balzeride-kreutzer", "name": "保泽里多·克洛伊查", "aliases": ["王国霸者"], "role": "四大贵族长男；卷二反派", "affiliations": ["四大贵族"], "dragRide": "神装机龙《艾基·达哈卡》", "notes": "觊觎库露露席法遗迹钥匙身份，能力可夺取/复制他人神装。"},
-    {"id": "ragreed-forus", "name": "拉格利德·佛尔斯", "aliases": [], "role": "前帝国贵族与反派人物", "affiliations": ["旧帝国残党"], "dragRide": null, "notes": "代表旧帝国腐败残余。"},
-    {"id": "barzeride", "name": "别贝特·巴尔特", "aliases": [], "role": "前帝国近卫骑士团长；卷一叛军领袖", "affiliations": ["旧帝国残党"], "dragRide": "机龙", "notes": "召唤幻神兽攻击新王国，促使巴哈姆特再现。"},
-    {"id": "raffy", "name": "拉菲女王/王族成员", "aliases": [], "role": "新王国上层政治人物", "affiliations": ["亚提司玛特新王国"], "dragRide": null, "notes": "用于王国政治与莉夏身世线。"},
-    {"id": "listelka", "name": "莉丝媞卡", "aliases": [], "role": "遗迹/终盘阵营关键人物", "affiliations": ["遗迹相关势力"], "dragRide": null, "notes": "牵涉世界管理者与后期真相。"},
-    {"id": "magialca", "name": "玛姬亚尔卡", "aliases": [], "role": "高阶政治经济人物/强者", "affiliations": ["七龙骑圣或国际势力"], "dragRide": "神装机龙", "notes": "可作为国际事件委托人与强势 NPC。"}
-  ]
+    {
+      "id": "lux-arcadia",
+      "name": "路克斯·阿卡迪亚",
+      "aliases": [
+        "杂务王子",
+        "最弱无败",
+        "黑色英雄"
+      ],
+      "role": "主角；旧帝国第七皇子；王立士官学园唯一男学生",
+      "affiliations": [
+        "阿卡迪亚旧帝国",
+        "王立士官学园"
+      ],
+      "dragRide": "飞翔机龙；神装机龙《巴哈姆特》",
+      "notes": "以防御和观察著称，真正实力来自高超驾驶技与巴哈姆特。"
+    },
+    {
+      "id": "lieselotte-atisimarta",
+      "name": "莉姿夏尔蒂·亚提司玛特",
+      "aliases": [
+        "莉夏",
+        "朱红战姬"
+      ],
+      "role": "新王国第一公主；女主角之一",
+      "affiliations": [
+        "亚提司玛特新王国",
+        "王立士官学园"
+      ],
+      "dragRide": "神装机龙《迪亚玛特》",
+      "notes": "擅长火力与重力控制，隐藏旧帝国烙印秘密。"
+    },
+    {
+      "id": "airi-arcadia",
+      "name": "爱理·阿卡迪亚",
+      "aliases": [],
+      "role": "路克斯亲妹妹；军师与财务监督",
+      "affiliations": [
+        "阿卡迪亚旧帝国",
+        "王立士官学园"
+      ],
+      "dragRide": null,
+      "notes": "体弱但头脑优秀，负责吐槽与现实约束。"
+    },
+    {
+      "id": "philuffy-aingram",
+      "name": "菲尔菲·爱格兰姆",
+      "aliases": [
+        "菲酱"
+      ],
+      "role": "路克斯青梅竹马；天才机龙使",
+      "affiliations": [
+        "王立士官学园",
+        "爱格兰姆家"
+      ],
+      "dragRide": "神装机龙《堤丰》",
+      "notes": "天然呆、嗜甜，肉体与机龙适性异常。"
+    },
+    {
+      "id": "krulcifer-einfolk",
+      "name": "库露露席法·恩芙尔克",
+      "aliases": [
+        "苍蓝的生存者"
+      ],
+      "role": "北方大国留学生；遗迹生存者",
+      "affiliations": [
+        "王立士官学园",
+        "恩芙尔克家"
+      ],
+      "dragRide": "神装机龙《法夫纳》",
+      "notes": "具备遗迹权限，被保泽里多等势力觊觎。"
+    },
+    {
+      "id": "celistia-ralgris",
+      "name": "赛莉丝缇雅·拉尔格莉丝",
+      "aliases": [
+        "赛莉丝"
+      ],
+      "role": "学园骑士团核心；强力机龙使",
+      "affiliations": [
+        "王立士官学园",
+        "四大贵族"
+      ],
+      "dragRide": "神装机龙《林德沃姆》",
+      "notes": "起初因男性问题与路克斯冲突，后成为重要同伴。"
+    },
+    {
+      "id": "yueyue",
+      "name": "媛媛/夜架·库莱法",
+      "aliases": [
+        "夜架"
+      ],
+      "role": "异国少女与神装机龙使",
+      "affiliations": [
+        "外部势力",
+        "主角团"
+      ],
+      "dragRide": "神装机龙《夜叉》",
+      "notes": "后期加入路克斯周边关系网，常与暗杀/异国政治相关。"
+    },
+    {
+      "id": "triad-sharis",
+      "name": "谢里丝·巴尔哈特",
+      "aliases": [
+        "三和音之首"
+      ],
+      "role": "学生自警队领袖",
+      "affiliations": [
+        "王立士官学园",
+        "三和音"
+      ],
+      "dragRide": "泛用机龙",
+      "notes": "正义感强，负责学园秩序。"
+    },
+    {
+      "id": "triad-tillfur",
+      "name": "媞尔珐·里尔密特",
+      "aliases": [],
+      "role": "三和音成员；情报与协调",
+      "affiliations": [
+        "王立士官学园",
+        "三和音"
+      ],
+      "dragRide": "泛用机龙",
+      "notes": "性格开朗，常推动日常事件。"
+    },
+    {
+      "id": "triad-noct",
+      "name": "诺珂特·理芙蕾特",
+      "aliases": [],
+      "role": "三和音成员；冷静支援",
+      "affiliations": [
+        "王立士官学园",
+        "三和音"
+      ],
+      "dragRide": "泛用机龙",
+      "notes": "寡言，以 Yes 开头的口癖明显。"
+    },
+    {
+      "id": "reiri-aingram",
+      "name": "蕾莉·爱格兰姆",
+      "aliases": [],
+      "role": "王立士官学园学园长；菲尔菲姐姐",
+      "affiliations": [
+        "王立士官学园",
+        "爱格兰姆家"
+      ],
+      "dragRide": null,
+      "notes": "性格强硬随性，常以策略和恶作剧推动局面。"
+    },
+    {
+      "id": "fugil-arcadia",
+      "name": "弗基尔·阿卡迪亚",
+      "aliases": [],
+      "role": "路克斯同父异母兄长；政变关键人物",
+      "affiliations": [
+        "阿卡迪亚旧帝国",
+        "遗迹相关势力"
+      ],
+      "dragRide": "神装机龙《乌洛波洛斯》",
+      "notes": "行踪诡秘，是世界真相与终盘危机的重要人物。"
+    },
+    {
+      "id": "hayes",
+      "name": "海兹",
+      "aliases": [],
+      "role": "旧帝国/阴谋侧人物",
+      "affiliations": [
+        "旧帝国残党"
+      ],
+      "dragRide": null,
+      "notes": "与旧帝国复辟和遗迹阴谋有关。"
+    },
+    {
+      "id": "rosa-granhide",
+      "name": "萝莎·格兰海德",
+      "aliases": [],
+      "role": "七龙骑圣级机龙使",
+      "affiliations": [
+        "七龙骑圣",
+        "海布格共和国"
+      ],
+      "dragRide": "神装机龙",
+      "notes": "代表国际高阶武力。"
+    },
+    {
+      "id": "singlen-shelbrit",
+      "name": "辛格伦·谢布利特",
+      "aliases": [],
+      "role": "七龙骑圣；强硬派",
+      "affiliations": [
+        "七龙骑圣"
+      ],
+      "dragRide": "神装机龙",
+      "notes": "野心与强权逻辑明显，常成为路克斯的压力源。"
+    },
+    {
+      "id": "mel-gizalut",
+      "name": "梅尔·吉扎鲁特",
+      "aliases": [],
+      "role": "七龙骑圣之一",
+      "affiliations": [
+        "七龙骑圣"
+      ],
+      "dragRide": "神装机龙",
+      "notes": "后期国际强者群像成员。"
+    },
+    {
+      "id": "aeril-vi-arcadia",
+      "name": "艾莉尔/艾莉露·V·阿卡迪亚",
+      "aliases": [],
+      "role": "与阿卡迪亚血统和遗迹秘密相关的人物",
+      "affiliations": [
+        "阿卡迪亚相关"
+      ],
+      "dragRide": null,
+      "notes": "用于展开旧帝国血脉与核心真相。"
+    },
+    {
+      "id": "alterize-meiklyea",
+      "name": "艾露堤莉泽·梅可雷雅",
+      "aliases": [],
+      "role": "恩芙尔克家管家；特级机龙使",
+      "affiliations": [
+        "恩芙尔克家"
+      ],
+      "dragRide": "泛用/高阶机龙",
+      "notes": "卷二二对二决斗中的关键对手兼保护者。"
+    },
+    {
+      "id": "balzeride-kreutzer",
+      "name": "保泽里多·克洛伊查",
+      "aliases": [
+        "王国霸者"
+      ],
+      "role": "四大贵族长男；卷二反派",
+      "affiliations": [
+        "四大贵族"
+      ],
+      "dragRide": "神装机龙《艾基·达哈卡》",
+      "notes": "觊觎库露露席法遗迹钥匙身份，能力可夺取/复制他人神装。"
+    },
+    {
+      "id": "ragreed-forus",
+      "name": "拉格利德·佛尔斯",
+      "aliases": [],
+      "role": "前帝国贵族与反派人物",
+      "affiliations": [
+        "旧帝国残党"
+      ],
+      "dragRide": null,
+      "notes": "代表旧帝国腐败残余。"
+    },
+    {
+      "id": "barzeride",
+      "name": "别贝特·巴尔特",
+      "aliases": [],
+      "role": "前帝国近卫骑士团长；卷一叛军领袖",
+      "affiliations": [
+        "旧帝国残党"
+      ],
+      "dragRide": "机龙",
+      "notes": "召唤幻神兽攻击新王国，促使巴哈姆特再现。"
+    },
+    {
+      "id": "raffy",
+      "name": "拉菲女王/王族成员",
+      "aliases": [],
+      "role": "新王国上层政治人物",
+      "affiliations": [
+        "亚提司玛特新王国"
+      ],
+      "dragRide": null,
+      "notes": "用于王国政治与莉夏身世线。"
+    },
+    {
+      "id": "listelka",
+      "name": "莉丝媞卡",
+      "aliases": [],
+      "role": "遗迹/终盘阵营关键人物",
+      "affiliations": [
+        "遗迹相关势力"
+      ],
+      "dragRide": null,
+      "notes": "牵涉世界管理者与后期真相。"
+    },
+    {
+      "id": "magialca",
+      "name": "玛姬亚尔卡",
+      "aliases": [],
+      "role": "高阶政治经济人物/强者",
+      "affiliations": [
+        "七龙骑圣或国际势力"
+      ],
+      "dragRide": "神装机龙",
+      "notes": "可作为国际事件委托人与强势 NPC。"
+    }
+  ],
+  "worldId": "saijaku-muhai-bahamut",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

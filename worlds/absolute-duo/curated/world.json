@@ -1,1 +1,163 @@
-{"schema":"rp-world-v1","worldId":"absolute-duo","worldName":"绝对双刃","aliases":["Absolute Duo"],"genre":["学园战斗","灵魂武装","搭档契约"],"summary":"昊陵学园培养能显现灵魂武器‘焰牙’的黎明星纹适合者。学生以双刃搭档制度训练、对战并卷入复仇、人工强化与组织阴谋。","sandboxPrinciple":"不固定搭档与复仇结局；学园训练、对抗赛、组织袭击和个人成长可自由分支。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["核心不是大型魔法环境，而是体内星纹与灵魂武装。"],"powerSystems":[{"id":"blaze","name":"黎明星纹与焰牙","category":"soul-weapon-manifestation","principle":"植入/适配黎明星纹后可将灵魂具现为武器焰牙；多数为武器，透流为特例盾。","classification":["Soul","Weapon","Enhancement"],"energySource":"internal-soul-and-lucifer","hasExternalEnergy":false,"externalEnergyName":"黎明星纹","energyTraits":[{"tag":"soul-form","level":"B","description":"武器形态反映个体灵魂与战斗倾向。"}],"levelMapping":[],"commonResources":["黎明星纹","焰牙","双刃搭档"],"commonAbilities":["灵魂武装显现","体能强化","搭档连携"],"limitations":["适性、等级和精神状态限制输出；人工强化存在风险。"],"compatibilityNotes":[]}],"factions":[{"id":"kouryou-academy","name":"昊陵学园","type":"battle-academy","summary":"培养焰牙使用者的学园。","powerSystemAffinity":["blaze"],"publicRules":["双刃搭档制度","等级训练"],"hiddenRules":[],"attitudeToOutsiders":"regulated","knownMembers":["tooru","julie","lilith","tomoe","miyabi","tora","imari","sakuya","tsukimi"],"territories":["kouryou-academy"],"resources":["训练设施","星纹研究"],"conflicts":["revenge-line","rebel-orgs"]}],"energyEnvironment":{"externalEnergies":[],"restrictedZones":[],"specialFields":[]},"worldRules":{"publicLaws":["现代日本社会与学园规则"],"supernaturalRules":["焰牙由灵魂具现","双刃搭档共同训练与对战"],"taboos":["滥用人工强化","对非战斗学生致命攻击"],"knownExceptions":["九重透流焰牙为盾而非普通武器。"]},"locations":[{"id":"kouryou-academy","name":"昊陵学园","type":"academy","summary":"主舞台。"},{"id":"training-arena","name":"训练场/对抗赛场","type":"combat-site","summary":"焰牙训练与排名战地点。"}],"publicEvents":[{"id":"tooru-enrolls","name":"透流入学与双刃结成","summary":"九重透流进入昊陵学园，与尤莉叶成为搭档。"}],"hiddenEvents":[{"id":"tooru-revenge","name":"透流复仇线","summary":"透流入学动机与过去袭击相关。"}]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "absolute-duo",
+  "worldName": "绝对双刃",
+  "aliases": [
+    "Absolute Duo"
+  ],
+  "genre": [
+    "学园战斗",
+    "灵魂武装",
+    "搭档契约"
+  ],
+  "summary": "昊陵学园培养能显现灵魂武器‘焰牙’的黎明星纹适合者。学生以双刃搭档制度训练、对战并卷入复仇、人工强化与组织阴谋。",
+  "sandboxPrinciple": {
+    "summary": "不固定搭档与复仇结局；学园训练、对抗赛、组织袭击和个人成长可自由分支。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "核心不是大型魔法环境，而是体内星纹与灵魂武装。"
+  ],
+  "powerSystems": [
+    {
+      "id": "blaze",
+      "name": "黎明星纹与焰牙",
+      "category": "soul-weapon-manifestation",
+      "principle": "植入/适配黎明星纹后可将灵魂具现为武器焰牙；多数为武器，透流为特例盾。",
+      "classification": [
+        "Soul",
+        "Weapon",
+        "Enhancement"
+      ],
+      "energySource": "internal-soul-and-lucifer",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "黎明星纹",
+      "energyTraits": [
+        {
+          "tag": "soul-form",
+          "level": "B",
+          "description": "武器形态反映个体灵魂与战斗倾向。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "黎明星纹",
+        "焰牙",
+        "双刃搭档"
+      ],
+      "commonAbilities": [
+        "灵魂武装显现",
+        "体能强化",
+        "搭档连携"
+      ],
+      "limitations": [
+        "适性、等级和精神状态限制输出；人工强化存在风险。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "kouryou-academy",
+      "name": "昊陵学园",
+      "type": "battle-academy",
+      "summary": "培养焰牙使用者的学园。",
+      "powerSystemAffinity": [
+        "blaze"
+      ],
+      "publicRules": [
+        "双刃搭档制度",
+        "等级训练"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "regulated",
+      "knownMembers": [
+        "tooru",
+        "julie",
+        "lilith",
+        "tomoe",
+        "miyabi",
+        "sakuya",
+        "tsukimi"
+      ],
+      "territories": [
+        "kouryou-academy"
+      ],
+      "resources": [
+        "训练设施",
+        "星纹研究"
+      ],
+      "conflicts": [
+        "revenge-line",
+        "rebel-orgs"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "tora",
+            "imari"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.knownMembers."
+      ],
+      "notes": "knownMembers unresolved (not present in characters-index ids): tora, imari"
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [],
+    "restrictedZones": [],
+    "specialFields": []
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代日本社会与学园规则"
+    ],
+    "supernaturalRules": [
+      "焰牙由灵魂具现",
+      "双刃搭档共同训练与对战"
+    ],
+    "taboos": [
+      "滥用人工强化",
+      "对非战斗学生致命攻击"
+    ],
+    "knownExceptions": [
+      "九重透流焰牙为盾而非普通武器。"
+    ]
+  },
+  "locations": [
+    {
+      "id": "kouryou-academy",
+      "name": "昊陵学园",
+      "type": "academy",
+      "summary": "主舞台。"
+    },
+    {
+      "id": "training-arena",
+      "name": "训练场/对抗赛场",
+      "type": "combat-site",
+      "summary": "焰牙训练与排名战地点。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "tooru-enrolls",
+      "name": "透流入学与双刃结成",
+      "summary": "九重透流进入昊陵学园，与尤莉叶成为搭档。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "tooru-revenge",
+      "name": "透流复仇线",
+      "summary": "透流入学动机与过去袭击相关。"
+    }
+  ]
+}

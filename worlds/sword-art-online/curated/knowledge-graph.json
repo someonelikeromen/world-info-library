@@ -1,30 +1,126 @@
 {
-  "schema": "curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "sword-art-online",
   "nodes": [
-    {"id": "aincrad", "label": "艾恩葛朗特", "type": "location/world"},
-    {"id": "nervegear", "label": "NerveGear", "type": "technology"},
-    {"id": "death-game", "label": "死亡游戏规则", "type": "system"},
-    {"id": "sword-skills", "label": "剑技", "type": "power-system"},
-    {"id": "delay", "label": "硬直", "type": "combat-rule"},
-    {"id": "skill-connect", "label": "Skill Connect", "type": "advanced-technique"},
-    {"id": "dual-blades", "label": "二刀流", "type": "unique-skill"},
-    {"id": "holy-sword", "label": "神圣剑", "type": "unique-skill"},
-    {"id": "kob", "label": "血盟骑士团", "type": "guild"},
-    {"id": "alf", "label": "艾恩葛朗特解放军", "type": "guild"},
-    {"id": "laughing-coffin", "label": "微笑棺木", "type": "red-guild"},
-    {"id": "floor-boss", "label": "楼层Boss", "type": "encounter"}
+    {
+      "id": "aincrad",
+      "label": "艾恩葛朗特",
+      "type": "location/world"
+    },
+    {
+      "id": "nervegear",
+      "label": "NerveGear",
+      "type": "technology"
+    },
+    {
+      "id": "death-game",
+      "label": "死亡游戏规则",
+      "type": "system"
+    },
+    {
+      "id": "sword-skills",
+      "label": "剑技",
+      "type": "power-system"
+    },
+    {
+      "id": "delay",
+      "label": "硬直",
+      "type": "combat-rule"
+    },
+    {
+      "id": "skill-connect",
+      "label": "Skill Connect",
+      "type": "advanced-technique"
+    },
+    {
+      "id": "dual-blades",
+      "label": "二刀流",
+      "type": "unique-skill"
+    },
+    {
+      "id": "holy-sword",
+      "label": "神圣剑",
+      "type": "unique-skill"
+    },
+    {
+      "id": "kob",
+      "label": "血盟骑士团",
+      "type": "guild"
+    },
+    {
+      "id": "alf",
+      "label": "艾恩葛朗特解放军",
+      "type": "guild"
+    },
+    {
+      "id": "laughing-coffin",
+      "label": "微笑棺木",
+      "type": "red-guild"
+    },
+    {
+      "id": "floor-boss",
+      "label": "楼层Boss",
+      "type": "encounter"
+    }
   ],
   "edges": [
-    {"from": "nervegear", "to": "death-game", "relation": "enforces"},
-    {"from": "death-game", "to": "aincrad", "relation": "defines-survival-context"},
-    {"from": "sword-skills", "to": "delay", "relation": "causes-after-use"},
-    {"from": "skill-connect", "to": "delay", "relation": "mitigates-through-timing"},
-    {"from": "dual-blades", "to": "sword-skills", "relation": "unique-extension"},
-    {"from": "holy-sword", "to": "sword-skills", "relation": "unique-defense-offense"},
-    {"from": "kob", "to": "floor-boss", "relation": "leads-raids-against"},
-    {"from": "alf", "to": "floor-boss", "relation": "participates-in-raids"},
-    {"from": "laughing-coffin", "to": "death-game", "relation": "exploits"},
-    {"from": "floor-boss", "to": "aincrad", "relation": "gates-floor-progress"}
-  ]
+    {
+      "from": "nervegear",
+      "to": "death-game",
+      "relation": "enforces"
+    },
+    {
+      "from": "death-game",
+      "to": "aincrad",
+      "relation": "defines-survival-context"
+    },
+    {
+      "from": "sword-skills",
+      "to": "delay",
+      "relation": "causes-after-use"
+    },
+    {
+      "from": "skill-connect",
+      "to": "delay",
+      "relation": "mitigates-through-timing"
+    },
+    {
+      "from": "dual-blades",
+      "to": "sword-skills",
+      "relation": "unique-extension"
+    },
+    {
+      "from": "holy-sword",
+      "to": "sword-skills",
+      "relation": "unique-defense-offense"
+    },
+    {
+      "from": "kob",
+      "to": "floor-boss",
+      "relation": "leads-raids-against"
+    },
+    {
+      "from": "alf",
+      "to": "floor-boss",
+      "relation": "participates-in-raids"
+    },
+    {
+      "from": "laughing-coffin",
+      "to": "death-game",
+      "relation": "exploits"
+    },
+    {
+      "from": "floor-boss",
+      "to": "aincrad",
+      "relation": "gates-floor-progress"
+    }
+  ],
+  "campaignId": "sword-art-online",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

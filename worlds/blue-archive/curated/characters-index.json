@@ -1,28 +1,455 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "blue-archive",
   "displayName": "蔚蓝档案 / 基沃托斯",
   "sourceCaveat": "原归档 characters/characters.json 为空；以下清单以归档中明确提及的姓名、组织岗位与 RP 常用学生类型整理。",
   "characters": [
-    {"id": "sensei", "name": "老师/先生", "type": "玩家/核心成人", "affiliation": ["夏莱", "联邦学生会授权"], "sourceStatus": "RP常用核心身份，世界条目隐含成人调停者功能", "role": "学生信任的指挥与调停者", "traits": ["可靠", "外来视角", "重视学生"], "abilities": ["战术指挥", "行政协调", "信任构建"], "rpUse": "最适合玩家身份或任务发布中心。"},
-    {"id": "federal-president", "name": "联邦学生会长", "type": "缺席关键人物", "affiliation": ["联邦学生会"], "sourceStatus": "由联邦学生会/神圣之塔设定引出", "role": "基沃托斯最高行政象征", "traits": ["神秘", "责任重大"], "abilities": ["神圣之塔权限", "政治号召"], "rpUse": "失踪、遗留指令、权限危机线。"},
-    {"id": "fsc-executive", "name": "联邦学生会干部", "type": "岗位角色", "affiliation": ["联邦学生会"], "sourceStatus": "归档明确有联邦学生会", "role": "统筹各校与直辖区行政", "traits": ["官僚", "压力大"], "abilities": ["协调", "文书", "危机发布"], "rpUse": "跨校任务与政治压力来源。"},
-    {"id": "tea-party-host", "name": "茶会举办者", "type": "岗位角色", "affiliation": ["三一综合学园", "茶会"], "sourceStatus": "归档明确提及茶会三位负责人和举办者", "role": "三一事实学生会长", "traits": ["优雅", "政治性", "重传统"], "abilities": ["派系协调", "外交"], "rpUse": "三一政治与公会议历史线。"},
-    {"id": "justice-task-force-student", "name": "实现正义部学生", "type": "组织角色", "affiliation": ["三一综合学园", "实现正义部"], "sourceStatus": "归档明确提及", "role": "三一执法机关成员", "traits": ["纪律", "正义感", "对格黑娜警惕"], "abilities": ["执法", "枪械", "巡逻"], "rpUse": "校园执法、误会冲突与护卫任务。"},
-    {"id": "trinity-sister", "name": "三一修女会成员", "type": "组织角色", "affiliation": ["三一综合学园", "修女会"], "sourceStatus": "归档明确提及", "role": "宗教/护理/传统力量", "traits": ["虔诚", "温和", "保守"], "abilities": ["医疗支援", "仪式", "社群照顾"], "rpUse": "治疗、避难、传统派政治。"},
-    {"id": "remedial-knight", "name": "救援骑士团成员", "type": "组织角色", "affiliation": ["三一综合学园", "救援骑士团"], "sourceStatus": "归档明确提及", "role": "救护与战场支援", "traits": ["献身", "可靠"], "abilities": ["急救", "战场撤离"], "rpUse": "伤员救助与紧急任务。"},
-    {"id": "hina", "name": "空崎阳奈", "type": "关键姓名", "affiliation": ["格黑娜学园", "风纪委员会"], "sourceStatus": "归档明确提及", "role": "格黑娜实际秩序核心", "traits": ["强大", "负责", "疲惫", "威慑力"], "abilities": ["极强战斗力", "政治手腕", "风纪指挥"], "rpUse": "格黑娜危机调停、强力盟友或压力源。"},
-    {"id": "pandemonium-member", "name": "万魔殿成员", "type": "组织角色", "affiliation": ["格黑娜学园", "万魔殿"], "sourceStatus": "归档明确提及", "role": "名义学生会成员，常与风纪委员会冲突", "traits": ["好面子", "官僚", "捣乱"], "abilities": ["行政名义", "宣传"], "rpUse": "政治笑剧与格黑娜内斗。"},
-    {"id": "prefect-team-student", "name": "风纪委员会学生", "type": "组织角色", "affiliation": ["格黑娜学园", "风纪委员会"], "sourceStatus": "归档明确提及", "role": "格黑娜实际治安力量", "traits": ["忙碌", "纪律", "对混乱零容忍"], "abilities": ["镇压", "巡逻", "枪械战"], "rpUse": "追捕温泉开发部、美食研究会或黑市事件。"},
-    {"id": "hot-spring-dev", "name": "温泉开发部成员", "type": "社团角色", "affiliation": ["格黑娜学园", "温泉开发部"], "sourceStatus": "归档明确提及", "role": "为温泉开发制造爆破事件的社团", "traits": ["狂热", "行动派", "破坏性"], "abilities": ["爆破", "地质/水脉执念"], "rpUse": "喜剧灾害、火山水脉任务。"},
-    {"id": "gourmet-researcher", "name": "美食研究会成员", "type": "社团角色", "affiliation": ["格黑娜学园", "美食研究会"], "sourceStatus": "归档明确提及", "role": "以美食为由引发骚动", "traits": ["贪吃", "执着", "破格"], "abilities": ["突袭", "搜寻食材"], "rpUse": "餐厅、黑市与城市骚乱。"},
-    {"id": "millennium-seminar", "name": "研讨会成员", "type": "组织角色", "affiliation": ["千禧年科学学院", "研讨会"], "sourceStatus": "归档明确提及", "role": "千禧年学生会/研究管理者", "traits": ["理性", "精英", "谜题导向"], "abilities": ["科研管理", "科技战", "数据分析"], "rpUse": "七大谜题、古代废墟和要塞都市线。"},
-    {"id": "rio", "name": "莉音", "type": "关键姓名", "affiliation": ["千禧年科学学院", "研讨会"], "sourceStatus": "归档明确提及研讨会长莉音", "role": "研讨会长，修建要塞都市的强势决策者", "traits": ["冷静", "远见", "控制欲"], "abilities": ["战略规划", "大型工程", "科技资源"], "rpUse": "千禧年高层决策、要塞都市危机。"},
-    {"id": "c-and-c-agent", "name": "Cleaning & Clearing 部成员", "type": "组织角色", "affiliation": ["千禧年科学学院", "C&C"], "sourceStatus": "归档明确提及", "role": "特别行动人员", "traits": ["专业", "隐秘", "高机动"], "abilities": ["潜入", "战术行动", "科技装备"], "rpUse": "特工任务与高科技潜入。"},
-    {"id": "robot-security", "name": "自律机器人安保", "type": "非人角色", "affiliation": ["千禧年/基沃托斯企业"], "sourceStatus": "归档明确提及自律机器人普及", "role": "授课、服务、安保与防卫", "traits": ["程序化", "可故障", "可量产"], "abilities": ["警戒", "火力", "服务"], "rpUse": "故障暴走、安保谜题、科技日常。"},
-    {"id": "kisaki", "name": "龙华妃咲", "type": "关键姓名", "affiliation": ["山海经高级中学", "玄龙门"], "sourceStatus": "归档明确提及", "role": "玄龙门现任会长，被称为黑色君主", "traits": ["威严", "调停者", "改革倾向"], "abilities": ["政治协调", "威信"], "rpUse": "山海经内部贸易冲突与改革线。"},
-    {"id": "genryumon-member", "name": "玄龙门成员", "type": "组织角色", "affiliation": ["山海经高级中学", "玄龙门"], "sourceStatus": "归档明确提及", "role": "山海经学生会成员", "traits": ["传统", "纪律", "门派感"], "abilities": ["行政", "武装护卫"], "rpUse": "山海经政治与治安。"},
-    {"id": "genbu-merchant", "name": "玄武商会成员", "type": "组织角色", "affiliation": ["山海经高级中学", "玄武商会"], "sourceStatus": "归档明确提及", "role": "贸易社团成员，与玄龙门长期不和", "traits": ["精明", "商业化", "地方文化强"], "abilities": ["贸易", "情报", "物资调度"], "rpUse": "贸易争端、走私与外交通道。"},
-    {"id": "alchemy-club", "name": "炼丹术研究部成员", "type": "社团角色", "affiliation": ["山海经高级中学"], "sourceStatus": "归档明确提及", "role": "山海经特色研究社团", "traits": ["实验性", "传统技术", "好奇"], "abilities": ["炼丹", "药物/材料研究"], "rpUse": "药剂事故、文化神秘线。"}
-  ]
+    {
+      "id": "sensei",
+      "name": "老师/先生",
+      "type": "玩家/核心成人",
+      "affiliation": [
+        "夏莱",
+        "联邦学生会授权"
+      ],
+      "sourceStatus": "RP常用核心身份，世界条目隐含成人调停者功能",
+      "role": "学生信任的指挥与调停者",
+      "traits": [
+        "可靠",
+        "外来视角",
+        "重视学生"
+      ],
+      "abilities": [
+        "战术指挥",
+        "行政协调",
+        "信任构建"
+      ],
+      "rpUse": "最适合玩家身份或任务发布中心。"
+    },
+    {
+      "id": "federal-president",
+      "name": "联邦学生会长",
+      "type": "缺席关键人物",
+      "affiliation": [
+        "联邦学生会"
+      ],
+      "sourceStatus": "由联邦学生会/神圣之塔设定引出",
+      "role": "基沃托斯最高行政象征",
+      "traits": [
+        "神秘",
+        "责任重大"
+      ],
+      "abilities": [
+        "神圣之塔权限",
+        "政治号召"
+      ],
+      "rpUse": "失踪、遗留指令、权限危机线。"
+    },
+    {
+      "id": "fsc-executive",
+      "name": "联邦学生会干部",
+      "type": "岗位角色",
+      "affiliation": [
+        "联邦学生会"
+      ],
+      "sourceStatus": "归档明确有联邦学生会",
+      "role": "统筹各校与直辖区行政",
+      "traits": [
+        "官僚",
+        "压力大"
+      ],
+      "abilities": [
+        "协调",
+        "文书",
+        "危机发布"
+      ],
+      "rpUse": "跨校任务与政治压力来源。"
+    },
+    {
+      "id": "tea-party-host",
+      "name": "茶会举办者",
+      "type": "岗位角色",
+      "affiliation": [
+        "三一综合学园",
+        "茶会"
+      ],
+      "sourceStatus": "归档明确提及茶会三位负责人和举办者",
+      "role": "三一事实学生会长",
+      "traits": [
+        "优雅",
+        "政治性",
+        "重传统"
+      ],
+      "abilities": [
+        "派系协调",
+        "外交"
+      ],
+      "rpUse": "三一政治与公会议历史线。"
+    },
+    {
+      "id": "justice-task-force-student",
+      "name": "实现正义部学生",
+      "type": "组织角色",
+      "affiliation": [
+        "三一综合学园",
+        "实现正义部"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "三一执法机关成员",
+      "traits": [
+        "纪律",
+        "正义感",
+        "对格黑娜警惕"
+      ],
+      "abilities": [
+        "执法",
+        "枪械",
+        "巡逻"
+      ],
+      "rpUse": "校园执法、误会冲突与护卫任务。"
+    },
+    {
+      "id": "trinity-sister",
+      "name": "三一修女会成员",
+      "type": "组织角色",
+      "affiliation": [
+        "三一综合学园",
+        "修女会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "宗教/护理/传统力量",
+      "traits": [
+        "虔诚",
+        "温和",
+        "保守"
+      ],
+      "abilities": [
+        "医疗支援",
+        "仪式",
+        "社群照顾"
+      ],
+      "rpUse": "治疗、避难、传统派政治。"
+    },
+    {
+      "id": "remedial-knight",
+      "name": "救援骑士团成员",
+      "type": "组织角色",
+      "affiliation": [
+        "三一综合学园",
+        "救援骑士团"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "救护与战场支援",
+      "traits": [
+        "献身",
+        "可靠"
+      ],
+      "abilities": [
+        "急救",
+        "战场撤离"
+      ],
+      "rpUse": "伤员救助与紧急任务。"
+    },
+    {
+      "id": "hina",
+      "name": "空崎阳奈",
+      "type": "关键姓名",
+      "affiliation": [
+        "格黑娜学园",
+        "风纪委员会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "格黑娜实际秩序核心",
+      "traits": [
+        "强大",
+        "负责",
+        "疲惫",
+        "威慑力"
+      ],
+      "abilities": [
+        "极强战斗力",
+        "政治手腕",
+        "风纪指挥"
+      ],
+      "rpUse": "格黑娜危机调停、强力盟友或压力源。"
+    },
+    {
+      "id": "pandemonium-member",
+      "name": "万魔殿成员",
+      "type": "组织角色",
+      "affiliation": [
+        "格黑娜学园",
+        "万魔殿"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "名义学生会成员，常与风纪委员会冲突",
+      "traits": [
+        "好面子",
+        "官僚",
+        "捣乱"
+      ],
+      "abilities": [
+        "行政名义",
+        "宣传"
+      ],
+      "rpUse": "政治笑剧与格黑娜内斗。"
+    },
+    {
+      "id": "prefect-team-student",
+      "name": "风纪委员会学生",
+      "type": "组织角色",
+      "affiliation": [
+        "格黑娜学园",
+        "风纪委员会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "格黑娜实际治安力量",
+      "traits": [
+        "忙碌",
+        "纪律",
+        "对混乱零容忍"
+      ],
+      "abilities": [
+        "镇压",
+        "巡逻",
+        "枪械战"
+      ],
+      "rpUse": "追捕温泉开发部、美食研究会或黑市事件。"
+    },
+    {
+      "id": "hot-spring-dev",
+      "name": "温泉开发部成员",
+      "type": "社团角色",
+      "affiliation": [
+        "格黑娜学园",
+        "温泉开发部"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "为温泉开发制造爆破事件的社团",
+      "traits": [
+        "狂热",
+        "行动派",
+        "破坏性"
+      ],
+      "abilities": [
+        "爆破",
+        "地质/水脉执念"
+      ],
+      "rpUse": "喜剧灾害、火山水脉任务。"
+    },
+    {
+      "id": "gourmet-researcher",
+      "name": "美食研究会成员",
+      "type": "社团角色",
+      "affiliation": [
+        "格黑娜学园",
+        "美食研究会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "以美食为由引发骚动",
+      "traits": [
+        "贪吃",
+        "执着",
+        "破格"
+      ],
+      "abilities": [
+        "突袭",
+        "搜寻食材"
+      ],
+      "rpUse": "餐厅、黑市与城市骚乱。"
+    },
+    {
+      "id": "millennium-seminar",
+      "name": "研讨会成员",
+      "type": "组织角色",
+      "affiliation": [
+        "千禧年科学学院",
+        "研讨会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "千禧年学生会/研究管理者",
+      "traits": [
+        "理性",
+        "精英",
+        "谜题导向"
+      ],
+      "abilities": [
+        "科研管理",
+        "科技战",
+        "数据分析"
+      ],
+      "rpUse": "七大谜题、古代废墟和要塞都市线。"
+    },
+    {
+      "id": "rio",
+      "name": "莉音",
+      "type": "关键姓名",
+      "affiliation": [
+        "千禧年科学学院",
+        "研讨会"
+      ],
+      "sourceStatus": "归档明确提及研讨会长莉音",
+      "role": "研讨会长，修建要塞都市的强势决策者",
+      "traits": [
+        "冷静",
+        "远见",
+        "控制欲"
+      ],
+      "abilities": [
+        "战略规划",
+        "大型工程",
+        "科技资源"
+      ],
+      "rpUse": "千禧年高层决策、要塞都市危机。"
+    },
+    {
+      "id": "c-and-c-agent",
+      "name": "Cleaning & Clearing 部成员",
+      "type": "组织角色",
+      "affiliation": [
+        "千禧年科学学院",
+        "C&C"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "特别行动人员",
+      "traits": [
+        "专业",
+        "隐秘",
+        "高机动"
+      ],
+      "abilities": [
+        "潜入",
+        "战术行动",
+        "科技装备"
+      ],
+      "rpUse": "特工任务与高科技潜入。"
+    },
+    {
+      "id": "robot-security",
+      "name": "自律机器人安保",
+      "type": "非人角色",
+      "affiliation": [
+        "千禧年/基沃托斯企业"
+      ],
+      "sourceStatus": "归档明确提及自律机器人普及",
+      "role": "授课、服务、安保与防卫",
+      "traits": [
+        "程序化",
+        "可故障",
+        "可量产"
+      ],
+      "abilities": [
+        "警戒",
+        "火力",
+        "服务"
+      ],
+      "rpUse": "故障暴走、安保谜题、科技日常。"
+    },
+    {
+      "id": "kisaki",
+      "name": "龙华妃咲",
+      "type": "关键姓名",
+      "affiliation": [
+        "山海经高级中学",
+        "玄龙门"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "玄龙门现任会长，被称为黑色君主",
+      "traits": [
+        "威严",
+        "调停者",
+        "改革倾向"
+      ],
+      "abilities": [
+        "政治协调",
+        "威信"
+      ],
+      "rpUse": "山海经内部贸易冲突与改革线。"
+    },
+    {
+      "id": "genryumon-member",
+      "name": "玄龙门成员",
+      "type": "组织角色",
+      "affiliation": [
+        "山海经高级中学",
+        "玄龙门"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "山海经学生会成员",
+      "traits": [
+        "传统",
+        "纪律",
+        "门派感"
+      ],
+      "abilities": [
+        "行政",
+        "武装护卫"
+      ],
+      "rpUse": "山海经政治与治安。"
+    },
+    {
+      "id": "genbu-merchant",
+      "name": "玄武商会成员",
+      "type": "组织角色",
+      "affiliation": [
+        "山海经高级中学",
+        "玄武商会"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "贸易社团成员，与玄龙门长期不和",
+      "traits": [
+        "精明",
+        "商业化",
+        "地方文化强"
+      ],
+      "abilities": [
+        "贸易",
+        "情报",
+        "物资调度"
+      ],
+      "rpUse": "贸易争端、走私与外交通道。"
+    },
+    {
+      "id": "alchemy-club",
+      "name": "炼丹术研究部成员",
+      "type": "社团角色",
+      "affiliation": [
+        "山海经高级中学"
+      ],
+      "sourceStatus": "归档明确提及",
+      "role": "山海经特色研究社团",
+      "traits": [
+        "实验性",
+        "传统技术",
+        "好奇"
+      ],
+      "abilities": [
+        "炼丹",
+        "药物/材料研究"
+      ],
+      "rpUse": "药剂事故、文化神秘线。"
+    }
+  ],
+  "worldId": "blue-archive",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  },
+  "runtimeUseGate": {
+    "gateType": "role-index-caveat",
+    "characterIndexPolicy": "characters-index mixes a few named canon references with organization posts/RP role types because source character classification was empty",
+    "notCompleteCanonRoster": {
+      "enabled": true,
+      "summary": "",
+      "notes": []
+    },
+    "runtimePolicy": "do not treat every岗位/组织角色 entry as a fixed named canon student; use as RP role slot unless type/sourceStatus says named canon reference"
+  },
+  "notCompleteCanonRoster": {
+    "enabled": true,
+    "summary": "",
+    "notes": []
+  }
 }

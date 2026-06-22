@@ -1,1 +1,72 @@
-{"schema":"rp-relationship-graph-v1","worldId":"strike-the-blood","nodes":[{"id":"kojou-akatsuki","type":"character","label":"晓古城"},{"id":"yukina-himeragi","type":"character","label":"姬柊雪菜"},{"id":"asagi-aiba","type":"character","label":"蓝羽浅葱"},{"id":"sayaka-kirasaka","type":"character","label":"煌坂纱矢华"},{"id":"nagisa-akatsuki","type":"character","label":"晓凪沙"},{"id":"lion-king","type":"faction","label":"狮子王机关"}],"edges":[{"from":"yukina-himeragi","to":"kojou-akatsuki","type":"observer_partner"},{"from":"yukina-himeragi","to":"lion-king","type":"agent"},{"from":"sayaka-kirasaka","to":"yukina-himeragi","type":"friend_rival"},{"from":"asagi-aiba","to":"kojou-akatsuki","type":"friend_support"},{"from":"nagisa-akatsuki","to":"kojou-akatsuki","type":"family"}],"sourceRefs":["src-strike-the-blood-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "strike-the-blood",
+  "nodes": [
+    {
+      "id": "kojou-akatsuki",
+      "type": "character",
+      "label": "晓古城"
+    },
+    {
+      "id": "yukina-himeragi",
+      "type": "character",
+      "label": "姬柊雪菜"
+    },
+    {
+      "id": "asagi-aiba",
+      "type": "character",
+      "label": "蓝羽浅葱"
+    },
+    {
+      "id": "sayaka-kirasaka",
+      "type": "character",
+      "label": "煌坂纱矢华"
+    },
+    {
+      "id": "nagisa-akatsuki",
+      "type": "character",
+      "label": "晓凪沙"
+    },
+    {
+      "id": "lion-king",
+      "type": "faction",
+      "label": "狮子王机关"
+    }
+  ],
+  "edges": [
+    {
+      "from": "yukina-himeragi",
+      "to": "kojou-akatsuki",
+      "type": "observer_partner"
+    },
+    {
+      "from": "yukina-himeragi",
+      "to": "lion-king",
+      "type": "agent"
+    },
+    {
+      "from": "sayaka-kirasaka",
+      "to": "yukina-himeragi",
+      "type": "friend_rival"
+    },
+    {
+      "from": "asagi-aiba",
+      "to": "kojou-akatsuki",
+      "type": "friend_support"
+    },
+    {
+      "from": "nagisa-akatsuki",
+      "to": "kojou-akatsuki",
+      "type": "family"
+    }
+  ],
+  "sourceRefs": [
+    "src-strike-the-blood-001"
+  ],
+  "campaignId": "strike-the-blood",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

@@ -1,34 +1,115 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "to-love-ru",
   "displayName": "出包王女 / To Love-Ru",
   "curationStatus": "manual-curated",
-  "sourceRefs": ["src-to-love-ru-001"],
+  "sourceRefs": [
+    "src-to-love-ru-001"
+  ],
   "premise": "普通高中生结城梨斗在彩南町遇见逃婚的戴比路克第一王女菈菈，由误会订婚引发银河级追求者、外星科技、暗杀者组织和校园恋爱喜剧。",
-  "tone": ["恋爱喜剧", "校园日常", "外星科幻", "误会连锁", "轻战斗与暗杀者剧情"],
+  "tone": [
+    "恋爱喜剧",
+    "校园日常",
+    "外星科幻",
+    "误会连锁",
+    "轻战斗与暗杀者剧情"
+  ],
   "coreLocations": [
-    {"id": "sainan-town", "name": "彩南町", "role": "主要日常舞台"},
-    {"id": "sainan-high", "name": "彩南高中", "role": "梨斗、春菜、菈菈等人的校园舞台"},
-    {"id": "yuuki-house", "name": "结城家", "role": "菈菈寄居处，发明失控高发地"},
-    {"id": "deviluke", "name": "戴比路克星/王家舰队", "role": "银河霸权与王女婚约压力来源"},
-    {"id": "outer-space", "name": "宇宙社会", "role": "各类外星追求者、赏金猎人、兵器组织来源"}
+    {
+      "id": "sainan-town",
+      "name": "彩南町",
+      "role": "主要日常舞台"
+    },
+    {
+      "id": "sainan-high",
+      "name": "彩南高中",
+      "role": "梨斗、春菜、菈菈等人的校园舞台"
+    },
+    {
+      "id": "yuuki-house",
+      "name": "结城家",
+      "role": "菈菈寄居处，发明失控高发地"
+    },
+    {
+      "id": "deviluke",
+      "name": "戴比路克星/王家舰队",
+      "role": "银河霸权与王女婚约压力来源"
+    },
+    {
+      "id": "outer-space",
+      "name": "宇宙社会",
+      "role": "各类外星追求者、赏金猎人、兵器组织来源"
+    }
   ],
   "powerSystems": [
-    {"id": "deviluke-tech", "name": "戴比路克科技", "summary": "菈菈的发明、传送、换装、追踪和巨大破坏力道具。"},
-    {"id": "alien-physiology", "name": "外星人体质", "summary": "戴比路克王族尾巴弱点、超人身体能力、各星人种族能力。"},
-    {"id": "assassin-weapons", "name": "暗杀者兵器", "summary": "金色暗影等生体兵器或变形能力。"},
-    {"id": "darkness", "name": "Darkness/精神控制风险", "summary": "后期围绕暗影、涅墨西斯和兵器身份展开的失控主题。"}
+    {
+      "id": "deviluke-tech",
+      "name": "戴比路克科技",
+      "summary": "菈菈的发明、传送、换装、追踪和巨大破坏力道具。"
+    },
+    {
+      "id": "alien-physiology",
+      "name": "外星人体质",
+      "summary": "戴比路克王族尾巴弱点、超人身体能力、各星人种族能力。"
+    },
+    {
+      "id": "assassin-weapons",
+      "name": "暗杀者兵器",
+      "summary": "金色暗影等生体兵器或变形能力。"
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness/精神控制风险",
+      "summary": "后期围绕暗影、涅墨西斯和兵器身份展开的失控主题。"
+    }
   ],
   "majorFactions": [
-    {"id": "deviluke-royal", "name": "戴比路克王家", "stance": "银河霸主家族，推动婚约与地球危机"},
-    {"id": "sainan-school", "name": "彩南高中学生圈", "stance": "日常与恋爱喜剧中心"},
-    {"id": "assassin-network", "name": "宇宙暗杀者/兵器组织", "stance": "由目标委托、兵器开发和追杀任务牵引剧情"},
-    {"id": "alien-suitors", "name": "外星追求者", "stance": "争夺菈菈或干扰梨斗的喜剧/战斗压力源"}
+    {
+      "id": "deviluke-royal",
+      "name": "戴比路克王家",
+      "stance": "银河霸主家族，推动婚约与地球危机"
+    },
+    {
+      "id": "sainan-school",
+      "name": "彩南高中学生圈",
+      "stance": "日常与恋爱喜剧中心"
+    },
+    {
+      "id": "assassin-network",
+      "name": "宇宙暗杀者/兵器组织",
+      "stance": "由目标委托、兵器开发和追杀任务牵引剧情"
+    },
+    {
+      "id": "alien-suitors",
+      "name": "外星追求者",
+      "stance": "争夺菈菈或干扰梨斗的喜剧/战斗压力源"
+    }
   ],
   "rpGuidelines": [
     "OC 可取代或共存于梨斗生态位，但应维持彩南町日常被外星事件打断的结构。",
     "避免成人露骨描写；用误会、喜剧和尴尬场面替代原始成人化内容。",
     "菈菈发明应好心办坏事，造成空间转移、换装、追踪或环境失控。",
     "战斗强度通常由戴比路克王族、暗影系兵器和宇宙势力决定；地球学生多为日常侧。"
-  ]
+  ],
+  "worldId": "to-love-ru",
+  "worldName": "出包王女 / To Love-Ru",
+  "aliases": [],
+  "genre": [
+    "恋爱喜剧",
+    "校园日常",
+    "外星科幻",
+    "误会连锁",
+    "轻战斗与暗杀者剧情"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

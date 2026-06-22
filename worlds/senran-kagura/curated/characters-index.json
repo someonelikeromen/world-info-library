@@ -1,1 +1,268 @@
-{"schema":"rp-characters-index-v1","worldId":"senran-kagura","characters":[{"id":"asuka","name":"飞鸟","aliases":[],"visibility":"public","summary":"半藏学院核心善忍，开朗正直的主角型忍者。","roles":["主角","善忍"],"factions":["国立半藏学院"],"locations":["半藏学院"],"powerSystems":["ninjutsu","shinobi-transformation"],"abilities":["双刀/短刀战","秘传忍法","高速连击"],"items":["忍具"],"relationships":["homura:rival"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"典型平衡标尺。"},{"id":"ikaruga","name":"斑鸠","aliases":[],"visibility":"public","summary":"半藏学院上级生，冷静的刀术型忍者。","roles":["队长型","善忍"],"factions":["国立半藏学院"],"locations":["半藏学院"],"powerSystems":["ninjutsu"],"abilities":["居合/刀术","指挥"],"items":["日本刀"],"relationships":["asuka:teammate"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"贵族/继承背景可做剧情。"},{"id":"katsuragi","name":"葛城","aliases":[],"visibility":"public","summary":"半藏学院体术型忍者，擅长踢击和近身压制。","roles":["近战","善忍"],"factions":["国立半藏学院"],"locations":["半藏学院"],"powerSystems":["ninjutsu"],"abilities":["踢技","高机动"],"items":[],"relationships":["asuka:teammate"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"风格偏突击。"},{"id":"yagyu","name":"柳生","aliases":[],"visibility":"public","summary":"半藏学院忍者，重视守护云雀。","roles":["护卫","善忍"],"factions":["国立半藏学院"],"locations":["半藏学院"],"powerSystems":["ninjutsu"],"abilities":["伞/武器战","防护"],"items":["伞型武器"],"relationships":["hibari:protects"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"守护动机强。"},{"id":"hibari","name":"云雀","aliases":[],"visibility":"public","summary":"半藏学院成员，天真但有特殊潜力。","roles":["队员","善忍"],"factions":["国立半藏学院"],"locations":["半藏学院"],"powerSystems":["ninjutsu"],"abilities":["忍术","支援"],"items":[],"relationships":["yagyu:protected_by"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"可作为保护/成长线。"},{"id":"homura","name":"焰","aliases":[],"visibility":"public","summary":"焰红莲队领袖，原恶忍侧核心，与飞鸟形成宿敌关系。","roles":["宿敌","队长"],"factions":["焰红莲队"],"locations":["焰红莲队据点"],"powerSystems":["ninjutsu","shinobi-transformation"],"abilities":["多刀流","火焰系忍法"],"items":["多刀"],"relationships":["asuka:rival"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-senran-kagura-001"],"notes":"善恶阵营可随剧情变化。"}],"indices":{"byFaction":{"国立半藏学院":["asuka","ikaruga","katsuragi","yagyu","hibari"],"焰红莲队":["homura"]},"byPowerSystem":{"ninjutsu":["asuka","ikaruga","katsuragi","yagyu","hibari","homura"],"shinobi-transformation":["asuka","homura"]},"byVisibility":{"public":["asuka","ikaruga","katsuragi","yagyu","hibari","homura"]},"majorCharacters":["asuka","homura","ikaruga"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "senran-kagura",
+  "characters": [
+    {
+      "id": "asuka",
+      "name": "飞鸟",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半藏学院核心善忍，开朗正直的主角型忍者。",
+      "roles": [
+        "主角",
+        "善忍"
+      ],
+      "factions": [
+        "国立半藏学院"
+      ],
+      "locations": [
+        "半藏学院"
+      ],
+      "powerSystems": [
+        "ninjutsu",
+        "shinobi-transformation"
+      ],
+      "abilities": [
+        "双刀/短刀战",
+        "秘传忍法",
+        "高速连击"
+      ],
+      "items": [
+        "忍具"
+      ],
+      "relationships": [
+        "homura:rival"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "典型平衡标尺。"
+    },
+    {
+      "id": "ikaruga",
+      "name": "斑鸠",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半藏学院上级生，冷静的刀术型忍者。",
+      "roles": [
+        "队长型",
+        "善忍"
+      ],
+      "factions": [
+        "国立半藏学院"
+      ],
+      "locations": [
+        "半藏学院"
+      ],
+      "powerSystems": [
+        "ninjutsu"
+      ],
+      "abilities": [
+        "居合/刀术",
+        "指挥"
+      ],
+      "items": [
+        "日本刀"
+      ],
+      "relationships": [
+        "asuka:teammate"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "贵族/继承背景可做剧情。"
+    },
+    {
+      "id": "katsuragi",
+      "name": "葛城",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半藏学院体术型忍者，擅长踢击和近身压制。",
+      "roles": [
+        "近战",
+        "善忍"
+      ],
+      "factions": [
+        "国立半藏学院"
+      ],
+      "locations": [
+        "半藏学院"
+      ],
+      "powerSystems": [
+        "ninjutsu"
+      ],
+      "abilities": [
+        "踢技",
+        "高机动"
+      ],
+      "items": [],
+      "relationships": [
+        "asuka:teammate"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "风格偏突击。"
+    },
+    {
+      "id": "yagyu",
+      "name": "柳生",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半藏学院忍者，重视守护云雀。",
+      "roles": [
+        "护卫",
+        "善忍"
+      ],
+      "factions": [
+        "国立半藏学院"
+      ],
+      "locations": [
+        "半藏学院"
+      ],
+      "powerSystems": [
+        "ninjutsu"
+      ],
+      "abilities": [
+        "伞/武器战",
+        "防护"
+      ],
+      "items": [
+        "伞型武器"
+      ],
+      "relationships": [
+        "hibari:protects"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "守护动机强。"
+    },
+    {
+      "id": "hibari",
+      "name": "云雀",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "半藏学院成员，天真但有特殊潜力。",
+      "roles": [
+        "队员",
+        "善忍"
+      ],
+      "factions": [
+        "国立半藏学院"
+      ],
+      "locations": [
+        "半藏学院"
+      ],
+      "powerSystems": [
+        "ninjutsu"
+      ],
+      "abilities": [
+        "忍术",
+        "支援"
+      ],
+      "items": [],
+      "relationships": [
+        "yagyu:protected_by"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "可作为保护/成长线。"
+    },
+    {
+      "id": "homura",
+      "name": "焰",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "焰红莲队领袖，原恶忍侧核心，与飞鸟形成宿敌关系。",
+      "roles": [
+        "宿敌",
+        "队长"
+      ],
+      "factions": [
+        "焰红莲队"
+      ],
+      "locations": [
+        "焰红莲队据点"
+      ],
+      "powerSystems": [
+        "ninjutsu",
+        "shinobi-transformation"
+      ],
+      "abilities": [
+        "多刀流",
+        "火焰系忍法"
+      ],
+      "items": [
+        "多刀"
+      ],
+      "relationships": [
+        "asuka:rival"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-senran-kagura-001"
+      ],
+      "notes": "善恶阵营可随剧情变化。"
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "国立半藏学院": [
+        "asuka",
+        "ikaruga",
+        "katsuragi",
+        "yagyu",
+        "hibari"
+      ],
+      "焰红莲队": [
+        "homura"
+      ]
+    },
+    "byPowerSystem": {
+      "ninjutsu": [
+        "asuka",
+        "ikaruga",
+        "katsuragi",
+        "yagyu",
+        "hibari",
+        "homura"
+      ],
+      "shinobi-transformation": [
+        "asuka",
+        "homura"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "asuka",
+        "ikaruga",
+        "katsuragi",
+        "yagyu",
+        "hibari",
+        "homura"
+      ]
+    },
+    "majorCharacters": [
+      "asuka",
+      "homura",
+      "ikaruga"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

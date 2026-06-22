@@ -1,1 +1,366 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library-type-moon-nasuverse","cardId":"type-moon-nasuverse","nodes":[{"id":"shirou-emiya","type":"character","name":"卫宫士郎","aliases":[],"visibility":"public","summary":"第五次圣杯战争御主。","tags":["master"],"metadata":{}},{"id":"saber-artoria","type":"character","name":"阿尔托莉雅","aliases":["Saber"],"visibility":"public","summary":"士郎的从者。","tags":["servant"],"metadata":{}},{"id":"rin-tohsaka","type":"character","name":"远坂凛","aliases":[],"visibility":"public","summary":"魔术师御主。","tags":["mage"],"metadata":{}},{"id":"chaldea","type":"faction","name":"迦勒底","aliases":[],"visibility":"private","summary":"人理保障机构。","tags":["fgo"],"metadata":{}},{"id":"mage-association","type":"faction","name":"魔术协会","aliases":[],"visibility":"private","summary":"魔术师组织。","tags":["magecraft"],"metadata":{}}],"edges":[{"id":"rel-shirou-saber","from":"shirou-emiya","to":"saber-artoria","type":"contract","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"御主与从者契约，也是情感核心之一。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":"C","debt":"B","loyalty":"A","hostility":null},"publicDescription":"士郎与 Saber 共同参加圣杯战争。","gmTruth":"路线决定关系终点。","evidence":["src-tm-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-rin-shirou","from":"rin-tohsaka","to":"shirou-emiya","type":"ally","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"竞争御主转为协作。"},"facets":{"trust":"A","affection":"B","fear":null,"suspicion":"C","debt":null,"loyalty":"B","hostility":null},"publicDescription":"凛与士郎在圣杯战争中多次合作。","gmTruth":"路线不同可发展为更深羁绊。","evidence":["src-tm-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-association-chaldea","from":"mage-association","to":"chaldea","type":"suspicion","directional":false,"visibility":"private","playerKnown":false,"strength":{"level":"B","score":60,"description":"迦勒底与传统魔术权力结构存在利益张力。"},"facets":{"trust":"C","affection":null,"fear":"C","suspicion":"B","debt":null,"loyalty":null,"hostility":null},"publicDescription":"双方都属于神秘侧相关机构。","gmTruth":"审查、资源争夺和责任归属可能成为剧情冲突。","evidence":["src-tm-classification-report"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["shirou-emiya","saber-artoria","rin-tohsaka"],"gmHighlightedNodeIds":["chaldea","mage-association"],"activeSceneNodeIds":[]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-type-moon-nasuverse",
+  "cardId": "type-moon-nasuverse",
+  "nodes": [
+    {
+      "id": "shirou-emiya",
+      "type": "character",
+      "name": "卫宫士郎",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "第五次圣杯战争御主。",
+      "tags": [
+        "master"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "saber-artoria",
+      "type": "character",
+      "name": "阿尔托莉雅",
+      "aliases": [
+        "Saber"
+      ],
+      "visibility": "public",
+      "summary": "士郎的从者。",
+      "tags": [
+        "servant"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rin-tohsaka",
+      "type": "character",
+      "name": "远坂凛",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "魔术师御主。",
+      "tags": [
+        "mage"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "chaldea",
+      "type": "faction",
+      "name": "迦勒底",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "人理保障机构。",
+      "tags": [
+        "fgo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "mage-association",
+      "type": "faction",
+      "name": "魔术协会",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "魔术师组织。",
+      "tags": [
+        "magecraft"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "sakura-matou",
+      "type": "character",
+      "name": "间桐樱",
+      "visibility": "private",
+      "summary": "间桐家养女，体内隐藏圣杯战争关键因素。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "illyasviel",
+      "type": "character",
+      "name": "伊莉雅斯菲尔·冯·爱因兹贝伦",
+      "visibility": "private",
+      "summary": "爱因兹贝伦人造人，第五次圣杯战争御主，也有魔法少女伊莉雅平行线。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "gilgamesh",
+      "type": "character",
+      "name": "吉尔伽美什",
+      "visibility": "private",
+      "summary": "最古英雄王，以王之财宝与乖离剑为核心战力。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "ritsuka-fujimaru",
+      "type": "character",
+      "name": "藤丸立香",
+      "visibility": "public",
+      "summary": "迦勒底御主，人理修复行动中心人物。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "mash-kyrielight",
+      "type": "character",
+      "name": "玛修·基列莱特",
+      "visibility": "public",
+      "summary": "迦勒底亚从者，与加拉哈德灵基相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "kirei-kotomine",
+      "type": "character",
+      "name": "言峰绮礼",
+      "visibility": "private",
+      "summary": "圣堂教会神父兼圣杯战争监督者，具有扭曲的自我探求。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "archer-emiya",
+      "type": "character",
+      "name": "Archer/英灵卫宫",
+      "visibility": "private",
+      "summary": "关系字符串引用的外部节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "zouken-matou",
+      "type": "character",
+      "name": "间桐脏砚",
+      "visibility": "private",
+      "summary": "关系字符串引用的外部节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "berserker-heracles",
+      "type": "character",
+      "name": "Berserker/赫拉克勒斯",
+      "visibility": "private",
+      "summary": "关系字符串引用的外部节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "romani-archaman",
+      "type": "character",
+      "name": "罗玛尼·阿其曼",
+      "visibility": "private",
+      "summary": "关系字符串引用的外部节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "holy-church",
+      "type": "faction",
+      "name": "圣堂教会",
+      "visibility": "private",
+      "summary": "关系字符串引用的外部节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "waver-velvet",
+      "type": "character",
+      "name": "韦伯·维尔维特",
+      "aliases": [
+        "Waver Velvet",
+        "埃尔梅罗二世"
+      ],
+      "visibility": "public",
+      "summary": "时钟塔魔术师，擅长魔术理论与教学，和魔术协会保持密切联系。",
+      "tags": [
+        "mage",
+        "student",
+        "lecturer"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-shirou-saber",
+      "from": "shirou-emiya",
+      "to": "saber-artoria",
+      "type": "contract",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "御主与从者契约，也是情感核心之一。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "C",
+        "debt": "B",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "士郎与 Saber 共同参加圣杯战争。",
+      "gmTruth": "路线决定关系终点。",
+      "evidence": [
+        "src-tm-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-rin-shirou",
+      "from": "rin-tohsaka",
+      "to": "shirou-emiya",
+      "type": "ally",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "竞争御主转为协作。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "B",
+        "fear": null,
+        "suspicion": "C",
+        "debt": null,
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "凛与士郎在圣杯战争中多次合作。",
+      "gmTruth": "路线不同可发展为更深羁绊。",
+      "evidence": [
+        "src-tm-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-association-chaldea",
+      "from": "mage-association",
+      "to": "chaldea",
+      "type": "suspicion",
+      "directional": false,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "B",
+        "score": 60,
+        "description": "迦勒底与传统魔术权力结构存在利益张力。"
+      },
+      "facets": {
+        "trust": "C",
+        "affection": null,
+        "fear": "C",
+        "suspicion": "B",
+        "debt": null,
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "双方都属于神秘侧相关机构。",
+      "gmTruth": "审查、资源争夺和责任归属可能成为剧情冲突。",
+      "evidence": [
+        "src-tm-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-sakura-shirou",
+      "from": "sakura-matou",
+      "to": "shirou-emiya",
+      "type": "affection",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "樱与士郎之间存在深厚情感关系。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "C",
+        "debt": null,
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "樱对士郎有重要情感羁绊。",
+      "gmTruth": "路线不同会显著改变关系揭示程度。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    },
+    {
+      "id": "rel-ritsuka-mash",
+      "from": "ritsuka-fujimaru",
+      "to": "mash-kyrielight",
+      "type": "partner",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "迦勒底行动中的核心搭档关系。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "B",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "藤丸立香与玛修是迦勒底核心搭档。",
+      "gmTruth": "二人的互信支撑多次人理修复行动。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "shirou-emiya",
+      "saber-artoria",
+      "rin-tohsaka",
+      "waver-velvet"
+    ],
+    "gmHighlightedNodeIds": [
+      "chaldea",
+      "mage-association"
+    ],
+    "activeSceneNodeIds": []
+  }
+}

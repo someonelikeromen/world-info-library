@@ -1,1 +1,68 @@
-{"schema":"rp-world-v1","worldId":"senran-kagura","displayName":"闪乱神乐","curationStatus":"manual-initial","sourceRefs":["src-senran-kagura-001"],"summary":"现代暗处的女忍学校与忍者组织世界，善忍与恶忍围绕任务、秘传书、妖魔和各自信念冲突。","powerSystems":[{"id":"ninjutsu","name":"忍术/忍力","rules":["通过训练、秘传书、武器与忍转身释放超常战斗力","忍法常具个人风格和属性","隐密、替身、机动和连段是基础" ]},{"id":"shinobi-transformation","name":"忍转身","rules":["战斗服装与气质变化伴随能力解放","状态可能暴露身份并提升风险" ]},{"id":"yoma","name":"妖魔/异界威胁","rules":["妖魔常需忍者专门讨伐","普通社会多不了解真相" ]}],"factions":["国立半藏学院","焰红莲队","秘立蛇女子学园","死塾月闪女学馆","巫神乐/妖魔相关势力"],"locations":["半藏学院","蛇女子学园","月闪女学馆","忍界任务地点","妖魔出现地"],"combatRules":["忍者战重视机动、先手与情绪爆发。","秘传忍法消耗大，适合作为决胜技。","身份保密与任务目标常比击倒敌人更重要。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "senran-kagura",
+  "displayName": "闪乱神乐",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-senran-kagura-001"
+  ],
+  "summary": "现代暗处的女忍学校与忍者组织世界，善忍与恶忍围绕任务、秘传书、妖魔和各自信念冲突。",
+  "powerSystems": [
+    {
+      "id": "ninjutsu",
+      "name": "忍术/忍力",
+      "rules": [
+        "通过训练、秘传书、武器与忍转身释放超常战斗力",
+        "忍法常具个人风格和属性",
+        "隐密、替身、机动和连段是基础"
+      ]
+    },
+    {
+      "id": "shinobi-transformation",
+      "name": "忍转身",
+      "rules": [
+        "战斗服装与气质变化伴随能力解放",
+        "状态可能暴露身份并提升风险"
+      ]
+    },
+    {
+      "id": "yoma",
+      "name": "妖魔/异界威胁",
+      "rules": [
+        "妖魔常需忍者专门讨伐",
+        "普通社会多不了解真相"
+      ]
+    }
+  ],
+  "factions": [
+    "国立半藏学院",
+    "焰红莲队",
+    "秘立蛇女子学园",
+    "死塾月闪女学馆",
+    "巫神乐/妖魔相关势力"
+  ],
+  "locations": [
+    "半藏学院",
+    "蛇女子学园",
+    "月闪女学馆",
+    "忍界任务地点",
+    "妖魔出现地"
+  ],
+  "combatRules": [
+    "忍者战重视机动、先手与情绪爆发。",
+    "秘传忍法消耗大，适合作为决胜技。",
+    "身份保密与任务目标常比击倒敌人更重要。"
+  ],
+  "visibility": "public",
+  "worldName": "闪乱神乐",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

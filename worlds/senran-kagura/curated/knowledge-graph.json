@@ -1,1 +1,69 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"senran-kagura","nodes":[{"id":"ninjutsu","type":"powerSystem","label":"忍术"},{"id":"shinobi-transformation","type":"powerSystem","label":"忍转身"},{"id":"hanzo","type":"faction","label":"国立半藏学院"},{"id":"homura-squad","type":"faction","label":"焰红莲队"},{"id":"hebi","type":"faction","label":"秘立蛇女子学园"},{"id":"yoma","type":"threat","label":"妖魔"}],"edges":[{"from":"hanzo","to":"ninjutsu","type":"trains"},{"from":"hebi","to":"ninjutsu","type":"trains"},{"from":"shinobi-transformation","to":"ninjutsu","type":"amplifies"},{"from":"yoma","to":"hanzo","type":"mission_target"}],"sourceRefs":["src-senran-kagura-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "senran-kagura",
+  "nodes": [
+    {
+      "id": "ninjutsu",
+      "type": "powerSystem",
+      "label": "忍术"
+    },
+    {
+      "id": "shinobi-transformation",
+      "type": "powerSystem",
+      "label": "忍转身"
+    },
+    {
+      "id": "hanzo",
+      "type": "faction",
+      "label": "国立半藏学院"
+    },
+    {
+      "id": "homura-squad",
+      "type": "faction",
+      "label": "焰红莲队"
+    },
+    {
+      "id": "hebi",
+      "type": "faction",
+      "label": "秘立蛇女子学园"
+    },
+    {
+      "id": "yoma",
+      "type": "threat",
+      "label": "妖魔"
+    }
+  ],
+  "edges": [
+    {
+      "from": "hanzo",
+      "to": "ninjutsu",
+      "type": "trains"
+    },
+    {
+      "from": "hebi",
+      "to": "ninjutsu",
+      "type": "trains"
+    },
+    {
+      "from": "shinobi-transformation",
+      "to": "ninjutsu",
+      "type": "amplifies"
+    },
+    {
+      "from": "yoma",
+      "to": "hanzo",
+      "type": "mission_target"
+    }
+  ],
+  "sourceRefs": [
+    "src-senran-kagura-001"
+  ],
+  "campaignId": "senran-kagura",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

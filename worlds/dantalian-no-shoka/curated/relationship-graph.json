@@ -2,58 +2,640 @@
   "schema": "rp-relationship-graph-v1",
   "worldId": "dantalian-no-shoka",
   "nodes": [
-    {"id":"hugh-anthony-disward","type":"character","label":"修伊·安索尼·迪斯瓦特","faction":"dantalian-pair","visibility":"public"},
-    {"id":"dalian","type":"character","label":"妲丽安","faction":"dantalian-pair","visibility":"public"},
-    {"id":"hal-kamhout","type":"character","label":"哈尔·卡姆赫德","faction":"burning-officers","visibility":"public"},
-    {"id":"flamberge","type":"character","label":"芙兰蓓尔","faction":"burning-officers","visibility":"public"},
-    {"id":"raziel","type":"character","label":"拉结尔","faction":"professor-raziel","visibility":"private"},
-    {"id":"professor","type":"character","label":"教授","faction":"professor-raziel","visibility":"private"},
-    {"id":"camilla-cairns","type":"character","label":"卡米拉·索尔·卡恩斯","visibility":"public"},
-    {"id":"jessica-elphinstone","type":"character","label":"洁西卡·艾尔芬斯顿","visibility":"public"},
-    {"id":"alman-jeremiah","type":"character","label":"阿尔曼·耶利米","visibility":"public"},
-    {"id":"yuna","type":"character","label":"优娜 / 幻书窃贼","faction":"phantom-book-thieves","visibility":"private"},
-    {"id":"emilia-eva","type":"character","label":"艾米莉亚 / 艾娃","visibility":"private"},
-    {"id":"fiona-famernia","type":"character","label":"菲欧娜·法曼尼雅","visibility":"public"},
-    {"id":"saz-haston","type":"character","label":"沙茲·哈斯顿","visibility":"public"},
-    {"id":"roy-haston","type":"character","label":"罗伊·哈斯顿","visibility":"public"},
-    {"id":"viola-duplessis","type":"character","label":"维奥拉·迪普莱西","visibility":"public"},
-    {"id":"melgar","type":"character","label":"麦尔加","visibility":"private"},
-    {"id":"faction-dantalian-pair","type":"faction","label":"黑之读姬与钥匙守护者","visibility":"public"},
-    {"id":"faction-burning-officers","type":"faction","label":"焚书官","visibility":"public"},
-    {"id":"faction-professor-raziel","type":"faction","label":"教授与赤之读姬","visibility":"private"},
-    {"id":"faction-phantom-book-thieves","type":"faction","label":"幻书窃贼","visibility":"private"},
-    {"id":"faction-nobility-collectors","type":"faction","label":"旧贵族、藏书家与商会","visibility":"public"}
+    {
+      "id": "hugh-anthony-disward",
+      "type": "character",
+      "label": "修伊·安索尼·迪斯瓦特",
+      "faction": "dantalian-pair",
+      "visibility": "public"
+    },
+    {
+      "id": "dalian",
+      "type": "character",
+      "label": "妲丽安",
+      "faction": "dantalian-pair",
+      "visibility": "public"
+    },
+    {
+      "id": "hal-kamhout",
+      "type": "character",
+      "label": "哈尔·卡姆赫德",
+      "faction": "burning-officers",
+      "visibility": "public"
+    },
+    {
+      "id": "flamberge",
+      "type": "character",
+      "label": "芙兰蓓尔",
+      "faction": "burning-officers",
+      "visibility": "public"
+    },
+    {
+      "id": "raziel",
+      "type": "character",
+      "label": "拉结尔",
+      "faction": "professor-raziel",
+      "visibility": "private"
+    },
+    {
+      "id": "professor",
+      "type": "character",
+      "label": "教授",
+      "faction": "professor-raziel",
+      "visibility": "private"
+    },
+    {
+      "id": "camilla-cairns",
+      "type": "character",
+      "label": "卡米拉·索尔·卡恩斯",
+      "visibility": "public"
+    },
+    {
+      "id": "jessica-elphinstone",
+      "type": "character",
+      "label": "洁西卡·艾尔芬斯顿",
+      "visibility": "public"
+    },
+    {
+      "id": "alman-jeremiah",
+      "type": "character",
+      "label": "阿尔曼·耶利米",
+      "visibility": "public"
+    },
+    {
+      "id": "yuna",
+      "type": "character",
+      "label": "优娜 / 幻书窃贼",
+      "faction": "phantom-book-thieves",
+      "visibility": "private"
+    },
+    {
+      "id": "emilia-eva",
+      "type": "character",
+      "label": "艾米莉亚 / 艾娃",
+      "visibility": "private"
+    },
+    {
+      "id": "fiona-famernia",
+      "type": "character",
+      "label": "菲欧娜·法曼尼雅",
+      "visibility": "public"
+    },
+    {
+      "id": "saz-haston",
+      "type": "character",
+      "label": "沙茲·哈斯顿",
+      "visibility": "public"
+    },
+    {
+      "id": "roy-haston",
+      "type": "character",
+      "label": "罗伊·哈斯顿",
+      "visibility": "public"
+    },
+    {
+      "id": "viola-duplessis",
+      "type": "character",
+      "label": "维奥拉·迪普莱西",
+      "visibility": "public"
+    },
+    {
+      "id": "melgar",
+      "type": "character",
+      "label": "麦尔加",
+      "visibility": "private"
+    },
+    {
+      "id": "faction-dantalian-pair",
+      "type": "faction",
+      "label": "黑之读姬与钥匙守护者",
+      "visibility": "public"
+    },
+    {
+      "id": "faction-burning-officers",
+      "type": "faction",
+      "label": "焚书官",
+      "visibility": "public"
+    },
+    {
+      "id": "faction-professor-raziel",
+      "type": "faction",
+      "label": "教授与赤之读姬",
+      "visibility": "private"
+    },
+    {
+      "id": "faction-phantom-book-thieves",
+      "type": "faction",
+      "label": "幻书窃贼",
+      "visibility": "private"
+    },
+    {
+      "id": "faction-nobility-collectors",
+      "type": "faction",
+      "label": "旧贵族、藏书家与商会",
+      "visibility": "public"
+    },
+    {
+      "id": "leslie",
+      "type": "character",
+      "label": "蕾斯莉",
+      "visibility": "public",
+      "summary": "古雷姆家的料理长，为报杀父之仇研读幻书十三年，利用《更高调理冥想书》制作极致快感脑髓料理。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "gourmet-grem",
+      "type": "character",
+      "label": "古雷姆·阿德基逊",
+      "visibility": "public",
+      "summary": "偏执美食家，为追求顶级料理堕入贪欲，最终在狂喜中吞食自身脑髓。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "mabel-nash",
+      "type": "character",
+      "label": "梅蓓儿·纳修",
+      "visibility": "public",
+      "summary": "悲剧人偶师，利用幻书操纵木制人偶重建被轰炸城市，沉溺于虚假和平与过去记忆。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "florence-calabos",
+      "type": "character",
+      "label": "弗洛伦斯·卡拉波斯",
+      "visibility": "public",
+      "summary": "贵族少女，为独占父爱和《深绿之书》制造荆棘幻境，杀害父亲与真塔莉亚后维持回春村落幻觉。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "estella-lilburn",
+      "type": "character",
+      "label": "艾斯提拉·利尔本",
+      "visibility": "public",
+      "summary": "利尔本一族少女，继承杀人冲动；大佐以钟楼圣音和泥人替她消除证据，最终与山庄火海同归。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "eirath-alcock",
+      "type": "character",
+      "label": "艾拉斯·阿尔科克",
+      "visibility": "private",
+      "summary": "已死飞行员，被哈尔/教授一方复活，以未完成诗稿作为幻稿，在战场收集恐惧并预读敌机心声。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "paula-dickinson",
+      "type": "character",
+      "label": "宝拉·迪金森",
+      "visibility": "public",
+      "summary": "狂热读者与追星者，利用《蛇夫的遗稿》反复玩弄伦茨与拉提莎的生死，最终死于异变。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "renny-lentz",
+      "type": "character",
+      "label": "雷尼·伦茨",
+      "visibility": "public",
+      "summary": "畅销作家，被宝拉囚禁，与恋人拉提莎共享一命一日的复活诅咒，在循环绝望中异化。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "latisha",
+      "type": "character",
+      "label": "拉提莎",
+      "visibility": "public",
+      "summary": "伦茨的恋人，与其在《蛇夫的遗稿》诅咒中轮替生死。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "yolanda",
+      "type": "character",
+      "label": "约兰达",
+      "visibility": "public",
+      "summary": "修伊的婶婶，被丈夫用《忘却之书》抹去愤怒记忆；恢复记忆后对丈夫实施制裁。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "rianna-schker",
+      "type": "character",
+      "label": "里安娜·史克尔",
+      "visibility": "public",
+      "summary": "阿尔曼未婚妻，因《连理之书》将纯粹爱意和嫉妒化为追杀与死亡诅咒。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "christabel-sustin",
+      "type": "character",
+      "label": "克莉丝托贝尔·撒斯汀",
+      "visibility": "public",
+      "summary": "天才小提琴手，真实身份是达拉里欧为演奏幻曲创造的机械人偶。最后选择悲伤的〈黄昏〉让音乐厅崩塌。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "dallario-hayward",
+      "type": "character",
+      "label": "达拉里欧·海沃特",
+      "visibility": "public",
+      "summary": "机械工匠，克莉丝托贝尔创造者，懦弱但痴情，临终前希望她能得到人类般的幸福。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "north",
+      "type": "character",
+      "label": "诺斯",
+      "visibility": "public",
+      "summary": "帕德克商会雇佣杀手，吸入圣水后无痛觉、反应超人，能以刀尖拨开子弹。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "hildegarde",
+      "type": "character",
+      "label": "希德嘉",
+      "visibility": "private",
+      "summary": "雷兹凯索城堡悲剧核心，被兄长亚金伯爵囚禁至死后利用化妆板制造离魂体，试图夺取侄女爱莉纱身体。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "alisa-razkeso",
+      "type": "character",
+      "label": "爱莉纱",
+      "visibility": "public",
+      "summary": "雷兹凯索城堡领主之女/侄女，被希德嘉离魂体夺走生气而病弱，事件结束后恢复健康。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "heiling",
+      "type": "character",
+      "label": "海灵",
+      "visibility": "public",
+      "summary": "持有《奥尔德·布兰德萧的时刻表》的男子，为弥补十二年前事故中的懦弱而牺牲，帮助改写卡蜜拉母亲死亡命运。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "heath",
+      "type": "character",
+      "label": "希斯",
+      "visibility": "public",
+      "summary": "拥有阴阳眼且带未来记忆转生的猫，毁坏古代园艺贝叶本以阻止未来生态灾难和全球瘟疫。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "torvaldsen",
+      "type": "character",
+      "label": "托尔瓦德森",
+      "visibility": "public",
+      "summary": "大西洋沿岸号原船长，其灵魂/身份已被鹦鹉记忆和航海日志取代，成为幽灵船循环的一部分。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "parrot",
+      "type": "character",
+      "label": "鹦鹉",
+      "visibility": "private",
+      "summary": "学会人类语言的鹦鹉，记忆船长留下的《航海日志》幻书，维持幽灵船七十年死亡循环。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "wesley-disward",
+      "type": "character",
+      "label": "卫斯理·迪斯瓦特子爵",
+      "visibility": "private",
+      "summary": "修伊祖父，原宅邸与钥匙遗留者，蒐书狂，其遗产使修伊接触丹特丽安的书架。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "leo",
+      "type": "character",
+      "label": "雷欧",
+      "visibility": "public",
+      "summary": "第六卷红砖宅邸/不死杀手事件中与修伊会合的相关人物，卷入印刷品与正本文字咒力关联。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "wesley-assassin",
+      "type": "character",
+      "label": "卫斯理（杀手）",
+      "visibility": "private",
+      "summary": "第六卷不死杀手追踪战核心，印刷品与正本之间的文字咒力使其呈现异常不死性。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "olrick",
+      "type": "character",
+      "label": "欧立克",
+      "visibility": "private",
+      "summary": "冰岛移动地下宅邸相关人物，为复活亡女执着于机关与幻书，制造地下三层移动要塞般的宅邸。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "oliver",
+      "type": "character",
+      "label": "奥利佛·葛雷",
+      "visibility": "public",
+      "summary": "第七卷人物，卷入被伪装成外星诅咒的媚药魔导书事件。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "henry-javiston",
+      "type": "character",
+      "label": "亨利·贾威斯顿",
+      "visibility": "private",
+      "summary": "探险家，留下‘幻书墓园’之谜，引导修伊与妲丽安远赴黑暗大陆。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "godin",
+      "type": "character",
+      "label": "高丁",
+      "visibility": "public",
+      "summary": "利欲熏心的新闻王，在黑暗大陆事件中施压众人，卷入王威之书与矿物生命体真相。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "judy",
+      "type": "character",
+      "label": "茱蒂",
+      "visibility": "public",
+      "summary": "平凡少女，与妲丽安因罗西提饼干绘本‘最后之书’展开荒诞争夺。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "mithril",
+      "type": "character",
+      "label": "怪盗秘银",
+      "visibility": "private",
+      "summary": "第八卷阿斯奎斯侯爵府事件中的怪盗介入者，与永恒黄昏透视画馆和活祭仪式相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "lifia-asquith",
+      "type": "character",
+      "label": "莉菲雅",
+      "visibility": "private",
+      "summary": "阿斯奎斯侯爵府事件中的千金，卷入《永恒黄昏的透视画馆》构筑的活祭与长生噩梦。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    }
   ],
   "edges": [
-    {"from":"hugh-anthony-disward","to":"dalian","type":"contract-partner","attitude":"trusting","visibility":"public","summary":"钥匙守护者与黑之读姬，互相吐槽但高度信任。"},
-    {"from":"hugh-anthony-disward","to":"faction-dantalian-pair","type":"member-of","visibility":"public","summary":"修伊代表保存/封印路线。"},
-    {"from":"dalian","to":"faction-dantalian-pair","type":"member-of","visibility":"public","summary":"妲丽安是丹特丽安书架本体的读姬。"},
-    {"from":"hal-kamhout","to":"flamberge","type":"contract-partner","attitude":"functional","visibility":"public","summary":"焚书官与银之读姬，以毁灭门扉装填幻书。"},
-    {"from":"hal-kamhout","to":"faction-burning-officers","type":"member-of","visibility":"public","summary":"哈尔是焚书官。"},
-    {"from":"flamberge","to":"faction-burning-officers","type":"member-of","visibility":"public","summary":"芙兰是焚书官体系的读姬搭档。"},
-    {"from":"hugh-anthony-disward","to":"hal-kamhout","type":"rival-ideology","attitude":"tense-respect","visibility":"public","summary":"保存封印与焚毁幻书的理念对立；危机时可停火合作。"},
-    {"from":"dalian","to":"flamberge","type":"same-kind-contrast","attitude":"wary","visibility":"public","summary":"黑之读姬与银之毁灭读姬是同类但功能相反。"},
-    {"from":"dalian","to":"raziel","type":"same-kind-rivalry","attitude":"hostile","visibility":"private","summary":"黑之读姬与赤之读姬在保存/实验理念上对立。"},
-    {"from":"professor","to":"raziel","type":"contract-or-partnership","attitude":"collaborative","visibility":"private","summary":"教授与赤之读姬共同观察幻稿与实验。"},
-    {"from":"professor","to":"faction-professor-raziel","type":"member-of","visibility":"private","summary":"教授是幻稿实验一方。"},
-    {"from":"raziel","to":"faction-professor-raziel","type":"member-of","visibility":"private","summary":"拉结尔为赤之读姬。"},
-    {"from":"professor","to":"hugh-anthony-disward","type":"antagonist","attitude":"experimental-interest","visibility":"private","summary":"教授把修伊一行视为观察和干扰对象。"},
-    {"from":"camilla-cairns","to":"hugh-anthony-disward","type":"childhood-friend","attitude":"friendly","visibility":"public","summary":"卡米拉是修伊青梅竹马。"},
-    {"from":"camilla-cairns","to":"dalian","type":"friend-gift","attitude":"friendly","visibility":"public","summary":"卡米拉曾以单纯方式化解等价之书危机，并赠送妲丽安布偶。"},
-    {"from":"jessica-elphinstone","to":"dalian","type":"bickering-friend","attitude":"comic-rivalry","visibility":"public","summary":"洁西卡与妲丽安互相嘴硬，常有吵闹互动。"},
-    {"from":"jessica-elphinstone","to":"hugh-anthony-disward","type":"ally-in-incidents","attitude":"trust","visibility":"public","summary":"洁西卡在学校与幽灵船事件中协助修伊。"},
-    {"from":"alman-jeremiah","to":"hugh-anthony-disward","type":"junior-friend","attitude":"dependent","visibility":"public","summary":"阿尔曼是修伊的学弟/友人，常带来麻烦。"},
-    {"from":"yuna","to":"faction-phantom-book-thieves","type":"member-of","visibility":"private","summary":"优娜是幻书窃贼代表。"},
-    {"from":"yuna","to":"hal-kamhout","type":"manipulates","attitude":"calculating","visibility":"private","summary":"优娜在雷兹凯索城堡诱导哈尔焚毁目标幻书。"},
-    {"from":"emilia-eva","to":"professor","type":"victim-of-experiment","attitude":"tragic","visibility":"private","summary":"艾米莉亚/艾娃被连接之书实验卷入集体意识。"},
-    {"from":"emilia-eva","to":"hugh-anthony-disward","type":"mercy-request","attitude":"tragic-trust","visibility":"private","summary":"修伊最终用忘却给予她和全镇安息。"},
-    {"from":"fiona-famernia","to":"dalian","type":"brief-understanding","attitude":"gentle","visibility":"public","summary":"菲欧娜识破妲丽安温柔的谎言并让其动摇。"},
-    {"from":"saz-haston","to":"roy-haston","type":"siblings","attitude":"tragic","visibility":"public","summary":"兄弟关系被血统实验、自卑与嫉妒撕裂。"},
-    {"from":"viola-duplessis","to":"melgar","type":"creator-creation","attitude":"threatened","visibility":"private","summary":"麦尔加创造维奥拉并试图回收她。"},
-    {"from":"melgar","to":"faction-nobility-collectors","type":"associated-with","visibility":"private","summary":"麦尔加属于旧贵族/魔术实验线。"},
-    {"from":"faction-dantalian-pair","to":"faction-burning-officers","type":"ideological-conflict","visibility":"public","summary":"保存封印与焚毁幻书的路线冲突。"},
-    {"from":"faction-professor-raziel","to":"faction-dantalian-pair","type":"antagonism","visibility":"private","summary":"教授实验常威胁修伊与妲丽安的封印路线。"},
-    {"from":"faction-phantom-book-thieves","to":"faction-burning-officers","type":"manipulative-conflict","visibility":"private","summary":"幻书窃贼可能借焚书官之手达成解放/焚毁目标。"}
+    {
+      "from": "hugh-anthony-disward",
+      "to": "dalian",
+      "type": "contract-partner",
+      "attitude": "trusting",
+      "visibility": "public",
+      "summary": "钥匙守护者与黑之读姬，互相吐槽但高度信任。"
+    },
+    {
+      "from": "hugh-anthony-disward",
+      "to": "faction-dantalian-pair",
+      "type": "member-of",
+      "visibility": "public",
+      "summary": "修伊代表保存/封印路线。"
+    },
+    {
+      "from": "dalian",
+      "to": "faction-dantalian-pair",
+      "type": "member-of",
+      "visibility": "public",
+      "summary": "妲丽安是丹特丽安书架本体的读姬。"
+    },
+    {
+      "from": "hal-kamhout",
+      "to": "flamberge",
+      "type": "contract-partner",
+      "attitude": "functional",
+      "visibility": "public",
+      "summary": "焚书官与银之读姬，以毁灭门扉装填幻书。"
+    },
+    {
+      "from": "hal-kamhout",
+      "to": "faction-burning-officers",
+      "type": "member-of",
+      "visibility": "public",
+      "summary": "哈尔是焚书官。"
+    },
+    {
+      "from": "flamberge",
+      "to": "faction-burning-officers",
+      "type": "member-of",
+      "visibility": "public",
+      "summary": "芙兰是焚书官体系的读姬搭档。"
+    },
+    {
+      "from": "hugh-anthony-disward",
+      "to": "hal-kamhout",
+      "type": "rival-ideology",
+      "attitude": "tense-respect",
+      "visibility": "public",
+      "summary": "保存封印与焚毁幻书的理念对立；危机时可停火合作。"
+    },
+    {
+      "from": "dalian",
+      "to": "flamberge",
+      "type": "same-kind-contrast",
+      "attitude": "wary",
+      "visibility": "public",
+      "summary": "黑之读姬与银之毁灭读姬是同类但功能相反。"
+    },
+    {
+      "from": "dalian",
+      "to": "raziel",
+      "type": "same-kind-rivalry",
+      "attitude": "hostile",
+      "visibility": "private",
+      "summary": "黑之读姬与赤之读姬在保存/实验理念上对立。"
+    },
+    {
+      "from": "professor",
+      "to": "raziel",
+      "type": "contract-or-partnership",
+      "attitude": "collaborative",
+      "visibility": "private",
+      "summary": "教授与赤之读姬共同观察幻稿与实验。"
+    },
+    {
+      "from": "professor",
+      "to": "faction-professor-raziel",
+      "type": "member-of",
+      "visibility": "private",
+      "summary": "教授是幻稿实验一方。"
+    },
+    {
+      "from": "raziel",
+      "to": "faction-professor-raziel",
+      "type": "member-of",
+      "visibility": "private",
+      "summary": "拉结尔为赤之读姬。"
+    },
+    {
+      "from": "professor",
+      "to": "hugh-anthony-disward",
+      "type": "antagonist",
+      "attitude": "experimental-interest",
+      "visibility": "private",
+      "summary": "教授把修伊一行视为观察和干扰对象。"
+    },
+    {
+      "from": "camilla-cairns",
+      "to": "hugh-anthony-disward",
+      "type": "childhood-friend",
+      "attitude": "friendly",
+      "visibility": "public",
+      "summary": "卡米拉是修伊青梅竹马。"
+    },
+    {
+      "from": "camilla-cairns",
+      "to": "dalian",
+      "type": "friend-gift",
+      "attitude": "friendly",
+      "visibility": "public",
+      "summary": "卡米拉曾以单纯方式化解等价之书危机，并赠送妲丽安布偶。"
+    },
+    {
+      "from": "jessica-elphinstone",
+      "to": "dalian",
+      "type": "bickering-friend",
+      "attitude": "comic-rivalry",
+      "visibility": "public",
+      "summary": "洁西卡与妲丽安互相嘴硬，常有吵闹互动。"
+    },
+    {
+      "from": "jessica-elphinstone",
+      "to": "hugh-anthony-disward",
+      "type": "ally-in-incidents",
+      "attitude": "trust",
+      "visibility": "public",
+      "summary": "洁西卡在学校与幽灵船事件中协助修伊。"
+    },
+    {
+      "from": "alman-jeremiah",
+      "to": "hugh-anthony-disward",
+      "type": "junior-friend",
+      "attitude": "dependent",
+      "visibility": "public",
+      "summary": "阿尔曼是修伊的学弟/友人，常带来麻烦。"
+    },
+    {
+      "from": "yuna",
+      "to": "faction-phantom-book-thieves",
+      "type": "member-of",
+      "visibility": "private",
+      "summary": "优娜是幻书窃贼代表。"
+    },
+    {
+      "from": "yuna",
+      "to": "hal-kamhout",
+      "type": "manipulates",
+      "attitude": "calculating",
+      "visibility": "private",
+      "summary": "优娜在雷兹凯索城堡诱导哈尔焚毁目标幻书。"
+    },
+    {
+      "from": "emilia-eva",
+      "to": "professor",
+      "type": "victim-of-experiment",
+      "attitude": "tragic",
+      "visibility": "private",
+      "summary": "艾米莉亚/艾娃被连接之书实验卷入集体意识。"
+    },
+    {
+      "from": "emilia-eva",
+      "to": "hugh-anthony-disward",
+      "type": "mercy-request",
+      "attitude": "tragic-trust",
+      "visibility": "private",
+      "summary": "修伊最终用忘却给予她和全镇安息。"
+    },
+    {
+      "from": "fiona-famernia",
+      "to": "dalian",
+      "type": "brief-understanding",
+      "attitude": "gentle",
+      "visibility": "public",
+      "summary": "菲欧娜识破妲丽安温柔的谎言并让其动摇。"
+    },
+    {
+      "from": "saz-haston",
+      "to": "roy-haston",
+      "type": "siblings",
+      "attitude": "tragic",
+      "visibility": "public",
+      "summary": "兄弟关系被血统实验、自卑与嫉妒撕裂。"
+    },
+    {
+      "from": "viola-duplessis",
+      "to": "melgar",
+      "type": "creator-creation",
+      "attitude": "threatened",
+      "visibility": "private",
+      "summary": "麦尔加创造维奥拉并试图回收她。"
+    },
+    {
+      "from": "melgar",
+      "to": "faction-nobility-collectors",
+      "type": "associated-with",
+      "visibility": "private",
+      "summary": "麦尔加属于旧贵族/魔术实验线。"
+    },
+    {
+      "from": "faction-dantalian-pair",
+      "to": "faction-burning-officers",
+      "type": "ideological-conflict",
+      "visibility": "public",
+      "summary": "保存封印与焚毁幻书的路线冲突。"
+    },
+    {
+      "from": "faction-professor-raziel",
+      "to": "faction-dantalian-pair",
+      "type": "antagonism",
+      "visibility": "private",
+      "summary": "教授实验常威胁修伊与妲丽安的封印路线。"
+    },
+    {
+      "from": "faction-phantom-book-thieves",
+      "to": "faction-burning-officers",
+      "type": "manipulative-conflict",
+      "visibility": "private",
+      "summary": "幻书窃贼可能借焚书官之手达成解放/焚毁目标。"
+    }
   ],
-  "sourceRefs": ["src-dantalian-no-shoka-001"]
+  "sourceRefs": [
+    "src-dantalian-no-shoka-001"
+  ],
+  "campaignId": "dantalian-no-shoka",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

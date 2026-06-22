@@ -1,26 +1,430 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "zero-no-tsukaima",
   "displayName": "零之使魔",
-  "sourceIds": ["src-zero-no-tsukaima-001"],
-  "characters": [
-    {"id": "louise-valliere", "name": "露易丝·法兰西斯·露·布朗·杜·拉·瓦利埃尔", "aliases": ["露易丝", "零之露易丝", "Louise Françoise Le Blanc de La Vallière"], "role": "女主角；托里斯汀贵族少女；虚无魔法师候补；使魔主人", "affiliations": ["瓦利埃尔家", "托里斯汀魔法学院", "托里斯汀王国"], "magic": ["虚无魔法潜质", "所有基础魔法表现为爆炸"], "traits": ["高傲", "自卑", "责任感强", "不坦率"], "notes": "召唤来自异世界的使魔，因无法使用常规元素魔法而被称为零。", "sourceEntries": [7]},
-    {"id": "tabitha", "name": "塔巴莎", "aliases": ["夏洛特·埃里诺·奥尔良", "Tabitha", "Charlotte Hélène Orléans"], "role": "戈里亚王位继承人；托里斯汀魔法学院学生；风系魔法师", "affiliations": ["戈里亚王室", "托里斯汀魔法学院"], "magic": ["风系魔法", "三角级", "与风龙希尔菲德协同"], "traits": ["沉默", "冷静", "复仇意志", "行动派温柔"], "notes": "隐姓埋名生活，目标是向篡位者复仇并复国。", "sourceEntries": [8]},
-    {"id": "tiffania", "name": "蒂法妮娅", "aliases": ["Tiffania Westwood", "蒂法"], "role": "半精灵少女；虚无相关人物", "affiliations": ["阿尔比昂/边境社区"], "magic": ["虚无相关潜质/特殊魔法"], "traits": ["温柔", "善良", "因半精灵身份承受偏见"], "notes": "源中作为主要人物条目出现，关联虚无与种族偏见主题。", "sourceEntries": [9]},
-    {"id": "kirche", "name": "丘鲁克·奥古斯都·菲列特利加·封·安哈尔特·泽鲁普斯特", "aliases": ["丘鲁克", "Kirche"], "role": "日耳曼尼亚贵族；托里斯汀魔法学院学生；火系魔法师", "affiliations": ["泽鲁普斯特家", "日耳曼尼亚", "托里斯汀魔法学院"], "magic": ["火系魔法"], "traits": ["热情", "奔放", "与露易丝家族有竞争背景"], "notes": "常与露易丝形成贵族/性格对比。", "sourceEntries": [10]},
-    {"id": "guiche", "name": "基修·杜·格拉蒙", "aliases": ["Guiche de Gramont"], "role": "托里斯汀贵族学生；土系魔法师；学院喜剧冲突角色", "affiliations": ["托里斯汀魔法学院", "格拉蒙家"], "magic": ["土系魔法", "魔法人偶/青铜相关"], "traits": ["自恋", "风流", "贵族意识强", "容易惹事"], "notes": "常作为学院决斗和贵族阶级观念的触发者。", "sourceEntries": [11]},
-    {"id": "montmorency", "name": "蒙莫朗西", "aliases": ["Montmorency"], "role": "托里斯汀贵族学生；水系魔法师；基修相关人物", "affiliations": ["托里斯汀魔法学院"], "magic": ["水系魔法", "药水/炼金相关"], "traits": ["贵族少女", "与基修有恋爱纠葛"], "notes": "学院人际与魔法药水事件的重要角色。", "sourceEntries": [12]},
-    {"id": "julio-cesare", "name": "朱力欧·切萨雷", "aliases": ["Julio Chesaré"], "role": "罗马利亚相关人物；虚无体系中的重要使魔/骑士位", "affiliations": ["罗马利亚教国"], "magic": ["虚无使魔系统相关"], "traits": ["优雅", "神秘", "宗教政治色彩"], "notes": "源中作为独立人物条目；用于连接罗马利亚与虚无主线。", "sourceEntries": [13]},
-    {"id": "siesta", "name": "谢斯塔", "aliases": ["Siesta"], "role": "托里斯汀魔法学院女仆；平民视角人物", "affiliations": ["托里斯汀魔法学院", "平民阶层"], "magic": [], "traits": ["温柔", "勤劳", "平民身份", "对异界使魔友善"], "notes": "提供贵族社会中的平民日常视角。", "sourceEntries": [14]},
-    {"id": "henrietta", "name": "安丽埃塔", "aliases": ["Henrietta de Tristain", "安丽埃塔女王/公主"], "role": "托里斯汀王族；政治主线核心", "affiliations": ["托里斯汀王国"], "magic": [], "traits": ["责任重大", "重情义", "承担王国命运"], "notes": "与威尔士的悲恋和托里斯汀政治危机相连。", "sourceEntries": [15]},
-    {"id": "joseph-gallia", "name": "约瑟夫·杜·戈里亚", "aliases": ["约瑟夫"], "role": "戈里亚国王；篡位者；阴谋家", "affiliations": ["戈里亚王国"], "magic": [], "traits": ["伪善", "残酷", "权力至上"], "notes": "塔巴莎的叔父/敌人，视塔巴莎为王位威胁。", "sourceEntries": [16]},
-    {"id": "sheffield", "name": "谢菲尔德", "aliases": ["神之心", "米奥索特恩", "Sheffield"], "role": "约瑟夫的虚无使魔；国王之刃", "affiliations": ["戈里亚王国", "约瑟夫势力"], "magic": ["神之心/米奥索特恩", "吸收无效化魔法", "操控魔法道具"], "traits": ["冷漠", "绝对忠诚", "高效"], "notes": "执行约瑟夫命令，是虚无系统敌对侧关键人物。", "sourceEntries": [16]},
-    {"id": "josette", "name": "约赛特·杜·戈里亚", "aliases": ["约赛特"], "role": "戈里亚公主；塔巴莎堂妹；政治人质", "affiliations": ["戈里亚王室"], "magic": [], "traits": ["天真", "善良", "胆小"], "notes": "思念塔巴莎，被约瑟夫作为政治工具。", "sourceEntries": [16]},
-    {"id": "wales-tudor", "name": "威尔士·都铎", "aliases": ["威尔士"], "role": "阿尔比昂王子；悲剧英雄；安丽埃塔恋人", "affiliations": ["阿尔比昂王国"], "magic": [], "traits": ["勇敢", "理想主义", "重情义"], "notes": "阿尔比昂内战与安丽埃塔悲恋核心。", "sourceEntries": [16]},
-    {"id": "osman", "name": "欧斯曼", "aliases": ["奥斯曼院长"], "role": "托里斯汀魔法学院院长", "affiliations": ["托里斯汀魔法学院"], "magic": ["高深魔法实力"], "traits": ["不正经", "狡猾", "关键时刻可靠"], "notes": "暗中关注露易丝与异界使魔。", "sourceEntries": [16]},
-    {"id": "agnes", "name": "阿尼埃斯·修巴リエ·杜·米兰", "aliases": ["阿尼埃斯"], "role": "托里斯汀王家火枪队队长；女骑士", "affiliations": ["托里斯汀王家火枪队", "托里斯汀王国"], "magic": [], "traits": ["忠诚", "耿直", "勇敢"], "notes": "安丽埃塔的忠臣与守护者。", "sourceEntries": [16]},
-    {"id": "eleonore-valliere", "name": "艾蕾欧诺尔·艾伯蔕妮·露·杜·拉·瓦丽埃尔", "aliases": ["艾蕾欧诺尔"], "role": "瓦利埃尔家长女；皇家学院学者", "affiliations": ["瓦利埃尔家", "皇家学院"], "magic": ["风系魔法"], "traits": ["严厉", "博学", "家族至上"], "notes": "对露易丝严厉但关心，维护家族荣誉。", "sourceEntries": [16]},
-    {"id": "cattleya-valliere", "name": "卡特莉亚·伊埃特·拉·波姆·露·布朗·杜·拉·封丹", "aliases": ["卡特莉亚"], "role": "瓦利埃尔家次女；露易丝姐姐", "affiliations": ["瓦利埃尔家"], "magic": ["土系魔法天赋"], "traits": ["温柔", "聪慧", "体弱但坚韧"], "notes": "家中最理解和疼爱露易丝的人。", "sourceEntries": [16]}
+  "sourceIds": [
+    "src-zero-no-tsukaima-001"
   ],
-  "rpPlayerSlot": {"id": "user-familiar", "label": "{{user}}/异界使魔", "treatment": "RP 玩家位；不固化为固定人物，但关系图保留与露易丝的契约槽位。"}
+  "characters": [
+    {
+      "id": "louise-valliere",
+      "name": "露易丝·法兰西斯·露·布朗·杜·拉·瓦利埃尔",
+      "aliases": [
+        "露易丝",
+        "零之露易丝",
+        "Louise Françoise Le Blanc de La Vallière"
+      ],
+      "role": "女主角；托里斯汀贵族少女；虚无魔法师候补；使魔主人",
+      "affiliations": [
+        "瓦利埃尔家",
+        "托里斯汀魔法学院",
+        "托里斯汀王国"
+      ],
+      "magic": [
+        "虚无魔法潜质",
+        "所有基础魔法表现为爆炸"
+      ],
+      "traits": [
+        "高傲",
+        "自卑",
+        "责任感强",
+        "不坦率"
+      ],
+      "notes": "召唤来自异世界的使魔，因无法使用常规元素魔法而被称为零。",
+      "sourceEntries": [
+        7
+      ]
+    },
+    {
+      "id": "tabitha",
+      "name": "塔巴莎",
+      "aliases": [
+        "夏洛特·埃里诺·奥尔良",
+        "Tabitha",
+        "Charlotte Hélène Orléans"
+      ],
+      "role": "戈里亚王位继承人；托里斯汀魔法学院学生；风系魔法师",
+      "affiliations": [
+        "戈里亚王室",
+        "托里斯汀魔法学院"
+      ],
+      "magic": [
+        "风系魔法",
+        "三角级",
+        "与风龙希尔菲德协同"
+      ],
+      "traits": [
+        "沉默",
+        "冷静",
+        "复仇意志",
+        "行动派温柔"
+      ],
+      "notes": "隐姓埋名生活，目标是向篡位者复仇并复国。",
+      "sourceEntries": [
+        8
+      ]
+    },
+    {
+      "id": "tiffania",
+      "name": "蒂法妮娅",
+      "aliases": [
+        "Tiffania Westwood",
+        "蒂法"
+      ],
+      "role": "半精灵少女；虚无相关人物",
+      "affiliations": [
+        "阿尔比昂/边境社区"
+      ],
+      "magic": [
+        "虚无相关潜质/特殊魔法"
+      ],
+      "traits": [
+        "温柔",
+        "善良",
+        "因半精灵身份承受偏见"
+      ],
+      "notes": "源中作为主要人物条目出现，关联虚无与种族偏见主题。",
+      "sourceEntries": [
+        9
+      ]
+    },
+    {
+      "id": "kirche",
+      "name": "丘鲁克·奥古斯都·菲列特利加·封·安哈尔特·泽鲁普斯特",
+      "aliases": [
+        "丘鲁克",
+        "Kirche"
+      ],
+      "role": "日耳曼尼亚贵族；托里斯汀魔法学院学生；火系魔法师",
+      "affiliations": [
+        "泽鲁普斯特家",
+        "日耳曼尼亚",
+        "托里斯汀魔法学院"
+      ],
+      "magic": [
+        "火系魔法"
+      ],
+      "traits": [
+        "热情",
+        "奔放",
+        "与露易丝家族有竞争背景"
+      ],
+      "notes": "常与露易丝形成贵族/性格对比。",
+      "sourceEntries": [
+        10
+      ]
+    },
+    {
+      "id": "guiche",
+      "name": "基修·杜·格拉蒙",
+      "aliases": [
+        "Guiche de Gramont"
+      ],
+      "role": "托里斯汀贵族学生；土系魔法师；学院喜剧冲突角色",
+      "affiliations": [
+        "托里斯汀魔法学院",
+        "格拉蒙家"
+      ],
+      "magic": [
+        "土系魔法",
+        "魔法人偶/青铜相关"
+      ],
+      "traits": [
+        "自恋",
+        "风流",
+        "贵族意识强",
+        "容易惹事"
+      ],
+      "notes": "常作为学院决斗和贵族阶级观念的触发者。",
+      "sourceEntries": [
+        11
+      ]
+    },
+    {
+      "id": "montmorency",
+      "name": "蒙莫朗西",
+      "aliases": [
+        "Montmorency"
+      ],
+      "role": "托里斯汀贵族学生；水系魔法师；基修相关人物",
+      "affiliations": [
+        "托里斯汀魔法学院"
+      ],
+      "magic": [
+        "水系魔法",
+        "药水/炼金相关"
+      ],
+      "traits": [
+        "贵族少女",
+        "与基修有恋爱纠葛"
+      ],
+      "notes": "学院人际与魔法药水事件的重要角色。",
+      "sourceEntries": [
+        12
+      ]
+    },
+    {
+      "id": "julio-cesare",
+      "name": "朱力欧·切萨雷",
+      "aliases": [
+        "Julio Chesaré"
+      ],
+      "role": "罗马利亚相关人物；虚无体系中的重要使魔/骑士位",
+      "affiliations": [
+        "罗马利亚教国"
+      ],
+      "magic": [
+        "虚无使魔系统相关"
+      ],
+      "traits": [
+        "优雅",
+        "神秘",
+        "宗教政治色彩"
+      ],
+      "notes": "源中作为独立人物条目；用于连接罗马利亚与虚无主线。",
+      "sourceEntries": [
+        13
+      ]
+    },
+    {
+      "id": "siesta",
+      "name": "谢斯塔",
+      "aliases": [
+        "Siesta"
+      ],
+      "role": "托里斯汀魔法学院女仆；平民视角人物",
+      "affiliations": [
+        "托里斯汀魔法学院",
+        "平民阶层"
+      ],
+      "magic": [],
+      "traits": [
+        "温柔",
+        "勤劳",
+        "平民身份",
+        "对异界使魔友善"
+      ],
+      "notes": "提供贵族社会中的平民日常视角。",
+      "sourceEntries": [
+        14
+      ]
+    },
+    {
+      "id": "henrietta",
+      "name": "安丽埃塔",
+      "aliases": [
+        "Henrietta de Tristain",
+        "安丽埃塔女王/公主"
+      ],
+      "role": "托里斯汀王族；政治主线核心",
+      "affiliations": [
+        "托里斯汀王国"
+      ],
+      "magic": [],
+      "traits": [
+        "责任重大",
+        "重情义",
+        "承担王国命运"
+      ],
+      "notes": "与威尔士的悲恋和托里斯汀政治危机相连。",
+      "sourceEntries": [
+        15
+      ]
+    },
+    {
+      "id": "joseph-gallia",
+      "name": "约瑟夫·杜·戈里亚",
+      "aliases": [
+        "约瑟夫"
+      ],
+      "role": "戈里亚国王；篡位者；阴谋家",
+      "affiliations": [
+        "戈里亚王国"
+      ],
+      "magic": [],
+      "traits": [
+        "伪善",
+        "残酷",
+        "权力至上"
+      ],
+      "notes": "塔巴莎的叔父/敌人，视塔巴莎为王位威胁。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "sheffield",
+      "name": "谢菲尔德",
+      "aliases": [
+        "神之心",
+        "米奥索特恩",
+        "Sheffield"
+      ],
+      "role": "约瑟夫的虚无使魔；国王之刃",
+      "affiliations": [
+        "戈里亚王国",
+        "约瑟夫势力"
+      ],
+      "magic": [
+        "神之心/米奥索特恩",
+        "吸收无效化魔法",
+        "操控魔法道具"
+      ],
+      "traits": [
+        "冷漠",
+        "绝对忠诚",
+        "高效"
+      ],
+      "notes": "执行约瑟夫命令，是虚无系统敌对侧关键人物。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "josette",
+      "name": "约赛特·杜·戈里亚",
+      "aliases": [
+        "约赛特"
+      ],
+      "role": "戈里亚公主；塔巴莎堂妹；政治人质",
+      "affiliations": [
+        "戈里亚王室"
+      ],
+      "magic": [],
+      "traits": [
+        "天真",
+        "善良",
+        "胆小"
+      ],
+      "notes": "思念塔巴莎，被约瑟夫作为政治工具。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "wales-tudor",
+      "name": "威尔士·都铎",
+      "aliases": [
+        "威尔士"
+      ],
+      "role": "阿尔比昂王子；悲剧英雄；安丽埃塔恋人",
+      "affiliations": [
+        "阿尔比昂王国"
+      ],
+      "magic": [],
+      "traits": [
+        "勇敢",
+        "理想主义",
+        "重情义"
+      ],
+      "notes": "阿尔比昂内战与安丽埃塔悲恋核心。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "osman",
+      "name": "欧斯曼",
+      "aliases": [
+        "奥斯曼院长"
+      ],
+      "role": "托里斯汀魔法学院院长",
+      "affiliations": [
+        "托里斯汀魔法学院"
+      ],
+      "magic": [
+        "高深魔法实力"
+      ],
+      "traits": [
+        "不正经",
+        "狡猾",
+        "关键时刻可靠"
+      ],
+      "notes": "暗中关注露易丝与异界使魔。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "agnes",
+      "name": "阿尼埃斯·修巴リエ·杜·米兰",
+      "aliases": [
+        "阿尼埃斯"
+      ],
+      "role": "托里斯汀王家火枪队队长；女骑士",
+      "affiliations": [
+        "托里斯汀王家火枪队",
+        "托里斯汀王国"
+      ],
+      "magic": [],
+      "traits": [
+        "忠诚",
+        "耿直",
+        "勇敢"
+      ],
+      "notes": "安丽埃塔的忠臣与守护者。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "eleonore-valliere",
+      "name": "艾蕾欧诺尔·艾伯蔕妮·露·杜·拉·瓦丽埃尔",
+      "aliases": [
+        "艾蕾欧诺尔"
+      ],
+      "role": "瓦利埃尔家长女；皇家学院学者",
+      "affiliations": [
+        "瓦利埃尔家",
+        "皇家学院"
+      ],
+      "magic": [
+        "风系魔法"
+      ],
+      "traits": [
+        "严厉",
+        "博学",
+        "家族至上"
+      ],
+      "notes": "对露易丝严厉但关心，维护家族荣誉。",
+      "sourceEntries": [
+        16
+      ]
+    },
+    {
+      "id": "cattleya-valliere",
+      "name": "卡特莉亚·伊埃特·拉·波姆·露·布朗·杜·拉·封丹",
+      "aliases": [
+        "卡特莉亚"
+      ],
+      "role": "瓦利埃尔家次女；露易丝姐姐",
+      "affiliations": [
+        "瓦利埃尔家"
+      ],
+      "magic": [
+        "土系魔法天赋"
+      ],
+      "traits": [
+        "温柔",
+        "聪慧",
+        "体弱但坚韧"
+      ],
+      "notes": "家中最理解和疼爱露易丝的人。",
+      "sourceEntries": [
+        16
+      ]
+    }
+  ],
+  "rpPlayerSlot": {
+    "id": "user-familiar",
+    "label": "{{user}}/异界使魔",
+    "treatment": "RP 玩家位；不固化为固定人物，但关系图保留与露易丝的契约槽位。"
+  },
+  "worldId": "zero-no-tsukaima",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

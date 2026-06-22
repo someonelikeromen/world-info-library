@@ -1,1 +1,79 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"hidan-no-aria","nodes":[{"id":"tokyo-butei-high","type":"location/faction","label":"东京武侦高"},{"id":"butei-system","type":"powerSystem","label":"武侦制度"},{"id":"hysteria-mode","type":"powerSystem","label":"远山爆发模式"},{"id":"aria","type":"character","label":"亚里亚"},{"id":"kinji","type":"character","label":"远山金次"},{"id":"i-u","type":"faction","label":"伊・幽"},{"id":"super-lineages","type":"concept","label":"名侦探/怪盗/英雄血脉"}],"edges":[{"from":"tokyo-butei-high","to":"butei-system","type":"trains"},{"from":"kinji","to":"hysteria-mode","type":"can_trigger"},{"from":"aria","to":"super-lineages","type":"inherits_holmes"},{"from":"i-u","to":"tokyo-butei-high","type":"opposes_and_infiltrates"},{"from":"super-lineages","to":"i-u","type":"recruits_or_exploits"}],"sourceRefs":["src-hidan-no-aria-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "hidan-no-aria",
+  "nodes": [
+    {
+      "id": "tokyo-butei-high",
+      "type": "location/faction",
+      "label": "东京武侦高"
+    },
+    {
+      "id": "butei-system",
+      "type": "powerSystem",
+      "label": "武侦制度"
+    },
+    {
+      "id": "hysteria-mode",
+      "type": "powerSystem",
+      "label": "远山爆发模式"
+    },
+    {
+      "id": "aria",
+      "type": "character",
+      "label": "亚里亚"
+    },
+    {
+      "id": "kinji",
+      "type": "character",
+      "label": "远山金次"
+    },
+    {
+      "id": "i-u",
+      "type": "faction",
+      "label": "伊・幽"
+    },
+    {
+      "id": "super-lineages",
+      "type": "concept",
+      "label": "名侦探/怪盗/英雄血脉"
+    }
+  ],
+  "edges": [
+    {
+      "from": "tokyo-butei-high",
+      "to": "butei-system",
+      "type": "trains"
+    },
+    {
+      "from": "kinji",
+      "to": "hysteria-mode",
+      "type": "can_trigger"
+    },
+    {
+      "from": "aria",
+      "to": "super-lineages",
+      "type": "inherits_holmes"
+    },
+    {
+      "from": "i-u",
+      "to": "tokyo-butei-high",
+      "type": "opposes_and_infiltrates"
+    },
+    {
+      "from": "super-lineages",
+      "to": "i-u",
+      "type": "recruits_or_exploits"
+    }
+  ],
+  "sourceRefs": [
+    "src-hidan-no-aria-001"
+  ],
+  "campaignId": "hidan-no-aria",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

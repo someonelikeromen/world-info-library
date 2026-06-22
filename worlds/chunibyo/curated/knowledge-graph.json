@@ -1,21 +1,88 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "chunibyo",
   "nodes": [
-    {"id": "chunibyo", "label": "中二病", "type": "concept", "description": "青春期幻想性自我设定与夸张表达方式。"},
-    {"id": "invisible-boundary", "label": "不可视境界线", "type": "motif", "description": "六花用以寄托与父亲再会愿望的幻想目标。"},
-    {"id": "evil-eye", "label": "邪王真眼", "type": "persona", "description": "六花的核心中二身份，眼罩是封印设定象征。"},
-    {"id": "dark-flame-master", "label": "Dark Flame Master", "type": "persona", "description": "勇太初中时期的黑历史身份。"},
-    {"id": "mori-summer", "label": "Mori Summer", "type": "persona", "description": "森夏过去的中二身份，也是凸守崇拜对象。"},
-    {"id": "far-east-napping-society", "label": "远东魔法午睡结社之夏", "type": "organization", "description": "主角群社团据点。"},
-    {"id": "school-life", "label": "高中校园生活", "type": "setting", "description": "课程、社团、同学关系与青春事件的现实框架。"}
+    {
+      "id": "chunibyo",
+      "label": "中二病",
+      "type": "concept",
+      "description": "青春期幻想性自我设定与夸张表达方式。"
+    },
+    {
+      "id": "invisible-boundary",
+      "label": "不可视境界线",
+      "type": "motif",
+      "description": "六花用以寄托与父亲再会愿望的幻想目标。"
+    },
+    {
+      "id": "evil-eye",
+      "label": "邪王真眼",
+      "type": "persona",
+      "description": "六花的核心中二身份，眼罩是封印设定象征。"
+    },
+    {
+      "id": "dark-flame-master",
+      "label": "Dark Flame Master",
+      "type": "persona",
+      "description": "勇太初中时期的黑历史身份。"
+    },
+    {
+      "id": "mori-summer",
+      "label": "Mori Summer",
+      "type": "persona",
+      "description": "森夏过去的中二身份，也是凸守崇拜对象。"
+    },
+    {
+      "id": "far-east-napping-society",
+      "label": "远东魔法午睡结社之夏",
+      "type": "organization",
+      "description": "主角群社团据点。"
+    },
+    {
+      "id": "school-life",
+      "label": "高中校园生活",
+      "type": "setting",
+      "description": "课程、社团、同学关系与青春事件的现实框架。"
+    }
   ],
   "edges": [
-    {"from": "chunibyo", "to": "evil-eye", "type": "manifests_as"},
-    {"from": "chunibyo", "to": "dark-flame-master", "type": "manifests_as"},
-    {"from": "chunibyo", "to": "mori-summer", "type": "manifests_as"},
-    {"from": "invisible-boundary", "to": "evil-eye", "type": "personal_myth"},
-    {"from": "far-east-napping-society", "to": "school-life", "type": "located_within"},
-    {"from": "school-life", "to": "chunibyo", "type": "contrasts_with"}
-  ]
+    {
+      "from": "chunibyo",
+      "to": "evil-eye",
+      "type": "manifests_as"
+    },
+    {
+      "from": "chunibyo",
+      "to": "dark-flame-master",
+      "type": "manifests_as"
+    },
+    {
+      "from": "chunibyo",
+      "to": "mori-summer",
+      "type": "manifests_as"
+    },
+    {
+      "from": "invisible-boundary",
+      "to": "evil-eye",
+      "type": "personal_myth"
+    },
+    {
+      "from": "far-east-napping-society",
+      "to": "school-life",
+      "type": "located_within"
+    },
+    {
+      "from": "school-life",
+      "to": "chunibyo",
+      "type": "contrasts_with"
+    }
+  ],
+  "campaignId": "chunibyo",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

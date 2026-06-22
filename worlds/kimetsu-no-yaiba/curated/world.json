@@ -1,1 +1,220 @@
-{"schema":"rp-world-v1","worldId":"kimetsu-no-yaiba","worldName":"鬼灭之刃","aliases":["Kimetsu no Yaiba","Demon Slayer"],"genre":["大正奇幻","猎鬼","剑术"],"summary":"大正日本暗处存在以人类为食的鬼，鬼杀队以呼吸法、日轮刀和藤花毒猎杀鬼。鬼舞辻无惨是鬼的源头，十二鬼月构成鬼方核心战力。","sandboxPrinciple":"不固定炭治郎路线；鬼杀队任务、鬼的潜伏和无惨行动动态推进。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["呼吸法多为身体技艺与感知强化，视觉特效是否实体需按跑团规则声明。"],"powerSystems":[{"id":"breathing-styles","name":"全集中呼吸/呼吸法","category":"martial-technique","principle":"通过呼吸提升身体能力、耐力、感知与剑技表现。","classification":["Technique","Body"],"energySource":"internal","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[],"levelMapping":[],"commonResources":["肺活量","剑技熟练度","斑纹风险"],"commonAbilities":["水之呼吸","雷之呼吸","日之呼吸","全集中常中"],"limitations":["仍是人体极限延伸，受伤与疲劳影响大。"],"compatibilityNotes":[]},{"id":"demon-blood-art","name":"鬼体质/血鬼术","category":"biological-supernatural","principle":"无惨血液使人鬼化，获得再生、异能和弱点。","classification":["Biology","Curse"],"energySource":"internal/external","hasExternalEnergy":true,"externalEnergyName":"无惨之血","energyTraits":[{"tag":"sun-vulnerable","level":"S","description":"阳光和日轮刀可致命。"}],"levelMapping":[],"commonResources":["血液浓度","摄食","无惨支配"],"commonAbilities":["高速再生","血鬼术","身体变形"],"limitations":["畏惧阳光、藤花毒与无惨控制。"],"compatibilityNotes":[]}],"factions":[{"id":"demon-slayer-corps","name":"鬼杀队","type":"secret-hunter-corps","summary":"非官方猎鬼组织。","powerSystemAffinity":["breathing-styles"],"publicRules":[],"hiddenRules":["柱合会议","阶级制度"],"attitudeToOutsiders":"protective","knownMembers":["tanjiro-kamado","zenitsu-agatsuma","inosuke-hashibira","giyu-tomioka","shinobu-kocho"],"territories":["藤之家","锻刀村"],"resources":["日轮刀","鎹鸦"],"conflicts":["demons"]},{"id":"demons","name":"鬼与十二鬼月","type":"monster-network","summary":"无惨支配下的鬼群。","powerSystemAffinity":["demon-blood-art"],"publicRules":[],"hiddenRules":["无惨诅咒"],"attitudeToOutsiders":"predatory","knownMembers":["muzan-kibutsuji","akaza","kokushibo","rui"],"territories":["无限城"],"resources":["血鬼术","再生"],"conflicts":["demon-slayer-corps"]}],"energyEnvironment":{"externalEnergies":[],"restrictedZones":["无限城","鬼巢"],"specialFields":["夜间猎鬼环境","藤花区域"]},"worldRules":{"publicLaws":["大正日本表层秩序"],"supernaturalRules":["鬼在夜间行动，日轮刀斩首可杀鬼。"],"taboos":["鬼化","食人"],"knownExceptions":["祢豆子等特殊鬼抗性。"]},"locations":["狭雾山","浅草","那田蜘蛛山","蝶屋敷","锻刀村","无限城"],"publicEvents":["鬼杀队选拔","柱合会议"],"hiddenEvents":["无惨追踪青色彼岸花","无限城决战"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "kimetsu-no-yaiba",
+  "worldName": "鬼灭之刃",
+  "aliases": [
+    "Kimetsu no Yaiba",
+    "Demon Slayer"
+  ],
+  "genre": [
+    "大正奇幻",
+    "猎鬼",
+    "剑术"
+  ],
+  "summary": "大正日本暗处存在以人类为食的鬼，鬼杀队以呼吸法、日轮刀和藤花毒猎杀鬼。鬼舞辻无惨是鬼的源头，十二鬼月构成鬼方核心战力。",
+  "sandboxPrinciple": {
+    "summary": "不固定炭治郎路线；鬼杀队任务、鬼的潜伏和无惨行动动态推进。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "呼吸法多为身体技艺与感知强化，视觉特效是否实体需按跑团规则声明。"
+  ],
+  "powerSystems": [
+    {
+      "id": "breathing-styles",
+      "name": "全集中呼吸/呼吸法",
+      "category": "martial-technique",
+      "principle": "通过呼吸提升身体能力、耐力、感知与剑技表现。",
+      "classification": [
+        "Technique",
+        "Body"
+      ],
+      "energySource": "internal",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "肺活量",
+        "剑技熟练度",
+        "斑纹风险"
+      ],
+      "commonAbilities": [
+        "水之呼吸",
+        "雷之呼吸",
+        "日之呼吸",
+        "全集中常中"
+      ],
+      "limitations": [
+        "仍是人体极限延伸，受伤与疲劳影响大。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "demon-blood-art",
+      "name": "鬼体质/血鬼术",
+      "category": "biological-supernatural",
+      "principle": "无惨血液使人鬼化，获得再生、异能和弱点。",
+      "classification": [
+        "Biology",
+        "Curse"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "无惨之血",
+      "energyTraits": [
+        {
+          "tag": "sun-vulnerable",
+          "level": "S",
+          "description": "阳光和日轮刀可致命。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "血液浓度",
+        "摄食",
+        "无惨支配"
+      ],
+      "commonAbilities": [
+        "高速再生",
+        "血鬼术",
+        "身体变形"
+      ],
+      "limitations": [
+        "畏惧阳光、藤花毒与无惨控制。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "demon-slayer-corps",
+      "name": "鬼杀队",
+      "type": "secret-hunter-corps",
+      "summary": "非官方猎鬼组织。",
+      "powerSystemAffinity": [
+        "breathing-styles"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "柱合会议",
+        "阶级制度"
+      ],
+      "attitudeToOutsiders": "protective",
+      "knownMembers": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira",
+        "giyu-tomioka"
+      ],
+      "territories": [
+        "藤之家",
+        "锻刀村"
+      ],
+      "resources": [
+        "日轮刀",
+        "鎹鸦"
+      ],
+      "conflicts": [
+        "demons"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "shinobu-kocho"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): shinobu-kocho"
+      ]
+    },
+    {
+      "id": "demons",
+      "name": "鬼与十二鬼月",
+      "type": "monster-network",
+      "summary": "无惨支配下的鬼群。",
+      "powerSystemAffinity": [
+        "demon-blood-art"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "无惨诅咒"
+      ],
+      "attitudeToOutsiders": "predatory",
+      "knownMembers": [
+        "muzan-kibutsuji",
+        "akaza"
+      ],
+      "territories": [
+        "无限城"
+      ],
+      "resources": [
+        "血鬼术",
+        "再生"
+      ],
+      "conflicts": [
+        "demon-slayer-corps"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "kokushibo",
+            "rui"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers unresolved (not present in characters-index ids): kokushibo, rui"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [],
+    "restrictedZones": [
+      "无限城",
+      "鬼巢"
+    ],
+    "specialFields": [
+      "夜间猎鬼环境",
+      "藤花区域"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "大正日本表层秩序"
+    ],
+    "supernaturalRules": [
+      "鬼在夜间行动，日轮刀斩首可杀鬼。"
+    ],
+    "taboos": [
+      "鬼化",
+      "食人"
+    ],
+    "knownExceptions": [
+      "祢豆子等特殊鬼抗性。"
+    ]
+  },
+  "locations": [
+    "狭雾山",
+    "浅草",
+    "那田蜘蛛山",
+    "蝶屋敷",
+    "锻刀村",
+    "无限城"
+  ],
+  "publicEvents": [
+    "鬼杀队选拔",
+    "柱合会议"
+  ],
+  "hiddenEvents": [
+    "无惨追踪青色彼岸花",
+    "无限城决战"
+  ]
+}

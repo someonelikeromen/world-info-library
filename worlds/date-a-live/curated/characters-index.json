@@ -2,54 +2,1730 @@
   "schema": "rp-characters-index-v1",
   "worldId": "date-a-live",
   "characters": [
-    {"id":"ch-itsuka-shido","name":"五河士道","aliases":["Shido Itsuka","崇宫真士转生相关者","少年"],"visibility":"public","summary":"来禅高中学生，拥有通过亲密接触封印精灵灵力的特殊能力，是 Ratatoskr 和精灵共存路线的核心。","roles":["主角","封印者","调停者","学生"],"factions":["f-ratatoskr","f-school-society"],"locations":["loc-tengu-city","loc-raizen-high","loc-itsuka-home","loc-fraxinus"],"powerSystems":["ps-sealing","ps-spirit-power"],"abilities":["封印精灵灵力","承载/借用被封印精灵的部分能力","料理与照顾能力","高危约会谈判"],"items":[],"relationships":["琴里的义兄","十香等精灵的信赖对象","DEM/澪因果关键目标"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源含多个玩家替代身份；默认仍以士道为主线轴心。"},
-    {"id":"ch-yatogami-tohka","name":"夜刀神十香","aliases":["Tohka Yatogami","Princess","公主"],"visibility":"public","summary":"最早被士道攻略并封印的主要精灵之一，天真、重情、食欲旺盛，战斗时以近战剑技和高爆发灵力为主。","roles":["精灵","女主角群","学生"],"factions":["f-spirits","f-ratatoskr","f-school-society"],"locations":["loc-tengu-city","loc-raizen-high"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["神威灵装·十番","鏖杀公 Sandalphon","终焉之剑/炮击","反转形态暴虐公 Nahemah"],"items":["鏖杀公"],"relationships":["信赖并爱慕士道","与折纸常有情敌式冲突","与四糸乃等精灵日常互动"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源人物条目中列为十位精灵之一。"},
-    {"id":"ch-tobiichi-origami","name":"鸢一折纸","aliases":["Origami Tobiichi","Angel","Devil"],"visibility":"public","summary":"来禅高中优等生，前 AST 成员，后成为精灵。表面冷静无表情，内心对士道极度执着；其人生被杀亲误认、复仇和世界线改写深刻影响。","roles":["学生","前 AST 上士","精灵","狙击/炮击手"],"factions":["f-school-society","f-ast","f-spirits","f-ratatoskr"],"locations":["loc-raizen-high","loc-ast-base","loc-tengu-city"],"powerSystems":["ps-realizer","ps-spirit-power","ps-angels"],"abilities":["CR-Unit 操作","绝灭天使 Metatron 光羽炮击","高速机动/光化移动","反转魔王救世魔王 Satan"],"items":["White Lycoris","Mordred","Brynhildr","Metatron"],"relationships":["依恋士道","与十香竞争","曾误认琴里为仇人后转为协助"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源强调新旧世界线人格差异。"},
-    {"id":"ch-honjo-nia","name":"本条二亚","aliases":["Nia Honjo","本条苍二","Sister","素材A"],"visibility":"public","summary":"漫画家兼第二精灵，曾被 DEM 囚禁研究。拥有全知系天使，因人类背叛和囚禁经历而逃避三次元。","roles":["精灵","漫画家","DEM 前囚犯","情报/规则系能力者"],"factions":["f-spirits","f-dem","f-ratatoskr"],"locations":["loc-dem-facilities","loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["嗫告篇帙 Rasiel 情报检索","未来记载/具现化","反转神蚀篇帙 Beelzebub","高速绘画"],"items":["Rasiel","Beelzebub"],"relationships":["称士道为少年并逐渐信赖","与狂三互有过去关联","对三次元人类不信任"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源开头 name 引号有格式瑕疵，但内容可读。"},
-    {"id":"ch-tokisaki-kurumi","name":"时崎狂三","aliases":["Kurumi Tokisaki","Nightmare","梦魇","第三精灵"],"visibility":"public","summary":"时间系精灵，行动复杂且常以反派/共犯姿态登场。她既狩猎时间与生命，也追寻改变始源因果的目标，并与临界支线关联深。","roles":["精灵","时间能力者","反英雄","临界支线核心"],"factions":["f-spirits","f-neighboring"],"locations":["loc-tengu-city","loc-neighboring-world"],"powerSystems":["ps-spirit-power","ps-angels","ps-neighboring-world"],"abilities":["刻刻帝 Zafkiel","十二刻弹时间操作","分身体/影域","时间回溯与加速/减速/停止相关能力"],"items":["Zafkiel"],"relationships":["对士道兼有猎物、目标、好感与共犯性","知道二亚部分过去","与绯衣响/白之女王支线相关"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源另有临界狂三条目，合并为同一角色的支线状态。"},
-    {"id":"ch-yoshino","name":"冰芽川四糸乃","aliases":["Yoshino Himekawa","四糸乃","Hermit"],"visibility":"public","summary":"第四精灵，胆怯温柔，常通过手偶四糸奈表达外向人格。拥有冰与水相关能力，是精灵群体中的治愈型存在。","roles":["精灵","被保护者","冰系控制者"],"factions":["f-spirits","f-ratatoskr"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["冰结傀儡 Zadkiel","冻气与冰墙","冰铠模式","天气/寒气影响"],"items":["四糸奈手偶","Zadkiel"],"relationships":["视士道为重要保护者","与七罪为挚友","与十香常作为吃货/日常伙伴"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源写作氷芽川/冰芽川混用；统一为冰芽川四糸乃。"},
-    {"id":"ch-yoshinon","name":"四糸奈","aliases":["Yoshinon","兔子手偶"],"visibility":"public","summary":"四糸乃左手手偶与外向人格的载体，毒舌、社交性强，是四糸乃精神支柱。","roles":["手偶人格","精神支柱","代言者"],"factions":["f-spirits"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power"],"abilities":["代替四糸乃表达情绪","稳定四糸乃精神"],"items":["兔子手偶"],"relationships":["保护四糸乃","与士道互动时常调侃"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"作为独立关系节点保留，但本体依附四糸乃。"},
-    {"id":"ch-itsuka-kotori","name":"五河琴里","aliases":["Kotori Itsuka","Efreet","Ratatoskr 司令官"],"visibility":"public","summary":"士道义妹、Ratatoskr 司令官，也是炎之精灵。以发带区分妹妹模式和司令官模式，内心恐惧自身失控却坚持保护士道。","roles":["司令官","义妹","精灵","战术指挥"],"factions":["f-ratatoskr","f-spirits","f-school-society"],"locations":["loc-itsuka-home","loc-fraxinus","loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["灼烂歼鬼 Camael","火焰炮击 Megiddo","超再生","战术指挥"],"items":["Camael","珍宝珠","黑/白发带"],"relationships":["士道义妹并深度依赖/保护他","神无月为副司令兼日常受罚对象","与折纸曾因旧仇冲突"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源强调黑白发带人格切换。"},
-    {"id":"ch-hoshimiya-mukuro","name":"星宫六喰","aliases":["Mukuro Hoshimiya","Zodiac"],"visibility":"public","summary":"第六/第十相关编号体系中常列为宇宙漂流精灵，因孤独和封闭而锁住心灵。能力以封锁、开锁和空间切割为核心。","roles":["精灵","宇宙漂流者","封锁能力者"],"factions":["f-spirits","f-ratatoskr"],"locations":["loc-space","loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["封解主 Michael","锁住记忆/心灵/能力","空间门与切割","星体级机动"],"items":["Michael"],"relationships":["封印后依恋士道","对亲密关系有独占倾向","与精灵群体逐步建立联系"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源状态栏称前期固定漂流宇宙。"},
-    {"id":"ch-kyouno-natsumi","name":"镜野七罪","aliases":["Natsumi Kyouno","Witch","鏡野七罪"],"visibility":"public","summary":"变身系精灵，因自卑和被识破恐惧而擅长伪装、恶作剧和逃避。被接纳后与四糸乃关系密切。","roles":["精灵","变身者","伪装/扰乱者"],"factions":["f-spirits","f-ratatoskr"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["赝造魔女 Haniel","变身他人/物体","复制部分天使外形/能力","幻惑与整蛊"],"items":["Haniel"],"relationships":["与四糸乃为闺蜜","被士道和众人接纳后逐渐稳定","常被美九当换装对象"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源称鏡野七罪；中文统一镜野七罪。"},
-    {"id":"ch-yamai-kaguya","name":"八舞耶俱矢","aliases":["Kaguya Yamai","Berserk"],"visibility":"public","summary":"八舞姐妹之一，风暴系精灵，与夕弦原为一体分裂。性格中二、自尊强，与夕弦既竞争又不可分割。","roles":["精灵","双子/半身","风系战斗者"],"factions":["f-spirits","f-ratatoskr"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["飓风骑士 Raphael 分化武装","风暴机动","长枪/突击协同"],"items":["Raphael"],"relationships":["夕弦的半身与姐妹","与士道建立信赖","八舞姐妹合体能力更强"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源以八舞姐妹合并条目出现；手工拆分。"},
-    {"id":"ch-yamai-yuzuru","name":"八舞夕弦","aliases":["Yuzuru Yamai","Berserk"],"visibility":"public","summary":"八舞姐妹之一，语气独特冷静，与耶俱矢构成风暴精灵的另一半。","roles":["精灵","双子/半身","风系战斗者"],"factions":["f-spirits","f-ratatoskr"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["飓风骑士 Raphael 分化武装","链刃/拘束","风暴协同"],"items":["Raphael"],"relationships":["耶俱矢的半身与姐妹","与士道建立信赖","常以冷静吐槽平衡耶俱矢"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源以八舞姐妹合并条目出现；手工拆分。"},
-    {"id":"ch-izayoi-miku","name":"诱宵美九","aliases":["Miku Izayoi","Diva","宵待月乃"],"visibility":"public","summary":"偶像歌姬精灵，曾因演艺圈背叛与失声产生厌男和控制欲。被士道拯救后对其极度崇拜。","roles":["精灵","偶像","声音控制者","学生"],"factions":["f-spirits","f-ratatoskr","f-school-society"],"locations":["loc-rindoji","loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels","ps-sealing"],"abilities":["破军歌姬 Gabriel","声音洗脑/精神控制","声波攻击","强化与镇痛支援"],"items":["Gabriel"],"relationships":["称士道为达令","最初迷恋士织","喜欢照顾/装扮其他精灵"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源明确原艺名宵待月乃。"},
-    {"id":"ch-takamiya-mio","name":"崇宫澪","aliases":["Mio Takamiya","始源精灵","Deus"],"visibility":"gm-only","summary":"始源精灵，世界深层因果核心。与崇宫真士/士道存在关键关系，是灵结晶与精灵诞生链条背后的源头。","roles":["始源精灵","幕后核心","世界真相"],"factions":["f-spirits"],"locations":["loc-tengu-city"],"powerSystems":["ps-spirit-power","ps-angels"],"abilities":["巨大灵力","生命/死亡/法则级天使能力相关","灵结晶分配与精灵化因果"],"items":[],"relationships":["执着于真士/士道因果","与各精灵的诞生/灵结晶存在深层联系"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"默认 GM-only，避免过早剧透。"},
-    {"id":"ch-takamiya-mana","name":"崇宫真那","aliases":["Mana Takamiya"],"visibility":"public","summary":"士道的亲妹妹相关人物，DEM/AST 技术体系下的高能力魔术师，后与主角阵营存在协作。","roles":["魔术师","士道亲缘者","对精灵战斗员"],"factions":["f-dem","f-ast","f-ratatoskr"],"locations":["loc-ast-base","loc-dem-facilities","loc-tengu-city"],"powerSystems":["ps-realizer"],"abilities":["CR-Unit 高级操作","近战/机动战","对精灵战斗经验"],"items":["CR-Unit"],"relationships":["士道亲妹妹相关","与 DEM 和 AST 均有因缘","与艾伦等 DEM 战力存在对抗"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源状态栏列为重要监控角色。"},
-    {"id":"ch-ellen-mira-mathers","name":"艾伦·M·马瑟斯","aliases":["Ellen Mira Mathers","世界最强魔术师"],"visibility":"public","summary":"DEM 顶级魔术师，维斯考特麾下最强战力之一，冷酷、强大，负责追捕/压制精灵与士道阵营。","roles":["DEM 执行者","魔术师","顶级战斗员"],"factions":["f-dem"],"locations":["loc-dem-facilities","loc-tengu-city"],"powerSystems":["ps-realizer"],"abilities":["高端 CR-Unit 操作","随意领域压制","高速近战与远程火力"],"items":["DEM 高端 CR-Unit"],"relationships":["忠于/追随维斯考特","与 Ratatoskr 和精灵阵营敌对","与阿尔缇米希亚同属 DEM 战力"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"来源列为状态栏重点角色。"},
-    {"id":"ch-artemisia-bell-ashcroft","name":"阿尔缇米希亚·贝尔·阿修克罗夫特","aliases":["Artemisia Bell Ashcroft","阿尔缇米希亚·贝尔·阿シュクロフト"],"visibility":"public","summary":"DEM 侧高端魔术师/战斗员，来源以日文混写名出现。定位为与艾伦并列或相近的强力对精灵战力。","roles":["DEM 战斗员","魔术师"],"factions":["f-dem"],"locations":["loc-dem-facilities"],"powerSystems":["ps-realizer"],"abilities":["高端 CR-Unit 操作","对精灵战斗","随意领域应用"],"items":["DEM 装备"],"relationships":["DEM 阵营成员","与艾伦同属敌对高端战力"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"译名按常见中文整理，保留来源混写别名。"},
-    {"id":"ch-isaac-westcott","name":"艾扎克·雷·佩勒姆·维斯考特","aliases":["Isaac Ray Peram Westcott","DEM 社 BOSS","维斯考特"],"visibility":"gm-only","summary":"DEM 的幕后领导者，精灵捕获、实验和世界深层阴谋的重要推动者。","roles":["反派首领","DEM 领导者","阴谋家"],"factions":["f-dem"],"locations":["loc-dem-facilities"],"powerSystems":["ps-realizer","ps-spirit-power"],"abilities":["组织调度","显现装置资源控制","对始源真相的知识"],"items":[],"relationships":["指挥艾伦等 DEM 战力","与 Ratatoskr/精灵阵营敌对","与澪/真士因果存在深层关联"],"importance":"critical","evidenceLevel":"C","sourceRefs":["src-date-a-live-001"],"notes":"来源中存在“你是DEM社BOSS”玩家分支；默认仍将其作为 NPC 反派。"},
-    {"id":"ch-kannazuki-kyohei","name":"神无月恭平","aliases":["Kyohei Kannazuki"],"visibility":"public","summary":"Fraxinus 副司令，能力可靠但日常言行常被琴里制裁，是 Ratatoskr 指挥链的重要成员。","roles":["副司令","舰桥成员","战术辅助"],"factions":["f-ratatoskr"],"locations":["loc-fraxinus"],"powerSystems":[],"abilities":["舰队/舰桥辅助","战术执行","异常耐打的喜剧生存力"],"items":[],"relationships":["琴里的副手兼受罚对象","支持士道封印行动"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"主要来自琴里条目关系。"},
-    {"id":"ch-itsuka-shiori","name":"五河士织","aliases":["Shiori Itsuka","士织","士道女装姿态"],"visibility":"private","summary":"士道在攻略美九等事件中使用的女装/变身身份。不是默认独立人物，而是士道的伪装、性转或变身状态。","roles":["伪装身份","攻略用身份","士道变体"],"factions":["f-ratatoskr","f-school-society"],"locations":["loc-rindoji","loc-raizen-high"],"powerSystems":["ps-spirit-power"],"abilities":["高女子力伪装","料理/家务","借助七罪等能力的性别/外貌变化"],"items":["女装制服","假发/变身效果"],"relationships":["诱宵美九最初迷恋对象","琴里常作为幕后安排者","折纸仍会锁定士道本质"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-date-a-live-001"],"notes":"作为士道变体记录，避免与独立精灵混淆。"},
-    {"id":"ch-takamiya-shinji","name":"崇宫真士","aliases":["Shinji Takamiya","真士"],"visibility":"gm-only","summary":"与澪和士道因果相关的关键过去人物；部分 RP 分支使用真士转生设定。","roles":["过去人物","因果核心","IF 分支来源"],"factions":[],"locations":["loc-tengu-city"],"powerSystems":[],"abilities":[],"items":[],"relationships":["澪执着对象","与士道存在转生/继承相关解释"],"importance":"high","evidenceLevel":"C","sourceRefs":["src-date-a-live-001"],"notes":"来源有“你是同班同学+真士转生”分支；默认不作为玩家身份。"},
-    {"id":"ch-higoromo-hibiki","name":"绯衣响","aliases":["Hibiki Higoromo","Empty"],"visibility":"private","summary":"临界/Date A Bullet 支线角色，与狂三在邻界行动相关。","roles":["准精灵支线角色","狂三同伴/关联者"],"factions":["f-neighboring"],"locations":["loc-neighboring-world"],"powerSystems":["ps-neighboring-world"],"abilities":["邻界生存能力","支线准精灵能力"],"items":[],"relationships":["与临界狂三同行/关联","与白之女王事件相关"],"importance":"medium","evidenceLevel":"C","sourceRefs":["src-date-a-live-001"],"notes":"来源为临界条目摘要，需官方支线补证。"},
-    {"id":"ch-white-queen","name":"白之女王","aliases":["White Queen","白女王"],"visibility":"private","summary":"临界支线核心威胁之一，与狂三、绯衣响和邻界冲突相关。","roles":["支线反派/威胁","邻界核心人物"],"factions":["f-neighboring"],"locations":["loc-neighboring-world"],"powerSystems":["ps-neighboring-world","ps-spirit-power"],"abilities":["准精灵/邻界高阶能力","人格与记忆相关威胁"],"items":[],"relationships":["与狂三支线对立","与绯衣响相关"],"importance":"high","evidenceLevel":"C","sourceRefs":["src-date-a-live-001"],"notes":"来源摘要级，默认仅作可选支线。"},
-    {"id":"ch-date-a-bullet-minors","name":"临界其他配角","aliases":["准精灵配角群"],"visibility":"private","summary":"来源以集合条目记录的 Date A Bullet/临界其他人物，适合作为邻界支线 NPC 池。","roles":["支线 NPC 群","准精灵"],"factions":["f-neighboring"],"locations":["loc-neighboring-world"],"powerSystems":["ps-neighboring-world"],"abilities":["各自准精灵能力"],"items":[],"relationships":["与狂三、响、白之女王所在支线互动"],"importance":"low","evidenceLevel":"C","sourceRefs":["src-date-a-live-001"],"notes":"未逐名展开，待补官方支线来源。"}
+    {
+      "id": "ch-itsuka-shido",
+      "name": "五河士道",
+      "aliases": [
+        "Shido Itsuka",
+        "崇宫真士转生相关者",
+        "少年"
+      ],
+      "visibility": "public",
+      "summary": "来禅高中学生，拥有通过亲密接触封印精灵灵力的特殊能力，是 Ratatoskr 和精灵共存路线的核心。",
+      "roles": [
+        "主角",
+        "封印者",
+        "调停者",
+        "学生"
+      ],
+      "factions": [
+        "f-ratatoskr",
+        "f-school-society"
+      ],
+      "locations": [
+        "loc-tengu-city",
+        "loc-raizen-high",
+        "loc-itsuka-home",
+        "loc-fraxinus"
+      ],
+      "powerSystems": [
+        "ps-sealing",
+        "ps-spirit-power"
+      ],
+      "abilities": [
+        "封印精灵灵力",
+        "承载/借用被封印精灵的部分能力",
+        "料理与照顾能力",
+        "高危约会谈判"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ch-itsuka-kotori",
+          "targetType": "character",
+          "relation": "琴里的义兄",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "ch-yatogami-tohka",
+              "targetType": "character",
+              "matchedLabel": "十香"
+            },
+            {
+              "target": "spirits",
+              "targetType": "group",
+              "matchedLabel": "精灵"
+            }
+          ],
+          "relation": "十香等精灵的信赖对象",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        },
+        {
+          "target": "dem",
+          "targetType": "group",
+          "relation": "DEM/澪因果关键目标",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源含多个玩家替代身份；默认仍以士道为主线轴心。"
+    },
+    {
+      "id": "ch-yatogami-tohka",
+      "name": "夜刀神十香",
+      "aliases": [
+        "Tohka Yatogami",
+        "Princess",
+        "公主"
+      ],
+      "visibility": "public",
+      "summary": "最早被士道攻略并封印的主要精灵之一，天真、重情、食欲旺盛，战斗时以近战剑技和高爆发灵力为主。",
+      "roles": [
+        "精灵",
+        "女主角群",
+        "学生"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr",
+        "f-school-society"
+      ],
+      "locations": [
+        "loc-tengu-city",
+        "loc-raizen-high"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "神威灵装·十番",
+        "鏖杀公 Sandalphon",
+        "终焉之剑/炮击",
+        "反转形态暴虐公 Nahemah"
+      ],
+      "items": [
+        "鏖杀公"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "信赖并爱慕士道",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-tobiichi-origami",
+          "targetType": "character",
+          "relation": "与折纸常有情敌式冲突",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "ch-yoshino",
+              "targetType": "character",
+              "matchedLabel": "四糸乃"
+            },
+            {
+              "target": "spirits",
+              "targetType": "group",
+              "matchedLabel": "精灵"
+            }
+          ],
+          "relation": "与四糸乃等精灵日常互动",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源人物条目中列为十位精灵之一。"
+    },
+    {
+      "id": "ch-tobiichi-origami",
+      "name": "鸢一折纸",
+      "aliases": [
+        "Origami Tobiichi",
+        "Angel",
+        "Devil"
+      ],
+      "visibility": "public",
+      "summary": "来禅高中优等生，前 AST 成员，后成为精灵。表面冷静无表情，内心对士道极度执着；其人生被杀亲误认、复仇和世界线改写深刻影响。",
+      "roles": [
+        "学生",
+        "前 AST 上士",
+        "精灵",
+        "狙击/炮击手"
+      ],
+      "factions": [
+        "f-school-society",
+        "f-ast",
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-raizen-high",
+        "loc-ast-base",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-realizer",
+        "ps-spirit-power",
+        "ps-angels"
+      ],
+      "abilities": [
+        "CR-Unit 操作",
+        "绝灭天使 Metatron 光羽炮击",
+        "高速机动/光化移动",
+        "反转魔王救世魔王 Satan"
+      ],
+      "items": [
+        "White Lycoris",
+        "Mordred",
+        "Brynhildr",
+        "Metatron"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "依恋士道",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-yatogami-tohka",
+          "targetType": "character",
+          "relation": "与十香竞争",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-kotori",
+          "targetType": "character",
+          "relation": "曾误认琴里为仇人后转为协助",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源强调新旧世界线人格差异。"
+    },
+    {
+      "id": "ch-honjo-nia",
+      "name": "本条二亚",
+      "aliases": [
+        "Nia Honjo",
+        "本条苍二",
+        "Sister",
+        "素材A"
+      ],
+      "visibility": "public",
+      "summary": "漫画家兼第二精灵，曾被 DEM 囚禁研究。拥有全知系天使，因人类背叛和囚禁经历而逃避三次元。",
+      "roles": [
+        "精灵",
+        "漫画家",
+        "DEM 前囚犯",
+        "情报/规则系能力者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-dem",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-dem-facilities",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "嗫告篇帙 Rasiel 情报检索",
+        "未来记载/具现化",
+        "反转神蚀篇帙 Beelzebub",
+        "高速绘画"
+      ],
+      "items": [
+        "Rasiel",
+        "Beelzebub"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "称士道为少年并逐渐信赖",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-tokisaki-kurumi",
+          "targetType": "character",
+          "relation": "与狂三互有过去关联",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "对三次元人类不信任",
+          "relation": "对三次元人类不信任",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源开头 name 引号有格式瑕疵，但内容可读。"
+    },
+    {
+      "id": "ch-tokisaki-kurumi",
+      "name": "时崎狂三",
+      "aliases": [
+        "Kurumi Tokisaki",
+        "Nightmare",
+        "梦魇",
+        "第三精灵"
+      ],
+      "visibility": "public",
+      "summary": "时间系精灵，行动复杂且常以反派/共犯姿态登场。她既狩猎时间与生命，也追寻改变始源因果的目标，并与临界支线关联深。",
+      "roles": [
+        "精灵",
+        "时间能力者",
+        "反英雄",
+        "临界支线核心"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-neighboring"
+      ],
+      "locations": [
+        "loc-tengu-city",
+        "loc-neighboring-world"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-neighboring-world"
+      ],
+      "abilities": [
+        "刻刻帝 Zafkiel",
+        "十二刻弹时间操作",
+        "分身体/影域",
+        "时间回溯与加速/减速/停止相关能力"
+      ],
+      "items": [
+        "Zafkiel"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "对士道兼有猎物、目标、好感与共犯性",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-honjo-nia",
+          "targetType": "character",
+          "relation": "知道二亚部分过去",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "ch-white-queen",
+              "targetType": "character",
+              "matchedLabel": "白之女王"
+            },
+            {
+              "target": "ch-higoromo-hibiki",
+              "targetType": "character",
+              "matchedLabel": "绯衣响"
+            }
+          ],
+          "relation": "与绯衣响/白之女王支线相关",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源另有临界狂三条目，合并为同一角色的支线状态。"
+    },
+    {
+      "id": "ch-yoshino",
+      "name": "冰芽川四糸乃",
+      "aliases": [
+        "Yoshino Himekawa",
+        "四糸乃",
+        "Hermit"
+      ],
+      "visibility": "public",
+      "summary": "第四精灵，胆怯温柔，常通过手偶四糸奈表达外向人格。拥有冰与水相关能力，是精灵群体中的治愈型存在。",
+      "roles": [
+        "精灵",
+        "被保护者",
+        "冰系控制者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "冰结傀儡 Zadkiel",
+        "冻气与冰墙",
+        "冰铠模式",
+        "天气/寒气影响"
+      ],
+      "items": [
+        "四糸奈手偶",
+        "Zadkiel"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "视士道为重要保护者",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-kyouno-natsumi",
+          "targetType": "character",
+          "relation": "与七罪为挚友",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-yatogami-tohka",
+          "targetType": "character",
+          "relation": "与十香常作为吃货/日常伙伴",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源写作氷芽川/冰芽川混用；统一为冰芽川四糸乃。"
+    },
+    {
+      "id": "ch-yoshinon",
+      "name": "四糸奈",
+      "aliases": [
+        "Yoshinon",
+        "兔子手偶"
+      ],
+      "visibility": "public",
+      "summary": "四糸乃左手手偶与外向人格的载体，毒舌、社交性强，是四糸乃精神支柱。",
+      "roles": [
+        "手偶人格",
+        "精神支柱",
+        "代言者"
+      ],
+      "factions": [
+        "f-spirits"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power"
+      ],
+      "abilities": [
+        "代替四糸乃表达情绪",
+        "稳定四糸乃精神"
+      ],
+      "items": [
+        "兔子手偶"
+      ],
+      "relationships": [
+        {
+          "target": "ch-yoshino",
+          "targetType": "character",
+          "relation": "保护四糸乃",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "与士道互动时常调侃",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "作为独立关系节点保留，但本体依附四糸乃。"
+    },
+    {
+      "id": "ch-itsuka-kotori",
+      "name": "五河琴里",
+      "aliases": [
+        "Kotori Itsuka",
+        "Efreet",
+        "Ratatoskr 司令官"
+      ],
+      "visibility": "public",
+      "summary": "士道义妹、Ratatoskr 司令官，也是炎之精灵。以发带区分妹妹模式和司令官模式，内心恐惧自身失控却坚持保护士道。",
+      "roles": [
+        "司令官",
+        "义妹",
+        "精灵",
+        "战术指挥"
+      ],
+      "factions": [
+        "f-ratatoskr",
+        "f-spirits",
+        "f-school-society"
+      ],
+      "locations": [
+        "loc-itsuka-home",
+        "loc-fraxinus",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "灼烂歼鬼 Camael",
+        "火焰炮击 Megiddo",
+        "超再生",
+        "战术指挥"
+      ],
+      "items": [
+        "Camael",
+        "珍宝珠",
+        "黑/白发带"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "士道义妹并深度依赖/保护他",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-kannazuki-kyohei",
+          "targetType": "character",
+          "relation": "神无月为副司令兼日常受罚对象",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-tobiichi-origami",
+          "targetType": "character",
+          "relation": "与折纸曾因旧仇冲突",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源强调黑白发带人格切换。"
+    },
+    {
+      "id": "ch-hoshimiya-mukuro",
+      "name": "星宫六喰",
+      "aliases": [
+        "Mukuro Hoshimiya",
+        "Zodiac"
+      ],
+      "visibility": "public",
+      "summary": "第六/第十相关编号体系中常列为宇宙漂流精灵，因孤独和封闭而锁住心灵。能力以封锁、开锁和空间切割为核心。",
+      "roles": [
+        "精灵",
+        "宇宙漂流者",
+        "封锁能力者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-space",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "封解主 Michael",
+        "锁住记忆/心灵/能力",
+        "空间门与切割",
+        "星体级机动"
+      ],
+      "items": [
+        "Michael"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "封印后依恋士道",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "对亲密关系有独占倾向",
+          "relation": "对亲密关系有独占倾向",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        },
+        {
+          "target": "spirits",
+          "targetType": "group",
+          "relation": "与精灵群体逐步建立联系",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源状态栏称前期固定漂流宇宙。"
+    },
+    {
+      "id": "ch-kyouno-natsumi",
+      "name": "镜野七罪",
+      "aliases": [
+        "Natsumi Kyouno",
+        "Witch",
+        "鏡野七罪"
+      ],
+      "visibility": "public",
+      "summary": "变身系精灵，因自卑和被识破恐惧而擅长伪装、恶作剧和逃避。被接纳后与四糸乃关系密切。",
+      "roles": [
+        "精灵",
+        "变身者",
+        "伪装/扰乱者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "赝造魔女 Haniel",
+        "变身他人/物体",
+        "复制部分天使外形/能力",
+        "幻惑与整蛊"
+      ],
+      "items": [
+        "Haniel"
+      ],
+      "relationships": [
+        {
+          "target": "ch-yoshino",
+          "targetType": "character",
+          "relation": "与四糸乃为闺蜜",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "被士道和众人接纳后逐渐稳定",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-izayoi-miku",
+          "targetType": "character",
+          "relation": "常被美九当换装对象",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源称鏡野七罪；中文统一镜野七罪。"
+    },
+    {
+      "id": "ch-yamai-kaguya",
+      "name": "八舞耶俱矢",
+      "aliases": [
+        "Kaguya Yamai",
+        "Berserk"
+      ],
+      "visibility": "public",
+      "summary": "八舞姐妹之一，风暴系精灵，与夕弦原为一体分裂。性格中二、自尊强，与夕弦既竞争又不可分割。",
+      "roles": [
+        "精灵",
+        "双子/半身",
+        "风系战斗者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "飓风骑士 Raphael 分化武装",
+        "风暴机动",
+        "长枪/突击协同"
+      ],
+      "items": [
+        "Raphael"
+      ],
+      "relationships": [
+        {
+          "target": "ch-yamai-yuzuru",
+          "targetType": "character",
+          "relation": "夕弦的半身与姐妹",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "与士道建立信赖",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "label": "八舞姐妹合体能力更强",
+          "relation": "八舞姐妹合体能力更强",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源以八舞姐妹合并条目出现；手工拆分。"
+    },
+    {
+      "id": "ch-yamai-yuzuru",
+      "name": "八舞夕弦",
+      "aliases": [
+        "Yuzuru Yamai",
+        "Berserk"
+      ],
+      "visibility": "public",
+      "summary": "八舞姐妹之一，语气独特冷静，与耶俱矢构成风暴精灵的另一半。",
+      "roles": [
+        "精灵",
+        "双子/半身",
+        "风系战斗者"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "飓风骑士 Raphael 分化武装",
+        "链刃/拘束",
+        "风暴协同"
+      ],
+      "items": [
+        "Raphael"
+      ],
+      "relationships": [
+        {
+          "target": "ch-yamai-kaguya",
+          "targetType": "character",
+          "relation": "耶俱矢的半身与姐妹",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "与士道建立信赖",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-yamai-kaguya",
+          "targetType": "character",
+          "relation": "常以冷静吐槽平衡耶俱矢",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源以八舞姐妹合并条目出现；手工拆分。"
+    },
+    {
+      "id": "ch-izayoi-miku",
+      "name": "诱宵美九",
+      "aliases": [
+        "Miku Izayoi",
+        "Diva",
+        "宵待月乃"
+      ],
+      "visibility": "public",
+      "summary": "偶像歌姬精灵，曾因演艺圈背叛与失声产生厌男和控制欲。被士道拯救后对其极度崇拜。",
+      "roles": [
+        "精灵",
+        "偶像",
+        "声音控制者",
+        "学生"
+      ],
+      "factions": [
+        "f-spirits",
+        "f-ratatoskr",
+        "f-school-society"
+      ],
+      "locations": [
+        "loc-rindoji",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels",
+        "ps-sealing"
+      ],
+      "abilities": [
+        "破军歌姬 Gabriel",
+        "声音洗脑/精神控制",
+        "声波攻击",
+        "强化与镇痛支援"
+      ],
+      "items": [
+        "Gabriel"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "称士道为达令",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shiori",
+          "targetType": "character",
+          "relation": "最初迷恋士织",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "spirits",
+          "targetType": "group",
+          "relation": "喜欢照顾/装扮其他精灵",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源明确原艺名宵待月乃。"
+    },
+    {
+      "id": "ch-takamiya-mio",
+      "name": "崇宫澪",
+      "aliases": [
+        "Mio Takamiya",
+        "始源精灵",
+        "Deus"
+      ],
+      "visibility": "gm-only",
+      "summary": "始源精灵，世界深层因果核心。与崇宫真士/士道存在关键关系，是灵结晶与精灵诞生链条背后的源头。",
+      "roles": [
+        "始源精灵",
+        "幕后核心",
+        "世界真相"
+      ],
+      "factions": [
+        "f-spirits"
+      ],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-spirit-power",
+        "ps-angels"
+      ],
+      "abilities": [
+        "巨大灵力",
+        "生命/死亡/法则级天使能力相关",
+        "灵结晶分配与精灵化因果"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "targets": [
+            {
+              "target": "ch-takamiya-shinji",
+              "targetType": "character",
+              "matchedLabel": "真士"
+            },
+            {
+              "target": "ch-itsuka-shido",
+              "targetType": "character",
+              "matchedLabel": "士道"
+            }
+          ],
+          "relation": "执着于真士/士道因果",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        },
+        {
+          "target": "spirits",
+          "targetType": "group",
+          "relation": "与各精灵的诞生/灵结晶存在深层联系",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "默认 GM-only，避免过早剧透。"
+    },
+    {
+      "id": "ch-takamiya-mana",
+      "name": "崇宫真那",
+      "aliases": [
+        "Mana Takamiya"
+      ],
+      "visibility": "public",
+      "summary": "士道的亲妹妹相关人物，DEM/AST 技术体系下的高能力魔术师，后与主角阵营存在协作。",
+      "roles": [
+        "魔术师",
+        "士道亲缘者",
+        "对精灵战斗员"
+      ],
+      "factions": [
+        "f-dem",
+        "f-ast",
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-ast-base",
+        "loc-dem-facilities",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-realizer"
+      ],
+      "abilities": [
+        "CR-Unit 高级操作",
+        "近战/机动战",
+        "对精灵战斗经验"
+      ],
+      "items": [
+        "CR-Unit"
+      ],
+      "relationships": [
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "士道亲妹妹相关",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "dem",
+          "targetType": "group",
+          "relation": "与 DEM 和 AST 均有因缘",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "dem",
+              "targetType": "group",
+              "matchedLabel": "DEM"
+            },
+            {
+              "target": "ch-ellen-mira-mathers",
+              "targetType": "character",
+              "matchedLabel": "艾伦"
+            }
+          ],
+          "relation": "与艾伦等 DEM 战力存在对抗",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源状态栏列为重要监控角色。"
+    },
+    {
+      "id": "ch-ellen-mira-mathers",
+      "name": "艾伦·M·马瑟斯",
+      "aliases": [
+        "Ellen Mira Mathers",
+        "世界最强魔术师"
+      ],
+      "visibility": "public",
+      "summary": "DEM 顶级魔术师，维斯考特麾下最强战力之一，冷酷、强大，负责追捕/压制精灵与士道阵营。",
+      "roles": [
+        "DEM 执行者",
+        "魔术师",
+        "顶级战斗员"
+      ],
+      "factions": [
+        "f-dem"
+      ],
+      "locations": [
+        "loc-dem-facilities",
+        "loc-tengu-city"
+      ],
+      "powerSystems": [
+        "ps-realizer"
+      ],
+      "abilities": [
+        "高端 CR-Unit 操作",
+        "随意领域压制",
+        "高速近战与远程火力"
+      ],
+      "items": [
+        "DEM 高端 CR-Unit"
+      ],
+      "relationships": [
+        {
+          "target": "ch-isaac-westcott",
+          "targetType": "character",
+          "relation": "忠于/追随维斯考特",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "ratatoskr",
+              "targetType": "group",
+              "matchedLabel": "Ratatoskr"
+            },
+            {
+              "target": "spirits",
+              "targetType": "group",
+              "matchedLabel": "精灵"
+            }
+          ],
+          "relation": "与 Ratatoskr 和精灵阵营敌对",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        },
+        {
+          "targets": [
+            {
+              "target": "ch-artemisia-bell-ashcroft",
+              "targetType": "character",
+              "matchedLabel": "阿尔缇米希亚"
+            },
+            {
+              "target": "dem",
+              "targetType": "group",
+              "matchedLabel": "DEM"
+            }
+          ],
+          "relation": "与阿尔缇米希亚同属 DEM 战力",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源列为状态栏重点角色。"
+    },
+    {
+      "id": "ch-artemisia-bell-ashcroft",
+      "name": "阿尔缇米希亚·贝尔·阿修克罗夫特",
+      "aliases": [
+        "Artemisia Bell Ashcroft",
+        "阿尔缇米希亚·贝尔·阿シュクロフト"
+      ],
+      "visibility": "public",
+      "summary": "DEM 侧高端魔术师/战斗员，来源以日文混写名出现。定位为与艾伦并列或相近的强力对精灵战力。",
+      "roles": [
+        "DEM 战斗员",
+        "魔术师"
+      ],
+      "factions": [
+        "f-dem"
+      ],
+      "locations": [
+        "loc-dem-facilities"
+      ],
+      "powerSystems": [
+        "ps-realizer"
+      ],
+      "abilities": [
+        "高端 CR-Unit 操作",
+        "对精灵战斗",
+        "随意领域应用"
+      ],
+      "items": [
+        "DEM 装备"
+      ],
+      "relationships": [
+        {
+          "target": "dem",
+          "targetType": "group",
+          "relation": "DEM 阵营成员",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-ellen-mira-mathers",
+          "targetType": "character",
+          "relation": "与艾伦同属敌对高端战力",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "译名按常见中文整理，保留来源混写别名。"
+    },
+    {
+      "id": "ch-isaac-westcott",
+      "name": "艾扎克·雷·佩勒姆·维斯考特",
+      "aliases": [
+        "Isaac Ray Peram Westcott",
+        "DEM 社 BOSS",
+        "维斯考特"
+      ],
+      "visibility": "gm-only",
+      "summary": "DEM 的幕后领导者，精灵捕获、实验和世界深层阴谋的重要推动者。",
+      "roles": [
+        "反派首领",
+        "DEM 领导者",
+        "阴谋家"
+      ],
+      "factions": [
+        "f-dem"
+      ],
+      "locations": [
+        "loc-dem-facilities"
+      ],
+      "powerSystems": [
+        "ps-realizer",
+        "ps-spirit-power"
+      ],
+      "abilities": [
+        "组织调度",
+        "显现装置资源控制",
+        "对始源真相的知识"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "targets": [
+            {
+              "target": "dem",
+              "targetType": "group",
+              "matchedLabel": "DEM"
+            },
+            {
+              "target": "ch-ellen-mira-mathers",
+              "targetType": "character",
+              "matchedLabel": "艾伦"
+            }
+          ],
+          "relation": "指挥艾伦等 DEM 战力",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        },
+        {
+          "targets": [
+            {
+              "target": "ratatoskr",
+              "targetType": "group",
+              "matchedLabel": "Ratatoskr"
+            },
+            {
+              "target": "spirits",
+              "targetType": "group",
+              "matchedLabel": "精灵"
+            }
+          ],
+          "relation": "与 Ratatoskr/精灵阵营敌对",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        },
+        {
+          "target": "ch-takamiya-shinji",
+          "targetType": "character",
+          "relation": "与澪/真士因果存在深层关联",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源中存在“你是DEM社BOSS”玩家分支；默认仍将其作为 NPC 反派。"
+    },
+    {
+      "id": "ch-kannazuki-kyohei",
+      "name": "神无月恭平",
+      "aliases": [
+        "Kyohei Kannazuki"
+      ],
+      "visibility": "public",
+      "summary": "Fraxinus 副司令，能力可靠但日常言行常被琴里制裁，是 Ratatoskr 指挥链的重要成员。",
+      "roles": [
+        "副司令",
+        "舰桥成员",
+        "战术辅助"
+      ],
+      "factions": [
+        "f-ratatoskr"
+      ],
+      "locations": [
+        "loc-fraxinus"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "舰队/舰桥辅助",
+        "战术执行",
+        "异常耐打的喜剧生存力"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ch-itsuka-kotori",
+          "targetType": "character",
+          "relation": "琴里的副手兼受罚对象",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "支持士道封印行动",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "主要来自琴里条目关系。"
+    },
+    {
+      "id": "ch-itsuka-shiori",
+      "name": "五河士织",
+      "aliases": [
+        "Shiori Itsuka",
+        "士织",
+        "士道女装姿态"
+      ],
+      "visibility": "private",
+      "summary": "士道在攻略美九等事件中使用的女装/变身身份。不是默认独立人物，而是士道的伪装、性转或变身状态。",
+      "roles": [
+        "伪装身份",
+        "攻略用身份",
+        "士道变体"
+      ],
+      "factions": [
+        "f-ratatoskr",
+        "f-school-society"
+      ],
+      "locations": [
+        "loc-rindoji",
+        "loc-raizen-high"
+      ],
+      "powerSystems": [
+        "ps-spirit-power"
+      ],
+      "abilities": [
+        "高女子力伪装",
+        "料理/家务",
+        "借助七罪等能力的性别/外貌变化"
+      ],
+      "items": [
+        "女装制服",
+        "假发/变身效果"
+      ],
+      "relationships": [
+        {
+          "target": "ch-izayoi-miku",
+          "targetType": "character",
+          "relation": "诱宵美九最初迷恋对象",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-itsuka-kotori",
+          "targetType": "character",
+          "relation": "琴里常作为幕后安排者",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targets": [
+            {
+              "target": "ch-itsuka-shido",
+              "targetType": "character",
+              "matchedLabel": "士道"
+            },
+            {
+              "target": "ch-tobiichi-origami",
+              "targetType": "character",
+              "matchedLabel": "折纸"
+            }
+          ],
+          "relation": "折纸仍会锁定士道本质",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "作为士道变体记录，避免与独立精灵混淆。"
+    },
+    {
+      "id": "ch-takamiya-shinji",
+      "name": "崇宫真士",
+      "aliases": [
+        "Shinji Takamiya",
+        "真士"
+      ],
+      "visibility": "gm-only",
+      "summary": "与澪和士道因果相关的关键过去人物；部分 RP 分支使用真士转生设定。",
+      "roles": [
+        "过去人物",
+        "因果核心",
+        "IF 分支来源"
+      ],
+      "factions": [],
+      "locations": [
+        "loc-tengu-city"
+      ],
+      "powerSystems": [],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        {
+          "label": "澪执着对象",
+          "relation": "澪执着对象",
+          "resolutionStatus": "unresolved",
+          "notes": [
+            "No indexed character, controlled faction, group, or location target could be confidently resolved from this label."
+          ]
+        },
+        {
+          "target": "ch-itsuka-shido",
+          "targetType": "character",
+          "relation": "与士道存在转生/继承相关解释",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源有“你是同班同学+真士转生”分支；默认不作为玩家身份。"
+    },
+    {
+      "id": "ch-higoromo-hibiki",
+      "name": "绯衣响",
+      "aliases": [
+        "Hibiki Higoromo",
+        "Empty"
+      ],
+      "visibility": "private",
+      "summary": "临界/Date A Bullet 支线角色，与狂三在邻界行动相关。",
+      "roles": [
+        "准精灵支线角色",
+        "狂三同伴/关联者"
+      ],
+      "factions": [
+        "f-neighboring"
+      ],
+      "locations": [
+        "loc-neighboring-world"
+      ],
+      "powerSystems": [
+        "ps-neighboring-world"
+      ],
+      "abilities": [
+        "邻界生存能力",
+        "支线准精灵能力"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ch-tokisaki-kurumi",
+          "targetType": "character",
+          "relation": "与临界狂三同行/关联",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-white-queen",
+          "targetType": "character",
+          "relation": "与白之女王事件相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源为临界条目摘要，需官方支线补证。"
+    },
+    {
+      "id": "ch-white-queen",
+      "name": "白之女王",
+      "aliases": [
+        "White Queen",
+        "白女王"
+      ],
+      "visibility": "private",
+      "summary": "临界支线核心威胁之一，与狂三、绯衣响和邻界冲突相关。",
+      "roles": [
+        "支线反派/威胁",
+        "邻界核心人物"
+      ],
+      "factions": [
+        "f-neighboring"
+      ],
+      "locations": [
+        "loc-neighboring-world"
+      ],
+      "powerSystems": [
+        "ps-neighboring-world",
+        "ps-spirit-power"
+      ],
+      "abilities": [
+        "准精灵/邻界高阶能力",
+        "人格与记忆相关威胁"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ch-tokisaki-kurumi",
+          "targetType": "character",
+          "relation": "与狂三支线对立",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ch-higoromo-hibiki",
+          "targetType": "character",
+          "relation": "与绯衣响相关",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "来源摘要级，默认仅作可选支线。"
+    },
+    {
+      "id": "ch-date-a-bullet-minors",
+      "name": "临界其他配角",
+      "aliases": [
+        "准精灵配角群"
+      ],
+      "visibility": "private",
+      "summary": "来源以集合条目记录的 Date A Bullet/临界其他人物，适合作为邻界支线 NPC 池。",
+      "roles": [
+        "支线 NPC 群",
+        "准精灵"
+      ],
+      "factions": [
+        "f-neighboring"
+      ],
+      "locations": [
+        "loc-neighboring-world"
+      ],
+      "powerSystems": [
+        "ps-neighboring-world"
+      ],
+      "abilities": [
+        "各自准精灵能力"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "targets": [
+            {
+              "target": "ch-white-queen",
+              "targetType": "character",
+              "matchedLabel": "白之女王"
+            },
+            {
+              "target": "ch-tokisaki-kurumi",
+              "targetType": "character",
+              "matchedLabel": "狂三"
+            }
+          ],
+          "relation": "与狂三、响、白之女王所在支线互动",
+          "resolutionStatus": "multi-target-resolved",
+          "notes": [
+            "Relationship label mentions multiple indexed or controlled targets; kept as multi-target relationship to avoid over-specific single edge."
+          ]
+        }
+      ],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-date-a-live-001"
+      ],
+      "notes": "未逐名展开，待补官方支线来源。"
+    }
   ],
   "indices": {
     "byFaction": {
-      "f-spirits":["ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-tokisaki-kurumi","ch-yoshino","ch-yoshinon","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mio"],
-      "f-ratatoskr":["ch-itsuka-shido","ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-yoshino","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mana","ch-kannazuki-kyohei","ch-itsuka-shiori"],
-      "f-ast":["ch-tobiichi-origami","ch-takamiya-mana"],
-      "f-dem":["ch-honjo-nia","ch-takamiya-mana","ch-ellen-mira-mathers","ch-artemisia-bell-ashcroft","ch-isaac-westcott"],
-      "f-neighboring":["ch-tokisaki-kurumi","ch-higoromo-hibiki","ch-white-queen","ch-date-a-bullet-minors"],
-      "f-school-society":["ch-itsuka-shido","ch-yatogami-tohka","ch-tobiichi-origami","ch-itsuka-kotori","ch-izayoi-miku","ch-itsuka-shiori"]
+      "f-spirits": [
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-honjo-nia",
+        "ch-tokisaki-kurumi",
+        "ch-yoshino",
+        "ch-yoshinon",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku",
+        "ch-takamiya-mio"
+      ],
+      "f-ratatoskr": [
+        "ch-itsuka-shido",
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-honjo-nia",
+        "ch-yoshino",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku",
+        "ch-takamiya-mana",
+        "ch-kannazuki-kyohei",
+        "ch-itsuka-shiori"
+      ],
+      "f-ast": [
+        "ch-tobiichi-origami",
+        "ch-takamiya-mana"
+      ],
+      "f-dem": [
+        "ch-honjo-nia",
+        "ch-takamiya-mana",
+        "ch-ellen-mira-mathers",
+        "ch-artemisia-bell-ashcroft",
+        "ch-isaac-westcott"
+      ],
+      "f-neighboring": [
+        "ch-tokisaki-kurumi",
+        "ch-higoromo-hibiki",
+        "ch-white-queen",
+        "ch-date-a-bullet-minors"
+      ],
+      "f-school-society": [
+        "ch-itsuka-shido",
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-itsuka-kotori",
+        "ch-izayoi-miku",
+        "ch-itsuka-shiori"
+      ]
     },
     "byPowerSystem": {
-      "ps-spirit-power":["ch-itsuka-shido","ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-tokisaki-kurumi","ch-yoshino","ch-yoshinon","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mio","ch-white-queen"],
-      "ps-angels":["ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-tokisaki-kurumi","ch-yoshino","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mio"],
-      "ps-sealing":["ch-itsuka-shido","ch-yatogami-tohka","ch-honjo-nia","ch-yoshino","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku"],
-      "ps-realizer":["ch-tobiichi-origami","ch-takamiya-mana","ch-ellen-mira-mathers","ch-artemisia-bell-ashcroft"],
-      "ps-neighboring-world":["ch-tokisaki-kurumi","ch-higoromo-hibiki","ch-white-queen","ch-date-a-bullet-minors"]
+      "ps-spirit-power": [
+        "ch-itsuka-shido",
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-honjo-nia",
+        "ch-tokisaki-kurumi",
+        "ch-yoshino",
+        "ch-yoshinon",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku",
+        "ch-takamiya-mio",
+        "ch-white-queen"
+      ],
+      "ps-angels": [
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-honjo-nia",
+        "ch-tokisaki-kurumi",
+        "ch-yoshino",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku",
+        "ch-takamiya-mio"
+      ],
+      "ps-sealing": [
+        "ch-itsuka-shido",
+        "ch-yatogami-tohka",
+        "ch-honjo-nia",
+        "ch-yoshino",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku"
+      ],
+      "ps-realizer": [
+        "ch-tobiichi-origami",
+        "ch-takamiya-mana",
+        "ch-ellen-mira-mathers",
+        "ch-artemisia-bell-ashcroft"
+      ],
+      "ps-neighboring-world": [
+        "ch-tokisaki-kurumi",
+        "ch-higoromo-hibiki",
+        "ch-white-queen",
+        "ch-date-a-bullet-minors"
+      ]
     },
     "byVisibility": {
-      "public":["ch-itsuka-shido","ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-tokisaki-kurumi","ch-yoshino","ch-yoshinon","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mana","ch-ellen-mira-mathers","ch-artemisia-bell-ashcroft","ch-kannazuki-kyohei"],
-      "private":["ch-itsuka-shiori","ch-higoromo-hibiki","ch-white-queen","ch-date-a-bullet-minors"],
-      "gm-only":["ch-takamiya-mio","ch-isaac-westcott","ch-takamiya-shinji"],
-      "locked":[],
-      "false-rumor":[]
+      "public": [
+        "ch-itsuka-shido",
+        "ch-yatogami-tohka",
+        "ch-tobiichi-origami",
+        "ch-honjo-nia",
+        "ch-tokisaki-kurumi",
+        "ch-yoshino",
+        "ch-yoshinon",
+        "ch-itsuka-kotori",
+        "ch-hoshimiya-mukuro",
+        "ch-kyouno-natsumi",
+        "ch-yamai-kaguya",
+        "ch-yamai-yuzuru",
+        "ch-izayoi-miku",
+        "ch-takamiya-mana",
+        "ch-ellen-mira-mathers",
+        "ch-artemisia-bell-ashcroft",
+        "ch-kannazuki-kyohei"
+      ],
+      "private": [
+        "ch-itsuka-shiori",
+        "ch-higoromo-hibiki",
+        "ch-white-queen",
+        "ch-date-a-bullet-minors"
+      ],
+      "gm-only": [
+        "ch-takamiya-mio",
+        "ch-isaac-westcott",
+        "ch-takamiya-shinji"
+      ],
+      "locked": [],
+      "false-rumor": []
     },
-    "majorCharacters":["ch-itsuka-shido","ch-yatogami-tohka","ch-tobiichi-origami","ch-honjo-nia","ch-tokisaki-kurumi","ch-yoshino","ch-itsuka-kotori","ch-hoshimiya-mukuro","ch-kyouno-natsumi","ch-yamai-kaguya","ch-yamai-yuzuru","ch-izayoi-miku","ch-takamiya-mio","ch-takamiya-mana","ch-ellen-mira-mathers","ch-isaac-westcott"]
+    "majorCharacters": [
+      "ch-itsuka-shido",
+      "ch-yatogami-tohka",
+      "ch-tobiichi-origami",
+      "ch-honjo-nia",
+      "ch-tokisaki-kurumi",
+      "ch-yoshino",
+      "ch-itsuka-kotori",
+      "ch-hoshimiya-mukuro",
+      "ch-kyouno-natsumi",
+      "ch-yamai-kaguya",
+      "ch-yamai-yuzuru",
+      "ch-izayoi-miku",
+      "ch-takamiya-mio",
+      "ch-takamiya-mana",
+      "ch-ellen-mira-mathers",
+      "ch-isaac-westcott"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
   }
 }

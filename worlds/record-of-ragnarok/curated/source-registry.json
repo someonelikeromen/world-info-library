@@ -1,1 +1,28 @@
-{"schema":"rp-source-registry-v1","worldId":"record-of-ragnarok","sources":[{"sourceId":"src-record-of-ragnarok-001","title":"終末的女武神 人vs神","type":"character-card-worldbook","reliability":"B","location":"campaigns/world-library/worlds/record-of-ragnarok/source-registry.json / imports/raw/world-sources/vs.png","appliesTo":["world","characters","volundr","tournament"],"notes":"自动归档 157 条，未分类 5 条。"}],"conflictLog":[{"id":"ror-conflict-001","summary":"连载新增回合与世界书截断点可能不一致。","resolution":"初版按已归档主干，不声明完整最终赛果。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "record-of-ragnarok",
+  "sources": [
+    {
+      "sourceId": "src-record-of-ragnarok-001",
+      "title": "終末的女武神 人vs神",
+      "type": "character-card-worldbook",
+      "reliability": "B",
+      "location": "campaigns/world-library/worlds/record-of-ragnarok/source-registry.json / imports/raw/world-sources/vs.png",
+      "appliesTo": [
+        "world",
+        "characters",
+        "volundr",
+        "tournament"
+      ],
+      "notes": "自动归档 157 条，未分类 5 条。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "ror-conflict-001",
+      "summary": "连载新增回合与世界书截断点可能不一致。",
+      "resolution": "初版按已归档主干，不声明完整最终赛果。"
+    }
+  ],
+  "campaignId": "record-of-ragnarok"
+}

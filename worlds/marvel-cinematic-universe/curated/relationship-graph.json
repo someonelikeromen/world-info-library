@@ -1,1 +1,356 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library-marvel-cinematic-universe","cardId":"marvel-cinematic-universe","nodes":[{"id":"tony-stark","type":"character","name":"托尼·斯塔克","aliases":["钢铁侠"],"visibility":"public","summary":"复仇者科技核心。","tags":["hero"],"metadata":{}},{"id":"steve-rogers","type":"character","name":"史蒂夫·罗杰斯","aliases":["美国队长"],"visibility":"public","summary":"复仇者精神领袖。","tags":["hero"],"metadata":{}},{"id":"thanos","type":"character","name":"灭霸","aliases":[],"visibility":"private","summary":"无限宝石主线反派。","tags":["antagonist"],"metadata":{}},{"id":"avengers","type":"faction","name":"复仇者联盟","aliases":[],"visibility":"public","summary":"超级英雄团队。","tags":["team"],"metadata":{}},{"id":"shield","type":"faction","name":"神盾局","aliases":[],"visibility":"public","summary":"情报机构。","tags":["agency"],"metadata":{}}],"edges":[{"id":"rel-tony-steve","from":"tony-stark","to":"steve-rogers","type":"trust","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"合作、理念冲突和互相尊重并存。"},"facets":{"trust":"B","affection":"B","fear":null,"suspicion":"B","debt":null,"loyalty":"B","hostility":"C"},"publicDescription":"钢铁侠与美国队长是复仇者核心但常有理念分歧。","gmTruth":"内战阶段关系会显著恶化。","evidence":["src-mcu-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-avengers-thanos","from":"avengers","to":"thanos","type":"enemy","directional":false,"visibility":"private","playerKnown":false,"strength":{"level":"S","score":95,"description":"无限宝石争夺导致宇宙级冲突。"},"facets":{"trust":"E","affection":null,"fear":"A","suspicion":"A","debt":null,"loyalty":null,"hostility":"S"},"publicDescription":"宇宙深处存在威胁。","gmTruth":"灭霸会独立推进宝石计划。","evidence":["src-mcu-classification-report"],"history":[],"conditions":[],"notes":""},{"id":"rel-shield-avengers","from":"shield","to":"avengers","type":"command","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"B","score":65,"description":"早期召集和支援关系，后续更独立。"},"facets":{"trust":"B","affection":null,"fear":null,"suspicion":"C","debt":"B","loyalty":null,"hostility":null},"publicDescription":"神盾局曾组织复仇者倡议。","gmTruth":"九头蛇渗透会污染信任。","evidence":["src-mcu-world-json-sample"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["tony-stark","steve-rogers","avengers","shield"],"gmHighlightedNodeIds":["thanos"],"activeSceneNodeIds":[]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-marvel-cinematic-universe",
+  "cardId": "marvel-cinematic-universe",
+  "nodes": [
+    {
+      "id": "tony-stark",
+      "type": "character",
+      "name": "托尼·斯塔克",
+      "aliases": [
+        "钢铁侠"
+      ],
+      "visibility": "public",
+      "summary": "复仇者科技核心。",
+      "tags": [
+        "hero"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "steve-rogers",
+      "type": "character",
+      "name": "史蒂夫·罗杰斯",
+      "aliases": [
+        "美国队长"
+      ],
+      "visibility": "public",
+      "summary": "复仇者精神领袖。",
+      "tags": [
+        "hero"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "thanos",
+      "type": "character",
+      "name": "灭霸",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "无限宝石主线反派。",
+      "tags": [
+        "antagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "avengers",
+      "type": "faction",
+      "name": "复仇者联盟",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "超级英雄团队。",
+      "tags": [
+        "team"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "shield",
+      "type": "faction",
+      "name": "神盾局",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "情报机构。",
+      "tags": [
+        "agency"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "thor-odinson",
+      "type": "character",
+      "name": "索尔·奥丁森",
+      "visibility": "public",
+      "summary": "阿斯加德王子/国王，掌握雷霆神力。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "bruce-banner",
+      "type": "character",
+      "name": "布鲁斯·班纳",
+      "visibility": "public",
+      "summary": "伽马辐射科学家，愤怒时化身浩克。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "natasha-romanoff",
+      "type": "character",
+      "name": "娜塔莎·罗曼诺夫",
+      "visibility": "public",
+      "summary": "前红房特工，复仇者核心成员。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "doctor-strange",
+      "type": "character",
+      "name": "史蒂芬·斯特兰奇",
+      "visibility": "public",
+      "summary": "外科医生转为秘术师，守护现实与时间线。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "peter-parker",
+      "type": "character",
+      "name": "彼得·帕克",
+      "visibility": "public",
+      "summary": "被蜘蛛咬伤获得能力的年轻英雄。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "pepper-potts",
+      "type": "character",
+      "name": "佩珀·波茨",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "bucky-barnes",
+      "type": "character",
+      "name": "巴基·巴恩斯",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "loki",
+      "type": "character",
+      "name": "洛基",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "clint-barton",
+      "type": "character",
+      "name": "克林特·巴顿",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "wong",
+      "type": "character",
+      "name": "王",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "gamora",
+      "type": "character",
+      "name": "卡魔拉",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "may-parker",
+      "type": "character",
+      "name": "梅·帕克",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-tony-steve",
+      "from": "tony-stark",
+      "to": "steve-rogers",
+      "type": "trust",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "合作、理念冲突和互相尊重并存。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "B",
+        "fear": null,
+        "suspicion": "B",
+        "debt": null,
+        "loyalty": "B",
+        "hostility": "C"
+      },
+      "publicDescription": "钢铁侠与美国队长是复仇者核心但常有理念分歧。",
+      "gmTruth": "内战阶段关系会显著恶化。",
+      "evidence": [
+        "src-mcu-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-avengers-thanos",
+      "from": "avengers",
+      "to": "thanos",
+      "type": "enemy",
+      "directional": false,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "S",
+        "score": 95,
+        "description": "无限宝石争夺导致宇宙级冲突。"
+      },
+      "facets": {
+        "trust": "E",
+        "affection": null,
+        "fear": "A",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "S"
+      },
+      "publicDescription": "宇宙深处存在威胁。",
+      "gmTruth": "灭霸会独立推进宝石计划。",
+      "evidence": [
+        "src-mcu-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-shield-avengers",
+      "from": "shield",
+      "to": "avengers",
+      "type": "command",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "B",
+        "score": 65,
+        "description": "早期召集和支援关系，后续更独立。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": null,
+        "fear": null,
+        "suspicion": "C",
+        "debt": "B",
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "神盾局曾组织复仇者倡议。",
+      "gmTruth": "九头蛇渗透会污染信任。",
+      "evidence": [
+        "src-mcu-world-json-sample"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-tony-peter",
+      "from": "tony-stark",
+      "to": "peter-parker",
+      "type": "mentor",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 82,
+        "description": "托尼承担彼得英雄道路的重要导师角色。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "托尼是彼得的重要导师。",
+      "gmTruth": "关系在无限宝石主线中具有强情感后果。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    },
+    {
+      "id": "rel-thor-avengers",
+      "from": "thor-odinson",
+      "to": "avengers",
+      "type": "ally/member",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 78,
+        "description": "索尔与复仇者长期并肩作战。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "B",
+        "fear": null,
+        "suspicion": null,
+        "debt": null,
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "索尔是复仇者重要盟友。",
+      "gmTruth": "其阿斯加德身份使议题扩展到宇宙层面。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "tony-stark",
+      "steve-rogers",
+      "avengers",
+      "shield"
+    ],
+    "gmHighlightedNodeIds": [
+      "thanos"
+    ],
+    "activeSceneNodeIds": []
+  }
+}

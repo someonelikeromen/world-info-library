@@ -1,1 +1,28 @@
-{"schema":"rp-source-registry-v1","worldId":"kenichi","sources":[{"sourceId":"src-kenichi-001","title":"史上最强弟子兼一 迈向最强之路","type":"character-card-worldbook","reliability":"B","location":"campaigns/world-library/worlds/kenichi/source-registry.json / imports/raw/world-sources/shzqdz.png","appliesTo":["world","characters","martialArts","factions"],"notes":"自动归档 283 条，未分类 30 条。"}],"conflictLog":[{"id":"ken-conflict-001","summary":"部分世界书条目可能混入沙盒/NSFW/控制文本。","resolution":"初版仅采用武术与势力主干。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "kenichi",
+  "sources": [
+    {
+      "sourceId": "src-kenichi-001",
+      "title": "史上最强弟子兼一 迈向最强之路",
+      "type": "character-card-worldbook",
+      "reliability": "B",
+      "location": "campaigns/world-library/worlds/kenichi/source-registry.json / imports/raw/world-sources/shzqdz.png",
+      "appliesTo": [
+        "world",
+        "characters",
+        "martialArts",
+        "factions"
+      ],
+      "notes": "自动归档 283 条，未分类 30 条。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "ken-conflict-001",
+      "summary": "部分世界书条目可能混入沙盒/NSFW/控制文本。",
+      "resolution": "初版仅采用武术与势力主干。"
+    }
+  ],
+  "campaignId": "kenichi"
+}

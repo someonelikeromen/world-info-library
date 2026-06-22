@@ -1,26 +1,143 @@
 {
-  "schema": "curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "monster-hunter",
   "note": "该归档以世界组织、职业角色与生态角色为主，原文件未提供大量固定姓名角色；以下为手工整理的可用人物/角色类型清单。",
   "characters": [
-    {"name": "主角猎人/OC猎人", "role": "旅者与学习者", "affiliation": "猎人公会", "notes": "串联各区域，学习当地规则，逐步从技巧追求者转为生态守护者。"},
-    {"name": "公会受付员", "role": "任务发布与手续管理", "affiliation": "猎人公会", "notes": "负责委托登记、任务星级说明、报酬与风险提示。"},
-    {"name": "公会主管/集会所负责人", "role": "地区公会管理者", "affiliation": "各地猎人公会", "notes": "协调猎人、村庄、王国与研究机构之间的需求。"},
-    {"name": "村长", "role": "地方委托人与社区代表", "affiliation": "各地村落", "notes": "代表村落发布村任务，体现当地文化与价值冲突。"},
-    {"name": "加工屋工匠", "role": "武器防具锻造者", "affiliation": "工匠体系/村落", "notes": "将素材转化为装备，体现装备驱动成长。"},
-    {"name": "艾露猫伙伴", "role": "狩猎搭档/支援者", "affiliation": "猎人/猫猫岛等", "notes": "提供采集、支援、搬运与日常互动。"},
-    {"name": "王立书士队学者", "role": "生态记录与分类", "affiliation": "王立书士队", "notes": "记录已知/未知物种并提供图鉴式生态知识。"},
-    {"name": "古龙观测员", "role": "灾害预警与追踪", "affiliation": "古龙观测局", "notes": "追踪活动天灾级古龙，发布高危情报。"},
-    {"name": "龙历院研究员", "role": "怪物研究/技术传授", "affiliation": "龙历院", "notes": "兼具学术机构与猎人公会功能。"},
-    {"name": "调查团总司令", "role": "新大陆调查领导", "affiliation": "调查团", "notes": "统合新大陆据点、生态调查与大型作战。"},
-    {"name": "调查班队长", "role": "前线队长", "affiliation": "调查团", "notes": "带队勘察新区域与应对异常生态。"},
-    {"name": "生态研究所所长", "role": "新大陆生态学者", "affiliation": "调查团/研究机构", "notes": "分析怪物迁徙、食物链与古龙渡。"},
-    {"name": "教官", "role": "训练与武器教学", "affiliation": "猎人公会/训练场", "notes": "教授武器、回避、陷阱、团队协作。"},
-    {"name": "商队领队", "role": "区域旅行与补给", "affiliation": "商队/公会", "notes": "连接村落、港口和未知地区。"},
-    {"name": "保守派长老", "role": "传统狩猎价值代表", "affiliation": "传统村落", "notes": "与技术激进派形成价值对话。"},
-    {"name": "激进派技师", "role": "新技术与改造代表", "affiliation": "研究基地/工房", "notes": "推动翔虫、机关、船舰、特殊装备等规则变化。"},
-    {"name": "生态顶点怪物", "role": "区域主线挑战", "affiliation": "自然生态", "notes": "每个区域的主要危机与成长阶梯。"},
-    {"name": "古龙", "role": "活动天灾", "affiliation": "自然/超常生态", "notes": "不以善恶定义，是区域异变和史诗狩猎核心。"},
-    {"name": "禁忌怪物", "role": "主线谜团/终极灾厄", "affiliation": "未知", "notes": "通过区域任务埋线索，驱动长期剧情。"}
-  ]
+    {
+      "name": "主角猎人/OC猎人",
+      "role": "旅者与学习者",
+      "affiliation": "猎人公会",
+      "notes": "串联各区域，学习当地规则，逐步从技巧追求者转为生态守护者。"
+    },
+    {
+      "name": "公会受付员",
+      "role": "任务发布与手续管理",
+      "affiliation": "猎人公会",
+      "notes": "负责委托登记、任务星级说明、报酬与风险提示。"
+    },
+    {
+      "name": "公会主管/集会所负责人",
+      "role": "地区公会管理者",
+      "affiliation": "各地猎人公会",
+      "notes": "协调猎人、村庄、王国与研究机构之间的需求。"
+    },
+    {
+      "name": "村长",
+      "role": "地方委托人与社区代表",
+      "affiliation": "各地村落",
+      "notes": "代表村落发布村任务，体现当地文化与价值冲突。"
+    },
+    {
+      "name": "加工屋工匠",
+      "role": "武器防具锻造者",
+      "affiliation": "工匠体系/村落",
+      "notes": "将素材转化为装备，体现装备驱动成长。"
+    },
+    {
+      "name": "艾露猫伙伴",
+      "role": "狩猎搭档/支援者",
+      "affiliation": "猎人/猫猫岛等",
+      "notes": "提供采集、支援、搬运与日常互动。"
+    },
+    {
+      "name": "王立书士队学者",
+      "role": "生态记录与分类",
+      "affiliation": "王立书士队",
+      "notes": "记录已知/未知物种并提供图鉴式生态知识。"
+    },
+    {
+      "name": "古龙观测员",
+      "role": "灾害预警与追踪",
+      "affiliation": "古龙观测局",
+      "notes": "追踪活动天灾级古龙，发布高危情报。"
+    },
+    {
+      "name": "龙历院研究员",
+      "role": "怪物研究/技术传授",
+      "affiliation": "龙历院",
+      "notes": "兼具学术机构与猎人公会功能。"
+    },
+    {
+      "name": "调查团总司令",
+      "role": "新大陆调查领导",
+      "affiliation": "调查团",
+      "notes": "统合新大陆据点、生态调查与大型作战。"
+    },
+    {
+      "name": "调查班队长",
+      "role": "前线队长",
+      "affiliation": "调查团",
+      "notes": "带队勘察新区域与应对异常生态。"
+    },
+    {
+      "name": "生态研究所所长",
+      "role": "新大陆生态学者",
+      "affiliation": "调查团/研究机构",
+      "notes": "分析怪物迁徙、食物链与古龙渡。"
+    },
+    {
+      "name": "教官",
+      "role": "训练与武器教学",
+      "affiliation": "猎人公会/训练场",
+      "notes": "教授武器、回避、陷阱、团队协作。"
+    },
+    {
+      "name": "商队领队",
+      "role": "区域旅行与补给",
+      "affiliation": "商队/公会",
+      "notes": "连接村落、港口和未知地区。"
+    },
+    {
+      "name": "保守派长老",
+      "role": "传统狩猎价值代表",
+      "affiliation": "传统村落",
+      "notes": "与技术激进派形成价值对话。"
+    },
+    {
+      "name": "激进派技师",
+      "role": "新技术与改造代表",
+      "affiliation": "研究基地/工房",
+      "notes": "推动翔虫、机关、船舰、特殊装备等规则变化。"
+    },
+    {
+      "name": "生态顶点怪物",
+      "role": "区域主线挑战",
+      "affiliation": "自然生态",
+      "notes": "每个区域的主要危机与成长阶梯。"
+    },
+    {
+      "name": "古龙",
+      "role": "活动天灾",
+      "affiliation": "自然/超常生态",
+      "notes": "不以善恶定义，是区域异变和史诗狩猎核心。"
+    },
+    {
+      "name": "禁忌怪物",
+      "role": "主线谜团/终极灾厄",
+      "affiliation": "未知",
+      "notes": "通过区域任务埋线索，驱动长期剧情。"
+    }
+  ],
+  "worldId": "monster-hunter",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  },
+  "runtimeUseGate": {
+    "gateType": "role-and-ecology-index-caveat",
+    "characterIndexPolicy": "characters-index is primarily occupational, institutional, and ecological role slots because sources emphasize systems over named NPCs",
+    "notCompleteCanonRoster": {
+      "enabled": true,
+      "summary": "",
+      "notes": []
+    },
+    "runtimePolicy": "do not treat hunter/guild/ecology role entries or monster categories as a complete fixed canon NPC list"
+  },
+  "notCompleteCanonRoster": {
+    "enabled": true,
+    "summary": "",
+    "notes": []
+  }
 }

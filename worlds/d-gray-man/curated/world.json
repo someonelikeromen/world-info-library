@@ -1,1 +1,167 @@
-{"schema":"rp-world-v1","worldId":"d-gray-man","displayName":"驱魔少年 / D.Gray-man","curationStatus":"manual-initial-expanded","sourceRefs":["src-d-gray-man-001"],"summary":"围绕圣洁 Innocence、黑色教团、恶魔 Akuma、诺亚一族与千年伯爵展开的驱魔战线。亚连·沃克以寄生型圣洁对抗伯爵与诺亚，同时卷入十四号、阿尔玛与过去真相的长期阴谋。","powerSystems":[{"id":"innocence","name":"Innocence/圣洁","rules":["圣洁是与人类适配的对抗性神秘武装，能对恶魔造成致命伤害。","不同适配者可出现武器型、装备型、寄生型等表现。","破损、适配失败与觉醒阶段会显著改变表现。"]},{"id":"noah","name":"诺亚之记忆","rules":["诺亚一族承载灾厄记忆与家族性宿命，具异能与再生。","诺亚能力与记忆觉醒、身体宿主和家族位置强绑定。","与十四号真相存在高风险关联。"]},{"id":"akuma","name":"Akuma/恶魔制造","rules":["千年伯爵通过悲愿与机械化改造制造恶魔。","恶魔等级与悲愿、容器与进化阶段相关。","对付恶魔通常需圣洁或针对性封印/净化。"]},{"id":"exorcist","name":"驱魔师体系","rules":["黑色教团驱魔师以圣洁为核心对抗恶魔。","欧洲总局、北美分部与支部存在组织层级差异。","可用医学、后勤、情报与战斗多角色结构运行。"]}],"factions":["黑色教团","千年伯爵阵营","诺亚一族","北美分部","欧洲总局/教团支部","驱魔师小队"],"locations":["黑色教团本部","欧洲分部","北美分部","方舟","日本各地","教团支部与战场"],"combatRules":["圣洁是对恶魔的主要克制手段，失去圣洁适配即失去核心战力。","诺亚与恶魔侧角色往往具有高再生、高机动或规则级异能。","长期剧情以情报、身份反转与心理创伤推动战斗升级。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "d-gray-man",
+  "displayName": "驱魔少年 / D.Gray-man",
+  "curationStatus": "manual-initial-expanded",
+  "sourceRefs": [
+    "src-d-gray-man-001"
+  ],
+  "summary": "围绕圣洁 Innocence、黑色教团、恶魔 Akuma、诺亚一族与千年伯爵展开的驱魔战线。亚连·沃克以寄生型圣洁对抗伯爵与诺亚，同时卷入十四号、阿尔玛与过去真相的长期阴谋。",
+  "powerSystems": [
+    {
+      "id": "innocence",
+      "name": "Innocence/圣洁",
+      "rules": [
+        "圣洁是与人类适配的对抗性神秘武装，能对恶魔造成致命伤害。",
+        "不同适配者可出现武器型、装备型、寄生型等表现。",
+        "破损、适配失败与觉醒阶段会显著改变表现。"
+      ]
+    },
+    {
+      "id": "noah",
+      "name": "诺亚之记忆",
+      "rules": [
+        "诺亚一族承载灾厄记忆与家族性宿命，具异能与再生。",
+        "诺亚能力与记忆觉醒、身体宿主和家族位置强绑定。",
+        "与十四号真相存在高风险关联。"
+      ]
+    },
+    {
+      "id": "akuma",
+      "name": "Akuma/恶魔制造",
+      "rules": [
+        "千年伯爵通过悲愿与机械化改造制造恶魔。",
+        "恶魔等级与悲愿、容器与进化阶段相关。",
+        "对付恶魔通常需圣洁或针对性封印/净化。"
+      ]
+    },
+    {
+      "id": "exorcist",
+      "name": "驱魔师体系",
+      "rules": [
+        "黑色教团驱魔师以圣洁为核心对抗恶魔。",
+        "欧洲总局、北美分部与支部存在组织层级差异。",
+        "可用医学、后勤、情报与战斗多角色结构运行。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "black-order",
+      "name": "黑色教团"
+    },
+    {
+      "id": "millennium-earl-camp",
+      "name": "千年伯爵阵营"
+    },
+    {
+      "id": "noah-family",
+      "name": "诺亚一族"
+    },
+    {
+      "id": "north-american-branch",
+      "name": "北美分部"
+    },
+    {
+      "id": "european-branch",
+      "name": "欧洲总局/教团支部"
+    },
+    {
+      "id": "exorcist-squads",
+      "name": "驱魔师小队"
+    },
+    {
+      "id": "bookman-lineage",
+      "name": "Bookman 系",
+      "summary": "记录者 Bookman 相关谱系。"
+    },
+    {
+      "id": "secret-lines",
+      "name": "隐秘线",
+      "summary": "用于标记后期隐秘真相关联角色。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "black-order-hq",
+      "name": "黑色教团本部"
+    },
+    {
+      "id": "european-branch-location",
+      "name": "欧洲分部"
+    },
+    {
+      "id": "north-american-branch-location",
+      "name": "北美分部"
+    },
+    {
+      "id": "ark",
+      "name": "方舟"
+    },
+    {
+      "id": "japan",
+      "name": "日本各地"
+    },
+    {
+      "id": "order-branches-and-battlefields",
+      "name": "教团支部与战场"
+    },
+    {
+      "id": "europe",
+      "name": "欧洲",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "battlefields",
+      "name": "战场",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "order-periphery",
+      "name": "教团外围",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "villages-and-towns",
+      "name": "村镇",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "earl-battlefields",
+      "name": "各地战场",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "illusion-space",
+      "name": "幻境空间",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "order-secret-facilities",
+      "name": "教团相关设施",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "past-ark",
+      "name": "过去/方舟",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    }
+  ],
+  "combatRules": [
+    "圣洁是对恶魔的主要克制手段，失去圣洁适配即失去核心战力。",
+    "诺亚与恶魔侧角色往往具有高再生、高机动或规则级异能。",
+    "长期剧情以情报、身份反转与心理创伤推动战斗升级。"
+  ],
+  "visibility": "public",
+  "worldName": "驱魔少年 / D.Gray-man",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

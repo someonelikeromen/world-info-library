@@ -1,16 +1,256 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "toaru",
   "relationships": [
-    {"from": "kamijou-touma", "to": "index", "type": "protector/housemate", "summary": "上条收留并保护茵蒂克丝，两人连接科学侧与魔法侧。"},
-    {"from": "kamijou-touma", "to": "misaka-mikoto", "type": "ally-comedic-rival", "summary": "美琴常与上条冲突/协作，上条介入妹妹计划。"},
-    {"from": "misaka-mikoto", "to": "sisters", "type": "genetic-original", "summary": "妹妹们为御坂美琴克隆体，卷入绝对能力进化实验。"},
-    {"from": "accelerator", "to": "last-order", "type": "guardian-redemption", "summary": "一方通行从实验加害者走向保护最后之作。"},
-    {"from": "stiyl", "to": "index", "type": "former-guardian", "summary": "史提尔隶属英国清教，与神裂曾追索/保护茵蒂克丝。"},
-    {"from": "kamisaki", "to": "index", "type": "former-guardian", "summary": "神裂火织作为必要之恶教会成员与茵蒂克丝有旧关系。"},
-    {"from": "item", "to": "mugino-shizuri", "type": "leader", "summary": "麦野沈利为暗部 ITEM 核心领导。"},
-    {"from": "item", "to": "hamazura-shiage", "type": "low-rank-member", "summary": "滨面仕上与 ITEM 相关，后成为重要凡人视角角色。"},
-    {"from": "academy-city", "to": "aleister", "type": "ruled-by", "summary": "亚雷斯塔统治学园都市并布局科学侧计划。"},
-    {"from": "roman-orthodox", "to": "gods-right-seat", "type": "contains", "summary": "神之右席为罗马正教侧高阶力量。"}
-  ]
+    {
+      "from": "kamijou-touma",
+      "to": "index",
+      "type": "protector/housemate",
+      "summary": "上条收留并保护茵蒂克丝，两人连接科学侧与魔法侧。"
+    },
+    {
+      "from": "kamijou-touma",
+      "to": "misaka-mikoto",
+      "type": "ally-comedic-rival",
+      "summary": "美琴常与上条冲突/协作，上条介入妹妹计划。"
+    },
+    {
+      "from": "misaka-mikoto",
+      "to": "sisters",
+      "type": "genetic-original",
+      "summary": "妹妹们为御坂美琴克隆体，卷入绝对能力进化实验。"
+    },
+    {
+      "from": "accelerator",
+      "to": "last-order",
+      "type": "guardian-redemption",
+      "summary": "一方通行从实验加害者走向保护最后之作。"
+    },
+    {
+      "from": "stiyl-magnus",
+      "to": "index",
+      "type": "former-guardian",
+      "summary": "史提尔隶属英国清教，与神裂曾追索/保护茵蒂克丝。"
+    },
+    {
+      "from": "kamisaki-kaori",
+      "to": "index",
+      "type": "former-guardian",
+      "summary": "神裂火织作为必要之恶教会成员与茵蒂克丝有旧关系。"
+    },
+    {
+      "from": "item",
+      "to": "mugino-shizuri",
+      "type": "leader",
+      "summary": "麦野沈利为暗部 ITEM 核心领导。"
+    },
+    {
+      "from": "item",
+      "to": "hamazura-shiage",
+      "type": "low-rank-member",
+      "summary": "滨面仕上与 ITEM 相关，后成为重要凡人视角角色。"
+    },
+    {
+      "from": "academy-city",
+      "to": "aleister",
+      "type": "ruled-by",
+      "summary": "亚雷斯塔统治学园都市并布局科学侧计划。"
+    },
+    {
+      "from": "roman-orthodox",
+      "to": "gods-right-seat",
+      "type": "contains",
+      "summary": "神之右席为罗马正教侧高阶力量。"
+    }
+  ],
+  "campaignId": "toaru",
+  "nodes": [
+    {
+      "id": "kamijou-touma",
+      "label": "上条当麻",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "index",
+      "label": "茵蒂克丝",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "misaka-mikoto",
+      "label": "御坂美琴",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "sisters",
+      "label": "妹妹们",
+      "type": "group",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "accelerator",
+      "label": "一方通行",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "last-order",
+      "label": "最后之作",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "stiyl-magnus",
+      "label": "史提尔·马格努斯",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "kamisaki-kaori",
+      "label": "神裂火织",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "item",
+      "label": "ITEM",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "mugino-shizuri",
+      "label": "麦野沈利",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "hamazura-shiage",
+      "label": "滨面仕上",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "academy-city",
+      "label": "学园都市",
+      "type": "location",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "aleister",
+      "label": "亚雷斯塔",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "roman-orthodox",
+      "label": "罗马正教",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    },
+    {
+      "id": "gods-right-seat",
+      "label": "神之右席",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy-structural-stub to typed relationship graph node."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "kamijou-touma",
+      "to": "index",
+      "type": "protector/housemate",
+      "summary": "上条收留并保护茵蒂克丝，两人连接科学侧与魔法侧。"
+    },
+    {
+      "from": "kamijou-touma",
+      "to": "misaka-mikoto",
+      "type": "ally-comedic-rival",
+      "summary": "美琴常与上条冲突/协作，上条介入妹妹计划。"
+    },
+    {
+      "from": "misaka-mikoto",
+      "to": "sisters",
+      "type": "genetic-original",
+      "summary": "妹妹们为御坂美琴克隆体，卷入绝对能力进化实验。"
+    },
+    {
+      "from": "accelerator",
+      "to": "last-order",
+      "type": "guardian-redemption",
+      "summary": "一方通行从实验加害者走向保护最后之作。"
+    },
+    {
+      "from": "stiyl-magnus",
+      "to": "index",
+      "type": "former-guardian",
+      "summary": "史提尔隶属英国清教，与神裂曾追索/保护茵蒂克丝。"
+    },
+    {
+      "from": "kamisaki-kaori",
+      "to": "index",
+      "type": "former-guardian",
+      "summary": "神裂火织作为必要之恶教会成员与茵蒂克丝有旧关系。"
+    },
+    {
+      "from": "item",
+      "to": "mugino-shizuri",
+      "type": "leader",
+      "summary": "麦野沈利为暗部 ITEM 核心领导。"
+    },
+    {
+      "from": "item",
+      "to": "hamazura-shiage",
+      "type": "low-rank-member",
+      "summary": "滨面仕上与 ITEM 相关，后成为重要凡人视角角色。"
+    },
+    {
+      "from": "academy-city",
+      "to": "aleister",
+      "type": "ruled-by",
+      "summary": "亚雷斯塔统治学园都市并布局科学侧计划。"
+    },
+    {
+      "from": "roman-orthodox",
+      "to": "gods-right-seat",
+      "type": "contains",
+      "summary": "神之右席为罗马正教侧高阶力量。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

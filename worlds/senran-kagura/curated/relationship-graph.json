@@ -1,1 +1,82 @@
-{"schema":"rp-relationship-graph-v1","worldId":"senran-kagura","nodes":[{"id":"asuka","type":"character","label":"飞鸟"},{"id":"homura","type":"character","label":"焰"},{"id":"ikaruga","type":"character","label":"斑鸠"},{"id":"yagyu","type":"character","label":"柳生"},{"id":"hibari","type":"character","label":"云雀"},{"id":"hanzo","type":"faction","label":"半藏学院"},{"id":"homura-squad","type":"faction","label":"焰红莲队"}],"edges":[{"from":"asuka","to":"homura","type":"rivalry"},{"from":"asuka","to":"hanzo","type":"member"},{"from":"homura","to":"homura-squad","type":"leader"},{"from":"ikaruga","to":"asuka","type":"teammate"},{"from":"yagyu","to":"hibari","type":"protects"},{"from":"hanzo","to":"homura-squad","type":"enemy_or_rival"}],"sourceRefs":["src-senran-kagura-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "senran-kagura",
+  "nodes": [
+    {
+      "id": "asuka",
+      "type": "character",
+      "label": "飞鸟"
+    },
+    {
+      "id": "homura",
+      "type": "character",
+      "label": "焰"
+    },
+    {
+      "id": "ikaruga",
+      "type": "character",
+      "label": "斑鸠"
+    },
+    {
+      "id": "yagyu",
+      "type": "character",
+      "label": "柳生"
+    },
+    {
+      "id": "hibari",
+      "type": "character",
+      "label": "云雀"
+    },
+    {
+      "id": "hanzo",
+      "type": "faction",
+      "label": "半藏学院"
+    },
+    {
+      "id": "homura-squad",
+      "type": "faction",
+      "label": "焰红莲队"
+    }
+  ],
+  "edges": [
+    {
+      "from": "asuka",
+      "to": "homura",
+      "type": "rivalry"
+    },
+    {
+      "from": "asuka",
+      "to": "hanzo",
+      "type": "member"
+    },
+    {
+      "from": "homura",
+      "to": "homura-squad",
+      "type": "leader"
+    },
+    {
+      "from": "ikaruga",
+      "to": "asuka",
+      "type": "teammate"
+    },
+    {
+      "from": "yagyu",
+      "to": "hibari",
+      "type": "protects"
+    },
+    {
+      "from": "hanzo",
+      "to": "homura-squad",
+      "type": "enemy_or_rival"
+    }
+  ],
+  "sourceRefs": [
+    "src-senran-kagura-001"
+  ],
+  "campaignId": "senran-kagura",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

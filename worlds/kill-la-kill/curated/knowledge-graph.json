@@ -1,27 +1,111 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "kill-la-kill",
   "nodes": [
-    {"id": "life-fibers", "type": "species-material", "label": "战斗生命纤维"},
-    {"id": "original-life-fiber", "type": "entity", "label": "原始战斗生命纤维"},
-    {"id": "goku-uniform", "type": "equipment", "label": "极制服"},
-    {"id": "kamui", "type": "equipment", "label": "神衣"},
-    {"id": "senketsu", "type": "kamui", "label": "鲜血"},
-    {"id": "junketsu", "type": "kamui", "label": "纯洁"},
-    {"id": "scissor-blade", "type": "weapon", "label": "断斩之剪"},
-    {"id": "honnouji", "type": "location", "label": "本能字学园"},
-    {"id": "revocs", "type": "faction", "label": "REVOCS社"},
-    {"id": "nudist-beach", "type": "faction", "label": "裸体海滩"}
+    {
+      "id": "life-fibers",
+      "type": "species-material",
+      "label": "战斗生命纤维"
+    },
+    {
+      "id": "original-life-fiber",
+      "type": "entity",
+      "label": "原始战斗生命纤维"
+    },
+    {
+      "id": "goku-uniform",
+      "type": "equipment",
+      "label": "极制服"
+    },
+    {
+      "id": "kamui",
+      "type": "equipment",
+      "label": "神衣"
+    },
+    {
+      "id": "senketsu",
+      "type": "kamui",
+      "label": "鲜血"
+    },
+    {
+      "id": "junketsu",
+      "type": "kamui",
+      "label": "纯洁"
+    },
+    {
+      "id": "scissor-blade",
+      "type": "weapon",
+      "label": "断斩之剪"
+    },
+    {
+      "id": "honnouji",
+      "type": "location",
+      "label": "本能字学园"
+    },
+    {
+      "id": "revocs",
+      "type": "faction",
+      "label": "REVOCS社"
+    },
+    {
+      "id": "nudist-beach",
+      "type": "faction",
+      "label": "裸体海滩"
+    }
   ],
   "edges": [
-    {"from": "original-life-fiber", "to": "life-fibers", "type": "source-of"},
-    {"from": "life-fibers", "to": "goku-uniform", "type": "woven-into"},
-    {"from": "life-fibers", "to": "kamui", "type": "woven-into-100-percent"},
-    {"from": "kamui", "to": "senketsu", "type": "instance"},
-    {"from": "kamui", "to": "junketsu", "type": "instance"},
-    {"from": "life-fibers", "to": "scissor-blade", "type": "hardened-origin"},
-    {"from": "honnouji", "to": "goku-uniform", "type": "distributes"},
-    {"from": "revocs", "to": "life-fibers", "type": "spreads-globally"},
-    {"from": "nudist-beach", "to": "life-fibers", "type": "opposes"}
-  ]
+    {
+      "from": "original-life-fiber",
+      "to": "life-fibers",
+      "type": "source-of"
+    },
+    {
+      "from": "life-fibers",
+      "to": "goku-uniform",
+      "type": "woven-into"
+    },
+    {
+      "from": "life-fibers",
+      "to": "kamui",
+      "type": "woven-into-100-percent"
+    },
+    {
+      "from": "kamui",
+      "to": "senketsu",
+      "type": "instance"
+    },
+    {
+      "from": "kamui",
+      "to": "junketsu",
+      "type": "instance"
+    },
+    {
+      "from": "life-fibers",
+      "to": "scissor-blade",
+      "type": "hardened-origin"
+    },
+    {
+      "from": "honnouji",
+      "to": "goku-uniform",
+      "type": "distributes"
+    },
+    {
+      "from": "revocs",
+      "to": "life-fibers",
+      "type": "spreads-globally"
+    },
+    {
+      "from": "nudist-beach",
+      "to": "life-fibers",
+      "type": "opposes"
+    }
+  ],
+  "campaignId": "kill-la-kill",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

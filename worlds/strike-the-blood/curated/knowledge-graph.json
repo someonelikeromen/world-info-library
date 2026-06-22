@@ -1,1 +1,64 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"strike-the-blood","nodes":[{"id":"fourth-primogenitor","type":"title","label":"第四真祖"},{"id":"familiars","type":"powerSystem","label":"眷兽"},{"id":"lion-king","type":"faction","label":"狮子王机关"},{"id":"itogami","type":"location","label":"弦神岛"},{"id":"demon-sanctuary","type":"settingRule","label":"魔族特区"}],"edges":[{"from":"fourth-primogenitor","to":"familiars","type":"commands"},{"from":"lion-king","to":"fourth-primogenitor","type":"monitors"},{"from":"itogami","to":"demon-sanctuary","type":"is"},{"from":"demon-sanctuary","to":"familiars","type":"risk_area"}],"sourceRefs":["src-strike-the-blood-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "strike-the-blood",
+  "nodes": [
+    {
+      "id": "fourth-primogenitor",
+      "type": "title",
+      "label": "第四真祖"
+    },
+    {
+      "id": "familiars",
+      "type": "powerSystem",
+      "label": "眷兽"
+    },
+    {
+      "id": "lion-king",
+      "type": "faction",
+      "label": "狮子王机关"
+    },
+    {
+      "id": "itogami",
+      "type": "location",
+      "label": "弦神岛"
+    },
+    {
+      "id": "demon-sanctuary",
+      "type": "settingRule",
+      "label": "魔族特区"
+    }
+  ],
+  "edges": [
+    {
+      "from": "fourth-primogenitor",
+      "to": "familiars",
+      "type": "commands"
+    },
+    {
+      "from": "lion-king",
+      "to": "fourth-primogenitor",
+      "type": "monitors"
+    },
+    {
+      "from": "itogami",
+      "to": "demon-sanctuary",
+      "type": "is"
+    },
+    {
+      "from": "demon-sanctuary",
+      "to": "familiars",
+      "type": "risk_area"
+    }
+  ],
+  "sourceRefs": [
+    "src-strike-the-blood-001"
+  ],
+  "campaignId": "strike-the-blood",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

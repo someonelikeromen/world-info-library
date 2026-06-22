@@ -1,17 +1,361 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "kill-la-kill",
   "relationships": [
-    {"from": "ryuko-matoi", "to": "satsuki-kiryuin", "type": "sisters-rivals-allies", "notes": "源条目标注皋月为流子姐姐；初期对立，后可联手。"},
-    {"from": "ryuko-matoi", "to": "senketsu", "type": "wearer-and-kamui", "notes": "流子与鲜血同步战斗。"},
-    {"from": "satsuki-kiryuin", "to": "junketsu", "type": "wearer-and-kamui", "notes": "皋月穿着神衣纯洁。"},
-    {"from": "ragyo-kiryuin", "to": "satsuki-kiryuin", "type": "mother-antagonist", "notes": "罗晓为皋月母亲与主要压迫源。"},
-    {"from": "ragyo-kiryuin", "to": "ryuko-matoi", "type": "mother-antagonist", "notes": "源条目标注罗晓与流子亲属关系。"},
-    {"from": "soichiro-kiryuin", "to": "ryuko-matoi", "type": "father-of", "notes": "缠一身/鬼龙院总一郎为流子父亲。"},
-    {"from": "ryuko-matoi", "to": "mako-mankanshoku", "type": "friends", "notes": "真子是流子同学兼好友。"},
-    {"from": "satsuki-kiryuin", "to": "ira-gamagoori", "type": "leader-subordinate", "notes": "蟇郡苛崇拜并效忠皋月。"},
-    {"from": "satsuki-kiryuin", "to": "houka-inumuta", "type": "leader-subordinate", "notes": "犬牟田被皋月纳为部下。"},
-    {"from": "satsuki-kiryuin", "to": "nonon-jakuzure", "type": "childhood-friend-leader", "notes": "乃音幼时即追随皋月。"},
-    {"from": "nudist-beach", "to": "revocs", "type": "opposes", "notes": "裸体海滩反抗 REVOCS 和生命纤维计划。"}
-  ]
+    {
+      "from": "ryuko-matoi",
+      "to": "satsuki-kiryuin",
+      "type": "sisters-rivals-allies",
+      "notes": "源条目标注皋月为流子姐姐；初期对立，后可联手。"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "senketsu",
+      "type": "wearer-and-kamui",
+      "notes": "流子与鲜血同步战斗。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "junketsu",
+      "type": "wearer-and-kamui",
+      "notes": "皋月穿着神衣纯洁。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "satsuki-kiryuin",
+      "type": "mother-antagonist",
+      "notes": "罗晓为皋月母亲与主要压迫源。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "ryuko-matoi",
+      "type": "mother-antagonist",
+      "notes": "源条目标注罗晓与流子亲属关系。"
+    },
+    {
+      "from": "soichiro-kiryuin",
+      "to": "ryuko-matoi",
+      "type": "father-of",
+      "notes": "缠一身/鬼龙院总一郎为流子父亲。"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "mako-mankanshoku",
+      "type": "friends",
+      "notes": "真子是流子同学兼好友。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "ira-gamagoori",
+      "type": "leader-subordinate",
+      "notes": "蟇郡苛崇拜并效忠皋月。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "houka-inumuta",
+      "type": "leader-subordinate",
+      "notes": "犬牟田被皋月纳为部下。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "nonon-jakuzure",
+      "type": "childhood-friend-leader",
+      "notes": "乃音幼时即追随皋月。"
+    },
+    {
+      "from": "nudist-beach",
+      "to": "revocs",
+      "type": "opposes",
+      "notes": "裸体海滩反抗 REVOCS 和生命纤维计划。"
+    }
+  ],
+  "campaignId": "kill-la-kill",
+  "nodes": [
+    {
+      "id": "ryuko-matoi",
+      "label": "ryuko-matoi",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ryuko-matoi'."
+      ],
+      "name": "缠流子",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "ryuko-matoi",
+          "mappedId": "ryuko-matoi",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "satsuki-kiryuin",
+      "label": "satsuki-kiryuin",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'satsuki-kiryuin'."
+      ],
+      "name": "鬼龙院皋月",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "satsuki-kiryuin",
+          "mappedId": "satsuki-kiryuin",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "senketsu",
+      "label": "senketsu",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'senketsu'."
+      ],
+      "name": "鲜血",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "senketsu",
+          "mappedId": "senketsu",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "junketsu",
+      "label": "junketsu",
+      "type": "kamui",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'junketsu'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "junketsu",
+          "mappedId": "junketsu",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "ragyo-kiryuin",
+      "label": "ragyo-kiryuin",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ragyo-kiryuin'."
+      ],
+      "name": "鬼龙院罗晓",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "ragyo-kiryuin",
+          "mappedId": "ragyo-kiryuin",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "soichiro-kiryuin",
+      "label": "soichiro-kiryuin",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'soichiro-kiryuin'."
+      ],
+      "name": "缠一身 / 鬼龙院总一郎",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "soichiro-kiryuin",
+          "mappedId": "soichiro-kiryuin",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "mako-mankanshoku",
+      "label": "mako-mankanshoku",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'mako-mankanshoku'."
+      ],
+      "name": "满舰饰真子",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "mako-mankanshoku",
+          "mappedId": "mako-mankanshoku",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "ira-gamagoori",
+      "label": "ira-gamagoori",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ira-gamagoori'."
+      ],
+      "name": "蟇郡苛",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "ira-gamagoori",
+          "mappedId": "ira-gamagoori",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "houka-inumuta",
+      "label": "houka-inumuta",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'houka-inumuta'."
+      ],
+      "name": "犬牟田宝火",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "houka-inumuta",
+          "mappedId": "houka-inumuta",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nonon-jakuzure",
+      "label": "nonon-jakuzure",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'nonon-jakuzure'."
+      ],
+      "name": "蛇崩乃音",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "nonon-jakuzure",
+          "mappedId": "nonon-jakuzure",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "nudist-beach",
+      "label": "nudist-beach",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'nudist-beach'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "nudist-beach",
+          "mappedId": "nudist-beach",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "revocs",
+      "label": "revocs",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'revocs'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "revocs",
+          "mappedId": "revocs",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "ryuko-matoi",
+      "to": "satsuki-kiryuin",
+      "type": "sisters-rivals-allies",
+      "notes": "源条目标注皋月为流子姐姐；初期对立，后可联手。"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "senketsu",
+      "type": "wearer-and-kamui",
+      "notes": "流子与鲜血同步战斗。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "junketsu",
+      "type": "wearer-and-kamui",
+      "notes": "皋月穿着神衣纯洁。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "satsuki-kiryuin",
+      "type": "mother-antagonist",
+      "notes": "罗晓为皋月母亲与主要压迫源。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "ryuko-matoi",
+      "type": "mother-antagonist",
+      "notes": "源条目标注罗晓与流子亲属关系。"
+    },
+    {
+      "from": "soichiro-kiryuin",
+      "to": "ryuko-matoi",
+      "type": "father-of",
+      "notes": "缠一身/鬼龙院总一郎为流子父亲。"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "mako-mankanshoku",
+      "type": "friends",
+      "notes": "真子是流子同学兼好友。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "ira-gamagoori",
+      "type": "leader-subordinate",
+      "notes": "蟇郡苛崇拜并效忠皋月。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "houka-inumuta",
+      "type": "leader-subordinate",
+      "notes": "犬牟田被皋月纳为部下。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "nonon-jakuzure",
+      "type": "childhood-friend-leader",
+      "notes": "乃音幼时即追随皋月。"
+    },
+    {
+      "from": "nudist-beach",
+      "to": "revocs",
+      "type": "opposes",
+      "notes": "裸体海滩反抗 REVOCS 和生命纤维计划。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

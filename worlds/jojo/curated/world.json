@@ -1,24 +1,83 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "jojo",
   "displayName": "JOJO",
-  "genre": ["跨代冒险", "超能力战斗", "家族宿命", "奇幻恐怖"],
+  "genre": [
+    "跨代冒险",
+    "超能力战斗",
+    "家族宿命",
+    "奇幻恐怖"
+  ],
   "summary": "乔斯达家族与迪奥及其衍生威胁跨越世代对抗。第一部围绕石鬼面、吸血鬼与波纹；第二部扩展到柱之男与超级艾哲红石；第三部转入替身能力与埃及远征。",
   "eras": [
-    {"id": "phantom-blood", "name": "第一部/乔纳森时代", "focus": "石鬼面、迪奥吸血鬼化、乔纳森学习波纹并牺牲。"},
-    {"id": "battle-tendency", "name": "第二部/乔瑟夫时代", "focus": "柱之男、卡兹、威尼斯波纹训练。"},
-    {"id": "stardust-crusaders", "name": "第三部/承太郎时代", "focus": "迪奥复苏、替身觉醒、埃及远征与时间停止之谜。"}
+    {
+      "id": "phantom-blood",
+      "name": "第一部/乔纳森时代",
+      "focus": "石鬼面、迪奥吸血鬼化、乔纳森学习波纹并牺牲。"
+    },
+    {
+      "id": "battle-tendency",
+      "name": "第二部/乔瑟夫时代",
+      "focus": "柱之男、卡兹、威尼斯波纹训练。"
+    },
+    {
+      "id": "stardust-crusaders",
+      "name": "第三部/承太郎时代",
+      "focus": "迪奥复苏、替身觉醒、埃及远征与时间停止之谜。"
+    }
   ],
   "powerSystems": [
-    {"id": "stone-mask", "name": "石鬼面", "description": "由柱之男卡兹创造，可使人类变为吸血鬼。"},
-    {"id": "hamon", "name": "波纹气功", "description": "能对抗尸生人和吸血鬼的生命能量技巧。"},
-    {"id": "stands", "name": "替身", "description": "人类或动物精神能量显现为有能力的形象、物体或现象；替身使者可感知并操纵替身。"}
+    {
+      "id": "stone-mask",
+      "name": "石鬼面",
+      "description": "由柱之男卡兹创造，可使人类变为吸血鬼。"
+    },
+    {
+      "id": "hamon",
+      "name": "波纹气功",
+      "description": "能对抗尸生人和吸血鬼的生命能量技巧。"
+    },
+    {
+      "id": "stands",
+      "name": "替身",
+      "description": "人类或动物精神能量显现为有能力的形象、物体或现象；替身使者可感知并操纵替身。"
+    }
   ],
   "factions": [
-    {"id": "joestar-family", "name": "乔斯达家族", "description": "跨代主角家族，持续承担对抗迪奥和超自然威胁的命运。"},
-    {"id": "dio-forces", "name": "迪奥势力", "description": "由迪奥、尸生人、吸血鬼与替身手下构成的敌对网络。"},
-    {"id": "pillar-men", "name": "柱之男", "description": "史前强大生物，卡兹等追求更高生命形态。"},
-    {"id": "egypt-expedition", "name": "埃及远征队", "description": "承太郎、乔瑟夫、阿布德尔、花京院、波鲁那雷夫、伊奇组成的救援与讨伐队伍。"}
+    {
+      "id": "joestar-family",
+      "name": "乔斯达家族",
+      "description": "跨代主角家族，持续承担对抗迪奥和超自然威胁的命运。"
+    },
+    {
+      "id": "dio-forces",
+      "name": "迪奥势力",
+      "description": "由迪奥、尸生人、吸血鬼与替身手下构成的敌对网络。"
+    },
+    {
+      "id": "pillar-men",
+      "name": "柱之男",
+      "description": "史前强大生物，卡兹等追求更高生命形态。"
+    },
+    {
+      "id": "egypt-expedition",
+      "name": "埃及远征队",
+      "description": "承太郎、乔瑟夫、阿布德尔、花京院、波鲁那雷夫、伊奇组成的救援与讨伐队伍。"
+    }
   ],
-  "sourceTrace": ["src-jojo-001"]
+  "sourceTrace": [
+    "src-jojo-001"
+  ],
+  "worldId": "jojo",
+  "worldName": "JOJO",
+  "aliases": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

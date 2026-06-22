@@ -1,16 +1,280 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "majo-no-tabitabi",
   "relationships": [
-    {"from": "fran", "to": "elaina", "type": "mentor-of", "notes": "芙兰教导伊蕾娜并赐予灰之魔女名。"},
-    {"from": "victorica", "to": "fran", "type": "mentor-of", "notes": "维多利加曾收芙兰为弟子。"},
-    {"from": "victorica", "to": "sheila", "type": "mentor-of", "notes": "维多利加打败并收下年轻席拉。"},
-    {"from": "fran", "to": "sheila", "type": "fellow-disciple", "notes": "早期不和，后在库诺兹相关事件后关系缓和。"},
-    {"from": "sheila", "to": "saya", "type": "mentor-of", "notes": "席拉指导沙耶并给出炭之魔女名。"},
-    {"from": "sheila", "to": "mina", "type": "mentor-of", "notes": "席拉指导美奈并给出煤之魔女名。"},
-    {"from": "saya", "to": "mina", "type": "sisters", "notes": "沙耶依赖妹妹，美奈也重视姐姐。"},
-    {"from": "saya", "to": "elaina", "type": "admires", "notes": "沙耶憧憬伊蕾娜，受伊蕾娜鼓励通过挫折。"},
-    {"from": "victorica", "to": "elaina", "type": "mother-of", "notes": "维多利加是伊蕾娜母亲。"},
-    {"from": "estelle", "to": "selena", "type": "former-friend-tragedy", "notes": "艾丝黛尔曾试图通过时间回溯拯救瑟琳娜。"}
-  ]
+    {
+      "from": "fran",
+      "to": "elaina",
+      "type": "mentor-of",
+      "notes": "芙兰教导伊蕾娜并赐予灰之魔女名。"
+    },
+    {
+      "from": "victorica",
+      "to": "fran",
+      "type": "mentor-of",
+      "notes": "维多利加曾收芙兰为弟子。"
+    },
+    {
+      "from": "victorica",
+      "to": "sheila",
+      "type": "mentor-of",
+      "notes": "维多利加打败并收下年轻席拉。"
+    },
+    {
+      "from": "fran",
+      "to": "sheila",
+      "type": "fellow-disciple",
+      "notes": "早期不和，后在库诺兹相关事件后关系缓和。"
+    },
+    {
+      "from": "sheila",
+      "to": "saya",
+      "type": "mentor-of",
+      "notes": "席拉指导沙耶并给出炭之魔女名。"
+    },
+    {
+      "from": "sheila",
+      "to": "mina",
+      "type": "mentor-of",
+      "notes": "席拉指导美奈并给出煤之魔女名。"
+    },
+    {
+      "from": "saya",
+      "to": "mina",
+      "type": "sisters",
+      "notes": "沙耶依赖妹妹，美奈也重视姐姐。"
+    },
+    {
+      "from": "saya",
+      "to": "elaina",
+      "type": "admires",
+      "notes": "沙耶憧憬伊蕾娜，受伊蕾娜鼓励通过挫折。"
+    },
+    {
+      "from": "victorica",
+      "to": "elaina",
+      "type": "mother-of",
+      "notes": "维多利加是伊蕾娜母亲。"
+    },
+    {
+      "from": "estelle",
+      "to": "selena",
+      "type": "former-friend-tragedy",
+      "notes": "艾丝黛尔曾试图通过时间回溯拯救瑟琳娜。"
+    }
+  ],
+  "campaignId": "majo-no-tabitabi",
+  "nodes": [
+    {
+      "id": "fran",
+      "label": "fran",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'fran'."
+      ],
+      "name": "芙兰",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "fran",
+          "mappedId": "fran",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "elaina",
+      "label": "elaina",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'elaina'."
+      ],
+      "name": "伊蕾娜",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "elaina",
+          "mappedId": "elaina",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "victorica",
+      "label": "victorica",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'victorica'."
+      ],
+      "name": "维多利加",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "victorica",
+          "mappedId": "victorica",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "sheila",
+      "label": "sheila",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'sheila'."
+      ],
+      "name": "席拉",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "sheila",
+          "mappedId": "sheila",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "saya",
+      "label": "saya",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'saya'."
+      ],
+      "name": "沙耶",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "saya",
+          "mappedId": "saya",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "mina",
+      "label": "mina",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'mina'."
+      ],
+      "name": "美奈",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "mina",
+          "mappedId": "mina",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "estelle",
+      "label": "estelle",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'estelle'."
+      ],
+      "name": "艾丝黛尔",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "estelle",
+          "mappedId": "estelle",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "selena",
+      "label": "selena",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'selena'."
+      ],
+      "name": "瑟琳娜",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "selena",
+          "mappedId": "selena",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "fran",
+      "to": "elaina",
+      "type": "mentor-of",
+      "notes": "芙兰教导伊蕾娜并赐予灰之魔女名。"
+    },
+    {
+      "from": "victorica",
+      "to": "fran",
+      "type": "mentor-of",
+      "notes": "维多利加曾收芙兰为弟子。"
+    },
+    {
+      "from": "victorica",
+      "to": "sheila",
+      "type": "mentor-of",
+      "notes": "维多利加打败并收下年轻席拉。"
+    },
+    {
+      "from": "fran",
+      "to": "sheila",
+      "type": "fellow-disciple",
+      "notes": "早期不和，后在库诺兹相关事件后关系缓和。"
+    },
+    {
+      "from": "sheila",
+      "to": "saya",
+      "type": "mentor-of",
+      "notes": "席拉指导沙耶并给出炭之魔女名。"
+    },
+    {
+      "from": "sheila",
+      "to": "mina",
+      "type": "mentor-of",
+      "notes": "席拉指导美奈并给出煤之魔女名。"
+    },
+    {
+      "from": "saya",
+      "to": "mina",
+      "type": "sisters",
+      "notes": "沙耶依赖妹妹，美奈也重视姐姐。"
+    },
+    {
+      "from": "saya",
+      "to": "elaina",
+      "type": "admires",
+      "notes": "沙耶憧憬伊蕾娜，受伊蕾娜鼓励通过挫折。"
+    },
+    {
+      "from": "victorica",
+      "to": "elaina",
+      "type": "mother-of",
+      "notes": "维多利加是伊蕾娜母亲。"
+    },
+    {
+      "from": "estelle",
+      "to": "selena",
+      "type": "former-friend-tragedy",
+      "notes": "艾丝黛尔曾试图通过时间回溯拯救瑟琳娜。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

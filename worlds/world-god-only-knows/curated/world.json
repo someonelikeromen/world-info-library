@@ -1,8 +1,13 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "world-god-only-knows",
   "displayName": "只有神知道的世界",
-  "genre": ["校园恋爱喜剧", "超自然契约", "攻略叙事", "女神与恶魔战争余波"],
+  "genre": [
+    "校园恋爱喜剧",
+    "超自然契约",
+    "攻略叙事",
+    "女神与恶魔战争余波"
+  ],
   "premise": "舞岛市表面是普通校园与日常都市，暗处存在从旧地狱逃出的驱魂。新地狱驱魂队与人类协力者签订契约，通过填补少女心灵空隙、完成恋爱攻略来捕获驱魂。桂木桂马以恋爱游戏经验被迫进入现实攻略。",
   "coreRules": [
     "驱魂寄宿于心灵有空隙的少女，通常需通过情感攻略填补空隙后捕获。",
@@ -11,16 +16,51 @@
     "女神篇将日常恋爱攻略升级为旧地狱势力、朱比特六姐妹与宿主保护战。"
   ],
   "locations": [
-    {"id": "maijima", "name": "舞岛市", "role": "主舞台，桂马生活圈与多名攻略对象所在。"},
-    {"id": "maijima-high", "name": "舞岛学园", "role": "校园攻略、社团、人际关系交汇处。"},
-    {"id": "new-hell", "name": "新地狱", "role": "驱魂队与恶魔行政系统。"},
-    {"id": "old-hell", "name": "旧地狱/正统恶魔社", "role": "敌对势力与女神篇威胁来源。"}
+    {
+      "id": "maijima",
+      "name": "舞岛市",
+      "role": "主舞台，桂马生活圈与多名攻略对象所在。"
+    },
+    {
+      "id": "maijima-high",
+      "name": "舞岛学园",
+      "role": "校园攻略、社团、人际关系交汇处。"
+    },
+    {
+      "id": "new-hell",
+      "name": "新地狱",
+      "role": "驱魂队与恶魔行政系统。"
+    },
+    {
+      "id": "old-hell",
+      "name": "旧地狱/正统恶魔社",
+      "role": "敌对势力与女神篇威胁来源。"
+    }
   ],
-  "factions": ["新地狱驱魂队", "正统恶魔社", "朱比特六姐妹", "舞岛学园", "桂马攻略协力圈"],
+  "factions": [
+    "新地狱驱魂队",
+    "正统恶魔社",
+    "朱比特六姐妹",
+    "舞岛学园",
+    "桂马攻略协力圈"
+  ],
   "storyHooks": [
     "玩家成为新契约者，与艾鲁西或哈克雅协作捕获驱魂。",
     "某位攻略对象未失忆，导致现实情感与任务后果交织。",
     "女神宿主身份提前暴露，正统恶魔社开始猎杀。",
     "桂马的游戏化判断失效，需要以现实情感补完攻略。"
-  ]
+  ],
+  "worldId": "world-god-only-knows",
+  "worldName": "只有神知道的世界",
+  "aliases": [],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "powerSystems": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
 }

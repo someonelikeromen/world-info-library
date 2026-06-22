@@ -1,27 +1,111 @@
 {
-  "schema": "curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "overlord",
   "nodes": [
-    {"id": "nazarick", "label": "纳萨力克地下大坟墓", "type": "location/faction"},
-    {"id": "ainz", "label": "安兹·乌尔·恭", "type": "character"},
-    {"id": "guardians", "label": "阶层守护者", "type": "organization"},
-    {"id": "pleiades", "label": "昴宿星团", "type": "organization"},
-    {"id": "tier-magic", "label": "阶位魔法", "type": "power-system"},
-    {"id": "world-items", "label": "世界级道具", "type": "item-class"},
-    {"id": "e-rantel", "label": "耶·兰提尔", "type": "location"},
-    {"id": "carne", "label": "卡恩村", "type": "location"},
-    {"id": "kingdom", "label": "里·耶斯提杰王国", "type": "faction"},
-    {"id": "theocracy", "label": "斯连教国", "type": "faction"}
+    {
+      "id": "nazarick",
+      "label": "纳萨力克地下大坟墓",
+      "type": "location/faction"
+    },
+    {
+      "id": "ainz",
+      "label": "安兹·乌尔·恭",
+      "type": "character"
+    },
+    {
+      "id": "guardians",
+      "label": "阶层守护者",
+      "type": "organization"
+    },
+    {
+      "id": "pleiades",
+      "label": "昴宿星团",
+      "type": "organization"
+    },
+    {
+      "id": "tier-magic",
+      "label": "阶位魔法",
+      "type": "power-system"
+    },
+    {
+      "id": "world-items",
+      "label": "世界级道具",
+      "type": "item-class"
+    },
+    {
+      "id": "e-rantel",
+      "label": "耶·兰提尔",
+      "type": "location"
+    },
+    {
+      "id": "carne",
+      "label": "卡恩村",
+      "type": "location"
+    },
+    {
+      "id": "kingdom",
+      "label": "里·耶斯提杰王国",
+      "type": "faction"
+    },
+    {
+      "id": "theocracy",
+      "label": "斯连教国",
+      "type": "faction"
+    }
   ],
   "edges": [
-    {"from": "ainz", "to": "nazarick", "relation": "rules"},
-    {"from": "guardians", "to": "ainz", "relation": "absolute-loyalty"},
-    {"from": "pleiades", "to": "nazarick", "relation": "defends-and-executes-missions"},
-    {"from": "tier-magic", "to": "ainz", "relation": "primary-power"},
-    {"from": "world-items", "to": "guardians", "relation": "can-threaten-or-control"},
-    {"from": "e-rantel", "to": "ainz", "relation": "adventurer-cover-stage"},
-    {"from": "carne", "to": "ainz", "relation": "saved-and-influenced-by"},
-    {"from": "theocracy", "to": "carne", "relation": "attacks"},
-    {"from": "kingdom", "to": "nazarick", "relation": "eventual-political-target"}
-  ]
+    {
+      "from": "ainz",
+      "to": "nazarick",
+      "relation": "rules"
+    },
+    {
+      "from": "guardians",
+      "to": "ainz",
+      "relation": "absolute-loyalty"
+    },
+    {
+      "from": "pleiades",
+      "to": "nazarick",
+      "relation": "defends-and-executes-missions"
+    },
+    {
+      "from": "tier-magic",
+      "to": "ainz",
+      "relation": "primary-power"
+    },
+    {
+      "from": "world-items",
+      "to": "guardians",
+      "relation": "can-threaten-or-control"
+    },
+    {
+      "from": "e-rantel",
+      "to": "ainz",
+      "relation": "adventurer-cover-stage"
+    },
+    {
+      "from": "carne",
+      "to": "ainz",
+      "relation": "saved-and-influenced-by"
+    },
+    {
+      "from": "theocracy",
+      "to": "carne",
+      "relation": "attacks"
+    },
+    {
+      "from": "kingdom",
+      "to": "nazarick",
+      "relation": "eventual-political-target"
+    }
+  ],
+  "campaignId": "overlord",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

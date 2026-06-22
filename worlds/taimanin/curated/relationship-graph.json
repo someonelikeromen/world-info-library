@@ -1,18 +1,391 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "taimanin",
   "relationships": [
-    {"from": "mizuki-shiranui", "to": "mizuki-yukikaze", "type": "mother-of", "notes": "不知火是雪风亲生母亲。"},
-    {"from": "akiyama-rinko", "to": "mizuki-yukikaze", "type": "partners", "notes": "凛子与雪风是搭档，凛子视雪风如后辈和妹妹。"},
-    {"from": "igawa-asagi", "to": "mizuki-shiranui", "type": "legendary-peers", "notes": "源称不知火与阿莎姬齐名。"},
-    {"from": "igawa-asagi", "to": "igawa-sakura", "type": "sisters", "notes": "小樱是阿莎姬唯一血亲。"},
-    {"from": "igawa-asagi", "to": "sawaki-kyousuke", "type": "former-fiance", "notes": "恭介为阿莎姬青梅竹马与前未婚夫，后被杀害。"},
-    {"from": "igawa-asagi", "to": "sawaki-kousuke", "type": "guardian-adoptive", "notes": "阿莎姬收养前未婚夫的弟弟浩介。"},
-    {"from": "igawa-asagi", "to": "kawara-asuka", "type": "guardian-adoptive", "notes": "阿莎姬收养/照顾甲河明日香。"},
-    {"from": "igawa-yuusai", "to": "igawa-asagi", "type": "father-of", "notes": "井河幽斋是阿莎姬父亲，曾为对魔忍。"},
-    {"from": "gocha-academy", "to": "mizuki-yukikaze", "type": "trained", "notes": "雪风在五车学园接受训练。"},
-    {"from": "gocha-academy", "to": "akiyama-rinko", "type": "trained", "notes": "凛子在五车学园接受训练。"},
-    {"from": "mizuki-shiranui", "to": "yomihara", "type": "failed-mission-at", "notes": "不知火五年前潜入黄泉原任务失败。"},
-    {"from": "taimanin-org", "to": "demons", "type": "enemy-of", "notes": "对魔忍组织的核心职责是对抗魔族。"}
-  ]
+    {
+      "from": "mizuki-shiranui",
+      "to": "mizuki-yukikaze",
+      "type": "mother-of",
+      "notes": "不知火是雪风亲生母亲。"
+    },
+    {
+      "from": "akiyama-rinko",
+      "to": "mizuki-yukikaze",
+      "type": "partners",
+      "notes": "凛子与雪风是搭档，凛子视雪风如后辈和妹妹。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "mizuki-shiranui",
+      "type": "legendary-peers",
+      "notes": "源称不知火与阿莎姬齐名。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "igawa-sakura",
+      "type": "sisters",
+      "notes": "小樱是阿莎姬唯一血亲。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "sawaki-kyousuke",
+      "type": "former-fiance",
+      "notes": "恭介为阿莎姬青梅竹马与前未婚夫，后被杀害。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "sawaki-kousuke",
+      "type": "guardian-adoptive",
+      "notes": "阿莎姬收养前未婚夫的弟弟浩介。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "kawara-asuka",
+      "type": "guardian-adoptive",
+      "notes": "阿莎姬收养/照顾甲河明日香。"
+    },
+    {
+      "from": "igawa-yuusai",
+      "to": "igawa-asagi",
+      "type": "father-of",
+      "notes": "井河幽斋是阿莎姬父亲，曾为对魔忍。"
+    },
+    {
+      "from": "gocha-academy",
+      "to": "mizuki-yukikaze",
+      "type": "trained",
+      "notes": "雪风在五车学园接受训练。"
+    },
+    {
+      "from": "gocha-academy",
+      "to": "akiyama-rinko",
+      "type": "trained",
+      "notes": "凛子在五车学园接受训练。"
+    },
+    {
+      "from": "mizuki-shiranui",
+      "to": "yomihara",
+      "type": "failed-mission-at",
+      "notes": "不知火五年前潜入黄泉原任务失败。"
+    },
+    {
+      "from": "taimanin-org",
+      "to": "demons",
+      "type": "enemy-of",
+      "notes": "对魔忍组织的核心职责是对抗魔族。"
+    }
+  ],
+  "campaignId": "taimanin",
+  "nodes": [
+    {
+      "id": "mizuki-shiranui",
+      "label": "mizuki-shiranui",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'mizuki-shiranui'."
+      ],
+      "name": "水城不知火",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "mizuki-shiranui",
+          "mappedId": "mizuki-shiranui",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "mizuki-yukikaze",
+      "label": "mizuki-yukikaze",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'mizuki-yukikaze'."
+      ],
+      "name": "水城雪风",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "mizuki-yukikaze",
+          "mappedId": "mizuki-yukikaze",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "akiyama-rinko",
+      "label": "akiyama-rinko",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'akiyama-rinko'."
+      ],
+      "name": "秋山凛子",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "akiyama-rinko",
+          "mappedId": "akiyama-rinko",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "igawa-asagi",
+      "label": "igawa-asagi",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'igawa-asagi'."
+      ],
+      "name": "井河阿莎姬",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "igawa-asagi",
+          "mappedId": "igawa-asagi",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "igawa-sakura",
+      "label": "igawa-sakura",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'igawa-sakura'."
+      ],
+      "name": "井河樱",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "igawa-sakura",
+          "mappedId": "igawa-sakura",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "sawaki-kyousuke",
+      "label": "sawaki-kyousuke",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'sawaki-kyousuke'."
+      ],
+      "name": "沢木恭介",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "sawaki-kyousuke",
+          "mappedId": "sawaki-kyousuke",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "sawaki-kousuke",
+      "label": "sawaki-kousuke",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'sawaki-kousuke'."
+      ],
+      "name": "沢木浩介",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "sawaki-kousuke",
+          "mappedId": "sawaki-kousuke",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "kawara-asuka",
+      "label": "kawara-asuka",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'kawara-asuka'."
+      ],
+      "name": "甲河明日香",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "kawara-asuka",
+          "mappedId": "kawara-asuka",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "igawa-yuusai",
+      "label": "igawa-yuusai",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'igawa-yuusai'."
+      ],
+      "name": "井河幽斋",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "igawa-yuusai",
+          "mappedId": "igawa-yuusai",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "gocha-academy",
+      "label": "gocha-academy",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'gocha-academy'."
+      ],
+      "name": "五车学园",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "gocha-academy",
+          "mappedId": "gocha-academy",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "yomihara",
+      "label": "yomihara",
+      "type": "location",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'yomihara'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "yomihara",
+          "mappedId": "yomihara",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "taimanin-org",
+      "label": "taimanin-org",
+      "type": "faction",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'taimanin-org'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "taimanin-org",
+          "mappedId": "taimanin-org",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "demons",
+      "label": "demons",
+      "type": "species",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'demons'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "demons",
+          "mappedId": "demons",
+          "mappedKind": "knowledge-graph-node",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "mizuki-shiranui",
+      "to": "mizuki-yukikaze",
+      "type": "mother-of",
+      "notes": "不知火是雪风亲生母亲。"
+    },
+    {
+      "from": "akiyama-rinko",
+      "to": "mizuki-yukikaze",
+      "type": "partners",
+      "notes": "凛子与雪风是搭档，凛子视雪风如后辈和妹妹。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "mizuki-shiranui",
+      "type": "legendary-peers",
+      "notes": "源称不知火与阿莎姬齐名。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "igawa-sakura",
+      "type": "sisters",
+      "notes": "小樱是阿莎姬唯一血亲。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "sawaki-kyousuke",
+      "type": "former-fiance",
+      "notes": "恭介为阿莎姬青梅竹马与前未婚夫，后被杀害。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "sawaki-kousuke",
+      "type": "guardian-adoptive",
+      "notes": "阿莎姬收养前未婚夫的弟弟浩介。"
+    },
+    {
+      "from": "igawa-asagi",
+      "to": "kawara-asuka",
+      "type": "guardian-adoptive",
+      "notes": "阿莎姬收养/照顾甲河明日香。"
+    },
+    {
+      "from": "igawa-yuusai",
+      "to": "igawa-asagi",
+      "type": "father-of",
+      "notes": "井河幽斋是阿莎姬父亲，曾为对魔忍。"
+    },
+    {
+      "from": "gocha-academy",
+      "to": "mizuki-yukikaze",
+      "type": "trained",
+      "notes": "雪风在五车学园接受训练。"
+    },
+    {
+      "from": "gocha-academy",
+      "to": "akiyama-rinko",
+      "type": "trained",
+      "notes": "凛子在五车学园接受训练。"
+    },
+    {
+      "from": "mizuki-shiranui",
+      "to": "yomihara",
+      "type": "failed-mission-at",
+      "notes": "不知火五年前潜入黄泉原任务失败。"
+    },
+    {
+      "from": "taimanin-org",
+      "to": "demons",
+      "type": "enemy-of",
+      "notes": "对魔忍组织的核心职责是对抗魔族。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

@@ -1,1 +1,164 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"kenichi","nodes":[{"id":"martial-arts","type":"powerSystem","label":"武术"},{"id":"saving-fist","type":"ideology","label":"活人拳"},{"id":"killing-fist","type":"ideology","label":"杀人拳"},{"id":"ryozanpaku","type":"faction","label":"梁山泊"},{"id":"yami","type":"faction","label":"暗"},{"id":"yomi","type":"faction","label":"YOMI"}],"edges":[{"from":"ryozanpaku","to":"saving-fist","type":"upholds"},{"from":"yami","to":"killing-fist","type":"promotes"},{"from":"yomi","to":"yami","type":"disciple_branch"},{"from":"saving-fist","to":"killing-fist","type":"ideological_enemy"}],"sourceRefs":["src-kenichi-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "kenichi",
+  "nodes": [
+    {
+      "id": "martial-arts",
+      "type": "powerSystem",
+      "label": "武术"
+    },
+    {
+      "id": "saving-fist",
+      "type": "ideology",
+      "label": "活人拳"
+    },
+    {
+      "id": "killing-fist",
+      "type": "ideology",
+      "label": "杀人拳"
+    },
+    {
+      "id": "ryozanpaku",
+      "type": "faction",
+      "label": "梁山泊"
+    },
+    {
+      "id": "yami",
+      "type": "faction",
+      "label": "暗"
+    },
+    {
+      "id": "yomi",
+      "type": "faction",
+      "label": "YOMI"
+    },
+    {
+      "id": "shin-white-union",
+      "type": "faction",
+      "label": "新白联合",
+      "summary": "新白联合",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ikkyo-kyuken",
+      "type": "faction",
+      "label": "一影九拳",
+      "summary": "一影九拳",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "various-dojos",
+      "type": "faction",
+      "label": "诸流派道场",
+      "summary": "诸流派道场",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "delinquent-gangs",
+      "type": "faction",
+      "label": "学校不良集团",
+      "summary": "学校不良集团",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "huangliang-high-school",
+      "type": "location",
+      "label": "荒凉高中",
+      "summary": "荒凉高中",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ryozanpaku-dojo",
+      "type": "location",
+      "label": "梁山泊道场",
+      "summary": "梁山泊道场",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "dark-training-base",
+      "type": "location",
+      "label": "暗之训练据点",
+      "summary": "暗之训练据点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "international-martial-stage",
+      "type": "location",
+      "label": "各国武术舞台",
+      "summary": "各国武术舞台",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "dark-base",
+      "type": "location",
+      "label": "暗据点",
+      "summary": "暗据点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "strategy",
+      "type": "power-system",
+      "label": "情报/策略",
+      "summary": "情报/策略",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "from": "ryozanpaku",
+      "to": "saving-fist",
+      "type": "upholds",
+      "source": "ryozanpaku",
+      "target": "saving-fist"
+    },
+    {
+      "from": "yami",
+      "to": "killing-fist",
+      "type": "promotes",
+      "source": "yami",
+      "target": "killing-fist"
+    },
+    {
+      "from": "yomi",
+      "to": "yami",
+      "type": "disciple_branch",
+      "source": "yomi",
+      "target": "yami"
+    },
+    {
+      "from": "saving-fist",
+      "to": "killing-fist",
+      "type": "ideological_enemy",
+      "source": "saving-fist",
+      "target": "killing-fist"
+    }
+  ],
+  "sourceRefs": [
+    "src-kenichi-001"
+  ],
+  "campaignId": "kenichi",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 10,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

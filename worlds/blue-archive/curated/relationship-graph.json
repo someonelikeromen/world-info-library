@@ -1,17 +1,1004 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "blue-archive",
   "relationships": [
-    {"from": "联邦学生会", "to": "各学园", "type": "统筹/授权", "status": "依赖神圣之塔与行政权威"},
-    {"from": "老师/夏莱", "to": "各校学生", "type": "调停/信任", "status": "RP 中常作为跨校纽带"},
-    {"from": "三一综合学园", "to": "格黑娜学园", "type": "历史敌对", "status": "长期紧张但可被任务调停"},
-    {"from": "茶会", "to": "三一各派系", "type": "政治统合", "status": "源自第一次公会议传统"},
-    {"from": "三一", "to": "阿里乌斯分校", "type": "驱逐/分裂", "status": "历史裂痕"},
-    {"from": "万魔殿", "to": "风纪委员会", "type": "名义权力与实际秩序冲突", "status": "格黑娜内斗"},
-    {"from": "空崎阳奈", "to": "格黑娜学园", "type": "威慑/支柱", "status": "维持混乱学园秩序"},
-    {"from": "温泉开发部", "to": "风纪委员会", "type": "追捕对象", "status": "爆破与治安冲突"},
-    {"from": "研讨会", "to": "千禧年科学学院", "type": "管理/研究核心", "status": "七大谜题导向"},
-    {"from": "C&C", "to": "研讨会", "type": "特别行动支援", "status": "潜入与安保任务"},
-    {"from": "玄龙门", "to": "玄武商会", "type": "政治贸易不和", "status": "龙华妃咲试图弥合"}
-  ]
+    {
+      "from": "federal-student-council",
+      "to": "各学园",
+      "type": "统筹/授权",
+      "status": "依赖神圣之塔与行政权威"
+    },
+    {
+      "from": "sensei",
+      "to": "各校学生",
+      "type": "调停/信任",
+      "status": "RP 中常作为跨校纽带"
+    },
+    {
+      "from": "trinity",
+      "to": "gehenna",
+      "type": "历史敌对",
+      "status": "长期紧张但可被任务调停"
+    },
+    {
+      "from": "tea-party-host",
+      "to": "三一各派系",
+      "type": "政治统合",
+      "status": "源自第一次公会议传统"
+    },
+    {
+      "from": "trinity",
+      "to": "阿里乌斯分校",
+      "type": "驱逐/分裂",
+      "status": "历史裂痕"
+    },
+    {
+      "from": "pandemonium-member",
+      "to": "prefect-team-student",
+      "type": "名义权力与实际秩序冲突",
+      "status": "格黑娜内斗"
+    },
+    {
+      "from": "hina",
+      "to": "gehenna",
+      "type": "威慑/支柱",
+      "status": "维持混乱学园秩序"
+    },
+    {
+      "from": "hot-spring-dev",
+      "to": "prefect-team-student",
+      "type": "追捕对象",
+      "status": "爆破与治安冲突"
+    },
+    {
+      "from": "millennium-seminar",
+      "to": "millennium",
+      "type": "管理/研究核心",
+      "status": "七大谜题导向"
+    },
+    {
+      "from": "c-and-c-agent",
+      "to": "millennium-seminar",
+      "type": "特别行动支援",
+      "status": "潜入与安保任务"
+    },
+    {
+      "from": "genryumon-member",
+      "to": "genbu-merchant",
+      "type": "政治贸易不和",
+      "status": "龙华妃咲试图弥合"
+    }
+  ],
+  "campaignId": "blue-archive",
+  "nodes": [
+    {
+      "id": "federal-student-council",
+      "label": "联邦学生会",
+      "type": "government",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'federal-student-council'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "federal-student-council",
+          "mappedId": "federal-student-council",
+          "mappedKind": "knowledge-graph",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "knowledge-graph",
+              "targetId": "federal-student-council",
+              "targetLabel": "联邦学生会",
+              "note": "Unique curated match from blue-archive curated sources: 联邦学生会."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+              "match": "id=federal-student-council label=联邦学生会"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 联邦学生会."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "knowledge-graph",
+          "targetId": "federal-student-council",
+          "targetLabel": "联邦学生会",
+          "note": "Unique curated match from blue-archive curated sources: 联邦学生会."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+          "match": "id=federal-student-council label=联邦学生会"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 联邦学生会."
+      ]
+    },
+    {
+      "id": "各学园",
+      "label": "各学园",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q5",
+          "resolutionNotes": [
+            "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+          ]
+        }
+      },
+      "resolutionNotes": [
+        "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+      ],
+      "sourceVerification": "not-verified",
+      "runtimeUse": "structural-edge-endpoint-only"
+    },
+    {
+      "id": "sensei",
+      "label": "老师/先生",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "老师/夏莱",
+          "mappedId": "sensei",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "sensei",
+              "targetLabel": "老师/先生",
+              "note": "Unique curated match from blue-archive curated sources: 老师/先生."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=sensei name=老师/先生"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 老师/先生."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "sensei",
+          "targetLabel": "老师/先生",
+          "note": "Unique curated match from blue-archive curated sources: 老师/先生."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=sensei name=老师/先生"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 老师/先生."
+      ]
+    },
+    {
+      "id": "各校学生",
+      "label": "各校学生",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q5",
+          "resolutionNotes": [
+            "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+          ]
+        }
+      },
+      "resolutionNotes": [
+        "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+      ],
+      "sourceVerification": "not-verified",
+      "runtimeUse": "structural-edge-endpoint-only"
+    },
+    {
+      "id": "trinity",
+      "label": "三一综合学园",
+      "type": "academy",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'trinity'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "trinity",
+          "mappedId": "trinity",
+          "mappedKind": "knowledge-graph",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "knowledge-graph",
+              "targetId": "trinity",
+              "targetLabel": "三一综合学园",
+              "note": "Unique curated match from blue-archive curated sources: 三一综合学园."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+              "match": "id=trinity label=三一综合学园"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 三一综合学园."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "knowledge-graph",
+          "targetId": "trinity",
+          "targetLabel": "三一综合学园",
+          "note": "Unique curated match from blue-archive curated sources: 三一综合学园."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+          "match": "id=trinity label=三一综合学园"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 三一综合学园."
+      ]
+    },
+    {
+      "id": "gehenna",
+      "label": "格黑娜学园",
+      "type": "academy",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'gehenna'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "gehenna",
+          "mappedId": "gehenna",
+          "mappedKind": "knowledge-graph",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "knowledge-graph",
+              "targetId": "gehenna",
+              "targetLabel": "格黑娜学园",
+              "note": "Unique curated match from blue-archive curated sources: 格黑娜学园."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+              "match": "id=gehenna label=格黑娜学园"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 格黑娜学园."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "knowledge-graph",
+          "targetId": "gehenna",
+          "targetLabel": "格黑娜学园",
+          "note": "Unique curated match from blue-archive curated sources: 格黑娜学园."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+          "match": "id=gehenna label=格黑娜学园"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 格黑娜学园."
+      ]
+    },
+    {
+      "id": "tea-party-host",
+      "label": "茶会举办者",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "茶会",
+          "mappedId": "tea-party-host",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "tea-party-host",
+              "targetLabel": "茶会举办者",
+              "note": "Unique curated match from blue-archive curated sources: 茶会举办者."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=tea-party-host name=茶会举办者"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 茶会举办者."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "tea-party-host",
+          "targetLabel": "茶会举办者",
+          "note": "Unique curated match from blue-archive curated sources: 茶会举办者."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=tea-party-host name=茶会举办者"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 茶会举办者."
+      ]
+    },
+    {
+      "id": "三一各派系",
+      "label": "三一各派系",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q5",
+          "resolutionNotes": [
+            "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+          ]
+        }
+      },
+      "resolutionNotes": [
+        "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+      ],
+      "sourceVerification": "not-verified",
+      "runtimeUse": "structural-edge-endpoint-only"
+    },
+    {
+      "id": "阿里乌斯分校",
+      "label": "阿里乌斯分校",
+      "type": "unresolved-reference",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "unresolved-reference-risk",
+          "originalType": "legacy-structural-stub",
+          "sourceVerification": "not-verified",
+          "runtimeUse": "structural-edge-endpoint-only",
+          "reviewStep": "source-risk-review-q5",
+          "resolutionNotes": [
+            "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+          ]
+        }
+      },
+      "resolutionNotes": [
+        "Retained as a structural endpoint because only a generic academy/cross-school collective is available; no unique source-backed entity could be confirmed."
+      ],
+      "sourceVerification": "not-verified",
+      "runtimeUse": "structural-edge-endpoint-only"
+    },
+    {
+      "id": "pandemonium-member",
+      "label": "万魔殿成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "万魔殿",
+          "mappedId": "pandemonium-member",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "pandemonium-member",
+              "targetLabel": "万魔殿成员",
+              "note": "Unique curated match from blue-archive curated sources: 万魔殿成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=pandemonium-member name=万魔殿成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 万魔殿成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "pandemonium-member",
+          "targetLabel": "万魔殿成员",
+          "note": "Unique curated match from blue-archive curated sources: 万魔殿成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=pandemonium-member name=万魔殿成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 万魔殿成员."
+      ]
+    },
+    {
+      "id": "prefect-team-student",
+      "label": "风纪委员会学生",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "风纪委员会",
+          "mappedId": "prefect-team-student",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "prefect-team-student",
+              "targetLabel": "风纪委员会学生",
+              "note": "Unique curated match from blue-archive curated sources: 风纪委员会学生."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=prefect-team-student name=风纪委员会学生"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 风纪委员会学生."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "prefect-team-student",
+          "targetLabel": "风纪委员会学生",
+          "note": "Unique curated match from blue-archive curated sources: 风纪委员会学生."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=prefect-team-student name=风纪委员会学生"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 风纪委员会学生."
+      ]
+    },
+    {
+      "id": "hina",
+      "label": "空崎阳奈",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'hina'."
+      ],
+      "name": "空崎阳奈",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "hina",
+          "mappedId": "hina",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "hina",
+              "targetLabel": "空崎阳奈",
+              "note": "Unique curated match from blue-archive curated sources: 空崎阳奈."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=hina name=空崎阳奈"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 空崎阳奈."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "hina",
+          "targetLabel": "空崎阳奈",
+          "note": "Unique curated match from blue-archive curated sources: 空崎阳奈."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=hina name=空崎阳奈"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 空崎阳奈."
+      ]
+    },
+    {
+      "id": "hot-spring-dev",
+      "label": "温泉开发部成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "温泉开发部",
+          "mappedId": "hot-spring-dev",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "hot-spring-dev",
+              "targetLabel": "温泉开发部成员",
+              "note": "Unique curated match from blue-archive curated sources: 温泉开发部成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=hot-spring-dev name=温泉开发部成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 温泉开发部成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "hot-spring-dev",
+          "targetLabel": "温泉开发部成员",
+          "note": "Unique curated match from blue-archive curated sources: 温泉开发部成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=hot-spring-dev name=温泉开发部成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 温泉开发部成员."
+      ]
+    },
+    {
+      "id": "millennium-seminar",
+      "label": "研讨会成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "研讨会",
+          "mappedId": "millennium-seminar",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "millennium-seminar",
+              "targetLabel": "研讨会成员",
+              "note": "Unique curated match from blue-archive curated sources: 研讨会成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=millennium-seminar name=研讨会成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 研讨会成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "millennium-seminar",
+          "targetLabel": "研讨会成员",
+          "note": "Unique curated match from blue-archive curated sources: 研讨会成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=millennium-seminar name=研讨会成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 研讨会成员."
+      ]
+    },
+    {
+      "id": "millennium",
+      "label": "千禧年科学学院",
+      "type": "academy",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to knowledge-graph entry 'millennium'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "millennium",
+          "mappedId": "millennium",
+          "mappedKind": "knowledge-graph",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "knowledge-graph",
+              "targetId": "millennium",
+              "targetLabel": "千禧年科学学院",
+              "note": "Unique curated match from blue-archive curated sources: 千禧年科学学院."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+              "match": "id=millennium label=千禧年科学学院"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 千禧年科学学院."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "knowledge-graph",
+          "targetId": "millennium",
+          "targetLabel": "千禧年科学学院",
+          "note": "Unique curated match from blue-archive curated sources: 千禧年科学学院."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/knowledge-graph.json",
+          "match": "id=millennium label=千禧年科学学院"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 千禧年科学学院."
+      ]
+    },
+    {
+      "id": "c-and-c-agent",
+      "label": "Cleaning & Clearing 部成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "C&C",
+          "mappedId": "c-and-c-agent",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "c-and-c-agent",
+              "targetLabel": "Cleaning & Clearing 部成员",
+              "note": "Unique curated match from blue-archive curated sources: Cleaning & Clearing 部成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=c-and-c-agent name=Cleaning & Clearing 部成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: Cleaning & Clearing 部成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "c-and-c-agent",
+          "targetLabel": "Cleaning & Clearing 部成员",
+          "note": "Unique curated match from blue-archive curated sources: Cleaning & Clearing 部成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=c-and-c-agent name=Cleaning & Clearing 部成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: Cleaning & Clearing 部成员."
+      ]
+    },
+    {
+      "id": "genryumon-member",
+      "label": "玄龙门成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "玄龙门",
+          "mappedId": "genryumon-member",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "genryumon-member",
+              "targetLabel": "玄龙门成员",
+              "note": "Unique curated match from blue-archive curated sources: 玄龙门成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=genryumon-member name=玄龙门成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 玄龙门成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "genryumon-member",
+          "targetLabel": "玄龙门成员",
+          "note": "Unique curated match from blue-archive curated sources: 玄龙门成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=genryumon-member name=玄龙门成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 玄龙门成员."
+      ]
+    },
+    {
+      "id": "genbu-merchant",
+      "label": "玄武商会成员",
+      "type": "organization-role",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "玄武商会",
+          "mappedId": "genbu-merchant",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-blue-archive-001",
+              "kind": "characters-index",
+              "targetId": "genbu-merchant",
+              "targetLabel": "玄武商会成员",
+              "note": "Unique curated match from blue-archive curated sources: 玄武商会成员."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/blue-archive/curated/characters-index.json",
+              "match": "id=genbu-merchant name=玄武商会成员"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from blue-archive curated sources: 玄武商会成员."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-blue-archive-001",
+          "kind": "characters-index",
+          "targetId": "genbu-merchant",
+          "targetLabel": "玄武商会成员",
+          "note": "Unique curated match from blue-archive curated sources: 玄武商会成员."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/blue-archive/curated/characters-index.json",
+          "match": "id=genbu-merchant name=玄武商会成员"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from blue-archive curated sources: 玄武商会成员."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "federal-student-council",
+      "to": "各学园",
+      "type": "统筹/授权",
+      "status": "依赖神圣之塔与行政权威"
+    },
+    {
+      "from": "sensei",
+      "to": "各校学生",
+      "type": "调停/信任",
+      "status": "RP 中常作为跨校纽带"
+    },
+    {
+      "from": "trinity",
+      "to": "gehenna",
+      "type": "历史敌对",
+      "status": "长期紧张但可被任务调停"
+    },
+    {
+      "from": "tea-party-host",
+      "to": "三一各派系",
+      "type": "政治统合",
+      "status": "源自第一次公会议传统"
+    },
+    {
+      "from": "trinity",
+      "to": "阿里乌斯分校",
+      "type": "驱逐/分裂",
+      "status": "历史裂痕"
+    },
+    {
+      "from": "pandemonium-member",
+      "to": "prefect-team-student",
+      "type": "名义权力与实际秩序冲突",
+      "status": "格黑娜内斗"
+    },
+    {
+      "from": "hina",
+      "to": "gehenna",
+      "type": "威慑/支柱",
+      "status": "维持混乱学园秩序"
+    },
+    {
+      "from": "hot-spring-dev",
+      "to": "prefect-team-student",
+      "type": "追捕对象",
+      "status": "爆破与治安冲突"
+    },
+    {
+      "from": "millennium-seminar",
+      "to": "millennium",
+      "type": "管理/研究核心",
+      "status": "七大谜题导向"
+    },
+    {
+      "from": "c-and-c-agent",
+      "to": "millennium-seminar",
+      "type": "特别行动支援",
+      "status": "潜入与安保任务"
+    },
+    {
+      "from": "genryumon-member",
+      "to": "genbu-merchant",
+      "type": "政治贸易不和",
+      "status": "龙华妃咲试图弥合"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

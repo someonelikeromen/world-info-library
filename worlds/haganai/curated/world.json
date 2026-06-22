@@ -1,23 +1,70 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "haganai",
   "displayName": "我的朋友很少",
-  "genre": ["现代校园", "社团喜剧", "青春恋爱", "残念系群像"],
+  "genre": [
+    "现代校园",
+    "社团喜剧",
+    "青春恋爱",
+    "残念系群像"
+  ],
   "summary": "在带天主教背景的私立贵族学校圣克罗尼亚学园中，一群缺乏朋友或社交能力的学生加入邻人部，通过游戏、活动、争吵、误会与恋爱逐步学习如何与他人建立真实关系。",
   "primaryLocations": [
-    {"id": "st-chronica", "name": "圣克罗尼亚学园", "description": "历史悠久的私立贵族学校，西式教会学校建筑与森严社交生态并存。"},
-    {"id": "rinjinbu-room", "name": "邻人部活动室", "description": "旧教堂谈话室式活动空间，主角群大多数互动发生于此。"},
-    {"id": "kashiwazaki-house", "name": "柏崎家", "description": "星奈的富裕家庭背景与理事长父亲相关场所。"},
-    {"id": "school-events", "name": "校园/假日活动场景", "description": "夏日祭、海滩与私人别墅、温泉旅馆、游乐园等社交练习舞台。"}
+    {
+      "id": "st-chronica",
+      "name": "圣克罗尼亚学园",
+      "description": "历史悠久的私立贵族学校，西式教会学校建筑与森严社交生态并存。"
+    },
+    {
+      "id": "rinjinbu-room",
+      "name": "邻人部活动室",
+      "description": "旧教堂谈话室式活动空间，主角群大多数互动发生于此。"
+    },
+    {
+      "id": "kashiwazaki-house",
+      "name": "柏崎家",
+      "description": "星奈的富裕家庭背景与理事长父亲相关场所。"
+    },
+    {
+      "id": "school-events",
+      "name": "校园/假日活动场景",
+      "description": "夏日祭、海滩与私人别墅、温泉旅馆、游乐园等社交练习舞台。"
+    }
   ],
   "organizations": [
-    {"id": "rinjinbu", "name": "邻人部", "type": "学生社团", "description": "以交朋友为名义成立的社团，实际聚集了一群社交失败者。"},
-    {"id": "student-mainstream", "name": "校园现充圈", "type": "社交生态", "description": "主流学生小团体，对邻人部成员形成压力和反差。"}
+    {
+      "id": "rinjinbu",
+      "name": "邻人部",
+      "type": "学生社团",
+      "description": "以交朋友为名义成立的社团，实际聚集了一群社交失败者。"
+    },
+    {
+      "id": "student-mainstream",
+      "name": "校园现充圈",
+      "type": "社交生态",
+      "description": "主流学生小团体，对邻人部成员形成压力和反差。"
+    }
   ],
   "rules": [
     "核心冲突是社交失败、误解、傲娇、防御性毒舌与恋爱回避。",
     "邻人部活动可以是游戏、讨论、外出、节庆、模拟交友练习。",
     "RP 应避免把成人化外貌模板当作世界观规则。"
   ],
-  "sourceTrace": ["src-haganai-001"]
+  "sourceTrace": [
+    "src-haganai-001"
+  ],
+  "worldId": "haganai",
+  "worldName": "我的朋友很少",
+  "aliases": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "powerSystems": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

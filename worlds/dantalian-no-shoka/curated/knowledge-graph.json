@@ -2,49 +2,870 @@
   "schema": "rp-knowledge-graph-v1",
   "worldId": "dantalian-no-shoka",
   "nodes": [
-    {"id":"world-dantalian","type":"world","label":"丹特丽安的书架","visibility":"public","summary":"战后近代世界，幻书流落人间并扭曲现实。"},
-    {"id":"concept-phantom-books","type":"powerSystem","label":"幻书","visibility":"public","summary":"禁忌知识的载体，可为书、乐谱、植物、石板、日志、时刻表等。"},
-    {"id":"concept-phantom-draft","type":"concept","label":"幻稿","visibility":"private","summary":"未完成的幻书雏形，可在疯狂、恐惧或执念中孵化。"},
-    {"id":"concept-reader-princess","type":"speciesOrRole","label":"读姬","visibility":"public","summary":"体内或身体部位连接巨大书架的少女型存在。"},
-    {"id":"concept-key-keeper","type":"role","label":"钥匙守护者","visibility":"public","summary":"持钥匙开启读姬书架并承担幻书选择与使用责任的人。"},
-    {"id":"place-disward-estate","type":"location","label":"迪斯瓦特宅邸","visibility":"public","summary":"修伊继承的宅邸，丹特丽安书架入口与日常事件中心。"},
-    {"id":"place-capital","type":"location","label":"王都","visibility":"public","summary":"地铁、足球场、音乐厅、社交界、商会与印刷厂所在的大都市。"},
-    {"id":"place-phantom-library","type":"location","label":"丹特丽安的书架内部","visibility":"private","summary":"九十万零六百六十六册幻书构成的迷宫书库。"},
-    {"id":"faction-dantalian-pair","type":"faction","label":"黑之读姬与钥匙守护者","visibility":"public","summary":"倾向保存、封印和回收幻书的一方。"},
-    {"id":"faction-burning-officers","type":"faction","label":"焚书官","visibility":"public","summary":"主张彻底焚毁幻书的一方。"},
-    {"id":"faction-professor-raziel","type":"faction","label":"教授与赤之读姬","visibility":"private","summary":"观察幻稿孵化并进行大规模实验的一方。"},
-    {"id":"faction-thieves","type":"faction","label":"幻书窃贼","visibility":"private","summary":"以盗取、解放或诱导焚毁特定幻书为目的的第三方。"},
-    {"id":"artifact-dantalian-library","type":"artifact","label":"丹特丽安的书架","visibility":"public","summary":"妲丽安体内的壶中之天，封印九十万零六百六十六册幻书。"},
-    {"id":"artifact-key","type":"artifact","label":"黄金/红宝石钥匙","visibility":"public","summary":"开启妲丽安胸前锁与书架的契约钥匙。"},
-    {"id":"artifact-disaster-branch","type":"artifact","label":"灾厄之枝","visibility":"public","summary":"哈尔使用的银色长杖，可装填幻书并释放爆发业火。"},
-    {"id":"spell-contract-question","type":"ritual","label":"吾之所问，汝为人乎？","visibility":"public","summary":"钥匙守护者开启读姬书架前的契约问答。"},
-    {"id":"event-first-opening","type":"event","label":"第一次书架开启","visibility":"public","summary":"修伊在危机中开启妲丽安的书架，取出《妖精之书》。"},
-    {"id":"event-burning-officer","type":"event","label":"焚书官的业火","visibility":"public","summary":"哈尔与芙兰烧毁人偶军团，确立焚毁路线。"},
-    {"id":"event-raziel-draft","type":"event","label":"空中幻稿事件","visibility":"private","summary":"无面亡灵与未完成诗稿显示幻书诞生机制。"},
-    {"id":"event-linking-book","type":"event","label":"连接之书实验","visibility":"private","summary":"纽德沃尔特居民意识被连接，最终以忘却释放。"},
-    {"id":"event-dark-continent","type":"event","label":"幻书墓园与黑暗大陆","visibility":"gm-only","summary":"王威之书背后牵涉矿物生命体与星球记忆。"},
-    {"id":"rule-oc-no-replace","type":"rule","label":"OC 不默认取代钥匙守护者","visibility":"public","summary":"原创角色可介入事件，但不能无条件替代修伊的契约位置。"}
+    {
+      "id": "world-dantalian",
+      "type": "world",
+      "label": "丹特丽安的书架",
+      "visibility": "public",
+      "summary": "战后近代世界，幻书流落人间并扭曲现实。"
+    },
+    {
+      "id": "concept-phantom-books",
+      "type": "powerSystem",
+      "label": "幻书",
+      "visibility": "public",
+      "summary": "禁忌知识的载体，可为书、乐谱、植物、石板、日志、时刻表等。"
+    },
+    {
+      "id": "concept-phantom-draft",
+      "type": "concept",
+      "label": "幻稿",
+      "visibility": "private",
+      "summary": "未完成的幻书雏形，可在疯狂、恐惧或执念中孵化。"
+    },
+    {
+      "id": "concept-reader-princess",
+      "type": "speciesOrRole",
+      "label": "读姬",
+      "visibility": "public",
+      "summary": "体内或身体部位连接巨大书架的少女型存在。"
+    },
+    {
+      "id": "concept-key-keeper",
+      "type": "role",
+      "label": "钥匙守护者",
+      "visibility": "public",
+      "summary": "持钥匙开启读姬书架并承担幻书选择与使用责任的人。"
+    },
+    {
+      "id": "place-disward-estate",
+      "type": "location",
+      "label": "迪斯瓦特宅邸",
+      "visibility": "public",
+      "summary": "修伊继承的宅邸，丹特丽安书架入口与日常事件中心。"
+    },
+    {
+      "id": "place-capital",
+      "type": "location",
+      "label": "王都",
+      "visibility": "public",
+      "summary": "地铁、足球场、音乐厅、社交界、商会与印刷厂所在的大都市。"
+    },
+    {
+      "id": "place-phantom-library",
+      "type": "location",
+      "label": "丹特丽安的书架内部",
+      "visibility": "private",
+      "summary": "九十万零六百六十六册幻书构成的迷宫书库。"
+    },
+    {
+      "id": "faction-dantalian-pair",
+      "type": "faction",
+      "label": "黑之读姬与钥匙守护者",
+      "visibility": "public",
+      "summary": "倾向保存、封印和回收幻书的一方。"
+    },
+    {
+      "id": "faction-burning-officers",
+      "type": "faction",
+      "label": "焚书官",
+      "visibility": "public",
+      "summary": "主张彻底焚毁幻书的一方。"
+    },
+    {
+      "id": "faction-professor-raziel",
+      "type": "faction",
+      "label": "教授与赤之读姬",
+      "visibility": "private",
+      "summary": "观察幻稿孵化并进行大规模实验的一方。"
+    },
+    {
+      "id": "faction-thieves",
+      "type": "faction",
+      "label": "幻书窃贼",
+      "visibility": "private",
+      "summary": "以盗取、解放或诱导焚毁特定幻书为目的的第三方。"
+    },
+    {
+      "id": "artifact-dantalian-library",
+      "type": "artifact",
+      "label": "丹特丽安的书架",
+      "visibility": "public",
+      "summary": "妲丽安体内的壶中之天，封印九十万零六百六十六册幻书。"
+    },
+    {
+      "id": "artifact-key",
+      "type": "artifact",
+      "label": "黄金/红宝石钥匙",
+      "visibility": "public",
+      "summary": "开启妲丽安胸前锁与书架的契约钥匙。"
+    },
+    {
+      "id": "artifact-disaster-branch",
+      "type": "artifact",
+      "label": "灾厄之枝",
+      "visibility": "public",
+      "summary": "哈尔使用的银色长杖，可装填幻书并释放爆发业火。"
+    },
+    {
+      "id": "spell-contract-question",
+      "type": "ritual",
+      "label": "吾之所问，汝为人乎？",
+      "visibility": "public",
+      "summary": "钥匙守护者开启读姬书架前的契约问答。"
+    },
+    {
+      "id": "event-first-opening",
+      "type": "event",
+      "label": "第一次书架开启",
+      "visibility": "public",
+      "summary": "修伊在危机中开启妲丽安的书架，取出《妖精之书》。"
+    },
+    {
+      "id": "event-burning-officer",
+      "type": "event",
+      "label": "焚书官的业火",
+      "visibility": "public",
+      "summary": "哈尔与芙兰烧毁人偶军团，确立焚毁路线。"
+    },
+    {
+      "id": "event-raziel-draft",
+      "type": "event",
+      "label": "空中幻稿事件",
+      "visibility": "private",
+      "summary": "无面亡灵与未完成诗稿显示幻书诞生机制。"
+    },
+    {
+      "id": "event-linking-book",
+      "type": "event",
+      "label": "连接之书实验",
+      "visibility": "private",
+      "summary": "纽德沃尔特居民意识被连接，最终以忘却释放。"
+    },
+    {
+      "id": "event-dark-continent",
+      "type": "event",
+      "label": "幻书墓园与黑暗大陆",
+      "visibility": "gm-only",
+      "summary": "王威之书背后牵涉矿物生命体与星球记忆。"
+    },
+    {
+      "id": "rule-oc-no-replace",
+      "type": "rule",
+      "label": "OC 不默认取代钥匙守护者",
+      "visibility": "public",
+      "summary": "原创角色可介入事件，但不能无条件替代修伊的契约位置。"
+    },
+    {
+      "id": "hugh-anthony-disward",
+      "type": "character",
+      "label": "修伊·安索尼·迪斯瓦特",
+      "summary": "退役空军飞行员，继承祖父宅邸与黄金钥匙后成为黑之读姬的钥匙守护者。冷静、温和、行动力强，是保存与封印幻书路线的核心人物。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "dalian",
+      "type": "character",
+      "label": "妲丽安",
+      "summary": "外表十二三岁的黑衣少女，体内封印九十万零六百六十六册幻书的‘丹特丽安的书架’。毒舌、怕生、傲慢，极爱炸面包和甜食，内心有温柔面。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "hal-kamhout",
+      "type": "character",
+      "label": "哈尔·卡姆赫德",
+      "summary": "焚书官，灰发或白衣美男子形象，持银色长杖‘灾厄之枝’，将幻书作为燃料烧毁。其理念是幻书必须被彻底毁灭。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "flamberge",
+      "type": "character",
+      "label": "芙兰蓓尔",
+      "summary": "哈尔的搭档，身穿白色拘束衣，身体/拉链中藏有通往毁灭的门扉。她配合焚书官装填幻书并释放毁灭性业火。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "raziel",
+      "type": "character",
+      "label": "拉结尔",
+      "summary": "赤之读姬，左眼为书架入口或覆有锁头眼罩，性格残酷傲慢。她与教授观察幻稿孵化，认为幻书诞生需要疯狂。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "professor",
+      "type": "character",
+      "label": "教授",
+      "summary": "幕后研究者，追求幻书产生过程和新幻书/幻稿实验，曾利用无面亡灵、连接之书、核分裂/集体意识等危险课题。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "camilla-cairns",
+      "type": "character",
+      "label": "卡米拉·索尔·卡恩斯",
+      "summary": "修伊的青梅竹马，活泼金发女性。曾买到《等价之书》，也因幽灵列车事件使母亲命运被改写。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "leslie",
+      "type": "character",
+      "label": "蕾斯莉",
+      "summary": "古雷姆家的料理长，为报杀父之仇研读幻书十三年，利用《更高调理冥想书》制作极致快感脑髓料理。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "gourmet-grem",
+      "type": "character",
+      "label": "古雷姆·阿德基逊",
+      "summary": "偏执美食家，为追求顶级料理堕入贪欲，最终在狂喜中吞食自身脑髓。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "saz-haston",
+      "type": "character",
+      "label": "沙茲·哈斯顿",
+      "summary": "哈斯顿家次子，文弱温和，实为基因改造成功实验体，可变身巨大人兽并在火灾中保护修伊一行。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "roy-haston",
+      "type": "character",
+      "label": "罗伊·哈斯顿",
+      "summary": "哈斯顿家长子/市议员，傲慢扭曲，自认优良品种却是失败作，因妒忌与自卑酿成悲剧。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "mabel-nash",
+      "type": "character",
+      "label": "梅蓓儿·纳修",
+      "summary": "悲剧人偶师，利用幻书操纵木制人偶重建被轰炸城市，沉溺于虚假和平与过去记忆。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "florence-calabos",
+      "type": "character",
+      "label": "弗洛伦斯·卡拉波斯",
+      "summary": "贵族少女，为独占父爱和《深绿之书》制造荆棘幻境，杀害父亲与真塔莉亚后维持回春村落幻觉。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "estella-lilburn",
+      "type": "character",
+      "label": "艾斯提拉·利尔本",
+      "summary": "利尔本一族少女，继承杀人冲动；大佐以钟楼圣音和泥人替她消除证据，最终与山庄火海同归。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "eirath-alcock",
+      "type": "character",
+      "label": "艾拉斯·阿尔科克",
+      "summary": "已死飞行员，被哈尔/教授一方复活，以未完成诗稿作为幻稿，在战场收集恐惧并预读敌机心声。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "paula-dickinson",
+      "type": "character",
+      "label": "宝拉·迪金森",
+      "summary": "狂热读者与追星者，利用《蛇夫的遗稿》反复玩弄伦茨与拉提莎的生死，最终死于异变。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "renny-lentz",
+      "type": "character",
+      "label": "雷尼·伦茨",
+      "summary": "畅销作家，被宝拉囚禁，与恋人拉提莎共享一命一日的复活诅咒，在循环绝望中异化。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "latisha",
+      "type": "character",
+      "label": "拉提莎",
+      "summary": "伦茨的恋人，与其在《蛇夫的遗稿》诅咒中轮替生死。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "yolanda",
+      "type": "character",
+      "label": "约兰达",
+      "summary": "修伊的婶婶，被丈夫用《忘却之书》抹去愤怒记忆；恢复记忆后对丈夫实施制裁。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "viola-duplessis",
+      "type": "character",
+      "label": "维奥拉·迪普莱西",
+      "summary": "里社交界名妓，实为麦尔加制造的水银人偶/人工生命；在求婚幻书事件中成为众人争夺对象。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "melgar",
+      "type": "character",
+      "label": "麦尔加",
+      "summary": "古老强大的魔术师/炼金术师，将生命视作实验，创造维奥拉并试图回收实验品。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "alman-jeremiah",
+      "type": "character",
+      "label": "阿尔曼·耶利米",
+      "summary": "修伊的学弟/战友，轻浮且容易被幻书迷惑。曾追求维奥拉，也因《连理之书》卷入未婚妻诅咒。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "rianna-schker",
+      "type": "character",
+      "label": "里安娜·史克尔",
+      "summary": "阿尔曼未婚妻，因《连理之书》将纯粹爱意和嫉妒化为追杀与死亡诅咒。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "jessica-elphinstone",
+      "type": "character",
+      "label": "洁西卡·艾尔芬斯顿",
+      "summary": "名门女校学生，勇敢认真且固执。协助调查寄宿学校杀人案，后在大西洋沿岸号与修伊、妲丽安共患难。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "christabel-sustin",
+      "type": "character",
+      "label": "克莉丝托贝尔·撒斯汀",
+      "summary": "天才小提琴手，真实身份是达拉里欧为演奏幻曲创造的机械人偶。最后选择悲伤的〈黄昏〉让音乐厅崩塌。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "dallario-hayward",
+      "type": "character",
+      "label": "达拉里欧·海沃特",
+      "summary": "机械工匠，克莉丝托贝尔创造者，懦弱但痴情，临终前希望她能得到人类般的幸福。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "fiona-famernia",
+      "type": "character",
+      "label": "菲欧娜·法曼尼雅",
+      "summary": "天才调香师，拥有能识破谎言的超凡嗅觉。为阻止‘圣水’危害世间，诱发商会自毁并在火灾中牺牲。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "north",
+      "type": "character",
+      "label": "诺斯",
+      "summary": "帕德克商会雇佣杀手，吸入圣水后无痛觉、反应超人，能以刀尖拨开子弹。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "yuna",
+      "type": "character",
+      "label": "优娜",
+      "summary": "神秘女子，可伪装成医生、刑警等身份。追求特定幻书并诱导哈尔将其焚毁，自称或实质上在‘解放’幻书。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "hildegarde",
+      "type": "character",
+      "label": "希德嘉",
+      "summary": "雷兹凯索城堡悲剧核心，被兄长亚金伯爵囚禁至死后利用化妆板制造离魂体，试图夺取侄女爱莉纱身体。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "alisa-razkeso",
+      "type": "character",
+      "label": "爱莉纱",
+      "summary": "雷兹凯索城堡领主之女/侄女，被希德嘉离魂体夺走生气而病弱，事件结束后恢复健康。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "heiling",
+      "type": "character",
+      "label": "海灵",
+      "summary": "持有《奥尔德·布兰德萧的时刻表》的男子，为弥补十二年前事故中的懦弱而牺牲，帮助改写卡蜜拉母亲死亡命运。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "heath",
+      "type": "character",
+      "label": "希斯",
+      "summary": "拥有阴阳眼且带未来记忆转生的猫，毁坏古代园艺贝叶本以阻止未来生态灾难和全球瘟疫。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "torvaldsen",
+      "type": "character",
+      "label": "托尔瓦德森",
+      "summary": "大西洋沿岸号原船长，其灵魂/身份已被鹦鹉记忆和航海日志取代，成为幽灵船循环的一部分。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "parrot",
+      "type": "character",
+      "label": "鹦鹉",
+      "summary": "学会人类语言的鹦鹉，记忆船长留下的《航海日志》幻书，维持幽灵船七十年死亡循环。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "emilia-eva",
+      "type": "character",
+      "label": "艾米莉亚 / 艾娃",
+      "summary": "纽德沃尔特双胞胎姐妹，意识因《连接之书》融合。艾米莉亚守护病人，最终请求终结连接，以忘却解放全镇。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "wesley-disward",
+      "type": "character",
+      "label": "卫斯理·迪斯瓦特子爵",
+      "summary": "修伊祖父，原宅邸与钥匙遗留者，蒐书狂，其遗产使修伊接触丹特丽安的书架。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "leo",
+      "type": "character",
+      "label": "雷欧",
+      "summary": "第六卷红砖宅邸/不死杀手事件中与修伊会合的相关人物，卷入印刷品与正本文字咒力关联。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "wesley-assassin",
+      "type": "character",
+      "label": "卫斯理（杀手）",
+      "summary": "第六卷不死杀手追踪战核心，印刷品与正本之间的文字咒力使其呈现异常不死性。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "olrick",
+      "type": "character",
+      "label": "欧立克",
+      "summary": "冰岛移动地下宅邸相关人物，为复活亡女执着于机关与幻书，制造地下三层移动要塞般的宅邸。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "oliver",
+      "type": "character",
+      "label": "奥利佛·葛雷",
+      "summary": "第七卷人物，卷入被伪装成外星诅咒的媚药魔导书事件。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "henry-javiston",
+      "type": "character",
+      "label": "亨利·贾威斯顿",
+      "summary": "探险家，留下‘幻书墓园’之谜，引导修伊与妲丽安远赴黑暗大陆。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "godin",
+      "type": "character",
+      "label": "高丁",
+      "summary": "利欲熏心的新闻王，在黑暗大陆事件中施压众人，卷入王威之书与矿物生命体真相。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "judy",
+      "type": "character",
+      "label": "茱蒂",
+      "summary": "平凡少女，与妲丽安因罗西提饼干绘本‘最后之书’展开荒诞争夺。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "mithril",
+      "type": "character",
+      "label": "怪盗秘银",
+      "summary": "第八卷阿斯奎斯侯爵府事件中的怪盗介入者，与永恒黄昏透视画馆和活祭仪式相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "lifia-asquith",
+      "type": "character",
+      "label": "莉菲雅",
+      "summary": "阿斯奎斯侯爵府事件中的千金，卷入《永恒黄昏的透视画馆》构筑的活祭与长生噩梦。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "dantalian-pair",
+      "type": "faction",
+      "label": "黑之读姬与钥匙守护者",
+      "summary": "修伊与妲丽安为核心，倾向保存、回收与封印幻书。"
+    },
+    {
+      "id": "burning-officers",
+      "type": "faction",
+      "label": "焚书官",
+      "summary": "哈尔与芙兰为代表，认为幻书只会带来灾难，主张彻底焚毁。"
+    },
+    {
+      "id": "professor-raziel",
+      "type": "faction",
+      "label": "教授与赤之读姬",
+      "summary": "教授/哈尔式研究者与拉结尔，关注幻稿孵化、幻书产生条件与大规模实验。"
+    },
+    {
+      "id": "phantom-book-thieves",
+      "type": "faction",
+      "label": "幻书窃贼",
+      "summary": "优娜/秘银等以盗取、解放或诱导焚毁幻书为目标的第三方。"
+    },
+    {
+      "id": "nobility-and-collectors",
+      "type": "faction",
+      "label": "旧贵族、藏书家与商会",
+      "summary": "贵族庄园、收藏家、帕德克商会、报业王等追逐利益或永生，常成为幻书事件源头。"
+    },
+    {
+      "id": "military-and-police",
+      "type": "faction",
+      "label": "军警与战后机关",
+      "summary": "战后空军、地方警察、学校管理层、王都治安机构，通常在幻书面前解释失效。"
+    },
+    {
+      "id": "disward-estate",
+      "type": "location",
+      "label": "迪斯瓦特宅邸/别墅",
+      "summary": "修伊继承的乡间石造宅邸，地下室/书库入口与温室是多次日常事件中心。"
+    },
+    {
+      "id": "capital",
+      "type": "location",
+      "label": "王都",
+      "summary": "咖啡厅、地铁站、足球场、音乐厅、社交界、印刷厂与商会林立的都市舞台。"
+    },
+    {
+      "id": "haston-estate",
+      "type": "location",
+      "label": "哈斯顿庄园",
+      "summary": "蓝玫瑰、血统实验、地下实验室与阿修威尔之兽事件发生地。"
+    },
+    {
+      "id": "lilburn-manor",
+      "type": "location",
+      "label": "利尔本山庄",
+      "summary": "断崖上的古老宅邸，钟楼圣音操纵泥人掩盖杀戮。"
+    },
+    {
+      "id": "girls-boarding-school",
+      "type": "location",
+      "label": "王国南部沿海寄宿学校/卡德菲尔女子学校",
+      "summary": "幻书在女校图书馆、宿舍与环境改造实验中引发开膛手与气象灾难。"
+    },
+    {
+      "id": "razkeso-castle",
+      "type": "location",
+      "label": "雷兹凯索城堡",
+      "summary": "红色砂岩要塞，绯色长袍传说、离魂体与幻书窃贼事件发生地。"
+    },
+    {
+      "id": "newdwalt",
+      "type": "location",
+      "label": "纽德沃尔特",
+      "summary": "雪国城镇与修道院，放射性矿山和《连接之书》集体意识实验之地。"
+    },
+    {
+      "id": "dark-continent",
+      "type": "location",
+      "label": "黑暗大陆",
+      "summary": "尼罗河湿原、死者之山萨拉哈尔法，矿物生命体与石板幻书相关。"
+    },
+    {
+      "id": "atlantic-coast",
+      "type": "location",
+      "label": "大西洋沿岸号",
+      "summary": "由航海日志和鹦鹉记忆维持的幽灵船。"
+    },
+    {
+      "id": "phantom-library",
+      "type": "location",
+      "label": "丹特丽安的书架内部",
+      "summary": "非现实迷宫书库，既是封印空间也是知识深渊。"
+    },
+    {
+      "id": "battlefront-airbase",
+      "type": "location",
+      "label": "战线机场/空中幻稿事件场域",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "glanholm-station",
+      "type": "location",
+      "label": "格兰霍姆车站",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "gourmet-banquet",
+      "type": "location",
+      "label": "脑髓盛宴会场",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "doll-warehouse-city",
+      "type": "location",
+      "label": "人偶仓库街区",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "calabos-estate",
+      "type": "location",
+      "label": "卡拉博斯宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "lentz-villa",
+      "type": "location",
+      "label": "伦兹别墅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "hildenbrand-house",
+      "type": "location",
+      "label": "希尔登布兰德家",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "sustin-concert-hall",
+      "type": "location",
+      "label": "萨斯汀音乐厅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "fiona-lab",
+      "type": "location",
+      "label": "菲奥娜实验室",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "ghost-train",
+      "type": "location",
+      "label": "幽灵列车",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "red-brick-mansion",
+      "type": "location",
+      "label": "红砖宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "olrick-mansion",
+      "type": "location",
+      "label": "奥尔里克宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "wesley-old-house",
+      "type": "location",
+      "label": "卫斯理旧宅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "roscetti-shop",
+      "type": "location",
+      "label": "罗塞蒂店铺",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "asquith-mansion",
+      "type": "location",
+      "label": "阿斯奎斯宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "phantom-books",
+      "type": "powerSystem",
+      "label": "幻书",
+      "summary": "不应存在于世的禁忌书籍或等价媒介，可为纸本、植物、乐谱、航海日志、时刻表、石板、八音盒旋律、诗稿、报纸转写本等。其核心是越过人类理解极限的知识。"
+    },
+    {
+      "id": "dantalian-library",
+      "type": "powerSystem",
+      "label": "丹特丽安的书架 / 壶中之天",
+      "summary": "妲丽安体内封印九十万零六百六十六册幻书的迷宫书库。钥匙守护者以黄金/红宝石钥匙开启其胸前锁，念诵契约问答后取出对应幻书。"
+    },
+    {
+      "id": "raziel-library",
+      "type": "powerSystem",
+      "label": "拉结尔的书架",
+      "summary": "赤之读姬拉结尔对应的书架。教授/哈尔式角色持钥匙观察幻书孵化，重视幻稿从疯狂中诞生的过程。"
+    },
+    {
+      "id": "burning-officer-technique",
+      "type": "powerSystem",
+      "label": "焚书官技术：灾厄之枝/爆发",
+      "summary": "焚书官将幻书作为弹药或燃料装填入银色长杖/香炉长杖，以术式点燃概念魔力，释放青白业火并抹除幻书造成的灾厄。"
+    },
+    {
+      "id": "alchemy-mechanics-and-artifice",
+      "type": "powerSystem",
+      "label": "炼金术、机械人偶与人工生命",
+      "summary": "麦尔加、达拉里欧等制造人造人、机械读姬或自动人偶的技术线，常与幻曲、火蜥蜴刻印、物质召唤、生命实验相关。"
+    }
   ],
   "edges": [
-    {"from":"world-dantalian","to":"concept-phantom-books","type":"contains","summary":"世界核心超自然机制是幻书。"},
-    {"from":"concept-phantom-books","to":"concept-phantom-draft","type":"has-stage","summary":"幻稿是未完成或孵化前形态。"},
-    {"from":"concept-phantom-draft","to":"faction-professor-raziel","type":"studied-by","summary":"教授与拉结尔观察幻稿如何成为幻书。"},
-    {"from":"concept-reader-princess","to":"artifact-dantalian-library","type":"can-host","summary":"读姬可连接或封印巨大书架。"},
-    {"from":"concept-key-keeper","to":"artifact-key","type":"uses","summary":"钥匙守护者使用钥匙开锁。"},
-    {"from":"artifact-key","to":"artifact-dantalian-library","type":"opens","summary":"钥匙可开启丹特丽安的书架。"},
-    {"from":"spell-contract-question","to":"artifact-dantalian-library","type":"activates","summary":"契约问答是开启仪式的一部分。"},
-    {"from":"faction-dantalian-pair","to":"concept-phantom-books","type":"seals-or-recovers","summary":"保存派倾向回收与封印幻书。"},
-    {"from":"faction-burning-officers","to":"concept-phantom-books","type":"burns","summary":"焚书官倾向毁灭幻书。"},
-    {"from":"artifact-disaster-branch","to":"concept-phantom-books","type":"uses-as-fuel","summary":"灾厄之枝装填幻书作为弹药。"},
-    {"from":"faction-burning-officers","to":"artifact-disaster-branch","type":"wields","summary":"哈尔以此释放爆发。"},
-    {"from":"faction-thieves","to":"concept-phantom-books","type":"steals-or-liberates","summary":"幻书窃贼围绕特定幻书行动。"},
-    {"from":"place-disward-estate","to":"artifact-dantalian-library","type":"entry-context","summary":"修伊在宅邸地下室邂逅妲丽安。"},
-    {"from":"event-first-opening","to":"spell-contract-question","type":"requires","summary":"第一次开启需要契约问答。"},
-    {"from":"event-burning-officer","to":"faction-burning-officers","type":"introduces","summary":"事件引入焚书官理念。"},
-    {"from":"event-raziel-draft","to":"concept-phantom-draft","type":"reveals","summary":"空战事件揭示幻稿和疯狂条件。"},
-    {"from":"event-linking-book","to":"faction-professor-raziel","type":"caused-by","summary":"连接之书实验由教授与赤之读姬推动。"},
-    {"from":"event-dark-continent","to":"concept-phantom-books","type":"expands-origin","summary":"石板幻书暗示非人知识源与星球记忆。"},
-    {"from":"rule-oc-no-replace","to":"concept-key-keeper","type":"constrains","summary":"RP 身份适应必须尊重钥匙守护者设定。"}
+    {
+      "from": "world-dantalian",
+      "to": "concept-phantom-books",
+      "type": "contains",
+      "summary": "世界核心超自然机制是幻书。"
+    },
+    {
+      "from": "concept-phantom-books",
+      "to": "concept-phantom-draft",
+      "type": "has-stage",
+      "summary": "幻稿是未完成或孵化前形态。"
+    },
+    {
+      "from": "concept-phantom-draft",
+      "to": "faction-professor-raziel",
+      "type": "studied-by",
+      "summary": "教授与拉结尔观察幻稿如何成为幻书。"
+    },
+    {
+      "from": "concept-reader-princess",
+      "to": "artifact-dantalian-library",
+      "type": "can-host",
+      "summary": "读姬可连接或封印巨大书架。"
+    },
+    {
+      "from": "concept-key-keeper",
+      "to": "artifact-key",
+      "type": "uses",
+      "summary": "钥匙守护者使用钥匙开锁。"
+    },
+    {
+      "from": "artifact-key",
+      "to": "artifact-dantalian-library",
+      "type": "opens",
+      "summary": "钥匙可开启丹特丽安的书架。"
+    },
+    {
+      "from": "spell-contract-question",
+      "to": "artifact-dantalian-library",
+      "type": "activates",
+      "summary": "契约问答是开启仪式的一部分。"
+    },
+    {
+      "from": "faction-dantalian-pair",
+      "to": "concept-phantom-books",
+      "type": "seals-or-recovers",
+      "summary": "保存派倾向回收与封印幻书。"
+    },
+    {
+      "from": "faction-burning-officers",
+      "to": "concept-phantom-books",
+      "type": "burns",
+      "summary": "焚书官倾向毁灭幻书。"
+    },
+    {
+      "from": "artifact-disaster-branch",
+      "to": "concept-phantom-books",
+      "type": "uses-as-fuel",
+      "summary": "灾厄之枝装填幻书作为弹药。"
+    },
+    {
+      "from": "faction-burning-officers",
+      "to": "artifact-disaster-branch",
+      "type": "wields",
+      "summary": "哈尔以此释放爆发。"
+    },
+    {
+      "from": "faction-thieves",
+      "to": "concept-phantom-books",
+      "type": "steals-or-liberates",
+      "summary": "幻书窃贼围绕特定幻书行动。"
+    },
+    {
+      "from": "place-disward-estate",
+      "to": "artifact-dantalian-library",
+      "type": "entry-context",
+      "summary": "修伊在宅邸地下室邂逅妲丽安。"
+    },
+    {
+      "from": "event-first-opening",
+      "to": "spell-contract-question",
+      "type": "requires",
+      "summary": "第一次开启需要契约问答。"
+    },
+    {
+      "from": "event-burning-officer",
+      "to": "faction-burning-officers",
+      "type": "introduces",
+      "summary": "事件引入焚书官理念。"
+    },
+    {
+      "from": "event-raziel-draft",
+      "to": "concept-phantom-draft",
+      "type": "reveals",
+      "summary": "空战事件揭示幻稿和疯狂条件。"
+    },
+    {
+      "from": "event-linking-book",
+      "to": "faction-professor-raziel",
+      "type": "caused-by",
+      "summary": "连接之书实验由教授与赤之读姬推动。"
+    },
+    {
+      "from": "event-dark-continent",
+      "to": "concept-phantom-books",
+      "type": "expands-origin",
+      "summary": "石板幻书暗示非人知识源与星球记忆。"
+    },
+    {
+      "from": "rule-oc-no-replace",
+      "to": "concept-key-keeper",
+      "type": "constrains",
+      "summary": "RP 身份适应必须尊重钥匙守护者设定。"
+    }
   ],
-  "sourceRefs": ["src-dantalian-no-shoka-001"]
+  "sourceRefs": [
+    "src-dantalian-no-shoka-001"
+  ],
+  "campaignId": "dantalian-no-shoka",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

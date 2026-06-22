@@ -1,16 +1,855 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "overlord",
   "relationships": [
-    {"source": "安兹·乌尔·恭", "target": "雅儿贝德", "type": "君主/总管/恋慕", "notes": "雅儿贝德因设定修改对安兹狂热恋慕。"},
-    {"source": "安兹·乌尔·恭", "target": "迪米乌哥斯", "type": "君主/智囊", "notes": "迪米乌哥斯将安兹言行解读为深谋远虑。"},
-    {"source": "安兹·乌尔·恭", "target": "夏提雅·布拉德弗伦", "type": "君主/守护者", "notes": "夏提雅被控制事件成为安兹重大危机。"},
-    {"source": "科塞特斯", "target": "蜥蜴人部落", "type": "征服者/庇护者", "notes": "科塞特斯被其武勇打动后请求赦免。"},
-    {"source": "安兹·乌尔·恭", "target": "娜贝拉尔·伽玛", "type": "冒险者搭档", "notes": "以飞飞与娜贝身份收集情报。"},
-    {"source": "塞巴斯·蒂安", "target": "琪雅蕾", "type": "救助者/被救助者", "notes": "塞巴斯救助琪雅蕾引发对忠诚的质疑。"},
-    {"source": "塞巴斯·蒂安", "target": "索留香·艾普西隆", "type": "同任务/价值冲突", "notes": "索留香质疑救助人类的必要性。"},
-    {"source": "安莉·艾默特", "target": "恩弗雷亚·巴雷亚雷", "type": "夫妻", "notes": "后期卡恩村共同生活。"},
-    {"source": "安莉·艾默特", "target": "露普丝雷其娜·β", "type": "监视/接触", "notes": "露普丝雷其娜负责卡恩村监视。"},
-    {"source": "葛杰夫·史托罗诺夫", "target": "安兹·乌尔·恭", "type": "敌对敬意", "notes": "王国战士长与安兹力量差距巨大但具武人价值。"}
-  ]
+    {
+      "source": "ainz",
+      "target": "雅儿贝德",
+      "type": "君主/总管/恋慕",
+      "notes": "雅儿贝德因设定修改对安兹狂热恋慕。"
+    },
+    {
+      "source": "ainz",
+      "target": "迪米乌哥斯",
+      "type": "君主/智囊",
+      "notes": "迪米乌哥斯将安兹言行解读为深谋远虑。"
+    },
+    {
+      "source": "ainz",
+      "target": "夏提雅·布拉德弗伦",
+      "type": "君主/守护者",
+      "notes": "夏提雅被控制事件成为安兹重大危机。"
+    },
+    {
+      "source": "科塞特斯",
+      "target": "蜥蜴人部落",
+      "type": "征服者/庇护者",
+      "notes": "科塞特斯被其武勇打动后请求赦免。"
+    },
+    {
+      "source": "ainz",
+      "target": "娜贝拉尔·伽玛",
+      "type": "冒险者搭档",
+      "notes": "以飞飞与娜贝身份收集情报。"
+    },
+    {
+      "source": "塞巴斯·蒂安",
+      "target": "琪雅蕾",
+      "type": "救助者/被救助者",
+      "notes": "塞巴斯救助琪雅蕾引发对忠诚的质疑。"
+    },
+    {
+      "source": "塞巴斯·蒂安",
+      "target": "索留香·艾普西隆",
+      "type": "同任务/价值冲突",
+      "notes": "索留香质疑救助人类的必要性。"
+    },
+    {
+      "source": "安莉·艾默特",
+      "target": "恩弗雷亚·巴雷亚雷",
+      "type": "夫妻",
+      "notes": "后期卡恩村共同生活。"
+    },
+    {
+      "source": "安莉·艾默特",
+      "target": "露普丝雷其娜·β",
+      "type": "监视/接触",
+      "notes": "露普丝雷其娜负责卡恩村监视。"
+    },
+    {
+      "source": "葛杰夫·史托罗诺夫",
+      "target": "ainz",
+      "type": "敌对敬意",
+      "notes": "王国战士长与安兹力量差距巨大但具武人价值。"
+    }
+  ],
+  "campaignId": "overlord",
+  "nodes": [
+    {
+      "id": "ainz",
+      "label": "安兹·乌尔·恭",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ainz'."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "安兹·乌尔·恭",
+          "mappedId": "ainz",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "雅儿贝德",
+      "label": "雅儿贝德",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "雅儿贝德",
+          "mappedId": "雅儿贝德",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "雅儿贝德",
+              "targetLabel": "雅儿贝德",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=雅儿贝德"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "雅儿贝德",
+          "targetLabel": "雅儿贝德",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=雅儿贝德"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "迪米乌哥斯",
+      "label": "迪米乌哥斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "迪米乌哥斯",
+          "mappedId": "迪米乌哥斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "迪米乌哥斯",
+              "targetLabel": "迪米乌哥斯",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=迪米乌哥斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "迪米乌哥斯",
+          "targetLabel": "迪米乌哥斯",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=迪米乌哥斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "夏提雅·布拉德弗伦",
+      "label": "夏提雅·布拉德弗伦",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "夏提雅·布拉德弗伦",
+          "mappedId": "夏提雅·布拉德弗伦",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "夏提雅·布拉德弗伦",
+              "targetLabel": "夏提雅·布拉德弗伦",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=夏提雅·布拉德弗伦"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "夏提雅·布拉德弗伦",
+          "targetLabel": "夏提雅·布拉德弗伦",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=夏提雅·布拉德弗伦"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "科塞特斯",
+      "label": "科塞特斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "科塞特斯",
+          "mappedId": "科塞特斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "科塞特斯",
+              "targetLabel": "科塞特斯",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=科塞特斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "科塞特斯",
+          "targetLabel": "科塞特斯",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=科塞特斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "蜥蜴人部落",
+      "label": "蜥蜴人部落",
+      "type": "faction",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "蜥蜴人部落",
+          "mappedId": "蜥蜴人部落",
+          "mappedKind": "world/source",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "world/source",
+              "targetId": "蜥蜴人部落",
+              "targetLabel": "蜥蜴人部落",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/world.json",
+              "match": "mentions=蜥蜴人部落"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "world/source",
+          "targetId": "蜥蜴人部落",
+          "targetLabel": "蜥蜴人部落",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/world.json",
+          "match": "mentions=蜥蜴人部落"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "娜贝拉尔·伽玛",
+      "label": "娜贝拉尔·伽玛",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "娜贝拉尔·伽玛",
+          "mappedId": "娜贝拉尔·伽玛",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "娜贝拉尔·伽玛",
+              "targetLabel": "娜贝拉尔·伽玛",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=娜贝拉尔·伽玛"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "娜贝拉尔·伽玛",
+          "targetLabel": "娜贝拉尔·伽玛",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=娜贝拉尔·伽玛"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "塞巴斯·蒂安",
+      "label": "塞巴斯·蒂安",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "塞巴斯·蒂安",
+          "mappedId": "塞巴斯·蒂安",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "塞巴斯·蒂安",
+              "targetLabel": "塞巴斯·蒂安",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=塞巴斯·蒂安"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "塞巴斯·蒂安",
+          "targetLabel": "塞巴斯·蒂安",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=塞巴斯·蒂安"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "琪雅蕾",
+      "label": "琪雅蕾",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "琪雅蕾",
+          "mappedId": "琪雅蕾",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "琪雅蕾",
+              "targetLabel": "琪雅蕾",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=琪雅蕾"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "琪雅蕾",
+          "targetLabel": "琪雅蕾",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=琪雅蕾"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "索留香·艾普西隆",
+      "label": "索留香·艾普西隆",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "索留香·艾普西隆",
+          "mappedId": "索留香·艾普西隆",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "索留香·艾普西隆",
+              "targetLabel": "索留香·艾普西隆",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=索留香·艾普西隆"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "索留香·艾普西隆",
+          "targetLabel": "索留香·艾普西隆",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=索留香·艾普西隆"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "安莉·艾默特",
+      "label": "安莉·艾默特",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "安莉·艾默特",
+          "mappedId": "安莉·艾默特",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "安莉·艾默特",
+              "targetLabel": "安莉·艾默特",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=安莉·艾默特"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "安莉·艾默特",
+          "targetLabel": "安莉·艾默特",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=安莉·艾默特"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "恩弗雷亚·巴雷亚雷",
+      "label": "恩弗雷亚·巴雷亚雷",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "恩弗雷亚·巴雷亚雷",
+          "mappedId": "恩弗雷亚·巴雷亚雷",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "恩弗雷亚·巴雷亚雷",
+              "targetLabel": "恩弗雷亚·巴雷亚雷",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=恩弗雷亚·巴雷亚雷"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "恩弗雷亚·巴雷亚雷",
+          "targetLabel": "恩弗雷亚·巴雷亚雷",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=恩弗雷亚·巴雷亚雷"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "露普丝雷其娜·β",
+      "label": "露普丝雷其娜·β",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "露普丝雷其娜·β",
+          "mappedId": "露普丝雷其娜·β",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "露普丝雷其娜·β",
+              "targetLabel": "露普丝雷其娜·β",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=露普丝雷其娜·β"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "露普丝雷其娜·β",
+          "targetLabel": "露普丝雷其娜·β",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=露普丝雷其娜·β"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "葛杰夫·史托罗诺夫",
+      "label": "葛杰夫·史托罗诺夫",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "葛杰夫·史托罗诺夫",
+          "mappedId": "葛杰夫·史托罗诺夫",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-overlord-001",
+              "kind": "characters-index",
+              "targetId": "葛杰夫·史托罗诺夫",
+              "targetLabel": "葛杰夫·史托罗诺夫",
+              "note": "Unique curated match from overlord curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/overlord/curated/characters-index.json",
+              "match": "name=葛杰夫·史托罗诺夫"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from overlord curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-overlord-001",
+          "kind": "characters-index",
+          "targetId": "葛杰夫·史托罗诺夫",
+          "targetLabel": "葛杰夫·史托罗诺夫",
+          "note": "Unique curated match from overlord curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/overlord/curated/characters-index.json",
+          "match": "name=葛杰夫·史托罗诺夫"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from overlord curated index or knowledge graph."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ainz",
+      "target": "雅儿贝德",
+      "type": "君主/总管/恋慕",
+      "notes": "雅儿贝德因设定修改对安兹狂热恋慕。"
+    },
+    {
+      "source": "ainz",
+      "target": "迪米乌哥斯",
+      "type": "君主/智囊",
+      "notes": "迪米乌哥斯将安兹言行解读为深谋远虑。"
+    },
+    {
+      "source": "ainz",
+      "target": "夏提雅·布拉德弗伦",
+      "type": "君主/守护者",
+      "notes": "夏提雅被控制事件成为安兹重大危机。"
+    },
+    {
+      "source": "科塞特斯",
+      "target": "蜥蜴人部落",
+      "type": "征服者/庇护者",
+      "notes": "科塞特斯被其武勇打动后请求赦免。"
+    },
+    {
+      "source": "ainz",
+      "target": "娜贝拉尔·伽玛",
+      "type": "冒险者搭档",
+      "notes": "以飞飞与娜贝身份收集情报。"
+    },
+    {
+      "source": "塞巴斯·蒂安",
+      "target": "琪雅蕾",
+      "type": "救助者/被救助者",
+      "notes": "塞巴斯救助琪雅蕾引发对忠诚的质疑。"
+    },
+    {
+      "source": "塞巴斯·蒂安",
+      "target": "索留香·艾普西隆",
+      "type": "同任务/价值冲突",
+      "notes": "索留香质疑救助人类的必要性。"
+    },
+    {
+      "source": "安莉·艾默特",
+      "target": "恩弗雷亚·巴雷亚雷",
+      "type": "夫妻",
+      "notes": "后期卡恩村共同生活。"
+    },
+    {
+      "source": "安莉·艾默特",
+      "target": "露普丝雷其娜·β",
+      "type": "监视/接触",
+      "notes": "露普丝雷其娜负责卡恩村监视。"
+    },
+    {
+      "source": "葛杰夫·史托罗诺夫",
+      "target": "ainz",
+      "type": "敌对敬意",
+      "notes": "王国战士长与安兹力量差距巨大但具武人价值。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

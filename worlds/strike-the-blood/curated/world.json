@@ -1,1 +1,66 @@
-{"schema":"rp-world-v1","worldId":"strike-the-blood","displayName":"噬血狂袭","curationStatus":"manual-initial","sourceRefs":["src-strike-the-blood-001"],"summary":"魔族公开存在的现代异能世界，弦神岛作为魔族特区汇聚吸血鬼、魔导犯罪、国家机关和眷兽灾害。","powerSystems":[{"id":"vampire-primogenitor","name":"吸血鬼真祖/血族","rules":["真祖级吸血鬼拥有强大再生、魔力和眷兽支配","吸血冲动与血之媒介可影响眷兽解放","血脉、记忆和封印决定可用力量"]},{"id":"familiars","name":"眷兽","rules":["眷兽是高阶吸血鬼的主要战斗单元，具独立属性和大范围破坏力","召唤需魔力、血液或精神稳定支撑"]},{"id":"magecraft","name":"魔导/灵能技术","rules":["剑巫、攻魔师和魔导士以术式、灵装、结界和情报作战"]}],"factions":["弦神岛管理公社","狮子王机关","第四真祖相关势力","战王领域等真祖势力","魔导犯罪组织"],"locations":["弦神岛","彩海学园","魔族特区设施","海上/人工岛地下设施"],"combatRules":["眷兽释放可能造成城市级灾害，RP 需限制场地。","监视者/攻魔师常以封印、结界、灵装而非硬拼取胜。","真祖政治会让个人战斗升级为外交事件。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "strike-the-blood",
+  "displayName": "噬血狂袭",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-strike-the-blood-001"
+  ],
+  "summary": "魔族公开存在的现代异能世界，弦神岛作为魔族特区汇聚吸血鬼、魔导犯罪、国家机关和眷兽灾害。",
+  "powerSystems": [
+    {
+      "id": "vampire-primogenitor",
+      "name": "吸血鬼真祖/血族",
+      "rules": [
+        "真祖级吸血鬼拥有强大再生、魔力和眷兽支配",
+        "吸血冲动与血之媒介可影响眷兽解放",
+        "血脉、记忆和封印决定可用力量"
+      ]
+    },
+    {
+      "id": "familiars",
+      "name": "眷兽",
+      "rules": [
+        "眷兽是高阶吸血鬼的主要战斗单元，具独立属性和大范围破坏力",
+        "召唤需魔力、血液或精神稳定支撑"
+      ]
+    },
+    {
+      "id": "magecraft",
+      "name": "魔导/灵能技术",
+      "rules": [
+        "剑巫、攻魔师和魔导士以术式、灵装、结界和情报作战"
+      ]
+    }
+  ],
+  "factions": [
+    "弦神岛管理公社",
+    "狮子王机关",
+    "第四真祖相关势力",
+    "战王领域等真祖势力",
+    "魔导犯罪组织"
+  ],
+  "locations": [
+    "弦神岛",
+    "彩海学园",
+    "魔族特区设施",
+    "海上/人工岛地下设施"
+  ],
+  "combatRules": [
+    "眷兽释放可能造成城市级灾害，RP 需限制场地。",
+    "监视者/攻魔师常以封印、结界、灵装而非硬拼取胜。",
+    "真祖政治会让个人战斗升级为外交事件。"
+  ],
+  "visibility": "public",
+  "worldName": "噬血狂袭",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "to-love-ru",
   "curatedAt": "2026-06-21",
   "sources": [
@@ -9,14 +9,40 @@
       "type": "user-file-source",
       "rawLocation": "imports/raw/world-sources/cbwn.png",
       "archiveArtifact": "campaigns/world-library/imports/worldviews/to-love-ru/worldbooks/cbwn_card.worldbook.json",
-      "archivePathsRead": ["manifest.json", "source-registry.json", "characters/characters.json", "world/world.json", "factions/factions.json", "locations/locations.json", "power-systems/abilities.json", "canon-reference/full-plot.json"],
+      "archivePathsRead": [
+        "manifest.json",
+        "source-registry.json",
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/abilities.json",
+        "canon-reference/full-plot.json"
+      ],
       "reliability": "B",
       "curationUse": "primary",
       "notes": "人工阅读卷剧情和分类文件后整理；curated 过滤成人化细节。"
     }
   ],
   "conflicts": [
-    {"topic": "译名", "note": "菈菈/拉拉、沛凯/佩克、萨斯丁/扎斯丁等译名并存；索引使用归档常见译名并保留别名。"},
-    {"topic": "内容边界", "note": "原始来源含成人化描述，curated 不复述。"}
+    {
+      "topic": "译名",
+      "note": "菈菈/拉拉、沛凯/佩克、萨斯丁/扎斯丁等译名并存；索引使用归档常见译名并保留别名。"
+    },
+    {
+      "topic": "内容边界",
+      "note": "原始来源含成人化描述，curated 不复述。"
+    }
+  ],
+  "campaignId": "to-love-ru",
+  "conflictLog": [
+    {
+      "topic": "译名",
+      "note": "菈菈/拉拉、沛凯/佩克、萨斯丁/扎斯丁等译名并存；索引使用归档常见译名并保留别名。"
+    },
+    {
+      "topic": "内容边界",
+      "note": "原始来源含成人化描述，curated 不复述。"
+    }
   ]
 }

@@ -1,1 +1,211 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"kekkaishi","nodes":[{"id":"karasumori","type":"location-power","name":"乌森之地"},{"id":"kekkai-jutsu","type":"power-system","name":"结界术"},{"id":"sumimura","type":"faction","name":"墨村家"},{"id":"yukimura","type":"faction","name":"雪村家"},{"id":"yagyou","type":"faction","name":"夜行"},{"id":"urakai","type":"faction","name":"里会"},{"id":"kokuboro","type":"faction","name":"黑芒楼"},{"id":"tokimori","type":"character","name":"间时守"}],"edges":[{"from":"karasumori","to":"ayakashi","type":"attracts-empowers","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"sumimura","to":"karasumori","type":"guards","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"yukimura","to":"karasumori","type":"guards","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"kekkai-jutsu","to":"karasumori","type":"contains-threats-at","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"yagyou","to":"urakai","type":"affiliated-with","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"kokuboro","to":"karasumori","type":"seeks","visibility":"public","sourceRefs":["src-kekkaishi-001"]},{"from":"tokimori","to":"karasumori","type":"origin-secret","visibility":"gm-only","sourceRefs":["src-kekkaishi-001"]}]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "kekkaishi",
+  "nodes": [
+    {
+      "id": "karasumori",
+      "type": "location-power",
+      "name": "乌森之地",
+      "label": "乌森之地"
+    },
+    {
+      "id": "kekkai-jutsu",
+      "type": "power-system",
+      "name": "结界术",
+      "label": "结界术"
+    },
+    {
+      "id": "sumimura",
+      "type": "faction",
+      "name": "墨村家"
+    },
+    {
+      "id": "yukimura",
+      "type": "faction",
+      "name": "雪村家"
+    },
+    {
+      "id": "yagyou",
+      "type": "faction",
+      "name": "夜行"
+    },
+    {
+      "id": "urakai",
+      "type": "faction",
+      "name": "里会"
+    },
+    {
+      "id": "kokuboro",
+      "type": "faction",
+      "name": "黑芒楼"
+    },
+    {
+      "id": "tokimori",
+      "type": "character",
+      "name": "间时守"
+    },
+    {
+      "id": "ayakashi",
+      "label": "妖怪/异能者生态",
+      "type": "power-system"
+    },
+    {
+      "id": "ayakashi-group",
+      "type": "faction",
+      "label": "妖怪群体",
+      "summary": "妖怪群体",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "karasumori-affiliation",
+      "type": "faction",
+      "label": "乌森相关势力",
+      "summary": "乌森相关势力",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "karasumori-school",
+      "type": "location",
+      "label": "乌森学园",
+      "summary": "乌森学园",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "yakou-base",
+      "type": "location",
+      "label": "夜行据点",
+      "summary": "夜行据点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "rikai-facility",
+      "type": "location",
+      "label": "里会相关设施",
+      "summary": "里会相关设施",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "outside-world",
+      "type": "location",
+      "label": "外界",
+      "summary": "外界",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "karasumori-related",
+      "type": "location",
+      "label": "乌森相关地点",
+      "summary": "乌森相关地点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "spirit-land",
+      "type": "location",
+      "label": "灵地",
+      "summary": "灵地",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "from": "karasumori",
+      "to": "ayakashi",
+      "type": "attracts-empowers",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "karasumori",
+      "target": "ayakashi"
+    },
+    {
+      "from": "sumimura",
+      "to": "karasumori",
+      "type": "guards",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "sumimura",
+      "target": "karasumori"
+    },
+    {
+      "from": "yukimura",
+      "to": "karasumori",
+      "type": "guards",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "yukimura",
+      "target": "karasumori"
+    },
+    {
+      "from": "kekkai-jutsu",
+      "to": "karasumori",
+      "type": "contains-threats-at",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "kekkai-jutsu",
+      "target": "karasumori"
+    },
+    {
+      "from": "yagyou",
+      "to": "urakai",
+      "type": "affiliated-with",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "yagyou",
+      "target": "urakai"
+    },
+    {
+      "from": "kokuboro",
+      "to": "karasumori",
+      "type": "seeks",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "kokuboro",
+      "target": "karasumori"
+    },
+    {
+      "from": "tokimori",
+      "to": "karasumori",
+      "type": "origin-secret",
+      "visibility": "gm-only",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ],
+      "source": "tokimori",
+      "target": "karasumori"
+    }
+  ],
+  "campaignId": "kekkaishi",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 8,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

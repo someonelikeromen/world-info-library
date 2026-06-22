@@ -1,1 +1,64 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"seikoku-no-dragonar","nodes":[{"id":"seikoku","type":"powerSystem","label":"星刻"},{"id":"pal","type":"speciesRole","label":"帕尔"},{"id":"dragoncraft","type":"equipmentSystem","label":"圣骑甲"},{"id":"academy","type":"faction","label":"安萨里邦骑龙学院"},{"id":"lautreamont","type":"faction","label":"罗雷亚蒙骑士国"}],"edges":[{"from":"seikoku","to":"pal","type":"binds"},{"from":"pal","to":"dragoncraft","type":"can_manifest"},{"from":"academy","to":"seikoku","type":"trains"},{"from":"lautreamont","to":"academy","type":"supports"}],"sourceRefs":["src-seikoku-no-dragonar-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "seikoku-no-dragonar",
+  "nodes": [
+    {
+      "id": "seikoku",
+      "type": "powerSystem",
+      "label": "星刻"
+    },
+    {
+      "id": "pal",
+      "type": "speciesRole",
+      "label": "帕尔"
+    },
+    {
+      "id": "dragoncraft",
+      "type": "equipmentSystem",
+      "label": "圣骑甲"
+    },
+    {
+      "id": "academy",
+      "type": "faction",
+      "label": "安萨里邦骑龙学院"
+    },
+    {
+      "id": "lautreamont",
+      "type": "faction",
+      "label": "罗雷亚蒙骑士国"
+    }
+  ],
+  "edges": [
+    {
+      "from": "seikoku",
+      "to": "pal",
+      "type": "binds"
+    },
+    {
+      "from": "pal",
+      "to": "dragoncraft",
+      "type": "can_manifest"
+    },
+    {
+      "from": "academy",
+      "to": "seikoku",
+      "type": "trains"
+    },
+    {
+      "from": "lautreamont",
+      "to": "academy",
+      "type": "supports"
+    }
+  ],
+  "sourceRefs": [
+    "src-seikoku-no-dragonar-001"
+  ],
+  "campaignId": "seikoku-no-dragonar",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

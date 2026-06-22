@@ -1,22 +1,79 @@
 {
-  "schema": "rp-curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "infinite-stratos",
   "displayName": "IS / Infinite Stratos / 无限斯特拉托斯",
-  "sourceBasis": ["src-infinite-stratos-001"],
+  "sourceBasis": [
+    "src-infinite-stratos-001"
+  ],
   "premise": "近未来，女性适性垄断的 IS 机体改变军事、竞技与国际秩序；罕见男性驾驶者织斑一夏进入学园后引发校园、技术和国家层面的连锁事件。",
-  "tone": ["近未来机甲", "校园训练", "轻小说群像", "国际代表候补生竞争"],
+  "tone": [
+    "近未来机甲",
+    "校园训练",
+    "轻小说群像",
+    "国际代表候补生竞争"
+  ],
   "locations": [
-    {"name": "IS学园 / 源内青羽学园称呼", "role": "驾驶员培养、课程、竞技和人际关系中心"},
-    {"name": "训练场与竞技场", "role": "模擬战、等级评估和机体测试"},
-    {"name": "各国代表机构", "role": "代表候补生和专用机背后的政治/技术力量"}
+    {
+      "name": "IS学园 / 源内青羽学园称呼",
+      "role": "驾驶员培养、课程、竞技和人际关系中心"
+    },
+    {
+      "name": "训练场与竞技场",
+      "role": "模擬战、等级评估和机体测试"
+    },
+    {
+      "name": "各国代表机构",
+      "role": "代表候补生和专用机背后的政治/技术力量"
+    }
   ],
   "factions": [
-    {"name": "IS学园", "role": "教育和训练机构"},
-    {"name": "各国代表候补生体系", "role": "国家竞争、技术交流和专用机分配"},
-    {"name": "IS研发者与军工网络", "role": "机体核心、装备和黑箱技术来源"}
+    {
+      "name": "IS学园",
+      "role": "教育和训练机构"
+    },
+    {
+      "name": "各国代表候补生体系",
+      "role": "国家竞争、技术交流和专用机分配"
+    },
+    {
+      "name": "IS研发者与军工网络",
+      "role": "机体核心、装备和黑箱技术来源"
+    }
   ],
   "powerSystems": [
-    {"name": "IS机体", "rules": ["以核心与装甲展开为基础", "驾驶适性通常偏向女性", "专用机体现国家技术与个人战斗风格", "训练战强调机动、护盾、武装和同步率"]}
+    {
+      "name": "IS机体",
+      "rules": [
+        "以核心与装甲展开为基础",
+        "驾驶适性通常偏向女性",
+        "专用机体现国家技术与个人战斗风格",
+        "训练战强调机动、护盾、武装和同步率"
+      ]
+    }
   ],
-  "rpHooks": ["新生入学与适性测试", "代表候补生对抗赛", "专用机故障或升级", "国家间技术争夺", "织斑一夏作为男性驾驶者引发的舆论与保护任务"]
+  "rpHooks": [
+    "新生入学与适性测试",
+    "代表候补生对抗赛",
+    "专用机故障或升级",
+    "国家间技术争夺",
+    "织斑一夏作为男性驾驶者引发的舆论与保护任务"
+  ],
+  "worldId": "infinite-stratos",
+  "worldName": "IS / Infinite Stratos / 无限斯特拉托斯",
+  "aliases": [],
+  "genre": [
+    "近未来机甲",
+    "校园训练",
+    "轻小说群像",
+    "国际代表候补生竞争"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
 }

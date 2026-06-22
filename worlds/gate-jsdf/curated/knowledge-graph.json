@@ -1,1 +1,255 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"gate-jsdf","nodes":[{"id":"gate","type":"artifact/location","label":"门"},{"id":"special-region","type":"worldRegion","label":"特区"},{"id":"jsdf","type":"faction","label":"自卫队特地派遣方面队"},{"id":"third-recon","type":"faction","label":"第三侦查队"},{"id":"empire","type":"faction","label":"帝国"},{"id":"peace-faction","type":"faction","label":"帝国讲和派"},{"id":"war-faction","type":"faction","label":"帝国主战派"},{"id":"alnus","type":"location","label":"阿尔努斯"},{"id":"magic","type":"powerSystem","label":"特区魔法"},{"id":"apostles","type":"powerSystem","label":"亚神使徒"},{"id":"flame-dragon","type":"creature","label":"炎龙"},{"id":"ginza-incident","type":"event","label":"银座事件"}],"edges":[{"from":"ginza-incident","to":"gate","type":"opens_conflict"},{"from":"gate","to":"special-region","type":"connects"},{"from":"jsdf","to":"alnus","type":"occupies_base"},{"from":"third-recon","to":"special-region","type":"scouts"},{"from":"empire","to":"jsdf","type":"initial_enemy"},{"from":"peace-faction","to":"jsdf","type":"negotiates"},{"from":"war-faction","to":"jsdf","type":"continues_war"},{"from":"magic","to":"special-region","type":"native_system"},{"from":"apostles","to":"special-region","type":"divine_influence"},{"from":"flame-dragon","to":"tuka-luna-marceau","type":"destroys_home"}],"sourceRefs":["src-gate-jsdf-001"]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "gate-jsdf",
+  "nodes": [
+    {
+      "id": "gate",
+      "type": "artifact/location",
+      "label": "门"
+    },
+    {
+      "id": "special-region",
+      "type": "worldRegion",
+      "label": "特区"
+    },
+    {
+      "id": "jsdf",
+      "type": "faction",
+      "label": "自卫队特地派遣方面队"
+    },
+    {
+      "id": "third-recon",
+      "type": "faction",
+      "label": "第三侦查队"
+    },
+    {
+      "id": "empire",
+      "type": "faction",
+      "label": "帝国"
+    },
+    {
+      "id": "peace-faction",
+      "type": "faction",
+      "label": "帝国讲和派"
+    },
+    {
+      "id": "war-faction",
+      "type": "faction",
+      "label": "帝国主战派"
+    },
+    {
+      "id": "alnus",
+      "type": "location",
+      "label": "阿尔努斯"
+    },
+    {
+      "id": "magic",
+      "type": "powerSystem",
+      "label": "特区魔法"
+    },
+    {
+      "id": "apostles",
+      "type": "powerSystem",
+      "label": "亚神使徒"
+    },
+    {
+      "id": "flame-dragon",
+      "type": "creature",
+      "label": "炎龙"
+    },
+    {
+      "id": "ginza-incident",
+      "type": "event",
+      "label": "银座事件"
+    },
+    {
+      "id": "tuka-luna-marceau",
+      "label": "杜嘉·露娜·马尔席",
+      "type": "character"
+    },
+    {
+      "id": "jsdf-special-region-expeditionary-force",
+      "type": "faction",
+      "label": "陆上自卫队特地派遣方面队"
+    },
+    {
+      "id": "third-recon-team",
+      "type": "faction",
+      "label": "第三侦查队"
+    },
+    {
+      "id": "japan-government",
+      "type": "faction",
+      "label": "日本政府/外务省/防卫省"
+    },
+    {
+      "id": "empire-peace-faction",
+      "type": "faction",
+      "label": "帝国讲和派"
+    },
+    {
+      "id": "empire-war-faction",
+      "type": "faction",
+      "label": "帝国主战派"
+    },
+    {
+      "id": "rose-order",
+      "type": "faction",
+      "label": "蔷薇骑士团"
+    },
+    {
+      "id": "alnus-cooperative",
+      "type": "faction",
+      "label": "阿尔努斯协同生活组合"
+    },
+    {
+      "id": "emroy-cult",
+      "type": "faction",
+      "label": "俄摩拉教团"
+    },
+    {
+      "id": "earth-great-powers",
+      "type": "faction",
+      "label": "美国/中国/俄罗斯等地球列强"
+    },
+    {
+      "id": "special-region-kingdoms-and-demi-humans",
+      "type": "faction",
+      "label": "特区诸王国与亚人部族"
+    },
+    {
+      "id": "kato-students",
+      "type": "faction",
+      "label": "加图门下",
+      "summary": "蕾莱相关师承归属。"
+    },
+    {
+      "id": "ginza",
+      "type": "location",
+      "label": "银座"
+    },
+    {
+      "id": "alnus-hill-base",
+      "type": "location",
+      "label": "阿尔努斯丘陵与自卫队基地"
+    },
+    {
+      "id": "italica",
+      "type": "location",
+      "label": "伊塔黎卡"
+    },
+    {
+      "id": "imperial-capital",
+      "type": "location",
+      "label": "帝都"
+    },
+    {
+      "id": "imperial-black-street",
+      "type": "location",
+      "label": "帝都黑街"
+    },
+    {
+      "id": "fire-dragon-territory",
+      "type": "location",
+      "label": "炎龙巢域"
+    },
+    {
+      "id": "eblan-kingdom",
+      "type": "location",
+      "label": "易北藩王国"
+    },
+    {
+      "id": "schwester",
+      "type": "location",
+      "label": "希密斯特"
+    },
+    {
+      "id": "japanese-diet-tokyo",
+      "type": "location",
+      "label": "日本国会/东京"
+    },
+    {
+      "id": "modern-military",
+      "type": "powerSystem",
+      "label": "现代军事体系"
+    },
+    {
+      "id": "apostles-gods",
+      "type": "powerSystem",
+      "label": "诸神与亚神使徒"
+    },
+    {
+      "id": "political-authority",
+      "type": "powerSystem",
+      "label": "政治权力/外交影响"
+    },
+    {
+      "id": "martial-training",
+      "type": "powerSystem",
+      "label": "冷兵器武艺/骑士训练"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ginza-incident",
+      "to": "gate",
+      "type": "opens_conflict"
+    },
+    {
+      "from": "gate",
+      "to": "special-region",
+      "type": "connects"
+    },
+    {
+      "from": "jsdf",
+      "to": "alnus",
+      "type": "occupies_base"
+    },
+    {
+      "from": "third-recon",
+      "to": "special-region",
+      "type": "scouts"
+    },
+    {
+      "from": "empire",
+      "to": "jsdf",
+      "type": "initial_enemy"
+    },
+    {
+      "from": "peace-faction",
+      "to": "jsdf",
+      "type": "negotiates"
+    },
+    {
+      "from": "war-faction",
+      "to": "jsdf",
+      "type": "continues_war"
+    },
+    {
+      "from": "magic",
+      "to": "special-region",
+      "type": "native_system"
+    },
+    {
+      "from": "apostles",
+      "to": "special-region",
+      "type": "divine_influence"
+    },
+    {
+      "from": "flame-dragon",
+      "to": "tuka-luna-marceau",
+      "type": "destroys_home"
+    }
+  ],
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
+  "campaignId": "gate-jsdf",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

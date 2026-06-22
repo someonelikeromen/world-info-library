@@ -1,14 +1,356 @@
 {
-  "schema":"rp-relationship-graph-v1","campaignId":"world-library-naruto","cardId":"naruto","nodes":[
-    {"id":"naruto-uzumaki","type":"character","name":"漩涡鸣人","aliases":[],"visibility":"public","summary":"主角与九尾人柱力。","tags":["protagonist"],"metadata":{}},
-    {"id":"sasuke-uchiha","type":"character","name":"宇智波佐助","aliases":[],"visibility":"public","summary":"鸣人的竞争者与羁绊对象。","tags":["rival"],"metadata":{}},
-    {"id":"sakura-haruno","type":"character","name":"春野樱","aliases":[],"visibility":"public","summary":"第七班医疗忍者。","tags":["team7"],"metadata":{}},
-    {"id":"kakashi-hatake","type":"character","name":"旗木卡卡西","aliases":[],"visibility":"public","summary":"第七班导师。","tags":["mentor"],"metadata":{}},
-    {"id":"akatsuki","type":"faction","name":"晓","aliases":[],"visibility":"private","summary":"猎捕尾兽组织。","tags":["antagonist"],"metadata":{}},
-    {"id":"konohagakure","type":"faction","name":"木叶隐村","aliases":[],"visibility":"public","summary":"火之国忍村。","tags":["village"],"metadata":{}}
-  ],"edges":[
-    {"id":"rel-naruto-sasuke","from":"naruto-uzumaki","to":"sasuke-uchiha","type":"rival","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"竞争、友情与拯救执念并存。"},"facets":{"trust":"B","affection":"A","fear":null,"suspicion":"C","debt":null,"loyalty":null,"hostility":"C"},"publicDescription":"二人是宿敌也是最强羁绊。","gmTruth":"佐助阶段性敌对不等于羁绊断裂。","evidence":["src-naruto-import-readme"],"history":[],"conditions":[],"notes":"按时间线调整敌友。"},
-    {"id":"rel-team7-kakashi","from":"kakashi-hatake","to":"naruto-uzumaki","type":"mentor","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"第七班师生。"},"facets":{"trust":"A","affection":"B","fear":null,"suspicion":null,"debt":null,"loyalty":"B","hostility":null},"publicDescription":"卡卡西指导鸣人、佐助和小樱。","gmTruth":"卡卡西的暗部经历影响其教学。","evidence":["src-naruto-import-readme"],"history":[],"conditions":[],"notes":""},
-    {"id":"rel-akatsuki-konoha","from":"akatsuki","to":"konohagakure","type":"enemy","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"晓猎捕九尾并袭击木叶。"},"facets":{"trust":null,"affection":null,"fear":"B","suspicion":"A","debt":null,"loyalty":null,"hostility":"A"},"publicDescription":"晓是木叶重大外部威胁。","gmTruth":"不同成员动机并不一致。","evidence":["src-naruto-classification-report"],"history":[],"conditions":[],"notes":""}
-  ],"views":{"playerVisibleNodeIds":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","konohagakure"],"gmHighlightedNodeIds":["akatsuki"],"activeSceneNodeIds":[]}
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-naruto",
+  "cardId": "naruto",
+  "nodes": [
+    {
+      "id": "naruto-uzumaki",
+      "type": "character",
+      "name": "漩涡鸣人",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "主角与九尾人柱力。",
+      "tags": [
+        "protagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "sasuke-uchiha",
+      "type": "character",
+      "name": "宇智波佐助",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "鸣人的竞争者与羁绊对象。",
+      "tags": [
+        "rival"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "sakura-haruno",
+      "type": "character",
+      "name": "春野樱",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "第七班医疗忍者。",
+      "tags": [
+        "team7"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "kakashi-hatake",
+      "type": "character",
+      "name": "旗木卡卡西",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "第七班导师。",
+      "tags": [
+        "mentor"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "akatsuki",
+      "type": "faction",
+      "name": "晓",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "猎捕尾兽组织。",
+      "tags": [
+        "antagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "konohagakure",
+      "type": "faction",
+      "name": "木叶隐村",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "火之国忍村。",
+      "tags": [
+        "village"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "itachi-uchiha",
+      "type": "character",
+      "name": "宇智波鼬",
+      "visibility": "private",
+      "summary": "宇智波天才，表面叛忍，真实动机涉及木叶高层命令与保护佐助。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "pain",
+      "type": "character",
+      "name": "佩恩/长门",
+      "visibility": "private",
+      "summary": "以痛苦带来和平为理念的晓实际领袖之一，操控六道佩恩。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "obito-uchiha",
+      "type": "character",
+      "name": "宇智波带土",
+      "visibility": "gm-only",
+      "summary": "被认为战死的宇智波，幕后推动九尾事件、晓与月之眼计划。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "madara-uchiha",
+      "type": "character",
+      "name": "宇智波斑",
+      "visibility": "gm-only",
+      "summary": "木叶创立时代的传奇强者，后期战争核心威胁。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "jiraiya",
+      "type": "character",
+      "name": "自来也",
+      "visibility": "public",
+      "summary": "木叶三忍之一，鸣人导师，追查晓。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "tsunade",
+      "type": "character",
+      "name": "纲手",
+      "visibility": "public",
+      "summary": "医疗忍术权威和木叶火影，怪力与百豪之术代表。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index to prevent relationship target misses; no new lore asserted."
+    },
+    {
+      "id": "kisame-hoshigaki",
+      "type": "character",
+      "name": "干柿鬼鲛",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "konan",
+      "type": "character",
+      "name": "小南",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "rin-nohara",
+      "type": "character",
+      "name": "野原琳",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "hashirama-senju",
+      "type": "character",
+      "name": "千手柱间",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    },
+    {
+      "id": "orochimaru",
+      "type": "character",
+      "name": "大蛇丸",
+      "visibility": "public",
+      "summary": "关系字符串引用的外部角色节点；未加入 characters-index。",
+      "resolutionStatus": "external-minimal",
+      "notes": "Added only to resolve relationship target coverage."
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-naruto-sasuke",
+      "from": "naruto-uzumaki",
+      "to": "sasuke-uchiha",
+      "type": "rival",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "竞争、友情与拯救执念并存。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "C",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "C"
+      },
+      "publicDescription": "二人是宿敌也是最强羁绊。",
+      "gmTruth": "佐助阶段性敌对不等于羁绊断裂。",
+      "evidence": [
+        "src-naruto-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "按时间线调整敌友。"
+    },
+    {
+      "id": "rel-team7-kakashi",
+      "from": "kakashi-hatake",
+      "to": "naruto-uzumaki",
+      "type": "mentor",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "第七班师生。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "B",
+        "fear": null,
+        "suspicion": null,
+        "debt": null,
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "卡卡西指导鸣人、佐助和小樱。",
+      "gmTruth": "卡卡西的暗部经历影响其教学。",
+      "evidence": [
+        "src-naruto-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-akatsuki-konoha",
+      "from": "akatsuki",
+      "to": "konohagakure",
+      "type": "enemy",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "晓猎捕九尾并袭击木叶。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": null,
+        "fear": "B",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "A"
+      },
+      "publicDescription": "晓是木叶重大外部威胁。",
+      "gmTruth": "不同成员动机并不一致。",
+      "evidence": [
+        "src-naruto-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-itachi-sasuke",
+      "from": "itachi-uchiha",
+      "to": "sasuke-uchiha",
+      "type": "brother/protective",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "兄弟关系与保护性隐情。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": "B",
+        "fear": null,
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "B"
+      },
+      "publicDescription": "鼬是佐助的兄长与复仇目标。",
+      "gmTruth": "其行动含保护佐助的隐情。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    },
+    {
+      "id": "rel-pain-naruto",
+      "from": "pain",
+      "to": "naruto-uzumaki",
+      "type": "ideological-opponent",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "痛苦、和平与复仇理念冲突。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": null,
+        "fear": "B",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "A"
+      },
+      "publicDescription": "佩恩/长门与鸣人形成重大理念冲突。",
+      "gmTruth": "冲突最终导向理解与转变。",
+      "evidence": [
+        {
+          "kind": "internal-curated-field",
+          "ref": "characters-index.relationships",
+          "note": "Derived from curated character relationship field, not external source id."
+        }
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": "Minimal relation from curated relationship string."
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "naruto-uzumaki",
+      "sasuke-uchiha",
+      "sakura-haruno",
+      "kakashi-hatake",
+      "konohagakure"
+    ],
+    "gmHighlightedNodeIds": [
+      "akatsuki"
+    ],
+    "activeSceneNodeIds": []
+  }
 }

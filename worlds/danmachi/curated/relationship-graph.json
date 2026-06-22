@@ -1,1 +1,307 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library-danmachi","cardId":"danmachi","nodes":[{"id":"bell-cranel","type":"character","name":"贝尔","aliases":[],"visibility":"public","summary":"赫斯缇雅眷族冒险者。","tags":["protagonist"],"metadata":{}},{"id":"hestia","type":"character","name":"赫斯缇雅","aliases":[],"visibility":"public","summary":"贝尔主神。","tags":["deity"],"metadata":{}},{"id":"ais-wallenstein","type":"character","name":"艾丝","aliases":["剑姬"],"visibility":"public","summary":"洛基眷族剑士。","tags":["adventurer"],"metadata":{}},{"id":"freya","type":"character","name":"芙蕾雅","aliases":[],"visibility":"private","summary":"美神。","tags":["deity"],"metadata":{}},{"id":"hestia-familia","type":"faction","name":"赫斯缇雅眷族","aliases":[],"visibility":"public","summary":"小型眷族。","tags":["familia"],"metadata":{}}],"edges":[{"id":"rel-bell-hestia","from":"hestia","to":"bell-cranel","type":"affection","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"主神对唯一初始眷族的深厚感情。"},"facets":{"trust":"A","affection":"S","fear":null,"suspicion":null,"debt":"B","loyalty":"A","hostility":null},"publicDescription":"赫斯缇雅珍视贝尔。","gmTruth":"感情会影响眷族决策。","evidence":["src-danmachi-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-bell-ais","from":"bell-cranel","to":"ais-wallenstein","type":"affection","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":80,"description":"憧憬驱动贝尔成长。"},"facets":{"trust":"B","affection":"A","fear":null,"suspicion":null,"debt":"B","loyalty":null,"hostility":null},"publicDescription":"贝尔憧憬剑姬。","gmTruth":"一途憧憬与该关系密切。","evidence":["src-danmachi-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-freya-bell","from":"freya","to":"bell-cranel","type":"secret-link","directional":true,"visibility":"private","playerKnown":false,"strength":{"level":"S","score":90,"description":"芙蕾雅强烈关注贝尔灵魂。"},"facets":{"trust":null,"affection":"A","fear":null,"suspicion":"B","debt":null,"loyalty":null,"hostility":null},"publicDescription":"未知。","gmTruth":"美神的关注可能推动大事件。","evidence":["src-danmachi-classification-report"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["bell-cranel","hestia","ais-wallenstein","hestia-familia"],"gmHighlightedNodeIds":["freya"],"activeSceneNodeIds":[]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-danmachi",
+  "cardId": "danmachi",
+  "nodes": [
+    {
+      "id": "bell-cranel",
+      "type": "character",
+      "name": "贝尔",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "赫斯缇雅眷族冒险者。",
+      "tags": [
+        "protagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "hestia",
+      "type": "character",
+      "name": "赫斯缇雅",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "贝尔主神。",
+      "tags": [
+        "deity"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ais-wallenstein",
+      "type": "character",
+      "name": "艾丝",
+      "aliases": [
+        "剑姬"
+      ],
+      "visibility": "public",
+      "summary": "洛基眷族剑士。",
+      "tags": [
+        "adventurer"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "freya",
+      "type": "character",
+      "name": "芙蕾雅",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "美神。",
+      "tags": [
+        "deity"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "hestia-familia",
+      "type": "faction",
+      "name": "赫斯缇雅眷族",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "小型眷族。",
+      "tags": [
+        "familia"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "liliruca-arde",
+      "type": "character",
+      "name": "莉莉露卡·厄德",
+      "aliases": [
+        "莉莉"
+      ],
+      "visibility": "public",
+      "summary": "支援者，后成为赫斯缇雅眷族核心成员。",
+      "tags": [
+        "supporter",
+        "strategist"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "welf-crozzo",
+      "type": "character",
+      "name": "韦尔夫·克罗佐",
+      "aliases": [
+        "魔剑锻造者"
+      ],
+      "visibility": "public",
+      "summary": "铁匠冒险者，克罗佐血脉继承者。",
+      "tags": [
+        "blacksmith",
+        "adventurer"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "ryu-lion",
+      "type": "character",
+      "name": "琉·璃昂",
+      "aliases": [
+        "疾风",
+        "精灵店员"
+      ],
+      "visibility": "private",
+      "summary": "前阿斯特莉亚眷族成员，丰饶的女主人店员，隐藏强大冒险者身份。",
+      "tags": [
+        "adventurer",
+        "waitress"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "loki",
+      "type": "character",
+      "name": "洛基",
+      "aliases": [
+        "Loki"
+      ],
+      "visibility": "public",
+      "summary": "洛基眷族主神。",
+      "tags": [
+        "deity"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "hephaestus",
+      "type": "character",
+      "name": "赫菲斯托丝",
+      "aliases": [
+        "Hephaestus"
+      ],
+      "visibility": "public",
+      "summary": "锻造神，韦尔夫关联导师。",
+      "tags": [
+        "deity",
+        "smith"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "syr-flova",
+      "type": "character",
+      "name": "希儿·福罗瓦",
+      "aliases": [
+        "Syr Flova"
+      ],
+      "visibility": "private",
+      "summary": "与琉有深厚友谊的酒馆少女身份。",
+      "tags": [
+        "hostess"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "ottar",
+      "type": "character",
+      "name": "奥塔",
+      "aliases": [
+        "Ottar"
+      ],
+      "visibility": "public",
+      "summary": "芙蕾雅眷族最强眷属。",
+      "tags": [
+        "adventurer"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-bell-hestia",
+      "from": "hestia",
+      "to": "bell-cranel",
+      "type": "affection",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "主神对唯一初始眷族的深厚感情。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "S",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "赫斯缇雅珍视贝尔。",
+      "gmTruth": "感情会影响眷族决策。",
+      "evidence": [
+        "src-danmachi-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-bell-ais",
+      "from": "bell-cranel",
+      "to": "ais-wallenstein",
+      "type": "affection",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "憧憬驱动贝尔成长。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "A",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "贝尔憧憬剑姬。",
+      "gmTruth": "一途憧憬与该关系密切。",
+      "evidence": [
+        "src-danmachi-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-freya-bell",
+      "from": "freya",
+      "to": "bell-cranel",
+      "type": "secret-link",
+      "directional": true,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "芙蕾雅强烈关注贝尔灵魂。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": "A",
+        "fear": null,
+        "suspicion": "B",
+        "debt": null,
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "未知。",
+      "gmTruth": "美神的关注可能推动大事件。",
+      "evidence": [
+        "src-danmachi-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "bell-cranel",
+      "hestia",
+      "ais-wallenstein",
+      "hestia-familia",
+      "liliruca-arde",
+      "welf-crozzo",
+      "loki",
+      "hephaestus",
+      "ottar"
+    ],
+    "gmHighlightedNodeIds": [
+      "freya",
+      "ryu-lion",
+      "syr-flova"
+    ],
+    "activeSceneNodeIds": []
+  }
+}

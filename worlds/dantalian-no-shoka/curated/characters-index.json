@@ -2,74 +2,2320 @@
   "schema": "rp-characters-index-v1",
   "worldId": "dantalian-no-shoka",
   "characters": [
-    {"id":"hugh-anthony-disward","name":"修伊·安索尼·迪斯瓦特","aliases":["修·安东尼·迪斯瓦德","修伊","休伊"],"visibility":"public","summary":"退役空军飞行员，继承祖父宅邸与黄金钥匙后成为黑之读姬的钥匙守护者。冷静、温和、行动力强，是保存与封印幻书路线的核心人物。","roles":["主角","钥匙守护者","前飞行员","调查者"],"factions":["dantalian-pair"],"locations":["disward-estate","capital"],"powerSystems":["dantalian-library","phantom-books"],"abilities":["开启丹特丽安的书架","军用格斗与枪械","飞行经验","调查与临场判断"],"items":["黄金/红宝石钥匙"],"relationships":["dalian:契约读姬/同伴","camilla-cairns:青梅竹马","hal-kamhout:理念对立但可临时合作","flamberge:焚书官搭档的读姬"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"OC 不应默认取代其钥匙守护者身份。"},
-    {"id":"dalian","name":"妲丽安","aliases":["丹特丽安","达利安","但他林","黑之读姬"],"visibility":"public","summary":"外表十二三岁的黑衣少女，体内封印九十万零六百六十六册幻书的‘丹特丽安的书架’。毒舌、怕生、傲慢，极爱炸面包和甜食，内心有温柔面。","roles":["主角","黑之读姬","壶中之天","书架守护者"],"factions":["dantalian-pair"],"locations":["disward-estate","phantom-library"],"powerSystems":["dantalian-library","phantom-books"],"abilities":["封印幻书","回应契约问答","提供对应幻书","壶中天空间转移书籍"],"items":["胸前锁","书架内幻书"],"relationships":["hugh-anthony-disward:钥匙守护者/同伴","camilla-cairns:友人","raziel:同类对立","flamberge:读姬同类"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"仪式回应常为‘否，吾乃天——壶中之天’。"},
-    {"id":"hal-kamhout","name":"哈尔·卡姆赫德","aliases":["哈尔·卡姆霍德","哈尔","教授（部分条目称谓）"],"visibility":"public","summary":"焚书官，灰发或白衣美男子形象，持银色长杖‘灾厄之枝’，将幻书作为燃料烧毁。其理念是幻书必须被彻底毁灭。","roles":["焚书官","对立者","幻书猎杀者"],"factions":["burning-officers"],"locations":["capital","razkeso-castle","dark-continent"],"powerSystems":["burning-officer-technique","phantom-books"],"abilities":["幻书装填爆发","巴流术/格斗","追踪幻书","焚毁概念魔力"],"items":["灾厄之枝","摩托车"],"relationships":["flamberge:搭档读姬","hugh-anthony-disward:理念对立/临时合作","dalian:保存派对立","yuna:被诱导利用"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"与教授称谓存在条目混用，curated 中按焚书官哈尔处理。"},
-    {"id":"flamberge","name":"芙兰蓓尔","aliases":["芙兰","芙兰卑尔奇","银之读姬","毁灭读姬","毁坏的书姬"],"visibility":"public","summary":"哈尔的搭档，身穿白色拘束衣，身体/拉链中藏有通往毁灭的门扉。她配合焚书官装填幻书并释放毁灭性业火。","roles":["银之读姬","毁灭读姬","焚书官搭档"],"factions":["burning-officers"],"locations":["capital","razkeso-castle","dark-continent"],"powerSystems":["burning-officer-technique","phantom-books"],"abilities":["开启堕落之天/毁灭之门","供哈尔装填幻书"],"items":["拘束衣","锁头","拉链门扉"],"relationships":["hal-kamhout:钥匙/搭档","dalian:读姬同类"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"仪式回应常为‘非也，吾乃天——堕落之天也’。"},
-    {"id":"raziel","name":"拉结尔","aliases":["拉洁爱尔","赤之读姬"],"visibility":"private","summary":"赤之读姬，左眼为书架入口或覆有锁头眼罩，性格残酷傲慢。她与教授观察幻稿孵化，认为幻书诞生需要疯狂。","roles":["赤之读姬","研究者搭档","对立读姬"],"factions":["professor-raziel"],"locations":["battlefront-airbase","newdwalt"],"powerSystems":["raziel-library","phantom-books"],"abilities":["开启赤之书架","观察幻稿孵化","精神压迫"],"items":["左眼书架/锁头眼罩"],"relationships":["professor:搭档","dalian:同类对立","hugh-anthony-disward:敌对观察对象"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"默认不向普通 PC 直接剧透其全部目的。"},
-    {"id":"professor","name":"教授","aliases":["幻书研究者","中性美男子"],"visibility":"private","summary":"幕后研究者，追求幻书产生过程和新幻书/幻稿实验，曾利用无面亡灵、连接之书、核分裂/集体意识等危险课题。","roles":["反派研究者","幻稿观察者"],"factions":["professor-raziel"],"locations":["battlefront-airbase","newdwalt"],"powerSystems":["raziel-library","phantom-books"],"abilities":["复活/利用死者","设计大规模实验","操纵幻稿条件"],"items":[],"relationships":["raziel:搭档","hugh-anthony-disward:敌对","dalian:敌对"],"importance":"critical","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"部分条目把哈尔也称为教授；此处作为研究幻稿的一方单独列出。"},
-    {"id":"camilla-cairns","name":"卡米拉·索尔·卡恩斯","aliases":["卡蜜拉·凯茵斯","K.K."],"visibility":"public","summary":"修伊的青梅竹马，活泼金发女性。曾买到《等价之书》，也因幽灵列车事件使母亲命运被改写。","roles":["友人","事件持书者","日常线角色"],"factions":["nobility-and-collectors"],"locations":["capital","disward-estate","glanholm-station"],"powerSystems":["phantom-books"],"abilities":["异常单纯的交易逻辑","社交行动力"],"items":["等价之书（曾持有）","古董熊布偶"],"relationships":["hugh-anthony-disward:青梅竹马","dalian:友人/赠礼对象"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"其幼年形象 K.K. 出现于时刻表事件。"},
-    {"id":"leslie","name":"蕾斯莉","aliases":["蕾丝莉"],"visibility":"public","summary":"古雷姆家的料理长，为报杀父之仇研读幻书十三年，利用《更高调理冥想书》制作极致快感脑髓料理。","roles":["料理长","复仇者","幻书使用者"],"factions":["nobility-and-collectors"],"locations":["gourmet-banquet"],"powerSystems":["phantom-books"],"abilities":["幻书料理知识","香料精神诱导","极高厨艺"],"items":["更高调理冥想书"],"relationships":["gourmet-grem:复仇对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"体现幻书对食欲与复仇的扭曲。"},
-    {"id":"gourmet-grem","name":"古雷姆·阿德基逊","aliases":["古雷姆"],"visibility":"public","summary":"偏执美食家，为追求顶级料理堕入贪欲，最终在狂喜中吞食自身脑髓。","roles":["受害者","美食家"],"factions":["nobility-and-collectors"],"locations":["gourmet-banquet"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["leslie:雇主/复仇对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"死亡场景为强烈恐怖/猎奇事件。"},
-    {"id":"saz-haston","name":"沙茲·哈斯顿","aliases":["阿修威尔之兽"],"visibility":"public","summary":"哈斯顿家次子，文弱温和，实为基因改造成功实验体，可变身巨大人兽并在火灾中保护修伊一行。","roles":["悲剧受害者","改造人","继承者候选"],"factions":["nobility-and-collectors"],"locations":["haston-estate"],"powerSystems":["phantom-books"],"abilities":["兽化","巨力","抗灾害"],"items":["万物的血统书（争夺对象）"],"relationships":["roy-haston:兄弟","boyd-haston:实验设计者/长辈"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"坏结局中可能成为暴君，但默认路线为带兄尸消失。"},
-    {"id":"roy-haston","name":"罗伊·哈斯顿","aliases":[],"visibility":"public","summary":"哈斯顿家长子/市议员，傲慢扭曲，自认优良品种却是失败作，因妒忌与自卑酿成悲剧。","roles":["反派","失败实验体"],"factions":["nobility-and-collectors"],"locations":["haston-estate"],"powerSystems":["phantom-books"],"abilities":["枪械","政治身份"],"items":[],"relationships":["saz-haston:兄弟/嫉妒对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"最终自尽。"},
-    {"id":"mabel-nash","name":"梅蓓儿·纳修","aliases":[],"visibility":"public","summary":"悲剧人偶师，利用幻书操纵木制人偶重建被轰炸城市，沉溺于虚假和平与过去记忆。","roles":["人偶师","幻书使用者","受害者"],"factions":[],"locations":["doll-warehouse-city"],"powerSystems":["phantom-books"],"abilities":["操纵人偶","维持虚假城市"],"items":["罗惇都灵宝会元"],"relationships":["hal-kamhout:焚毁其幻书者"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"引出焚书官理念。"},
-    {"id":"florence-calabos","name":"弗洛伦斯·卡拉波斯","aliases":["塔莉亚（伪装）"],"visibility":"public","summary":"贵族少女，为独占父爱和《深绿之书》制造荆棘幻境，杀害父亲与真塔莉亚后维持回春村落幻觉。","roles":["幻书滥用者","贵族少女","悲剧反派"],"factions":["nobility-and-collectors"],"locations":["calabos-estate"],"powerSystems":["phantom-books"],"abilities":["借山河社稷图生成致死幻境"],"items":["深绿之书/山河社稷图"],"relationships":[],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"不具阅读资格，幻境崩塌后坠崖。"},
-    {"id":"estella-lilburn","name":"艾斯提拉·利尔本","aliases":[],"visibility":"public","summary":"利尔本一族少女，继承杀人冲动；大佐以钟楼圣音和泥人替她消除证据，最终与山庄火海同归。","roles":["被诅咒者","委托人","悲剧少女"],"factions":["nobility-and-collectors"],"locations":["lilburn-manor"],"powerSystems":["phantom-books"],"abilities":["杀人冲动","与泥人事件关联"],"items":["胎儿之书/圣音刻印"],"relationships":[],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"泥人只能执行刻印死命令。"},
-    {"id":"eirath-alcock","name":"艾拉斯·阿尔科克","aliases":["无面亡灵"],"visibility":"private","summary":"已死飞行员，被哈尔/教授一方复活，以未完成诗稿作为幻稿，在战场收集恐惧并预读敌机心声。","roles":["亡灵飞行员","幻稿核心"],"factions":["professor-raziel","military-and-police"],"locations":["battlefront-airbase"],"powerSystems":["phantom-books","raziel-library"],"abilities":["心声预判","亡灵飞行","恐惧收集"],"items":["未完成诗集/幻稿"],"relationships":["professor:利用者","raziel:观察者"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"失败后散为尘土。"},
-    {"id":"paula-dickinson","name":"宝拉·迪金森","aliases":[],"visibility":"public","summary":"狂热读者与追星者，利用《蛇夫的遗稿》反复玩弄伦茨与拉提莎的生死，最终死于异变。","roles":["狂热粉丝","幻书滥用者"],"factions":[],"locations":["lentz-villa"],"powerSystems":["phantom-books"],"abilities":["复活仪式操控"],"items":["蛇夫的遗稿"],"relationships":["renny-lentz:施害对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"体现死者复活作为诅咒。"},
-    {"id":"renny-lentz","name":"雷尼·伦茨","aliases":[],"visibility":"public","summary":"畅销作家，被宝拉囚禁，与恋人拉提莎共享一命一日的复活诅咒，在循环绝望中异化。","roles":["作家","受害者"],"factions":[],"locations":["lentz-villa"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["paula-dickinson:施害者","latisha:恋人"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"与恋人最终化为光之巨人/尘土。"},
-    {"id":"latisha","name":"拉提莎","aliases":[],"visibility":"public","summary":"伦茨的恋人，与其在《蛇夫的遗稿》诅咒中轮替生死。","roles":["受害者","恋人"],"factions":[],"locations":["lentz-villa"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["renny-lentz:恋人"],"importance":"low","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"作为复活代价结构中的另一端。"},
-    {"id":"yolanda","name":"约兰达","aliases":[],"visibility":"public","summary":"修伊的婶婶，被丈夫用《忘却之书》抹去愤怒记忆；恢复记忆后对丈夫实施制裁。","roles":["受害者","亲属"],"factions":[],"locations":["hildenbrand-house"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["david:夫妻/加害者"],"importance":"low","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"坏结局为人格被彻底抹除。"},
-    {"id":"viola-duplessis","name":"维奥拉·迪普莱西","aliases":["水银细工"],"visibility":"public","summary":"里社交界名妓，实为麦尔加制造的水银人偶/人工生命；在求婚幻书事件中成为众人争夺对象。","roles":["人造人","名妓","事件核心"],"factions":["nobility-and-collectors"],"locations":["capital"],"powerSystems":["alchemy-mechanics-and-artifice","phantom-books"],"abilities":["人偶身体","水银血液"],"items":[],"relationships":["melgar:创造者","alman-jeremiah:追求者之一"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"结局随真爱男爵离去。"},
-    {"id":"melgar","name":"麦尔加","aliases":["伯爵","魔术师"],"visibility":"private","summary":"古老强大的魔术师/炼金术师，将生命视作实验，创造维奥拉并试图回收实验品。","roles":["魔术师","炼金术师","反派"],"factions":["nobility-and-collectors"],"locations":["capital"],"powerSystems":["alchemy-mechanics-and-artifice","phantom-books"],"abilities":["物质召唤","火球攻击","人工生命制造"],"items":[],"relationships":["viola-duplessis:创造物"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"被多本幻书联合作用击退。"},
-    {"id":"alman-jeremiah","name":"阿尔曼·耶利米","aliases":["阿鲁曼·杰里麦亚","小鸡"],"visibility":"public","summary":"修伊的学弟/战友，轻浮且容易被幻书迷惑。曾追求维奥拉，也因《连理之书》卷入未婚妻诅咒。","roles":["修伊学弟","轻浮青年","事件受害者"],"factions":["military-and-police"],"locations":["capital"],"powerSystems":["phantom-books"],"abilities":[],"items":["连理之书（曾持有）"],"relationships":["hugh-anthony-disward:学长/友人","rianna-schker:未婚妻"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"多次作为喜剧性麻烦制造者。"},
-    {"id":"rianna-schker","name":"里安娜·史克尔","aliases":[],"visibility":"public","summary":"阿尔曼未婚妻，因《连理之书》将纯粹爱意和嫉妒化为追杀与死亡诅咒。","roles":["未婚妻","诅咒触发者"],"factions":[],"locations":["capital"],"powerSystems":["phantom-books"],"abilities":["嫉妒触发诅咒","火焰/荆棘追杀表现"],"items":[],"relationships":["alman-jeremiah:未婚夫"],"importance":"low","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"诅咒逻辑以‘直到死亡将两人分开’终止。"},
-    {"id":"jessica-elphinstone","name":"洁西卡·艾尔芬斯顿","aliases":[],"visibility":"public","summary":"名门女校学生，勇敢认真且固执。协助调查寄宿学校杀人案，后在大西洋沿岸号与修伊、妲丽安共患难。","roles":["学生","目击者","协助者"],"factions":["nobility-and-collectors"],"locations":["girls-boarding-school","atlantic-coast"],"powerSystems":["phantom-books"],"abilities":["胆量","观察力"],"items":[],"relationships":["dalian:吵闹友人","hugh-anthony-disward:协助对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"与妲丽安互怼构成日常喜剧。"},
-    {"id":"christabel-sustin","name":"克莉丝托贝尔·撒斯汀","aliases":["克莉丝托贝尔","机械读姬"],"visibility":"public","summary":"天才小提琴手，真实身份是达拉里欧为演奏幻曲创造的机械人偶。最后选择悲伤的〈黄昏〉让音乐厅崩塌。","roles":["机械人偶","小提琴家","幻曲载体"],"factions":[],"locations":["sustin-concert-hall"],"powerSystems":["alchemy-mechanics-and-artifice","phantom-books"],"abilities":["超人琴技","演奏幻曲"],"items":["帕尔迪尼幻曲乐谱"],"relationships":["dallario-hayward:创造者/守护者"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"机械人偶产生自我与幸福感的悲剧线。"},
-    {"id":"dallario-hayward","name":"达拉里欧·海沃特","aliases":[],"visibility":"public","summary":"机械工匠，克莉丝托贝尔创造者，懦弱但痴情，临终前希望她能得到人类般的幸福。","roles":["机械工匠","创造者"],"factions":[],"locations":["sustin-concert-hall"],"powerSystems":["alchemy-mechanics-and-artifice"],"abilities":["机械人偶制造"],"items":[],"relationships":["christabel-sustin:创造物/爱护对象"],"importance":"low","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"被商人阴谋牺牲。"},
-    {"id":"fiona-famernia","name":"菲欧娜·法曼尼雅","aliases":[],"visibility":"public","summary":"天才调香师，拥有能识破谎言的超凡嗅觉。为阻止‘圣水’危害世间，诱发商会自毁并在火灾中牺牲。","roles":["调香师","牺牲者","幻书事件核心"],"factions":["nobility-and-collectors"],"locations":["fiona-lab","capital"],"powerSystems":["phantom-books"],"abilities":["超凡嗅觉","香气调配","识破谎言"],"items":["香神经疏","圣水"],"relationships":["north:敌人","dalian:短暂理解者"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"以‘温柔谎言的味道’点出妲丽安的悲伤。"},
-    {"id":"north","name":"诺斯","aliases":[],"visibility":"public","summary":"帕德克商会雇佣杀手，吸入圣水后无痛觉、反应超人，能以刀尖拨开子弹。","roles":["杀手","强化人类"],"factions":["nobility-and-collectors"],"locations":["capital"],"powerSystems":["phantom-books"],"abilities":["无痛觉","超反应","刀术"],"items":["圣水"],"relationships":["fiona-famernia:敌人"],"importance":"low","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"最终因痛觉逆转/增幅而死。"},
-    {"id":"yuna","name":"优娜","aliases":["幻书窃贼","秘银"],"visibility":"private","summary":"神秘女子，可伪装成医生、刑警等身份。追求特定幻书并诱导哈尔将其焚毁，自称或实质上在‘解放’幻书。","roles":["幻书窃贼","伪装者","第三方"],"factions":["phantom-book-thieves"],"locations":["razkeso-castle"],"powerSystems":["phantom-books"],"abilities":["伪装潜入","使用无脸之书","操盘局势"],"items":["无脸之书"],"relationships":["hal-kamhout:利用/对手","alisa-razkeso:恩人式解救对象"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"有能化身为神明能力的伏笔，默认 gm-only 展开。"},
-    {"id":"hildegarde","name":"希德嘉","aliases":[],"visibility":"private","summary":"雷兹凯索城堡悲剧核心，被兄长亚金伯爵囚禁至死后利用化妆板制造离魂体，试图夺取侄女爱莉纱身体。","roles":["亡灵/离魂体","悲剧反派"],"factions":["nobility-and-collectors"],"locations":["razkeso-castle"],"powerSystems":["phantom-books"],"abilities":["制造离魂体","召唤使魔","夺取生气"],"items":["美丽奈茨的化妆板"],"relationships":["alisa-razkeso:侄女/夺体对象","yuna:局中对手"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"涉及血亲禁忌爱恨，默认谨慎呈现。"},
-    {"id":"alisa-razkeso","name":"爱莉纱","aliases":[],"visibility":"public","summary":"雷兹凯索城堡领主之女/侄女，被希德嘉离魂体夺走生气而病弱，事件结束后恢复健康。","roles":["贵族少女","受害者"],"factions":["nobility-and-collectors"],"locations":["razkeso-castle"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["hildegarde:加害者/亲族","yuna:救助者"],"importance":"low","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"现代医学无法解释其病症。"},
-    {"id":"heiling","name":"海灵","aliases":[],"visibility":"public","summary":"持有《奥尔德·布兰德萧的时刻表》的男子，为弥补十二年前事故中的懦弱而牺牲，帮助改写卡蜜拉母亲死亡命运。","roles":["赎罪者","幻书持有者"],"factions":[],"locations":["glanholm-station","ghost-train"],"powerSystems":["phantom-books"],"abilities":["时刻表引导时空重叠"],"items":["奥尔德·布兰德萧的时刻表"],"relationships":["camilla-cairns:间接拯救其母"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"默认路线中留在火车头牺牲。"},
-    {"id":"heath","name":"希斯","aliases":["金白猫","阴阳眼猫"],"visibility":"public","summary":"拥有阴阳眼且带未来记忆转生的猫，毁坏古代园艺贝叶本以阻止未来生态灾难和全球瘟疫。","roles":["动物角色","未来记忆携带者"],"factions":[],"locations":["disward-estate"],"powerSystems":["phantom-books"],"abilities":["未来记忆","梦境交流","因果干预"],"items":[],"relationships":["dalian:梦中交流者"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"体现不应存在知识可被毁坏以守护世界。"},
-    {"id":"torvaldsen","name":"托尔瓦德森","aliases":[],"visibility":"public","summary":"大西洋沿岸号原船长，其灵魂/身份已被鹦鹉记忆和航海日志取代，成为幽灵船循环的一部分。","roles":["船长","幽灵船角色"],"factions":[],"locations":["atlantic-coast"],"powerSystems":["phantom-books"],"abilities":[],"items":["航海日志"],"relationships":["parrot:真正读者/取代者"],"importance":"low","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"船长身份在循环中已非普通人类。"},
-    {"id":"parrot","name":"鹦鹉","aliases":["大西洋沿岸号真正读者"],"visibility":"private","summary":"学会人类语言的鹦鹉，记忆船长留下的《航海日志》幻书，维持幽灵船七十年死亡循环。","roles":["非人读者","幻书读者"],"factions":[],"locations":["atlantic-coast"],"powerSystems":["phantom-books"],"abilities":["记录航海","维持船只循环","语言模仿"],"items":["航海日志"],"relationships":["torvaldsen:取代/记忆对象"],"importance":"medium","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"真正读者身份适合调查反转。"},
-    {"id":"emilia-eva","name":"艾米莉亚 / 艾娃","aliases":["灰眸修女","双胞胎姐妹"],"visibility":"private","summary":"纽德沃尔特双胞胎姐妹，意识因《连接之书》融合。艾米莉亚守护病人，最终请求终结连接，以忘却解放全镇。","roles":["修女","牺牲者","集体意识核心"],"factions":[],"locations":["newdwalt"],"powerSystems":["phantom-books"],"abilities":["与集体意识连接","释放活体电流","承载多人意识"],"items":["连接之书"],"relationships":["professor:实验加害者","raziel:敌对观察者","hugh-anthony-disward:给予忘却者"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"默认正常路线以《忘却之书》让痛苦消失。"},
-    {"id":"wesley-disward","name":"卫斯理·迪斯瓦特子爵","aliases":["修伊的祖父"],"visibility":"private","summary":"修伊祖父，原宅邸与钥匙遗留者，蒐书狂，其遗产使修伊接触丹特丽安的书架。","roles":["前代持有者","遗产源头"],"factions":["dantalian-pair"],"locations":["disward-estate"],"powerSystems":["dantalian-library","phantom-books"],"abilities":[],"items":["宅邸","钥匙","藏书"],"relationships":["hugh-anthony-disward:祖孙"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"其旧宅和遗产是多条剧情开端。"},
-    {"id":"leo","name":"雷欧","aliases":[],"visibility":"public","summary":"第六卷红砖宅邸/不死杀手事件中与修伊会合的相关人物，卷入印刷品与正本文字咒力关联。","roles":["协助者","事件相关者"],"factions":[],"locations":["red-brick-mansion"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":["hugh-anthony-disward:会合/协助"],"importance":"low","evidenceLevel":"C","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"归档摘要信息较少，后续可细读第六卷补全。"},
-    {"id":"wesley-assassin","name":"卫斯理（杀手）","aliases":["不死杀手","雏形"],"visibility":"private","summary":"第六卷不死杀手追踪战核心，印刷品与正本之间的文字咒力使其呈现异常不死性。","roles":["杀手","幻书异常体"],"factions":[],"locations":["red-brick-mansion"],"powerSystems":["phantom-books"],"abilities":["不死性","追踪/暗杀"],"items":[],"relationships":[],"importance":"low","evidenceLevel":"C","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"与祖父卫斯理同名，需上下文区分。"},
-    {"id":"olrick","name":"欧立克","aliases":[],"visibility":"private","summary":"冰岛移动地下宅邸相关人物，为复活亡女执着于机关与幻书，制造地下三层移动要塞般的宅邸。","roles":["父亲","机关宅邸主人","悲剧实验者"],"factions":["nobility-and-collectors"],"locations":["olrick-mansion"],"powerSystems":["phantom-books"],"abilities":["机关宅邸设计/运用"],"items":[],"relationships":[],"importance":"low","evidenceLevel":"C","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"第六卷细节待补。"},
-    {"id":"oliver","name":"奥利佛·葛雷","aliases":["奥利佛"],"visibility":"public","summary":"第七卷人物，卷入被伪装成外星诅咒的媚药魔导书事件。","roles":["事件角色"],"factions":[],"locations":["wesley-old-house"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":[],"importance":"low","evidenceLevel":"C","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"归档中仅摘要列名，待细化。"},
-    {"id":"henry-javiston","name":"亨利·贾威斯顿","aliases":[],"visibility":"private","summary":"探险家，留下‘幻书墓园’之谜，引导修伊与妲丽安远赴黑暗大陆。","roles":["探险家","线索提供者"],"factions":[],"locations":["dark-continent"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"其谜题牵出王威之书与矿物生命体。"},
-    {"id":"godin","name":"高丁","aliases":["新闻王"],"visibility":"public","summary":"利欲熏心的新闻王，在黑暗大陆事件中施压众人，卷入王威之书与矿物生命体真相。","roles":["新闻王","利益追逐者"],"factions":["nobility-and-collectors"],"locations":["dark-continent"],"powerSystems":["phantom-books"],"abilities":["媒体影响力","金钱与威压"],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"体现资本/媒体对幻书的掠夺。"},
-    {"id":"judy","name":"茱蒂","aliases":[],"visibility":"public","summary":"平凡少女，与妲丽安因罗西提饼干绘本‘最后之书’展开荒诞争夺。","roles":["日常事件角色","收集对手"],"factions":[],"locations":["roscetti-shop"],"powerSystems":[],"abilities":[],"items":["罗西提饼干绘本"],"relationships":["dalian:收集竞争者"],"importance":"low","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"偏日常喜剧线。"},
-    {"id":"mithril","name":"怪盗秘银","aliases":["秘银"],"visibility":"private","summary":"第八卷阿斯奎斯侯爵府事件中的怪盗介入者，与永恒黄昏透视画馆和活祭仪式相关。","roles":["怪盗","第三方介入者"],"factions":["phantom-book-thieves"],"locations":["asquith-mansion"],"powerSystems":["phantom-books"],"abilities":["潜入","盗取"],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"可能与优娜/幻书窃贼线需区分。"},
-    {"id":"lifia-asquith","name":"莉菲雅","aliases":["侯爵千金"],"visibility":"private","summary":"阿斯奎斯侯爵府事件中的千金，卷入《永恒黄昏的透视画馆》构筑的活祭与长生噩梦。","roles":["贵族千金","祭品/悲剧核心"],"factions":["nobility-and-collectors"],"locations":["asquith-mansion"],"powerSystems":["phantom-books"],"abilities":[],"items":[],"relationships":[],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-dantalian-no-shoka-001"],"notes":"第八卷核心悲剧人物。"}
+    {
+      "id": "hugh-anthony-disward",
+      "name": "修伊·安索尼·迪斯瓦特",
+      "aliases": [
+        "修·安东尼·迪斯瓦德",
+        "修伊",
+        "休伊"
+      ],
+      "visibility": "public",
+      "summary": "退役空军飞行员，继承祖父宅邸与黄金钥匙后成为黑之读姬的钥匙守护者。冷静、温和、行动力强，是保存与封印幻书路线的核心人物。",
+      "roles": [
+        "主角",
+        "钥匙守护者",
+        "前飞行员",
+        "调查者"
+      ],
+      "factions": [
+        "dantalian-pair"
+      ],
+      "locations": [
+        "disward-estate",
+        "capital"
+      ],
+      "powerSystems": [
+        "dantalian-library",
+        "phantom-books"
+      ],
+      "abilities": [
+        "开启丹特丽安的书架",
+        "军用格斗与枪械",
+        "飞行经验",
+        "调查与临场判断"
+      ],
+      "items": [
+        "黄金/红宝石钥匙"
+      ],
+      "relationships": [
+        "dalian:契约读姬/同伴",
+        "camilla-cairns:青梅竹马",
+        "hal-kamhout:理念对立但可临时合作",
+        "flamberge:焚书官搭档的读姬"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "OC 不应默认取代其钥匙守护者身份。"
+    },
+    {
+      "id": "dalian",
+      "name": "妲丽安",
+      "aliases": [
+        "丹特丽安",
+        "达利安",
+        "但他林",
+        "黑之读姬"
+      ],
+      "visibility": "public",
+      "summary": "外表十二三岁的黑衣少女，体内封印九十万零六百六十六册幻书的‘丹特丽安的书架’。毒舌、怕生、傲慢，极爱炸面包和甜食，内心有温柔面。",
+      "roles": [
+        "主角",
+        "黑之读姬",
+        "壶中之天",
+        "书架守护者"
+      ],
+      "factions": [
+        "dantalian-pair"
+      ],
+      "locations": [
+        "disward-estate",
+        "phantom-library"
+      ],
+      "powerSystems": [
+        "dantalian-library",
+        "phantom-books"
+      ],
+      "abilities": [
+        "封印幻书",
+        "回应契约问答",
+        "提供对应幻书",
+        "壶中天空间转移书籍"
+      ],
+      "items": [
+        "胸前锁",
+        "书架内幻书"
+      ],
+      "relationships": [
+        "hugh-anthony-disward:钥匙守护者/同伴",
+        "camilla-cairns:友人",
+        "raziel:同类对立",
+        "flamberge:读姬同类"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "仪式回应常为‘否，吾乃天——壶中之天’。"
+    },
+    {
+      "id": "hal-kamhout",
+      "name": "哈尔·卡姆赫德",
+      "aliases": [
+        "哈尔·卡姆霍德",
+        "哈尔",
+        "教授（部分条目称谓）"
+      ],
+      "visibility": "public",
+      "summary": "焚书官，灰发或白衣美男子形象，持银色长杖‘灾厄之枝’，将幻书作为燃料烧毁。其理念是幻书必须被彻底毁灭。",
+      "roles": [
+        "焚书官",
+        "对立者",
+        "幻书猎杀者"
+      ],
+      "factions": [
+        "burning-officers"
+      ],
+      "locations": [
+        "capital",
+        "razkeso-castle",
+        "dark-continent"
+      ],
+      "powerSystems": [
+        "burning-officer-technique",
+        "phantom-books"
+      ],
+      "abilities": [
+        "幻书装填爆发",
+        "巴流术/格斗",
+        "追踪幻书",
+        "焚毁概念魔力"
+      ],
+      "items": [
+        "灾厄之枝",
+        "摩托车"
+      ],
+      "relationships": [
+        "flamberge:搭档读姬",
+        "hugh-anthony-disward:理念对立/临时合作",
+        "dalian:保存派对立",
+        "yuna:被诱导利用"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "与教授称谓存在条目混用，curated 中按焚书官哈尔处理。"
+    },
+    {
+      "id": "flamberge",
+      "name": "芙兰蓓尔",
+      "aliases": [
+        "芙兰",
+        "芙兰卑尔奇",
+        "银之读姬",
+        "毁灭读姬",
+        "毁坏的书姬"
+      ],
+      "visibility": "public",
+      "summary": "哈尔的搭档，身穿白色拘束衣，身体/拉链中藏有通往毁灭的门扉。她配合焚书官装填幻书并释放毁灭性业火。",
+      "roles": [
+        "银之读姬",
+        "毁灭读姬",
+        "焚书官搭档"
+      ],
+      "factions": [
+        "burning-officers"
+      ],
+      "locations": [
+        "capital",
+        "razkeso-castle",
+        "dark-continent"
+      ],
+      "powerSystems": [
+        "burning-officer-technique",
+        "phantom-books"
+      ],
+      "abilities": [
+        "开启堕落之天/毁灭之门",
+        "供哈尔装填幻书"
+      ],
+      "items": [
+        "拘束衣",
+        "锁头",
+        "拉链门扉"
+      ],
+      "relationships": [
+        "hal-kamhout:钥匙/搭档",
+        "dalian:读姬同类"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "仪式回应常为‘非也，吾乃天——堕落之天也’。"
+    },
+    {
+      "id": "raziel",
+      "name": "拉结尔",
+      "aliases": [
+        "拉洁爱尔",
+        "赤之读姬"
+      ],
+      "visibility": "private",
+      "summary": "赤之读姬，左眼为书架入口或覆有锁头眼罩，性格残酷傲慢。她与教授观察幻稿孵化，认为幻书诞生需要疯狂。",
+      "roles": [
+        "赤之读姬",
+        "研究者搭档",
+        "对立读姬"
+      ],
+      "factions": [
+        "professor-raziel"
+      ],
+      "locations": [
+        "battlefront-airbase",
+        "newdwalt"
+      ],
+      "powerSystems": [
+        "raziel-library",
+        "phantom-books"
+      ],
+      "abilities": [
+        "开启赤之书架",
+        "观察幻稿孵化",
+        "精神压迫"
+      ],
+      "items": [
+        "左眼书架/锁头眼罩"
+      ],
+      "relationships": [
+        "professor:搭档",
+        "dalian:同类对立",
+        "hugh-anthony-disward:敌对观察对象"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "默认不向普通 PC 直接剧透其全部目的。"
+    },
+    {
+      "id": "professor",
+      "name": "教授",
+      "aliases": [
+        "幻书研究者",
+        "中性美男子"
+      ],
+      "visibility": "private",
+      "summary": "幕后研究者，追求幻书产生过程和新幻书/幻稿实验，曾利用无面亡灵、连接之书、核分裂/集体意识等危险课题。",
+      "roles": [
+        "反派研究者",
+        "幻稿观察者"
+      ],
+      "factions": [
+        "professor-raziel"
+      ],
+      "locations": [
+        "battlefront-airbase",
+        "newdwalt"
+      ],
+      "powerSystems": [
+        "raziel-library",
+        "phantom-books"
+      ],
+      "abilities": [
+        "复活/利用死者",
+        "设计大规模实验",
+        "操纵幻稿条件"
+      ],
+      "items": [],
+      "relationships": [
+        "raziel:搭档",
+        "hugh-anthony-disward:敌对",
+        "dalian:敌对"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "部分条目把哈尔也称为教授；此处作为研究幻稿的一方单独列出。"
+    },
+    {
+      "id": "camilla-cairns",
+      "name": "卡米拉·索尔·卡恩斯",
+      "aliases": [
+        "卡蜜拉·凯茵斯",
+        "K.K."
+      ],
+      "visibility": "public",
+      "summary": "修伊的青梅竹马，活泼金发女性。曾买到《等价之书》，也因幽灵列车事件使母亲命运被改写。",
+      "roles": [
+        "友人",
+        "事件持书者",
+        "日常线角色"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "capital",
+        "disward-estate",
+        "glanholm-station"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "异常单纯的交易逻辑",
+        "社交行动力"
+      ],
+      "items": [
+        "等价之书（曾持有）",
+        "古董熊布偶"
+      ],
+      "relationships": [
+        "hugh-anthony-disward:青梅竹马",
+        "dalian:友人/赠礼对象"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "其幼年形象 K.K. 出现于时刻表事件。"
+    },
+    {
+      "id": "leslie",
+      "name": "蕾斯莉",
+      "aliases": [
+        "蕾丝莉"
+      ],
+      "visibility": "public",
+      "summary": "古雷姆家的料理长，为报杀父之仇研读幻书十三年，利用《更高调理冥想书》制作极致快感脑髓料理。",
+      "roles": [
+        "料理长",
+        "复仇者",
+        "幻书使用者"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "gourmet-banquet"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "幻书料理知识",
+        "香料精神诱导",
+        "极高厨艺"
+      ],
+      "items": [
+        "更高调理冥想书"
+      ],
+      "relationships": [
+        "gourmet-grem:复仇对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "体现幻书对食欲与复仇的扭曲。"
+    },
+    {
+      "id": "gourmet-grem",
+      "name": "古雷姆·阿德基逊",
+      "aliases": [
+        "古雷姆"
+      ],
+      "visibility": "public",
+      "summary": "偏执美食家，为追求顶级料理堕入贪欲，最终在狂喜中吞食自身脑髓。",
+      "roles": [
+        "受害者",
+        "美食家"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "gourmet-banquet"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "leslie:雇主/复仇对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "死亡场景为强烈恐怖/猎奇事件。"
+    },
+    {
+      "id": "saz-haston",
+      "name": "沙茲·哈斯顿",
+      "aliases": [
+        "阿修威尔之兽"
+      ],
+      "visibility": "public",
+      "summary": "哈斯顿家次子，文弱温和，实为基因改造成功实验体，可变身巨大人兽并在火灾中保护修伊一行。",
+      "roles": [
+        "悲剧受害者",
+        "改造人",
+        "继承者候选"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "haston-estate"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "兽化",
+        "巨力",
+        "抗灾害"
+      ],
+      "items": [
+        "万物的血统书（争夺对象）"
+      ],
+      "relationships": [
+        "roy-haston:兄弟",
+        "boyd-haston:实验设计者/长辈"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "坏结局中可能成为暴君，但默认路线为带兄尸消失。"
+    },
+    {
+      "id": "roy-haston",
+      "name": "罗伊·哈斯顿",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "哈斯顿家长子/市议员，傲慢扭曲，自认优良品种却是失败作，因妒忌与自卑酿成悲剧。",
+      "roles": [
+        "反派",
+        "失败实验体"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "haston-estate"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "枪械",
+        "政治身份"
+      ],
+      "items": [],
+      "relationships": [
+        "saz-haston:兄弟/嫉妒对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "最终自尽。"
+    },
+    {
+      "id": "mabel-nash",
+      "name": "梅蓓儿·纳修",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "悲剧人偶师，利用幻书操纵木制人偶重建被轰炸城市，沉溺于虚假和平与过去记忆。",
+      "roles": [
+        "人偶师",
+        "幻书使用者",
+        "受害者"
+      ],
+      "factions": [],
+      "locations": [
+        "doll-warehouse-city"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "操纵人偶",
+        "维持虚假城市"
+      ],
+      "items": [
+        "罗惇都灵宝会元"
+      ],
+      "relationships": [
+        "hal-kamhout:焚毁其幻书者"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "引出焚书官理念。"
+    },
+    {
+      "id": "florence-calabos",
+      "name": "弗洛伦斯·卡拉波斯",
+      "aliases": [
+        "塔莉亚（伪装）"
+      ],
+      "visibility": "public",
+      "summary": "贵族少女，为独占父爱和《深绿之书》制造荆棘幻境，杀害父亲与真塔莉亚后维持回春村落幻觉。",
+      "roles": [
+        "幻书滥用者",
+        "贵族少女",
+        "悲剧反派"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "calabos-estate"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "借山河社稷图生成致死幻境"
+      ],
+      "items": [
+        "深绿之书/山河社稷图"
+      ],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "不具阅读资格，幻境崩塌后坠崖。"
+    },
+    {
+      "id": "estella-lilburn",
+      "name": "艾斯提拉·利尔本",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "利尔本一族少女，继承杀人冲动；大佐以钟楼圣音和泥人替她消除证据，最终与山庄火海同归。",
+      "roles": [
+        "被诅咒者",
+        "委托人",
+        "悲剧少女"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "lilburn-manor"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "杀人冲动",
+        "与泥人事件关联"
+      ],
+      "items": [
+        "胎儿之书/圣音刻印"
+      ],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "泥人只能执行刻印死命令。"
+    },
+    {
+      "id": "eirath-alcock",
+      "name": "艾拉斯·阿尔科克",
+      "aliases": [
+        "无面亡灵"
+      ],
+      "visibility": "private",
+      "summary": "已死飞行员，被哈尔/教授一方复活，以未完成诗稿作为幻稿，在战场收集恐惧并预读敌机心声。",
+      "roles": [
+        "亡灵飞行员",
+        "幻稿核心"
+      ],
+      "factions": [
+        "professor-raziel",
+        "military-and-police"
+      ],
+      "locations": [
+        "battlefront-airbase"
+      ],
+      "powerSystems": [
+        "phantom-books",
+        "raziel-library"
+      ],
+      "abilities": [
+        "心声预判",
+        "亡灵飞行",
+        "恐惧收集"
+      ],
+      "items": [
+        "未完成诗集/幻稿"
+      ],
+      "relationships": [
+        "professor:利用者",
+        "raziel:观察者"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "失败后散为尘土。"
+    },
+    {
+      "id": "paula-dickinson",
+      "name": "宝拉·迪金森",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "狂热读者与追星者，利用《蛇夫的遗稿》反复玩弄伦茨与拉提莎的生死，最终死于异变。",
+      "roles": [
+        "狂热粉丝",
+        "幻书滥用者"
+      ],
+      "factions": [],
+      "locations": [
+        "lentz-villa"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "复活仪式操控"
+      ],
+      "items": [
+        "蛇夫的遗稿"
+      ],
+      "relationships": [
+        "renny-lentz:施害对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "体现死者复活作为诅咒。"
+    },
+    {
+      "id": "renny-lentz",
+      "name": "雷尼·伦茨",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "畅销作家，被宝拉囚禁，与恋人拉提莎共享一命一日的复活诅咒，在循环绝望中异化。",
+      "roles": [
+        "作家",
+        "受害者"
+      ],
+      "factions": [],
+      "locations": [
+        "lentz-villa"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "paula-dickinson:施害者",
+        "latisha:恋人"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "与恋人最终化为光之巨人/尘土。"
+    },
+    {
+      "id": "latisha",
+      "name": "拉提莎",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "伦茨的恋人，与其在《蛇夫的遗稿》诅咒中轮替生死。",
+      "roles": [
+        "受害者",
+        "恋人"
+      ],
+      "factions": [],
+      "locations": [
+        "lentz-villa"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "renny-lentz:恋人"
+      ],
+      "importance": "low",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "作为复活代价结构中的另一端。"
+    },
+    {
+      "id": "yolanda",
+      "name": "约兰达",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "修伊的婶婶，被丈夫用《忘却之书》抹去愤怒记忆；恢复记忆后对丈夫实施制裁。",
+      "roles": [
+        "受害者",
+        "亲属"
+      ],
+      "factions": [],
+      "locations": [
+        "hildenbrand-house"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "david:夫妻/加害者"
+      ],
+      "importance": "low",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "坏结局为人格被彻底抹除。"
+    },
+    {
+      "id": "viola-duplessis",
+      "name": "维奥拉·迪普莱西",
+      "aliases": [
+        "水银细工"
+      ],
+      "visibility": "public",
+      "summary": "里社交界名妓，实为麦尔加制造的水银人偶/人工生命；在求婚幻书事件中成为众人争夺对象。",
+      "roles": [
+        "人造人",
+        "名妓",
+        "事件核心"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "capital"
+      ],
+      "powerSystems": [
+        "alchemy-mechanics-and-artifice",
+        "phantom-books"
+      ],
+      "abilities": [
+        "人偶身体",
+        "水银血液"
+      ],
+      "items": [],
+      "relationships": [
+        "melgar:创造者",
+        "alman-jeremiah:追求者之一"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "结局随真爱男爵离去。"
+    },
+    {
+      "id": "melgar",
+      "name": "麦尔加",
+      "aliases": [
+        "伯爵",
+        "魔术师"
+      ],
+      "visibility": "private",
+      "summary": "古老强大的魔术师/炼金术师，将生命视作实验，创造维奥拉并试图回收实验品。",
+      "roles": [
+        "魔术师",
+        "炼金术师",
+        "反派"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "capital"
+      ],
+      "powerSystems": [
+        "alchemy-mechanics-and-artifice",
+        "phantom-books"
+      ],
+      "abilities": [
+        "物质召唤",
+        "火球攻击",
+        "人工生命制造"
+      ],
+      "items": [],
+      "relationships": [
+        "viola-duplessis:创造物"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "被多本幻书联合作用击退。"
+    },
+    {
+      "id": "alman-jeremiah",
+      "name": "阿尔曼·耶利米",
+      "aliases": [
+        "阿鲁曼·杰里麦亚",
+        "小鸡"
+      ],
+      "visibility": "public",
+      "summary": "修伊的学弟/战友，轻浮且容易被幻书迷惑。曾追求维奥拉，也因《连理之书》卷入未婚妻诅咒。",
+      "roles": [
+        "修伊学弟",
+        "轻浮青年",
+        "事件受害者"
+      ],
+      "factions": [
+        "military-and-police"
+      ],
+      "locations": [
+        "capital"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [
+        "连理之书（曾持有）"
+      ],
+      "relationships": [
+        "hugh-anthony-disward:学长/友人",
+        "rianna-schker:未婚妻"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "多次作为喜剧性麻烦制造者。"
+    },
+    {
+      "id": "rianna-schker",
+      "name": "里安娜·史克尔",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "阿尔曼未婚妻，因《连理之书》将纯粹爱意和嫉妒化为追杀与死亡诅咒。",
+      "roles": [
+        "未婚妻",
+        "诅咒触发者"
+      ],
+      "factions": [],
+      "locations": [
+        "capital"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "嫉妒触发诅咒",
+        "火焰/荆棘追杀表现"
+      ],
+      "items": [],
+      "relationships": [
+        "alman-jeremiah:未婚夫"
+      ],
+      "importance": "low",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "诅咒逻辑以‘直到死亡将两人分开’终止。"
+    },
+    {
+      "id": "jessica-elphinstone",
+      "name": "洁西卡·艾尔芬斯顿",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "名门女校学生，勇敢认真且固执。协助调查寄宿学校杀人案，后在大西洋沿岸号与修伊、妲丽安共患难。",
+      "roles": [
+        "学生",
+        "目击者",
+        "协助者"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "girls-boarding-school",
+        "atlantic-coast"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "胆量",
+        "观察力"
+      ],
+      "items": [],
+      "relationships": [
+        "dalian:吵闹友人",
+        "hugh-anthony-disward:协助对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "与妲丽安互怼构成日常喜剧。"
+    },
+    {
+      "id": "christabel-sustin",
+      "name": "克莉丝托贝尔·撒斯汀",
+      "aliases": [
+        "克莉丝托贝尔",
+        "机械读姬"
+      ],
+      "visibility": "public",
+      "summary": "天才小提琴手，真实身份是达拉里欧为演奏幻曲创造的机械人偶。最后选择悲伤的〈黄昏〉让音乐厅崩塌。",
+      "roles": [
+        "机械人偶",
+        "小提琴家",
+        "幻曲载体"
+      ],
+      "factions": [],
+      "locations": [
+        "sustin-concert-hall"
+      ],
+      "powerSystems": [
+        "alchemy-mechanics-and-artifice",
+        "phantom-books"
+      ],
+      "abilities": [
+        "超人琴技",
+        "演奏幻曲"
+      ],
+      "items": [
+        "帕尔迪尼幻曲乐谱"
+      ],
+      "relationships": [
+        "dallario-hayward:创造者/守护者"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "机械人偶产生自我与幸福感的悲剧线。"
+    },
+    {
+      "id": "dallario-hayward",
+      "name": "达拉里欧·海沃特",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "机械工匠，克莉丝托贝尔创造者，懦弱但痴情，临终前希望她能得到人类般的幸福。",
+      "roles": [
+        "机械工匠",
+        "创造者"
+      ],
+      "factions": [],
+      "locations": [
+        "sustin-concert-hall"
+      ],
+      "powerSystems": [
+        "alchemy-mechanics-and-artifice"
+      ],
+      "abilities": [
+        "机械人偶制造"
+      ],
+      "items": [],
+      "relationships": [
+        "christabel-sustin:创造物/爱护对象"
+      ],
+      "importance": "low",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "被商人阴谋牺牲。"
+    },
+    {
+      "id": "fiona-famernia",
+      "name": "菲欧娜·法曼尼雅",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "天才调香师，拥有能识破谎言的超凡嗅觉。为阻止‘圣水’危害世间，诱发商会自毁并在火灾中牺牲。",
+      "roles": [
+        "调香师",
+        "牺牲者",
+        "幻书事件核心"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "fiona-lab",
+        "capital"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "超凡嗅觉",
+        "香气调配",
+        "识破谎言"
+      ],
+      "items": [
+        "香神经疏",
+        "圣水"
+      ],
+      "relationships": [
+        "north:敌人",
+        "dalian:短暂理解者"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "以‘温柔谎言的味道’点出妲丽安的悲伤。"
+    },
+    {
+      "id": "north",
+      "name": "诺斯",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "帕德克商会雇佣杀手，吸入圣水后无痛觉、反应超人，能以刀尖拨开子弹。",
+      "roles": [
+        "杀手",
+        "强化人类"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "capital"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "无痛觉",
+        "超反应",
+        "刀术"
+      ],
+      "items": [
+        "圣水"
+      ],
+      "relationships": [
+        "fiona-famernia:敌人"
+      ],
+      "importance": "low",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "最终因痛觉逆转/增幅而死。"
+    },
+    {
+      "id": "yuna",
+      "name": "优娜",
+      "aliases": [
+        "幻书窃贼",
+        "秘银"
+      ],
+      "visibility": "private",
+      "summary": "神秘女子，可伪装成医生、刑警等身份。追求特定幻书并诱导哈尔将其焚毁，自称或实质上在‘解放’幻书。",
+      "roles": [
+        "幻书窃贼",
+        "伪装者",
+        "第三方"
+      ],
+      "factions": [
+        "phantom-book-thieves"
+      ],
+      "locations": [
+        "razkeso-castle"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "伪装潜入",
+        "使用无脸之书",
+        "操盘局势"
+      ],
+      "items": [
+        "无脸之书"
+      ],
+      "relationships": [
+        "hal-kamhout:利用/对手",
+        "alisa-razkeso:恩人式解救对象"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "有能化身为神明能力的伏笔，默认 gm-only 展开。"
+    },
+    {
+      "id": "hildegarde",
+      "name": "希德嘉",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "雷兹凯索城堡悲剧核心，被兄长亚金伯爵囚禁至死后利用化妆板制造离魂体，试图夺取侄女爱莉纱身体。",
+      "roles": [
+        "亡灵/离魂体",
+        "悲剧反派"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "razkeso-castle"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "制造离魂体",
+        "召唤使魔",
+        "夺取生气"
+      ],
+      "items": [
+        "美丽奈茨的化妆板"
+      ],
+      "relationships": [
+        "alisa-razkeso:侄女/夺体对象",
+        "yuna:局中对手"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "涉及血亲禁忌爱恨，默认谨慎呈现。"
+    },
+    {
+      "id": "alisa-razkeso",
+      "name": "爱莉纱",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "雷兹凯索城堡领主之女/侄女，被希德嘉离魂体夺走生气而病弱，事件结束后恢复健康。",
+      "roles": [
+        "贵族少女",
+        "受害者"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "razkeso-castle"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "hildegarde:加害者/亲族",
+        "yuna:救助者"
+      ],
+      "importance": "low",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "现代医学无法解释其病症。"
+    },
+    {
+      "id": "heiling",
+      "name": "海灵",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "持有《奥尔德·布兰德萧的时刻表》的男子，为弥补十二年前事故中的懦弱而牺牲，帮助改写卡蜜拉母亲死亡命运。",
+      "roles": [
+        "赎罪者",
+        "幻书持有者"
+      ],
+      "factions": [],
+      "locations": [
+        "glanholm-station",
+        "ghost-train"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "时刻表引导时空重叠"
+      ],
+      "items": [
+        "奥尔德·布兰德萧的时刻表"
+      ],
+      "relationships": [
+        "camilla-cairns:间接拯救其母"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "默认路线中留在火车头牺牲。"
+    },
+    {
+      "id": "heath",
+      "name": "希斯",
+      "aliases": [
+        "金白猫",
+        "阴阳眼猫"
+      ],
+      "visibility": "public",
+      "summary": "拥有阴阳眼且带未来记忆转生的猫，毁坏古代园艺贝叶本以阻止未来生态灾难和全球瘟疫。",
+      "roles": [
+        "动物角色",
+        "未来记忆携带者"
+      ],
+      "factions": [],
+      "locations": [
+        "disward-estate"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "未来记忆",
+        "梦境交流",
+        "因果干预"
+      ],
+      "items": [],
+      "relationships": [
+        "dalian:梦中交流者"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "体现不应存在知识可被毁坏以守护世界。"
+    },
+    {
+      "id": "torvaldsen",
+      "name": "托尔瓦德森",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "大西洋沿岸号原船长，其灵魂/身份已被鹦鹉记忆和航海日志取代，成为幽灵船循环的一部分。",
+      "roles": [
+        "船长",
+        "幽灵船角色"
+      ],
+      "factions": [],
+      "locations": [
+        "atlantic-coast"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [
+        "航海日志"
+      ],
+      "relationships": [
+        "parrot:真正读者/取代者"
+      ],
+      "importance": "low",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "船长身份在循环中已非普通人类。"
+    },
+    {
+      "id": "parrot",
+      "name": "鹦鹉",
+      "aliases": [
+        "大西洋沿岸号真正读者"
+      ],
+      "visibility": "private",
+      "summary": "学会人类语言的鹦鹉，记忆船长留下的《航海日志》幻书，维持幽灵船七十年死亡循环。",
+      "roles": [
+        "非人读者",
+        "幻书读者"
+      ],
+      "factions": [],
+      "locations": [
+        "atlantic-coast"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "记录航海",
+        "维持船只循环",
+        "语言模仿"
+      ],
+      "items": [
+        "航海日志"
+      ],
+      "relationships": [
+        "torvaldsen:取代/记忆对象"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "真正读者身份适合调查反转。"
+    },
+    {
+      "id": "emilia-eva",
+      "name": "艾米莉亚 / 艾娃",
+      "aliases": [
+        "灰眸修女",
+        "双胞胎姐妹"
+      ],
+      "visibility": "private",
+      "summary": "纽德沃尔特双胞胎姐妹，意识因《连接之书》融合。艾米莉亚守护病人，最终请求终结连接，以忘却解放全镇。",
+      "roles": [
+        "修女",
+        "牺牲者",
+        "集体意识核心"
+      ],
+      "factions": [],
+      "locations": [
+        "newdwalt"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "与集体意识连接",
+        "释放活体电流",
+        "承载多人意识"
+      ],
+      "items": [
+        "连接之书"
+      ],
+      "relationships": [
+        "professor:实验加害者",
+        "raziel:敌对观察者",
+        "hugh-anthony-disward:给予忘却者"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "默认正常路线以《忘却之书》让痛苦消失。"
+    },
+    {
+      "id": "wesley-disward",
+      "name": "卫斯理·迪斯瓦特子爵",
+      "aliases": [
+        "修伊的祖父"
+      ],
+      "visibility": "private",
+      "summary": "修伊祖父，原宅邸与钥匙遗留者，蒐书狂，其遗产使修伊接触丹特丽安的书架。",
+      "roles": [
+        "前代持有者",
+        "遗产源头"
+      ],
+      "factions": [
+        "dantalian-pair"
+      ],
+      "locations": [
+        "disward-estate"
+      ],
+      "powerSystems": [
+        "dantalian-library",
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [
+        "宅邸",
+        "钥匙",
+        "藏书"
+      ],
+      "relationships": [
+        "hugh-anthony-disward:祖孙"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "其旧宅和遗产是多条剧情开端。"
+    },
+    {
+      "id": "leo",
+      "name": "雷欧",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "第六卷红砖宅邸/不死杀手事件中与修伊会合的相关人物，卷入印刷品与正本文字咒力关联。",
+      "roles": [
+        "协助者",
+        "事件相关者"
+      ],
+      "factions": [],
+      "locations": [
+        "red-brick-mansion"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        "hugh-anthony-disward:会合/协助"
+      ],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "归档摘要信息较少，后续可细读第六卷补全。"
+    },
+    {
+      "id": "wesley-assassin",
+      "name": "卫斯理（杀手）",
+      "aliases": [
+        "不死杀手",
+        "雏形"
+      ],
+      "visibility": "private",
+      "summary": "第六卷不死杀手追踪战核心，印刷品与正本之间的文字咒力使其呈现异常不死性。",
+      "roles": [
+        "杀手",
+        "幻书异常体"
+      ],
+      "factions": [],
+      "locations": [
+        "red-brick-mansion"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "不死性",
+        "追踪/暗杀"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "与祖父卫斯理同名，需上下文区分。"
+    },
+    {
+      "id": "olrick",
+      "name": "欧立克",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "冰岛移动地下宅邸相关人物，为复活亡女执着于机关与幻书，制造地下三层移动要塞般的宅邸。",
+      "roles": [
+        "父亲",
+        "机关宅邸主人",
+        "悲剧实验者"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "olrick-mansion"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "机关宅邸设计/运用"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "第六卷细节待补。"
+    },
+    {
+      "id": "oliver",
+      "name": "奥利佛·葛雷",
+      "aliases": [
+        "奥利佛"
+      ],
+      "visibility": "public",
+      "summary": "第七卷人物，卷入被伪装成外星诅咒的媚药魔导书事件。",
+      "roles": [
+        "事件角色"
+      ],
+      "factions": [],
+      "locations": [
+        "wesley-old-house"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [],
+      "importance": "low",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "归档中仅摘要列名，待细化。"
+    },
+    {
+      "id": "henry-javiston",
+      "name": "亨利·贾威斯顿",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "探险家，留下‘幻书墓园’之谜，引导修伊与妲丽安远赴黑暗大陆。",
+      "roles": [
+        "探险家",
+        "线索提供者"
+      ],
+      "factions": [],
+      "locations": [
+        "dark-continent"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "其谜题牵出王威之书与矿物生命体。"
+    },
+    {
+      "id": "godin",
+      "name": "高丁",
+      "aliases": [
+        "新闻王"
+      ],
+      "visibility": "public",
+      "summary": "利欲熏心的新闻王，在黑暗大陆事件中施压众人，卷入王威之书与矿物生命体真相。",
+      "roles": [
+        "新闻王",
+        "利益追逐者"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "dark-continent"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "媒体影响力",
+        "金钱与威压"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "体现资本/媒体对幻书的掠夺。"
+    },
+    {
+      "id": "judy",
+      "name": "茱蒂",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "平凡少女，与妲丽安因罗西提饼干绘本‘最后之书’展开荒诞争夺。",
+      "roles": [
+        "日常事件角色",
+        "收集对手"
+      ],
+      "factions": [],
+      "locations": [
+        "roscetti-shop"
+      ],
+      "powerSystems": [],
+      "abilities": [],
+      "items": [
+        "罗西提饼干绘本"
+      ],
+      "relationships": [
+        "dalian:收集竞争者"
+      ],
+      "importance": "low",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "偏日常喜剧线。"
+    },
+    {
+      "id": "mithril",
+      "name": "怪盗秘银",
+      "aliases": [
+        "秘银"
+      ],
+      "visibility": "private",
+      "summary": "第八卷阿斯奎斯侯爵府事件中的怪盗介入者，与永恒黄昏透视画馆和活祭仪式相关。",
+      "roles": [
+        "怪盗",
+        "第三方介入者"
+      ],
+      "factions": [
+        "phantom-book-thieves"
+      ],
+      "locations": [
+        "asquith-mansion"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [
+        "潜入",
+        "盗取"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "可能与优娜/幻书窃贼线需区分。"
+    },
+    {
+      "id": "lifia-asquith",
+      "name": "莉菲雅",
+      "aliases": [
+        "侯爵千金"
+      ],
+      "visibility": "private",
+      "summary": "阿斯奎斯侯爵府事件中的千金，卷入《永恒黄昏的透视画馆》构筑的活祭与长生噩梦。",
+      "roles": [
+        "贵族千金",
+        "祭品/悲剧核心"
+      ],
+      "factions": [
+        "nobility-and-collectors"
+      ],
+      "locations": [
+        "asquith-mansion"
+      ],
+      "powerSystems": [
+        "phantom-books"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ],
+      "notes": "第八卷核心悲剧人物。"
+    }
   ],
   "indices": {
     "byFaction": {
-      "dantalian-pair": ["hugh-anthony-disward", "dalian", "wesley-disward"],
-      "burning-officers": ["hal-kamhout", "flamberge"],
-      "professor-raziel": ["professor", "raziel", "eirath-alcock"],
-      "phantom-book-thieves": ["yuna", "mithril"],
-      "nobility-and-collectors": ["camilla-cairns", "gourmet-grem", "saz-haston", "roy-haston", "florence-calabos", "viola-duplessis", "melgar", "jessica-elphinstone", "olrick", "godin", "lifia-asquith"],
-      "military-and-police": ["hugh-anthony-disward", "eirath-alcock", "alman-jeremiah"]
+      "dantalian-pair": [
+        "hugh-anthony-disward",
+        "dalian",
+        "wesley-disward"
+      ],
+      "burning-officers": [
+        "hal-kamhout",
+        "flamberge"
+      ],
+      "professor-raziel": [
+        "raziel",
+        "professor",
+        "eirath-alcock"
+      ],
+      "nobility-and-collectors": [
+        "camilla-cairns",
+        "leslie",
+        "gourmet-grem",
+        "saz-haston",
+        "roy-haston",
+        "florence-calabos",
+        "estella-lilburn",
+        "viola-duplessis",
+        "melgar",
+        "jessica-elphinstone",
+        "fiona-famernia",
+        "north",
+        "hildegarde",
+        "alisa-razkeso",
+        "olrick",
+        "godin",
+        "lifia-asquith"
+      ],
+      "military-and-police": [
+        "eirath-alcock",
+        "alman-jeremiah"
+      ],
+      "phantom-book-thieves": [
+        "yuna",
+        "mithril"
+      ]
     },
     "byPowerSystem": {
-      "phantom-books": ["hugh-anthony-disward", "dalian", "hal-kamhout", "flamberge", "raziel", "professor", "camilla-cairns", "leslie", "saz-haston", "mabel-nash", "florence-calabos", "estella-lilburn", "eirath-alcock", "paula-dickinson", "viola-duplessis", "melgar", "alman-jeremiah", "jessica-elphinstone", "fiona-famernia", "yuna", "heiling", "heath", "emilia-eva"],
-      "dantalian-library": ["hugh-anthony-disward", "dalian", "wesley-disward"],
-      "raziel-library": ["raziel", "professor", "eirath-alcock"],
-      "burning-officer-technique": ["hal-kamhout", "flamberge"],
-      "alchemy-mechanics-and-artifice": ["viola-duplessis", "melgar", "christabel-sustin", "dallario-hayward"]
+      "dantalian-library": [
+        "hugh-anthony-disward",
+        "dalian",
+        "wesley-disward"
+      ],
+      "phantom-books": [
+        "hugh-anthony-disward",
+        "dalian",
+        "hal-kamhout",
+        "flamberge",
+        "raziel",
+        "professor",
+        "camilla-cairns",
+        "leslie",
+        "gourmet-grem",
+        "saz-haston",
+        "roy-haston",
+        "mabel-nash",
+        "florence-calabos",
+        "estella-lilburn",
+        "eirath-alcock",
+        "paula-dickinson",
+        "renny-lentz",
+        "latisha",
+        "yolanda",
+        "viola-duplessis",
+        "melgar",
+        "alman-jeremiah",
+        "rianna-schker",
+        "jessica-elphinstone",
+        "christabel-sustin",
+        "fiona-famernia",
+        "north",
+        "yuna",
+        "hildegarde",
+        "alisa-razkeso",
+        "heiling",
+        "heath",
+        "torvaldsen",
+        "parrot",
+        "emilia-eva",
+        "wesley-disward",
+        "leo",
+        "wesley-assassin",
+        "olrick",
+        "oliver",
+        "henry-javiston",
+        "godin",
+        "mithril",
+        "lifia-asquith"
+      ],
+      "burning-officer-technique": [
+        "hal-kamhout",
+        "flamberge"
+      ],
+      "raziel-library": [
+        "raziel",
+        "professor",
+        "eirath-alcock"
+      ],
+      "alchemy-mechanics-and-artifice": [
+        "viola-duplessis",
+        "melgar",
+        "christabel-sustin",
+        "dallario-hayward"
+      ]
     },
     "byVisibility": {
-      "public": ["hugh-anthony-disward", "dalian", "hal-kamhout", "flamberge", "camilla-cairns", "leslie", "gourmet-grem", "saz-haston", "roy-haston", "mabel-nash", "florence-calabos", "estella-lilburn", "paula-dickinson", "renny-lentz", "latisha", "yolanda", "viola-duplessis", "alman-jeremiah", "rianna-schker", "jessica-elphinstone", "christabel-sustin", "dallario-hayward", "fiona-famernia", "north", "alisa-razkeso", "heiling", "heath", "torvaldsen", "leo", "oliver", "godin", "judy"],
-      "private": ["raziel", "professor", "eirath-alcock", "melgar", "yuna", "hildegarde", "emilia-eva", "wesley-disward", "wesley-assassin", "olrick", "henry-javiston", "mithril", "lifia-asquith", "parrot"],
-      "gm-only": []
+      "public": [
+        "hugh-anthony-disward",
+        "dalian",
+        "hal-kamhout",
+        "flamberge",
+        "camilla-cairns",
+        "leslie",
+        "gourmet-grem",
+        "saz-haston",
+        "roy-haston",
+        "mabel-nash",
+        "florence-calabos",
+        "estella-lilburn",
+        "paula-dickinson",
+        "renny-lentz",
+        "latisha",
+        "yolanda",
+        "viola-duplessis",
+        "alman-jeremiah",
+        "rianna-schker",
+        "jessica-elphinstone",
+        "christabel-sustin",
+        "dallario-hayward",
+        "fiona-famernia",
+        "north",
+        "alisa-razkeso",
+        "heiling",
+        "heath",
+        "torvaldsen",
+        "leo",
+        "oliver",
+        "godin",
+        "judy"
+      ],
+      "private": [
+        "raziel",
+        "professor",
+        "eirath-alcock",
+        "melgar",
+        "yuna",
+        "hildegarde",
+        "parrot",
+        "emilia-eva",
+        "wesley-disward",
+        "wesley-assassin",
+        "olrick",
+        "henry-javiston",
+        "mithril",
+        "lifia-asquith"
+      ]
     },
-    "majorCharacters": ["hugh-anthony-disward", "dalian", "hal-kamhout", "flamberge", "raziel", "professor", "camilla-cairns", "yuna", "emilia-eva"]
+    "majorCharacters": [
+      "hugh-anthony-disward",
+      "dalian",
+      "hal-kamhout",
+      "flamberge",
+      "raziel",
+      "professor",
+      "camilla-cairns",
+      "yuna",
+      "emilia-eva"
+    ],
+    "byId": {
+      "hugh-anthony-disward": "修伊·安索尼·迪斯瓦特",
+      "dalian": "妲丽安",
+      "hal-kamhout": "哈尔·卡姆赫德",
+      "flamberge": "芙兰蓓尔",
+      "raziel": "拉结尔",
+      "professor": "教授",
+      "camilla-cairns": "卡米拉·索尔·卡恩斯",
+      "leslie": "蕾斯莉",
+      "gourmet-grem": "古雷姆·阿德基逊",
+      "saz-haston": "沙茲·哈斯顿",
+      "roy-haston": "罗伊·哈斯顿",
+      "mabel-nash": "梅蓓儿·纳修",
+      "florence-calabos": "弗洛伦斯·卡拉波斯",
+      "estella-lilburn": "艾斯提拉·利尔本",
+      "eirath-alcock": "艾拉斯·阿尔科克",
+      "paula-dickinson": "宝拉·迪金森",
+      "renny-lentz": "雷尼·伦茨",
+      "latisha": "拉提莎",
+      "yolanda": "约兰达",
+      "viola-duplessis": "维奥拉·迪普莱西",
+      "melgar": "麦尔加",
+      "alman-jeremiah": "阿尔曼·耶利米",
+      "rianna-schker": "里安娜·史克尔",
+      "jessica-elphinstone": "洁西卡·艾尔芬斯顿",
+      "christabel-sustin": "克莉丝托贝尔·撒斯汀",
+      "dallario-hayward": "达拉里欧·海沃特",
+      "fiona-famernia": "菲欧娜·法曼尼雅",
+      "north": "诺斯",
+      "yuna": "优娜",
+      "hildegarde": "希德嘉",
+      "alisa-razkeso": "爱莉纱",
+      "heiling": "海灵",
+      "heath": "希斯",
+      "torvaldsen": "托尔瓦德森",
+      "parrot": "鹦鹉",
+      "emilia-eva": "艾米莉亚 / 艾娃",
+      "wesley-disward": "卫斯理·迪斯瓦特子爵",
+      "leo": "雷欧",
+      "wesley-assassin": "卫斯理（杀手）",
+      "olrick": "欧立克",
+      "oliver": "奥利佛·葛雷",
+      "henry-javiston": "亨利·贾威斯顿",
+      "godin": "高丁",
+      "judy": "茱蒂",
+      "mithril": "怪盗秘银",
+      "lifia-asquith": "莉菲雅"
+    },
+    "byName": {
+      "修伊·安索尼·迪斯瓦特": "hugh-anthony-disward",
+      "妲丽安": "dalian",
+      "哈尔·卡姆赫德": "hal-kamhout",
+      "芙兰蓓尔": "flamberge",
+      "拉结尔": "raziel",
+      "教授": "professor",
+      "卡米拉·索尔·卡恩斯": "camilla-cairns",
+      "蕾斯莉": "leslie",
+      "古雷姆·阿德基逊": "gourmet-grem",
+      "沙茲·哈斯顿": "saz-haston",
+      "罗伊·哈斯顿": "roy-haston",
+      "梅蓓儿·纳修": "mabel-nash",
+      "弗洛伦斯·卡拉波斯": "florence-calabos",
+      "艾斯提拉·利尔本": "estella-lilburn",
+      "艾拉斯·阿尔科克": "eirath-alcock",
+      "宝拉·迪金森": "paula-dickinson",
+      "雷尼·伦茨": "renny-lentz",
+      "拉提莎": "latisha",
+      "约兰达": "yolanda",
+      "维奥拉·迪普莱西": "viola-duplessis",
+      "麦尔加": "melgar",
+      "阿尔曼·耶利米": "alman-jeremiah",
+      "里安娜·史克尔": "rianna-schker",
+      "洁西卡·艾尔芬斯顿": "jessica-elphinstone",
+      "克莉丝托贝尔·撒斯汀": "christabel-sustin",
+      "达拉里欧·海沃特": "dallario-hayward",
+      "菲欧娜·法曼尼雅": "fiona-famernia",
+      "诺斯": "north",
+      "优娜": "yuna",
+      "希德嘉": "hildegarde",
+      "爱莉纱": "alisa-razkeso",
+      "海灵": "heiling",
+      "希斯": "heath",
+      "托尔瓦德森": "torvaldsen",
+      "鹦鹉": "parrot",
+      "艾米莉亚 / 艾娃": "emilia-eva",
+      "卫斯理·迪斯瓦特子爵": "wesley-disward",
+      "雷欧": "leo",
+      "卫斯理（杀手）": "wesley-assassin",
+      "欧立克": "olrick",
+      "奥利佛·葛雷": "oliver",
+      "亨利·贾威斯顿": "henry-javiston",
+      "高丁": "godin",
+      "茱蒂": "judy",
+      "怪盗秘银": "mithril",
+      "莉菲雅": "lifia-asquith"
+    },
+    "byAffiliation": {
+      "dantalian-pair": [
+        "hugh-anthony-disward",
+        "dalian",
+        "wesley-disward"
+      ],
+      "burning-officers": [
+        "hal-kamhout",
+        "flamberge"
+      ],
+      "professor-raziel": [
+        "raziel",
+        "professor",
+        "eirath-alcock"
+      ],
+      "nobility-and-collectors": [
+        "camilla-cairns",
+        "leslie",
+        "gourmet-grem",
+        "saz-haston",
+        "roy-haston",
+        "florence-calabos",
+        "estella-lilburn",
+        "viola-duplessis",
+        "melgar",
+        "jessica-elphinstone",
+        "fiona-famernia",
+        "north",
+        "hildegarde",
+        "alisa-razkeso",
+        "olrick",
+        "godin",
+        "lifia-asquith"
+      ],
+      "military-and-police": [
+        "eirath-alcock",
+        "alman-jeremiah"
+      ],
+      "phantom-book-thieves": [
+        "yuna",
+        "mithril"
+      ]
+    },
+    "byTag": {
+      "主角": [
+        "hugh-anthony-disward",
+        "dalian"
+      ],
+      "钥匙守护者": [
+        "hugh-anthony-disward"
+      ],
+      "前飞行员": [
+        "hugh-anthony-disward"
+      ],
+      "调查者": [
+        "hugh-anthony-disward"
+      ],
+      "黑之读姬": [
+        "dalian"
+      ],
+      "壶中之天": [
+        "dalian"
+      ],
+      "书架守护者": [
+        "dalian"
+      ],
+      "焚书官": [
+        "hal-kamhout"
+      ],
+      "对立者": [
+        "hal-kamhout"
+      ],
+      "幻书猎杀者": [
+        "hal-kamhout"
+      ],
+      "银之读姬": [
+        "flamberge"
+      ],
+      "毁灭读姬": [
+        "flamberge"
+      ],
+      "焚书官搭档": [
+        "flamberge"
+      ],
+      "赤之读姬": [
+        "raziel"
+      ],
+      "研究者搭档": [
+        "raziel"
+      ],
+      "对立读姬": [
+        "raziel"
+      ],
+      "反派研究者": [
+        "professor"
+      ],
+      "幻稿观察者": [
+        "professor"
+      ],
+      "友人": [
+        "camilla-cairns"
+      ],
+      "事件持书者": [
+        "camilla-cairns"
+      ],
+      "日常线角色": [
+        "camilla-cairns"
+      ],
+      "料理长": [
+        "leslie"
+      ],
+      "复仇者": [
+        "leslie"
+      ],
+      "幻书使用者": [
+        "leslie",
+        "mabel-nash"
+      ],
+      "受害者": [
+        "gourmet-grem",
+        "mabel-nash",
+        "renny-lentz",
+        "latisha",
+        "yolanda",
+        "alisa-razkeso"
+      ],
+      "美食家": [
+        "gourmet-grem"
+      ],
+      "悲剧受害者": [
+        "saz-haston"
+      ],
+      "改造人": [
+        "saz-haston"
+      ],
+      "继承者候选": [
+        "saz-haston"
+      ],
+      "反派": [
+        "roy-haston",
+        "melgar"
+      ],
+      "失败实验体": [
+        "roy-haston"
+      ],
+      "人偶师": [
+        "mabel-nash"
+      ],
+      "幻书滥用者": [
+        "florence-calabos",
+        "paula-dickinson"
+      ],
+      "贵族少女": [
+        "florence-calabos",
+        "alisa-razkeso"
+      ],
+      "悲剧反派": [
+        "florence-calabos",
+        "hildegarde"
+      ],
+      "被诅咒者": [
+        "estella-lilburn"
+      ],
+      "委托人": [
+        "estella-lilburn"
+      ],
+      "悲剧少女": [
+        "estella-lilburn"
+      ],
+      "亡灵飞行员": [
+        "eirath-alcock"
+      ],
+      "幻稿核心": [
+        "eirath-alcock"
+      ],
+      "狂热粉丝": [
+        "paula-dickinson"
+      ],
+      "作家": [
+        "renny-lentz"
+      ],
+      "恋人": [
+        "latisha"
+      ],
+      "亲属": [
+        "yolanda"
+      ],
+      "人造人": [
+        "viola-duplessis"
+      ],
+      "名妓": [
+        "viola-duplessis"
+      ],
+      "事件核心": [
+        "viola-duplessis"
+      ],
+      "魔术师": [
+        "melgar"
+      ],
+      "炼金术师": [
+        "melgar"
+      ],
+      "修伊学弟": [
+        "alman-jeremiah"
+      ],
+      "轻浮青年": [
+        "alman-jeremiah"
+      ],
+      "事件受害者": [
+        "alman-jeremiah"
+      ],
+      "未婚妻": [
+        "rianna-schker"
+      ],
+      "诅咒触发者": [
+        "rianna-schker"
+      ],
+      "学生": [
+        "jessica-elphinstone"
+      ],
+      "目击者": [
+        "jessica-elphinstone"
+      ],
+      "协助者": [
+        "jessica-elphinstone",
+        "leo"
+      ],
+      "机械人偶": [
+        "christabel-sustin"
+      ],
+      "小提琴家": [
+        "christabel-sustin"
+      ],
+      "幻曲载体": [
+        "christabel-sustin"
+      ],
+      "机械工匠": [
+        "dallario-hayward"
+      ],
+      "创造者": [
+        "dallario-hayward"
+      ],
+      "调香师": [
+        "fiona-famernia"
+      ],
+      "牺牲者": [
+        "fiona-famernia",
+        "emilia-eva"
+      ],
+      "幻书事件核心": [
+        "fiona-famernia"
+      ],
+      "杀手": [
+        "north",
+        "wesley-assassin"
+      ],
+      "强化人类": [
+        "north"
+      ],
+      "幻书窃贼": [
+        "yuna"
+      ],
+      "伪装者": [
+        "yuna"
+      ],
+      "第三方": [
+        "yuna"
+      ],
+      "亡灵/离魂体": [
+        "hildegarde"
+      ],
+      "赎罪者": [
+        "heiling"
+      ],
+      "幻书持有者": [
+        "heiling"
+      ],
+      "动物角色": [
+        "heath"
+      ],
+      "未来记忆携带者": [
+        "heath"
+      ],
+      "船长": [
+        "torvaldsen"
+      ],
+      "幽灵船角色": [
+        "torvaldsen"
+      ],
+      "非人读者": [
+        "parrot"
+      ],
+      "幻书读者": [
+        "parrot"
+      ],
+      "修女": [
+        "emilia-eva"
+      ],
+      "集体意识核心": [
+        "emilia-eva"
+      ],
+      "前代持有者": [
+        "wesley-disward"
+      ],
+      "遗产源头": [
+        "wesley-disward"
+      ],
+      "事件相关者": [
+        "leo"
+      ],
+      "幻书异常体": [
+        "wesley-assassin"
+      ],
+      "父亲": [
+        "olrick"
+      ],
+      "机关宅邸主人": [
+        "olrick"
+      ],
+      "悲剧实验者": [
+        "olrick"
+      ],
+      "事件角色": [
+        "oliver"
+      ],
+      "探险家": [
+        "henry-javiston"
+      ],
+      "线索提供者": [
+        "henry-javiston"
+      ],
+      "新闻王": [
+        "godin"
+      ],
+      "利益追逐者": [
+        "godin"
+      ],
+      "日常事件角色": [
+        "judy"
+      ],
+      "收集对手": [
+        "judy"
+      ],
+      "怪盗": [
+        "mithril"
+      ],
+      "第三方介入者": [
+        "mithril"
+      ],
+      "贵族千金": [
+        "lifia-asquith"
+      ],
+      "祭品/悲剧核心": [
+        "lifia-asquith"
+      ]
+    }
   }
 }

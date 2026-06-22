@@ -1,1 +1,206 @@
-{"schema":"rp-world-v1","worldId":"elemental-gelade","worldName":"武器种族传说","aliases":["Elemental Gelade","Erementar Gerad"],"genre":["旅途冒险","契约战斗","空贼奇幻"],"summary":"人类与被称为艾迪鲁雷德/圣战天使的种族共存又冲突的世界。艾迪鲁雷德可与人类同契，化作武器或赋予力量；围绕稀有七煌宝树、猎捕、保护与艾迪鲁庭园展开旅途。","sandboxPrinciple":"不固定前往艾迪鲁庭园的结局；同契双方意志、信任和势力选择决定路线。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["原归档以动画二十六唱为主要组织。"],"powerSystems":[{"id":"react","name":"同契/React","category":"contract-weapon-transformation","principle":"艾迪鲁雷德与人类使用者通过歌与心灵共鸣同契，转化为武器或增幅战斗。","classification":["Contract","Song","Weapon"],"energySource":"paired-soul-resonance","hasExternalEnergy":true,"externalEnergyName":"同契共鸣","energyTraits":[{"tag":"trust-dependent","level":"B","description":"同步率受信任、情绪与意志影响。"}],"levelMapping":[],"commonResources":["圣战天使本体","使用者意志","同契歌曲"],"commonAbilities":["武器化","属性攻击","共鸣强化"],"limitations":["强迫同契会导致反噬或精神损伤；艾迪鲁雷德可被猎捕利用。"],"compatibilityNotes":[]}],"factions":[{"id":"coud-party","name":"库德旅伴团","type":"adventuring-party","summary":"库德、蕾、希丝卡、罗温、奇雅等组成的旅途队伍。","powerSystemAffinity":["react"],"publicRules":[],"hiddenRules":[],"attitudeToOutsiders":"friendly-cautious","knownMembers":["coud","ren","cisqua","rowen","kuea"],"territories":["journey-route"],"resources":["飞艇","武器","保护协会情报"],"conflicts":["edil-raid-hunters","edil-garden"]},{"id":"arc-aile","name":"圣战天使完全保护协会","type":"protector-organization","summary":"以保护艾迪鲁雷德为名的组织，亦有官僚与武装面。","powerSystemAffinity":["react"],"publicRules":["保护圣战天使"],"hiddenRules":[],"attitudeToOutsiders":"regulated","knownMembers":["cisqua","rowen","kuea"],"territories":[],"resources":["情报网","训练","枪械"],"conflicts":["hunters"]},{"id":"edil-garden","name":"艾迪鲁庭园","type":"mythic-destination","summary":"蕾渴望抵达的传说之地，也是诸多阴谋终点。","powerSystemAffinity":["react"],"publicRules":[],"hiddenRules":["可能并非单纯乐园"],"attitudeToOutsiders":"secretive","knownMembers":[],"territories":["edil-garden-location"],"resources":["高位艾迪鲁雷德"],"conflicts":[]}],"energyEnvironment":{"externalEnergies":[{"name":"同契共鸣","density":"localized","distribution":"同契搭档之间","traits":["情绪同步","歌唱触发"],"recoveryImpact":"休息、信任修复与停止战斗可恢复。"}],"restrictedZones":[],"specialFields":[]},"worldRules":{"publicLaws":["城镇、空贼、商业与武装组织并存"],"supernaturalRules":["艾迪鲁雷德可与人类同契成为武器","七煌宝树为极稀有强大个体"],"taboos":["猎捕、贩卖、强迫同契"],"knownExceptions":[]},"locations":[{"id":"edel-garden","name":"艾迪鲁庭园","type":"legendary-site","summary":"旅途目标与秘密核心。"},{"id":"airship","name":"空贼飞艇/旅途航线","type":"mobile-base","summary":"库德出身空贼团，空中航行是冒险常态。"}],"publicEvents":[{"id":"coud-meets-ren","name":"库德遇见蕾","summary":"空贼少年与七煌宝树蕾相遇并踏上旅途。"}],"hiddenEvents":[{"id":"garden-truth","name":"艾迪鲁庭园真相","summary":"乐园传说背后存在支配与利用艾迪鲁雷德的风险。"}]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "elemental-gelade",
+  "worldName": "武器种族传说",
+  "aliases": [
+    "Elemental Gelade",
+    "Erementar Gerad"
+  ],
+  "genre": [
+    "旅途冒险",
+    "契约战斗",
+    "空贼奇幻"
+  ],
+  "summary": "人类与被称为艾迪鲁雷德/圣战天使的种族共存又冲突的世界。艾迪鲁雷德可与人类同契，化作武器或赋予力量；围绕稀有七煌宝树、猎捕、保护与艾迪鲁庭园展开旅途。",
+  "sandboxPrinciple": {
+    "summary": "不固定前往艾迪鲁庭园的结局；同契双方意志、信任和势力选择决定路线。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "原归档以动画二十六唱为主要组织。"
+  ],
+  "powerSystems": [
+    {
+      "id": "react",
+      "name": "同契/React",
+      "category": "contract-weapon-transformation",
+      "principle": "艾迪鲁雷德与人类使用者通过歌与心灵共鸣同契，转化为武器或增幅战斗。",
+      "classification": [
+        "Contract",
+        "Song",
+        "Weapon"
+      ],
+      "energySource": "paired-soul-resonance",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "同契共鸣",
+      "energyTraits": [
+        {
+          "tag": "trust-dependent",
+          "level": "B",
+          "description": "同步率受信任、情绪与意志影响。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "圣战天使本体",
+        "使用者意志",
+        "同契歌曲"
+      ],
+      "commonAbilities": [
+        "武器化",
+        "属性攻击",
+        "共鸣强化"
+      ],
+      "limitations": [
+        "强迫同契会导致反噬或精神损伤；艾迪鲁雷德可被猎捕利用。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "coud-party",
+      "name": "库德旅伴团",
+      "type": "adventuring-party",
+      "summary": "库德、蕾、希丝卡、罗温、奇雅等组成的旅途队伍。",
+      "powerSystemAffinity": [
+        "react"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "friendly-cautious",
+      "knownMembers": [
+        "coud",
+        "ren",
+        "cisqua",
+        "rowen",
+        "kuea"
+      ],
+      "territories": [
+        "journey-route"
+      ],
+      "resources": [
+        "飞艇",
+        "武器",
+        "保护协会情报"
+      ],
+      "conflicts": [
+        "edil-raid-hunters",
+        "edil-garden"
+      ]
+    },
+    {
+      "id": "arc-aile",
+      "name": "圣战天使完全保护协会",
+      "type": "protector-organization",
+      "summary": "以保护艾迪鲁雷德为名的组织，亦有官僚与武装面。",
+      "powerSystemAffinity": [
+        "react"
+      ],
+      "publicRules": [
+        "保护圣战天使"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "regulated",
+      "knownMembers": [
+        "cisqua",
+        "rowen",
+        "kuea"
+      ],
+      "territories": [],
+      "resources": [
+        "情报网",
+        "训练",
+        "枪械"
+      ],
+      "conflicts": [
+        "hunters"
+      ]
+    },
+    {
+      "id": "edil-garden",
+      "name": "艾迪鲁庭园",
+      "type": "mythic-destination",
+      "summary": "蕾渴望抵达的传说之地，也是诸多阴谋终点。",
+      "powerSystemAffinity": [
+        "react"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "可能并非单纯乐园"
+      ],
+      "attitudeToOutsiders": "secretive",
+      "knownMembers": [],
+      "territories": [
+        "edil-garden-location"
+      ],
+      "resources": [
+        "高位艾迪鲁雷德"
+      ],
+      "conflicts": []
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "同契共鸣",
+        "density": "localized",
+        "distribution": "同契搭档之间",
+        "traits": [
+          "情绪同步",
+          "歌唱触发"
+        ],
+        "recoveryImpact": "休息、信任修复与停止战斗可恢复。"
+      }
+    ],
+    "restrictedZones": [],
+    "specialFields": []
+  },
+  "worldRules": {
+    "publicLaws": [
+      "城镇、空贼、商业与武装组织并存"
+    ],
+    "supernaturalRules": [
+      "艾迪鲁雷德可与人类同契成为武器",
+      "七煌宝树为极稀有强大个体"
+    ],
+    "taboos": [
+      "猎捕、贩卖、强迫同契"
+    ],
+    "knownExceptions": []
+  },
+  "locations": [
+    {
+      "id": "edel-garden",
+      "name": "艾迪鲁庭园",
+      "type": "legendary-site",
+      "summary": "旅途目标与秘密核心。"
+    },
+    {
+      "id": "airship",
+      "name": "空贼飞艇/旅途航线",
+      "type": "mobile-base",
+      "summary": "库德出身空贼团，空中航行是冒险常态。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "coud-meets-ren",
+      "name": "库德遇见蕾",
+      "summary": "空贼少年与七煌宝树蕾相遇并踏上旅途。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "garden-truth",
+      "name": "艾迪鲁庭园真相",
+      "summary": "乐园传说背后存在支配与利用艾迪鲁雷德的风险。"
+    }
+  ]
+}

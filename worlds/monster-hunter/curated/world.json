@@ -1,18 +1,95 @@
 {
-  "schema": "curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "monster-hunter",
   "displayName": "怪物猎人",
   "curationMethod": "manual reading of existing archive files",
   "premise": "人类文明在巨型怪物生态圈中发展，猎人由公会认证并承担调查、狩猎、护卫、灾害应对和生态调节任务。故事以区域巡礼、装备成长与禁忌怪物线索推进。",
   "coreSystems": [
-    {"name": "猎人公会", "description": "管理猎人、发布任务、避免恶性狩猎和无经验牺牲的民间大型组织；各地公会相互独立但制度趋同。"},
-    {"name": "任务星级", "description": "以村任务、集会所任务、特殊许可任务等评定猎人阶位，替代纯游戏化HR/MR。"},
-    {"name": "狩猎准备", "description": "承接任务、猫饭、道具、环境观察、陷阱、素材剥取和装备锻造构成稳定流程。"},
-    {"name": "生态平衡", "description": "怪物不是单纯邪恶，狩猎是对异常生态和人类生存风险的调节。"},
-    {"name": "古龙/禁忌怪物", "description": "活动天灾级存在，由古龙观测局等机构追踪预警。"}
+    {
+      "name": "猎人公会",
+      "description": "管理猎人、发布任务、避免恶性狩猎和无经验牺牲的民间大型组织；各地公会相互独立但制度趋同。"
+    },
+    {
+      "name": "任务星级",
+      "description": "以村任务、集会所任务、特殊许可任务等评定猎人阶位，替代纯游戏化HR/MR。"
+    },
+    {
+      "name": "狩猎准备",
+      "description": "承接任务、猫饭、道具、环境观察、陷阱、素材剥取和装备锻造构成稳定流程。"
+    },
+    {
+      "name": "生态平衡",
+      "description": "怪物不是单纯邪恶，狩猎是对异常生态和人类生存风险的调节。"
+    },
+    {
+      "name": "古龙/禁忌怪物",
+      "description": "活动天灾级存在，由古龙观测局等机构追踪预警。"
+    }
   ],
-  "majorLocations": ["修雷德地区", "科科特村", "东多尔玛", "洛克拉克", "结云村", "炎火村", "贝尔纳村", "埃尔迦德", "新大陆调查据点星辰", "月辰", "古代树森林", "陆珊瑚台地", "瘴气之谷", "龙结晶之地", "封禁之地"],
-  "majorFactions": ["猎人公会", "王立书士队", "古龙观测局", "龙历院", "调查团", "各地村落与王国", "加工屋/工匠体系", "艾露猫伙伴"],
-  "tone": ["生态奇观", "狩猎冒险", "匠人精神", "旅程成长", "人与自然的敬畏"],
-  "rpUse": "OC通常作为猎人、学者、受付员、工匠、调查员、艾露伙伴或村落居民介入；狩猎应强调准备和生态逻辑。"
+  "majorLocations": [
+    "修雷德地区",
+    "科科特村",
+    "东多尔玛",
+    "洛克拉克",
+    "结云村",
+    "炎火村",
+    "贝尔纳村",
+    "埃尔迦德",
+    "新大陆调查据点星辰",
+    "月辰",
+    "古代树森林",
+    "陆珊瑚台地",
+    "瘴气之谷",
+    "龙结晶之地",
+    "封禁之地"
+  ],
+  "majorFactions": [
+    "猎人公会",
+    "王立书士队",
+    "古龙观测局",
+    "龙历院",
+    "调查团",
+    "各地村落与王国",
+    "加工屋/工匠体系",
+    "艾露猫伙伴"
+  ],
+  "tone": [
+    "生态奇观",
+    "狩猎冒险",
+    "匠人精神",
+    "旅程成长",
+    "人与自然的敬畏"
+  ],
+  "rpUse": "OC通常作为猎人、学者、受付员、工匠、调查员、艾露伙伴或村落居民介入；狩猎应强调准备和生态逻辑。",
+  "worldId": "monster-hunter",
+  "worldName": "怪物猎人",
+  "aliases": [],
+  "genre": [
+    "生态奇观",
+    "狩猎冒险",
+    "匠人精神",
+    "旅程成长",
+    "人与自然的敬畏"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [
+    "Runtime caveat: characters-index is not a complete Monster Hunter canon named NPC roster.",
+    "Hunter/guild/village/research/ecology entries are occupational or ecological role slots unless a later entry supplies a fixed canon name."
+  ],
+  "powerSystems": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": [],
+  "runtimeUseGate": {
+    "gateType": "role-and-ecology-index-caveat",
+    "characterIndexPolicy": "characters-index is primarily occupational, institutional, and ecological role slots because sources emphasize systems over named NPCs",
+    "notCompleteCanonRoster": true,
+    "runtimePolicy": "do not treat hunter/guild/ecology role entries or monster categories as a complete fixed canon NPC list"
+  }
 }

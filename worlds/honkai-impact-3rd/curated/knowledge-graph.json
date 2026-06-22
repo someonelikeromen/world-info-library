@@ -1,1 +1,225 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-honkai-impact-3rd","cardId":"honkai-impact-3rd","nodes":[{"id":"kg-honkai-energy","type":"power-system","title":"崩坏能","aliases":[],"visibility":"public","summary":"文明灾害与力量源。","fullText":"造成崩坏兽、死士和律者，也可由适格者与科技利用。","tags":["power","hazard"],"importance":"critical","source":{"kind":"worldbook","ref":"src-hi3-classification-report"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-herrschers","type":"faction","title":"律者现象","aliases":[],"visibility":"private","summary":"崩坏意志/机制选出的权能个体。","fullText":"律者通常拥有对应权能和核心，可能与人类人格冲突。","tags":["herrscher"],"importance":"critical","source":{"kind":"worldbook","ref":"src-hi3-import-readme"},"revealConditions":["崩坏高层情报"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-stigma-plan","type":"secret","title":"圣痕计划","aliases":[],"visibility":"gm-only","summary":"世界蛇试图以牺牲性方案保存文明。","fullText":"具体执行取决于章节路线。","tags":["world-serpent","secret"],"importance":"critical","source":{"kind":"inference","ref":"src-hi3-classification-report"},"revealConditions":["接触世界蛇核心"],"evidenceLevel":"B","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-1","from":"kg-honkai-energy","to":"kg-herrschers","type":"causes","visibility":"public","strength":{"level":"S","score":95,"description":"律者是崩坏能危机核心表现。"},"description":"崩坏能浓度与律者灾害相关。","gmNotes":""},{"id":"kg-edge-2","from":"kg-stigma-plan","to":"kg-honkai-energy","type":"counters","visibility":"gm-only","strength":{"level":"A","score":80,"description":"圣痕计划针对崩坏终局。"},"description":"世界蛇计划以极端方式应对崩坏。","gmNotes":"需避免提前公开。"}],"indices":{"byVisibility":{"public":["kg-honkai-energy"],"private":["kg-herrschers"],"gm-only":["kg-stigma-plan"]},"byType":{"power-system":["kg-honkai-energy"],"faction":["kg-herrschers"],"secret":["kg-stigma-plan"]},"byTag":{"power":["kg-honkai-energy"],"herrscher":["kg-herrschers"],"secret":["kg-stigma-plan"]},"activeClues":[],"lockedSecrets":["kg-stigma-plan"]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-honkai-impact-3rd",
+  "cardId": "honkai-impact-3rd",
+  "nodes": [
+    {
+      "id": "kg-honkai-energy",
+      "type": "power-system",
+      "title": "崩坏能",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "文明灾害与力量源。",
+      "fullText": "造成崩坏兽、死士和律者，也可由适格者与科技利用。",
+      "tags": [
+        "power",
+        "hazard"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-hi3-classification-report"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-herrschers",
+      "type": "faction",
+      "title": "律者现象",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "崩坏意志/机制选出的权能个体。",
+      "fullText": "律者通常拥有对应权能和核心，可能与人类人格冲突。",
+      "tags": [
+        "herrscher"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-hi3-import-readme"
+      },
+      "revealConditions": [
+        "崩坏高层情报"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-stigma-plan",
+      "type": "secret",
+      "title": "圣痕计划",
+      "aliases": [],
+      "visibility": "gm-only",
+      "summary": "世界蛇试图以牺牲性方案保存文明。",
+      "fullText": "具体执行取决于章节路线。",
+      "tags": [
+        "world-serpent",
+        "secret"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "inference",
+        "ref": "src-hi3-classification-report"
+      },
+      "revealConditions": [
+        "接触世界蛇核心"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "schicksal",
+      "type": "faction",
+      "label": "天命",
+      "summary": "长期对抗崩坏的全球组织，掌握女武神体系。"
+    },
+    {
+      "id": "anti-entropy",
+      "type": "faction",
+      "label": "逆熵",
+      "summary": "以机甲和科学路线对抗崩坏并反制天命。"
+    },
+    {
+      "id": "world-serpent",
+      "type": "faction",
+      "label": "世界蛇",
+      "summary": "执行前文明遗留计划的秘密组织。"
+    },
+    {
+      "id": "st-freya",
+      "type": "faction",
+      "label": "圣芙蕾雅学园"
+    },
+    {
+      "id": "former-era",
+      "type": "faction",
+      "label": "前文明/逐火之蛾遗产"
+    },
+    {
+      "id": "st-freya-academy",
+      "type": "location",
+      "label": "圣芙蕾雅学园"
+    },
+    {
+      "id": "schicksal-hq",
+      "type": "location",
+      "label": "天命总部"
+    },
+    {
+      "id": "anti-entropy-base",
+      "type": "location",
+      "label": "逆熵基地"
+    },
+    {
+      "id": "sea-of-quanta",
+      "type": "location",
+      "label": "量子之海"
+    },
+    {
+      "id": "elysian-realm",
+      "type": "location",
+      "label": "往世乐土"
+    },
+    {
+      "id": "shenzhou",
+      "type": "location",
+      "label": "神州",
+      "summary": "符华相关地域标签。"
+    },
+    {
+      "id": "world-serpent-base",
+      "type": "location",
+      "label": "世界蛇据点",
+      "summary": "世界蛇活动据点集合标签。"
+    },
+    {
+      "id": "honkai-energy",
+      "type": "powerSystem",
+      "label": "崩坏能"
+    },
+    {
+      "id": "valkyrie-tech",
+      "type": "powerSystem",
+      "label": "女武神装甲/对崩坏科技"
+    },
+    {
+      "id": "martial-arts",
+      "type": "powerSystem",
+      "label": "武术/太虚剑气"
+    }
+  ],
+  "edges": [
+    {
+      "id": "kg-edge-1",
+      "from": "kg-honkai-energy",
+      "to": "kg-herrschers",
+      "type": "causes",
+      "visibility": "public",
+      "strength": {
+        "level": "S",
+        "score": 95,
+        "description": "律者是崩坏能危机核心表现。"
+      },
+      "description": "崩坏能浓度与律者灾害相关。",
+      "gmNotes": ""
+    },
+    {
+      "id": "kg-edge-2",
+      "from": "kg-stigma-plan",
+      "to": "kg-honkai-energy",
+      "type": "counters",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "圣痕计划针对崩坏终局。"
+      },
+      "description": "世界蛇计划以极端方式应对崩坏。",
+      "gmNotes": "需避免提前公开。"
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "kg-honkai-energy"
+      ],
+      "private": [
+        "kg-herrschers"
+      ],
+      "gm-only": [
+        "kg-stigma-plan"
+      ]
+    },
+    "byType": {
+      "power-system": [
+        "kg-honkai-energy"
+      ],
+      "faction": [
+        "kg-herrschers"
+      ],
+      "secret": [
+        "kg-stigma-plan"
+      ]
+    },
+    "byTag": {
+      "power": [
+        "kg-honkai-energy"
+      ],
+      "herrscher": [
+        "kg-herrschers"
+      ],
+      "secret": [
+        "kg-stigma-plan"
+      ]
+    },
+    "activeClues": [],
+    "lockedSecrets": [
+      "kg-stigma-plan"
+    ]
+  }
+}

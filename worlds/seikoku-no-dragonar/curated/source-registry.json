@@ -1,1 +1,29 @@
-{"schema":"rp-source-registry-v1","worldId":"seikoku-no-dragonar","sources":[{"sourceId":"src-seikoku-no-dragonar-001","title":"星刻龙骑士~","type":"character-card-worldbook","reliability":"B","location":"campaigns/world-library/worlds/seikoku-no-dragonar/source-registry.json / imports/raw/world-sources/xklqs.png","appliesTo":["world","characters","dragons","items","factions"],"notes":"自动归档 207 条，未分类 9 条。"}],"conflictLog":[{"id":"snd-conflict-001","summary":"学院日常、战争线和沙盒分支混合。","resolution":"初版保留通用龙骑士框架。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "seikoku-no-dragonar",
+  "sources": [
+    {
+      "sourceId": "src-seikoku-no-dragonar-001",
+      "title": "星刻龙骑士~",
+      "type": "character-card-worldbook",
+      "reliability": "B",
+      "location": "campaigns/world-library/worlds/seikoku-no-dragonar/source-registry.json / imports/raw/world-sources/xklqs.png",
+      "appliesTo": [
+        "world",
+        "characters",
+        "dragons",
+        "items",
+        "factions"
+      ],
+      "notes": "自动归档 207 条，未分类 9 条。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "snd-conflict-001",
+      "summary": "学院日常、战争线和沙盒分支混合。",
+      "resolution": "初版保留通用龙骑士框架。"
+    }
+  ],
+  "campaignId": "seikoku-no-dragonar"
+}

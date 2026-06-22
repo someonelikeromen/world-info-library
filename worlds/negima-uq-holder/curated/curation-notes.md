@@ -4,3 +4,8 @@
 - 低置信：未逐条吸收技术控制文本、NSFW 风格与沙盒触发器。
 - 冲突：Negima 结局、UQ Holder 后续时间线、人物年龄/状态不可混用。
 - RP 风险：时间、空间、精神、不死与契约神器容易破坏平衡，应逐场景授权。
+
+## 2026-06-22 MED 规范化补记
+- 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
+- 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。
+- 已补入 `anti-magic` 以承接明日菜的反魔法标记。

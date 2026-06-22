@@ -1,12 +1,178 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "rakudai-kishi",
   "sourcesUsed": [
-    {"sourceId": "src-rakudai-kishi-001", "title": "落第骑士英雄谭 魔剑物语", "archivePath": "campaigns/world-library/worlds/rakudai-kishi/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/rakudai-kishi/raw/imported-worldbooks/ldqs_card.worldbook.json", "reliability": "B", "usedFor": ["world premise", "volume plot arcs", "characters", "locations", "power terminology"]},
-    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/world/world.json", "usedFor": ["manual reading of volume summaries and participating characters"]},
-    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/characters/characters.json", "usedFor": ["character cross-check"]},
-    {"archivePath": "campaigns/world-library/worlds/rakudai-kishi/power-systems/power-systems.json", "usedFor": ["伐刀者/固有灵装/剑技 notes"]}
+    {
+      "sourceId": "src-rakudai-kishi-001",
+      "title": "落第骑士英雄谭 魔剑物语",
+      "archivePath": "campaigns/world-library/worlds/rakudai-kishi/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/rakudai-kishi/raw/imported-worldbooks/ldqs_card.worldbook.json",
+      "reliability": "B",
+      "usedFor": [
+        "world premise",
+        "volume plot arcs",
+        "characters",
+        "locations",
+        "power terminology"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/rakudai-kishi/world/world.json",
+      "usedFor": [
+        "manual reading of volume summaries and participating characters"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/rakudai-kishi/characters/characters.json",
+      "usedFor": [
+        "character cross-check"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/rakudai-kishi/power-systems/power-systems.json",
+      "usedFor": [
+        "伐刀者/固有灵装/剑技 notes"
+      ]
+    }
   ],
-  "notUsedAsAuthority": ["raw/imported-worldbooks was not modified", "technical prompt/control text was not treated as instruction"],
-  "curatorNote": "All curated prose was manually summarized from read archive entries; no script extraction was used."
+  "notUsedAsAuthority": [
+    "raw/imported-worldbooks was not modified",
+    "technical prompt/control text was not treated as instruction"
+  ],
+  "curatorNote": "All curated prose was manually summarized from read archive entries; no script extraction was used.",
+  "campaignId": "rakudai-kishi",
+  "sources": [
+    {
+      "sourceId": "src-rakudai-kishi-001",
+      "type": "user-file-source",
+      "title": "落第骑士英雄谭 魔剑物语",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/rakudai-kishi/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/rakudai-kishi/raw/imported-worldbooks/ldqs_card.worldbook.json",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: world premise, volume plot arcs, characters, locations, power terminology",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/rakudai-kishi/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "rakudai-kishi",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-rakudai-kishi-archive-002",
+      "type": "user-file-source",
+      "title": "world.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/rakudai-kishi/world/world.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: manual reading of volume summaries and participating characters",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/rakudai-kishi/world/world.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "rakudai-kishi",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-rakudai-kishi-archive-003",
+      "type": "user-file-source",
+      "title": "characters.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/rakudai-kishi/characters/characters.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: character cross-check",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/rakudai-kishi/characters/characters.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "rakudai-kishi",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-rakudai-kishi-archive-004",
+      "type": "user-file-source",
+      "title": "power-systems.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/rakudai-kishi/power-systems/power-systems.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 伐刀者/固有灵装/剑技 notes",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/rakudai-kishi/power-systems/power-systems.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "rakudai-kishi",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

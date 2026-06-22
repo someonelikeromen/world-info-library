@@ -1,1 +1,550 @@
-{"schema":"rp-characters-index-v1","worldId":"honkai-impact-3rd","characters":[{"id":"kiana-kaslana","name":"琪亚娜·卡斯兰娜","aliases":["K423","空之律者宿主","终焉相关"],"visibility":"public","summary":"主角，卡斯兰娜名义继承者，经历律者危机并走向守护世界。","roles":["protagonist","valkyrie","herrscher-host"],"factions":["schicksal","st-freya"],"locations":["圣芙蕾雅"],"powerSystems":["honkai-energy","valkyrie-tech"],"abilities":["枪斗术","空之律者权能","薪炎/终焉相关能力"],"items":["女武神装甲"],"relationships":["mei-raiden:bond","bronya-zaychik:teammate","theresa-apocalypse:guardian"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":"需按章节拆分律者状态。"},{"id":"mei-raiden","name":"雷电芽衣","aliases":["雷之律者"],"visibility":"public","summary":"琪亚娜挚友，雷之律者，曾与世界蛇合作。","roles":["main-character","herrscher"],"factions":["st-freya","world-serpent"],"locations":["圣芙蕾雅"],"powerSystems":["honkai-energy","valkyrie-tech"],"abilities":["雷电权能","剑术"],"items":["太刀","女武神装甲"],"relationships":["kiana-kaslana:bond","bronya-zaychik:teammate"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":"世界蛇阶段需标记阵营变化。"},{"id":"bronya-zaychik","name":"布洛妮娅·扎伊切克","aliases":["理之律者","板鸭"],"visibility":"public","summary":"前孤儿佣兵，逆熵相关，理之律者继承者。","roles":["main-character","herrscher"],"factions":["anti-entropy","st-freya"],"locations":["圣芙蕾雅","逆熵基地"],"powerSystems":["honkai-energy","valkyrie-tech"],"abilities":["重装小兔","构造权能"],"items":["重装小兔"],"relationships":["seele-vollerei:bond","kiana-kaslana:teammate"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":""},{"id":"theresa-apocalypse","name":"德丽莎·阿波卡利斯","aliases":["学园长"],"visibility":"public","summary":"圣芙蕾雅学园长，天命高层相关。","roles":["leader","valkyrie"],"factions":["schicksal","st-freya"],"locations":["圣芙蕾雅"],"powerSystems":["valkyrie-tech"],"abilities":["犹大的誓约","怪力"],"items":["犹大的誓约"],"relationships":["kiana-kaslana:guardian","otto-apocalypse:relative/conflict"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":""},{"id":"himeko-murata","name":"无量塔姬子","aliases":["姬子老师"],"visibility":"public","summary":"圣芙蕾雅教师与女武神，琪亚娜成长关键导师。","roles":["mentor","valkyrie"],"factions":["st-freya"],"locations":["圣芙蕾雅"],"powerSystems":["valkyrie-tech","honkai-energy"],"abilities":["大剑战斗","真红骑士装甲"],"items":["大剑","装甲"],"relationships":["kiana-kaslana:mentor","theresa-apocalypse:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":"牺牲事件为关键节点。"},{"id":"fu-hua","name":"符华","aliases":["赤鸢仙人","华"],"visibility":"private","summary":"前文明融合战士，长期守护神州并监视崩坏。","roles":["mentor","manticore"],"factions":["schicksal","former-era"],"locations":["神州","圣芙蕾雅"],"powerSystems":["honkai-energy","martial-arts"],"abilities":["寸劲","太虚剑气","羽渡尘"],"items":["羽渡尘"],"relationships":["kiana-kaslana:mentor","otto-apocalypse:uneasy-ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":"记忆与人格状态复杂。"},{"id":"otto-apocalypse","name":"奥托·阿波卡利斯","aliases":["天命主教"],"visibility":"private","summary":"天命主教，为复活卡莲长期布局。","roles":["antagonist","leader"],"factions":["schicksal"],"locations":["天命总部"],"powerSystems":["valkyrie-tech","honkai-energy"],"abilities":["魂钢身体","支配天命资源","虚空万藏"],"items":["虚空万藏"],"relationships":["kallen-kaslana:obsession","theresa-apocalypse:creator/relative"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":"动机应 GM 保留。"},{"id":"kevin-kaslana","name":"凯文·卡斯兰娜","aliases":["救世之人","世界蛇尊主"],"visibility":"private","summary":"前文明最强融合战士，世界蛇领袖，执行圣痕计划。","roles":["antagonist","former-era-hero"],"factions":["world-serpent","former-era"],"locations":["世界蛇据点"],"powerSystems":["honkai-energy"],"abilities":["冰冻能力","天火圣裁","融合战士体质"],"items":["天火圣裁"],"relationships":["mei-dr:former-era-link","kiana-kaslana:kaslana-line"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-hi3-import-readme"],"notes":""}],"indices":{"byFaction":{"st-freya":["kiana-kaslana","mei-raiden","bronya-zaychik","theresa-apocalypse","himeko-murata"],"schicksal":["kiana-kaslana","theresa-apocalypse","fu-hua","otto-apocalypse"],"anti-entropy":["bronya-zaychik"],"world-serpent":["mei-raiden","kevin-kaslana"]},"byPowerSystem":{"honkai-energy":["kiana-kaslana","mei-raiden","bronya-zaychik","himeko-murata","fu-hua","otto-apocalypse","kevin-kaslana"],"valkyrie-tech":["kiana-kaslana","mei-raiden","bronya-zaychik","theresa-apocalypse","himeko-murata","otto-apocalypse"]},"byVisibility":{"public":["kiana-kaslana","mei-raiden","bronya-zaychik","theresa-apocalypse","himeko-murata"],"private":["fu-hua","otto-apocalypse","kevin-kaslana"]},"majorCharacters":["kiana-kaslana","mei-raiden","bronya-zaychik","himeko-murata","otto-apocalypse","kevin-kaslana"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "honkai-impact-3rd",
+  "characters": [
+    {
+      "id": "kiana-kaslana",
+      "name": "琪亚娜·卡斯兰娜",
+      "aliases": [
+        "K423",
+        "空之律者宿主",
+        "终焉相关"
+      ],
+      "visibility": "public",
+      "summary": "主角，卡斯兰娜名义继承者，经历律者危机并走向守护世界。",
+      "roles": [
+        "protagonist",
+        "valkyrie",
+        "herrscher-host"
+      ],
+      "factions": [
+        "schicksal",
+        "st-freya"
+      ],
+      "locations": [
+        "st-freya-academy"
+      ],
+      "powerSystems": [
+        "honkai-energy",
+        "valkyrie-tech"
+      ],
+      "abilities": [
+        "枪斗术",
+        "空之律者权能",
+        "薪炎/终焉相关能力"
+      ],
+      "items": [
+        "女武神装甲"
+      ],
+      "relationships": [
+        {
+          "target": "mei-raiden",
+          "targetType": "character",
+          "relation": "bond",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "bronya-zaychik",
+          "targetType": "character",
+          "relation": "teammate",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "theresa-apocalypse",
+          "targetType": "character",
+          "relation": "guardian",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "需按章节拆分律者状态。",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy"
+      ]
+    },
+    {
+      "id": "mei-raiden",
+      "name": "雷电芽衣",
+      "aliases": [
+        "雷之律者"
+      ],
+      "visibility": "public",
+      "summary": "琪亚娜挚友，雷之律者，曾与世界蛇合作。",
+      "roles": [
+        "main-character",
+        "herrscher"
+      ],
+      "factions": [
+        "st-freya",
+        "world-serpent"
+      ],
+      "locations": [
+        "st-freya-academy"
+      ],
+      "powerSystems": [
+        "honkai-energy",
+        "valkyrie-tech"
+      ],
+      "abilities": [
+        "雷电权能",
+        "剑术"
+      ],
+      "items": [
+        "太刀",
+        "女武神装甲"
+      ],
+      "relationships": [
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "bond",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "bronya-zaychik",
+          "targetType": "character",
+          "relation": "teammate",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "世界蛇阶段需标记阵营变化。",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy"
+      ]
+    },
+    {
+      "id": "bronya-zaychik",
+      "name": "布洛妮娅·扎伊切克",
+      "aliases": [
+        "理之律者",
+        "板鸭"
+      ],
+      "visibility": "public",
+      "summary": "前孤儿佣兵，逆熵相关，理之律者继承者。",
+      "roles": [
+        "main-character",
+        "herrscher"
+      ],
+      "factions": [
+        "anti-entropy",
+        "st-freya"
+      ],
+      "locations": [
+        "st-freya-academy",
+        "anti-entropy-base"
+      ],
+      "powerSystems": [
+        "honkai-energy",
+        "valkyrie-tech"
+      ],
+      "abilities": [
+        "重装小兔",
+        "构造权能"
+      ],
+      "items": [
+        "重装小兔"
+      ],
+      "relationships": [
+        {
+          "target": "seele-vollerei",
+          "targetType": "character",
+          "relation": "bond",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "teammate",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy",
+        "locations: 逆熵基地 -> anti-entropy-base"
+      ]
+    },
+    {
+      "id": "theresa-apocalypse",
+      "name": "德丽莎·阿波卡利斯",
+      "aliases": [
+        "学园长"
+      ],
+      "visibility": "public",
+      "summary": "圣芙蕾雅学园长，天命高层相关。",
+      "roles": [
+        "leader",
+        "valkyrie"
+      ],
+      "factions": [
+        "schicksal",
+        "st-freya"
+      ],
+      "locations": [
+        "st-freya-academy"
+      ],
+      "powerSystems": [
+        "valkyrie-tech"
+      ],
+      "abilities": [
+        "犹大的誓约",
+        "怪力"
+      ],
+      "items": [
+        "犹大的誓约"
+      ],
+      "relationships": [
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "guardian",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "otto-apocalypse",
+          "targetType": "character",
+          "relation": "relative/conflict",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy"
+      ]
+    },
+    {
+      "id": "himeko-murata",
+      "name": "无量塔姬子",
+      "aliases": [
+        "姬子老师"
+      ],
+      "visibility": "public",
+      "summary": "圣芙蕾雅教师与女武神，琪亚娜成长关键导师。",
+      "roles": [
+        "mentor",
+        "valkyrie"
+      ],
+      "factions": [
+        "st-freya"
+      ],
+      "locations": [
+        "st-freya-academy"
+      ],
+      "powerSystems": [
+        "valkyrie-tech",
+        "honkai-energy"
+      ],
+      "abilities": [
+        "大剑战斗",
+        "真红骑士装甲"
+      ],
+      "items": [
+        "大剑",
+        "装甲"
+      ],
+      "relationships": [
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "theresa-apocalypse",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "牺牲事件为关键节点。",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy"
+      ]
+    },
+    {
+      "id": "fu-hua",
+      "name": "符华",
+      "aliases": [
+        "赤鸢仙人",
+        "华"
+      ],
+      "visibility": "private",
+      "summary": "前文明融合战士，长期守护神州并监视崩坏。",
+      "roles": [
+        "mentor",
+        "manticore"
+      ],
+      "factions": [
+        "schicksal",
+        "former-era"
+      ],
+      "locations": [
+        "shenzhou",
+        "st-freya-academy"
+      ],
+      "powerSystems": [
+        "honkai-energy",
+        "martial-arts"
+      ],
+      "abilities": [
+        "寸劲",
+        "太虚剑气",
+        "羽渡尘"
+      ],
+      "items": [
+        "羽渡尘"
+      ],
+      "relationships": [
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "otto-apocalypse",
+          "targetType": "character",
+          "relation": "uneasy-ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "记忆与人格状态复杂。",
+      "normalizationNotes": [
+        "locations: 圣芙蕾雅 -> st-freya-academy",
+        "powerSystems: martial-arts 未在 world.powerSystems 中；保留为战斗技艺标签，待人工判定。"
+      ]
+    },
+    {
+      "id": "otto-apocalypse",
+      "name": "奥托·阿波卡利斯",
+      "aliases": [
+        "天命主教"
+      ],
+      "visibility": "private",
+      "summary": "天命主教，为复活卡莲长期布局。",
+      "roles": [
+        "antagonist",
+        "leader"
+      ],
+      "factions": [
+        "schicksal"
+      ],
+      "locations": [
+        "schicksal-hq"
+      ],
+      "powerSystems": [
+        "valkyrie-tech",
+        "honkai-energy"
+      ],
+      "abilities": [
+        "魂钢身体",
+        "支配天命资源",
+        "虚空万藏"
+      ],
+      "items": [
+        "虚空万藏"
+      ],
+      "relationships": [
+        {
+          "target": "kallen-kaslana",
+          "targetType": "character",
+          "relation": "obsession",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "theresa-apocalypse",
+          "targetType": "character",
+          "relation": "creator/relative",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "动机应 GM 保留。",
+      "normalizationNotes": [
+        "locations: 天命总部 -> schicksal-hq"
+      ]
+    },
+    {
+      "id": "kevin-kaslana",
+      "name": "凯文·卡斯兰娜",
+      "aliases": [
+        "救世之人",
+        "世界蛇尊主"
+      ],
+      "visibility": "private",
+      "summary": "前文明最强融合战士，世界蛇领袖，执行圣痕计划。",
+      "roles": [
+        "antagonist",
+        "former-era-hero"
+      ],
+      "factions": [
+        "world-serpent",
+        "former-era"
+      ],
+      "locations": [
+        "world-serpent-base"
+      ],
+      "powerSystems": [
+        "honkai-energy"
+      ],
+      "abilities": [
+        "冰冻能力",
+        "天火圣裁",
+        "融合战士体质"
+      ],
+      "items": [
+        "天火圣裁"
+      ],
+      "relationships": [
+        {
+          "target": "mei-dr",
+          "targetType": "character",
+          "relation": "former-era-link",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "kiana-kaslana",
+          "targetType": "character",
+          "relation": "kaslana-line",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-hi3-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": []
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "schicksal": [
+        "kiana-kaslana",
+        "theresa-apocalypse",
+        "fu-hua",
+        "otto-apocalypse"
+      ],
+      "st-freya": [
+        "kiana-kaslana",
+        "mei-raiden",
+        "bronya-zaychik",
+        "theresa-apocalypse",
+        "himeko-murata"
+      ],
+      "world-serpent": [
+        "mei-raiden",
+        "kevin-kaslana"
+      ],
+      "anti-entropy": [
+        "bronya-zaychik"
+      ],
+      "former-era": [
+        "fu-hua",
+        "kevin-kaslana"
+      ]
+    },
+    "byPowerSystem": {
+      "honkai-energy": [
+        "kiana-kaslana",
+        "mei-raiden",
+        "bronya-zaychik",
+        "himeko-murata",
+        "fu-hua",
+        "otto-apocalypse",
+        "kevin-kaslana"
+      ],
+      "valkyrie-tech": [
+        "kiana-kaslana",
+        "mei-raiden",
+        "bronya-zaychik",
+        "theresa-apocalypse",
+        "himeko-murata",
+        "otto-apocalypse"
+      ],
+      "martial-arts": [
+        "fu-hua"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "kiana-kaslana",
+        "mei-raiden",
+        "bronya-zaychik",
+        "theresa-apocalypse",
+        "himeko-murata"
+      ],
+      "private": [
+        "fu-hua",
+        "otto-apocalypse",
+        "kevin-kaslana"
+      ]
+    },
+    "majorCharacters": [
+      "kiana-kaslana",
+      "mei-raiden",
+      "bronya-zaychik",
+      "theresa-apocalypse",
+      "himeko-murata",
+      "fu-hua",
+      "otto-apocalypse",
+      "kevin-kaslana"
+    ],
+    "byId": {
+      "kiana-kaslana": 0,
+      "mei-raiden": 1,
+      "bronya-zaychik": 2,
+      "theresa-apocalypse": 3,
+      "himeko-murata": 4,
+      "fu-hua": 5,
+      "otto-apocalypse": 6,
+      "kevin-kaslana": 7
+    },
+    "byName": {
+      "琪亚娜·卡斯兰娜": "kiana-kaslana",
+      "雷电芽衣": "mei-raiden",
+      "布洛妮娅·扎伊切克": "bronya-zaychik",
+      "德丽莎·阿波卡利斯": "theresa-apocalypse",
+      "无量塔姬子": "himeko-murata",
+      "符华": "fu-hua",
+      "奥托·阿波卡利斯": "otto-apocalypse",
+      "凯文·卡斯兰娜": "kevin-kaslana"
+    },
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

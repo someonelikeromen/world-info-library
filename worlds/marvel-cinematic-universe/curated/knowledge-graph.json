@@ -1,1 +1,364 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-marvel-cinematic-universe","cardId":"marvel-cinematic-universe","nodes":[{"id":"kg-infinity-stones","type":"item","title":"无限宝石","aliases":[],"visibility":"private","summary":"六枚宇宙级神器。","fullText":"空间、心灵、现实、力量、时间、灵魂宝石可组合造成宇宙级影响。","tags":["artifact","cosmic"],"importance":"critical","source":{"kind":"worldbook","ref":"src-mcu-classification-report"},"revealConditions":["宇宙主线"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-avengers","type":"faction","title":"复仇者联盟","aliases":[],"visibility":"public","summary":"地球超级英雄团队。","fullText":"由多名英雄组成，应对地球和宇宙级威胁。","tags":["hero"],"importance":"critical","source":{"kind":"worldbook","ref":"src-mcu-import-readme"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-hydra-infiltration","type":"secret","title":"九头蛇渗透神盾局","aliases":[],"visibility":"gm-only","summary":"神盾局内部存在九头蛇潜伏。","fullText":"会改变情报、任务和信任关系。","tags":["secret","hydra"],"importance":"high","source":{"kind":"worldbook","ref":"src-mcu-classification-report"},"revealConditions":["调查神盾局异常"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-multiverse","type":"rule","title":"多元宇宙与时间线分支","aliases":[],"visibility":"private","summary":"后期 MCU 中时间线和变体成为重要规则。","fullText":"量子领域、TVA、咒术事故等可引出分支。","tags":["multiverse"],"importance":"high","source":{"kind":"worldbook","ref":"src-mcu-import-readme"},"revealConditions":["阶段四后或时间线事件"],"evidenceLevel":"B","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-1","from":"kg-infinity-stones","to":"kg-avengers","type":"causes","visibility":"private","strength":{"level":"S","score":90,"description":"宝石争夺引发复仇者终局危机。"},"description":"无限宝石推动宇宙主线。","gmNotes":"宝石状态按阶段。"},{"id":"kg-edge-2","from":"kg-hydra-infiltration","to":"kg-avengers","type":"reveals","visibility":"gm-only","strength":{"level":"B","score":70,"description":"神盾局崩溃影响复仇者情报结构。"},"description":"九头蛇暗线可制造内部信任危机。","gmNotes":""},{"id":"kg-edge-3","from":"kg-multiverse","to":"kg-infinity-stones","type":"contradicts","visibility":"private","strength":{"level":"C","score":40,"description":"不同宇宙中宝石规则和有效性可能不同。"},"description":"多元宇宙扩展需重新判定神器规则。","gmNotes":""}],"indices":{"byVisibility":{"public":["kg-avengers"],"private":["kg-infinity-stones","kg-multiverse"],"gm-only":["kg-hydra-infiltration"]},"byType":{"item":["kg-infinity-stones"],"faction":["kg-avengers"],"secret":["kg-hydra-infiltration"],"rule":["kg-multiverse"]},"byTag":{"artifact":["kg-infinity-stones"],"hero":["kg-avengers"],"secret":["kg-hydra-infiltration"],"multiverse":["kg-multiverse"]},"activeClues":[],"lockedSecrets":["kg-hydra-infiltration"]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-marvel-cinematic-universe",
+  "cardId": "marvel-cinematic-universe",
+  "nodes": [
+    {
+      "id": "kg-infinity-stones",
+      "type": "item",
+      "title": "无限宝石",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "六枚宇宙级神器。",
+      "fullText": "空间、心灵、现实、力量、时间、灵魂宝石可组合造成宇宙级影响。",
+      "tags": [
+        "artifact",
+        "cosmic"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-mcu-classification-report"
+      },
+      "revealConditions": [
+        "宇宙主线"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-avengers",
+      "type": "faction",
+      "title": "复仇者联盟",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "地球超级英雄团队。",
+      "fullText": "由多名英雄组成，应对地球和宇宙级威胁。",
+      "tags": [
+        "hero"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-mcu-import-readme"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-hydra-infiltration",
+      "type": "secret",
+      "title": "九头蛇渗透神盾局",
+      "aliases": [],
+      "visibility": "gm-only",
+      "summary": "神盾局内部存在九头蛇潜伏。",
+      "fullText": "会改变情报、任务和信任关系。",
+      "tags": [
+        "secret",
+        "hydra"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-mcu-classification-report"
+      },
+      "revealConditions": [
+        "调查神盾局异常"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-multiverse",
+      "type": "rule",
+      "title": "多元宇宙与时间线分支",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "后期 MCU 中时间线和变体成为重要规则。",
+      "fullText": "量子领域、TVA、咒术事故等可引出分支。",
+      "tags": [
+        "multiverse"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-mcu-import-readme"
+      },
+      "revealConditions": [
+        "阶段四后或时间线事件"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "tony-stark",
+      "type": "character",
+      "label": "托尼·斯塔克",
+      "summary": "天才工程师和复仇者创始人，以装甲科技承担超级英雄责任。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "steve-rogers",
+      "type": "character",
+      "label": "史蒂夫·罗杰斯",
+      "summary": "超级士兵血清强化者，复仇者精神领袖。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "thor-odinson",
+      "type": "character",
+      "label": "索尔·奥丁森",
+      "summary": "阿斯加德王子/国王，掌握雷霆神力。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "bruce-banner",
+      "type": "character",
+      "label": "布鲁斯·班纳",
+      "summary": "伽马辐射科学家，愤怒时化身浩克。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "natasha-romanoff",
+      "type": "character",
+      "label": "娜塔莎·罗曼诺夫",
+      "summary": "前红房特工，复仇者核心成员。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "doctor-strange",
+      "type": "character",
+      "label": "史蒂芬·斯特兰奇",
+      "summary": "外科医生转为秘术师，守护现实与时间线。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "thanos",
+      "type": "character",
+      "label": "灭霸",
+      "summary": "宇宙级军阀，追求无限宝石以执行平衡宇宙计划。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "peter-parker",
+      "type": "character",
+      "label": "彼得·帕克",
+      "summary": "被蜘蛛咬伤获得能力的年轻英雄。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "avengers",
+      "type": "faction",
+      "label": "复仇者联盟",
+      "summary": "地球主要超级英雄协作团队。"
+    },
+    {
+      "id": "shield",
+      "type": "faction",
+      "label": "神盾局",
+      "summary": "处理超常威胁的情报机构。"
+    },
+    {
+      "id": "hydra",
+      "type": "faction",
+      "label": "九头蛇",
+      "summary": "长期渗透并追求控制的秘密组织。"
+    },
+    {
+      "id": "asgard",
+      "type": "faction",
+      "label": "阿斯加德"
+    },
+    {
+      "id": "black-order",
+      "type": "faction",
+      "label": "黑曜五将/黑暗教团"
+    },
+    {
+      "id": "masters-of-mystic-arts",
+      "type": "faction",
+      "label": "秘术师"
+    },
+    {
+      "id": "stark-industries",
+      "type": "faction",
+      "label": "斯塔克工业"
+    },
+    {
+      "id": "new-york",
+      "type": "location",
+      "label": "纽约"
+    },
+    {
+      "id": "avengers-compound",
+      "type": "location",
+      "label": "复仇者基地"
+    },
+    {
+      "id": "wakanda",
+      "type": "location",
+      "label": "瓦坎达"
+    },
+    {
+      "id": "kamar-taj",
+      "type": "location",
+      "label": "卡玛泰姬"
+    },
+    {
+      "id": "quantum-realm",
+      "type": "location",
+      "label": "量子领域"
+    },
+    {
+      "id": "titan",
+      "type": "location",
+      "label": "泰坦星"
+    },
+    {
+      "id": "new-york-sanctum",
+      "type": "location",
+      "label": "纽约圣殿"
+    },
+    {
+      "id": "united-states",
+      "type": "location",
+      "label": "美国",
+      "summary": "美国相关地点集合标签。"
+    },
+    {
+      "id": "earth",
+      "type": "location",
+      "label": "地球",
+      "summary": "地球主舞台集合标签。"
+    },
+    {
+      "id": "cosmos",
+      "type": "location",
+      "label": "宇宙",
+      "summary": "宇宙线活动区域集合标签。"
+    },
+    {
+      "id": "super-soldier-tech",
+      "type": "powerSystem",
+      "label": "超级士兵/科技强化"
+    },
+    {
+      "id": "mystic-arts",
+      "type": "powerSystem",
+      "label": "秘术魔法"
+    },
+    {
+      "id": "infinity-stones",
+      "type": "powerSystem",
+      "label": "无限宝石"
+    },
+    {
+      "id": "asgardian-divinity",
+      "type": "powerSystem",
+      "label": "阿斯加德神族体质/神力"
+    }
+  ],
+  "edges": [
+    {
+      "id": "kg-edge-1",
+      "from": "kg-infinity-stones",
+      "to": "kg-avengers",
+      "type": "causes",
+      "visibility": "private",
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "宝石争夺引发复仇者终局危机。"
+      },
+      "description": "无限宝石推动宇宙主线。",
+      "gmNotes": "宝石状态按阶段。"
+    },
+    {
+      "id": "kg-edge-2",
+      "from": "kg-hydra-infiltration",
+      "to": "kg-avengers",
+      "type": "reveals",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "B",
+        "score": 70,
+        "description": "神盾局崩溃影响复仇者情报结构。"
+      },
+      "description": "九头蛇暗线可制造内部信任危机。",
+      "gmNotes": ""
+    },
+    {
+      "id": "kg-edge-3",
+      "from": "kg-multiverse",
+      "to": "kg-infinity-stones",
+      "type": "contradicts",
+      "visibility": "private",
+      "strength": {
+        "level": "C",
+        "score": 40,
+        "description": "不同宇宙中宝石规则和有效性可能不同。"
+      },
+      "description": "多元宇宙扩展需重新判定神器规则。",
+      "gmNotes": ""
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "kg-avengers"
+      ],
+      "private": [
+        "kg-infinity-stones",
+        "kg-multiverse"
+      ],
+      "gm-only": [
+        "kg-hydra-infiltration"
+      ]
+    },
+    "byType": {
+      "item": [
+        "kg-infinity-stones"
+      ],
+      "faction": [
+        "kg-avengers"
+      ],
+      "secret": [
+        "kg-hydra-infiltration"
+      ],
+      "rule": [
+        "kg-multiverse"
+      ]
+    },
+    "byTag": {
+      "artifact": [
+        "kg-infinity-stones"
+      ],
+      "hero": [
+        "kg-avengers"
+      ],
+      "secret": [
+        "kg-hydra-infiltration"
+      ],
+      "multiverse": [
+        "kg-multiverse"
+      ]
+    },
+    "activeClues": [],
+    "lockedSecrets": [
+      "kg-hydra-infiltration"
+    ]
+  }
+}

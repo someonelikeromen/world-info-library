@@ -1,19 +1,272 @@
 {
-  "schema":"rp-world-v1",
-  "worldId":"rozen-maiden",
-  "worldName":"蔷薇少女",
-  "aliases":["Rozen Maiden","蔷薇少女的箱庭"],
-  "genre":["现代奇幻","哥特童话","人偶契约","箱庭日常"],
-  "summary":"现代都市日常背后，天才人偶师罗真制作的七位蔷薇少女以蔷薇圣母为生命核心，通过与人类媒介缔约获取魔力，并被爱丽丝游戏推向彼此争夺核心的宿命。现实居所提供温暖箱庭，镜面等反射物连接心象异空间N之领域。",
-  "sandboxPrinciple":"不固定爱丽丝游戏结局；媒介与人偶的选择可改变战斗、停战、共存或分支结局。",
-  "hasFixedFate":false,
-  "foreignPowerSuppressionDefault":false,
-  "notes":["原始归档含大量叙事风格/互动规则，curated 只保留设定事实与RP可用规则。"],
-  "powerSystems":[{"id":"rozen-contract","name":"媒介契约与魔力供给","category":"contract-external-energy","principle":"蔷薇少女亲吻人类戒指缔约，媒介生命力/精神力转化为人偶活动和战斗魔力。","classification":["Contract","Mana","Spirit"],"energySource":"contracted-human-medium","hasExternalEnergy":true,"externalEnergyName":"媒介魔力","energyTraits":[{"tag":"life-drain","level":"B","description":"过度抽取会使媒介虚弱甚至危及生命。"}],"levelMapping":[{"localLevel":"普通媒介","description":"通常支持一名人偶日常与短时战斗。","universalRange":{"rating":"N1-N3","minScore":100,"maxScore":999},"typicalAttributeRatings":{"output":"N1","durability":"N1","reaction":"N1","control":"N1-N2","perception":"N1","mentalStrength":"N1-N3","computation":"N1"},"notes":["樱田纯属于异常高潜力媒介。"]}],"commonResources":["契约戒指","精神力","生命力"],"commonAbilities":["魔力供给","契约共鸣","感情反馈"],"limitations":["媒介受伤或拒绝会削弱人偶","抽取过量有生命风险"],"compatibilityNotes":["外来能量可作为额外资源，但不默认替代蔷薇圣母。"]},{"id":"rozen-rosa-mystica","name":"蔷薇圣母与爱丽丝游戏","category":"soul-core-contest","principle":"蔷薇圣母是蔷薇少女生命核心；爱丽丝游戏要求互夺核心以成为完美女孩爱丽丝。","classification":["Soul Core","Fate Game","Construct"],"energySource":"internal-core","hasExternalEnergy":false,"externalEnergyName":"蔷薇圣母","energyTraits":[{"tag":"identity-core","level":"A","description":"失去核心通常意味着人偶停机/死亡或被吸收。"}],"levelMapping":[],"commonResources":["蔷薇圣母","人工精灵"],"commonAbilities":["心象领域适应","专属魔法/武器","核心吸收"],"limitations":["宿命机制可被沙盒选择挑战；不同版本规则存在分歧。"],"compatibilityNotes":[]}],
-  "factions":[{"id":"rozen-contract-camp","name":"契约阵营/樱田家箱庭","type":"protagonist-household","summary":"樱田纯及与其共处或结契的蔷薇少女，维护日常并抵抗爱丽丝游戏压力。","powerSystemAffinity":["rozen-contract","rozen-rosa-mystica"],"publicRules":["人偶通常要求媒介服侍与供能"],"hiddenRules":["成员对和平日常的眷恋可压过游戏宿命"],"attitudeToOutsiders":"cautious","knownMembers":["sakurada-jun","shinku","hinaichigo","suiseiseki","souseiseki"],"territories":["sakurada-house","n-field"],"resources":["茶具","裁缝工具","契约戒指"],"conflicts":["alice-game"]},{"id":"rozen-invaders","name":"爱丽丝游戏竞争者","type":"rival-dolls","summary":"尚未和解或执着于夺取蔷薇圣母的人偶及操盘者。","powerSystemAffinity":["rozen-rosa-mystica"],"publicRules":["挑战、夺取核心"],"hiddenRules":[],"attitudeToOutsiders":"hostile-or-variable","knownMembers":["suigintou","kirakishou","barasuishou"],"territories":["n-field"],"resources":["人工精灵","专属心象领域"],"conflicts":["contract-camp"]}],
-  "energyEnvironment":{"externalEnergies":[{"name":"媒介魔力","density":"localized","distribution":"集中于契约戒指与媒介-人偶连接","traits":["生命力转化","情绪共鸣"],"recoveryImpact":"媒介休息与情绪稳定有助恢复。"}],"restrictedZones":[],"specialFields":[{"id":"n-field","name":"N之领域","description":"镜面/反射物连接的心象异空间，重力、距离、地貌受潜意识和魔力影响。"}]},
-  "worldRules":{"publicLaws":["现代人类社会规则作为背景存在"],"supernaturalRules":["蔷薇少女需发条/核心/魔力维持活动","N之领域遵循心象法则","爱丽丝游戏驱动蔷薇少女互斗"],"taboos":["粗暴抽取媒介生命力","夺取蔷薇圣母等同致命伤害"],"knownExceptions":["樱田纯可承受多名人偶供能，证据为归档人物条目。"]},
-  "locations":[{"id":"sakurada-house","name":"樱田家/媒介居所","type":"safe-house","summary":"箱庭日常核心，红茶、缝纫、皮箱和人偶共处的安全区。"},{"id":"n-field","name":"N之领域","type":"dreamlike-realm","summary":"异空间战场与心象迷宫，常由镜面进入。"},{"id":"antique-doll-space","name":"人偶皮箱与古典房间","type":"micro-location","summary":"人偶沉睡、苏醒和修复的私密空间。"}],
-  "publicEvents":[{"id":"jun-winds-shinku","name":"纯为真红上发条","summary":"樱田纯收到皮箱并唤醒真红，随后卷入契约与爱丽丝游戏。"},{"id":"alice-game","name":"爱丽丝游戏进行中","summary":"七位蔷薇少女因成为爱丽丝的规则被推向争夺。"}],
-  "hiddenEvents":[{"id":"rozen-disappearance","name":"罗真失踪与游戏真意","summary":"罗真制作人偶后消失；其真实意图与最终继承存在版本差异。"}]
+  "schema": "rp-world-v1",
+  "worldId": "rozen-maiden",
+  "worldName": "蔷薇少女",
+  "aliases": [
+    "Rozen Maiden",
+    "蔷薇少女的箱庭"
+  ],
+  "genre": [
+    "现代奇幻",
+    "哥特童话",
+    "人偶契约",
+    "箱庭日常"
+  ],
+  "summary": "现代都市日常背后，天才人偶师罗真制作的七位蔷薇少女以蔷薇圣母为生命核心，通过与人类媒介缔约获取魔力，并被爱丽丝游戏推向彼此争夺核心的宿命。现实居所提供温暖箱庭，镜面等反射物连接心象异空间N之领域。",
+  "sandboxPrinciple": {
+    "summary": "不固定爱丽丝游戏结局；媒介与人偶的选择可改变战斗、停战、共存或分支结局。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "原始归档含大量叙事风格/互动规则，curated 只保留设定事实与RP可用规则。"
+  ],
+  "powerSystems": [
+    {
+      "id": "rozen-contract",
+      "name": "媒介契约与魔力供给",
+      "category": "contract-external-energy",
+      "principle": "蔷薇少女亲吻人类戒指缔约，媒介生命力/精神力转化为人偶活动和战斗魔力。",
+      "classification": [
+        "Contract",
+        "Mana",
+        "Spirit"
+      ],
+      "energySource": "contracted-human-medium",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "媒介魔力",
+      "energyTraits": [
+        {
+          "tag": "life-drain",
+          "level": "B",
+          "description": "过度抽取会使媒介虚弱甚至危及生命。"
+        }
+      ],
+      "levelMapping": [
+        {
+          "localLevel": "普通媒介",
+          "description": "通常支持一名人偶日常与短时战斗。",
+          "universalRange": {
+            "rating": "N1-N3",
+            "minScore": 100,
+            "maxScore": 999
+          },
+          "typicalAttributeRatings": {
+            "output": "N1",
+            "durability": "N1",
+            "reaction": "N1",
+            "control": "N1-N2",
+            "perception": "N1",
+            "mentalStrength": "N1-N3",
+            "computation": "N1"
+          },
+          "notes": [
+            "樱田纯属于异常高潜力媒介。"
+          ]
+        }
+      ],
+      "commonResources": [
+        "契约戒指",
+        "精神力",
+        "生命力"
+      ],
+      "commonAbilities": [
+        "魔力供给",
+        "契约共鸣",
+        "感情反馈"
+      ],
+      "limitations": [
+        "媒介受伤或拒绝会削弱人偶",
+        "抽取过量有生命风险"
+      ],
+      "compatibilityNotes": [
+        "外来能量可作为额外资源，但不默认替代蔷薇圣母。"
+      ]
+    },
+    {
+      "id": "rozen-rosa-mystica",
+      "name": "蔷薇圣母与爱丽丝游戏",
+      "category": "soul-core-contest",
+      "principle": "蔷薇圣母是蔷薇少女生命核心；爱丽丝游戏要求互夺核心以成为完美女孩爱丽丝。",
+      "classification": [
+        "Soul Core",
+        "Fate Game",
+        "Construct"
+      ],
+      "energySource": "internal-core",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "蔷薇圣母",
+      "energyTraits": [
+        {
+          "tag": "identity-core",
+          "level": "A",
+          "description": "失去核心通常意味着人偶停机/死亡或被吸收。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "蔷薇圣母",
+        "人工精灵"
+      ],
+      "commonAbilities": [
+        "心象领域适应",
+        "专属魔法/武器",
+        "核心吸收"
+      ],
+      "limitations": [
+        "宿命机制可被沙盒选择挑战；不同版本规则存在分歧。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "rozen-contract-camp",
+      "name": "契约阵营/樱田家箱庭",
+      "type": "protagonist-household",
+      "summary": "樱田纯及与其共处或结契的蔷薇少女，维护日常并抵抗爱丽丝游戏压力。",
+      "powerSystemAffinity": [
+        "rozen-contract",
+        "rozen-rosa-mystica"
+      ],
+      "publicRules": [
+        "人偶通常要求媒介服侍与供能"
+      ],
+      "hiddenRules": [
+        "成员对和平日常的眷恋可压过游戏宿命"
+      ],
+      "attitudeToOutsiders": "cautious",
+      "knownMembers": [
+        "sakurada-jun",
+        "shinku",
+        "hinaichigo",
+        "suiseiseki",
+        "souseiseki"
+      ],
+      "territories": [
+        "sakurada-house",
+        "n-field"
+      ],
+      "resources": [
+        "茶具",
+        "裁缝工具",
+        "契约戒指"
+      ],
+      "conflicts": [
+        "alice-game"
+      ]
+    },
+    {
+      "id": "rozen-invaders",
+      "name": "爱丽丝游戏竞争者",
+      "type": "rival-dolls",
+      "summary": "尚未和解或执着于夺取蔷薇圣母的人偶及操盘者。",
+      "powerSystemAffinity": [
+        "rozen-rosa-mystica"
+      ],
+      "publicRules": [
+        "挑战、夺取核心"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "hostile-or-variable",
+      "knownMembers": [
+        "suigintou",
+        "kirakishou",
+        "barasuishou"
+      ],
+      "territories": [
+        "n-field"
+      ],
+      "resources": [
+        "人工精灵",
+        "专属心象领域"
+      ],
+      "conflicts": [
+        "contract-camp"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "媒介魔力",
+        "density": "localized",
+        "distribution": "集中于契约戒指与媒介-人偶连接",
+        "traits": [
+          "生命力转化",
+          "情绪共鸣"
+        ],
+        "recoveryImpact": "媒介休息与情绪稳定有助恢复。"
+      }
+    ],
+    "restrictedZones": [],
+    "specialFields": [
+      {
+        "id": "n-field",
+        "name": "N之领域",
+        "description": "镜面/反射物连接的心象异空间，重力、距离、地貌受潜意识和魔力影响。"
+      }
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代人类社会规则作为背景存在"
+    ],
+    "supernaturalRules": [
+      "蔷薇少女需发条/核心/魔力维持活动",
+      "N之领域遵循心象法则",
+      "爱丽丝游戏驱动蔷薇少女互斗"
+    ],
+    "taboos": [
+      "粗暴抽取媒介生命力",
+      "夺取蔷薇圣母等同致命伤害"
+    ],
+    "knownExceptions": [
+      "樱田纯可承受多名人偶供能，证据为归档人物条目。"
+    ]
+  },
+  "locations": [
+    {
+      "id": "sakurada-house",
+      "name": "樱田家/媒介居所",
+      "type": "safe-house",
+      "summary": "箱庭日常核心，红茶、缝纫、皮箱和人偶共处的安全区。"
+    },
+    {
+      "id": "n-field",
+      "name": "N之领域",
+      "type": "dreamlike-realm",
+      "summary": "异空间战场与心象迷宫，常由镜面进入。"
+    },
+    {
+      "id": "antique-doll-space",
+      "name": "人偶皮箱与古典房间",
+      "type": "micro-location",
+      "summary": "人偶沉睡、苏醒和修复的私密空间。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "jun-winds-shinku",
+      "name": "纯为真红上发条",
+      "summary": "樱田纯收到皮箱并唤醒真红，随后卷入契约与爱丽丝游戏。"
+    },
+    {
+      "id": "alice-game",
+      "name": "爱丽丝游戏进行中",
+      "summary": "七位蔷薇少女因成为爱丽丝的规则被推向争夺。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "rozen-disappearance",
+      "name": "罗真失踪与游戏真意",
+      "summary": "罗真制作人偶后消失；其真实意图与最终继承存在版本差异。"
+    }
+  ]
 }

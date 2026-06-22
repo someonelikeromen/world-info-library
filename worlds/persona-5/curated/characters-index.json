@@ -1,35 +1,521 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "persona-5",
   "displayName": "女神异闻录5 / Persona 5 Royal",
   "characters": [
-    {"id": "joker", "name": "主人公 / Joker", "type": "主角", "affiliation": ["心之怪盗团", "秀尽学园", "卢布朗"], "codename": "Joker", "arcana": "愚者", "role": "转学生、怪盗团领袖、人格面具使者", "traits": ["冷静", "叛逆", "多面性", "凝聚同伴"], "persona": "亚森及多重人格面具", "rpUse": "玩家身份、团长、殿堂潜入决策核心。"},
-    {"id": "ryuji", "name": "坂本龙司", "type": "怪盗团成员", "affiliation": ["秀尽学园", "心之怪盗团"], "codename": "Skull", "arcana": "战车", "role": "前田径部成员，反抗鸭志田的起点同伴", "traits": ["冲动", "重义气", "直率"], "persona": "船长基德", "rpUse": "行动派、友情线、学校压迫受害者。"},
-    {"id": "ann", "name": "高卷杏", "type": "怪盗团成员", "affiliation": ["秀尽学园", "心之怪盗团"], "codename": "Panther", "arcana": "恋爱", "role": "模特混血少女，鸭志田事件关键受害者友人", "traits": ["坚强", "善良", "魅力", "愤怒于剥削"], "persona": "卡门", "rpUse": "情感支援、魅惑/火焰战斗、社会视线主题。"},
-    {"id": "morgana", "name": "摩尔加纳", "type": "怪盗团成员/向导", "affiliation": ["心之怪盗团", "卢布朗"], "codename": "Mona", "arcana": "魔术师", "role": "猫形认知存在，教导怪盗规则", "traits": ["自尊", "照顾同伴", "寻找自我"], "persona": "佐罗", "rpUse": "异世界向导、车辆形态、身份谜团。"},
-    {"id": "yusuke", "name": "喜多川祐介", "type": "怪盗团成员", "affiliation": ["洸星高校", "心之怪盗团"], "codename": "Fox", "arcana": "皇帝", "role": "艺术生，斑目事件后加入", "traits": ["审美极端", "真诚", "贫穷喜剧"], "persona": "五右卫门", "rpUse": "艺术、冰系/物理战斗、赝作与师徒主题。"},
-    {"id": "makoto", "name": "新岛真", "type": "怪盗团成员", "affiliation": ["秀尽学园学生会", "心之怪盗团"], "codename": "Queen", "arcana": "女教皇", "role": "学生会长，新岛冴之妹", "traits": ["认真", "理性", "压抑后爆发"], "persona": "约翰娜", "rpUse": "战术分析、学校政治、姐妹与警察线。"},
-    {"id": "futaba", "name": "佐仓双叶", "type": "怪盗团成员/导航", "affiliation": ["卢布朗", "心之怪盗团"], "codename": "Oracle/Navi", "arcana": "隐者", "role": "天才黑客，母亲事件创伤者", "traits": ["社恐", "聪明", "宅", "逐步复健"], "persona": "死灵之书", "rpUse": "导航、黑客支援、创伤治愈线。"},
-    {"id": "haru", "name": "奥村春", "type": "怪盗团成员", "affiliation": ["秀尽学园", "奥村食品", "心之怪盗团"], "codename": "Noir", "arcana": "女皇", "role": "企业千金，反抗父权与商业婚约", "traits": ["温柔", "坚韧", "优雅中带危险感"], "persona": "米莱迪", "rpUse": "企业线、园艺、念动/枪械战斗。"},
-    {"id": "akechi", "name": "明智吾郎", "type": "侦探/对手/临时成员", "affiliation": ["侦探王子", "警方合作", "心之怪盗团临时"], "codename": "Crow", "arcana": "正义", "role": "名侦探与双重身份者", "traits": ["优雅", "嫉妒", "破碎", "竞争心"], "persona": "罗宾汉/洛基", "rpUse": "侦探对立、背叛、第三学期共斗与宿敌线。"},
-    {"id": "kasumi-sumire", "name": "芳泽霞/芳泽堇", "type": "P5R怪盗成员", "affiliation": ["秀尽学园", "体操选手", "心之怪盗团"], "codename": "Violet", "arcana": "信念", "role": "P5R 新角色，身份与愿望扭曲核心", "traits": ["努力", "脆弱", "追寻自我"], "persona": "灰姑娘", "rpUse": "第三学期、丸喜现实改写、身份复归线。"},
-    {"id": "maruki", "name": "丸喜拓人", "type": "P5R关键角色/最终对立者", "affiliation": ["秀尽学园咨询室", "认知科学"], "arcana": "顾问", "role": "心理咨询师，试图实现无痛幸福现实", "traits": ["温柔", "创伤", "救世执念"], "persona": "阿撒托斯/亚当卡德蒙", "rpUse": "哲学终局：幸福幻象 vs 自由意志。"},
-    {"id": "sojiro", "name": "佐仓惣治郎", "type": "协助者", "affiliation": ["卢布朗", "佐仓家"], "arcana": "教皇", "role": "主人公监护人与咖啡店老板，双叶养父", "traits": ["嘴硬", "温柔", "成熟"], "persona": null, "rpUse": "日常据点、咖啡咖喱、家庭羁绊。"},
-    {"id": "sae", "name": "新岛冴", "type": "检察官/协助者", "affiliation": ["检察体系", "新岛家"], "arcana": "审判", "role": "审讯主人公的检察官，新岛真姐姐", "traits": ["强势", "压力巨大", "追求正义但扭曲"], "persona": null, "rpUse": "审讯叙事框架、赌场殿堂目标、法律线。"},
-    {"id": "igor", "name": "伊戈尔", "type": "天鹅绒房间主人", "affiliation": ["天鹅绒房间"], "arcana": "愚者相关", "role": "人格面具合成与命运引导者", "traits": ["神秘", "仪式化"], "persona": null, "rpUse": "面具合成、命运提示、真假伊戈尔谜题。"},
-    {"id": "twins-lavenza", "name": "卡萝莉娜/芮丝汀娜/拉雯妲", "type": "天鹅绒房间助手", "affiliation": ["天鹅绒房间"], "arcana": "力量", "role": "双子狱卒与真实助手拉雯妲", "traits": ["严厉", "分裂", "忠诚"], "persona": null, "rpUse": "合成课题、天鹅绒房间真相。"},
-    {"id": "mishima", "name": "三岛由辉", "type": "协助者", "affiliation": ["怪盗频道", "秀尽学园"], "arcana": "月", "role": "怪盗团粉丝网站管理者", "traits": ["渴望认可", "努力", "易偏执"], "persona": null, "rpUse": "舆论、委托、普通人视角。"},
-    {"id": "takemi", "name": "武见妙", "type": "协助者", "affiliation": ["四轩茶屋诊所"], "arcana": "死神", "role": "地下医生", "traits": ["冷淡", "叛逆", "医者良心"], "persona": null, "rpUse": "药品、人体试验误解、医疗线。"},
-    {"id": "kawakami", "name": "川上贞代", "type": "协助者", "affiliation": ["秀尽学园", "家政服务"], "arcana": "节制", "role": "教师兼秘密兼职者", "traits": ["疲惫", "照顾学生", "背负债务"], "persona": null, "rpUse": "时间管理、教师压力与社会剥削。"},
-    {"id": "hifumi", "name": "东乡一二三", "type": "协助者", "affiliation": ["神田", "将棋界"], "arcana": "星", "role": "女流棋士", "traits": ["优雅", "中二台词", "战略思维"], "persona": null, "rpUse": "战术技能、将棋与公众期待。"},
-    {"id": "shinya", "name": "织田信也", "type": "协助者", "affiliation": ["秋叶原游戏厅"], "arcana": "塔", "role": "天才射击游戏少年", "traits": ["好胜", "孤独", "成长中"], "persona": null, "rpUse": "枪械技巧、儿童视角与霸凌线。"},
-    {"id": "ohya", "name": "大宅一子", "type": "协助者", "affiliation": ["新宿酒吧", "记者"], "arcana": "恶魔", "role": "记者，追查真相", "traits": ["颓废", "执着", "有良知"], "persona": null, "rpUse": "媒体调查、情报泄露与舆论。"},
-    {"id": "chihaya", "name": "御船千早", "type": "协助者", "affiliation": ["新宿", "占卜"], "arcana": "命运", "role": "占卜师", "traits": ["温和", "宿命论到自立"], "persona": null, "rpUse": "预兆、运势、乡村诈骗组织线。"},
-    {"id": "yoshida", "name": "吉田寅之助", "type": "协助者", "affiliation": ["涩谷站前", "政治"], "arcana": "太阳", "role": "落魄政治家", "traits": ["诚恳", "演说", "赎罪"], "persona": null, "rpUse": "交涉、政治演说、社会改革线。"},
-    {"id": "kamoshida", "name": "鸭志田卓", "type": "殿堂目标", "affiliation": ["秀尽学园排球部"], "role": "教师与第一殿堂统治者", "traits": ["傲慢", "虐待", "欲望扭曲"], "palace": "城堡", "rpUse": "压迫起点与怪盗团成立事件。"},
-    {"id": "madarame", "name": "斑目一流斋", "type": "殿堂目标", "affiliation": ["艺术界"], "role": "剽窃弟子的画家", "traits": ["虚荣", "贪婪", "剥削"], "palace": "美术馆", "rpUse": "祐介加入与艺术剥削线。"},
-    {"id": "kaneshiro", "name": "金城润矢", "type": "殿堂目标", "affiliation": ["黑道/犯罪金融"], "role": "勒索学生的黑道", "traits": ["贪婪", "压迫", "金钱崇拜"], "palace": "银行", "rpUse": "真加入与都市犯罪线。"},
-    {"id": "okumura", "name": "奥村邦和", "type": "殿堂目标", "affiliation": ["奥村食品"], "role": "企业家，春之父", "traits": ["功利", "企业剥削", "父权"], "palace": "宇宙基地", "rpUse": "企业政治与春觉醒。"},
-    {"id": "shido", "name": "狮童正义", "type": "主要反派", "affiliation": ["政界", "阴谋集团"], "role": "政客，主人公冤案源头", "traits": ["野心", "支配欲", "冷酷"], "palace": "游轮", "rpUse": "主线政治阴谋与复仇目标。"}
-  ]
+    {
+      "id": "joker",
+      "name": "主人公 / Joker",
+      "type": "主角",
+      "affiliation": [
+        "心之怪盗团",
+        "秀尽学园",
+        "卢布朗"
+      ],
+      "codename": "Joker",
+      "arcana": "愚者",
+      "role": "转学生、怪盗团领袖、人格面具使者",
+      "traits": [
+        "冷静",
+        "叛逆",
+        "多面性",
+        "凝聚同伴"
+      ],
+      "persona": "亚森及多重人格面具",
+      "rpUse": "玩家身份、团长、殿堂潜入决策核心。"
+    },
+    {
+      "id": "ryuji",
+      "name": "坂本龙司",
+      "type": "怪盗团成员",
+      "affiliation": [
+        "秀尽学园",
+        "心之怪盗团"
+      ],
+      "codename": "Skull",
+      "arcana": "战车",
+      "role": "前田径部成员，反抗鸭志田的起点同伴",
+      "traits": [
+        "冲动",
+        "重义气",
+        "直率"
+      ],
+      "persona": "船长基德",
+      "rpUse": "行动派、友情线、学校压迫受害者。"
+    },
+    {
+      "id": "ann",
+      "name": "高卷杏",
+      "type": "怪盗团成员",
+      "affiliation": [
+        "秀尽学园",
+        "心之怪盗团"
+      ],
+      "codename": "Panther",
+      "arcana": "恋爱",
+      "role": "模特混血少女，鸭志田事件关键受害者友人",
+      "traits": [
+        "坚强",
+        "善良",
+        "魅力",
+        "愤怒于剥削"
+      ],
+      "persona": "卡门",
+      "rpUse": "情感支援、魅惑/火焰战斗、社会视线主题。"
+    },
+    {
+      "id": "morgana",
+      "name": "摩尔加纳",
+      "type": "怪盗团成员/向导",
+      "affiliation": [
+        "心之怪盗团",
+        "卢布朗"
+      ],
+      "codename": "Mona",
+      "arcana": "魔术师",
+      "role": "猫形认知存在，教导怪盗规则",
+      "traits": [
+        "自尊",
+        "照顾同伴",
+        "寻找自我"
+      ],
+      "persona": "佐罗",
+      "rpUse": "异世界向导、车辆形态、身份谜团。"
+    },
+    {
+      "id": "yusuke",
+      "name": "喜多川祐介",
+      "type": "怪盗团成员",
+      "affiliation": [
+        "洸星高校",
+        "心之怪盗团"
+      ],
+      "codename": "Fox",
+      "arcana": "皇帝",
+      "role": "艺术生，斑目事件后加入",
+      "traits": [
+        "审美极端",
+        "真诚",
+        "贫穷喜剧"
+      ],
+      "persona": "五右卫门",
+      "rpUse": "艺术、冰系/物理战斗、赝作与师徒主题。"
+    },
+    {
+      "id": "makoto",
+      "name": "新岛真",
+      "type": "怪盗团成员",
+      "affiliation": [
+        "秀尽学园学生会",
+        "心之怪盗团"
+      ],
+      "codename": "Queen",
+      "arcana": "女教皇",
+      "role": "学生会长，新岛冴之妹",
+      "traits": [
+        "认真",
+        "理性",
+        "压抑后爆发"
+      ],
+      "persona": "约翰娜",
+      "rpUse": "战术分析、学校政治、姐妹与警察线。"
+    },
+    {
+      "id": "futaba",
+      "name": "佐仓双叶",
+      "type": "怪盗团成员/导航",
+      "affiliation": [
+        "卢布朗",
+        "心之怪盗团"
+      ],
+      "codename": "Oracle/Navi",
+      "arcana": "隐者",
+      "role": "天才黑客，母亲事件创伤者",
+      "traits": [
+        "社恐",
+        "聪明",
+        "宅",
+        "逐步复健"
+      ],
+      "persona": "死灵之书",
+      "rpUse": "导航、黑客支援、创伤治愈线。"
+    },
+    {
+      "id": "haru",
+      "name": "奥村春",
+      "type": "怪盗团成员",
+      "affiliation": [
+        "秀尽学园",
+        "奥村食品",
+        "心之怪盗团"
+      ],
+      "codename": "Noir",
+      "arcana": "女皇",
+      "role": "企业千金，反抗父权与商业婚约",
+      "traits": [
+        "温柔",
+        "坚韧",
+        "优雅中带危险感"
+      ],
+      "persona": "米莱迪",
+      "rpUse": "企业线、园艺、念动/枪械战斗。"
+    },
+    {
+      "id": "akechi",
+      "name": "明智吾郎",
+      "type": "侦探/对手/临时成员",
+      "affiliation": [
+        "侦探王子",
+        "警方合作",
+        "心之怪盗团临时"
+      ],
+      "codename": "Crow",
+      "arcana": "正义",
+      "role": "名侦探与双重身份者",
+      "traits": [
+        "优雅",
+        "嫉妒",
+        "破碎",
+        "竞争心"
+      ],
+      "persona": "罗宾汉/洛基",
+      "rpUse": "侦探对立、背叛、第三学期共斗与宿敌线。"
+    },
+    {
+      "id": "kasumi-sumire",
+      "name": "芳泽霞/芳泽堇",
+      "type": "P5R怪盗成员",
+      "affiliation": [
+        "秀尽学园",
+        "体操选手",
+        "心之怪盗团"
+      ],
+      "codename": "Violet",
+      "arcana": "信念",
+      "role": "P5R 新角色，身份与愿望扭曲核心",
+      "traits": [
+        "努力",
+        "脆弱",
+        "追寻自我"
+      ],
+      "persona": "灰姑娘",
+      "rpUse": "第三学期、丸喜现实改写、身份复归线。"
+    },
+    {
+      "id": "maruki",
+      "name": "丸喜拓人",
+      "type": "P5R关键角色/最终对立者",
+      "affiliation": [
+        "秀尽学园咨询室",
+        "认知科学"
+      ],
+      "arcana": "顾问",
+      "role": "心理咨询师，试图实现无痛幸福现实",
+      "traits": [
+        "温柔",
+        "创伤",
+        "救世执念"
+      ],
+      "persona": "阿撒托斯/亚当卡德蒙",
+      "rpUse": "哲学终局：幸福幻象 vs 自由意志。"
+    },
+    {
+      "id": "sojiro",
+      "name": "佐仓惣治郎",
+      "type": "协助者",
+      "affiliation": [
+        "卢布朗",
+        "佐仓家"
+      ],
+      "arcana": "教皇",
+      "role": "主人公监护人与咖啡店老板，双叶养父",
+      "traits": [
+        "嘴硬",
+        "温柔",
+        "成熟"
+      ],
+      "persona": null,
+      "rpUse": "日常据点、咖啡咖喱、家庭羁绊。"
+    },
+    {
+      "id": "sae",
+      "name": "新岛冴",
+      "type": "检察官/协助者",
+      "affiliation": [
+        "检察体系",
+        "新岛家"
+      ],
+      "arcana": "审判",
+      "role": "审讯主人公的检察官，新岛真姐姐",
+      "traits": [
+        "强势",
+        "压力巨大",
+        "追求正义但扭曲"
+      ],
+      "persona": null,
+      "rpUse": "审讯叙事框架、赌场殿堂目标、法律线。"
+    },
+    {
+      "id": "igor",
+      "name": "伊戈尔",
+      "type": "天鹅绒房间主人",
+      "affiliation": [
+        "天鹅绒房间"
+      ],
+      "arcana": "愚者相关",
+      "role": "人格面具合成与命运引导者",
+      "traits": [
+        "神秘",
+        "仪式化"
+      ],
+      "persona": null,
+      "rpUse": "面具合成、命运提示、真假伊戈尔谜题。"
+    },
+    {
+      "id": "twins-lavenza",
+      "name": "卡萝莉娜/芮丝汀娜/拉雯妲",
+      "type": "天鹅绒房间助手",
+      "affiliation": [
+        "天鹅绒房间"
+      ],
+      "arcana": "力量",
+      "role": "双子狱卒与真实助手拉雯妲",
+      "traits": [
+        "严厉",
+        "分裂",
+        "忠诚"
+      ],
+      "persona": null,
+      "rpUse": "合成课题、天鹅绒房间真相。"
+    },
+    {
+      "id": "mishima",
+      "name": "三岛由辉",
+      "type": "协助者",
+      "affiliation": [
+        "怪盗频道",
+        "秀尽学园"
+      ],
+      "arcana": "月",
+      "role": "怪盗团粉丝网站管理者",
+      "traits": [
+        "渴望认可",
+        "努力",
+        "易偏执"
+      ],
+      "persona": null,
+      "rpUse": "舆论、委托、普通人视角。"
+    },
+    {
+      "id": "takemi",
+      "name": "武见妙",
+      "type": "协助者",
+      "affiliation": [
+        "四轩茶屋诊所"
+      ],
+      "arcana": "死神",
+      "role": "地下医生",
+      "traits": [
+        "冷淡",
+        "叛逆",
+        "医者良心"
+      ],
+      "persona": null,
+      "rpUse": "药品、人体试验误解、医疗线。"
+    },
+    {
+      "id": "kawakami",
+      "name": "川上贞代",
+      "type": "协助者",
+      "affiliation": [
+        "秀尽学园",
+        "家政服务"
+      ],
+      "arcana": "节制",
+      "role": "教师兼秘密兼职者",
+      "traits": [
+        "疲惫",
+        "照顾学生",
+        "背负债务"
+      ],
+      "persona": null,
+      "rpUse": "时间管理、教师压力与社会剥削。"
+    },
+    {
+      "id": "hifumi",
+      "name": "东乡一二三",
+      "type": "协助者",
+      "affiliation": [
+        "神田",
+        "将棋界"
+      ],
+      "arcana": "星",
+      "role": "女流棋士",
+      "traits": [
+        "优雅",
+        "中二台词",
+        "战略思维"
+      ],
+      "persona": null,
+      "rpUse": "战术技能、将棋与公众期待。"
+    },
+    {
+      "id": "shinya",
+      "name": "织田信也",
+      "type": "协助者",
+      "affiliation": [
+        "秋叶原游戏厅"
+      ],
+      "arcana": "塔",
+      "role": "天才射击游戏少年",
+      "traits": [
+        "好胜",
+        "孤独",
+        "成长中"
+      ],
+      "persona": null,
+      "rpUse": "枪械技巧、儿童视角与霸凌线。"
+    },
+    {
+      "id": "ohya",
+      "name": "大宅一子",
+      "type": "协助者",
+      "affiliation": [
+        "新宿酒吧",
+        "记者"
+      ],
+      "arcana": "恶魔",
+      "role": "记者，追查真相",
+      "traits": [
+        "颓废",
+        "执着",
+        "有良知"
+      ],
+      "persona": null,
+      "rpUse": "媒体调查、情报泄露与舆论。"
+    },
+    {
+      "id": "chihaya",
+      "name": "御船千早",
+      "type": "协助者",
+      "affiliation": [
+        "新宿",
+        "占卜"
+      ],
+      "arcana": "命运",
+      "role": "占卜师",
+      "traits": [
+        "温和",
+        "宿命论到自立"
+      ],
+      "persona": null,
+      "rpUse": "预兆、运势、乡村诈骗组织线。"
+    },
+    {
+      "id": "yoshida",
+      "name": "吉田寅之助",
+      "type": "协助者",
+      "affiliation": [
+        "涩谷站前",
+        "政治"
+      ],
+      "arcana": "太阳",
+      "role": "落魄政治家",
+      "traits": [
+        "诚恳",
+        "演说",
+        "赎罪"
+      ],
+      "persona": null,
+      "rpUse": "交涉、政治演说、社会改革线。"
+    },
+    {
+      "id": "kamoshida",
+      "name": "鸭志田卓",
+      "type": "殿堂目标",
+      "affiliation": [
+        "秀尽学园排球部"
+      ],
+      "role": "教师与第一殿堂统治者",
+      "traits": [
+        "傲慢",
+        "虐待",
+        "欲望扭曲"
+      ],
+      "palace": "城堡",
+      "rpUse": "压迫起点与怪盗团成立事件。"
+    },
+    {
+      "id": "madarame",
+      "name": "斑目一流斋",
+      "type": "殿堂目标",
+      "affiliation": [
+        "艺术界"
+      ],
+      "role": "剽窃弟子的画家",
+      "traits": [
+        "虚荣",
+        "贪婪",
+        "剥削"
+      ],
+      "palace": "美术馆",
+      "rpUse": "祐介加入与艺术剥削线。"
+    },
+    {
+      "id": "kaneshiro",
+      "name": "金城润矢",
+      "type": "殿堂目标",
+      "affiliation": [
+        "黑道/犯罪金融"
+      ],
+      "role": "勒索学生的黑道",
+      "traits": [
+        "贪婪",
+        "压迫",
+        "金钱崇拜"
+      ],
+      "palace": "银行",
+      "rpUse": "真加入与都市犯罪线。"
+    },
+    {
+      "id": "okumura",
+      "name": "奥村邦和",
+      "type": "殿堂目标",
+      "affiliation": [
+        "奥村食品"
+      ],
+      "role": "企业家，春之父",
+      "traits": [
+        "功利",
+        "企业剥削",
+        "父权"
+      ],
+      "palace": "宇宙基地",
+      "rpUse": "企业政治与春觉醒。"
+    },
+    {
+      "id": "shido",
+      "name": "狮童正义",
+      "type": "主要反派",
+      "affiliation": [
+        "政界",
+        "阴谋集团"
+      ],
+      "role": "政客，主人公冤案源头",
+      "traits": [
+        "野心",
+        "支配欲",
+        "冷酷"
+      ],
+      "palace": "游轮",
+      "rpUse": "主线政治阴谋与复仇目标。"
+    }
+  ],
+  "worldId": "persona-5",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

@@ -1,1 +1,72 @@
-{"schema":"rp-relationship-graph-v1","worldId":"campione","nodes":[{"id":"godou-kusanagi","type":"character","label":"草薙护堂"},{"id":"erica-blandelli","type":"character","label":"艾丽卡"},{"id":"yuri-mariya","type":"character","label":"祐理"},{"id":"athena","type":"character","label":"雅典娜"},{"id":"luo-hao","type":"character","label":"罗濠"},{"id":"campione","type":"faction","label":"弑神者"}],"edges":[{"from":"godou-kusanagi","to":"erica-blandelli","type":"partner"},{"from":"godou-kusanagi","to":"yuri-mariya","type":"ally"},{"from":"godou-kusanagi","to":"athena","type":"enemy_or_truce"},{"from":"godou-kusanagi","to":"luo-hao","type":"peer_rival"},{"from":"luo-hao","to":"campione","type":"member"}],"sourceRefs":["src-campione-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "campione",
+  "nodes": [
+    {
+      "id": "godou-kusanagi",
+      "type": "character",
+      "label": "草薙护堂"
+    },
+    {
+      "id": "erica-blandelli",
+      "type": "character",
+      "label": "艾丽卡"
+    },
+    {
+      "id": "yuri-mariya",
+      "type": "character",
+      "label": "祐理"
+    },
+    {
+      "id": "athena",
+      "type": "character",
+      "label": "雅典娜"
+    },
+    {
+      "id": "luo-hao",
+      "type": "character",
+      "label": "罗濠"
+    },
+    {
+      "id": "campione",
+      "type": "faction",
+      "label": "弑神者"
+    }
+  ],
+  "edges": [
+    {
+      "from": "godou-kusanagi",
+      "to": "erica-blandelli",
+      "type": "partner"
+    },
+    {
+      "from": "godou-kusanagi",
+      "to": "yuri-mariya",
+      "type": "ally"
+    },
+    {
+      "from": "godou-kusanagi",
+      "to": "athena",
+      "type": "enemy_or_truce"
+    },
+    {
+      "from": "godou-kusanagi",
+      "to": "luo-hao",
+      "type": "peer_rival"
+    },
+    {
+      "from": "luo-hao",
+      "to": "campione",
+      "type": "member"
+    }
+  ],
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "campaignId": "campione",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "majo-no-tabitabi",
   "sources": [
     {
@@ -7,7 +7,13 @@
       "title": "世界书：魔女之旅",
       "type": "user-file-source",
       "reliability": "B",
-      "usedFor": ["characters", "magic-system", "factions", "locations", "relationships"],
+      "usedFor": [
+        "characters",
+        "magic-system",
+        "factions",
+        "locations",
+        "relationships"
+      ],
       "localEvidence": [
         "campaigns/world-library/worlds/majo-no-tabitabi/source-registry.json",
         "campaigns/world-library/worlds/majo-no-tabitabi/characters/characters.json",
@@ -20,5 +26,17 @@
     }
   ],
   "conflicts": [],
-  "curationPolicy": "保留可 RP 的世界观、人物关系与制度；将源条目中的技术控制文本和不适合核心世界观的成人化描述排除。"
+  "curationPolicy": "保留可 RP 的世界观、人物关系与制度；将源条目中的技术控制文本和不适合核心世界观的成人化描述排除。",
+  "campaignId": "majo-no-tabitabi",
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

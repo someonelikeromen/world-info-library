@@ -1,17 +1,796 @@
 {
-  "schema": "curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "rakudai-kishi",
   "relationships": [
-    {"source": "黑铁一辉", "target": "史黛菈·法米利昂", "type": "恋人/宿命对手", "notes": "从决斗与室友关系发展为恋人，最终在七星剑武祭决赛相争。"},
-    {"source": "黑铁一辉", "target": "黑铁珠雫", "type": "兄妹", "notes": "珠雫追随并守护兄长。"},
-    {"source": "黑铁珠雫", "target": "有栖院凪", "type": "室友/羁绊", "notes": "艾莉丝因与珠雫的情感选择背叛原阵营。"},
-    {"source": "黑铁一辉", "target": "黑铁严", "type": "父子冲突", "notes": "家族压迫与断绝关系构成一辉成长压力。"},
-    {"source": "黑铁一辉", "target": "黑铁王马", "type": "兄弟/强敌", "notes": "王马追逐巅峰并多次冲击一辉心理。"},
-    {"source": "黑铁一辉", "target": "绫辻绚濑", "type": "师徒/救赎", "notes": "一辉教导绚濑并帮她夺回道场。"},
-    {"source": "绫辻绚濑", "target": "仓敷藏人", "type": "仇敌", "notes": "仓敷夺走绫辻道场并击败海斗。"},
-    {"source": "黑铁一辉", "target": "东堂刀华", "type": "强敌/训练伙伴", "notes": "刀华既是珠雫强敌，也是后期模拟战助力。"},
-    {"source": "史黛菈·法米利昂", "target": "黑铁王马", "type": "准决赛对手", "notes": "史黛菈以巨龙概念击败王马。"},
-    {"source": "黑铁一辉", "target": "爱德怀斯", "type": "挑战者与世界最强", "notes": "一辉虽败却留下剑痕。"},
-    {"source": "月影总理", "target": "新宫寺黑乃", "type": "师生/政治对立", "notes": "黑乃揭穿月影推动日本脱离联盟的企图。"}
-  ]
+    {
+      "source": "黑铁一辉",
+      "target": "史黛菈·法米利昂",
+      "type": "恋人/宿命对手",
+      "notes": "从决斗与室友关系发展为恋人，最终在七星剑武祭决赛相争。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁珠雫",
+      "type": "兄妹",
+      "notes": "珠雫追随并守护兄长。"
+    },
+    {
+      "source": "黑铁珠雫",
+      "target": "有栖院凪",
+      "type": "室友/羁绊",
+      "notes": "艾莉丝因与珠雫的情感选择背叛原阵营。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁严",
+      "type": "父子冲突",
+      "notes": "家族压迫与断绝关系构成一辉成长压力。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁王马",
+      "type": "兄弟/强敌",
+      "notes": "王马追逐巅峰并多次冲击一辉心理。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "绫辻绚濑",
+      "type": "师徒/救赎",
+      "notes": "一辉教导绚濑并帮她夺回道场。"
+    },
+    {
+      "source": "绫辻绚濑",
+      "target": "仓敷藏人",
+      "type": "仇敌",
+      "notes": "仓敷夺走绫辻道场并击败海斗。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "东堂刀华",
+      "type": "强敌/训练伙伴",
+      "notes": "刀华既是珠雫强敌，也是后期模拟战助力。"
+    },
+    {
+      "source": "史黛菈·法米利昂",
+      "target": "黑铁王马",
+      "type": "准决赛对手",
+      "notes": "史黛菈以巨龙概念击败王马。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "爱德怀斯",
+      "type": "挑战者与世界最强",
+      "notes": "一辉虽败却留下剑痕。"
+    },
+    {
+      "source": "月影总理",
+      "target": "新宫寺黑乃",
+      "type": "师生/政治对立",
+      "notes": "黑乃揭穿月影推动日本脱离联盟的企图。"
+    }
+  ],
+  "campaignId": "rakudai-kishi",
+  "nodes": [
+    {
+      "id": "黑铁一辉",
+      "label": "黑铁一辉",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "黑铁一辉",
+          "mappedId": "黑铁一辉",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "黑铁一辉",
+              "targetLabel": "黑铁一辉",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=黑铁一辉"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "黑铁一辉",
+          "targetLabel": "黑铁一辉",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=黑铁一辉"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "史黛菈·法米利昂",
+      "label": "史黛菈·法米利昂",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "史黛菈·法米利昂",
+          "mappedId": "史黛菈·法米利昂",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "史黛菈·法米利昂",
+              "targetLabel": "史黛菈·法米利昂",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=史黛菈·法米利昂"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "史黛菈·法米利昂",
+          "targetLabel": "史黛菈·法米利昂",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=史黛菈·法米利昂"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "黑铁珠雫",
+      "label": "黑铁珠雫",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "黑铁珠雫",
+          "mappedId": "黑铁珠雫",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "黑铁珠雫",
+              "targetLabel": "黑铁珠雫",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=黑铁珠雫"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "黑铁珠雫",
+          "targetLabel": "黑铁珠雫",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=黑铁珠雫"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "有栖院凪",
+      "label": "有栖院凪",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "有栖院凪",
+          "mappedId": "有栖院凪",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "有栖院凪",
+              "targetLabel": "有栖院凪",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=有栖院凪"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "有栖院凪",
+          "targetLabel": "有栖院凪",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=有栖院凪"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "黑铁严",
+      "label": "黑铁严",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "黑铁严",
+          "mappedId": "黑铁严",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "黑铁严",
+              "targetLabel": "黑铁严",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=黑铁严"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "黑铁严",
+          "targetLabel": "黑铁严",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=黑铁严"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "黑铁王马",
+      "label": "黑铁王马",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "黑铁王马",
+          "mappedId": "黑铁王马",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "黑铁王马",
+              "targetLabel": "黑铁王马",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=黑铁王马"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "黑铁王马",
+          "targetLabel": "黑铁王马",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=黑铁王马"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "绫辻绚濑",
+      "label": "绫辻绚濑",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "绫辻绚濑",
+          "mappedId": "绫辻绚濑",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "绫辻绚濑",
+              "targetLabel": "绫辻绚濑",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=绫辻绚濑"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "绫辻绚濑",
+          "targetLabel": "绫辻绚濑",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=绫辻绚濑"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "仓敷藏人",
+      "label": "仓敷藏人",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "仓敷藏人",
+          "mappedId": "仓敷藏人",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "仓敷藏人",
+              "targetLabel": "仓敷藏人",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=仓敷藏人"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "仓敷藏人",
+          "targetLabel": "仓敷藏人",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=仓敷藏人"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "东堂刀华",
+      "label": "东堂刀华",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "东堂刀华",
+          "mappedId": "东堂刀华",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "东堂刀华",
+              "targetLabel": "东堂刀华",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=东堂刀华"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "东堂刀华",
+          "targetLabel": "东堂刀华",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=东堂刀华"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "爱德怀斯",
+      "label": "爱德怀斯",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "爱德怀斯",
+          "mappedId": "爱德怀斯",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "爱德怀斯",
+              "targetLabel": "爱德怀斯",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=爱德怀斯"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "爱德怀斯",
+          "targetLabel": "爱德怀斯",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=爱德怀斯"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "月影总理",
+      "label": "月影总理",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "月影总理",
+          "mappedId": "月影总理",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "月影总理",
+              "targetLabel": "月影总理",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=月影总理"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "月影总理",
+          "targetLabel": "月影总理",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=月影总理"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    },
+    {
+      "id": "新宫寺黑乃",
+      "label": "新宫寺黑乃",
+      "type": "character",
+      "notes": [
+        "Q4 source-risk review: retained as an unresolved graph reference, not a verified source-backed entity.",
+        "Do not treat this node as canonically confirmed until a curator maps it to characters-index, knowledge-graph, or a registered source."
+      ],
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "新宫寺黑乃",
+          "mappedId": "新宫寺黑乃",
+          "mappedKind": "characters-index",
+          "reviewStep": "source-risk-review-q5",
+          "sourceRefs": [
+            {
+              "sourceId": "src-rakudai-kishi-001",
+              "kind": "characters-index",
+              "targetId": "新宫寺黑乃",
+              "targetLabel": "新宫寺黑乃",
+              "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+            }
+          ],
+          "evidence": [
+            {
+              "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+              "match": "name=新宫寺黑乃"
+            }
+          ],
+          "resolutionNotes": [
+            "Unique curated match from rakudai-kishi curated index or knowledge graph."
+          ]
+        }
+      },
+      "sourceRefs": [
+        {
+          "sourceId": "src-rakudai-kishi-001",
+          "kind": "characters-index",
+          "targetId": "新宫寺黑乃",
+          "targetLabel": "新宫寺黑乃",
+          "note": "Unique curated match from rakudai-kishi curated index or knowledge graph."
+        }
+      ],
+      "evidence": [
+        {
+          "filePath": "worlds/rakudai-kishi/curated/characters-index.json",
+          "match": "name=新宫寺黑乃"
+        }
+      ],
+      "resolutionNotes": [
+        "Unique curated match from rakudai-kishi curated index or knowledge graph."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "黑铁一辉",
+      "target": "史黛菈·法米利昂",
+      "type": "恋人/宿命对手",
+      "notes": "从决斗与室友关系发展为恋人，最终在七星剑武祭决赛相争。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁珠雫",
+      "type": "兄妹",
+      "notes": "珠雫追随并守护兄长。"
+    },
+    {
+      "source": "黑铁珠雫",
+      "target": "有栖院凪",
+      "type": "室友/羁绊",
+      "notes": "艾莉丝因与珠雫的情感选择背叛原阵营。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁严",
+      "type": "父子冲突",
+      "notes": "家族压迫与断绝关系构成一辉成长压力。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "黑铁王马",
+      "type": "兄弟/强敌",
+      "notes": "王马追逐巅峰并多次冲击一辉心理。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "绫辻绚濑",
+      "type": "师徒/救赎",
+      "notes": "一辉教导绚濑并帮她夺回道场。"
+    },
+    {
+      "source": "绫辻绚濑",
+      "target": "仓敷藏人",
+      "type": "仇敌",
+      "notes": "仓敷夺走绫辻道场并击败海斗。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "东堂刀华",
+      "type": "强敌/训练伙伴",
+      "notes": "刀华既是珠雫强敌，也是后期模拟战助力。"
+    },
+    {
+      "source": "史黛菈·法米利昂",
+      "target": "黑铁王马",
+      "type": "准决赛对手",
+      "notes": "史黛菈以巨龙概念击败王马。"
+    },
+    {
+      "source": "黑铁一辉",
+      "target": "爱德怀斯",
+      "type": "挑战者与世界最强",
+      "notes": "一辉虽败却留下剑痕。"
+    },
+    {
+      "source": "月影总理",
+      "target": "新宫寺黑乃",
+      "type": "师生/政治对立",
+      "notes": "黑乃揭穿月影推动日本脱离联盟的企图。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

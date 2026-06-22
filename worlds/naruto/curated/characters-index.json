@@ -1,17 +1,574 @@
 {
-  "schema":"rp-characters-index-v1",
-  "worldId":"naruto",
-  "characters":[
-    {"id":"naruto-uzumaki","name":"漩涡鸣人","aliases":["九尾人柱力","七代目候选"],"visibility":"public","summary":"木叶忍者，九尾人柱力，以成为火影和打破仇恨连锁为核心动机。","roles":["protagonist","jinchuriki"],"factions":["konohagakure"],"locations":["木叶"],"powerSystems":["chakra","tailed-beasts","senjutsu"],"abilities":["影分身","螺旋丸","仙人模式","九尾查克拉模式"],"items":["护额"],"relationships":["sasuke-uchiha:rival/bond","kakashi-hatake:mentor","jiraiya:mentor"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme","src-naruto-classification-report"],"notes":"按主要主线整理。"},
-    {"id":"sasuke-uchiha","name":"宇智波佐助","aliases":["复仇者","宇智波末裔"],"visibility":"public","summary":"宇智波遗孤，因灭族真相与复仇执念多次转换阵营。","roles":["deuteragonist","rival"],"factions":["konohagakure","uchiha-clan"],"locations":["木叶","音隐相关据点"],"powerSystems":["chakra","kekkei-genkai"],"abilities":["写轮眼","万花筒写轮眼","千鸟","轮回眼"],"items":["草薙剑"],"relationships":["naruto-uzumaki:rival/bond","itachi-uchiha:brother","sakura-haruno:teammate"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"不同阶段阵营需按时间线更新。"},
-    {"id":"sakura-haruno","name":"春野樱","aliases":["医疗忍者"],"visibility":"public","summary":"第七班成员，师从纲手，擅长怪力与医疗忍术。","roles":["main-character","medic"],"factions":["konohagakure"],"locations":["木叶"],"powerSystems":["chakra"],"abilities":["医疗忍术","百豪之术","怪力"],"items":[],"relationships":["naruto-uzumaki:teammate","sasuke-uchiha:teammate/affection","tsunade:mentor"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":""},
-    {"id":"kakashi-hatake","name":"旗木卡卡西","aliases":["拷贝忍者","第六代火影"],"visibility":"public","summary":"第七班导师，前暗部，战术经验丰富。","roles":["mentor","jonin"],"factions":["konohagakure"],"locations":["木叶"],"powerSystems":["chakra","kekkei-genkai"],"abilities":["雷切","写轮眼复制","神威"],"items":["亲热天堂"],"relationships":["naruto-uzumaki:student","sasuke-uchiha:student","obito-uchiha:former-teammate"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"写轮眼状态按阶段变化。"},
-    {"id":"itachi-uchiha","name":"宇智波鼬","aliases":["灭族者","晓成员"],"visibility":"private","summary":"宇智波天才，表面叛忍，真实动机涉及木叶高层命令与保护佐助。","roles":["anti-villain","secret-keeper"],"factions":["akatsuki","uchiha-clan"],"locations":["晓据点"],"powerSystems":["chakra","kekkei-genkai"],"abilities":["月读","天照","须佐能乎"],"items":[],"relationships":["sasuke-uchiha:brother/protective","kisame-hoshigaki:partner"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"灭族真相建议 gm-only/渐进揭露。"},
-    {"id":"pain","name":"佩恩/长门","aliases":["晓首领","轮回眼持有者"],"visibility":"private","summary":"以痛苦带来和平为理念的晓实际领袖之一，操控六道佩恩。","roles":["antagonist","ideologue"],"factions":["akatsuki","amegakure"],"locations":["雨隐村"],"powerSystems":["chakra","kekkei-genkai"],"abilities":["轮回眼六道术","神罗天征","地爆天星"],"items":[],"relationships":["konan:ally","jiraiya:former-student","naruto-uzumaki:ideological-opponent"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"长门本体位置默认隐藏。"},
-    {"id":"obito-uchiha","name":"宇智波带土","aliases":["阿飞","面具男"],"visibility":"gm-only","summary":"被认为战死的宇智波，幕后推动九尾事件、晓与月之眼计划。","roles":["mastermind","antagonist"],"factions":["akatsuki","uchiha-clan"],"locations":["异空间"],"powerSystems":["chakra","kekkei-genkai"],"abilities":["神威","木遁细胞","写轮眼幻术"],"items":["面具"],"relationships":["kakashi-hatake:former-teammate","madara-uchiha:manipulated-by","rin-nohara:trauma"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"身份为核心秘密。"},
-    {"id":"madara-uchiha","name":"宇智波斑","aliases":["传说中的宇智波"],"visibility":"gm-only","summary":"木叶创立时代的传奇强者，后期战争核心威胁。","roles":["legendary-antagonist"],"factions":["uchiha-clan"],"locations":["历史/战场"],"powerSystems":["chakra","kekkei-genkai","tailed-beasts"],"abilities":["须佐能乎","轮回眼","木遁","无限月读计划"],"items":[],"relationships":["hashirama-senju:rival","obito-uchiha:manipulator"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":"复活状态和秽土状态需分开评级。"},
-    {"id":"jiraiya","name":"自来也","aliases":["三忍","蛤蟆仙人"],"visibility":"public","summary":"木叶三忍之一，鸣人导师，追查晓。","roles":["mentor","sage"],"factions":["konohagakure","mount-myoboku"],"locations":["木叶","妙木山"],"powerSystems":["chakra","senjutsu"],"abilities":["通灵术","仙人模式","螺旋丸"],"items":[],"relationships":["naruto-uzumaki:mentor","tsunade:teammate","orochimaru:former-teammate"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":""},
-    {"id":"tsunade","name":"纲手","aliases":["五代目火影","三忍"],"visibility":"public","summary":"医疗忍术权威和木叶火影，怪力与百豪之术代表。","roles":["leader","medic"],"factions":["konohagakure"],"locations":["木叶"],"powerSystems":["chakra"],"abilities":["医疗忍术","百豪","怪力"],"items":[],"relationships":["sakura-haruno:student","jiraiya:teammate"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-naruto-import-readme"],"notes":""}
+  "schema": "rp-characters-index-v1",
+  "worldId": "naruto",
+  "characters": [
+    {
+      "id": "naruto-uzumaki",
+      "name": "漩涡鸣人",
+      "aliases": [
+        "九尾人柱力",
+        "七代目候选"
+      ],
+      "visibility": "public",
+      "summary": "木叶忍者，九尾人柱力，以成为火影和打破仇恨连锁为核心动机。",
+      "roles": [
+        "protagonist",
+        "jinchuriki"
+      ],
+      "factions": [
+        "konohagakure"
+      ],
+      "locations": [
+        "konohagakure"
+      ],
+      "powerSystems": [
+        "chakra",
+        "tailed-beasts",
+        "senjutsu"
+      ],
+      "abilities": [
+        "影分身",
+        "螺旋丸",
+        "仙人模式",
+        "九尾查克拉模式"
+      ],
+      "items": [
+        "护额"
+      ],
+      "relationships": [
+        "sasuke-uchiha:rival/bond",
+        "kakashi-hatake:mentor",
+        "jiraiya:mentor"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme",
+        "src-naruto-classification-report"
+      ],
+      "notes": "按主要主线整理。",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure"
+      ]
+    },
+    {
+      "id": "sasuke-uchiha",
+      "name": "宇智波佐助",
+      "aliases": [
+        "复仇者",
+        "宇智波末裔"
+      ],
+      "visibility": "public",
+      "summary": "宇智波遗孤，因灭族真相与复仇执念多次转换阵营。",
+      "roles": [
+        "deuteragonist",
+        "rival"
+      ],
+      "factions": [
+        "konohagakure",
+        "uchiha-clan"
+      ],
+      "locations": [
+        "konohagakure",
+        "otogakure-related-base"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai"
+      ],
+      "abilities": [
+        "写轮眼",
+        "万花筒写轮眼",
+        "千鸟",
+        "轮回眼"
+      ],
+      "items": [
+        "草薙剑"
+      ],
+      "relationships": [
+        "naruto-uzumaki:rival/bond",
+        "itachi-uchiha:brother",
+        "sakura-haruno:teammate"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "不同阶段阵营需按时间线更新。",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure"
+      ]
+    },
+    {
+      "id": "sakura-haruno",
+      "name": "春野樱",
+      "aliases": [
+        "医疗忍者"
+      ],
+      "visibility": "public",
+      "summary": "第七班成员，师从纲手，擅长怪力与医疗忍术。",
+      "roles": [
+        "main-character",
+        "medic"
+      ],
+      "factions": [
+        "konohagakure"
+      ],
+      "locations": [
+        "konohagakure"
+      ],
+      "powerSystems": [
+        "chakra"
+      ],
+      "abilities": [
+        "医疗忍术",
+        "百豪之术",
+        "怪力"
+      ],
+      "items": [],
+      "relationships": [
+        "naruto-uzumaki:teammate",
+        "sasuke-uchiha:teammate/affection",
+        "tsunade:mentor"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure"
+      ]
+    },
+    {
+      "id": "kakashi-hatake",
+      "name": "旗木卡卡西",
+      "aliases": [
+        "拷贝忍者",
+        "第六代火影"
+      ],
+      "visibility": "public",
+      "summary": "第七班导师，前暗部，战术经验丰富。",
+      "roles": [
+        "mentor",
+        "jonin"
+      ],
+      "factions": [
+        "konohagakure"
+      ],
+      "locations": [
+        "konohagakure"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai"
+      ],
+      "abilities": [
+        "雷切",
+        "写轮眼复制",
+        "神威"
+      ],
+      "items": [
+        "亲热天堂"
+      ],
+      "relationships": [
+        "naruto-uzumaki:student",
+        "sasuke-uchiha:student",
+        "obito-uchiha:former-teammate"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "写轮眼状态按阶段变化。",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure"
+      ]
+    },
+    {
+      "id": "itachi-uchiha",
+      "name": "宇智波鼬",
+      "aliases": [
+        "灭族者",
+        "晓成员"
+      ],
+      "visibility": "private",
+      "summary": "宇智波天才，表面叛忍，真实动机涉及木叶高层命令与保护佐助。",
+      "roles": [
+        "anti-villain",
+        "secret-keeper"
+      ],
+      "factions": [
+        "akatsuki",
+        "uchiha-clan"
+      ],
+      "locations": [
+        "amegakure"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai"
+      ],
+      "abilities": [
+        "月读",
+        "天照",
+        "须佐能乎"
+      ],
+      "items": [],
+      "relationships": [
+        "sasuke-uchiha:brother/protective",
+        "kisame-hoshigaki:partner"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "灭族真相建议 gm-only/渐进揭露。",
+      "normalizationNotes": [
+        "locations: 晓据点 -> amegakure"
+      ]
+    },
+    {
+      "id": "pain",
+      "name": "佩恩/长门",
+      "aliases": [
+        "晓首领",
+        "轮回眼持有者"
+      ],
+      "visibility": "private",
+      "summary": "以痛苦带来和平为理念的晓实际领袖之一，操控六道佩恩。",
+      "roles": [
+        "antagonist",
+        "ideologue"
+      ],
+      "factions": [
+        "akatsuki",
+        "amegakure"
+      ],
+      "locations": [
+        "amegakure"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai"
+      ],
+      "abilities": [
+        "轮回眼六道术",
+        "神罗天征",
+        "地爆天星"
+      ],
+      "items": [],
+      "relationships": [
+        "konan:ally",
+        "jiraiya:former-student",
+        "naruto-uzumaki:ideological-opponent"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "长门本体位置默认隐藏。",
+      "normalizationNotes": [
+        "locations: 雨隐村 -> amegakure"
+      ]
+    },
+    {
+      "id": "obito-uchiha",
+      "name": "宇智波带土",
+      "aliases": [
+        "阿飞",
+        "面具男"
+      ],
+      "visibility": "gm-only",
+      "summary": "被认为战死的宇智波，幕后推动九尾事件、晓与月之眼计划。",
+      "roles": [
+        "mastermind",
+        "antagonist"
+      ],
+      "factions": [
+        "akatsuki",
+        "uchiha-clan"
+      ],
+      "locations": [
+        "kamui-dimension"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai"
+      ],
+      "abilities": [
+        "神威",
+        "木遁细胞",
+        "写轮眼幻术"
+      ],
+      "items": [
+        "面具"
+      ],
+      "relationships": [
+        "kakashi-hatake:former-teammate",
+        "madara-uchiha:manipulated-by",
+        "rin-nohara:trauma"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "身份为核心秘密。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "madara-uchiha",
+      "name": "宇智波斑",
+      "aliases": [
+        "传说中的宇智波"
+      ],
+      "visibility": "gm-only",
+      "summary": "木叶创立时代的传奇强者，后期战争核心威胁。",
+      "roles": [
+        "legendary-antagonist"
+      ],
+      "factions": [
+        "uchiha-clan"
+      ],
+      "locations": [
+        "historical-battlefields"
+      ],
+      "powerSystems": [
+        "chakra",
+        "kekkei-genkai",
+        "tailed-beasts"
+      ],
+      "abilities": [
+        "须佐能乎",
+        "轮回眼",
+        "木遁",
+        "无限月读计划"
+      ],
+      "items": [],
+      "relationships": [
+        "hashirama-senju:rival",
+        "obito-uchiha:manipulator"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "复活状态和秽土状态需分开评级。",
+      "normalizationNotes": [
+        "locations: 历史/战场 -> historical-battles",
+        "locations: historical-battles 为叙事/历史标签，不是单一 canonical location。"
+      ]
+    },
+    {
+      "id": "jiraiya",
+      "name": "自来也",
+      "aliases": [
+        "三忍",
+        "蛤蟆仙人"
+      ],
+      "visibility": "public",
+      "summary": "木叶三忍之一，鸣人导师，追查晓。",
+      "roles": [
+        "mentor",
+        "sage"
+      ],
+      "factions": [
+        "konohagakure",
+        "mount-myoboku"
+      ],
+      "locations": [
+        "konohagakure",
+        "mount-myoboku"
+      ],
+      "powerSystems": [
+        "chakra",
+        "senjutsu"
+      ],
+      "abilities": [
+        "通灵术",
+        "仙人模式",
+        "螺旋丸"
+      ],
+      "items": [],
+      "relationships": [
+        "naruto-uzumaki:mentor",
+        "tsunade:teammate",
+        "orochimaru:former-teammate"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure",
+        "locations: 妙木山 -> mount-myoboku"
+      ]
+    },
+    {
+      "id": "tsunade",
+      "name": "纲手",
+      "aliases": [
+        "五代目火影",
+        "三忍"
+      ],
+      "visibility": "public",
+      "summary": "医疗忍术权威和木叶火影，怪力与百豪之术代表。",
+      "roles": [
+        "leader",
+        "medic"
+      ],
+      "factions": [
+        "konohagakure"
+      ],
+      "locations": [
+        "konohagakure"
+      ],
+      "powerSystems": [
+        "chakra"
+      ],
+      "abilities": [
+        "医疗忍术",
+        "百豪",
+        "怪力"
+      ],
+      "items": [],
+      "relationships": [
+        "sakura-haruno:student",
+        "jiraiya:teammate"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-naruto-import-readme"
+      ],
+      "notes": "",
+      "normalizationNotes": [
+        "locations: 木叶 -> konohagakure"
+      ]
+    }
   ],
-  "indices":{"byFaction":{"konohagakure":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","jiraiya","tsunade"],"akatsuki":["itachi-uchiha","pain","obito-uchiha"]},"byPowerSystem":{"chakra":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","itachi-uchiha","pain","obito-uchiha","madara-uchiha","jiraiya","tsunade"],"kekkei-genkai":["sasuke-uchiha","kakashi-hatake","itachi-uchiha","pain","obito-uchiha","madara-uchiha"],"tailed-beasts":["naruto-uzumaki","madara-uchiha"]},"byVisibility":{"public":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","jiraiya","tsunade"],"private":["itachi-uchiha","pain"],"gm-only":["obito-uchiha","madara-uchiha"]},"majorCharacters":["naruto-uzumaki","sasuke-uchiha","sakura-haruno","kakashi-hatake","itachi-uchiha","pain","obito-uchiha","madara-uchiha"]}
+  "indices": {
+    "byFaction": {
+      "konohagakure": [
+        "naruto-uzumaki",
+        "sasuke-uchiha",
+        "sakura-haruno",
+        "kakashi-hatake",
+        "jiraiya",
+        "tsunade"
+      ],
+      "uchiha-clan": [
+        "sasuke-uchiha",
+        "itachi-uchiha",
+        "obito-uchiha",
+        "madara-uchiha"
+      ],
+      "akatsuki": [
+        "itachi-uchiha",
+        "pain",
+        "obito-uchiha"
+      ],
+      "amegakure": [
+        "pain"
+      ],
+      "mount-myoboku": [
+        "jiraiya"
+      ]
+    },
+    "byPowerSystem": {
+      "chakra": [
+        "naruto-uzumaki",
+        "sasuke-uchiha",
+        "sakura-haruno",
+        "kakashi-hatake",
+        "itachi-uchiha",
+        "pain",
+        "obito-uchiha",
+        "madara-uchiha",
+        "jiraiya",
+        "tsunade"
+      ],
+      "tailed-beasts": [
+        "naruto-uzumaki",
+        "madara-uchiha"
+      ],
+      "senjutsu": [
+        "naruto-uzumaki",
+        "jiraiya"
+      ],
+      "kekkei-genkai": [
+        "sasuke-uchiha",
+        "kakashi-hatake",
+        "itachi-uchiha",
+        "pain",
+        "obito-uchiha",
+        "madara-uchiha"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "naruto-uzumaki",
+        "sasuke-uchiha",
+        "sakura-haruno",
+        "kakashi-hatake",
+        "jiraiya",
+        "tsunade"
+      ],
+      "private": [
+        "itachi-uchiha",
+        "pain"
+      ],
+      "gm-only": [
+        "obito-uchiha",
+        "madara-uchiha"
+      ]
+    },
+    "majorCharacters": [
+      "naruto-uzumaki",
+      "sasuke-uchiha",
+      "sakura-haruno",
+      "kakashi-hatake",
+      "itachi-uchiha",
+      "pain",
+      "obito-uchiha",
+      "madara-uchiha",
+      "jiraiya",
+      "tsunade"
+    ],
+    "byId": {
+      "naruto-uzumaki": 0,
+      "sasuke-uchiha": 1,
+      "sakura-haruno": 2,
+      "kakashi-hatake": 3,
+      "itachi-uchiha": 4,
+      "pain": 5,
+      "obito-uchiha": 6,
+      "madara-uchiha": 7,
+      "jiraiya": 8,
+      "tsunade": 9
+    },
+    "byName": {
+      "漩涡鸣人": "naruto-uzumaki",
+      "宇智波佐助": "sasuke-uchiha",
+      "春野樱": "sakura-haruno",
+      "旗木卡卡西": "kakashi-hatake",
+      "宇智波鼬": "itachi-uchiha",
+      "佩恩/长门": "pain",
+      "宇智波带土": "obito-uchiha",
+      "宇智波斑": "madara-uchiha",
+      "自来也": "jiraiya",
+      "纲手": "tsunade"
+    },
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

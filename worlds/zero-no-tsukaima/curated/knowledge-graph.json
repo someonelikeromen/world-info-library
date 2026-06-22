@@ -1,28 +1,121 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "zero-no-tsukaima",
   "nodes": [
-    {"id": "halkeginia", "label": "哈尔凯尼亚", "type": "continent"},
-    {"id": "tristain-academy", "label": "托里斯汀魔法学院", "type": "location"},
-    {"id": "four-elements", "label": "四大元素魔法", "type": "power_system"},
-    {"id": "void", "label": "虚无魔法", "type": "power_system"},
-    {"id": "familiar", "label": "使魔系统", "type": "system"},
-    {"id": "rune", "label": "契约符文", "type": "artifact"},
-    {"id": "tristain", "label": "托里斯汀", "type": "nation"},
-    {"id": "gallia", "label": "戈里亚", "type": "nation"},
-    {"id": "albion", "label": "阿尔比昂", "type": "nation"},
-    {"id": "romalia", "label": "罗马利亚", "type": "nation"},
-    {"id": "user-familiar", "label": "{{user}}/异界使魔", "type": "rp_slot"}
+    {
+      "id": "halkeginia",
+      "label": "哈尔凯尼亚",
+      "type": "continent"
+    },
+    {
+      "id": "tristain-academy",
+      "label": "托里斯汀魔法学院",
+      "type": "location"
+    },
+    {
+      "id": "four-elements",
+      "label": "四大元素魔法",
+      "type": "power_system"
+    },
+    {
+      "id": "void",
+      "label": "虚无魔法",
+      "type": "power_system"
+    },
+    {
+      "id": "familiar",
+      "label": "使魔系统",
+      "type": "system"
+    },
+    {
+      "id": "rune",
+      "label": "契约符文",
+      "type": "artifact"
+    },
+    {
+      "id": "tristain",
+      "label": "托里斯汀",
+      "type": "nation"
+    },
+    {
+      "id": "gallia",
+      "label": "戈里亚",
+      "type": "nation"
+    },
+    {
+      "id": "albion",
+      "label": "阿尔比昂",
+      "type": "nation"
+    },
+    {
+      "id": "romalia",
+      "label": "罗马利亚",
+      "type": "nation"
+    },
+    {
+      "id": "user-familiar",
+      "label": "{{user}}/异界使魔",
+      "type": "rp_slot"
+    },
+    {
+      "id": "louise-valliere",
+      "label": "露易丝·法兰西斯·露·布朗·杜·拉·瓦利埃尔",
+      "type": "character"
+    }
   ],
   "edges": [
-    {"from": "tristain-academy", "to": "familiar", "type": "teaches"},
-    {"from": "familiar", "to": "rune", "type": "produces"},
-    {"from": "four-elements", "to": "void", "type": "contrasts_with"},
-    {"from": "void", "to": "rune", "type": "can_manifest_through"},
-    {"from": "halkeginia", "to": "tristain", "type": "contains"},
-    {"from": "halkeginia", "to": "gallia", "type": "contains"},
-    {"from": "halkeginia", "to": "albion", "type": "contains"},
-    {"from": "halkeginia", "to": "romalia", "type": "contains"},
-    {"from": "user-familiar", "to": "louise-valliere", "type": "contracted_with"}
-  ]
+    {
+      "from": "tristain-academy",
+      "to": "familiar",
+      "type": "teaches"
+    },
+    {
+      "from": "familiar",
+      "to": "rune",
+      "type": "produces"
+    },
+    {
+      "from": "four-elements",
+      "to": "void",
+      "type": "contrasts_with"
+    },
+    {
+      "from": "void",
+      "to": "rune",
+      "type": "can_manifest_through"
+    },
+    {
+      "from": "halkeginia",
+      "to": "tristain",
+      "type": "contains"
+    },
+    {
+      "from": "halkeginia",
+      "to": "gallia",
+      "type": "contains"
+    },
+    {
+      "from": "halkeginia",
+      "to": "albion",
+      "type": "contains"
+    },
+    {
+      "from": "halkeginia",
+      "to": "romalia",
+      "type": "contains"
+    },
+    {
+      "from": "user-familiar",
+      "to": "louise-valliere",
+      "type": "contracted_with"
+    }
+  ],
+  "campaignId": "zero-no-tsukaima",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

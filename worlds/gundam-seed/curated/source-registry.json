@@ -1,1 +1,29 @@
-{"schema":"rp-source-registry-v1","worldId":"gundam-seed","sources":[{"sourceId":"src-gundam-seed-001","title":"高达SEED V1.0正式版（千代版）","type":"character-card-worldbook","reliability":"B","location":"campaigns/world-library/worlds/gundam-seed/source-registry.json / imports/raw/world-sources/SEED_V1.0.png","appliesTo":["world","characters","mobileSuits","factions","timeline"],"notes":"自动归档 128 条，无未分类。"}],"conflictLog":[{"id":"gs-conflict-001","summary":"SEED、DESTINY、外传和沙盒战局可能混合。","resolution":"初版聚焦 SEED 本篇主干，续作内容需另行标注。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "gundam-seed",
+  "sources": [
+    {
+      "sourceId": "src-gundam-seed-001",
+      "title": "高达SEED V1.0正式版（千代版）",
+      "type": "character-card-worldbook",
+      "reliability": "B",
+      "location": "campaigns/world-library/worlds/gundam-seed/source-registry.json / imports/raw/world-sources/SEED_V1.0.png",
+      "appliesTo": [
+        "world",
+        "characters",
+        "mobileSuits",
+        "factions",
+        "timeline"
+      ],
+      "notes": "自动归档 128 条，无未分类。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "id": "gs-conflict-001",
+      "summary": "SEED、DESTINY、外传和沙盒战局可能混合。",
+      "resolution": "初版聚焦 SEED 本篇主干，续作内容需另行标注。"
+    }
+  ],
+  "campaignId": "gundam-seed"
+}

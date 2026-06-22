@@ -2,68 +2,728 @@
   "schema": "rp-knowledge-graph-v1",
   "worldId": "date-a-live",
   "nodes": [
-    {"id":"world-date-a-live","type":"world","label":"约会大作战 / DATE A LIVE","summary":"现代都市、空间震、精灵封印与组织阴谋并行的世界。"},
-    {"id":"concept-spacequake","type":"concept","label":"空间震","summary":"精灵显现或灵力扰动引发的大规模空间灾害，是公众最熟悉的超常现象。"},
-    {"id":"concept-spirit","type":"species/concept","label":"精灵","summary":"持有灵力、灵装和天使的超常存在；可能由灵结晶与人类宿主相关机制产生。"},
-    {"id":"concept-sephira-crystal","type":"concept","label":"灵结晶","summary":"精灵力量的核心媒介，与精灵化、封印、反转和始源因果相关。"},
-    {"id":"concept-astral-dress","type":"concept","label":"神威灵装","summary":"精灵展开灵力后的防护与身份象征。"},
-    {"id":"concept-angel","type":"concept","label":"天使","summary":"每名精灵的具名核心武装/能力系统。"},
-    {"id":"concept-demon-king","type":"concept","label":"魔王/反转","summary":"精灵在绝望、创伤或灵力失衡下出现的破坏性形态。"},
-    {"id":"concept-sealing","type":"mechanic","label":"封印机制","summary":"五河士道通过信赖与亲密仪式稳定并封印精灵灵力。"},
-    {"id":"concept-realizer","type":"technology","label":"显现装置 / CR-Unit","summary":"人类魔术师对抗精灵的核心技术，提供随意领域、飞行、防御和武装。"},
-    {"id":"concept-neighboring-world","type":"place/concept","label":"邻界/临界","summary":"Date A Bullet 支线中的准精灵异空间。"},
-    {"id":"f-ratatoskr","type":"faction","label":"Ratatoskr","summary":"主张和平封印精灵的组织。"},
-    {"id":"f-ast","type":"faction","label":"AST","summary":"官方对精灵部队，依靠 CR-Unit 歼灭或压制精灵。"},
-    {"id":"f-dem","type":"faction","label":"DEM Industry","summary":"掌握高端显现装置并捕获/利用精灵的敌对企业组织。"},
-    {"id":"loc-tengu-city","type":"location","label":"天宫市","summary":"主线城市与空间震高发区。"},
-    {"id":"loc-fraxinus","type":"location","label":"Fraxinus","summary":"Ratatoskr 空中舰与约会作战指挥中心。"},
-    {"id":"evt-eurasia-spacequake","type":"event","label":"欧亚大空灾","summary":"三十年前的大规模空间震，奠定世界灾害背景。"},
-    {"id":"evt-mio-origin","type":"event","label":"始源精灵因果","summary":"崇宫澪、真士/士道与灵结晶分配构成的世界深层真相。"},
-    {"id":"ch-itsuka-shido","type":"character","label":"五河士道","summary":"封印者与调停者。"},
-    {"id":"ch-takamiya-mio","type":"character","label":"崇宫澪","summary":"始源精灵。"},
-    {"id":"ch-tokisaki-kurumi","type":"character","label":"时崎狂三","summary":"时间系精灵与反英雄。"},
-    {"id":"angel-sandalphon","type":"ability","label":"鏖杀公 Sandalphon","summary":"十香的剑之天使。"},
-    {"id":"angel-metatron","type":"ability","label":"绝灭天使 Metatron","summary":"折纸的光羽炮击天使。"},
-    {"id":"angel-rasiel","type":"ability","label":"嗫告篇帙 Rasiel","summary":"二亚的全知之书。"},
-    {"id":"angel-zafkiel","type":"ability","label":"刻刻帝 Zafkiel","summary":"狂三的时间天使。"},
-    {"id":"angel-zadkiel","type":"ability","label":"冰结傀儡 Zadkiel","summary":"四糸乃的冰兔天使。"},
-    {"id":"angel-camael","type":"ability","label":"灼烂歼鬼 Camael","summary":"琴里的火焰战斧天使。"},
-    {"id":"angel-michael","type":"ability","label":"封解主 Michael","summary":"六喰的封锁/开锁天使。"},
-    {"id":"angel-haniel","type":"ability","label":"赝造魔女 Haniel","summary":"七罪的变身天使。"},
-    {"id":"angel-raphael","type":"ability","label":"飓风骑士 Raphael","summary":"八舞姐妹的风暴天使。"},
-    {"id":"angel-gabriel","type":"ability","label":"破军歌姬 Gabriel","summary":"美九的声音控制天使。"}
+    {
+      "id": "world-date-a-live",
+      "type": "world",
+      "label": "约会大作战 / DATE A LIVE",
+      "summary": "现代都市、空间震、精灵封印与组织阴谋并行的世界。"
+    },
+    {
+      "id": "concept-spacequake",
+      "type": "concept",
+      "label": "空间震",
+      "summary": "精灵显现或灵力扰动引发的大规模空间灾害，是公众最熟悉的超常现象。"
+    },
+    {
+      "id": "concept-spirit",
+      "type": "species/concept",
+      "label": "精灵",
+      "summary": "持有灵力、灵装和天使的超常存在；可能由灵结晶与人类宿主相关机制产生。"
+    },
+    {
+      "id": "concept-sephira-crystal",
+      "type": "concept",
+      "label": "灵结晶",
+      "summary": "精灵力量的核心媒介，与精灵化、封印、反转和始源因果相关。"
+    },
+    {
+      "id": "concept-astral-dress",
+      "type": "concept",
+      "label": "神威灵装",
+      "summary": "精灵展开灵力后的防护与身份象征。"
+    },
+    {
+      "id": "concept-angel",
+      "type": "concept",
+      "label": "天使",
+      "summary": "每名精灵的具名核心武装/能力系统。"
+    },
+    {
+      "id": "concept-demon-king",
+      "type": "concept",
+      "label": "魔王/反转",
+      "summary": "精灵在绝望、创伤或灵力失衡下出现的破坏性形态。"
+    },
+    {
+      "id": "concept-sealing",
+      "type": "mechanic",
+      "label": "封印机制",
+      "summary": "五河士道通过信赖与亲密仪式稳定并封印精灵灵力。"
+    },
+    {
+      "id": "concept-realizer",
+      "type": "technology",
+      "label": "显现装置 / CR-Unit",
+      "summary": "人类魔术师对抗精灵的核心技术，提供随意领域、飞行、防御和武装。"
+    },
+    {
+      "id": "concept-neighboring-world",
+      "type": "place/concept",
+      "label": "邻界/临界",
+      "summary": "Date A Bullet 支线中的准精灵异空间。"
+    },
+    {
+      "id": "f-ratatoskr",
+      "type": "faction",
+      "label": "Ratatoskr",
+      "summary": "主张和平封印精灵的组织。"
+    },
+    {
+      "id": "f-ast",
+      "type": "faction",
+      "label": "AST",
+      "summary": "官方对精灵部队，依靠 CR-Unit 歼灭或压制精灵。"
+    },
+    {
+      "id": "f-dem",
+      "type": "faction",
+      "label": "DEM Industry",
+      "summary": "掌握高端显现装置并捕获/利用精灵的敌对企业组织。"
+    },
+    {
+      "id": "loc-tengu-city",
+      "type": "location",
+      "label": "天宫市",
+      "summary": "主线城市与空间震高发区。"
+    },
+    {
+      "id": "loc-fraxinus",
+      "type": "location",
+      "label": "Fraxinus",
+      "summary": "Ratatoskr 空中舰与约会作战指挥中心。"
+    },
+    {
+      "id": "evt-eurasia-spacequake",
+      "type": "event",
+      "label": "欧亚大空灾",
+      "summary": "三十年前的大规模空间震，奠定世界灾害背景。"
+    },
+    {
+      "id": "evt-mio-origin",
+      "type": "event",
+      "label": "始源精灵因果",
+      "summary": "崇宫澪、真士/士道与灵结晶分配构成的世界深层真相。"
+    },
+    {
+      "id": "ch-itsuka-shido",
+      "type": "character",
+      "label": "五河士道",
+      "summary": "封印者与调停者。"
+    },
+    {
+      "id": "ch-takamiya-mio",
+      "type": "character",
+      "label": "崇宫澪",
+      "summary": "始源精灵。"
+    },
+    {
+      "id": "ch-tokisaki-kurumi",
+      "type": "character",
+      "label": "时崎狂三",
+      "summary": "时间系精灵与反英雄。"
+    },
+    {
+      "id": "angel-sandalphon",
+      "type": "ability",
+      "label": "鏖杀公 Sandalphon",
+      "summary": "十香的剑之天使。"
+    },
+    {
+      "id": "angel-metatron",
+      "type": "ability",
+      "label": "绝灭天使 Metatron",
+      "summary": "折纸的光羽炮击天使。"
+    },
+    {
+      "id": "angel-rasiel",
+      "type": "ability",
+      "label": "嗫告篇帙 Rasiel",
+      "summary": "二亚的全知之书。"
+    },
+    {
+      "id": "angel-zafkiel",
+      "type": "ability",
+      "label": "刻刻帝 Zafkiel",
+      "summary": "狂三的时间天使。"
+    },
+    {
+      "id": "angel-zadkiel",
+      "type": "ability",
+      "label": "冰结傀儡 Zadkiel",
+      "summary": "四糸乃的冰兔天使。"
+    },
+    {
+      "id": "angel-camael",
+      "type": "ability",
+      "label": "灼烂歼鬼 Camael",
+      "summary": "琴里的火焰战斧天使。"
+    },
+    {
+      "id": "angel-michael",
+      "type": "ability",
+      "label": "封解主 Michael",
+      "summary": "六喰的封锁/开锁天使。"
+    },
+    {
+      "id": "angel-haniel",
+      "type": "ability",
+      "label": "赝造魔女 Haniel",
+      "summary": "七罪的变身天使。"
+    },
+    {
+      "id": "angel-raphael",
+      "type": "ability",
+      "label": "飓风骑士 Raphael",
+      "summary": "八舞姐妹的风暴天使。"
+    },
+    {
+      "id": "angel-gabriel",
+      "type": "ability",
+      "label": "破军歌姬 Gabriel",
+      "summary": "美九的声音控制天使。"
+    },
+    {
+      "id": "ch-yatogami-tohka",
+      "type": "character",
+      "label": "夜刀神十香",
+      "summary": "最早被士道攻略并封印的主要精灵之一，天真、重情、食欲旺盛，战斗时以近战剑技和高爆发灵力为主。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-tobiichi-origami",
+      "type": "character",
+      "label": "鸢一折纸",
+      "summary": "来禅高中优等生，前 AST 成员，后成为精灵。表面冷静无表情，内心对士道极度执着；其人生被杀亲误认、复仇和世界线改写深刻影响。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-honjo-nia",
+      "type": "character",
+      "label": "本条二亚",
+      "summary": "漫画家兼第二精灵，曾被 DEM 囚禁研究。拥有全知系天使，因人类背叛和囚禁经历而逃避三次元。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-yoshino",
+      "type": "character",
+      "label": "冰芽川四糸乃",
+      "summary": "第四精灵，胆怯温柔，常通过手偶四糸奈表达外向人格。拥有冰与水相关能力，是精灵群体中的治愈型存在。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-yoshinon",
+      "type": "character",
+      "label": "四糸奈",
+      "summary": "四糸乃左手手偶与外向人格的载体，毒舌、社交性强，是四糸乃精神支柱。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-itsuka-kotori",
+      "type": "character",
+      "label": "五河琴里",
+      "summary": "士道义妹、Ratatoskr 司令官，也是炎之精灵。以发带区分妹妹模式和司令官模式，内心恐惧自身失控却坚持保护士道。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-hoshimiya-mukuro",
+      "type": "character",
+      "label": "星宫六喰",
+      "summary": "第六/第十相关编号体系中常列为宇宙漂流精灵，因孤独和封闭而锁住心灵。能力以封锁、开锁和空间切割为核心。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-kyouno-natsumi",
+      "type": "character",
+      "label": "镜野七罪",
+      "summary": "变身系精灵，因自卑和被识破恐惧而擅长伪装、恶作剧和逃避。被接纳后与四糸乃关系密切。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-yamai-kaguya",
+      "type": "character",
+      "label": "八舞耶俱矢",
+      "summary": "八舞姐妹之一，风暴系精灵，与夕弦原为一体分裂。性格中二、自尊强，与夕弦既竞争又不可分割。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-yamai-yuzuru",
+      "type": "character",
+      "label": "八舞夕弦",
+      "summary": "八舞姐妹之一，语气独特冷静，与耶俱矢构成风暴精灵的另一半。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-izayoi-miku",
+      "type": "character",
+      "label": "诱宵美九",
+      "summary": "偶像歌姬精灵，曾因演艺圈背叛与失声产生厌男和控制欲。被士道拯救后对其极度崇拜。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-takamiya-mana",
+      "type": "character",
+      "label": "崇宫真那",
+      "summary": "士道的亲妹妹相关人物，DEM/AST 技术体系下的高能力魔术师，后与主角阵营存在协作。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-ellen-mira-mathers",
+      "type": "character",
+      "label": "艾伦·M·马瑟斯",
+      "summary": "DEM 顶级魔术师，维斯考特麾下最强战力之一，冷酷、强大，负责追捕/压制精灵与士道阵营。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-artemisia-bell-ashcroft",
+      "type": "character",
+      "label": "阿尔缇米希亚·贝尔·阿修克罗夫特",
+      "summary": "DEM 侧高端魔术师/战斗员，来源以日文混写名出现。定位为与艾伦并列或相近的强力对精灵战力。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-isaac-westcott",
+      "type": "character",
+      "label": "艾扎克·雷·佩勒姆·维斯考特",
+      "summary": "DEM 的幕后领导者，精灵捕获、实验和世界深层阴谋的重要推动者。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-kannazuki-kyohei",
+      "type": "character",
+      "label": "神无月恭平",
+      "summary": "Fraxinus 副司令，能力可靠但日常言行常被琴里制裁，是 Ratatoskr 指挥链的重要成员。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-itsuka-shiori",
+      "type": "character",
+      "label": "五河士织",
+      "summary": "士道在攻略美九等事件中使用的女装/变身身份。不是默认独立人物，而是士道的伪装、性转或变身状态。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-takamiya-shinji",
+      "type": "character",
+      "label": "崇宫真士",
+      "summary": "与澪和士道因果相关的关键过去人物；部分 RP 分支使用真士转生设定。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-higoromo-hibiki",
+      "type": "character",
+      "label": "绯衣响",
+      "summary": "临界/Date A Bullet 支线角色，与狂三在邻界行动相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-white-queen",
+      "type": "character",
+      "label": "白之女王",
+      "summary": "临界支线核心威胁之一，与狂三、绯衣响和邻界冲突相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ch-date-a-bullet-minors",
+      "type": "group",
+      "label": "临界其他配角",
+      "summary": "来源以集合条目记录的 Date A Bullet/临界其他人物，适合作为邻界支线 NPC 池。",
+      "resolutionStatus": "unresolved-reference",
+      "notes": "characters-index aggregate entry remains unresolved at individual-character level; modeled as group, not character."
+    },
+    {
+      "id": "grp-date-a-bullet-minors",
+      "type": "group",
+      "label": "临界其他配角",
+      "summary": "characters-index 中的聚合配角项；本轮仅作为检索覆盖节点。",
+      "resolutionStatus": "unresolved-reference",
+      "notes": "Aggregate characters-index entry remains unresolved at individual-character level."
+    },
+    {
+      "id": "f-spirits",
+      "type": "faction",
+      "label": "精灵与被封印精灵",
+      "summary": "包括十香、四糸乃、琴里、八舞姐妹、美九、七罪、六喰、二亚、折纸、狂三等。多数在被士道封印后转入半日常状态。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "f-school-society",
+      "type": "faction",
+      "label": "来禅高中与普通社会",
+      "summary": "士道及多名精灵伪装生活的社会层。普通人通常只知道空间震避难与城市灾害。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "f-neighboring",
+      "type": "faction",
+      "label": "邻界准精灵群体",
+      "summary": "狂三、绯衣响、白之女王等支线关联角色活动的领域。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-raizen-high",
+      "type": "location",
+      "label": "来禅高中",
+      "summary": "士道、十香、折纸等人的学校生活舞台，也是约会攻略和身份伪装的重要场所。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-itsuka-home",
+      "type": "location",
+      "label": "五河家",
+      "summary": "士道与琴里的家庭据点，许多被封印精灵的日常关系围绕此处展开。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-ast-base",
+      "type": "location",
+      "label": "AST 基地/训练设施",
+      "summary": "对精灵部队出击、维修 CR-Unit 与训练魔术师的地点。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-dem-facilities",
+      "type": "location",
+      "label": "DEM 设施",
+      "summary": "DEM 囚禁、实验、部署精灵和魔术师的设施；二亚曾被作为素材囚禁。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-space",
+      "type": "location",
+      "label": "地球轨道/宇宙空间",
+      "summary": "星宫六喰长期漂流的舞台，象征其封闭与隔绝。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "loc-rindoji",
+      "type": "location",
+      "label": "龙胆寺女子学院",
+      "summary": "诱宵美九相关校园，士织攻略篇的重要场所。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ps-spirit-power",
+      "type": "power-system",
+      "label": "精灵/灵力",
+      "summary": "精灵持有灵结晶或由其转化，能展开神威灵装、召唤天使并引发空间震。灵力与精神状态密切相关，失控或绝望可能导致反转。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ps-angels",
+      "type": "power-system",
+      "label": "天使与魔王",
+      "summary": "每名精灵对应具名天使；反转或深度绝望时可能出现魔王形态。天使能力范围从近战、炮击、冰、火、声音控制到时间、知识、封锁与空间切割。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ps-sealing",
+      "type": "power-system",
+      "label": "五河士道的封印机制",
+      "summary": "士道可通过建立信赖、稳定情绪与亲吻等仪式封印精灵灵力，使精灵回归社会生活并减轻灾害风险。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ps-realizer",
+      "type": "power-system",
+      "label": "显现装置与 CR-Unit",
+      "summary": "人类魔术师借助显现装置、随意领域与 CR-Unit 对抗精灵。AST 与 DEM 是主要使用者，顶级魔术师可短暂匹敌部分精灵。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ps-neighboring-world",
+      "type": "power-system",
+      "label": "邻界与准精灵",
+      "summary": "临界支线中的异空间生态，准精灵在其中争夺资源、记忆和生存权。空无与白之女王构成支线核心威胁。",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
   ],
   "edges": [
-    {"from":"world-date-a-live","to":"concept-spacequake","type":"contains","summary":"空间震是世界公共灾害背景。"},
-    {"from":"concept-spirit","to":"concept-spacequake","type":"can-cause","summary":"精灵显现可能引发空间震。"},
-    {"from":"concept-spirit","to":"concept-sephira-crystal","type":"powered-by","summary":"灵结晶与精灵力量核心相关。"},
-    {"from":"concept-spirit","to":"concept-astral-dress","type":"manifests","summary":"精灵可展开神威灵装。"},
-    {"from":"concept-spirit","to":"concept-angel","type":"manifests","summary":"精灵可召唤天使。"},
-    {"from":"concept-demon-king","to":"concept-angel","type":"inverted-form-of","summary":"魔王是反转后的对应能力形态。"},
-    {"from":"ch-itsuka-shido","to":"concept-sealing","type":"uses","summary":"士道是封印机制执行者。"},
-    {"from":"concept-sealing","to":"concept-spirit","type":"stabilizes","summary":"封印降低精灵灾害和暴走风险。"},
-    {"from":"f-ratatoskr","to":"concept-sealing","type":"operationalizes","summary":"Ratatoskr 围绕约会与封印制定作战。"},
-    {"from":"f-ratatoskr","to":"loc-fraxinus","type":"headquartered-on","summary":"Fraxinus 是其行动指挥中心。"},
-    {"from":"f-ast","to":"concept-realizer","type":"uses","summary":"AST 依靠 CR-Unit 对精灵作战。"},
-    {"from":"f-dem","to":"concept-realizer","type":"develops","summary":"DEM 掌握高端显现装置技术。"},
-    {"from":"f-dem","to":"concept-spirit","type":"exploits","summary":"DEM 捕获、研究或利用精灵。"},
-    {"from":"evt-eurasia-spacequake","to":"concept-spacequake","type":"major-instance-of","summary":"欧亚大空灾是空间震灾害的标志事件。"},
-    {"from":"evt-mio-origin","to":"ch-takamiya-mio","type":"centered-on","summary":"始源因果以澪为核心。"},
-    {"from":"evt-mio-origin","to":"concept-sephira-crystal","type":"explains","summary":"该真相解释灵结晶分配和精灵诞生。"},
-    {"from":"concept-neighboring-world","to":"ch-tokisaki-kurumi","type":"linked-to","summary":"狂三与临界支线关系密切。"},
-    {"from":"ch-itsuka-shido","to":"f-ratatoskr","type":"key-asset-of","summary":"士道是 Ratatoskr 封印战略核心。"},
-    {"from":"ch-takamiya-mio","to":"concept-spirit","type":"originates","summary":"澪是始源精灵。"},
-    {"from":"angel-sandalphon","to":"concept-angel","type":"is-a","summary":"十香天使。"},
-    {"from":"angel-metatron","to":"concept-angel","type":"is-a","summary":"折纸天使。"},
-    {"from":"angel-rasiel","to":"concept-angel","type":"is-a","summary":"二亚天使。"},
-    {"from":"angel-zafkiel","to":"concept-angel","type":"is-a","summary":"狂三天使。"},
-    {"from":"angel-zadkiel","to":"concept-angel","type":"is-a","summary":"四糸乃天使。"},
-    {"from":"angel-camael","to":"concept-angel","type":"is-a","summary":"琴里天使。"},
-    {"from":"angel-michael","to":"concept-angel","type":"is-a","summary":"六喰天使。"},
-    {"from":"angel-haniel","to":"concept-angel","type":"is-a","summary":"七罪天使。"},
-    {"from":"angel-raphael","to":"concept-angel","type":"is-a","summary":"八舞姐妹天使。"},
-    {"from":"angel-gabriel","to":"concept-angel","type":"is-a","summary":"美九天使。"}
+    {
+      "from": "world-date-a-live",
+      "to": "concept-spacequake",
+      "type": "contains",
+      "summary": "空间震是世界公共灾害背景。",
+      "source": "world-date-a-live",
+      "target": "concept-spacequake"
+    },
+    {
+      "from": "concept-spirit",
+      "to": "concept-spacequake",
+      "type": "can-cause",
+      "summary": "精灵显现可能引发空间震。",
+      "source": "concept-spirit",
+      "target": "concept-spacequake"
+    },
+    {
+      "from": "concept-spirit",
+      "to": "concept-sephira-crystal",
+      "type": "powered-by",
+      "summary": "灵结晶与精灵力量核心相关。",
+      "source": "concept-spirit",
+      "target": "concept-sephira-crystal"
+    },
+    {
+      "from": "concept-spirit",
+      "to": "concept-astral-dress",
+      "type": "manifests",
+      "summary": "精灵可展开神威灵装。",
+      "source": "concept-spirit",
+      "target": "concept-astral-dress"
+    },
+    {
+      "from": "concept-spirit",
+      "to": "concept-angel",
+      "type": "manifests",
+      "summary": "精灵可召唤天使。",
+      "source": "concept-spirit",
+      "target": "concept-angel"
+    },
+    {
+      "from": "concept-demon-king",
+      "to": "concept-angel",
+      "type": "inverted-form-of",
+      "summary": "魔王是反转后的对应能力形态。",
+      "source": "concept-demon-king",
+      "target": "concept-angel"
+    },
+    {
+      "from": "ch-itsuka-shido",
+      "to": "concept-sealing",
+      "type": "uses",
+      "summary": "士道是封印机制执行者。",
+      "source": "ch-itsuka-shido",
+      "target": "concept-sealing"
+    },
+    {
+      "from": "concept-sealing",
+      "to": "concept-spirit",
+      "type": "stabilizes",
+      "summary": "封印降低精灵灾害和暴走风险。",
+      "source": "concept-sealing",
+      "target": "concept-spirit"
+    },
+    {
+      "from": "f-ratatoskr",
+      "to": "concept-sealing",
+      "type": "operationalizes",
+      "summary": "Ratatoskr 围绕约会与封印制定作战。",
+      "source": "f-ratatoskr",
+      "target": "concept-sealing"
+    },
+    {
+      "from": "f-ratatoskr",
+      "to": "loc-fraxinus",
+      "type": "headquartered-on",
+      "summary": "Fraxinus 是其行动指挥中心。",
+      "source": "f-ratatoskr",
+      "target": "loc-fraxinus"
+    },
+    {
+      "from": "f-ast",
+      "to": "concept-realizer",
+      "type": "uses",
+      "summary": "AST 依靠 CR-Unit 对精灵作战。",
+      "source": "f-ast",
+      "target": "concept-realizer"
+    },
+    {
+      "from": "f-dem",
+      "to": "concept-realizer",
+      "type": "develops",
+      "summary": "DEM 掌握高端显现装置技术。",
+      "source": "f-dem",
+      "target": "concept-realizer"
+    },
+    {
+      "from": "f-dem",
+      "to": "concept-spirit",
+      "type": "exploits",
+      "summary": "DEM 捕获、研究或利用精灵。",
+      "source": "f-dem",
+      "target": "concept-spirit"
+    },
+    {
+      "from": "evt-eurasia-spacequake",
+      "to": "concept-spacequake",
+      "type": "major-instance-of",
+      "summary": "欧亚大空灾是空间震灾害的标志事件。",
+      "source": "evt-eurasia-spacequake",
+      "target": "concept-spacequake"
+    },
+    {
+      "from": "evt-mio-origin",
+      "to": "ch-takamiya-mio",
+      "type": "centered-on",
+      "summary": "始源因果以澪为核心。",
+      "source": "evt-mio-origin",
+      "target": "ch-takamiya-mio"
+    },
+    {
+      "from": "evt-mio-origin",
+      "to": "concept-sephira-crystal",
+      "type": "explains",
+      "summary": "该真相解释灵结晶分配和精灵诞生。",
+      "source": "evt-mio-origin",
+      "target": "concept-sephira-crystal"
+    },
+    {
+      "from": "concept-neighboring-world",
+      "to": "ch-tokisaki-kurumi",
+      "type": "linked-to",
+      "summary": "狂三与临界支线关系密切。",
+      "source": "concept-neighboring-world",
+      "target": "ch-tokisaki-kurumi"
+    },
+    {
+      "from": "ch-itsuka-shido",
+      "to": "f-ratatoskr",
+      "type": "key-asset-of",
+      "summary": "士道是 Ratatoskr 封印战略核心。",
+      "source": "ch-itsuka-shido",
+      "target": "f-ratatoskr"
+    },
+    {
+      "from": "ch-takamiya-mio",
+      "to": "concept-spirit",
+      "type": "originates",
+      "summary": "澪是始源精灵。",
+      "source": "ch-takamiya-mio",
+      "target": "concept-spirit"
+    },
+    {
+      "from": "angel-sandalphon",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "十香天使。",
+      "source": "angel-sandalphon",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-metatron",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "折纸天使。",
+      "source": "angel-metatron",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-rasiel",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "二亚天使。",
+      "source": "angel-rasiel",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-zafkiel",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "狂三天使。",
+      "source": "angel-zafkiel",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-zadkiel",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "四糸乃天使。",
+      "source": "angel-zadkiel",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-camael",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "琴里天使。",
+      "source": "angel-camael",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-michael",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "六喰天使。",
+      "source": "angel-michael",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-haniel",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "七罪天使。",
+      "source": "angel-haniel",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-raphael",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "八舞姐妹天使。",
+      "source": "angel-raphael",
+      "target": "concept-angel"
+    },
+    {
+      "from": "angel-gabriel",
+      "to": "concept-angel",
+      "type": "is-a",
+      "summary": "美九天使。",
+      "source": "angel-gabriel",
+      "target": "concept-angel"
+    }
   ],
-  "sourceRefs": ["src-date-a-live-001"],
-  "notes": "图谱按人工归纳建立，节点偏 RP 运行所需而非完整百科。"
+  "sourceRefs": [
+    "src-date-a-live-001"
+  ],
+  "notes": [
+    "图谱按人工归纳建立，节点偏 RP 运行所需而非完整百科。"
+  ],
+  "campaignId": "date-a-live",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 14,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
 }

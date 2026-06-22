@@ -1,1 +1,198 @@
-{"schema":"rp-characters-index-v1","worldId":"seikoku-no-dragonar","characters":[{"id":"ash-blake","name":"亚修·布雷克","aliases":[],"visibility":"public","summary":"被称为问题儿童的龙骑士候补，拥有特殊帕尔艾可。","roles":["主角","龙骑士"],"factions":["安萨里邦骑龙学院"],"locations":["学院"],"powerSystems":["seikoku","dragoncraft"],"abilities":["骑乘","圣骑甲适应","战术成长"],"items":["星刻"],"relationships":["eco:pal","silvia:rival-ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-seikoku-no-dragonar-001"],"notes":"身份与龙关系是主线。"},{"id":"eco","name":"艾可","aliases":[],"visibility":"public","summary":"亚修的帕尔，外表少女但本质为龙，具高潜力。","roles":["帕尔","女主角"],"factions":["安萨里邦骑龙学院","龙族"],"locations":["学院"],"powerSystems":["dragoncraft"],"abilities":["龙之力","圣骑甲生成","成长变身"],"items":[],"relationships":["ash-blake:contractor"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-seikoku-no-dragonar-001"],"notes":"情绪影响能力。"},{"id":"silvia-lautreamont","name":"西尔维亚·罗雷亚蒙","aliases":["公主"],"visibility":"public","summary":"骑士国王女，学院学生与优秀龙骑士。","roles":["公主","龙骑士"],"factions":["罗雷亚蒙骑士国","安萨里邦骑龙学院"],"locations":["学院","王都"],"powerSystems":["seikoku","dragoncraft"],"abilities":["骑枪","指挥","空战"],"items":[],"relationships":["ash-blake:rival-ally"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-seikoku-no-dragonar-001"],"notes":"政治身份重要。"},{"id":"rebecca-randall","name":"蕾贝卡·兰德尔","aliases":[],"visibility":"public","summary":"学院会长级强者，成熟龙骑士范例。","roles":["学生会长","强者"],"factions":["安萨里邦骑龙学院"],"locations":["学院"],"powerSystems":["dragoncraft"],"abilities":["骑士战","指挥","高阶帕尔协同"],"items":[],"relationships":["ash-blake:senior"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-seikoku-no-dragonar-001"],"notes":"作为学院强度标尺。"}],"indices":{"byFaction":{"安萨里邦骑龙学院":["ash-blake","eco","silvia-lautreamont","rebecca-randall"],"罗雷亚蒙骑士国":["silvia-lautreamont"]},"byPowerSystem":{"seikoku":["ash-blake","silvia-lautreamont"],"dragoncraft":["ash-blake","eco","silvia-lautreamont","rebecca-randall"]},"byVisibility":{"public":["ash-blake","eco","silvia-lautreamont","rebecca-randall"]},"majorCharacters":["ash-blake","eco","silvia-lautreamont"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "seikoku-no-dragonar",
+  "characters": [
+    {
+      "id": "ash-blake",
+      "name": "亚修·布雷克",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "被称为问题儿童的龙骑士候补，拥有特殊帕尔艾可。",
+      "roles": [
+        "主角",
+        "龙骑士"
+      ],
+      "factions": [
+        "安萨里邦骑龙学院"
+      ],
+      "locations": [
+        "学院"
+      ],
+      "powerSystems": [
+        "seikoku",
+        "dragoncraft"
+      ],
+      "abilities": [
+        "骑乘",
+        "圣骑甲适应",
+        "战术成长"
+      ],
+      "items": [
+        "星刻"
+      ],
+      "relationships": [
+        "eco:pal",
+        "silvia:rival-ally"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-seikoku-no-dragonar-001"
+      ],
+      "notes": "身份与龙关系是主线。"
+    },
+    {
+      "id": "eco",
+      "name": "艾可",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "亚修的帕尔，外表少女但本质为龙，具高潜力。",
+      "roles": [
+        "帕尔",
+        "女主角"
+      ],
+      "factions": [
+        "安萨里邦骑龙学院",
+        "龙族"
+      ],
+      "locations": [
+        "学院"
+      ],
+      "powerSystems": [
+        "dragoncraft"
+      ],
+      "abilities": [
+        "龙之力",
+        "圣骑甲生成",
+        "成长变身"
+      ],
+      "items": [],
+      "relationships": [
+        "ash-blake:contractor"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-seikoku-no-dragonar-001"
+      ],
+      "notes": "情绪影响能力。"
+    },
+    {
+      "id": "silvia-lautreamont",
+      "name": "西尔维亚·罗雷亚蒙",
+      "aliases": [
+        "公主"
+      ],
+      "visibility": "public",
+      "summary": "骑士国王女，学院学生与优秀龙骑士。",
+      "roles": [
+        "公主",
+        "龙骑士"
+      ],
+      "factions": [
+        "罗雷亚蒙骑士国",
+        "安萨里邦骑龙学院"
+      ],
+      "locations": [
+        "学院",
+        "王都"
+      ],
+      "powerSystems": [
+        "seikoku",
+        "dragoncraft"
+      ],
+      "abilities": [
+        "骑枪",
+        "指挥",
+        "空战"
+      ],
+      "items": [],
+      "relationships": [
+        "ash-blake:rival-ally"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-seikoku-no-dragonar-001"
+      ],
+      "notes": "政治身份重要。"
+    },
+    {
+      "id": "rebecca-randall",
+      "name": "蕾贝卡·兰德尔",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "学院会长级强者，成熟龙骑士范例。",
+      "roles": [
+        "学生会长",
+        "强者"
+      ],
+      "factions": [
+        "安萨里邦骑龙学院"
+      ],
+      "locations": [
+        "学院"
+      ],
+      "powerSystems": [
+        "dragoncraft"
+      ],
+      "abilities": [
+        "骑士战",
+        "指挥",
+        "高阶帕尔协同"
+      ],
+      "items": [],
+      "relationships": [
+        "ash-blake:senior"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-seikoku-no-dragonar-001"
+      ],
+      "notes": "作为学院强度标尺。"
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "安萨里邦骑龙学院": [
+        "ash-blake",
+        "eco",
+        "silvia-lautreamont",
+        "rebecca-randall"
+      ],
+      "罗雷亚蒙骑士国": [
+        "silvia-lautreamont"
+      ]
+    },
+    "byPowerSystem": {
+      "seikoku": [
+        "ash-blake",
+        "silvia-lautreamont"
+      ],
+      "dragoncraft": [
+        "ash-blake",
+        "eco",
+        "silvia-lautreamont",
+        "rebecca-randall"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "ash-blake",
+        "eco",
+        "silvia-lautreamont",
+        "rebecca-randall"
+      ]
+    },
+    "majorCharacters": [
+      "ash-blake",
+      "eco",
+      "silvia-lautreamont"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

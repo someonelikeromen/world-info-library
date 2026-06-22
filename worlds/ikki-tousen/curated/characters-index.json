@@ -1,1 +1,1055 @@
-{"schema":"rp-characters-index-v1","worldId":"ikki-tousen","characters":[{"id":"sonsaku-hakufu","name":"孙策伯符","aliases":["小霸王"],"visibility":"public","summary":"南阳核心斗士，继承孙策宿命，天真但潜藏霸王与龙之力量。","roles":["主角","斗士"],"factions":["南阳学院"],"locations":["南阳学院"],"powerSystems":["magatama","dragon-destiny"],"abilities":["格斗","龙觉醒","霸王资质"],"items":["勾玉"],"relationships":["shuyu-koukin:guardian","ryomou-shimei:ally","sosou-moutoku:rival"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"命运改写核心。"},{"id":"shuyu-koukin","name":"周瑜公瑾","aliases":[],"visibility":"public","summary":"南阳斗士，孙策的表兄与守护者，兼具智谋和战斗能力。","roles":["守护者","军师型斗士"],"factions":["南阳学院"],"locations":["南阳学院"],"powerSystems":["magatama","toushi"],"abilities":["武术","战术","护卫"],"items":["勾玉"],"relationships":["sonsaku-hakufu:guardian-of"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"孙策线关键。"},{"id":"ryomou-shimei","name":"吕蒙子明","aliases":[],"visibility":"public","summary":"南阳强力斗士，冷静可靠，常负责实战支援。","roles":["斗士","支援"],"factions":["南阳学院"],"locations":["南阳学院"],"powerSystems":["magatama","toushi"],"abilities":["关节技","近战","拘束战"],"items":["勾玉"],"relationships":["sonsaku-hakufu:ally"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"南阳主要战力。"},{"id":"kanu-unchou","name":"关羽云长","aliases":[],"visibility":"public","summary":"成都学园最强级斗士之一，忠于刘备，武德与战斗力极高。","roles":["斗士","护卫"],"factions":["成都学园"],"locations":["成都学园"],"powerSystems":["magatama","toushi"],"abilities":["长柄武器/近战","高等级斗气"],"items":["勾玉"],"relationships":["ryubi-gentoku:devoted-to","chouhi-ekitoku:comrade"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"成都阵营战力标杆。"},{"id":"ryubi-gentoku","name":"刘备玄德","aliases":[],"visibility":"public","summary":"成都领袖型人物，温柔但宿有龙之命运。","roles":["领袖","斗士"],"factions":["成都学园"],"locations":["成都学园"],"powerSystems":["magatama","dragon-destiny"],"abilities":["龙觉醒","感召力"],"items":["勾玉"],"relationships":["kanu-unchou:protected-by","chouhi-ekitoku:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"龙暴走需阶段约束。"},{"id":"chouhi-ekitoku","name":"张飞翼德","aliases":[],"visibility":"public","summary":"成都斗士，性格直率，承担刘备阵营近战战力。","roles":["斗士"],"factions":["成都学园"],"locations":["成都学园"],"powerSystems":["magatama","toushi"],"abilities":["格斗","爆发力"],"items":["勾玉"],"relationships":["ryubi-gentoku:ally","kanu-unchou:comrade"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"桃园结构成员。"},{"id":"chouun-shiryuu","name":"赵云子龙","aliases":[],"visibility":"public","summary":"成都强者，剑术高超，常以冷静姿态介入关键战斗。","roles":["斗士","剑士"],"factions":["成都学园"],"locations":["成都学园"],"powerSystems":["magatama","toushi"],"abilities":["剑术","高速战斗"],"items":["勾玉"],"relationships":["ryubi-gentoku:ally"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"高级战力。"},{"id":"shokatsuryou-koumei","name":"诸葛亮孔明","aliases":[],"visibility":"public","summary":"成都军师型斗士，掌握策略、阵法与宿命情报。","roles":["军师","斗士"],"factions":["成都学园"],"locations":["成都学园"],"powerSystems":["magatama"],"abilities":["策略","情报","术式"],"items":["勾玉"],"relationships":["ryubi-gentoku:advisor"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"提供剧情解释。"},{"id":"sosou-moutoku","name":"曹操孟德","aliases":["魔王"],"visibility":"public","summary":"许昌领袖，承载曹操/魔王宿命，霸气与失控风险并存。","roles":["领袖","霸王候补"],"factions":["许昌学院"],"locations":["许昌学院"],"powerSystems":["magatama","dragon-destiny"],"abilities":["魔王暴走","统率","强斗气"],"items":["勾玉"],"relationships":["kakuka-houkou:advisor","kakouen-myosai:subordinate","sonsaku-hakufu:rival"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"高危阶段 Boss/盟友。"},{"id":"kakuton-genjou","name":"夏侯惇元让","aliases":[],"visibility":"public","summary":"许昌斗士，曹操麾下猛将型战力。","roles":["斗士","武将"],"factions":["许昌学院"],"locations":["许昌学院"],"powerSystems":["magatama","toushi"],"abilities":["强攻","护卫"],"items":["勾玉"],"relationships":["sosou-moutoku:subordinate"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-ikki-tousen-001"],"notes":"许昌战力网。"},{"id":"kakuka-houkou","name":"郭嘉奉孝","aliases":[],"visibility":"public","summary":"许昌谋士型人物，常与曹操策略线关联。","roles":["谋士","斗士"],"factions":["许昌学院"],"locations":["许昌学院"],"powerSystems":["magatama"],"abilities":["谋略","局势操控"],"items":["勾玉"],"relationships":["sosou-moutoku:advisor"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-ikki-tousen-001"],"notes":"情报/策略 NPC。"},{"id":"ryofu-housen","name":"吕布奉先","aliases":[],"visibility":"public","summary":"洛阳强者，兼具悲剧性与压倒性战斗力。","roles":["斗士","悲剧强者"],"factions":["洛阳高校"],"locations":["洛阳高校"],"powerSystems":["magatama","toushi"],"abilities":["顶级近战","宿命抗争"],"items":["勾玉"],"relationships":["chinkyu-koudai:ally","toutaku-chuuei:conflict"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"源章节含复苏/幻影线，阶段化。"},{"id":"toutaku-chuuei","name":"董卓仲颖","aliases":[],"visibility":"public","summary":"洛阳支配者型反派，利用恐怖和宿命压迫斗士。","roles":["反派","支配者"],"factions":["洛阳高校"],"locations":["洛阳高校"],"powerSystems":["magatama"],"abilities":["权力操控","强制统治"],"items":["勾玉"],"relationships":["ryofu-housen:conflict"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-ikki-tousen-001"],"notes":"早期大反派。"},{"id":"himiko","name":"卑弥呼","aliases":[],"visibility":"public","summary":"大和/邪术线的关键人物，代表非三国系统的古代宿命介入。","roles":["术者","外部势力"],"factions":["大和/卑弥呼线"],"locations":["京都/关西"],"powerSystems":["magatama"],"abilities":["邪术","结界","命运操控"],"items":[],"relationships":["sonsaku-hakufu:enemy"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-ikki-tousen-001"],"notes":"外传/后期线合并。"},{"id":"yagyu-mitsuyoshi","name":"柳生三严","aliases":[],"visibility":"public","summary":"关西/大和线剑士角色，介入京都冲突。","roles":["剑士","斗士"],"factions":["关西势力"],"locations":["京都/关西"],"powerSystems":["toushi"],"abilities":["剑术"],"items":[],"relationships":["himiko:opposes-or-linked"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-ikki-tousen-001"],"notes":"关西线。"},{"id":"gyokuxi","name":"献帝/玉玺线","aliases":["献帝"],"visibility":"gm-only","summary":"围绕皇帝象征与命运正统性的政治/神秘节点。","roles":["宿命节点"],"factions":["隐秘线"],"locations":["关东/关西"],"powerSystems":["magatama"],"abilities":["正统性牵引"],"items":["玉玺"],"relationships":[],"importance":"medium","evidenceLevel":"C","sourceRefs":["src-ikki-tousen-001"],"notes":"作为剧情要素而非普通战斗 NPC。"}],"indices":{"byFaction":{"南阳学院":["sonsaku-hakufu","shuyu-koukin","ryomou-shimei"],"成都学园":["kanu-unchou","ryubi-gentoku","chouhi-ekitoku","chouun-shiryuu","shokatsuryou-koumei"],"许昌学院":["sosou-moutoku","kakuton-genjou","kakuka-houkou"],"洛阳高校":["ryofu-housen","toutaku-chuuei"],"关西势力":["yagyu-mitsuyoshi"],"大和/卑弥呼线":["himiko"]},"byPowerSystem":{"magatama":["sonsaku-hakufu","shuyu-koukin","ryomou-shimei","kanu-unchou","ryubi-gentoku","chouhi-ekitoku","chouun-shiryuu","shokatsuryou-koumei","sosou-moutoku","kakuton-genjou","kakuka-houkou","ryofu-housen","toutaku-chuuei","himiko","gyokuxi"],"toushi":["shuyu-koukin","ryomou-shimei","kanu-unchou","chouhi-ekitoku","chouun-shiryuu","kakuton-genjou","ryofu-housen","yagyu-mitsuyoshi"],"dragon-destiny":["sonsaku-hakufu","ryubi-gentoku","sosou-moutoku"]},"byVisibility":{"public":["sonsaku-hakufu","shuyu-koukin","ryomou-shimei","kanu-unchou","ryubi-gentoku","chouhi-ekitoku","chouun-shiryuu","shokatsuryou-koumei","sosou-moutoku","kakuton-genjou","kakuka-houkou","ryofu-housen","toutaku-chuuei","himiko","yagyu-mitsuyoshi"],"gm-only":["gyokuxi"]},"majorCharacters":["sonsaku-hakufu","kanu-unchou","ryubi-gentoku","sosou-moutoku","ryofu-housen","toutaku-chuuei","himiko"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "ikki-tousen",
+  "characters": [
+    {
+      "id": "sonsaku-hakufu",
+      "name": "孙策伯符",
+      "aliases": [
+        "小霸王"
+      ],
+      "visibility": "public",
+      "summary": "南阳核心斗士，继承孙策宿命，天真但潜藏霸王与龙之力量。",
+      "roles": [
+        "主角",
+        "斗士"
+      ],
+      "factions": [
+        "nanyo-academy"
+      ],
+      "locations": [
+        "nanyo-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "dragon-destiny"
+      ],
+      "abilities": [
+        "格斗",
+        "龙觉醒",
+        "霸王资质"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "shuyu-koukin",
+          "targetType": "character",
+          "relation": "guardian",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "ryomou-shimei",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "sosou-moutoku",
+          "targetType": "character",
+          "relation": "rival",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "命运改写核心。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "南阳学院"
+          ],
+          "locations": [
+            "南阳学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "shuyu-koukin",
+      "name": "周瑜公瑾",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "南阳斗士，孙策的表兄与守护者，兼具智谋和战斗能力。",
+      "roles": [
+        "守护者",
+        "军师型斗士"
+      ],
+      "factions": [
+        "nanyo-academy"
+      ],
+      "locations": [
+        "nanyo-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "武术",
+        "战术",
+        "护卫"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "sonsaku-hakufu",
+          "targetType": "character",
+          "relation": "guardian-of",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "孙策线关键。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "南阳学院"
+          ],
+          "locations": [
+            "南阳学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ryomou-shimei",
+      "name": "吕蒙子明",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "南阳强力斗士，冷静可靠，常负责实战支援。",
+      "roles": [
+        "斗士",
+        "支援"
+      ],
+      "factions": [
+        "nanyo-academy"
+      ],
+      "locations": [
+        "nanyo-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "关节技",
+        "近战",
+        "拘束战"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "sonsaku-hakufu",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "南阳主要战力。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "南阳学院"
+          ],
+          "locations": [
+            "南阳学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "kanu-unchou",
+      "name": "关羽云长",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "成都学园最强级斗士之一，忠于刘备，武德与战斗力极高。",
+      "roles": [
+        "斗士",
+        "护卫"
+      ],
+      "factions": [
+        "seito-academy"
+      ],
+      "locations": [
+        "seito-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "长柄武器/近战",
+        "高等级斗气"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "ryubi-gentoku",
+          "targetType": "character",
+          "relation": "devoted-to",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "chouhi-ekitoku",
+          "targetType": "character",
+          "relation": "comrade",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "成都阵营战力标杆。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "成都学园"
+          ],
+          "locations": [
+            "成都学园"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ryubi-gentoku",
+      "name": "刘备玄德",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "成都领袖型人物，温柔但宿有龙之命运。",
+      "roles": [
+        "领袖",
+        "斗士"
+      ],
+      "factions": [
+        "seito-academy"
+      ],
+      "locations": [
+        "seito-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "dragon-destiny"
+      ],
+      "abilities": [
+        "龙觉醒",
+        "感召力"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "kanu-unchou",
+          "targetType": "character",
+          "relation": "protected-by",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "chouhi-ekitoku",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "龙暴走需阶段约束。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "成都学园"
+          ],
+          "locations": [
+            "成都学园"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "chouhi-ekitoku",
+      "name": "张飞翼德",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "成都斗士，性格直率，承担刘备阵营近战战力。",
+      "roles": [
+        "斗士"
+      ],
+      "factions": [
+        "seito-academy"
+      ],
+      "locations": [
+        "seito-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "格斗",
+        "爆发力"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "ryubi-gentoku",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "kanu-unchou",
+          "targetType": "character",
+          "relation": "comrade",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "桃园结构成员。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "成都学园"
+          ],
+          "locations": [
+            "成都学园"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "chouun-shiryuu",
+      "name": "赵云子龙",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "成都强者，剑术高超，常以冷静姿态介入关键战斗。",
+      "roles": [
+        "斗士",
+        "剑士"
+      ],
+      "factions": [
+        "seito-academy"
+      ],
+      "locations": [
+        "seito-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "剑术",
+        "高速战斗"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "ryubi-gentoku",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "高级战力。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "成都学园"
+          ],
+          "locations": [
+            "成都学园"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "shokatsuryou-koumei",
+      "name": "诸葛亮孔明",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "成都军师型斗士，掌握策略、阵法与宿命情报。",
+      "roles": [
+        "军师",
+        "斗士"
+      ],
+      "factions": [
+        "seito-academy"
+      ],
+      "locations": [
+        "seito-academy"
+      ],
+      "powerSystems": [
+        "magatama"
+      ],
+      "abilities": [
+        "策略",
+        "情报",
+        "术式"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "ryubi-gentoku",
+          "targetType": "character",
+          "relation": "advisor",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "提供剧情解释。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "成都学园"
+          ],
+          "locations": [
+            "成都学园"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "sosou-moutoku",
+      "name": "曹操孟德",
+      "aliases": [
+        "魔王"
+      ],
+      "visibility": "public",
+      "summary": "许昌领袖，承载曹操/魔王宿命，霸气与失控风险并存。",
+      "roles": [
+        "领袖",
+        "霸王候补"
+      ],
+      "factions": [
+        "xuchang-academy"
+      ],
+      "locations": [
+        "xuchang-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "dragon-destiny"
+      ],
+      "abilities": [
+        "魔王暴走",
+        "统率",
+        "强斗气"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "kakuka-houkou",
+          "targetType": "character",
+          "relation": "advisor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "subordinate",
+          "resolutionStatus": "unresolved",
+          "label": "kakouen-myosai",
+          "notes": [
+            "Kakouen Myousai is referenced but not indexed in this curated roster."
+          ]
+        },
+        {
+          "target": "sonsaku-hakufu",
+          "targetType": "character",
+          "relation": "rival",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "高危阶段 Boss/盟友。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "许昌学院"
+          ],
+          "locations": [
+            "许昌学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "kakuton-genjou",
+      "name": "夏侯惇元让",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "许昌斗士，曹操麾下猛将型战力。",
+      "roles": [
+        "斗士",
+        "武将"
+      ],
+      "factions": [
+        "xuchang-academy"
+      ],
+      "locations": [
+        "xuchang-academy"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "强攻",
+        "护卫"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "sosou-moutoku",
+          "targetType": "character",
+          "relation": "subordinate",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "许昌战力网。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "许昌学院"
+          ],
+          "locations": [
+            "许昌学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "kakuka-houkou",
+      "name": "郭嘉奉孝",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "许昌谋士型人物，常与曹操策略线关联。",
+      "roles": [
+        "谋士",
+        "斗士"
+      ],
+      "factions": [
+        "xuchang-academy"
+      ],
+      "locations": [
+        "xuchang-academy"
+      ],
+      "powerSystems": [
+        "magatama"
+      ],
+      "abilities": [
+        "谋略",
+        "局势操控"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "sosou-moutoku",
+          "targetType": "character",
+          "relation": "advisor",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "情报/策略 NPC。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "许昌学院"
+          ],
+          "locations": [
+            "许昌学院"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ryofu-housen",
+      "name": "吕布奉先",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "洛阳强者，兼具悲剧性与压倒性战斗力。",
+      "roles": [
+        "斗士",
+        "悲剧强者"
+      ],
+      "factions": [
+        "luoyang-high"
+      ],
+      "locations": [
+        "luoyang-high"
+      ],
+      "powerSystems": [
+        "magatama",
+        "toushi"
+      ],
+      "abilities": [
+        "顶级近战",
+        "宿命抗争"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "unresolved",
+          "label": "chinkyu-koudai",
+          "notes": [
+            "Chinkyu Koudai is referenced but not indexed in this curated roster."
+          ]
+        },
+        {
+          "target": "toutaku-chuuei",
+          "targetType": "character",
+          "relation": "conflict",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "源章节含复苏/幻影线，阶段化。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "洛阳高校"
+          ],
+          "locations": [
+            "洛阳高校"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "toutaku-chuuei",
+      "name": "董卓仲颖",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "洛阳支配者型反派，利用恐怖和宿命压迫斗士。",
+      "roles": [
+        "反派",
+        "支配者"
+      ],
+      "factions": [
+        "luoyang-high"
+      ],
+      "locations": [
+        "luoyang-high"
+      ],
+      "powerSystems": [
+        "magatama"
+      ],
+      "abilities": [
+        "权力操控",
+        "强制统治"
+      ],
+      "items": [
+        "勾玉"
+      ],
+      "relationships": [
+        {
+          "target": "ryofu-housen",
+          "targetType": "character",
+          "relation": "conflict",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "早期大反派。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "洛阳高校"
+          ],
+          "locations": [
+            "洛阳高校"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "himiko",
+      "name": "卑弥呼",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "大和/邪术线的关键人物，代表非三国系统的古代宿命介入。",
+      "roles": [
+        "术者",
+        "外部势力"
+      ],
+      "factions": [
+        "yamato-himiko-line"
+      ],
+      "locations": [
+        "kyoto-kansai"
+      ],
+      "powerSystems": [
+        "magatama"
+      ],
+      "abilities": [
+        "邪术",
+        "结界",
+        "命运操控"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "sonsaku-hakufu",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "外传/后期线合并。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "大和/卑弥呼线"
+          ],
+          "locations": [
+            "京都/关西"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "yagyu-mitsuyoshi",
+      "name": "柳生三严",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "关西/大和线剑士角色，介入京都冲突。",
+      "roles": [
+        "剑士",
+        "斗士"
+      ],
+      "factions": [
+        "kansai-faction"
+      ],
+      "locations": [
+        "kyoto-kansai"
+      ],
+      "powerSystems": [
+        "toushi"
+      ],
+      "abilities": [
+        "剑术"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "himiko",
+          "targetType": "character",
+          "relation": "opposes-or-linked",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "关西线。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "关西势力"
+          ],
+          "locations": [
+            "京都/关西"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "gyokuxi",
+      "name": "献帝/玉玺线",
+      "aliases": [
+        "献帝"
+      ],
+      "visibility": "gm-only",
+      "summary": "围绕皇帝象征与命运正统性的政治/神秘节点。",
+      "roles": [
+        "宿命节点"
+      ],
+      "factions": [
+        "secret-line"
+      ],
+      "locations": [
+        "kanto-kansai"
+      ],
+      "powerSystems": [
+        "magatama"
+      ],
+      "abilities": [
+        "正统性牵引"
+      ],
+      "items": [
+        "玉玺"
+      ],
+      "relationships": [],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "notes": "作为剧情要素而非普通战斗 NPC。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "factions": [
+            "隐秘线"
+          ],
+          "locations": [
+            "关东/关西"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions.",
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "nanyo-academy": [
+        "sonsaku-hakufu",
+        "shuyu-koukin",
+        "ryomou-shimei"
+      ],
+      "seito-academy": [
+        "kanu-unchou",
+        "ryubi-gentoku",
+        "chouhi-ekitoku",
+        "chouun-shiryuu",
+        "shokatsuryou-koumei"
+      ],
+      "xuchang-academy": [
+        "sosou-moutoku",
+        "kakuton-genjou",
+        "kakuka-houkou"
+      ],
+      "luoyang-high": [
+        "ryofu-housen",
+        "toutaku-chuuei"
+      ],
+      "yamato-himiko-line": [
+        "himiko"
+      ],
+      "kansai-faction": [
+        "yagyu-mitsuyoshi"
+      ],
+      "secret-line": [
+        "gyokuxi"
+      ]
+    },
+    "byPowerSystem": {
+      "magatama": [
+        "sonsaku-hakufu",
+        "shuyu-koukin",
+        "ryomou-shimei",
+        "kanu-unchou",
+        "ryubi-gentoku",
+        "chouhi-ekitoku",
+        "chouun-shiryuu",
+        "shokatsuryou-koumei",
+        "sosou-moutoku",
+        "kakuton-genjou",
+        "kakuka-houkou",
+        "ryofu-housen",
+        "toutaku-chuuei",
+        "himiko",
+        "gyokuxi"
+      ],
+      "dragon-destiny": [
+        "sonsaku-hakufu",
+        "ryubi-gentoku",
+        "sosou-moutoku"
+      ],
+      "toushi": [
+        "shuyu-koukin",
+        "ryomou-shimei",
+        "kanu-unchou",
+        "chouhi-ekitoku",
+        "chouun-shiryuu",
+        "kakuton-genjou",
+        "ryofu-housen",
+        "yagyu-mitsuyoshi"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "sonsaku-hakufu",
+        "shuyu-koukin",
+        "ryomou-shimei",
+        "kanu-unchou",
+        "ryubi-gentoku",
+        "chouhi-ekitoku",
+        "chouun-shiryuu",
+        "shokatsuryou-koumei",
+        "sosou-moutoku",
+        "kakuton-genjou",
+        "kakuka-houkou",
+        "ryofu-housen",
+        "toutaku-chuuei",
+        "himiko",
+        "yagyu-mitsuyoshi"
+      ],
+      "gm-only": [
+        "gyokuxi"
+      ]
+    },
+    "majorCharacters": [
+      "sonsaku-hakufu",
+      "shuyu-koukin",
+      "ryomou-shimei",
+      "kanu-unchou",
+      "ryubi-gentoku",
+      "chouhi-ekitoku",
+      "chouun-shiryuu",
+      "shokatsuryou-koumei",
+      "sosou-moutoku",
+      "ryofu-housen",
+      "toutaku-chuuei",
+      "himiko"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

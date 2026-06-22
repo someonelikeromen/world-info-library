@@ -1,1 +1,209 @@
-{"schema":"rp-world-v1","worldId":"danmachi","worldName":"在地下城寻求邂逅是否搞错了什么","aliases":["地错","DanMachi","欧拉丽"],"genre":["地下城冒险","神明眷族","成长战斗"],"summary":"神明降临下界并组建眷族，冒险者通过恩惠 Falna 在欧拉丽地下城中升级。地下城既是资源来源也是灾害根源，神会政治和眷族竞争塑造城市秩序。","sandboxPrinciple":"不固定贝尔成长路线；地下城探索、眷族政治和神明游戏可随行动变化。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["等级 Level 与真实战力相关但技能、魔法、发展能力会造成越级。"],"powerSystems":[{"id":"falna","name":"神之恩惠 Falna","category":"blessing-progression","principle":"神明在眷族成员背上刻印能力值并记录伟业，使冒险者升级。","classification":["Blessing","Progression"],"energySource":"external","hasExternalEnergy":true,"externalEnergyName":"神之恩惠","energyTraits":[{"tag":"excelia","level":"A","description":"经验/伟业积累可转化为成长。"}],"levelMapping":[{"localLevel":"Lv.1-Lv.2","description":"新人至初级冒险者。","universalRange":{"rating":"N2-N4","minScore":300,"maxScore":1999},"typicalAttributeRatings":{"output":"N2-N4","durability":"N2-N4","reaction":"N2-N4","control":"N1-N3","perception":"N1-N3","mentalStrength":"N2-N4","computation":"N1-N3"},"notes":["技能可显著破格。"]}],"commonResources":["能力值","伟业","魔法栏","技能"],"commonAbilities":["升级","魔法","发展能力"],"limitations":["需神明更新状态；升级需要伟业。"],"compatibilityNotes":[]},{"id":"dungeon-monster","name":"地下城与魔石生态","category":"environmental-spawn","principle":"地下城孕育怪物和楼层生态，死亡怪物掉落魔石。","classification":["Monster","Resource"],"energySource":"external","hasExternalEnergy":true,"externalEnergyName":"地下城魔力","energyTraits":[],"levelMapping":[],"commonResources":["魔石","掉落道具"],"commonAbilities":["怪物再生","楼层主"],"limitations":["受楼层与地下城意志限制。"],"compatibilityNotes":[]}],"factions":[{"id":"hestia-familia","name":"赫斯缇雅眷族","type":"familia","summary":"贝尔所属小型但快速成长的眷族。","powerSystemAffinity":["falna"],"publicRules":["眷族互助"],"hiddenRules":[],"attitudeToOutsiders":"friendly","knownMembers":["bell-cranel","hestia","liliruca-arde","welf-crozzo","mikoto-yamato","haruhime-sanjouno"],"territories":["炉灶馆"],"resources":["赫斯缇雅之刃"],"conflicts":["apollo-familia"]},{"id":"loki-familia","name":"洛基眷族","type":"familia","summary":"欧拉丽顶级探索型眷族。","powerSystemAffinity":["falna"],"publicRules":[],"hiddenRules":[],"attitudeToOutsiders":"competitive","knownMembers":["ais-wallenstein","finn-deimne","bete-loga","lefiyaviridis"],"territories":[],"resources":["远征队"],"conflicts":[]}],"energyEnvironment":{"externalEnergies":[{"name":"地下城魔力","density":"high","distribution":"地下城内随楼层变化","traits":["孕育怪物","产出魔石"],"recoveryImpact":"冒险者资源获取核心。"}],"restrictedZones":["深层","安全楼层以外"],"specialFields":["地下城楼层","怪物宴"]},"worldRules":{"publicLaws":["公会管理冒险者与委托","神明不得在下界使用神力"],"supernaturalRules":["恩惠记录能力并可升级。"],"taboos":["神力滥用会导致遣返","黑暗派阀破坏秩序"],"knownExceptions":["异端儿具备智慧与社会性。"]},"locations":["欧拉丽","巴别塔","地下城","丰饶的女主人","炉灶馆"],"publicEvents":["眷族战争","地下城远征"],"hiddenEvents":["异端儿秘密","黑暗派阀残党"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "danmachi",
+  "worldName": "在地下城寻求邂逅是否搞错了什么",
+  "aliases": [
+    "地错",
+    "DanMachi",
+    "欧拉丽"
+  ],
+  "genre": [
+    "地下城冒险",
+    "神明眷族",
+    "成长战斗"
+  ],
+  "summary": "神明降临下界并组建眷族，冒险者通过恩惠 Falna 在欧拉丽地下城中升级。地下城既是资源来源也是灾害根源，神会政治和眷族竞争塑造城市秩序。",
+  "sandboxPrinciple": {
+    "summary": "不固定贝尔成长路线；地下城探索、眷族政治和神明游戏可随行动变化。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "等级 Level 与真实战力相关但技能、魔法、发展能力会造成越级。"
+  ],
+  "powerSystems": [
+    {
+      "id": "falna",
+      "name": "神之恩惠 Falna",
+      "category": "blessing-progression",
+      "principle": "神明在眷族成员背上刻印能力值并记录伟业，使冒险者升级。",
+      "classification": [
+        "Blessing",
+        "Progression"
+      ],
+      "energySource": "external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "神之恩惠",
+      "energyTraits": [
+        {
+          "tag": "excelia",
+          "level": "A",
+          "description": "经验/伟业积累可转化为成长。"
+        }
+      ],
+      "levelMapping": [
+        {
+          "localLevel": "Lv.1-Lv.2",
+          "description": "新人至初级冒险者。",
+          "universalRange": {
+            "rating": "N2-N4",
+            "minScore": 300,
+            "maxScore": 1999
+          },
+          "typicalAttributeRatings": {
+            "output": "N2-N4",
+            "durability": "N2-N4",
+            "reaction": "N2-N4",
+            "control": "N1-N3",
+            "perception": "N1-N3",
+            "mentalStrength": "N2-N4",
+            "computation": "N1-N3"
+          },
+          "notes": [
+            "技能可显著破格。"
+          ]
+        }
+      ],
+      "commonResources": [
+        "能力值",
+        "伟业",
+        "魔法栏",
+        "技能"
+      ],
+      "commonAbilities": [
+        "升级",
+        "魔法",
+        "发展能力"
+      ],
+      "limitations": [
+        "需神明更新状态；升级需要伟业。"
+      ],
+      "compatibilityNotes": []
+    },
+    {
+      "id": "dungeon-monster",
+      "name": "地下城与魔石生态",
+      "category": "environmental-spawn",
+      "principle": "地下城孕育怪物和楼层生态，死亡怪物掉落魔石。",
+      "classification": [
+        "Monster",
+        "Resource"
+      ],
+      "energySource": "external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "地下城魔力",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "魔石",
+        "掉落道具"
+      ],
+      "commonAbilities": [
+        "怪物再生",
+        "楼层主"
+      ],
+      "limitations": [
+        "受楼层与地下城意志限制。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "hestia-familia",
+      "name": "赫斯缇雅眷族"
+    },
+    {
+      "id": "loki-familia",
+      "name": "洛基眷族"
+    },
+    {
+      "id": "freya-familia",
+      "name": "芙蕾雅眷族"
+    },
+    {
+      "id": "benevolent-mistress",
+      "name": "丰饶的女主人"
+    },
+    {
+      "id": "astraea-familia",
+      "name": "阿斯特莉亚眷族"
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "地下城魔力",
+        "density": "high",
+        "distribution": "地下城内随楼层变化",
+        "traits": [
+          "孕育怪物",
+          "产出魔石"
+        ],
+        "recoveryImpact": "冒险者资源获取核心。"
+      }
+    ],
+    "restrictedZones": [
+      "深层",
+      "安全楼层以外"
+    ],
+    "specialFields": [
+      "地下城楼层",
+      "怪物宴"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "公会管理冒险者与委托",
+      "神明不得在下界使用神力"
+    ],
+    "supernaturalRules": [
+      "恩惠记录能力并可升级。"
+    ],
+    "taboos": [
+      "神力滥用会导致遣返",
+      "黑暗派阀破坏秩序"
+    ],
+    "knownExceptions": [
+      "异端儿具备智慧与社会性。"
+    ]
+  },
+  "locations": [
+    {
+      "id": "orario",
+      "name": "欧拉丽",
+      "aliases": [
+        "欧拉丽"
+      ]
+    },
+    {
+      "id": "babel-tower",
+      "name": "巴别塔"
+    },
+    {
+      "id": "dungeon",
+      "name": "地下城"
+    },
+    {
+      "id": "benevolent-mistress-inn",
+      "name": "丰饶的女主人"
+    },
+    {
+      "id": "hearth-stone",
+      "name": "炉灶馆"
+    }
+  ],
+  "publicEvents": [
+    "眷族战争",
+    "地下城远征"
+  ],
+  "hiddenEvents": [
+    "异端儿秘密",
+    "黑暗派阀残党"
+  ]
+}

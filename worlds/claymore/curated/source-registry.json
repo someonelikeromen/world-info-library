@@ -1,5 +1,5 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "claymore",
   "displayName": "大剑 / Claymore",
   "curatedFrom": [
@@ -23,5 +23,76 @@
     "关系变量与好感度规则",
     "成人/NSFW 细节",
     "{{user}}人设具体化文本"
-  ]
+  ],
+  "campaignId": "claymore",
+  "sources": [
+    {
+      "sourceId": "src-claymore-001",
+      "title": "迪妮莎",
+      "type": "user-file-source",
+      "sourceKind": "character-card-or-worldbook-derived-archive",
+      "localRegistry": "campaigns/world-library/worlds/claymore/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/claymore/characters/characters.json",
+        "campaigns/world-library/worlds/claymore/world/world.json",
+        "campaigns/world-library/worlds/claymore/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "用户提供世界书/角色卡导入；curated 层人工归纳，未访问外部链接。；source-ref 修复：登记为派生片段 sourceId 的父来源，不新增 canon 事实。"
+    },
+    {
+      "sourceId": "characters.json entryIndex 0",
+      "title": "characters.json entryIndex 0",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/characters/characters.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "0"
+      }
+    },
+    {
+      "sourceId": "characters.json entryIndex 4",
+      "title": "characters.json entryIndex 4",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/characters/characters.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "4"
+      }
+    },
+    {
+      "sourceId": "characters.json entryIndex 8",
+      "title": "characters.json entryIndex 8",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/characters/characters.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "8"
+      }
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "source-ref 修复（2026-06-22）：将 comment/entryIndex/#entry 形式 sourceRefs 登记为父来源的派生别名；这些条目只修复 provenance 可追踪性，不新增或改写 canon 事实。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

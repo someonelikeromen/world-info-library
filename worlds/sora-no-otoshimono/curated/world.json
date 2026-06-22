@@ -1,18 +1,76 @@
 {
-  "schema": "curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "sora-no-otoshimono",
   "displayName": "天降之物",
   "curationMethod": "manual reading of existing archive files",
   "premise": "空美町少年樱井智树与从天而降的万能天使伊卡洛斯相遇。万能卡片与铭刻系统带来荒诞日常，也揭开西纳普斯支配地面、人造天使作为兵器的真相。",
   "coreSystems": [
-    {"name": "西纳普斯", "description": "位于天空/异层的超高科技文明，俯瞰并干涉地面。"},
-    {"name": "万能天使/人造天使", "description": "由西纳普斯制造的高性能生命兵器或工具，具备翼、核心、武装与情感回路。"},
-    {"name": "铭刻", "description": "万能天使与Master之间建立主从连接的仪式。"},
-    {"name": "卡片/传送装置", "description": "能实现愿望或制造现实改写效果的高科技道具；失控可引发灾难。"},
-    {"name": "情感回路与进化", "description": "人造天使从服从工具走向自我意志与爱的关键机制。"}
+    {
+      "name": "西纳普斯",
+      "description": "位于天空/异层的超高科技文明，俯瞰并干涉地面。"
+    },
+    {
+      "name": "万能天使/人造天使",
+      "description": "由西纳普斯制造的高性能生命兵器或工具，具备翼、核心、武装与情感回路。"
+    },
+    {
+      "name": "铭刻",
+      "description": "万能天使与Master之间建立主从连接的仪式。"
+    },
+    {
+      "name": "卡片/传送装置",
+      "description": "能实现愿望或制造现实改写效果的高科技道具；失控可引发灾难。"
+    },
+    {
+      "name": "情感回路与进化",
+      "description": "人造天使从服从工具走向自我意志与爱的关键机制。"
+    }
   ],
-  "majorLocations": ["空美町", "樱井家", "私立空美学园/空美町高中", "新大陆发现部", "海边", "公园", "西纳普斯", "战场空域/电子战空间"],
-  "majorFactions": ["地面人类/空美町", "新大陆发现部", "学生会", "西纳普斯", "万能天使群"],
-  "tone": ["荒诞日常", "校园喜剧", "科幻悬疑", "兵器少女救赎", "末日危机"],
-  "rpUse": "OC可作为空美町居民、学生、调查者或西纳普斯相关存在介入；应保留日常与残酷科幻并置，不强制OC取代智树除非开局设定如此。"
+  "majorLocations": [
+    "空美町",
+    "樱井家",
+    "私立空美学园/空美町高中",
+    "新大陆发现部",
+    "海边",
+    "公园",
+    "西纳普斯",
+    "战场空域/电子战空间"
+  ],
+  "majorFactions": [
+    "地面人类/空美町",
+    "新大陆发现部",
+    "学生会",
+    "西纳普斯",
+    "万能天使群"
+  ],
+  "tone": [
+    "荒诞日常",
+    "校园喜剧",
+    "科幻悬疑",
+    "兵器少女救赎",
+    "末日危机"
+  ],
+  "rpUse": "OC可作为空美町居民、学生、调查者或西纳普斯相关存在介入；应保留日常与残酷科幻并置，不强制OC取代智树除非开局设定如此。",
+  "worldId": "sora-no-otoshimono",
+  "worldName": "天降之物",
+  "aliases": [],
+  "genre": [
+    "荒诞日常",
+    "校园喜剧",
+    "科幻悬疑",
+    "兵器少女救赎",
+    "末日危机"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "powerSystems": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

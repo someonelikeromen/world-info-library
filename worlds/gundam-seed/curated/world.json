@@ -1,1 +1,280 @@
-{"schema":"rp-world-v1","worldId":"gundam-seed","displayName":"高达 SEED","curationStatus":"manual-initial","sourceRefs":["src-gundam-seed-001"],"summary":"C.E. 纪元中自然人与调整者矛盾升级为地球联合与 PLANT/ZAFT 的全面战争。机动战士、战舰、殖民卫星与中立国奥布构成政治军事舞台。","powerSystems":[{"id":"mobile-suit-tech","name":"机动战士技术","rules":["MS 依赖装甲、推进、武装、OS 与驾驶员适性","相转移装甲抵御实弹但消耗能量","光束武器和核动力/电池限制决定持续战斗"]},{"id":"coordinator","name":"调整者/自然人差异","rules":["调整者通常拥有更高身体与认知潜力","自然人可通过训练、强化人与团队战弥补差距","社会歧视和政治宣传会放大战争" ]},{"id":"seed-factor","name":"SEED 因子","rules":["特定角色在极限压力下进入高集中状态","提升反应、判断和战斗表现，但非无限常驻" ]}],"factions":["地球联合/大西洋联邦","ZAFT/PLANT","奥布联合首长国","三舰同盟","蓝色宇宙","克莱因派"],"locations":["赫利奥波利斯","大天使号","PLANT 殖民卫星","奥布","阿拉斯加 JOSH-A","雅金·杜维"],"combatRules":["机体性能、补给、战场环境和驾驶员状态共同决定胜负。","战略武器如创世纪、核弹、质量加速器应作为战役级威胁。","政治立场可能比个人敌我更复杂，奥布/三舰同盟适合中立转折。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "gundam-seed",
+  "displayName": "高达 SEED",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "summary": "C.E. 纪元中自然人与调整者矛盾升级为地球联合与 PLANT/ZAFT 的全面战争。机动战士、战舰、殖民卫星与中立国奥布构成政治军事舞台。",
+  "powerSystems": [
+    {
+      "id": "mobile-suit-tech",
+      "name": "机动战士技术",
+      "rules": [
+        "MS 依赖装甲、推进、武装、OS 与驾驶员适性",
+        "相转移装甲抵御实弹但消耗能量",
+        "光束武器和核动力/电池限制决定持续战斗"
+      ]
+    },
+    {
+      "id": "coordinator",
+      "name": "调整者/自然人差异",
+      "rules": [
+        "调整者通常拥有更高身体与认知潜力",
+        "自然人可通过训练、强化人与团队战弥补差距",
+        "社会歧视和政治宣传会放大战争"
+      ]
+    },
+    {
+      "id": "seed-factor",
+      "name": "SEED 因子",
+      "rules": [
+        "特定角色在极限压力下进入高集中状态",
+        "提升反应、判断和战斗表现，但非无限常驻"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "earth-alliance",
+      "name": "地球联合/大西洋联邦",
+      "type": "military-alliance",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "murrue-ramius"
+      ],
+      "territories": [
+        "josh-a"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "地球联合/大西洋联邦"
+      ]
+    },
+    {
+      "id": "zaft-plant",
+      "name": "ZAFT/PLANT",
+      "type": "military-state",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech",
+        "coordinator"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "athrun-zala",
+        "rau-le-creuset"
+      ],
+      "territories": [
+        "plant",
+        "messiah"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "ZAFT/PLANT"
+      ]
+    },
+    {
+      "id": "orb-union",
+      "name": "奥布联合首长国",
+      "type": "nation",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "cagalli-yula-athha"
+      ],
+      "territories": [
+        "orb"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "奥布联合首长国"
+      ]
+    },
+    {
+      "id": "three-ships-alliance",
+      "name": "三舰同盟",
+      "type": "alliance",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech",
+        "seed-factor"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "kira-yamato",
+        "athrun-zala",
+        "lacus-clyne",
+        "cagalli-yula-athha",
+        "murrue-ramius"
+      ],
+      "territories": [
+        "archangel",
+        "eternal"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "三舰同盟"
+      ]
+    },
+    {
+      "id": "archangel-crew",
+      "name": "大天使号阵营",
+      "type": "ship-crew",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "kira-yamato",
+        "murrue-ramius"
+      ],
+      "territories": [
+        "archangel"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "大天使号阵营"
+      ]
+    },
+    {
+      "id": "klein-faction",
+      "name": "克莱因派",
+      "type": "political-faction",
+      "summary": "",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "unknown",
+      "knownMembers": [
+        "lacus-clyne"
+      ],
+      "territories": [
+        "plant",
+        "eternal"
+      ],
+      "resources": [],
+      "conflicts": [],
+      "aliases": [
+        "克莱因派"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "archangel",
+      "name": "大天使号",
+      "type": "warship",
+      "summary": "",
+      "aliases": [
+        "大天使号"
+      ]
+    },
+    {
+      "id": "messiah",
+      "name": "弥赛亚",
+      "type": "space-fortress",
+      "summary": "",
+      "aliases": [
+        "弥赛亚"
+      ]
+    },
+    {
+      "id": "plant",
+      "name": "PLANT 殖民卫星",
+      "type": "space-colony",
+      "summary": "",
+      "aliases": [
+        "PLANT 殖民卫星"
+      ]
+    },
+    {
+      "id": "orb",
+      "name": "奥布",
+      "type": "nation",
+      "summary": "",
+      "aliases": [
+        "奥布"
+      ]
+    },
+    {
+      "id": "josh-a",
+      "name": "阿拉斯加 JOSH-A",
+      "type": "military-base",
+      "summary": "",
+      "aliases": [
+        "阿拉斯加 JOSH-A"
+      ]
+    },
+    {
+      "id": "yakin-due",
+      "name": "雅金·杜维",
+      "type": "space-battlefield",
+      "summary": "",
+      "aliases": [
+        "雅金·杜维"
+      ]
+    },
+    {
+      "id": "eternal",
+      "name": "永恒号",
+      "type": "warship",
+      "summary": "",
+      "aliases": [
+        "永恒号"
+      ]
+    },
+    {
+      "id": "space-battlefields",
+      "name": "宇宙战场",
+      "type": "battlefield-region",
+      "summary": "",
+      "aliases": [
+        "宇宙战场"
+      ]
+    }
+  ],
+  "combatRules": [
+    "机体性能、补给、战场环境和驾驶员状态共同决定胜负。",
+    "战略武器如创世纪、核弹、质量加速器应作为战役级威胁。",
+    "政治立场可能比个人敌我更复杂，奥布/三舰同盟适合中立转折。"
+  ],
+  "visibility": "public",
+  "worldName": "高达 SEED",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

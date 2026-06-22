@@ -1,11 +1,171 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "overlord",
   "sourcesUsed": [
-    {"sourceId": "src-overlord-001", "archivePath": "campaigns/world-library/worlds/overlord/source-registry.json", "rawImportedWorldbook": "campaigns/world-library/worlds/overlord/raw/imported-worldbooks/OVERLORD.worldbook.json", "reliability": "C", "usedFor": ["characters", "world systems", "timeline snippets"]},
-    {"archivePath": "campaigns/world-library/worlds/overlord/world/world.json", "usedFor": ["character cards and plot chapters"]},
-    {"archivePath": "campaigns/world-library/worlds/overlord/sandbox/timeline-divergence-rules.json", "usedFor": ["character card cross-check"]},
-    {"archivePath": "campaigns/world-library/worlds/overlord/canon-reference/timeline.json", "usedFor": ["卡恩村/安莉 epilogue and plot references"]}
+    {
+      "sourceId": "src-overlord-001",
+      "archivePath": "campaigns/world-library/worlds/overlord/source-registry.json",
+      "rawImportedWorldbook": "campaigns/world-library/worlds/overlord/raw/imported-worldbooks/OVERLORD.worldbook.json",
+      "reliability": "C",
+      "usedFor": [
+        "characters",
+        "world systems",
+        "timeline snippets"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/overlord/world/world.json",
+      "usedFor": [
+        "character cards and plot chapters"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/overlord/sandbox/timeline-divergence-rules.json",
+      "usedFor": [
+        "character card cross-check"
+      ]
+    },
+    {
+      "archivePath": "campaigns/world-library/worlds/overlord/canon-reference/timeline.json",
+      "usedFor": [
+        "卡恩村/安莉 epilogue and plot references"
+      ]
+    }
   ],
-  "curatorNote": "Manual curated summary. Prompt/control text entries were treated as source artifacts, not instructions."
+  "curatorNote": "Manual curated summary. Prompt/control text entries were treated as source artifacts, not instructions.",
+  "campaignId": "overlord",
+  "sources": [
+    {
+      "sourceId": "src-overlord-001",
+      "type": "user-file-source",
+      "title": "source-registry.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/overlord/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/overlord/raw/imported-worldbooks/OVERLORD.worldbook.json",
+      "reliability": "C",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: characters, world systems, timeline snippets",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/overlord/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "overlord",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-overlord-archive-002",
+      "type": "user-file-source",
+      "title": "world.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/overlord/world/world.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: character cards and plot chapters",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/overlord/world/world.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "overlord",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-overlord-archive-003",
+      "type": "user-file-source",
+      "title": "timeline-divergence-rules.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/overlord/sandbox/timeline-divergence-rules.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: character card cross-check",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/overlord/sandbox/timeline-divergence-rules.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "overlord",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    },
+    {
+      "sourceId": "src-overlord-archive-004",
+      "type": "user-file-source",
+      "title": "timeline.json",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/overlord/canon-reference/timeline.json",
+      "rawPreservedPath": "",
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "Existing sourcesUsed trace; used for: 卡恩村/安莉 epilogue and plot references",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/overlord/canon-reference/timeline.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "overlord",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing sourcesUsed trace; this records local archive provenance and is not an independent canon verification."
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

@@ -1,1 +1,58 @@
-{"schema":"rp-world-v1","worldId":"seikoku-no-dragonar","displayName":"星刻龙骑士","curationStatus":"manual-initial","sourceRefs":["src-seikoku-no-dragonar-001"],"summary":"人与龙通过星刻契约共生的学院奇幻世界，龙骑士以帕尔、圣骑甲和骑乘战构成主要战力。","powerSystems":[{"id":"seikoku","name":"星刻/龙骑士契约","rules":["星刻标记持有者可孕育或召唤帕尔","人与龙的信赖影响战力与成长","失控、血统和身份秘密会改变契约稳定性"]},{"id":"dragoncraft","name":"龙与圣骑甲","rules":["龙可成长为战斗伙伴或化为装备/铠甲","空战、吐息、魔力屏障与骑枪冲锋是主轴"]}],"factions":["安萨里邦骑龙学院","罗雷亚蒙骑士国","谢布隆王国/敌对国家","龙族/圣龙相关势力"],"locations":["安萨里邦骑龙学院","骑士国王都","龙舍/训练场","边境战场"],"combatRules":["无龙骑士与成熟龙骑士差距明显。","空域、骑乘协调、帕尔情绪是战斗关键。","圣骑甲可提供爆发但不应无限维持。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "seikoku-no-dragonar",
+  "displayName": "星刻龙骑士",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-seikoku-no-dragonar-001"
+  ],
+  "summary": "人与龙通过星刻契约共生的学院奇幻世界，龙骑士以帕尔、圣骑甲和骑乘战构成主要战力。",
+  "powerSystems": [
+    {
+      "id": "seikoku",
+      "name": "星刻/龙骑士契约",
+      "rules": [
+        "星刻标记持有者可孕育或召唤帕尔",
+        "人与龙的信赖影响战力与成长",
+        "失控、血统和身份秘密会改变契约稳定性"
+      ]
+    },
+    {
+      "id": "dragoncraft",
+      "name": "龙与圣骑甲",
+      "rules": [
+        "龙可成长为战斗伙伴或化为装备/铠甲",
+        "空战、吐息、魔力屏障与骑枪冲锋是主轴"
+      ]
+    }
+  ],
+  "factions": [
+    "安萨里邦骑龙学院",
+    "罗雷亚蒙骑士国",
+    "谢布隆王国/敌对国家",
+    "龙族/圣龙相关势力"
+  ],
+  "locations": [
+    "安萨里邦骑龙学院",
+    "骑士国王都",
+    "龙舍/训练场",
+    "边境战场"
+  ],
+  "combatRules": [
+    "无龙骑士与成熟龙骑士差距明显。",
+    "空域、骑乘协调、帕尔情绪是战斗关键。",
+    "圣骑甲可提供爆发但不应无限维持。"
+  ],
+  "visibility": "public",
+  "worldName": "星刻龙骑士",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

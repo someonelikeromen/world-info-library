@@ -4,71 +4,884 @@
   "displayName": "魔弹之王与战姬",
   "curation": {
     "method": "manual synthesis from archived entries",
-    "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5", "src-madan-no-ou-001#entry-14", "src-madan-no-ou-001#entry-15..50"]
+    "sourceRefs": [
+      "src-madan-no-ou-001#entry-0",
+      "src-madan-no-ou-001#entry-5",
+      "src-madan-no-ou-001#entry-14",
+      "src-madan-no-ou-001#entry-15..50"
+    ]
   },
   "nodes": [
-    {"id": "world-continent", "type": "setting", "label": "中世纪欧洲风大陆", "visibility": "public", "summary": "布琉努、吉斯塔特、亚斯瓦尔、萨克斯坦、墨吉涅等国家所在舞台。"},
-    {"id": "brune", "type": "faction", "label": "布琉努王国", "visibility": "public", "summary": "红马旗封建王国，重骑士传统，蔑视弓箭。"},
-    {"id": "zhcted", "type": "faction", "label": "吉斯塔特王国", "visibility": "public", "summary": "黑龙旗王国，由国王与七战姬/七公国构成权力结构。"},
-    {"id": "asvarre", "type": "faction", "label": "亚斯瓦尔王国", "visibility": "public", "summary": "布琉努西北方海岛国，发生王位内乱。"},
-    {"id": "sachstein", "type": "faction", "label": "萨克斯坦王国", "visibility": "public", "summary": "布琉努西方山森之国，佣兵与投石机闻名。"},
-    {"id": "muozinel", "type": "faction", "label": "墨吉涅王国", "visibility": "public", "summary": "布琉努东南方沙漠奴隶国，好战。"},
-    {"id": "leitmeritz", "type": "faction", "label": "莱德梅里兹公国", "visibility": "public", "summary": "艾莲治理，银闪艾利菲尔所在公国。"},
-    {"id": "olmutz", "type": "faction", "label": "奥尔米兹公国", "visibility": "public", "summary": "米拉治理，冻涟拉斐亚斯所在公国。"},
-    {"id": "osterode", "type": "faction", "label": "奥斯特罗德公国", "visibility": "public", "summary": "凡伦蒂娜治理，虚影艾萨帝斯所在公国。"},
-    {"id": "alsace", "type": "location", "label": "亚尔萨斯", "visibility": "public", "summary": "堤格尔治理的布琉努北部边境领地。"},
-    {"id": "vosges", "type": "location", "label": "孚日山脉", "visibility": "public", "summary": "布琉努与吉斯塔特间天然国境。"},
-    {"id": "tatras", "type": "location", "label": "塔特洛山", "visibility": "public", "summary": "奥尔米兹严密防御要地，为抵挡银闪传统而设计。"},
-    {"id": "sacred-cavern", "type": "location", "label": "圣窟宫", "visibility": "gm-only", "summary": "卢堤迪亚地下遗迹，黑弓和魔物谜团及最终决战相关。"},
-    {"id": "dragon-gear", "type": "power-system", "label": "龙具", "visibility": "public", "summary": "七件有意志武具，选择战姬并赋予元素/空间能力。"},
-    {"id": "dragon-technique", "type": "ability-concept", "label": "龙技", "visibility": "public", "summary": "龙具最大释放，威力足以击倒龙，代价是巨大消耗和长期恢复。"},
-    {"id": "black-bow", "type": "artifact", "label": "黑弓", "visibility": "gm-only", "summary": "冯伦家传武器，可与龙具共鸣，实为蒂尔·纳·法授予的降临容器相关武器。"},
-    {"id": "durandal", "type": "artifact", "label": "杜兰达尔", "visibility": "public", "summary": "罗兰持有的不败之剑，可斩断咒术、打破龙技。"},
-    {"id": "dragons", "type": "species", "label": "龙", "visibility": "public", "summary": "真实存在的巨型生物，常规武器难以损伤。"},
-    {"id": "demons", "type": "species", "label": "魔物", "visibility": "gm-only", "summary": "七只具人类本性的异形，战姬宿敌，企图颠覆世界。"},
-    {"id": "tir-na-fa", "type": "deity", "label": "蒂尔·纳·法", "visibility": "gm-only", "summary": "与黑弓真正来历和降临容器机制相关的女神。"},
-    {"id": "tigrevurmud-vorn", "type": "character", "label": "堤格尔", "visibility": "public", "summary": "亚尔萨斯伯爵，黑弓持有者，弓术超群。"},
-    {"id": "elenora-viltaria", "type": "character", "label": "艾莲", "visibility": "public", "summary": "莱德梅里兹战姬，风之龙具持有者。"},
-    {"id": "ludmila-lourie", "type": "character", "label": "米拉", "visibility": "public", "summary": "奥尔米兹战姬，冰之龙具持有者，冻涟 IF 核心。"},
-    {"id": "valentina-glinka-estes", "type": "character", "label": "凡伦蒂娜", "visibility": "gm-only", "summary": "奥斯特罗德战姬，空间龙具持有者，策划吉斯塔特内乱。"},
-    {"id": "regin", "type": "character", "label": "蕾琪", "visibility": "gm-only", "summary": "布琉努王室继承者，后来成为首位女王。"},
-    {"id": "ganalon", "type": "character", "label": "嘉奴隆公爵", "visibility": "gm-only", "summary": "布琉努大公与后期反派核心。"},
-    {"id": "thenardier", "type": "character", "label": "泰纳帝迪耶公爵", "visibility": "public", "summary": "布琉努大公，第一部内乱主要敌人。"},
-    {"id": "brune-civil-war", "type": "event", "label": "布琉努内乱", "visibility": "public", "summary": "法隆失政后两大公爵扩权，引出银色流星军和平乱。"},
-    {"id": "asvarre-war", "type": "event", "label": "亚斯瓦尔王位内乱", "visibility": "public", "summary": "杰梅因屠杀弟妹引发内乱，塔拉多最终继位。"},
-    {"id": "zhcted-rebellion", "type": "event", "label": "吉斯塔特内乱", "visibility": "gm-only", "summary": "凡伦蒂娜策划的王位与战姬制度危机。"},
-    {"id": "main-continuity", "type": "continuity", "label": "本篇主线", "visibility": "public", "summary": "以艾莲俘虏堤格尔为起点的《魔弹之王与战姬》主线。"},
-    {"id": "mira-if", "type": "continuity", "label": "冻涟 IF", "visibility": "public", "summary": "以米拉为初遇/第一女主角重心的 IF 线。"}
+    {
+      "id": "world-continent",
+      "type": "setting",
+      "label": "中世纪欧洲风大陆",
+      "visibility": "public",
+      "summary": "布琉努、吉斯塔特、亚斯瓦尔、萨克斯坦、墨吉涅等国家所在舞台。"
+    },
+    {
+      "id": "brune",
+      "type": "faction",
+      "label": "布琉努王国",
+      "visibility": "public",
+      "summary": "红马旗封建王国，重骑士传统，蔑视弓箭。"
+    },
+    {
+      "id": "zhcted",
+      "type": "faction",
+      "label": "吉斯塔特王国",
+      "visibility": "public",
+      "summary": "黑龙旗王国，由国王与七战姬/七公国构成权力结构。"
+    },
+    {
+      "id": "asvarre",
+      "type": "faction",
+      "label": "亚斯瓦尔王国",
+      "visibility": "public",
+      "summary": "布琉努西北方海岛国，发生王位内乱。"
+    },
+    {
+      "id": "sachstein",
+      "type": "faction",
+      "label": "萨克斯坦王国",
+      "visibility": "public",
+      "summary": "布琉努西方山森之国，佣兵与投石机闻名。"
+    },
+    {
+      "id": "muozinel",
+      "type": "faction",
+      "label": "墨吉涅王国",
+      "visibility": "public",
+      "summary": "布琉努东南方沙漠奴隶国，好战。"
+    },
+    {
+      "id": "leitmeritz",
+      "type": "faction",
+      "label": "莱德梅里兹公国",
+      "visibility": "public",
+      "summary": "艾莲治理，银闪艾利菲尔所在公国。"
+    },
+    {
+      "id": "olmutz",
+      "type": "faction",
+      "label": "奥尔米兹公国",
+      "visibility": "public",
+      "summary": "米拉治理，冻涟拉斐亚斯所在公国。"
+    },
+    {
+      "id": "osterode",
+      "type": "faction",
+      "label": "奥斯特罗德公国",
+      "visibility": "public",
+      "summary": "凡伦蒂娜治理，虚影艾萨帝斯所在公国。"
+    },
+    {
+      "id": "alsace",
+      "type": "location",
+      "label": "亚尔萨斯",
+      "visibility": "public",
+      "summary": "堤格尔治理的布琉努北部边境领地。"
+    },
+    {
+      "id": "vosges",
+      "type": "location",
+      "label": "孚日山脉",
+      "visibility": "public",
+      "summary": "布琉努与吉斯塔特间天然国境。"
+    },
+    {
+      "id": "tatras",
+      "type": "location",
+      "label": "塔特洛山",
+      "visibility": "public",
+      "summary": "奥尔米兹严密防御要地，为抵挡银闪传统而设计。"
+    },
+    {
+      "id": "sacred-cavern",
+      "type": "location",
+      "label": "圣窟宫",
+      "visibility": "gm-only",
+      "summary": "卢堤迪亚地下遗迹，黑弓和魔物谜团及最终决战相关。"
+    },
+    {
+      "id": "dragon-gear",
+      "type": "power-system",
+      "label": "龙具",
+      "visibility": "public",
+      "summary": "七件有意志武具，选择战姬并赋予元素/空间能力。"
+    },
+    {
+      "id": "dragon-technique",
+      "type": "ability-concept",
+      "label": "龙技",
+      "visibility": "public",
+      "summary": "龙具最大释放，威力足以击倒龙，代价是巨大消耗和长期恢复。"
+    },
+    {
+      "id": "black-bow",
+      "type": "artifact",
+      "label": "黑弓",
+      "visibility": "gm-only",
+      "summary": "冯伦家传武器，可与龙具共鸣，实为蒂尔·纳·法授予的降临容器相关武器。"
+    },
+    {
+      "id": "durandal",
+      "type": "artifact",
+      "label": "杜兰达尔",
+      "visibility": "public",
+      "summary": "罗兰持有的不败之剑，可斩断咒术、打破龙技。"
+    },
+    {
+      "id": "dragons",
+      "type": "species",
+      "label": "龙",
+      "visibility": "public",
+      "summary": "真实存在的巨型生物，常规武器难以损伤。"
+    },
+    {
+      "id": "demons",
+      "type": "species",
+      "label": "魔物",
+      "visibility": "gm-only",
+      "summary": "七只具人类本性的异形，战姬宿敌，企图颠覆世界。"
+    },
+    {
+      "id": "tir-na-fa",
+      "type": "deity",
+      "label": "蒂尔·纳·法",
+      "visibility": "gm-only",
+      "summary": "与黑弓真正来历和降临容器机制相关的女神。"
+    },
+    {
+      "id": "tigrevurmud-vorn",
+      "type": "character",
+      "label": "堤格尔",
+      "visibility": "public",
+      "summary": "亚尔萨斯伯爵，黑弓持有者，弓术超群。"
+    },
+    {
+      "id": "elenora-viltaria",
+      "type": "character",
+      "label": "艾莲",
+      "visibility": "public",
+      "summary": "莱德梅里兹战姬，风之龙具持有者。"
+    },
+    {
+      "id": "ludmila-lourie",
+      "type": "character",
+      "label": "米拉",
+      "visibility": "public",
+      "summary": "奥尔米兹战姬，冰之龙具持有者，冻涟 IF 核心。"
+    },
+    {
+      "id": "valentina-glinka-estes",
+      "type": "character",
+      "label": "凡伦蒂娜",
+      "visibility": "gm-only",
+      "summary": "奥斯特罗德战姬，空间龙具持有者，策划吉斯塔特内乱。"
+    },
+    {
+      "id": "regin",
+      "type": "character",
+      "label": "蕾琪",
+      "visibility": "gm-only",
+      "summary": "布琉努王室继承者，后来成为首位女王。"
+    },
+    {
+      "id": "ganalon",
+      "type": "character",
+      "label": "嘉奴隆公爵",
+      "visibility": "gm-only",
+      "summary": "布琉努大公与后期反派核心。"
+    },
+    {
+      "id": "thenardier",
+      "type": "character",
+      "label": "泰纳帝迪耶公爵",
+      "visibility": "public",
+      "summary": "布琉努大公，第一部内乱主要敌人。"
+    },
+    {
+      "id": "brune-civil-war",
+      "type": "event",
+      "label": "布琉努内乱",
+      "visibility": "public",
+      "summary": "法隆失政后两大公爵扩权，引出银色流星军和平乱。"
+    },
+    {
+      "id": "asvarre-war",
+      "type": "event",
+      "label": "亚斯瓦尔王位内乱",
+      "visibility": "public",
+      "summary": "杰梅因屠杀弟妹引发内乱，塔拉多最终继位。"
+    },
+    {
+      "id": "zhcted-rebellion",
+      "type": "event",
+      "label": "吉斯塔特内乱",
+      "visibility": "gm-only",
+      "summary": "凡伦蒂娜策划的王位与战姬制度危机。"
+    },
+    {
+      "id": "main-continuity",
+      "type": "continuity",
+      "label": "本篇主线",
+      "visibility": "public",
+      "summary": "以艾莲俘虏堤格尔为起点的《魔弹之王与战姬》主线。"
+    },
+    {
+      "id": "mira-if",
+      "type": "continuity",
+      "label": "冻涟 IF",
+      "visibility": "public",
+      "summary": "以米拉为初遇/第一女主角重心的 IF 线。"
+    },
+    {
+      "id": "roland",
+      "label": "罗兰",
+      "type": "character"
+    },
+    {
+      "id": "sophia-obertas",
+      "type": "character",
+      "label": "苏菲亚·欧贝达斯",
+      "summary": "波利西亚战姬，持光之龙具光华萨德。温和稳重，常承担外交、协调和支援角色。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "alexandra-alshavin",
+      "type": "character",
+      "label": "亚莉莎德拉·阿尔夏芬",
+      "summary": "莱格尼察战姬，持炎之双剑煌炎巴尔格雷。身体状态和后继问题与莱格尼察及菲尼莉雅相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "elizaveta-fomina",
+      "type": "character",
+      "label": "伊莉莎维塔·法米那",
+      "summary": "路伯修战姬，持雷之龙具雷涡沃利兹夫。异彩虹瞳在本国受到尊崇，性格带刺且与堤格尔失忆篇相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "olga-tamm",
+      "type": "character",
+      "label": "奥尔嘉·塔姆",
+      "summary": "布列斯特战姬，持土之斧龙具罗轰姆玛。年幼直率，代表骑马之民和布列斯特公国。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "titta",
+      "type": "character",
+      "label": "蒂塔",
+      "summary": "亚尔萨斯侍女，长期服侍堤格尔，是其领地日常和情感根基的重要人物。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "limlisha",
+      "type": "character",
+      "label": "莉姆亚莉夏",
+      "summary": "艾莲副官，莱德梅里兹军政运转的重要辅助者。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "mashas-rodat",
+      "type": "character",
+      "label": "马斯哈·罗达特",
+      "summary": "布琉努北部奥德领主，堤格尔的长辈和政治军事支持者。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "badouin",
+      "type": "character",
+      "label": "巴多兰",
+      "summary": "布琉努相关人物，归档列为独立角色；具体定位需后续逐条补读确认。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "urus-vorn",
+      "type": "character",
+      "label": "乌鲁斯·冯伦",
+      "summary": "冯伦家人物，堤格尔父亲。其存亡状态在本篇与冻涟 IF 间可能不同。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "kreshu-shahin-balamir",
+      "type": "character",
+      "label": "克雷伊修·沙希姆·巴拉米尔",
+      "summary": "墨吉涅王国国王，好战沙漠国家的统治者。与布琉努战事和后期外患相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "guinevere",
+      "type": "character",
+      "label": "桂妮薇亚",
+      "summary": "亚斯瓦尔王国相关女性角色，卷入王位内乱与塔拉多线。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "finilia-alshavin",
+      "type": "character",
+      "label": "菲尼莉雅·阿尔夏芬",
+      "summary": "阿尔夏芬家相关人物，新任战姬/后继相关，被凡伦蒂娜布局利用。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "viktor",
+      "type": "character",
+      "label": "维克特国王",
+      "summary": "吉斯塔特现任国王，处于国王与七战姬长期猜忌结构的顶点。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "eugene",
+      "type": "character",
+      "label": "尤金王子",
+      "summary": "王族/继承线相关角色；归档列为独立条目。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "tallard-graham",
+      "type": "character",
+      "label": "塔拉多·格拉墨",
+      "summary": "亚斯瓦尔王国王位继承战争的胜者，在堤格尔协助下继位。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "drekavac",
+      "type": "character",
+      "label": "德雷卡瓦克",
+      "summary": "魔物相关命名角色。魔物群体拥有超常身体、自愈和颠覆世界的目的，并重视黑弓持有者。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "faron",
+      "type": "character",
+      "label": "法隆国王",
+      "summary": "布琉努国王。因王子被认为战死而放弃政务，导致两大公爵趁机发动内乱。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ruslan",
+      "type": "character",
+      "label": "卢斯兰王子",
+      "summary": "吉斯塔特王子，后期被凡伦蒂娜布局利用，牵动吉斯塔特王位继承与内乱。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "greast",
+      "type": "character",
+      "label": "葛雷亚斯特",
+      "summary": "归档列名人物，具体身份与势力需二次核对。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "zacharias",
+      "type": "character",
+      "label": "撒迦利亚国王",
+      "summary": "国王级人物，归档列为独立角色；所属国家需后续核对。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "lana-lourie",
+      "type": "character",
+      "label": "拉娜·露利叶",
+      "summary": "米拉母亲，前代冻涟拉斐亚斯持有者。本篇与冻涟 IF 中存活状态不同。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "miliz",
+      "type": "character",
+      "label": "米莉兹",
+      "summary": "虚影艾萨帝斯后继/相关人物，和凡伦蒂娜死亡后龙具去向相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "liudie",
+      "type": "character",
+      "label": "琉蒂",
+      "summary": "冻涟 IF/露利叶线相关人物，归档列为独立角色。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "germain",
+      "type": "character",
+      "label": "杰梅因",
+      "summary": "亚斯瓦尔王子，国王驾崩后屠杀弟妹，引发王位内乱。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "augustus",
+      "type": "character",
+      "label": "奥古斯都",
+      "summary": "萨克斯坦王国国王。萨克斯坦以山森、多土豪、佣兵和投石机闻名。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "polesia",
+      "type": "faction",
+      "label": "波利西亚公国",
+      "summary": "苏菲亚治理的南方公国。"
+    },
+    {
+      "id": "legnica",
+      "type": "faction",
+      "label": "莱格尼察公国",
+      "summary": "亚莉莎德拉治理的西北临海公国，黄底双剑旗。"
+    },
+    {
+      "id": "lebus",
+      "type": "faction",
+      "label": "路伯修公国",
+      "summary": "伊莉莎维塔治理的西北临海公国，紫底金鞭旗，尊崇异彩虹瞳。"
+    },
+    {
+      "id": "brest",
+      "type": "faction",
+      "label": "布列斯特公国",
+      "summary": "奥尔嘉治理，位于奥斯特罗德南方，骑马之民为主力。"
+    },
+    {
+      "id": "silver-meteor-army",
+      "type": "faction",
+      "label": "银色流星军",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "lourie-family",
+      "type": "faction",
+      "label": "露利叶家",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "alshavin-family",
+      "type": "faction",
+      "label": "阿尔夏芬家",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "brune-royal-house",
+      "type": "faction",
+      "label": "布琉努王室",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "zhcted-royal-house",
+      "type": "faction",
+      "label": "吉斯塔特王室",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "vorn-family",
+      "type": "faction",
+      "label": "冯伦家",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "ode-nobility",
+      "type": "faction",
+      "label": "奥德",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "lutetia",
+      "type": "faction",
+      "label": "卢堤迪亚",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "nemetacum-duchy",
+      "type": "faction",
+      "label": "涅梅塔库",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "ancient-divine",
+      "type": "faction",
+      "label": "远古/神性",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "alsace-domain",
+      "type": "faction",
+      "label": "亚尔萨斯领",
+      "summary": "以亚尔萨斯领地/冯伦家治理共同体为角色归属使用的规范化势力节点。"
+    },
+    {
+      "id": "nice",
+      "type": "location",
+      "label": "尼斯",
+      "summary": "布琉努王都。"
+    },
+    {
+      "id": "silesia",
+      "type": "location",
+      "label": "席雷吉亚",
+      "summary": "吉斯塔特王都。"
+    },
+    {
+      "id": "artishem",
+      "type": "location",
+      "label": "亚尔堤西姆/圣窟宫",
+      "summary": "卢堤迪亚核心都市及地下圣窟宫，后期黑弓与魔物真相、最终决战相关。"
+    },
+    {
+      "id": "sheresuta",
+      "type": "location",
+      "label": "榭雷斯塔",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "leitmeritz-seat",
+      "type": "location",
+      "label": "莱德梅里兹",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "olmutz-seat",
+      "type": "location",
+      "label": "奥尔米兹",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "polesia-seat",
+      "type": "location",
+      "label": "波利西亚",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "legnica-seat",
+      "type": "location",
+      "label": "莱格尼察",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "lebus-seat",
+      "type": "location",
+      "label": "路伯修",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "osterode-seat",
+      "type": "location",
+      "label": "奥斯特罗德",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "brest-seat",
+      "type": "location",
+      "label": "布列斯特",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "ode",
+      "type": "location",
+      "label": "奥德",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "reims",
+      "type": "location",
+      "label": "兰斯",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "nemetacum",
+      "type": "location",
+      "label": "涅梅塔库",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "muozinel-region",
+      "type": "location",
+      "label": "墨吉涅",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "asvarre-region",
+      "type": "location",
+      "label": "亚斯瓦尔",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "sachstein-region",
+      "type": "location",
+      "label": "萨克斯坦",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "human-martial-systems",
+      "type": "powerSystem",
+      "label": "人类武技与军制",
+      "summary": "布琉努重视骑士突击且蔑视弓箭；堤格尔的猎人弓术是例外。萨克斯坦佣兵和攻城器具、纳瓦拉骑士团、各国常备军构成非超常战力基盘。"
+    },
+    {
+      "id": "archery-martial-arts",
+      "type": "powerSystem",
+      "label": "弓术",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "dragon-gear-resonance",
+      "type": "powerSystem",
+      "label": "龙具共鸣",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "demon-abilities",
+      "type": "powerSystem",
+      "label": "魔物能力",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "demon-related-late",
+      "type": "powerSystem",
+      "label": "魔物相关（后期）",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "dragon-gear-related",
+      "type": "powerSystem",
+      "label": "龙具相关",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    }
   ],
   "edges": [
-    {"id": "edge-brune-neighbor-zhcted", "from": "brune", "to": "zhcted", "type": "neighbor-rival", "visibility": "public", "summary": "两国隔孚日山脉相邻并多次因战争/外交互动。"},
-    {"id": "edge-vosges-between", "from": "vosges", "to": "brune", "type": "borders", "visibility": "public"},
-    {"id": "edge-vosges-between-2", "from": "vosges", "to": "zhcted", "type": "borders", "visibility": "public"},
-    {"id": "edge-leitmeritz-parent", "from": "leitmeritz", "to": "zhcted", "type": "duchy-of", "visibility": "public"},
-    {"id": "edge-olmutz-parent", "from": "olmutz", "to": "zhcted", "type": "duchy-of", "visibility": "public"},
-    {"id": "edge-osterode-parent", "from": "osterode", "to": "zhcted", "type": "duchy-of", "visibility": "public"},
-    {"id": "edge-leitmeritz-olmutz-rivalry", "from": "leitmeritz", "to": "olmutz", "type": "traditional-rivalry", "visibility": "public", "sourceRefs": ["src-madan-no-ou-001#entry-14"]},
-    {"id": "edge-elen-leitmeritz", "from": "elenora-viltaria", "to": "leitmeritz", "type": "rules", "visibility": "public"},
-    {"id": "edge-mira-olmutz", "from": "ludmila-lourie", "to": "olmutz", "type": "rules", "visibility": "public"},
-    {"id": "edge-valentina-osterode", "from": "valentina-glinka-estes", "to": "osterode", "type": "rules", "visibility": "public"},
-    {"id": "edge-tigre-alsace", "from": "tigrevurmud-vorn", "to": "alsace", "type": "rules", "visibility": "public"},
-    {"id": "edge-dragongear-vanadis", "from": "dragon-gear", "to": "zhcted", "type": "institutional-core", "visibility": "public"},
-    {"id": "edge-dragontech-dragongear", "from": "dragon-technique", "to": "dragon-gear", "type": "maximum-release-of", "visibility": "public"},
-    {"id": "edge-blackbow-tigre", "from": "black-bow", "to": "tigrevurmud-vorn", "type": "held-by", "visibility": "gm-only"},
-    {"id": "edge-blackbow-dragongear", "from": "black-bow", "to": "dragon-gear", "type": "resonates-with", "visibility": "gm-only"},
-    {"id": "edge-blackbow-tirnafa", "from": "black-bow", "to": "tir-na-fa", "type": "granted-by", "visibility": "gm-only"},
-    {"id": "edge-demons-vs-vanadis", "from": "demons", "to": "dragon-gear", "type": "enemy-of-wielders", "visibility": "gm-only"},
-    {"id": "edge-dragons-dragontech", "from": "dragon-technique", "to": "dragons", "type": "can-defeat", "visibility": "public"},
-    {"id": "edge-durandal-roland", "from": "durandal", "to": "roland", "type": "held-by", "visibility": "public"},
-    {"id": "edge-durandal-dragontech", "from": "durandal", "to": "dragon-technique", "type": "can-break", "visibility": "public"},
-    {"id": "edge-civilwar-caused-by", "from": "brune-civil-war", "to": "thenardier", "type": "instigated-by", "visibility": "public"},
-    {"id": "edge-civilwar-caused-by-ganalon", "from": "brune-civil-war", "to": "ganalon", "type": "instigated-by", "visibility": "gm-only"},
-    {"id": "edge-regin-after-war", "from": "regin", "to": "brune-civil-war", "type": "revealed-after", "visibility": "gm-only"},
-    {"id": "edge-asvarre-war", "from": "asvarre-war", "to": "asvarre", "type": "internal-conflict-of", "visibility": "public"},
-    {"id": "edge-zhcted-rebellion", "from": "zhcted-rebellion", "to": "valentina-glinka-estes", "type": "orchestrated-by", "visibility": "gm-only"},
-    {"id": "edge-sacred-cavern-final", "from": "sacred-cavern", "to": "ganalon", "type": "final-conflict-related", "visibility": "gm-only"},
-    {"id": "edge-main-vs-if", "from": "main-continuity", "to": "mira-if", "type": "alternate-continuity", "visibility": "public", "summary": "本篇与冻涟 IF 不能无标注混合。"},
-    {"id": "edge-mira-if-focus", "from": "mira-if", "to": "ludmila-lourie", "type": "focus-character", "visibility": "public"}
+    {
+      "id": "edge-brune-neighbor-zhcted",
+      "from": "brune",
+      "to": "zhcted",
+      "type": "neighbor-rival",
+      "visibility": "public",
+      "summary": "两国隔孚日山脉相邻并多次因战争/外交互动。"
+    },
+    {
+      "id": "edge-vosges-between",
+      "from": "vosges",
+      "to": "brune",
+      "type": "borders",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-vosges-between-2",
+      "from": "vosges",
+      "to": "zhcted",
+      "type": "borders",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-leitmeritz-parent",
+      "from": "leitmeritz",
+      "to": "zhcted",
+      "type": "duchy-of",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-olmutz-parent",
+      "from": "olmutz",
+      "to": "zhcted",
+      "type": "duchy-of",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-osterode-parent",
+      "from": "osterode",
+      "to": "zhcted",
+      "type": "duchy-of",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-leitmeritz-olmutz-rivalry",
+      "from": "leitmeritz",
+      "to": "olmutz",
+      "type": "traditional-rivalry",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-14"
+      ]
+    },
+    {
+      "id": "edge-elen-leitmeritz",
+      "from": "elenora-viltaria",
+      "to": "leitmeritz",
+      "type": "rules",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-mira-olmutz",
+      "from": "ludmila-lourie",
+      "to": "olmutz",
+      "type": "rules",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-valentina-osterode",
+      "from": "valentina-glinka-estes",
+      "to": "osterode",
+      "type": "rules",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-tigre-alsace",
+      "from": "tigrevurmud-vorn",
+      "to": "alsace",
+      "type": "rules",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-dragongear-vanadis",
+      "from": "dragon-gear",
+      "to": "zhcted",
+      "type": "institutional-core",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-dragontech-dragongear",
+      "from": "dragon-technique",
+      "to": "dragon-gear",
+      "type": "maximum-release-of",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-blackbow-tigre",
+      "from": "black-bow",
+      "to": "tigrevurmud-vorn",
+      "type": "held-by",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-blackbow-dragongear",
+      "from": "black-bow",
+      "to": "dragon-gear",
+      "type": "resonates-with",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-blackbow-tirnafa",
+      "from": "black-bow",
+      "to": "tir-na-fa",
+      "type": "granted-by",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-demons-vs-vanadis",
+      "from": "demons",
+      "to": "dragon-gear",
+      "type": "enemy-of-wielders",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-dragons-dragontech",
+      "from": "dragon-technique",
+      "to": "dragons",
+      "type": "can-defeat",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-durandal-roland",
+      "from": "durandal",
+      "to": "roland",
+      "type": "held-by",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-durandal-dragontech",
+      "from": "durandal",
+      "to": "dragon-technique",
+      "type": "can-break",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-civilwar-caused-by",
+      "from": "brune-civil-war",
+      "to": "thenardier",
+      "type": "instigated-by",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-civilwar-caused-by-ganalon",
+      "from": "brune-civil-war",
+      "to": "ganalon",
+      "type": "instigated-by",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-regin-after-war",
+      "from": "regin",
+      "to": "brune-civil-war",
+      "type": "revealed-after",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-asvarre-war",
+      "from": "asvarre-war",
+      "to": "asvarre",
+      "type": "internal-conflict-of",
+      "visibility": "public"
+    },
+    {
+      "id": "edge-zhcted-rebellion",
+      "from": "zhcted-rebellion",
+      "to": "valentina-glinka-estes",
+      "type": "orchestrated-by",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-sacred-cavern-final",
+      "from": "sacred-cavern",
+      "to": "ganalon",
+      "type": "final-conflict-related",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "edge-main-vs-if",
+      "from": "main-continuity",
+      "to": "mira-if",
+      "type": "alternate-continuity",
+      "visibility": "public",
+      "summary": "本篇与冻涟 IF 不能无标注混合。"
+    },
+    {
+      "id": "edge-mira-if-focus",
+      "from": "mira-if",
+      "to": "ludmila-lourie",
+      "type": "focus-character",
+      "visibility": "public"
+    }
   ],
-  "notes": "图谱为人工 curated 摘要，不覆盖原 graphs/placeholder。visibility=gm-only 的边/节点含后期剧透或隐藏真相。"
+  "notes": [
+    "图谱为人工 curated 摘要，不覆盖原始导入图谱草稿目录。visibility=gm-only 的边/节点含后期剧透或隐藏真相。"
+  ],
+  "campaignId": "madan-no-ou",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

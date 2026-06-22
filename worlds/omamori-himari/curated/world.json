@@ -1,1 +1,205 @@
-{"schema":"rp-world-v1","worldId":"omamori-himari","worldName":"守护猫娘绯鞠","aliases":["Omamori Himari"],"genre":["现代妖怪","退魔家系","守护契约","校园奇幻"],"summary":"现代日本中，鬼斩役家系与妖怪暗中共存冲突。天河优人作为鬼斩役后裔觉醒，妖猫野井原绯鞠履行守护誓约，围绕妖怪袭击、家族使命与共存选择展开。","sandboxPrinciple":"不固定人妖冲突结局；优人可选择退魔、调停、共存或被各势力争夺。","hasFixedFate":false,"foreignPowerSuppressionDefault":false,"notes":["原归档含大量角色条目与章节剧情。"],"powerSystems":[{"id":"oni-kiri","name":"鬼斩役灵力与退魔","category":"spiritual-exorcism","principle":"鬼斩役后裔使用灵力、护符、刀剑与结界对抗妖怪。","classification":["Spirit","Exorcism","Bloodline"],"energySource":"internal-spiritual-lineage","hasExternalEnergy":true,"externalEnergyName":"灵力/妖力","energyTraits":[{"tag":"lineage","level":"B","description":"血脉与觉醒程度影响输出。"}],"levelMapping":[],"commonResources":["灵力","护符","家传刀剑"],"commonAbilities":["结界","斩妖","净化"],"limitations":["觉醒不足时依赖守护者；过度敌视妖怪会引发连锁冲突。"],"compatibilityNotes":[]}],"factions":[{"id":"amakuwa-house","name":"天河守护阵营","type":"protagonist-household","summary":"优人、绯鞠及逐渐聚集的妖怪/人类同伴。","powerSystemAffinity":["oni-kiri"],"publicRules":["守护优人"],"hiddenRules":["人妖共存可能成为路线核心"],"attitudeToOutsiders":"protective","knownMembers":["yuuto","himari","rinko","shizuku","lizlet"],"territories":["yuuto-home","school"],"resources":["守护誓约","妖力","日常据点"],"conflicts":["hostile-ayakashi","demon-slayers"]},{"id":"demon-slayers","name":"鬼斩役家系/退魔势力","type":"exorcist-clans","summary":"以斩妖除魔为使命的人类血脉势力。","powerSystemAffinity":["oni-kiri"],"publicRules":["讨伐危险妖怪"],"hiddenRules":[],"attitudeToOutsiders":"suspicious","knownMembers":["kuesu","kaburagi"],"territories":[],"resources":["家传术式","武器"],"conflicts":["ayakashi"]}],"energyEnvironment":{"externalEnergies":[{"name":"灵力/妖力","density":"low-to-medium","distribution":"人类家系与妖怪个体集中","traits":["血脉","种族本能"],"recoveryImpact":"休息、食物、契约与情绪稳定可恢复。"}],"restrictedZones":[],"specialFields":[{"id":"barrier-sites","name":"结界场","description":"退魔或妖怪战斗中临时形成的隔离场。"}]},"worldRules":{"publicLaws":["现代日本社会"],"supernaturalRules":["妖怪隐藏于人类社会","鬼斩役血脉可觉醒退魔力","部分妖怪可与人类结盟"],"taboos":["无差别屠妖","伤害守护对象"],"knownExceptions":[]},"locations":[{"id":"yuuto-home","name":"天河家/优人居所","type":"safe-house","summary":"绯鞠守护优人的日常据点。"},{"id":"school","name":"学校","type":"daily-stage","summary":"人类日常与妖怪事件交汇。"}],"publicEvents":[{"id":"himari-appears","name":"绯鞠现身守护优人","summary":"优人觉醒后遭遇妖怪危险，绯鞠作为守护者出现。"}],"hiddenEvents":[{"id":"bloodline-awakening","name":"天河血脉觉醒","summary":"优人的鬼斩役力量与共存选择将改变人妖关系。"}]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "omamori-himari",
+  "worldName": "守护猫娘绯鞠",
+  "aliases": [
+    "Omamori Himari"
+  ],
+  "genre": [
+    "现代妖怪",
+    "退魔家系",
+    "守护契约",
+    "校园奇幻"
+  ],
+  "summary": "现代日本中，鬼斩役家系与妖怪暗中共存冲突。天河优人作为鬼斩役后裔觉醒，妖猫野井原绯鞠履行守护誓约，围绕妖怪袭击、家族使命与共存选择展开。",
+  "sandboxPrinciple": {
+    "summary": "不固定人妖冲突结局；优人可选择退魔、调停、共存或被各势力争夺。",
+    "notes": []
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "",
+    "notes": []
+  },
+  "notes": [
+    "原归档含大量角色条目与章节剧情。"
+  ],
+  "powerSystems": [
+    {
+      "id": "oni-kiri",
+      "name": "鬼斩役灵力与退魔",
+      "category": "spiritual-exorcism",
+      "principle": "鬼斩役后裔使用灵力、护符、刀剑与结界对抗妖怪。",
+      "classification": [
+        "Spirit",
+        "Exorcism",
+        "Bloodline"
+      ],
+      "energySource": "internal-spiritual-lineage",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "灵力/妖力",
+      "energyTraits": [
+        {
+          "tag": "lineage",
+          "level": "B",
+          "description": "血脉与觉醒程度影响输出。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "灵力",
+        "护符",
+        "家传刀剑"
+      ],
+      "commonAbilities": [
+        "结界",
+        "斩妖",
+        "净化"
+      ],
+      "limitations": [
+        "觉醒不足时依赖守护者；过度敌视妖怪会引发连锁冲突。"
+      ],
+      "compatibilityNotes": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "amakuwa-house",
+      "name": "天河守护阵营",
+      "type": "protagonist-household",
+      "summary": "优人、绯鞠及逐渐聚集的妖怪/人类同伴。",
+      "powerSystemAffinity": [
+        "oni-kiri"
+      ],
+      "publicRules": [
+        "守护优人"
+      ],
+      "hiddenRules": [
+        "人妖共存可能成为路线核心"
+      ],
+      "attitudeToOutsiders": "protective",
+      "knownMembers": [
+        "yuuto",
+        "himari",
+        "rinko",
+        "shizuku",
+        "lizlet"
+      ],
+      "territories": [
+        "yuuto-home",
+        "school"
+      ],
+      "resources": [
+        "守护誓约",
+        "妖力",
+        "日常据点"
+      ],
+      "conflicts": [
+        "hostile-ayakashi",
+        "demon-slayers"
+      ]
+    },
+    {
+      "id": "demon-slayers",
+      "name": "鬼斩役家系/退魔势力",
+      "type": "exorcist-clans",
+      "summary": "以斩妖除魔为使命的人类血脉势力。",
+      "powerSystemAffinity": [
+        "oni-kiri"
+      ],
+      "publicRules": [
+        "讨伐危险妖怪"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "suspicious",
+      "knownMembers": [
+        "kuesu"
+      ],
+      "territories": [],
+      "resources": [
+        "家传术式",
+        "武器"
+      ],
+      "conflicts": [
+        "ayakashi"
+      ],
+      "metadata": {
+        "originalReferenceLabels": {
+          "knownMembers": [
+            "kaburagi"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "knownMembers normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.knownMembers."
+      ],
+      "notes": "knownMembers unresolved (not present in characters-index ids): kaburagi"
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {
+        "name": "灵力/妖力",
+        "density": "low-to-medium",
+        "distribution": "人类家系与妖怪个体集中",
+        "traits": [
+          "血脉",
+          "种族本能"
+        ],
+        "recoveryImpact": "休息、食物、契约与情绪稳定可恢复。"
+      }
+    ],
+    "restrictedZones": [],
+    "specialFields": [
+      {
+        "id": "barrier-sites",
+        "name": "结界场",
+        "description": "退魔或妖怪战斗中临时形成的隔离场。"
+      }
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "现代日本社会"
+    ],
+    "supernaturalRules": [
+      "妖怪隐藏于人类社会",
+      "鬼斩役血脉可觉醒退魔力",
+      "部分妖怪可与人类结盟"
+    ],
+    "taboos": [
+      "无差别屠妖",
+      "伤害守护对象"
+    ],
+    "knownExceptions": []
+  },
+  "locations": [
+    {
+      "id": "yuuto-home",
+      "name": "天河家/优人居所",
+      "type": "safe-house",
+      "summary": "绯鞠守护优人的日常据点。"
+    },
+    {
+      "id": "school",
+      "name": "学校",
+      "type": "daily-stage",
+      "summary": "人类日常与妖怪事件交汇。"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "himari-appears",
+      "name": "绯鞠现身守护优人",
+      "summary": "优人觉醒后遭遇妖怪危险，绯鞠作为守护者出现。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "bloodline-awakening",
+      "name": "天河血脉觉醒",
+      "summary": "优人的鬼斩役力量与共存选择将改变人妖关系。"
+    }
+  ]
+}

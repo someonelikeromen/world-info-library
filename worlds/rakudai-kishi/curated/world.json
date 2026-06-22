@@ -1,18 +1,80 @@
 {
-  "schema": "curated-world-v1",
+  "schema": "rp-world-v1",
   "worldSlug": "rakudai-kishi",
   "displayName": "落第骑士英雄谭",
   "curationMethod": "manual reading of existing archive files",
   "premise": "伐刀者以灵魂具现固有灵装，在魔法骑士学园与国际联盟体系中接受训练、决斗和战争考验。低魔力的黑铁一辉以剑术、观察和极限爆发挑战天赋与体制偏见。",
   "coreSystems": [
-    {"name": "伐刀者", "description": "具备魔力并能以灵魂具现固有灵装的人。"},
-    {"name": "固有灵装", "description": "伐刀者的灵魂武装，承载其能力与战斗风格。"},
-    {"name": "魔力等级与骑士等级", "description": "A-F等评价影响社会认知，但不等同实战胜负。"},
-    {"name": "一刀修罗/一刀罗刹", "description": "黑铁一辉压榨自身潜能的短时极限技，代价极重。"},
-    {"name": "七星剑武祭", "description": "全国学园代表赛事，也是政治、舆论与个人梦想交汇点。"}
+    {
+      "name": "伐刀者",
+      "description": "具备魔力并能以灵魂具现固有灵装的人。"
+    },
+    {
+      "name": "固有灵装",
+      "description": "伐刀者的灵魂武装，承载其能力与战斗风格。"
+    },
+    {
+      "name": "魔力等级与骑士等级",
+      "description": "A-F等评价影响社会认知，但不等同实战胜负。"
+    },
+    {
+      "name": "一刀修罗/一刀罗刹",
+      "description": "黑铁一辉压榨自身潜能的短时极限技，代价极重。"
+    },
+    {
+      "name": "七星剑武祭",
+      "description": "全国学园代表赛事，也是政治、舆论与个人梦想交汇点。"
+    }
   ],
-  "majorLocations": ["破军学园", "第一学生宿舍405号室", "校内训练场", "购物中心", "绫辻道场", "晓学园总部", "湾岸巨蛋", "法米利昂皇国", "奎多兰王国"],
-  "majorFactions": ["破军学园", "破军学生会", "黑铁家", "晓学园", "解放军", "联盟/伦理委员会", "法米利昂皇国", "斗神联盟"],
-  "tone": ["热血学园战斗", "剑术与能力博弈", "逆境成长", "政治阴谋", "恋爱羁绊"],
-  "rpUse": "可让OC作为破军学生、其他学园代表、联盟骑士或国际势力成员介入；不应强制OC继承一辉专属剧情与招式。"
+  "majorLocations": [
+    "破军学园",
+    "第一学生宿舍405号室",
+    "校内训练场",
+    "购物中心",
+    "绫辻道场",
+    "晓学园总部",
+    "湾岸巨蛋",
+    "法米利昂皇国",
+    "奎多兰王国"
+  ],
+  "majorFactions": [
+    "破军学园",
+    "破军学生会",
+    "黑铁家",
+    "晓学园",
+    "解放军",
+    "联盟/伦理委员会",
+    "法米利昂皇国",
+    "斗神联盟"
+  ],
+  "tone": [
+    "热血学园战斗",
+    "剑术与能力博弈",
+    "逆境成长",
+    "政治阴谋",
+    "恋爱羁绊"
+  ],
+  "rpUse": "可让OC作为破军学生、其他学园代表、联盟骑士或国际势力成员介入；不应强制OC继承一辉专属剧情与招式。",
+  "worldId": "rakudai-kishi",
+  "worldName": "落第骑士英雄谭",
+  "aliases": [],
+  "genre": [
+    "热血学园战斗",
+    "剑术与能力博弈",
+    "逆境成长",
+    "政治阴谋",
+    "恋爱羁绊"
+  ],
+  "summary": "",
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "powerSystems": [],
+  "factions": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "locations": [],
+  "publicEvents": [],
+  "hiddenEvents": []
 }

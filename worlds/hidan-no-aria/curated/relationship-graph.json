@@ -1,1 +1,88 @@
-{"schema":"rp-relationship-graph-v1","worldId":"hidan-no-aria","nodes":[{"id":"tooyama-kinji","type":"character","label":"远山金次"},{"id":"aria-holmes-kanzaki","type":"character","label":"亚里亚"},{"id":"hotogi-shirayuki","type":"character","label":"白雪"},{"id":"riko-mine","type":"character","label":"理子"},{"id":"reki","type":"character","label":"蕾姬"},{"id":"tokyo-butei-high","type":"faction","label":"东京武侦高"},{"id":"i-u","type":"faction","label":"伊・幽"}],"edges":[{"from":"tooyama-kinji","to":"aria-holmes-kanzaki","type":"partners","visibility":"public"},{"from":"tooyama-kinji","to":"hotogi-shirayuki","type":"childhood_friend_romantic_tension","visibility":"public"},{"from":"aria-holmes-kanzaki","to":"riko-mine","type":"rivalry_lineage","visibility":"public"},{"from":"riko-mine","to":"i-u","type":"former_or_coerced_member","visibility":"public"},{"from":"reki","to":"tooyama-kinji","type":"ally","visibility":"public"},{"from":"tokyo-butei-high","to":"i-u","type":"institutional_enemy","visibility":"public"}],"sourceRefs":["src-hidan-no-aria-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "hidan-no-aria",
+  "nodes": [
+    {
+      "id": "tooyama-kinji",
+      "type": "character",
+      "label": "远山金次"
+    },
+    {
+      "id": "aria-holmes-kanzaki",
+      "type": "character",
+      "label": "亚里亚"
+    },
+    {
+      "id": "hotogi-shirayuki",
+      "type": "character",
+      "label": "白雪"
+    },
+    {
+      "id": "riko-mine",
+      "type": "character",
+      "label": "理子"
+    },
+    {
+      "id": "reki",
+      "type": "character",
+      "label": "蕾姬"
+    },
+    {
+      "id": "tokyo-butei-high",
+      "type": "faction",
+      "label": "东京武侦高"
+    },
+    {
+      "id": "i-u",
+      "type": "faction",
+      "label": "伊・幽"
+    }
+  ],
+  "edges": [
+    {
+      "from": "tooyama-kinji",
+      "to": "aria-holmes-kanzaki",
+      "type": "partners",
+      "visibility": "public"
+    },
+    {
+      "from": "tooyama-kinji",
+      "to": "hotogi-shirayuki",
+      "type": "childhood_friend_romantic_tension",
+      "visibility": "public"
+    },
+    {
+      "from": "aria-holmes-kanzaki",
+      "to": "riko-mine",
+      "type": "rivalry_lineage",
+      "visibility": "public"
+    },
+    {
+      "from": "riko-mine",
+      "to": "i-u",
+      "type": "former_or_coerced_member",
+      "visibility": "public"
+    },
+    {
+      "from": "reki",
+      "to": "tooyama-kinji",
+      "type": "ally",
+      "visibility": "public"
+    },
+    {
+      "from": "tokyo-butei-high",
+      "to": "i-u",
+      "type": "institutional_enemy",
+      "visibility": "public"
+    }
+  ],
+  "sourceRefs": [
+    "src-hidan-no-aria-001"
+  ],
+  "campaignId": "hidan-no-aria",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

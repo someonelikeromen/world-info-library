@@ -1,25 +1,197 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "jojo",
-  "nodes": ["jonathan-joestar", "george-joestar-i", "dio-brando", "william-zeppelin", "joseph-joestar", "caesar-zeppeli", "lisa-lisa", "kars", "jotaro-kujo", "holly-kujo", "muhammad-avdol", "noriaki-kakyoin", "jean-pierre-polnareff", "iggy", "enya"],
+  "nodes": [
+    {
+      "id": "george-joestar-i",
+      "label": "乔治·乔斯达",
+      "type": "character"
+    },
+    {
+      "id": "jonathan-joestar",
+      "label": "乔纳森·乔斯达",
+      "type": "character"
+    },
+    {
+      "id": "dio-brando",
+      "label": "迪奥·布兰度",
+      "type": "character"
+    },
+    {
+      "id": "william-zeppelin",
+      "label": "威廉·A·齐贝林",
+      "type": "character"
+    },
+    {
+      "id": "joseph-joestar",
+      "label": "乔瑟夫·乔斯达",
+      "type": "character"
+    },
+    {
+      "id": "caesar-zeppeli",
+      "label": "西撒·安东尼·齐贝林",
+      "type": "character"
+    },
+    {
+      "id": "lisa-lisa",
+      "label": "莉莎莉莎",
+      "type": "character"
+    },
+    {
+      "id": "kars",
+      "label": "卡兹",
+      "type": "character"
+    },
+    {
+      "id": "holly-kujo",
+      "label": "空条荷莉·乔斯达",
+      "type": "character"
+    },
+    {
+      "id": "jotaro-kujo",
+      "label": "空条承太郎",
+      "type": "character"
+    },
+    {
+      "id": "muhammad-avdol",
+      "label": "穆罕默德·阿布德尔",
+      "type": "character"
+    },
+    {
+      "id": "noriaki-kakyoin",
+      "label": "花京院典明",
+      "type": "character"
+    },
+    {
+      "id": "jean-pierre-polnareff",
+      "label": "让·皮埃尔·波鲁那雷夫",
+      "type": "character"
+    },
+    {
+      "id": "iggy",
+      "label": "伊奇",
+      "type": "character"
+    },
+    {
+      "id": "enya",
+      "label": "恩雅婆婆",
+      "type": "character"
+    }
+  ],
   "edges": [
-    {"from": "george-joestar-i", "to": "jonathan-joestar", "type": "father_son", "description": "乔治是乔纳森之父。"},
-    {"from": "george-joestar-i", "to": "dio-brando", "type": "adoptive_guardian", "description": "乔治收养迪奥。"},
-    {"from": "jonathan-joestar", "to": "dio-brando", "type": "fated_enemies", "description": "兄弟般共同长大却成为宿敌。"},
-    {"from": "william-zeppelin", "to": "jonathan-joestar", "type": "mentor_student", "description": "齐贝林教导乔纳森波纹。"},
-    {"from": "jonathan-joestar", "to": "joseph-joestar", "type": "grandfather_grandson", "description": "乔瑟夫是乔纳森的孙子。"},
-    {"from": "joseph-joestar", "to": "caesar-zeppeli", "type": "comrades", "description": "二人在威尼斯接受波纹训练并对抗柱之男。"},
-    {"from": "lisa-lisa", "to": "joseph-joestar", "type": "teacher_student", "description": "莉莎莉莎训练乔瑟夫。"},
-    {"from": "lisa-lisa", "to": "caesar-zeppeli", "type": "teacher_student", "description": "莉莎莉莎训练西撒。"},
-    {"from": "joseph-joestar", "to": "kars", "type": "enemy", "description": "乔瑟夫一行对抗柱之男卡兹。"},
-    {"from": "joseph-joestar", "to": "holly-kujo", "type": "father_daughter", "description": "荷莉是乔瑟夫之女。"},
-    {"from": "holly-kujo", "to": "jotaro-kujo", "type": "mother_son", "description": "承太郎为拯救母亲而远征。"},
-    {"from": "joseph-joestar", "to": "jotaro-kujo", "type": "grandfather_grandson", "description": "乔瑟夫带领外孙承太郎理解替身危机。"},
-    {"from": "jotaro-kujo", "to": "dio-brando", "type": "enemy", "description": "承太郎最终击败迪奥。"},
-    {"from": "muhammad-avdol", "to": "jotaro-kujo", "type": "expedition_ally", "description": "阿布德尔是远征队成员。"},
-    {"from": "noriaki-kakyoin", "to": "jotaro-kujo", "type": "expedition_ally", "description": "花京院加入队伍并牺牲传递情报。"},
-    {"from": "jean-pierre-polnareff", "to": "jotaro-kujo", "type": "expedition_ally", "description": "波鲁那雷夫与队伍建立深厚情谊。"},
-    {"from": "iggy", "to": "jotaro-kujo", "type": "expedition_ally", "description": "伊奇后期加入并协助寻找迪奥。"},
-    {"from": "enya", "to": "dio-brando", "type": "supporter", "description": "恩雅帮助迪奥召集替身手下。"}
-  ]
+    {
+      "from": "george-joestar-i",
+      "to": "jonathan-joestar",
+      "type": "father_son",
+      "description": "乔治是乔纳森之父。"
+    },
+    {
+      "from": "george-joestar-i",
+      "to": "dio-brando",
+      "type": "adoptive_guardian",
+      "description": "乔治收养迪奥。"
+    },
+    {
+      "from": "jonathan-joestar",
+      "to": "dio-brando",
+      "type": "fated_enemies",
+      "description": "兄弟般共同长大却成为宿敌。"
+    },
+    {
+      "from": "william-zeppelin",
+      "to": "jonathan-joestar",
+      "type": "mentor_student",
+      "description": "齐贝林教导乔纳森波纹。"
+    },
+    {
+      "from": "jonathan-joestar",
+      "to": "joseph-joestar",
+      "type": "grandfather_grandson",
+      "description": "乔瑟夫是乔纳森的孙子。"
+    },
+    {
+      "from": "joseph-joestar",
+      "to": "caesar-zeppeli",
+      "type": "comrades",
+      "description": "二人在威尼斯接受波纹训练并对抗柱之男。"
+    },
+    {
+      "from": "lisa-lisa",
+      "to": "joseph-joestar",
+      "type": "teacher_student",
+      "description": "莉莎莉莎训练乔瑟夫。"
+    },
+    {
+      "from": "lisa-lisa",
+      "to": "caesar-zeppeli",
+      "type": "teacher_student",
+      "description": "莉莎莉莎训练西撒。"
+    },
+    {
+      "from": "joseph-joestar",
+      "to": "kars",
+      "type": "enemy",
+      "description": "乔瑟夫一行对抗柱之男卡兹。"
+    },
+    {
+      "from": "joseph-joestar",
+      "to": "holly-kujo",
+      "type": "father_daughter",
+      "description": "荷莉是乔瑟夫之女。"
+    },
+    {
+      "from": "holly-kujo",
+      "to": "jotaro-kujo",
+      "type": "mother_son",
+      "description": "承太郎为拯救母亲而远征。"
+    },
+    {
+      "from": "joseph-joestar",
+      "to": "jotaro-kujo",
+      "type": "grandfather_grandson",
+      "description": "乔瑟夫带领外孙承太郎理解替身危机。"
+    },
+    {
+      "from": "jotaro-kujo",
+      "to": "dio-brando",
+      "type": "enemy",
+      "description": "承太郎最终击败迪奥。"
+    },
+    {
+      "from": "muhammad-avdol",
+      "to": "jotaro-kujo",
+      "type": "expedition_ally",
+      "description": "阿布德尔是远征队成员。"
+    },
+    {
+      "from": "noriaki-kakyoin",
+      "to": "jotaro-kujo",
+      "type": "expedition_ally",
+      "description": "花京院加入队伍并牺牲传递情报。"
+    },
+    {
+      "from": "jean-pierre-polnareff",
+      "to": "jotaro-kujo",
+      "type": "expedition_ally",
+      "description": "波鲁那雷夫与队伍建立深厚情谊。"
+    },
+    {
+      "from": "iggy",
+      "to": "jotaro-kujo",
+      "type": "expedition_ally",
+      "description": "伊奇后期加入并协助寻找迪奥。"
+    },
+    {
+      "from": "enya",
+      "to": "dio-brando",
+      "type": "supporter",
+      "description": "恩雅帮助迪奥召集替身手下。"
+    }
+  ],
+  "campaignId": "jojo",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

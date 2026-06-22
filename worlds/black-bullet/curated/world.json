@@ -1,1 +1,68 @@
-{"schema":"rp-world-v1","worldId":"black-bullet","displayName":"黑色子弹","curationStatus":"manual-initial","sourceRefs":["src-black-bullet-001"],"summary":"近未来末世，人类在巨石碑保护区内抵御原肠动物。民警促进者与受诅之子起始者组成搭档执行高危任务，同时承受社会歧视。","powerSystems":[{"id":"gastrea-virus","name":"原肠动物病毒","rules":["感染会使生物异形化并获得强大再生与变异能力","阶段越高威胁越大，黄道带级可毁灭区域"]},{"id":"cursed-children","name":"受诅之子/起始者","rules":["胎内感染病毒的少女拥有超人体能与动物因子能力","侵蚀率上升会导致失控/原肠动物化风险","需与促进者搭档作战和心理支撑"]},{"id":"varanium","name":"錵/瓦拉尼姆武装","rules":["錵金属可抑制原肠动物再生并构成巨石碑防线","弹药、刀具和设施供应决定战斗持久力"]}],"factions":["东京区域政府","民警公司/促进者与起始者","IISO/国际组织","受诅之子群体","原肠动物/黄道带"],"locations":["东京区域","巨石碑防线","外围区","民警任务区","原肠动物污染区"],"combatRules":["无錵武器难以永久击杀高再生敌人。","起始者侵蚀率是长期战役资源。","社会歧视和补给不足常与战斗同等重要。"],"visibility":"public"}
+{
+  "schema": "rp-world-v1",
+  "worldId": "black-bullet",
+  "displayName": "黑色子弹",
+  "curationStatus": "manual-initial",
+  "sourceRefs": [
+    "src-black-bullet-001"
+  ],
+  "summary": "近未来末世，人类在巨石碑保护区内抵御原肠动物。民警促进者与受诅之子起始者组成搭档执行高危任务，同时承受社会歧视。",
+  "powerSystems": [
+    {
+      "id": "gastrea-virus",
+      "name": "原肠动物病毒",
+      "rules": [
+        "感染会使生物异形化并获得强大再生与变异能力",
+        "阶段越高威胁越大，黄道带级可毁灭区域"
+      ]
+    },
+    {
+      "id": "cursed-children",
+      "name": "受诅之子/起始者",
+      "rules": [
+        "胎内感染病毒的少女拥有超人体能与动物因子能力",
+        "侵蚀率上升会导致失控/原肠动物化风险",
+        "需与促进者搭档作战和心理支撑"
+      ]
+    },
+    {
+      "id": "varanium",
+      "name": "錵/瓦拉尼姆武装",
+      "rules": [
+        "錵金属可抑制原肠动物再生并构成巨石碑防线",
+        "弹药、刀具和设施供应决定战斗持久力"
+      ]
+    }
+  ],
+  "factions": [
+    "东京区域政府",
+    "民警公司/促进者与起始者",
+    "IISO/国际组织",
+    "受诅之子群体",
+    "原肠动物/黄道带"
+  ],
+  "locations": [
+    "东京区域",
+    "巨石碑防线",
+    "外围区",
+    "民警任务区",
+    "原肠动物污染区"
+  ],
+  "combatRules": [
+    "无錵武器难以永久击杀高再生敌人。",
+    "起始者侵蚀率是长期战役资源。",
+    "社会歧视和补给不足常与战斗同等重要。"
+  ],
+  "visibility": "public",
+  "worldName": "黑色子弹",
+  "aliases": [],
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
+}

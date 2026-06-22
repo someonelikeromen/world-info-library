@@ -1,27 +1,401 @@
 {
-  "schema": "rp-curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "cheng-long-adventures",
   "displayName": "成龙历险记",
   "characters": [
-    {"id": "jackie-chan", "name": "成龙", "type": "主角", "affiliation": ["老爹古董店", "十三区"], "role": "考古学家与行动英雄", "traits": ["善良", "反应快", "不愿惹麻烦却总被卷入"], "abilities": ["杂技式格斗", "考古知识", "临场 improvisation"], "rpUse": "正派行动核心、护送/潜入/夺回文物任务主角。"},
-    {"id": "jade-chan", "name": "小玉", "type": "主角团", "affiliation": ["成龙家庭", "十三区非正式成员"], "role": "成龙侄女，常以冒险心推动剧情", "traits": ["大胆", "机灵", "好奇", "惹祸也救场"], "abilities": ["潜入", "急智", "短暂掌控鬼影兵团经历"], "rpUse": "触发事件、破局奇招、校园与家庭线核心。"},
-    {"id": "uncle", "name": "老爹", "type": "导师", "affiliation": ["老爹古董店", "正气魔法"], "role": "气魔法师与知识库", "traits": ["暴躁", "博学", "可靠"], "abilities": ["气魔法", "驱魔仪式", "古籍研究"], "rpUse": "提供咒语、任务解释、仪式材料清单与喜剧节奏。"},
-    {"id": "tohru", "name": "特鲁", "type": "转阵营同伴", "affiliation": ["黑手帮前成员", "老爹学徒"], "role": "由反派打手转为气魔法学徒", "traits": ["强壮", "温和", "忠诚", "爱吃曲奇"], "abilities": ["巨力", "近身战", "基础气魔法"], "rpUse": "救赎线、肉盾、仪式辅助与黑手帮情报来源。"},
-    {"id": "captain-black", "name": "布莱克警长", "type": "盟友", "affiliation": ["十三区"], "role": "十三区负责人，成龙官方后盾", "traits": ["正直", "务实", "信任成龙"], "abilities": ["政府资源", "特工调度"], "rpUse": "提供装备、收容场地与官方压力。"},
-    {"id": "valmont", "name": "瓦龙", "type": "反派", "affiliation": ["黑手帮"], "role": "国际犯罪组织首领，受圣主利用", "traits": ["贪婪", "精明", "倒霉"], "abilities": ["犯罪网络", "谈判", "资金"], "rpUse": "黑手帮任务发布者、被附身/被背叛的反派枢纽。"},
-    {"id": "shendu", "name": "圣主", "type": "主要反派", "affiliation": ["八大恶魔", "火之魔气", "黑影兵团"], "role": "火之恶魔、符咒力量原宿主/掠夺者", "traits": ["狡诈", "残忍", "不守承诺"], "abilities": ["火焰", "恶魔魔法", "十二符咒", "召唤黑影兵团"], "rpUse": "跨时代大反派、契约欺骗者、符咒争夺终局敌人。"},
-    {"id": "finn", "name": "阿奋", "type": "黑手帮骨干", "affiliation": ["黑手帮"], "role": "瓦龙手下三人组之一", "traits": ["嘴碎", "滑稽", "执行力有限"], "abilities": ["街头战斗", "追踪"], "rpUse": "轻喜剧反派、低阶阻碍。"},
-    {"id": "ratso", "name": "拉苏", "type": "黑手帮骨干", "affiliation": ["黑手帮"], "role": "瓦龙手下三人组之一", "traits": ["笨拙", "力气较大", "从众"], "abilities": ["打手", "搬运"], "rpUse": "喜剧打手与临时俘虏。"},
-    {"id": "chow", "name": "周", "type": "黑手帮骨干", "affiliation": ["黑手帮"], "role": "瓦龙手下三人组之一", "traits": ["装酷", "吐槽", "小聪明"], "abilities": ["驾驶", "街头战"], "rpUse": "追逐戏与黑手帮日常。"},
-    {"id": "hak-foo", "name": "阿福", "type": "反派武斗家", "affiliation": ["黑手帮"], "role": "招式命名夸张的强力打手", "traits": ["好战", "戏剧化", "自信"], "abilities": ["高强武术", "夸张招式"], "rpUse": "中 Boss、动作戏强化。"},
-    {"id": "lo-pei", "name": "洛佩", "type": "前史人物", "affiliation": ["古代正气阵营"], "role": "将圣主石化并提取符咒的斗士", "traits": ["勇敢", "智慧", "献身"], "abilities": ["石化魔咒", "提取魔咒"], "rpUse": "古代回忆、遗留咒文来源。"},
-    {"id": "tso-lan", "name": "咒蓝", "type": "八大恶魔", "affiliation": ["月之恶魔"], "role": "月球统治者", "traits": ["高傲", "重力/月亮象征"], "abilities": ["月之魔气", "重力/空间感能力"], "rpUse": "宇宙/月面危机。"},
-    {"id": "po-kong", "name": "波刚", "type": "八大恶魔", "affiliation": ["山之恶魔"], "role": "山之恶魔，巨大吞噬型威胁", "traits": ["贪食", "庞大"], "abilities": ["山之魔气", "巨体破坏"], "rpUse": "城市灾害与封印仪式。"},
-    {"id": "tchang-zu", "name": "中苏", "type": "八大恶魔", "affiliation": ["雷之恶魔"], "role": "雷电恶魔", "traits": ["暴躁", "威严"], "abilities": ["雷电", "强力破坏"], "rpUse": "高火力战斗 Boss。"},
-    {"id": "xiao-fung", "name": "啸风", "type": "八大恶魔", "affiliation": ["风之恶魔"], "role": "风之恶魔", "traits": ["阴冷", "飘忽"], "abilities": ["风暴", "飞行/吹飞"], "rpUse": "天气与空中追逐场景。"},
-    {"id": "hsi-wu", "name": "西木", "type": "八大恶魔", "affiliation": ["天之恶魔"], "role": "天空恶魔，可伪装接近小玉", "traits": ["狡猾", "轻浮"], "abilities": ["飞行", "天之魔气"], "rpUse": "校园潜伏与背叛线。"},
-    {"id": "dai-gui", "name": "地魁", "type": "八大恶魔", "affiliation": ["地之恶魔"], "role": "地下/大地恶魔", "traits": ["粗暴", "坚硬"], "abilities": ["土石", "地下行动"], "rpUse": "地底遗迹与地震危机。"},
-    {"id": "bai-tza", "name": "芭莎", "type": "八大恶魔", "affiliation": ["水之恶魔"], "role": "海洋恶魔", "traits": ["冷酷", "流动"], "abilities": ["水流", "海洋控制"], "rpUse": "港口、海底、洪水事件。"},
-    {"id": "tarakudo", "name": "塔拉", "type": "鬼影反派", "affiliation": ["鬼影兵团"], "role": "鬼影面具与黑影军团意志源头", "traits": ["支配欲", "古老邪恶"], "abilities": ["鬼影兵团统御", "面具诅咒"], "rpUse": "面具时代主反派、附身/侵蚀剧情核心。"}
-  ]
+    {
+      "id": "jackie-chan",
+      "name": "成龙",
+      "type": "主角",
+      "affiliation": [
+        "老爹古董店",
+        "十三区"
+      ],
+      "role": "考古学家与行动英雄",
+      "traits": [
+        "善良",
+        "反应快",
+        "不愿惹麻烦却总被卷入"
+      ],
+      "abilities": [
+        "杂技式格斗",
+        "考古知识",
+        "临场 improvisation"
+      ],
+      "rpUse": "正派行动核心、护送/潜入/夺回文物任务主角。"
+    },
+    {
+      "id": "jade-chan",
+      "name": "小玉",
+      "type": "主角团",
+      "affiliation": [
+        "成龙家庭",
+        "十三区非正式成员"
+      ],
+      "role": "成龙侄女，常以冒险心推动剧情",
+      "traits": [
+        "大胆",
+        "机灵",
+        "好奇",
+        "惹祸也救场"
+      ],
+      "abilities": [
+        "潜入",
+        "急智",
+        "短暂掌控鬼影兵团经历"
+      ],
+      "rpUse": "触发事件、破局奇招、校园与家庭线核心。"
+    },
+    {
+      "id": "uncle",
+      "name": "老爹",
+      "type": "导师",
+      "affiliation": [
+        "老爹古董店",
+        "正气魔法"
+      ],
+      "role": "气魔法师与知识库",
+      "traits": [
+        "暴躁",
+        "博学",
+        "可靠"
+      ],
+      "abilities": [
+        "气魔法",
+        "驱魔仪式",
+        "古籍研究"
+      ],
+      "rpUse": "提供咒语、任务解释、仪式材料清单与喜剧节奏。"
+    },
+    {
+      "id": "tohru",
+      "name": "特鲁",
+      "type": "转阵营同伴",
+      "affiliation": [
+        "黑手帮前成员",
+        "老爹学徒"
+      ],
+      "role": "由反派打手转为气魔法学徒",
+      "traits": [
+        "强壮",
+        "温和",
+        "忠诚",
+        "爱吃曲奇"
+      ],
+      "abilities": [
+        "巨力",
+        "近身战",
+        "基础气魔法"
+      ],
+      "rpUse": "救赎线、肉盾、仪式辅助与黑手帮情报来源。"
+    },
+    {
+      "id": "captain-black",
+      "name": "布莱克警长",
+      "type": "盟友",
+      "affiliation": [
+        "十三区"
+      ],
+      "role": "十三区负责人，成龙官方后盾",
+      "traits": [
+        "正直",
+        "务实",
+        "信任成龙"
+      ],
+      "abilities": [
+        "政府资源",
+        "特工调度"
+      ],
+      "rpUse": "提供装备、收容场地与官方压力。"
+    },
+    {
+      "id": "valmont",
+      "name": "瓦龙",
+      "type": "反派",
+      "affiliation": [
+        "黑手帮"
+      ],
+      "role": "国际犯罪组织首领，受圣主利用",
+      "traits": [
+        "贪婪",
+        "精明",
+        "倒霉"
+      ],
+      "abilities": [
+        "犯罪网络",
+        "谈判",
+        "资金"
+      ],
+      "rpUse": "黑手帮任务发布者、被附身/被背叛的反派枢纽。"
+    },
+    {
+      "id": "shendu",
+      "name": "圣主",
+      "type": "主要反派",
+      "affiliation": [
+        "八大恶魔",
+        "火之魔气",
+        "黑影兵团"
+      ],
+      "role": "火之恶魔、符咒力量原宿主/掠夺者",
+      "traits": [
+        "狡诈",
+        "残忍",
+        "不守承诺"
+      ],
+      "abilities": [
+        "火焰",
+        "恶魔魔法",
+        "十二符咒",
+        "召唤黑影兵团"
+      ],
+      "rpUse": "跨时代大反派、契约欺骗者、符咒争夺终局敌人。"
+    },
+    {
+      "id": "finn",
+      "name": "阿奋",
+      "type": "黑手帮骨干",
+      "affiliation": [
+        "黑手帮"
+      ],
+      "role": "瓦龙手下三人组之一",
+      "traits": [
+        "嘴碎",
+        "滑稽",
+        "执行力有限"
+      ],
+      "abilities": [
+        "街头战斗",
+        "追踪"
+      ],
+      "rpUse": "轻喜剧反派、低阶阻碍。"
+    },
+    {
+      "id": "ratso",
+      "name": "拉苏",
+      "type": "黑手帮骨干",
+      "affiliation": [
+        "黑手帮"
+      ],
+      "role": "瓦龙手下三人组之一",
+      "traits": [
+        "笨拙",
+        "力气较大",
+        "从众"
+      ],
+      "abilities": [
+        "打手",
+        "搬运"
+      ],
+      "rpUse": "喜剧打手与临时俘虏。"
+    },
+    {
+      "id": "chow",
+      "name": "周",
+      "type": "黑手帮骨干",
+      "affiliation": [
+        "黑手帮"
+      ],
+      "role": "瓦龙手下三人组之一",
+      "traits": [
+        "装酷",
+        "吐槽",
+        "小聪明"
+      ],
+      "abilities": [
+        "驾驶",
+        "街头战"
+      ],
+      "rpUse": "追逐戏与黑手帮日常。"
+    },
+    {
+      "id": "hak-foo",
+      "name": "阿福",
+      "type": "反派武斗家",
+      "affiliation": [
+        "黑手帮"
+      ],
+      "role": "招式命名夸张的强力打手",
+      "traits": [
+        "好战",
+        "戏剧化",
+        "自信"
+      ],
+      "abilities": [
+        "高强武术",
+        "夸张招式"
+      ],
+      "rpUse": "中 Boss、动作戏强化。"
+    },
+    {
+      "id": "lo-pei",
+      "name": "洛佩",
+      "type": "前史人物",
+      "affiliation": [
+        "古代正气阵营"
+      ],
+      "role": "将圣主石化并提取符咒的斗士",
+      "traits": [
+        "勇敢",
+        "智慧",
+        "献身"
+      ],
+      "abilities": [
+        "石化魔咒",
+        "提取魔咒"
+      ],
+      "rpUse": "古代回忆、遗留咒文来源。"
+    },
+    {
+      "id": "tso-lan",
+      "name": "咒蓝",
+      "type": "八大恶魔",
+      "affiliation": [
+        "月之恶魔"
+      ],
+      "role": "月球统治者",
+      "traits": [
+        "高傲",
+        "重力/月亮象征"
+      ],
+      "abilities": [
+        "月之魔气",
+        "重力/空间感能力"
+      ],
+      "rpUse": "宇宙/月面危机。"
+    },
+    {
+      "id": "po-kong",
+      "name": "波刚",
+      "type": "八大恶魔",
+      "affiliation": [
+        "山之恶魔"
+      ],
+      "role": "山之恶魔，巨大吞噬型威胁",
+      "traits": [
+        "贪食",
+        "庞大"
+      ],
+      "abilities": [
+        "山之魔气",
+        "巨体破坏"
+      ],
+      "rpUse": "城市灾害与封印仪式。"
+    },
+    {
+      "id": "tchang-zu",
+      "name": "中苏",
+      "type": "八大恶魔",
+      "affiliation": [
+        "雷之恶魔"
+      ],
+      "role": "雷电恶魔",
+      "traits": [
+        "暴躁",
+        "威严"
+      ],
+      "abilities": [
+        "雷电",
+        "强力破坏"
+      ],
+      "rpUse": "高火力战斗 Boss。"
+    },
+    {
+      "id": "xiao-fung",
+      "name": "啸风",
+      "type": "八大恶魔",
+      "affiliation": [
+        "风之恶魔"
+      ],
+      "role": "风之恶魔",
+      "traits": [
+        "阴冷",
+        "飘忽"
+      ],
+      "abilities": [
+        "风暴",
+        "飞行/吹飞"
+      ],
+      "rpUse": "天气与空中追逐场景。"
+    },
+    {
+      "id": "hsi-wu",
+      "name": "西木",
+      "type": "八大恶魔",
+      "affiliation": [
+        "天之恶魔"
+      ],
+      "role": "天空恶魔，可伪装接近小玉",
+      "traits": [
+        "狡猾",
+        "轻浮"
+      ],
+      "abilities": [
+        "飞行",
+        "天之魔气"
+      ],
+      "rpUse": "校园潜伏与背叛线。"
+    },
+    {
+      "id": "dai-gui",
+      "name": "地魁",
+      "type": "八大恶魔",
+      "affiliation": [
+        "地之恶魔"
+      ],
+      "role": "地下/大地恶魔",
+      "traits": [
+        "粗暴",
+        "坚硬"
+      ],
+      "abilities": [
+        "土石",
+        "地下行动"
+      ],
+      "rpUse": "地底遗迹与地震危机。"
+    },
+    {
+      "id": "bai-tza",
+      "name": "芭莎",
+      "type": "八大恶魔",
+      "affiliation": [
+        "水之恶魔"
+      ],
+      "role": "海洋恶魔",
+      "traits": [
+        "冷酷",
+        "流动"
+      ],
+      "abilities": [
+        "水流",
+        "海洋控制"
+      ],
+      "rpUse": "港口、海底、洪水事件。"
+    },
+    {
+      "id": "tarakudo",
+      "name": "塔拉",
+      "type": "鬼影反派",
+      "affiliation": [
+        "鬼影兵团"
+      ],
+      "role": "鬼影面具与黑影军团意志源头",
+      "traits": [
+        "支配欲",
+        "古老邪恶"
+      ],
+      "abilities": [
+        "鬼影兵团统御",
+        "面具诅咒"
+      ],
+      "rpUse": "面具时代主反派、附身/侵蚀剧情核心。"
+    }
+  ],
+  "worldId": "cheng-long-adventures",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

@@ -1,34 +1,266 @@
 {
-  "schema": "curated-characters-index-v1",
+  "schema": "rp-characters-index-v1",
   "worldSlug": "testament-sister-new-devil",
   "characters": [
-    {"id": "toujou-basara", "name": "东城刃更", "affiliation": "东城家/前勇者一族", "role": "主角；前勇者相关少年，拥有无次元的执行，守护澪与家人共同体。", "sourceRefs": ["characters.json comment 东城刃更"]},
-    {"id": "naruse-mio", "name": "成濑澪", "affiliation": "东城家/前任魔王之女", "role": "女主角；继承威尔贝特魔王之力，被魔界与勇者势力争夺。", "sourceRefs": ["characters.json comment 成濑澪"]},
-    {"id": "naruse-maria", "name": "成濑万理亚", "affiliation": "梦魔/澪的随从/东城家", "role": "梦魔少女，澪的随从，促成主从契约并在家人与使命间摇摆。", "sourceRefs": ["characters.json comment 成濑万理亚"]},
-    {"id": "nonaka-yuki", "name": "野中柚希", "affiliation": "勇者一族/东城家", "role": "刃更青梅竹马，勇者一族少女，后与刃更阵营协作。", "sourceRefs": ["characters.json comment 野中柚希"]},
-    {"id": "nonaka-kurumi", "name": "野中胡桃", "affiliation": "勇者一族", "role": "柚希相关勇者一族少女，参与魔界与家庭阵营事件。", "sourceRefs": ["characters.json comment 野中胡桃"]},
-    {"id": "zest", "name": "洁丝特", "affiliation": "魔族/后东城阵营", "role": "魔族少女，后与刃更阵营建立羁绊。", "sourceRefs": ["characters.json comment 洁丝特"]},
-    {"id": "hasegawa-chisato", "name": "长谷川千里", "affiliation": "圣坂学园/神族相关", "role": "保健室老师，真实身份与神族/阿芙蕾亚相关，暗中庇护刃更等人。", "sourceRefs": ["characters.json comment 长谷川千里"]},
-    {"id": "tachibana-nanao", "name": "橘七绪", "affiliation": "圣坂学园/相关配角", "role": "学校相关人物。", "sourceRefs": ["characters.json comment 橘七绪"]},
-    {"id": "celis-reinhart", "name": "赛莉丝·蕾多哈特", "affiliation": "勇者一族/相关势力", "role": "勇者/战斗相关人物。", "sourceRefs": ["characters.json comment 赛莉丝·蕾多哈特"]},
-    {"id": "leohart", "name": "雷欧哈特", "affiliation": "现任魔王派", "role": "现任魔王，魔界新秩序核心。", "sourceRefs": ["characters.json comment 雷欧哈特"]},
-    {"id": "liara", "name": "莉雅菈", "affiliation": "魔界/雷欧哈特相关", "role": "魔界角色，与雷欧哈特阵营相关。", "sourceRefs": ["characters.json comment 莉雅菈"]},
-    {"id": "takigawa-yahiro-lars", "name": "泷川八寻 / 拉斯", "affiliation": "魔族/观察者/暗中行动者", "role": "刃更身边的关键魔族人物，参与交易与幕后行动。", "sourceRefs": ["characters.json comment 泷川八寻 / 拉斯"]},
-    {"id": "toujou-jin", "name": "东城迅", "affiliation": "东城家/勇者相关", "role": "刃更父亲，推动澪与万理亚进入东城家的开端。", "sourceRefs": ["characters.json comment 东城迅"]},
-    {"id": "serphia", "name": "瑟菲雅", "affiliation": "相关人物", "role": "源列人物，需后续细分阵营。", "sourceRefs": ["characters.json comment 瑟菲雅"]},
-    {"id": "raphaeline", "name": "拉法艾琳", "affiliation": "相关人物", "role": "源列人物，需后续细分阵营。", "sourceRefs": ["characters.json comment 拉法艾琳"]},
-    {"id": "ramsus-wilbert", "name": "拉姆萨斯 / 威尔贝特", "affiliation": "稳健派/前任魔王", "role": "威尔贝特为前任魔王，澪力量来源；拉姆萨斯与稳健派相关。", "sourceRefs": ["characters.json comment 拉姆萨斯/威尔贝特", "characters.json comment 威尔贝特（拉姆萨斯）"]},
-    {"id": "shiba-kyouichi", "name": "斯波恭一", "affiliation": "勇者一族", "role": "勇者一族相关人物。", "sourceRefs": ["characters.json comment 斯波恭一"]},
-    {"id": "hayase-takashi", "name": "早濑高志", "affiliation": "勇者一族", "role": "刃更旧友/勇者一族执行者，参与对澪的消灭命令。", "sourceRefs": ["characters.json comment 早濑高志"]},
-    {"id": "shela", "name": "雪菈", "affiliation": "魔界维尔达城", "role": "魔界相关人物，参与魔界篇日常与支援。", "sourceRefs": ["characters.json comment 雪菈"]},
-    {"id": "lucia", "name": "露绮亚", "affiliation": "魔界", "role": "源列魔界人物。", "sourceRefs": ["characters.json comment 露绮亚"]},
-    {"id": "zokiel", "name": "佐基尔", "affiliation": "魔界豪强/敌对", "role": "掳走澪并企图夺取魔王之力的敌对魔族。", "sourceRefs": ["characters.json comment 佐基尔"]},
-    {"id": "galdo", "name": "加尔多", "affiliation": "魔界/敌对", "role": "源列魔界人物。", "sourceRefs": ["characters.json comment 加尔多"]},
-    {"id": "belphegor", "name": "贝尔费格", "affiliation": "枢机院", "role": "枢机院幕后黑手之一，魔界决战中被刃更斩杀。", "sourceRefs": ["characters.json comment 贝尔费格"]},
-    {"id": "ornis", "name": "奥尔尼斯", "affiliation": "敌对/背叛者", "role": "运动会篇相关背叛者/敌对人物。", "sourceRefs": ["characters.json comment 奥尔尼斯"]},
-    {"id": "sakaki-chika", "name": "榊千佳", "affiliation": "学校/配角", "role": "源列学校相关人物。", "sourceRefs": ["characters.json comment 榊千佳"]},
-    {"id": "kajiura-rikka", "name": "梶浦立華", "affiliation": "学校/配角", "role": "源列学校相关人物。", "sourceRefs": ["characters.json comment 梶浦 立華"]},
-    {"id": "aikawa-shiho", "name": "相川志保", "affiliation": "学校/配角", "role": "源列学校相关人物。", "sourceRefs": ["characters.json comment 相川志保"]}
+    {
+      "id": "toujou-basara",
+      "name": "东城刃更",
+      "affiliation": "东城家/前勇者一族",
+      "role": "主角；前勇者相关少年，拥有无次元的执行，守护澪与家人共同体。",
+      "sourceRefs": [
+        "characters.json comment 东城刃更"
+      ]
+    },
+    {
+      "id": "naruse-mio",
+      "name": "成濑澪",
+      "affiliation": "东城家/前任魔王之女",
+      "role": "女主角；继承威尔贝特魔王之力，被魔界与勇者势力争夺。",
+      "sourceRefs": [
+        "characters.json comment 成濑澪"
+      ]
+    },
+    {
+      "id": "naruse-maria",
+      "name": "成濑万理亚",
+      "affiliation": "梦魔/澪的随从/东城家",
+      "role": "梦魔少女，澪的随从，促成主从契约并在家人与使命间摇摆。",
+      "sourceRefs": [
+        "characters.json comment 成濑万理亚"
+      ]
+    },
+    {
+      "id": "nonaka-yuki",
+      "name": "野中柚希",
+      "affiliation": "勇者一族/东城家",
+      "role": "刃更青梅竹马，勇者一族少女，后与刃更阵营协作。",
+      "sourceRefs": [
+        "characters.json comment 野中柚希"
+      ]
+    },
+    {
+      "id": "nonaka-kurumi",
+      "name": "野中胡桃",
+      "affiliation": "勇者一族",
+      "role": "柚希相关勇者一族少女，参与魔界与家庭阵营事件。",
+      "sourceRefs": [
+        "characters.json comment 野中胡桃"
+      ]
+    },
+    {
+      "id": "zest",
+      "name": "洁丝特",
+      "affiliation": "魔族/后东城阵营",
+      "role": "魔族少女，后与刃更阵营建立羁绊。",
+      "sourceRefs": [
+        "characters.json comment 洁丝特"
+      ]
+    },
+    {
+      "id": "hasegawa-chisato",
+      "name": "长谷川千里",
+      "affiliation": "圣坂学园/神族相关",
+      "role": "保健室老师，真实身份与神族/阿芙蕾亚相关，暗中庇护刃更等人。",
+      "sourceRefs": [
+        "characters.json comment 长谷川千里"
+      ]
+    },
+    {
+      "id": "tachibana-nanao",
+      "name": "橘七绪",
+      "affiliation": "圣坂学园/相关配角",
+      "role": "学校相关人物。",
+      "sourceRefs": [
+        "characters.json comment 橘七绪"
+      ]
+    },
+    {
+      "id": "celis-reinhart",
+      "name": "赛莉丝·蕾多哈特",
+      "affiliation": "勇者一族/相关势力",
+      "role": "勇者/战斗相关人物。",
+      "sourceRefs": [
+        "characters.json comment 赛莉丝·蕾多哈特"
+      ]
+    },
+    {
+      "id": "leohart",
+      "name": "雷欧哈特",
+      "affiliation": "现任魔王派",
+      "role": "现任魔王，魔界新秩序核心。",
+      "sourceRefs": [
+        "characters.json comment 雷欧哈特"
+      ]
+    },
+    {
+      "id": "liara",
+      "name": "莉雅菈",
+      "affiliation": "魔界/雷欧哈特相关",
+      "role": "魔界角色，与雷欧哈特阵营相关。",
+      "sourceRefs": [
+        "characters.json comment 莉雅菈"
+      ]
+    },
+    {
+      "id": "takigawa-yahiro-lars",
+      "name": "泷川八寻 / 拉斯",
+      "affiliation": "魔族/观察者/暗中行动者",
+      "role": "刃更身边的关键魔族人物，参与交易与幕后行动。",
+      "sourceRefs": [
+        "characters.json comment 泷川八寻 / 拉斯"
+      ]
+    },
+    {
+      "id": "toujou-jin",
+      "name": "东城迅",
+      "affiliation": "东城家/勇者相关",
+      "role": "刃更父亲，推动澪与万理亚进入东城家的开端。",
+      "sourceRefs": [
+        "characters.json comment 东城迅"
+      ]
+    },
+    {
+      "id": "serphia",
+      "name": "瑟菲雅",
+      "affiliation": "相关人物",
+      "role": "源列人物，需后续细分阵营。",
+      "sourceRefs": [
+        "characters.json comment 瑟菲雅"
+      ]
+    },
+    {
+      "id": "raphaeline",
+      "name": "拉法艾琳",
+      "affiliation": "相关人物",
+      "role": "源列人物，需后续细分阵营。",
+      "sourceRefs": [
+        "characters.json comment 拉法艾琳"
+      ]
+    },
+    {
+      "id": "ramsus-wilbert",
+      "name": "拉姆萨斯 / 威尔贝特",
+      "affiliation": "稳健派/前任魔王",
+      "role": "威尔贝特为前任魔王，澪力量来源；拉姆萨斯与稳健派相关。",
+      "sourceRefs": [
+        "characters.json comment 拉姆萨斯/威尔贝特",
+        "characters.json comment 威尔贝特（拉姆萨斯）"
+      ]
+    },
+    {
+      "id": "shiba-kyouichi",
+      "name": "斯波恭一",
+      "affiliation": "勇者一族",
+      "role": "勇者一族相关人物。",
+      "sourceRefs": [
+        "characters.json comment 斯波恭一"
+      ]
+    },
+    {
+      "id": "hayase-takashi",
+      "name": "早濑高志",
+      "affiliation": "勇者一族",
+      "role": "刃更旧友/勇者一族执行者，参与对澪的消灭命令。",
+      "sourceRefs": [
+        "characters.json comment 早濑高志"
+      ]
+    },
+    {
+      "id": "shela",
+      "name": "雪菈",
+      "affiliation": "魔界维尔达城",
+      "role": "魔界相关人物，参与魔界篇日常与支援。",
+      "sourceRefs": [
+        "characters.json comment 雪菈"
+      ]
+    },
+    {
+      "id": "lucia",
+      "name": "露绮亚",
+      "affiliation": "魔界",
+      "role": "源列魔界人物。",
+      "sourceRefs": [
+        "characters.json comment 露绮亚"
+      ]
+    },
+    {
+      "id": "zokiel",
+      "name": "佐基尔",
+      "affiliation": "魔界豪强/敌对",
+      "role": "掳走澪并企图夺取魔王之力的敌对魔族。",
+      "sourceRefs": [
+        "characters.json comment 佐基尔"
+      ]
+    },
+    {
+      "id": "galdo",
+      "name": "加尔多",
+      "affiliation": "魔界/敌对",
+      "role": "源列魔界人物。",
+      "sourceRefs": [
+        "characters.json comment 加尔多"
+      ]
+    },
+    {
+      "id": "belphegor",
+      "name": "贝尔费格",
+      "affiliation": "枢机院",
+      "role": "枢机院幕后黑手之一，魔界决战中被刃更斩杀。",
+      "sourceRefs": [
+        "characters.json comment 贝尔费格"
+      ]
+    },
+    {
+      "id": "ornis",
+      "name": "奥尔尼斯",
+      "affiliation": "敌对/背叛者",
+      "role": "运动会篇相关背叛者/敌对人物。",
+      "sourceRefs": [
+        "characters.json comment 奥尔尼斯"
+      ]
+    },
+    {
+      "id": "sakaki-chika",
+      "name": "榊千佳",
+      "affiliation": "学校/配角",
+      "role": "源列学校相关人物。",
+      "sourceRefs": [
+        "characters.json comment 榊千佳"
+      ]
+    },
+    {
+      "id": "kajiura-rikka",
+      "name": "梶浦立華",
+      "affiliation": "学校/配角",
+      "role": "源列学校相关人物。",
+      "sourceRefs": [
+        "characters.json comment 梶浦 立華"
+      ]
+    },
+    {
+      "id": "aikawa-shiho",
+      "name": "相川志保",
+      "affiliation": "学校/配角",
+      "role": "源列学校相关人物。",
+      "sourceRefs": [
+        "characters.json comment 相川志保"
+      ]
+    }
   ],
-  "nonCharacterEntriesHandledElsewhere": ["世界核心", "力量核心", "契约系统", "各勢力階層", "双主角并行", "变量列表", "标准输出格式定义"]
+  "nonCharacterEntriesHandledElsewhere": [
+    "世界核心",
+    "力量核心",
+    "契约系统",
+    "各勢力階層",
+    "双主角并行",
+    "变量列表",
+    "标准输出格式定义"
+  ],
+  "worldId": "testament-sister-new-devil",
+  "indices": {
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
 }

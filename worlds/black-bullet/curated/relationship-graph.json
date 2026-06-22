@@ -1,1 +1,72 @@
-{"schema":"rp-relationship-graph-v1","worldId":"black-bullet","nodes":[{"id":"rentaro-satomi","type":"character","label":"里见莲太郎"},{"id":"enju-aihara","type":"character","label":"蓝原延珠"},{"id":"kisara-tendo","type":"character","label":"天童木更"},{"id":"seitenshi","type":"character","label":"圣天子"},{"id":"kagetane-hiruko","type":"character","label":"蛭子影胤"},{"id":"civil-security","type":"faction","label":"民警"}],"edges":[{"from":"rentaro-satomi","to":"enju-aihara","type":"promoter_initiator_partner"},{"from":"kisara-tendo","to":"rentaro-satomi","type":"employer"},{"from":"seitenshi","to":"rentaro-satomi","type":"political_trust"},{"from":"kagetane-hiruko","to":"rentaro-satomi","type":"enemy"},{"from":"rentaro-satomi","to":"civil-security","type":"member"}],"sourceRefs":["src-black-bullet-001"]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "black-bullet",
+  "nodes": [
+    {
+      "id": "rentaro-satomi",
+      "type": "character",
+      "label": "里见莲太郎"
+    },
+    {
+      "id": "enju-aihara",
+      "type": "character",
+      "label": "蓝原延珠"
+    },
+    {
+      "id": "kisara-tendo",
+      "type": "character",
+      "label": "天童木更"
+    },
+    {
+      "id": "seitenshi",
+      "type": "character",
+      "label": "圣天子"
+    },
+    {
+      "id": "kagetane-hiruko",
+      "type": "character",
+      "label": "蛭子影胤"
+    },
+    {
+      "id": "civil-security",
+      "type": "faction",
+      "label": "民警"
+    }
+  ],
+  "edges": [
+    {
+      "from": "rentaro-satomi",
+      "to": "enju-aihara",
+      "type": "promoter_initiator_partner"
+    },
+    {
+      "from": "kisara-tendo",
+      "to": "rentaro-satomi",
+      "type": "employer"
+    },
+    {
+      "from": "seitenshi",
+      "to": "rentaro-satomi",
+      "type": "political_trust"
+    },
+    {
+      "from": "kagetane-hiruko",
+      "to": "rentaro-satomi",
+      "type": "enemy"
+    },
+    {
+      "from": "rentaro-satomi",
+      "to": "civil-security",
+      "type": "member"
+    }
+  ],
+  "sourceRefs": [
+    "src-black-bullet-001"
+  ],
+  "campaignId": "black-bullet",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

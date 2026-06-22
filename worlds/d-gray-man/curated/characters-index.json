@@ -1,1 +1,1078 @@
-{"schema":"rp-characters-index-v1","worldId":"d-gray-man","characters":[{"id":"allen-walker","name":"亚连·沃克","aliases":["Allen Walker"],"visibility":"public","summary":"左眼与左臂寄宿圣洁的驱魔师，卷入十四号与诺亚真相。","roles":["主角","驱魔师"],"factions":["黑色教团"],"locations":["黑色教团本部","欧洲","日本"],"powerSystems":["innocence","exorcist"],"abilities":["寄生型圣洁","驱魔","灵魂感知"],"items":["左臂圣洁"],"relationships":["kanda:yuu-rival-ally","lenalee:ally","cross-marian:mentor","nea:d-campbell-host-connection"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"核心视角人物。"},{"id":"kanda-yu","name":"神田优","aliases":["Kanda Yuu"],"visibility":"public","summary":"冷峻的驱魔师剑士，与亚连长期针锋相对。","roles":["驱魔师","剑士"],"factions":["黑色教团"],"locations":["黑色教团本部","战场"],"powerSystems":["innocence","exorcist"],"abilities":["刀术","圣洁武装","高速近战"],"items":["六幻"],"relationships":["allen-walker:rival-ally","alma-karma:linked-by-past"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"与阿尔玛线强相关。"},{"id":"lenalee-lee","name":"李娜丽·李","aliases":["Lenalee Lee"],"visibility":"public","summary":"黑色教团重要驱魔师与后勤中枢，重视同伴关系。","roles":["驱魔师","后勤/战斗支援"],"factions":["黑色教团"],"locations":["黑色教团本部","欧洲","战场"],"powerSystems":["innocence","exorcist"],"abilities":["黑靴","机动战斗","组织协调"],"items":["黑靴"],"relationships":["allen-walker:ally","komui-lee:sibling"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"常作为人际关系枢纽。"},{"id":"lavi","name":"拉比","aliases":[],"visibility":"public","summary":"以记录者身份游走于教团与战场之间的驱魔师。","roles":["驱魔师","书人"],"factions":["黑色教团","Bookman 系"],"locations":["欧洲","方舟"],"powerSystems":["innocence","exorcist"],"abilities":["记忆记录","战斗辅助","情报整合"],"items":["锤与书系装备"],"relationships":["allen-walker:ally","bookman:apprentice"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"历史与记录视角关键。"},{"id":"cross-marian","name":"克劳斯·马利安/神田十字","aliases":["Cross Marian"],"visibility":"gm-only","summary":"亚连的师父级人物，行事放荡但掌握大量真相与旧线索。","roles":["驱魔师","导师"],"factions":["黑色教团"],"locations":["欧洲","教团外围"],"powerSystems":["innocence","exorcist"],"abilities":["枪械与圣洁术","情报网","异常洞察"],"items":[],"relationships":["allen-walker:mentor","nea:d-campbell:knowledge-of"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"部分真相建议 GM-only。"},{"id":"komui-lee","name":"科穆伊·李","aliases":[],"visibility":"public","summary":"黑色教团欧洲总局高层，兼顾行政、研究与后勤。","roles":["总负责人","研究主管"],"factions":["黑色教团"],"locations":["黑色教团本部","欧洲"],"powerSystems":[],"abilities":["组织管理","技术研发"],"items":[],"relationships":["lenalee-lee:sibling"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"提供组织稳定性。"},{"id":"miranda-lotto","name":"米兰达·洛特","aliases":[],"visibility":"public","summary":"拥有时间相关圣洁适性的教团成员，常与后勤和救援线关联。","roles":["驱魔师","支援"],"factions":["黑色教团"],"locations":["欧洲","战场"],"powerSystems":["innocence","exorcist"],"abilities":["时间相关能力","后勤救助"],"items":[],"relationships":["allen-walker:ally"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-d-gray-man-001"],"notes":"适合支援型 NPC。"},{"id":"crown-clown","name":"亚歷斯特·柯洛利三世","aliases":["Arystar Krory III"],"visibility":"public","summary":"与吸血鬼设定相关的战力角色，后成为教团重要同伴。","roles":["盟友","特殊体质者"],"factions":["黑色教团"],"locations":["欧洲","村镇"],"powerSystems":["innocence"],"abilities":["血液相关能力","近战"],"items":[],"relationships":["allen-walker:ally"],"importance":"medium","evidenceLevel":"B","sourceRefs":["src-d-gray-man-001"],"notes":"与种族/诅咒题材兼容。"},{"id":"millennium-earl","name":"千年伯爵","aliases":["伯爵"],"visibility":"gm-only","summary":"制造恶魔并操纵悲剧的核心反派。","roles":["最终反派","恶魔制造者"],"factions":["千年伯爵阵营"],"locations":["方舟","各地战场"],"powerSystems":["akuma"],"abilities":["恶魔制造","空间/方舟操作","欺骗与操纵"],"items":[],"relationships":["road-kamelot:family","tiki-mikk:family","nea-d-campbell:enemy-host"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"真相层信息建议 GM-only。"},{"id":"tikki-mikk","name":"缇奇·米克","aliases":["Tikki Mikk"],"visibility":"public","summary":"诺亚一族成员，表面轻佻，战斗中极危险。","roles":["诺亚","战斗员"],"factions":["诺亚一族"],"locations":["方舟","欧洲"],"powerSystems":["noah"],"abilities":["诺亚觉醒","高机动战斗"],"items":[],"relationships":["road-kamelot:comrade","allen-walker:enemy"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"诺亚阵营代表人物。"},{"id":"road-kamelot","name":"罗德·嘉美","aliases":["Road Kamelot"],"visibility":"public","summary":"诺亚一族的梦境与幻象担当，外表少女化、能力诡谲。","roles":["诺亚","幻术者"],"factions":["诺亚一族"],"locations":["方舟","幻境空间"],"powerSystems":["noah"],"abilities":["梦境操纵","幻象","空间规避"],"items":[],"relationships":["millennium-earl:family","tiki-mikk:family"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"适合心理战场景。"},{"id":"alma-karma","name":"阿尔玛·卡尔玛","aliases":[],"visibility":"gm-only","summary":"与神田和第二驱魔师真相强绑定的悲剧人物。","roles":["被改造者","真相人物"],"factions":["黑色教团","隐秘线"],"locations":["教团相关设施"],"powerSystems":["innocence","akuma"],"abilities":["改造体抗性","战斗残留"],"items":[],"relationships":["kanda-yu:linked-by-past"],"importance":"high","evidenceLevel":"B","sourceRefs":["src-d-gray-man-001"],"notes":"低置信、真相分阶段。"},{"id":"neal-d-campbell","name":"第十四号·内亚·D·坎贝尔","aliases":["Nea D. Campbell","第十四号"],"visibility":"gm-only","summary":"与亚连宿主真相和诺亚体系高度关联的禁忌人物。","roles":["禁忌真相","诺亚/宿主线"],"factions":["诺亚一族","隐秘线"],"locations":["过去/方舟"],"powerSystems":["noah"],"abilities":["记忆继承","身份寄宿"],"items":[],"relationships":["allen-walker:host-connection","cross-marian:mentor-knowledge"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-d-gray-man-001"],"notes":"GM-only。"}],"indices":{"byFaction":{"黑色教团":["allen-walker","kanda-yu","lenalee-lee","lavi","cross-marian","komui-lee","miranda-lotto","crown-clown"],"诺亚一族":["tikki-mikk","road-kamelot","neal-d-campbell"],"千年伯爵阵营":["millennium-earl"],"隐秘线":["alma-karma","neal-d-campbell"]},"byPowerSystem":{"innocence":["allen-walker","kanda-yu","lenalee-lee","lavi","cross-marian","miranda-lotto","crown-clown","alma-karma"],"noah":["tikki-mikk","road-kamelot","neal-d-campbell"],"exorcist":["allen-walker","kanda-yu","lenalee-lee","lavi","komui-lee","miranda-lotto","crown-clown"],"akuma":["millennium-earl"]},"byVisibility":{"public":["allen-walker","kanda-yu","lenalee-lee","lavi","komui-lee","miranda-lotto","crown-clown","tikki-mikk","road-kamelot"],"gm-only":["cross-marian","millennium-earl","alma-karma","neal-d-campbell"]},"majorCharacters":["allen-walker","kanda-yu","lenalee-lee","lavi","cross-marian","komui-lee","millennium-earl","tikki-mikk","road-kamelot","neal-d-campbell"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "d-gray-man",
+  "characters": [
+    {
+      "id": "allen-walker",
+      "name": "亚连·沃克",
+      "aliases": [
+        "Allen Walker"
+      ],
+      "visibility": "public",
+      "summary": "左眼与左臂寄宿圣洁的驱魔师，卷入十四号与诺亚真相。",
+      "roles": [
+        "主角",
+        "驱魔师"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "black-order-hq",
+        "europe",
+        "japan"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "寄生型圣洁",
+        "驱魔",
+        "灵魂感知"
+      ],
+      "items": [
+        "左臂圣洁"
+      ],
+      "relationships": [
+        {
+          "targetType": "character",
+          "relation": "yuu-rival-ally",
+          "resolutionStatus": "resolved",
+          "target": "kanda-yu",
+          "notes": [
+            "kanda normalized to indexed character kanda-yu."
+          ]
+        },
+        {
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved",
+          "target": "lenalee-lee",
+          "notes": [
+            "lenalee normalized to indexed character lenalee-lee."
+          ]
+        },
+        {
+          "target": "cross-marian",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "d-campbell-host-connection",
+          "resolutionStatus": "resolved",
+          "target": "neal-d-campbell",
+          "notes": [
+            "Nea/D. Campbell normalized to indexed character neal-d-campbell."
+          ]
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "核心视角人物。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "黑色教团本部",
+            "欧洲",
+            "日本"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "kanda-yu",
+      "name": "神田优",
+      "aliases": [
+        "Kanda Yuu"
+      ],
+      "visibility": "public",
+      "summary": "冷峻的驱魔师剑士，与亚连长期针锋相对。",
+      "roles": [
+        "驱魔师",
+        "剑士"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "black-order-hq",
+        "battlefields"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "刀术",
+        "圣洁武装",
+        "高速近战"
+      ],
+      "items": [
+        "六幻"
+      ],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "rival-ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "alma-karma",
+          "targetType": "character",
+          "relation": "linked-by-past",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "与阿尔玛线强相关。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "黑色教团本部",
+            "战场"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "lenalee-lee",
+      "name": "李娜丽·李",
+      "aliases": [
+        "Lenalee Lee"
+      ],
+      "visibility": "public",
+      "summary": "黑色教团重要驱魔师与后勤中枢，重视同伴关系。",
+      "roles": [
+        "驱魔师",
+        "后勤/战斗支援"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "black-order-hq",
+        "europe",
+        "battlefields"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "黑靴",
+        "机动战斗",
+        "组织协调"
+      ],
+      "items": [
+        "黑靴"
+      ],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "komui-lee",
+          "targetType": "character",
+          "relation": "sibling",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "常作为人际关系枢纽。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "黑色教团本部",
+            "欧洲",
+            "战场"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "lavi",
+      "name": "拉比",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "以记录者身份游走于教团与战场之间的驱魔师。",
+      "roles": [
+        "驱魔师",
+        "书人"
+      ],
+      "factions": [
+        "black-order",
+        "bookman-lineage"
+      ],
+      "locations": [
+        "europe",
+        "ark"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "记忆记录",
+        "战斗辅助",
+        "情报整合"
+      ],
+      "items": [
+        "锤与书系装备"
+      ],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "apprentice",
+          "resolutionStatus": "unresolved",
+          "label": "bookman",
+          "notes": [
+            "Bookman is a named character reference but is not indexed in this curated roster."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "历史与记录视角关键。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧洲",
+            "方舟"
+          ],
+          "factions": [
+            "黑色教团",
+            "Bookman 系"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "cross-marian",
+      "name": "克劳斯·马利安/神田十字",
+      "aliases": [
+        "Cross Marian"
+      ],
+      "visibility": "gm-only",
+      "summary": "亚连的师父级人物，行事放荡但掌握大量真相与旧线索。",
+      "roles": [
+        "驱魔师",
+        "导师"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "europe",
+        "order-periphery"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "枪械与圣洁术",
+        "情报网",
+        "异常洞察"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "mentor",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "d-campbell:knowledge-of",
+          "resolutionStatus": "resolved",
+          "target": "neal-d-campbell",
+          "notes": [
+            "Nea/D. Campbell normalized to indexed character neal-d-campbell."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "部分真相建议 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧洲",
+            "教团外围"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "komui-lee",
+      "name": "科穆伊·李",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "黑色教团欧洲总局高层，兼顾行政、研究与后勤。",
+      "roles": [
+        "总负责人",
+        "研究主管"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "black-order-hq",
+        "europe"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "组织管理",
+        "技术研发"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "lenalee-lee",
+          "targetType": "character",
+          "relation": "sibling",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "提供组织稳定性。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "黑色教团本部",
+            "欧洲"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "miranda-lotto",
+      "name": "米兰达·洛特",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "拥有时间相关圣洁适性的教团成员，常与后勤和救援线关联。",
+      "roles": [
+        "驱魔师",
+        "支援"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "europe",
+        "battlefields"
+      ],
+      "powerSystems": [
+        "innocence",
+        "exorcist"
+      ],
+      "abilities": [
+        "时间相关能力",
+        "后勤救助"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "适合支援型 NPC。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧洲",
+            "战场"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "crown-clown",
+      "name": "亚歷斯特·柯洛利三世",
+      "aliases": [
+        "Arystar Krory III"
+      ],
+      "visibility": "public",
+      "summary": "与吸血鬼设定相关的战力角色，后成为教团重要同伴。",
+      "roles": [
+        "盟友",
+        "特殊体质者"
+      ],
+      "factions": [
+        "black-order"
+      ],
+      "locations": [
+        "europe",
+        "villages-and-towns"
+      ],
+      "powerSystems": [
+        "innocence"
+      ],
+      "abilities": [
+        "血液相关能力",
+        "近战"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "与种族/诅咒题材兼容。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "欧洲",
+            "村镇"
+          ],
+          "factions": [
+            "黑色教团"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "millennium-earl",
+      "name": "千年伯爵",
+      "aliases": [
+        "伯爵"
+      ],
+      "visibility": "gm-only",
+      "summary": "制造恶魔并操纵悲剧的核心反派。",
+      "roles": [
+        "最终反派",
+        "恶魔制造者"
+      ],
+      "factions": [
+        "millennium-earl-camp"
+      ],
+      "locations": [
+        "ark",
+        "earl-battlefields"
+      ],
+      "powerSystems": [
+        "akuma"
+      ],
+      "abilities": [
+        "恶魔制造",
+        "空间/方舟操作",
+        "欺骗与操纵"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "road-kamelot",
+          "targetType": "character",
+          "relation": "family",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "family",
+          "resolutionStatus": "resolved",
+          "target": "tikki-mikk",
+          "notes": [
+            "tiki-mikk spelling normalized to indexed character tikki-mikk."
+          ]
+        },
+        {
+          "targetType": "character",
+          "relation": "enemy-host",
+          "resolutionStatus": "resolved",
+          "target": "neal-d-campbell",
+          "notes": [
+            "Nea/D. Campbell normalized to indexed character neal-d-campbell."
+          ]
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "真相层信息建议 GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "方舟",
+            "各地战场"
+          ],
+          "factions": [
+            "千年伯爵阵营"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "tikki-mikk",
+      "name": "缇奇·米克",
+      "aliases": [
+        "Tikki Mikk"
+      ],
+      "visibility": "public",
+      "summary": "诺亚一族成员，表面轻佻，战斗中极危险。",
+      "roles": [
+        "诺亚",
+        "战斗员"
+      ],
+      "factions": [
+        "noah-family"
+      ],
+      "locations": [
+        "ark",
+        "europe"
+      ],
+      "powerSystems": [
+        "noah"
+      ],
+      "abilities": [
+        "诺亚觉醒",
+        "高机动战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "road-kamelot",
+          "targetType": "character",
+          "relation": "comrade",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "诺亚阵营代表人物。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "方舟",
+            "欧洲"
+          ],
+          "factions": [
+            "诺亚一族"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "road-kamelot",
+      "name": "罗德·嘉美",
+      "aliases": [
+        "Road Kamelot"
+      ],
+      "visibility": "public",
+      "summary": "诺亚一族的梦境与幻象担当，外表少女化、能力诡谲。",
+      "roles": [
+        "诺亚",
+        "幻术者"
+      ],
+      "factions": [
+        "noah-family"
+      ],
+      "locations": [
+        "ark",
+        "illusion-space"
+      ],
+      "powerSystems": [
+        "noah"
+      ],
+      "abilities": [
+        "梦境操纵",
+        "幻象",
+        "空间规避"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "millennium-earl",
+          "targetType": "character",
+          "relation": "family",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "targetType": "character",
+          "relation": "family",
+          "resolutionStatus": "resolved",
+          "target": "tikki-mikk",
+          "notes": [
+            "tiki-mikk spelling normalized to indexed character tikki-mikk."
+          ]
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "适合心理战场景。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "方舟",
+            "幻境空间"
+          ],
+          "factions": [
+            "诺亚一族"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "alma-karma",
+      "name": "阿尔玛·卡尔玛",
+      "aliases": [],
+      "visibility": "gm-only",
+      "summary": "与神田和第二驱魔师真相强绑定的悲剧人物。",
+      "roles": [
+        "被改造者",
+        "真相人物"
+      ],
+      "factions": [
+        "black-order",
+        "secret-lines"
+      ],
+      "locations": [
+        "order-secret-facilities"
+      ],
+      "powerSystems": [
+        "innocence",
+        "akuma"
+      ],
+      "abilities": [
+        "改造体抗性",
+        "战斗残留"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "kanda-yu",
+          "targetType": "character",
+          "relation": "linked-by-past",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "低置信、真相分阶段。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "教团相关设施"
+          ],
+          "factions": [
+            "黑色教团",
+            "隐秘线"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    },
+    {
+      "id": "neal-d-campbell",
+      "name": "第十四号·内亚·D·坎贝尔",
+      "aliases": [
+        "Nea D. Campbell",
+        "第十四号"
+      ],
+      "visibility": "gm-only",
+      "summary": "与亚连宿主真相和诺亚体系高度关联的禁忌人物。",
+      "roles": [
+        "禁忌真相",
+        "诺亚/宿主线"
+      ],
+      "factions": [
+        "noah-family",
+        "secret-lines"
+      ],
+      "locations": [
+        "past-ark"
+      ],
+      "powerSystems": [
+        "noah"
+      ],
+      "abilities": [
+        "记忆继承",
+        "身份寄宿"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "allen-walker",
+          "targetType": "character",
+          "relation": "host-connection",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "cross-marian",
+          "targetType": "character",
+          "relation": "mentor-knowledge",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ],
+      "notes": "GM-only。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "过去/方舟"
+          ],
+          "factions": [
+            "诺亚一族",
+            "隐秘线"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
+        "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
+      ]
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "black-order": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "cross-marian",
+        "komui-lee",
+        "miranda-lotto",
+        "crown-clown",
+        "alma-karma"
+      ],
+      "bookman-lineage": [
+        "lavi"
+      ],
+      "millennium-earl-camp": [
+        "millennium-earl"
+      ],
+      "noah-family": [
+        "tikki-mikk",
+        "road-kamelot",
+        "neal-d-campbell"
+      ],
+      "secret-lines": [
+        "alma-karma",
+        "neal-d-campbell"
+      ]
+    },
+    "byPowerSystem": {
+      "innocence": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "cross-marian",
+        "miranda-lotto",
+        "crown-clown",
+        "alma-karma"
+      ],
+      "exorcist": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "cross-marian",
+        "miranda-lotto"
+      ],
+      "akuma": [
+        "millennium-earl",
+        "alma-karma"
+      ],
+      "noah": [
+        "tikki-mikk",
+        "road-kamelot",
+        "neal-d-campbell"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "komui-lee",
+        "miranda-lotto",
+        "crown-clown",
+        "tikki-mikk",
+        "road-kamelot"
+      ],
+      "gm-only": [
+        "cross-marian",
+        "millennium-earl",
+        "alma-karma",
+        "neal-d-campbell"
+      ]
+    },
+    "majorCharacters": [
+      "allen-walker",
+      "kanda-yu",
+      "lenalee-lee",
+      "lavi",
+      "cross-marian",
+      "komui-lee",
+      "millennium-earl",
+      "tikki-mikk",
+      "road-kamelot",
+      "neal-d-campbell"
+    ],
+    "byId": {
+      "allen-walker": "亚连·沃克",
+      "kanda-yu": "神田优",
+      "lenalee-lee": "李娜丽·李",
+      "lavi": "拉比",
+      "cross-marian": "克劳斯·马利安/神田十字",
+      "komui-lee": "科穆伊·李",
+      "miranda-lotto": "米兰达·洛特",
+      "crown-clown": "亚歷斯特·柯洛利三世",
+      "millennium-earl": "千年伯爵",
+      "tikki-mikk": "缇奇·米克",
+      "road-kamelot": "罗德·嘉美",
+      "alma-karma": "阿尔玛·卡尔玛",
+      "neal-d-campbell": "第十四号·内亚·D·坎贝尔"
+    },
+    "byName": {
+      "亚连·沃克": "allen-walker",
+      "神田优": "kanda-yu",
+      "李娜丽·李": "lenalee-lee",
+      "拉比": "lavi",
+      "克劳斯·马利安/神田十字": "cross-marian",
+      "科穆伊·李": "komui-lee",
+      "米兰达·洛特": "miranda-lotto",
+      "亚歷斯特·柯洛利三世": "crown-clown",
+      "千年伯爵": "millennium-earl",
+      "缇奇·米克": "tikki-mikk",
+      "罗德·嘉美": "road-kamelot",
+      "阿尔玛·卡尔玛": "alma-karma",
+      "第十四号·内亚·D·坎贝尔": "neal-d-campbell"
+    },
+    "byAffiliation": {
+      "black-order": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "cross-marian",
+        "komui-lee",
+        "miranda-lotto",
+        "crown-clown",
+        "alma-karma"
+      ],
+      "bookman-lineage": [
+        "lavi"
+      ],
+      "millennium-earl-camp": [
+        "millennium-earl"
+      ],
+      "noah-family": [
+        "tikki-mikk",
+        "road-kamelot",
+        "neal-d-campbell"
+      ],
+      "secret-lines": [
+        "alma-karma",
+        "neal-d-campbell"
+      ]
+    },
+    "byTag": {
+      "主角": [
+        "allen-walker"
+      ],
+      "驱魔师": [
+        "allen-walker",
+        "kanda-yu",
+        "lenalee-lee",
+        "lavi",
+        "cross-marian",
+        "miranda-lotto"
+      ],
+      "剑士": [
+        "kanda-yu"
+      ],
+      "后勤/战斗支援": [
+        "lenalee-lee"
+      ],
+      "书人": [
+        "lavi"
+      ],
+      "导师": [
+        "cross-marian"
+      ],
+      "总负责人": [
+        "komui-lee"
+      ],
+      "研究主管": [
+        "komui-lee"
+      ],
+      "支援": [
+        "miranda-lotto"
+      ],
+      "盟友": [
+        "crown-clown"
+      ],
+      "特殊体质者": [
+        "crown-clown"
+      ],
+      "最终反派": [
+        "millennium-earl"
+      ],
+      "恶魔制造者": [
+        "millennium-earl"
+      ],
+      "诺亚": [
+        "tikki-mikk",
+        "road-kamelot"
+      ],
+      "战斗员": [
+        "tikki-mikk"
+      ],
+      "幻术者": [
+        "road-kamelot"
+      ],
+      "被改造者": [
+        "alma-karma"
+      ],
+      "真相人物": [
+        "alma-karma"
+      ],
+      "禁忌真相": [
+        "neal-d-campbell"
+      ],
+      "诺亚/宿主线": [
+        "neal-d-campbell"
+      ]
+    }
+  }
+}

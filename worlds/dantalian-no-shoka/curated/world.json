@@ -2,10 +2,21 @@
   "schema": "rp-world-v1",
   "worldId": "dantalian-no-shoka",
   "displayName": "丹特丽安的书架",
-  "aliases": ["Dantalian no Shoka", "Bibliotheca Mystica de Dantalian", "但他林的书架"],
+  "aliases": [
+    "Dantalian no Shoka",
+    "Bibliotheca Mystica de Dantalian",
+    "但他林的书架"
+  ],
   "defaultMode": "post-war occult mystery road-story",
   "summary": "一个近代战争刚结束不久的欧陆/英伦风格世界。禁忌知识以‘幻书’形式流落人间，能扭曲物理、记忆、血统、音乐、气象、生命与因果。修伊作为钥匙守护者与黑之读姬妲丽安同行，回收、封印或见证幻书带来的灾厄；焚书官哈尔与银之读姬芙兰则主张以业火毁灭幻书。",
-  "tone": ["复古", "华丽", "颓废", "哥特悬疑", "书籍奇谭", "战后余烬"],
+  "tone": [
+    "复古",
+    "华丽",
+    "颓废",
+    "哥特悬疑",
+    "书籍奇谭",
+    "战后余烬"
+  ],
   "timePeriod": "近代，世界大战结束后的数周至数年间；存在飞机、铁路、地铁、印刷厂、电影院/体育场、化学工业与旧贵族庄园并存的技术层级。",
   "genreRules": [
     "每个事件通常围绕一本或数本幻书展开：求助、调查、异变、仪式、封印/焚毁/牺牲。",
@@ -19,76 +30,296 @@
       "name": "幻书",
       "visibility": "public",
       "summary": "不应存在于世的禁忌书籍或等价媒介，可为纸本、植物、乐谱、航海日志、时刻表、石板、八音盒旋律、诗稿、报纸转写本等。其核心是越过人类理解极限的知识。",
-      "rules": ["幻书会选择或污染读者", "使用效果通常伴随代价", "转写本、幻稿、正本之间存在咒力差异", "未完成的幻稿可在疯狂条件下孵化为真正幻书"],
-      "sourceRefs": ["src-dantalian-no-shoka-001"]
+      "rules": [
+        "幻书会选择或污染读者",
+        "使用效果通常伴随代价",
+        "转写本、幻稿、正本之间存在咒力差异",
+        "未完成的幻稿可在疯狂条件下孵化为真正幻书"
+      ],
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ]
     },
     {
       "id": "dantalian-library",
       "name": "丹特丽安的书架 / 壶中之天",
       "visibility": "public",
       "summary": "妲丽安体内封印九十万零六百六十六册幻书的迷宫书库。钥匙守护者以黄金/红宝石钥匙开启其胸前锁，念诵契约问答后取出对应幻书。",
-      "rules": ["开启需钥匙与读姬回应", "仪式台词具有神圣与侵入并存的质感", "取出的幻书应对应危机而非万能解法"],
-      "sourceRefs": ["src-dantalian-no-shoka-001"]
+      "rules": [
+        "开启需钥匙与读姬回应",
+        "仪式台词具有神圣与侵入并存的质感",
+        "取出的幻书应对应危机而非万能解法"
+      ],
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ]
     },
     {
       "id": "raziel-library",
       "name": "拉结尔的书架",
       "visibility": "private",
       "summary": "赤之读姬拉结尔对应的书架。教授/哈尔式角色持钥匙观察幻书孵化，重视幻稿从疯狂中诞生的过程。",
-      "sourceRefs": ["src-dantalian-no-shoka-001"]
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ]
     },
     {
       "id": "burning-officer-technique",
       "name": "焚书官技术：灾厄之枝/爆发",
       "visibility": "public",
       "summary": "焚书官将幻书作为弹药或燃料装填入银色长杖/香炉长杖，以术式点燃概念魔力，释放青白业火并抹除幻书造成的灾厄。",
-      "sourceRefs": ["src-dantalian-no-shoka-001"]
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ]
     },
     {
       "id": "alchemy-mechanics-and-artifice",
       "name": "炼金术、机械人偶与人工生命",
       "visibility": "private",
       "summary": "麦尔加、达拉里欧等制造人造人、机械读姬或自动人偶的技术线，常与幻曲、火蜥蜴刻印、物质召唤、生命实验相关。",
-      "sourceRefs": ["src-dantalian-no-shoka-001"]
+      "sourceRefs": [
+        "src-dantalian-no-shoka-001"
+      ]
     }
   ],
   "factions": [
-    {"id": "dantalian-pair", "name": "黑之读姬与钥匙守护者", "summary": "修伊与妲丽安为核心，倾向保存、回收与封印幻书。", "visibility": "public"},
-    {"id": "burning-officers", "name": "焚书官", "summary": "哈尔与芙兰为代表，认为幻书只会带来灾难，主张彻底焚毁。", "visibility": "public"},
-    {"id": "professor-raziel", "name": "教授与赤之读姬", "summary": "教授/哈尔式研究者与拉结尔，关注幻稿孵化、幻书产生条件与大规模实验。", "visibility": "private"},
-    {"id": "phantom-book-thieves", "name": "幻书窃贼", "summary": "优娜/秘银等以盗取、解放或诱导焚毁幻书为目标的第三方。", "visibility": "private"},
-    {"id": "nobility-and-collectors", "name": "旧贵族、藏书家与商会", "summary": "贵族庄园、收藏家、帕德克商会、报业王等追逐利益或永生，常成为幻书事件源头。", "visibility": "public"},
-    {"id": "military-and-police", "name": "军警与战后机关", "summary": "战后空军、地方警察、学校管理层、王都治安机构，通常在幻书面前解释失效。", "visibility": "public"}
+    {
+      "id": "dantalian-pair",
+      "name": "黑之读姬与钥匙守护者",
+      "summary": "修伊与妲丽安为核心，倾向保存、回收与封印幻书。",
+      "visibility": "public"
+    },
+    {
+      "id": "burning-officers",
+      "name": "焚书官",
+      "summary": "哈尔与芙兰为代表，认为幻书只会带来灾难，主张彻底焚毁。",
+      "visibility": "public"
+    },
+    {
+      "id": "professor-raziel",
+      "name": "教授与赤之读姬",
+      "summary": "教授/哈尔式研究者与拉结尔，关注幻稿孵化、幻书产生条件与大规模实验。",
+      "visibility": "private"
+    },
+    {
+      "id": "phantom-book-thieves",
+      "name": "幻书窃贼",
+      "summary": "优娜/秘银等以盗取、解放或诱导焚毁幻书为目标的第三方。",
+      "visibility": "private"
+    },
+    {
+      "id": "nobility-and-collectors",
+      "name": "旧贵族、藏书家与商会",
+      "summary": "贵族庄园、收藏家、帕德克商会、报业王等追逐利益或永生，常成为幻书事件源头。",
+      "visibility": "public"
+    },
+    {
+      "id": "military-and-police",
+      "name": "军警与战后机关",
+      "summary": "战后空军、地方警察、学校管理层、王都治安机构，通常在幻书面前解释失效。",
+      "visibility": "public"
+    }
   ],
   "locations": [
-    {"id": "disward-estate", "name": "迪斯瓦特宅邸/别墅", "summary": "修伊继承的乡间石造宅邸，地下室/书库入口与温室是多次日常事件中心。"},
-    {"id": "capital", "name": "王都", "summary": "咖啡厅、地铁站、足球场、音乐厅、社交界、印刷厂与商会林立的都市舞台。"},
-    {"id": "haston-estate", "name": "哈斯顿庄园", "summary": "蓝玫瑰、血统实验、地下实验室与阿修威尔之兽事件发生地。"},
-    {"id": "lilburn-manor", "name": "利尔本山庄", "summary": "断崖上的古老宅邸，钟楼圣音操纵泥人掩盖杀戮。"},
-    {"id": "girls-boarding-school", "name": "王国南部沿海寄宿学校/卡德菲尔女子学校", "summary": "幻书在女校图书馆、宿舍与环境改造实验中引发开膛手与气象灾难。"},
-    {"id": "razkeso-castle", "name": "雷兹凯索城堡", "summary": "红色砂岩要塞，绯色长袍传说、离魂体与幻书窃贼事件发生地。"},
-    {"id": "newdwalt", "name": "纽德沃尔特", "summary": "雪国城镇与修道院，放射性矿山和《连接之书》集体意识实验之地。"},
-    {"id": "dark-continent", "name": "黑暗大陆", "summary": "尼罗河湿原、死者之山萨拉哈尔法，矿物生命体与石板幻书相关。"},
-    {"id": "atlantic-coast", "name": "大西洋沿岸号", "summary": "由航海日志和鹦鹉记忆维持的幽灵船。"},
-    {"id": "phantom-library", "name": "丹特丽安的书架内部", "summary": "非现实迷宫书库，既是封印空间也是知识深渊。"}
+    {
+      "id": "disward-estate",
+      "name": "迪斯瓦特宅邸/别墅",
+      "summary": "修伊继承的乡间石造宅邸，地下室/书库入口与温室是多次日常事件中心。"
+    },
+    {
+      "id": "capital",
+      "name": "王都",
+      "summary": "咖啡厅、地铁站、足球场、音乐厅、社交界、印刷厂与商会林立的都市舞台。"
+    },
+    {
+      "id": "haston-estate",
+      "name": "哈斯顿庄园",
+      "summary": "蓝玫瑰、血统实验、地下实验室与阿修威尔之兽事件发生地。"
+    },
+    {
+      "id": "lilburn-manor",
+      "name": "利尔本山庄",
+      "summary": "断崖上的古老宅邸，钟楼圣音操纵泥人掩盖杀戮。"
+    },
+    {
+      "id": "girls-boarding-school",
+      "name": "王国南部沿海寄宿学校/卡德菲尔女子学校",
+      "summary": "幻书在女校图书馆、宿舍与环境改造实验中引发开膛手与气象灾难。"
+    },
+    {
+      "id": "razkeso-castle",
+      "name": "雷兹凯索城堡",
+      "summary": "红色砂岩要塞，绯色长袍传说、离魂体与幻书窃贼事件发生地。"
+    },
+    {
+      "id": "newdwalt",
+      "name": "纽德沃尔特",
+      "summary": "雪国城镇与修道院，放射性矿山和《连接之书》集体意识实验之地。"
+    },
+    {
+      "id": "dark-continent",
+      "name": "黑暗大陆",
+      "summary": "尼罗河湿原、死者之山萨拉哈尔法，矿物生命体与石板幻书相关。"
+    },
+    {
+      "id": "atlantic-coast",
+      "name": "大西洋沿岸号",
+      "summary": "由航海日志和鹦鹉记忆维持的幽灵船。"
+    },
+    {
+      "id": "phantom-library",
+      "name": "丹特丽安的书架内部",
+      "summary": "非现实迷宫书库，既是封印空间也是知识深渊。"
+    },
+    {
+      "id": "battlefront-airbase",
+      "name": "战线机场/空中幻稿事件场域",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "glanholm-station",
+      "name": "格兰霍姆车站",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "gourmet-banquet",
+      "name": "脑髓盛宴会场",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "doll-warehouse-city",
+      "name": "人偶仓库街区",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "calabos-estate",
+      "name": "卡拉博斯宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "lentz-villa",
+      "name": "伦兹别墅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "hildenbrand-house",
+      "name": "希尔登布兰德家",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "sustin-concert-hall",
+      "name": "萨斯汀音乐厅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "fiona-lab",
+      "name": "菲奥娜实验室",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "ghost-train",
+      "name": "幽灵列车",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "red-brick-mansion",
+      "name": "红砖宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "olrick-mansion",
+      "name": "奥尔里克宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "wesley-old-house",
+      "name": "卫斯理旧宅",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "roscetti-shop",
+      "name": "罗塞蒂店铺",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "asquith-mansion",
+      "name": "阿斯奎斯宅邸",
+      "summary": "为角色索引规范化补入的事件地点节点；需后续按卷别补充细节。"
+    }
   ],
   "publicEvents": [
-    {"id": "first-contract", "name": "书库开启仪式", "summary": "修伊与妲丽安完成问答契约，取出《妖精之书》处理立体绘本异变。"},
-    {"id": "gourmet-brain-banquet", "name": "脑髓盛宴", "summary": "《更高调理冥想书》诱导食欲与复仇，古雷姆死于自身贪欲。"},
-    {"id": "burning-officer-encounter", "name": "焚书官登场", "summary": "哈尔与芙兰以灾厄之枝烧毁人偶军团，确立保存与焚毁的理念对立。"},
-    {"id": "raziel-phantom-draft", "name": "空中幻稿事件", "summary": "无面亡灵艾拉斯以未完成诗稿收集恐惧，教授与赤之读姬观察幻书孵化。"},
-    {"id": "zombie-atonement-crisis", "name": "王都赎罪僵尸危机", "summary": "恐怖分子以《赎罪之书》转写本制造僵尸化，修伊与哈尔短暂停火。"},
-    {"id": "linking-book-experiment", "name": "连接之书实验", "summary": "纽德沃尔特居民被连接为意识网络，最终以忘却释放痛苦。"}
+    {
+      "id": "first-contract",
+      "name": "书库开启仪式",
+      "summary": "修伊与妲丽安完成问答契约，取出《妖精之书》处理立体绘本异变。"
+    },
+    {
+      "id": "gourmet-brain-banquet",
+      "name": "脑髓盛宴",
+      "summary": "《更高调理冥想书》诱导食欲与复仇，古雷姆死于自身贪欲。"
+    },
+    {
+      "id": "burning-officer-encounter",
+      "name": "焚书官登场",
+      "summary": "哈尔与芙兰以灾厄之枝烧毁人偶军团，确立保存与焚毁的理念对立。"
+    },
+    {
+      "id": "raziel-phantom-draft",
+      "name": "空中幻稿事件",
+      "summary": "无面亡灵艾拉斯以未完成诗稿收集恐惧，教授与赤之读姬观察幻书孵化。"
+    },
+    {
+      "id": "zombie-atonement-crisis",
+      "name": "王都赎罪僵尸危机",
+      "summary": "恐怖分子以《赎罪之书》转写本制造僵尸化，修伊与哈尔短暂停火。"
+    },
+    {
+      "id": "linking-book-experiment",
+      "name": "连接之书实验",
+      "summary": "纽德沃尔特居民被连接为意识网络，最终以忘却释放痛苦。"
+    }
   ],
   "hiddenEvents": [
-    {"id": "childhood-meeting", "name": "幼年修伊与妲丽安的邂逅", "visibility": "gm-only", "summary": "十年前的相遇暗示钥匙守护者宿命源头。"},
-    {"id": "book-birth-condition", "name": "幻书诞生条件", "visibility": "private", "summary": "幻稿成为幻书需要极端疯狂、恐惧或执念作为魔力。"},
-    {"id": "mineral-life-memory", "name": "矿物生命体与星球记忆", "visibility": "gm-only", "summary": "黑暗大陆石板幻书背后存在收集星球记忆的矿物生命体。"}
+    {
+      "id": "childhood-meeting",
+      "name": "幼年修伊与妲丽安的邂逅",
+      "visibility": "gm-only",
+      "summary": "十年前的相遇暗示钥匙守护者宿命源头。"
+    },
+    {
+      "id": "book-birth-condition",
+      "name": "幻书诞生条件",
+      "visibility": "private",
+      "summary": "幻稿成为幻书需要极端疯狂、恐惧或执念作为魔力。"
+    },
+    {
+      "id": "mineral-life-memory",
+      "name": "矿物生命体与星球记忆",
+      "visibility": "gm-only",
+      "summary": "黑暗大陆石板幻书背后存在收集星球记忆的矿物生命体。"
+    }
   ],
   "rpSafetyAndContinuity": {
     "ocIntegration": "OC 可作为调查者、受害者、军警、贵族、学生、船客、修女、商会雇员、幻书猎人等加入；默认不覆盖修伊和妲丽安的核心契约。",
     "spoilerPolicy": "拉结尔、教授、幻书诞生条件、幼年宿命和黑暗大陆真相默认 private/gm-only。",
     "combatScale": "多数战斗为人类枪械/格斗与幻书规则对抗；幻书可达建筑级、城市级乃至全球灾害级，但应受读者资格、仪式、代价与媒介限制。"
   },
-  "sourceRefs": ["src-dantalian-no-shoka-001"]
+  "sourceRefs": [
+    "src-dantalian-no-shoka-001"
+  ],
+  "worldName": "丹特丽安的书架",
+  "genre": [
+    "复古",
+    "华丽",
+    "颓废",
+    "哥特悬疑",
+    "书籍奇谭",
+    "战后余烬"
+  ],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {}
 }

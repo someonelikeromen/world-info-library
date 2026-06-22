@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "blue-archive",
   "displayName": "蔚蓝档案 / 基沃托斯",
   "curatedFrom": [
@@ -8,10 +8,77 @@
       "title": "鸡窝托斯",
       "sourceRegistryPath": "campaigns/world-library/worlds/blue-archive/source-registry.json",
       "rawPreservedPath": "campaigns/world-library/worlds/blue-archive/raw/imported-worldbooks/鸡窝托斯.worldbook.json",
-      "consultedArchiveFiles": ["world/world.json", "factions/factions.json", "locations/locations.json", "power-systems/power-systems.json", "characters/characters.json", "raw/imported-worldbooks/鸡窝托斯.worldbook.json"],
+      "consultedArchiveFiles": [
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "characters/characters.json",
+        "raw/imported-worldbooks/鸡窝托斯.worldbook.json"
+      ],
       "reliability": "B",
       "notes": "characters/characters.json entryCount 为 0；curated 人物清单明确区分归档提及姓名与 RP 常用岗位/角色类型。"
     }
   ],
-  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose",
+  "campaignId": "blue-archive",
+  "sources": [
+    {
+      "sourceId": "src-blue-archive-001",
+      "type": "user-file-source",
+      "title": "鸡窝托斯",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/blue-archive/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/blue-archive/raw/imported-worldbooks/鸡窝托斯.worldbook.json",
+      "consultedArchiveFiles": [
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "characters/characters.json",
+        "raw/imported-worldbooks/鸡窝托斯.worldbook.json"
+      ],
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "characters/characters.json entryCount 为 0；curated 人物清单明确区分归档提及姓名与 RP 常用岗位/角色类型。",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/blue-archive/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "blue-archive",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. characters/characters.json entryCount 为 0；curated 人物清单明确区分归档提及姓名与 RP 常用岗位/角色类型。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Runtime gate: character coverage is role/archetype/ecology-oriented and must not be interpreted as a complete fixed canon character database.",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "registryUseGate": {
+    "gateType": "role-index-caveat",
+    "characterIndexPolicy": "characters-index mixes a few named canon references with organization posts/RP role types because source character classification was empty",
+    "notCompleteCanonRoster": true,
+    "runtimePolicy": "do not treat every岗位/组织角色 entry as a fixed named canon student; use as RP role slot unless type/sourceStatus says named canon reference"
+  },
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

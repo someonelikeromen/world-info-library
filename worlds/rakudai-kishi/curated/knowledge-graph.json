@@ -1,25 +1,101 @@
 {
-  "schema": "curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "rakudai-kishi",
   "nodes": [
-    {"id": "blazer", "label": "伐刀者", "type": "power-system"},
-    {"id": "device", "label": "固有灵装", "type": "power-system"},
-    {"id": "hagun", "label": "破军学园", "type": "location/faction"},
-    {"id": "seven-stars", "label": "七星剑武祭", "type": "event"},
-    {"id": "liberation", "label": "解放军", "type": "faction"},
-    {"id": "akatsuki", "label": "晓学园", "type": "faction"},
-    {"id": "kurogane-family", "label": "黑铁家", "type": "faction"},
-    {"id": "flame-dragon", "label": "史黛菈的火焰/巨龙概念", "type": "ability"},
-    {"id": "itto-shura", "label": "一刀修罗/罗刹", "type": "ability"},
-    {"id": "complete-control", "label": "完全掌握", "type": "technique"}
+    {
+      "id": "blazer",
+      "label": "伐刀者",
+      "type": "power-system"
+    },
+    {
+      "id": "device",
+      "label": "固有灵装",
+      "type": "power-system"
+    },
+    {
+      "id": "hagun",
+      "label": "破军学园",
+      "type": "location/faction"
+    },
+    {
+      "id": "seven-stars",
+      "label": "七星剑武祭",
+      "type": "event"
+    },
+    {
+      "id": "liberation",
+      "label": "解放军",
+      "type": "faction"
+    },
+    {
+      "id": "akatsuki",
+      "label": "晓学园",
+      "type": "faction"
+    },
+    {
+      "id": "kurogane-family",
+      "label": "黑铁家",
+      "type": "faction"
+    },
+    {
+      "id": "flame-dragon",
+      "label": "史黛菈的火焰/巨龙概念",
+      "type": "ability"
+    },
+    {
+      "id": "itto-shura",
+      "label": "一刀修罗/罗刹",
+      "type": "ability"
+    },
+    {
+      "id": "complete-control",
+      "label": "完全掌握",
+      "type": "technique"
+    }
   ],
   "edges": [
-    {"from": "blazer", "to": "device", "relation": "manifests"},
-    {"from": "hagun", "to": "seven-stars", "relation": "selects-representatives-for"},
-    {"from": "kurogane-family", "to": "hagun", "relation": "pressures-ikki-through"},
-    {"from": "liberation", "to": "akatsuki", "relation": "overlaps-through-agents-and-conflict"},
-    {"from": "itto-shura", "to": "seven-stars", "relation": "decisive-in-selection-and-tournament"},
-    {"from": "flame-dragon", "to": "seven-stars", "relation": "dominates-later-matches"},
-    {"from": "complete-control", "to": "itto-shura", "relation": "complements-ikki-combat-style"}
-  ]
+    {
+      "from": "blazer",
+      "to": "device",
+      "relation": "manifests"
+    },
+    {
+      "from": "hagun",
+      "to": "seven-stars",
+      "relation": "selects-representatives-for"
+    },
+    {
+      "from": "kurogane-family",
+      "to": "hagun",
+      "relation": "pressures-ikki-through"
+    },
+    {
+      "from": "liberation",
+      "to": "akatsuki",
+      "relation": "overlaps-through-agents-and-conflict"
+    },
+    {
+      "from": "itto-shura",
+      "to": "seven-stars",
+      "relation": "decisive-in-selection-and-tournament"
+    },
+    {
+      "from": "flame-dragon",
+      "to": "seven-stars",
+      "relation": "dominates-later-matches"
+    },
+    {
+      "from": "complete-control",
+      "to": "itto-shura",
+      "relation": "complements-ikki-combat-style"
+    }
+  ],
+  "campaignId": "rakudai-kishi",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

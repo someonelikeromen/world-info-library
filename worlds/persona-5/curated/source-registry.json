@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "persona-5",
   "displayName": "女神异闻录5 / Persona 5",
   "curatedFrom": [
@@ -8,10 +8,72 @@
       "title": "--女神5",
       "sourceRegistryPath": "campaigns/world-library/worlds/persona-5/source-registry.json",
       "rawPreservedPath": "campaigns/world-library/worlds/persona-5/raw/imported-worldbooks/--女神5.worldbook.json",
-      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "locations/locations.json", "power-systems/power-systems.json", "canon-reference/timeline.json", "canon-reference/plot-summary.json", "factions/factions.json"],
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "canon-reference/timeline.json",
+        "canon-reference/plot-summary.json",
+        "factions/factions.json"
+      ],
       "reliability": "B",
       "notes": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。"
     }
   ],
-  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose",
+  "campaignId": "persona-5",
+  "sources": [
+    {
+      "sourceId": "src-persona-5-001",
+      "type": "user-file-source",
+      "title": "--女神5",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/persona-5/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/persona-5/raw/imported-worldbooks/--女神5.worldbook.json",
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "canon-reference/timeline.json",
+        "canon-reference/plot-summary.json",
+        "factions/factions.json"
+      ],
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/persona-5/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "persona-5",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. 原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

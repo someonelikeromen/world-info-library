@@ -1,5 +1,5 @@
 {
-  "schema": "curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "testament-sister-new-devil",
   "displayName": "新妹魔王的契约者",
   "curatedFrom": [
@@ -17,5 +17,432 @@
       "notes": "用户提供世界书/角色卡导入；curated 层人工归纳。"
     }
   ],
-  "excludedAsInstructions": ["变量列表", "[mvu_update]变量更新规则", "标准输出格式定义", "绝对攻略法则", "成人化契约细节"]
+  "excludedAsInstructions": [
+    "变量列表",
+    "[mvu_update]变量更新规则",
+    "标准输出格式定义",
+    "绝对攻略法则",
+    "成人化契约细节"
+  ],
+  "campaignId": "testament-sister-new-devil",
+  "sources": [
+    {
+      "sourceId": "src-testament-sister-new-devil-001",
+      "title": "新妹魔王的契约者  爱的契约",
+      "type": "user-file-source",
+      "sourceKind": "character-card-or-worldbook-derived-archive",
+      "localRegistry": "campaigns/world-library/worlds/testament-sister-new-devil/source-registry.json",
+      "classificationFilesRead": [
+        "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+        "campaigns/world-library/worlds/testament-sister-new-devil/world/world.json",
+        "campaigns/world-library/worlds/testament-sister-new-devil/factions/factions.json"
+      ],
+      "reliability": "B",
+      "notes": "用户提供世界书/角色卡导入；curated 层人工归纳。；source-ref 修复：登记为派生片段 sourceId 的父来源，不新增 canon 事实。"
+    },
+    {
+      "sourceId": "characters.json comment 东城刃更",
+      "title": "characters.json comment 东城刃更",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "东城刃更"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 东城迅",
+      "title": "characters.json comment 东城迅",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "东城迅"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 佐基尔",
+      "title": "characters.json comment 佐基尔",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "佐基尔"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 加尔多",
+      "title": "characters.json comment 加尔多",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "加尔多"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 奥尔尼斯",
+      "title": "characters.json comment 奥尔尼斯",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "奥尔尼斯"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 威尔贝特（拉姆萨斯）",
+      "title": "characters.json comment 威尔贝特（拉姆萨斯）",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "威尔贝特（拉姆萨斯）"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 成濑万理亚",
+      "title": "characters.json comment 成濑万理亚",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "成濑万理亚"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 成濑澪",
+      "title": "characters.json comment 成濑澪",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "成濑澪"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 拉姆萨斯/威尔贝特",
+      "title": "characters.json comment 拉姆萨斯/威尔贝特",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "拉姆萨斯/威尔贝特"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 拉法艾琳",
+      "title": "characters.json comment 拉法艾琳",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "拉法艾琳"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 斯波恭一",
+      "title": "characters.json comment 斯波恭一",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "斯波恭一"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 早濑高志",
+      "title": "characters.json comment 早濑高志",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "早濑高志"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 梶浦 立華",
+      "title": "characters.json comment 梶浦 立華",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "梶浦 立華"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 榊千佳",
+      "title": "characters.json comment 榊千佳",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "榊千佳"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 橘七绪",
+      "title": "characters.json comment 橘七绪",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "橘七绪"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 泷川八寻 / 拉斯",
+      "title": "characters.json comment 泷川八寻 / 拉斯",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "泷川八寻 / 拉斯"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 洁丝特",
+      "title": "characters.json comment 洁丝特",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "洁丝特"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 瑟菲雅",
+      "title": "characters.json comment 瑟菲雅",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "瑟菲雅"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 相川志保",
+      "title": "characters.json comment 相川志保",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "相川志保"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 莉雅菈",
+      "title": "characters.json comment 莉雅菈",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "莉雅菈"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 贝尔费格",
+      "title": "characters.json comment 贝尔费格",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "贝尔费格"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 赛莉丝·蕾多哈特",
+      "title": "characters.json comment 赛莉丝·蕾多哈特",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "赛莉丝·蕾多哈特"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 野中柚希",
+      "title": "characters.json comment 野中柚希",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "野中柚希"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 野中胡桃",
+      "title": "characters.json comment 野中胡桃",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "野中胡桃"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 长谷川千里",
+      "title": "characters.json comment 长谷川千里",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "长谷川千里"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 雪菈",
+      "title": "characters.json comment 雪菈",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "雪菈"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 雷欧哈特",
+      "title": "characters.json comment 雷欧哈特",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "雷欧哈特"
+      }
+    },
+    {
+      "sourceId": "characters.json comment 露绮亚",
+      "title": "characters.json comment 露绮亚",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "source-ref 修复：该 sourceId 是 characters.json comment 片段的可追踪派生别名，归属于父来源 src-testament-sister-new-devil-001；保留原 sourceRefs 以避免伪造更细 canon 来源。",
+      "sourceKind": "characters-json-comment-fragment",
+      "parentSourceId": "src-testament-sister-new-devil-001",
+      "location": "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "selector": {
+        "kind": "comment",
+        "value": "露绮亚"
+      }
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "source-ref 修复（2026-06-22）：将 comment/entryIndex/#entry 形式 sourceRefs 登记为父来源的派生别名；这些条目只修复 provenance 可追踪性，不新增或改写 canon 事实。",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

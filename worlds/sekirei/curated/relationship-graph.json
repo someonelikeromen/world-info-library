@@ -1,1 +1,360 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library","cardId":"sekirei","nodes":[{"id":"minato","type":"character","name":"佐桥皆人","aliases":[],"visibility":"public","summary":"苇牙。","tags":["ashikabi"],"metadata":{}},{"id":"musubi","type":"character","name":"结","aliases":["#88"],"visibility":"public","summary":"拳系鹡鸰。","tags":["sekirei"],"metadata":{}},{"id":"tsukiumi","type":"character","name":"月海","aliases":["#9"],"visibility":"public","summary":"水系鹡鸰。","tags":["sekirei"],"metadata":{}},{"id":"matsu","type":"character","name":"松","aliases":["#2"],"visibility":"public","summary":"情报鹡鸰。","tags":["sekirei"],"metadata":{}},{"id":"mbi","type":"faction","name":"M.B.I.","aliases":[],"visibility":"public","summary":"操盘组织。","tags":["faction"],"metadata":{}}],"edges":[{"id":"rel-minato-musubi","from":"minato","to":"musubi","type":"contract","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"首位核心契约。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":"E","debt":"B","loyalty":"A","hostility":"E"},"publicDescription":"皆人羽化结并共同战斗。","gmTruth":"结的成长与皆人保护意志强绑定。","evidence":["src-sekirei-001"],"history":[],"conditions":[],"notes":""},{"id":"rel-minato-tsukiumi","from":"minato","to":"tsukiumi","type":"contract","directional":false,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"强烈情感契约。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":"C","debt":null,"loyalty":"A","hostility":"E"},"publicDescription":"月海成为皆人鹡鸰并自认正妻。","gmTruth":"傲娇言辞下高度依赖。","evidence":["src-sekirei-001"],"history":[],"conditions":[],"notes":""},{"id":"rel-mbi-minato","from":"mbi","to":"minato","type":"command","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"B","score":70,"description":"规则压迫。"},"facets":{"trust":"E","affection":null,"fear":"B","suspicion":"A","debt":null,"loyalty":null,"hostility":"B"},"publicDescription":"MBI通过计划规则压迫所有苇牙。","gmTruth":"皆人的多重适性令其成为重点变量。","evidence":["src-sekirei-001"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["minato","musubi","tsukiumi","matsu","mbi"],"gmHighlightedNodeIds":["mbi"],"activeSceneNodeIds":["minato","musubi"]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library",
+  "cardId": "sekirei",
+  "nodes": [
+    {
+      "id": "minato",
+      "type": "character",
+      "name": "佐桥皆人",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "苇牙。",
+      "tags": [
+        "ashikabi"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "musubi",
+      "type": "character",
+      "name": "结",
+      "aliases": [
+        "#88"
+      ],
+      "visibility": "public",
+      "summary": "拳系鹡鸰。",
+      "tags": [
+        "sekirei"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "tsukiumi",
+      "type": "character",
+      "name": "月海",
+      "aliases": [
+        "#9"
+      ],
+      "visibility": "public",
+      "summary": "水系鹡鸰。",
+      "tags": [
+        "sekirei"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "matsu",
+      "type": "character",
+      "name": "松",
+      "aliases": [
+        "#2"
+      ],
+      "visibility": "public",
+      "summary": "情报鹡鸰。",
+      "tags": [
+        "sekirei"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "mbi",
+      "type": "faction",
+      "name": "M.B.I.",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "操盘组织。",
+      "tags": [
+        "faction"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "kusano",
+      "type": "character",
+      "name": "草野",
+      "aliases": [
+        "Kusano",
+        "#108",
+        "小草"
+      ],
+      "visibility": "public",
+      "summary": "幼年植物系鹡鸰，能操纵植物，队伍保护对象兼支援。",
+      "tags": [
+        "鹡鸰",
+        "支援"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "kazehana",
+      "type": "character",
+      "name": "风花",
+      "aliases": [
+        "Kazehana",
+        "#3"
+      ],
+      "visibility": "public",
+      "summary": "风系鹡鸰，成熟奔放，实力强大。",
+      "tags": [
+        "鹡鸰",
+        "风能力者"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "homura",
+      "type": "character",
+      "name": "焰",
+      "aliases": [
+        "Homura",
+        "Kagari",
+        "#6"
+      ],
+      "visibility": "public",
+      "summary": "火系鹡鸰，曾以惩罚部队相关身份行动，性别/身体状态是重要个人线。",
+      "tags": [
+        "鹡鸰",
+        "火能力者"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "miya",
+      "type": "character",
+      "name": "浅间美哉",
+      "aliases": [
+        "Miya Asama",
+        "#01"
+      ],
+      "visibility": "private",
+      "summary": "出云庄房东，温柔外表下隐藏极高战力与第一编号背景。",
+      "tags": [
+        "房东",
+        "隐藏强者"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "karasuba",
+      "type": "character",
+      "name": "鸦羽",
+      "aliases": [
+        "Karasuba",
+        "#4"
+      ],
+      "visibility": "public",
+      "summary": "惩罚部队核心战力，嗜战剑士，结的重要对手。",
+      "tags": [
+        "敌对强者",
+        "剑士"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "minaka",
+      "type": "character",
+      "name": "御中广人",
+      "aliases": [
+        "Minaka Hiroto"
+      ],
+      "visibility": "public",
+      "summary": "MBI社长，鹡鸰计划操盘者，性格夸张而危险。",
+      "tags": [
+        "幕后操盘者",
+        "企业支配者"
+      ],
+      "metadata": {
+        "source": "characters-index",
+        "q5Repair": "relationship-coverage"
+      }
+    },
+    {
+      "id": "takami",
+      "type": "character",
+      "name": "佐桥高美",
+      "aliases": [
+        "Sahashi Takami"
+      ],
+      "visibility": "private",
+      "summary": "MBI研究人员，皆人与由香理之母。",
+      "tags": [
+        "researcher"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "shiina",
+      "type": "character",
+      "name": "椎菜",
+      "aliases": [
+        "Shiina",
+        "#107"
+      ],
+      "visibility": "public",
+      "summary": "草野的兄妹式对应鹡鸰。",
+      "tags": [
+        "sekirei"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    },
+    {
+      "id": "disciplinary-squad",
+      "type": "group",
+      "name": "惩罚部队",
+      "aliases": [
+        "Disciplinary Squad"
+      ],
+      "visibility": "public",
+      "summary": "MBI麾下高危鹡鸰执行小队。",
+      "tags": [
+        "group"
+      ],
+      "metadata": {
+        "source": "q5-relationship-low",
+        "q5Repair": "relationship-target"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-minato-musubi",
+      "from": "minato",
+      "to": "musubi",
+      "type": "contract",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "首位核心契约。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "E",
+        "debt": "B",
+        "loyalty": "A",
+        "hostility": "E"
+      },
+      "publicDescription": "皆人羽化结并共同战斗。",
+      "gmTruth": "结的成长与皆人保护意志强绑定。",
+      "evidence": [
+        "src-sekirei-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-minato-tsukiumi",
+      "from": "minato",
+      "to": "tsukiumi",
+      "type": "contract",
+      "directional": false,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "强烈情感契约。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": "C",
+        "debt": null,
+        "loyalty": "A",
+        "hostility": "E"
+      },
+      "publicDescription": "月海成为皆人鹡鸰并自认正妻。",
+      "gmTruth": "傲娇言辞下高度依赖。",
+      "evidence": [
+        "src-sekirei-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-mbi-minato",
+      "from": "mbi",
+      "to": "minato",
+      "type": "command",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "B",
+        "score": 70,
+        "description": "规则压迫。"
+      },
+      "facets": {
+        "trust": "E",
+        "affection": null,
+        "fear": "B",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "B"
+      },
+      "publicDescription": "MBI通过计划规则压迫所有苇牙。",
+      "gmTruth": "皆人的多重适性令其成为重点变量。",
+      "evidence": [
+        "src-sekirei-001"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "minato",
+      "musubi",
+      "tsukiumi",
+      "matsu",
+      "mbi",
+      "kusano",
+      "kazehana",
+      "homura",
+      "karasuba",
+      "minaka",
+      "shiina",
+      "disciplinary-squad"
+    ],
+    "gmHighlightedNodeIds": [
+      "mbi",
+      "miya",
+      "takami"
+    ],
+    "activeSceneNodeIds": [
+      "minato",
+      "musubi"
+    ]
+  }
+}

@@ -2,10 +2,24 @@
   "schema": "rp-world-v1",
   "worldId": "madan-no-ou",
   "displayName": "魔弹之王与战姬",
-  "aliases": ["Madan no Ou to Vanadis", "魔弹之王与冻涟的雪姬", "冻涟的雪姬"],
-  "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5", "src-madan-no-ou-001#entry-14"],
+  "aliases": [
+    "Madan no Ou to Vanadis",
+    "魔弹之王与冻涟的雪姬",
+    "冻涟的雪姬"
+  ],
+  "sourceRefs": [
+    "src-madan-no-ou-001#entry-0",
+    "src-madan-no-ou-001#entry-5",
+    "src-madan-no-ou-001#entry-14"
+  ],
   "curationStatus": "manual-curated-v1",
-  "genreTone": ["中世纪欧洲风奇幻", "战争史诗", "政治权谋", "龙具元素战斗", "角色羁绊"],
+  "genreTone": [
+    "中世纪欧洲风奇幻",
+    "战争史诗",
+    "政治权谋",
+    "龙具元素战斗",
+    "角色羁绊"
+  ],
   "summary": "大陆以布琉努王国与吉斯塔特王国为核心。布琉努重骑士与封建贵族秩序，吉斯塔特由国王和七名持龙具的战姬共同维系。亚尔萨斯伯爵堤格尔因迪南特战役被银闪战姬艾蕾欧诺拉俘虏，随后卷入布琉努内乱、亚斯瓦尔王位战、墨吉涅侵攻、吉斯塔特内乱与黑弓/魔物的远古谜团。",
   "continuityModel": {
     "canonicalMain": "《魔弹之王与战姬》本篇：堤格尔为亚尔萨斯伯爵，艾莲为第一位关键战姬，布琉努内乱后蕾琪登基，最终堤格尔成为两国之王。",
@@ -14,20 +28,31 @@
         "id": "mira-if",
         "name": "魔弹之王与冻涟的雪姬 IF",
         "summary": "米拉/奥尔米兹被置于第一女主角和初遇核心位置；堤格尔父亲等人物状态与本篇不同，拉娜·露利叶等人物可能存活。",
-        "sourceRefs": ["src-madan-no-ou-001#entry-18", "src-madan-no-ou-001#entry-44.."]
+        "sourceRefs": [
+          "src-madan-no-ou-001#entry-18",
+          "src-madan-no-ou-001#entry-44.."
+        ]
       },
       {
         "id": "rp-replacement-or-coexistence",
         "name": "RP 取代/共存模式",
         "summary": "堤格尔可不存在或作为 NPC 存在；curated 档案只记录世界事实，不替用户模式做身份判定。",
-        "sourceRefs": ["src-madan-no-ou-001#entry-1", "src-madan-no-ou-001#entry-2"]
+        "sourceRefs": [
+          "src-madan-no-ou-001#entry-1",
+          "src-madan-no-ou-001#entry-2"
+        ]
       }
     ]
   },
   "setting": {
     "techLevel": "中世纪封建军事技术，存在龙具/黑弓等超常武装",
     "geography": "布琉努与吉斯塔特隔孚日山脉相邻；布琉努西邻萨克斯坦，西北隔海对亚斯瓦尔，东南接墨吉涅；吉斯塔特北临极寒海域。",
-    "units": ["1切特=1分米", "1阿尔昔=1米", "1贝鲁斯塔=1千米", "1刻=2小时"],
+    "units": [
+      "1切特=1分米",
+      "1阿尔昔=1米",
+      "1贝鲁斯塔=1千米",
+      "1刻=2小时"
+    ],
     "publicPremise": "龙是真实巨型生物；七战姬由七件龙具选择；大陆各国以王权、贵族、军队与战姬军事权威相互制衡。",
     "hiddenPremise": "冯伦家黑弓实为女神蒂尔·纳·法授予人类的武器，持有者可能成为降临容器；魔物知道黑弓真相并企图颠覆世界。"
   },
@@ -37,63 +62,482 @@
       "name": "龙具",
       "type": "sentient-legendary-weapons",
       "summary": "七件传说武具拥有独立意志并自主选择战姬。可操控元素或空间，最大释放称龙技，足以一击击倒龙，但会剧烈消耗持有者，耗尽后约七个月化为灰白石恢复。",
-      "items": ["艾利菲尔", "拉斐亚斯", "萨德", "巴尔格雷", "沃利兹夫", "艾萨帝斯", "姆玛"],
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5"]
+      "items": [
+        "艾利菲尔",
+        "拉斐亚斯",
+        "萨德",
+        "巴尔格雷",
+        "沃利兹夫",
+        "艾萨帝斯",
+        "姆玛"
+      ],
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-5"
+      ]
     },
     {
       "id": "black-bow",
       "name": "黑弓",
       "type": "divine-weapon",
       "summary": "冯伦家传黑弓，可与龙具共鸣并把龙具力量附加在箭矢上，是对抗魔物的关键。真正力量为黑色光束箭矢，威力可比龙技，但与女神降临和持有者生命力相关。",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5"]
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-5"
+      ]
     },
     {
       "id": "human-martial-systems",
       "name": "人类武技与军制",
       "type": "mundane-military",
       "summary": "布琉努重视骑士突击且蔑视弓箭；堤格尔的猎人弓术是例外。萨克斯坦佣兵和攻城器具、纳瓦拉骑士团、各国常备军构成非超常战力基盘。",
-      "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5"]
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-5"
+      ]
+    },
+    {
+      "id": "archery-martial-arts",
+      "name": "弓术",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "dragon-gear-resonance",
+      "name": "龙具共鸣",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "demon-abilities",
+      "name": "魔物能力",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "demon-related-late",
+      "name": "魔物相关（后期）",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
+    },
+    {
+      "id": "dragon-gear-related",
+      "name": "龙具相关",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的能力/机制节点；需后续人工补强。"
     }
   ],
   "factions": [
-    {"id": "brune", "name": "布琉努王国", "type": "kingdom", "capital": "尼斯", "banner": "红马旗", "summary": "封建贵族制，骑士传统强，内乱由泰纳帝迪耶与嘉奴隆两大公爵激化；蕾琪继位后成为首位女王。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "zhcted", "name": "吉斯塔特王国", "type": "kingdom", "capital": "席雷吉亚", "banner": "黑龙旗", "summary": "三百年前建国，国王下设七战姬与七公国。国王与战姬间长期存在猜忌。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "leitmeritz", "name": "莱德梅里兹公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "艾莲治理，黑底银剑旗，与亚尔萨斯隔山相邻，与奥尔米兹有传统对立。", "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-14"]},
-    {"id": "olmutz", "name": "奥尔米兹公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "米拉治理，白底青枪旗，塔特洛山堡垒防御严密，与莱德梅里兹长期对立。", "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-14"]},
-    {"id": "polesia", "name": "波利西亚公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "苏菲亚治理的南方公国。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "legnica", "name": "莱格尼察公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "亚莉莎德拉治理的西北临海公国，黄底双剑旗。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "lebus", "name": "路伯修公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "伊莉莎维塔治理的西北临海公国，紫底金鞭旗，尊崇异彩虹瞳。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "osterode", "name": "奥斯特罗德公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "凡伦蒂娜治理的东北公国，北方临极寒浮冰海洋，后卷入女王野心与吉斯塔特内乱。", "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-22"]},
-    {"id": "brest", "name": "布列斯特公国", "type": "duchy", "parent": "吉斯塔特王国", "summary": "奥尔嘉治理，位于奥斯特罗德南方，骑马之民为主力。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "asvarre", "name": "亚斯瓦尔王国", "type": "island-kingdom", "summary": "布琉努西北方海岛国，王位继承内乱后塔拉多在堤格尔协助下继位。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "sachstein", "name": "萨克斯坦王国", "type": "kingdom", "summary": "布琉努西方山森之国，土豪势力强，佣兵、强韧弓箭和投石机闻名。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "muozinel", "name": "墨吉涅王国", "type": "desert-kingdom", "summary": "布琉努东南方炎热沙漠国，保留奴隶制度且好战，国王克雷伊修。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]}
+    {
+      "id": "brune",
+      "name": "布琉努王国",
+      "type": "kingdom",
+      "capital": "尼斯",
+      "banner": "红马旗",
+      "summary": "封建贵族制，骑士传统强，内乱由泰纳帝迪耶与嘉奴隆两大公爵激化；蕾琪继位后成为首位女王。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "zhcted",
+      "name": "吉斯塔特王国",
+      "type": "kingdom",
+      "capital": "席雷吉亚",
+      "banner": "黑龙旗",
+      "summary": "三百年前建国，国王下设七战姬与七公国。国王与战姬间长期存在猜忌。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "leitmeritz",
+      "name": "莱德梅里兹公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "艾莲治理，黑底银剑旗，与亚尔萨斯隔山相邻，与奥尔米兹有传统对立。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-14"
+      ]
+    },
+    {
+      "id": "olmutz",
+      "name": "奥尔米兹公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "米拉治理，白底青枪旗，塔特洛山堡垒防御严密，与莱德梅里兹长期对立。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-14"
+      ]
+    },
+    {
+      "id": "polesia",
+      "name": "波利西亚公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "苏菲亚治理的南方公国。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "legnica",
+      "name": "莱格尼察公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "亚莉莎德拉治理的西北临海公国，黄底双剑旗。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "lebus",
+      "name": "路伯修公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "伊莉莎维塔治理的西北临海公国，紫底金鞭旗，尊崇异彩虹瞳。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "osterode",
+      "name": "奥斯特罗德公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "凡伦蒂娜治理的东北公国，北方临极寒浮冰海洋，后卷入女王野心与吉斯塔特内乱。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-22"
+      ]
+    },
+    {
+      "id": "brest",
+      "name": "布列斯特公国",
+      "type": "duchy",
+      "parent": "吉斯塔特王国",
+      "summary": "奥尔嘉治理，位于奥斯特罗德南方，骑马之民为主力。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "asvarre",
+      "name": "亚斯瓦尔王国",
+      "type": "island-kingdom",
+      "summary": "布琉努西北方海岛国，王位继承内乱后塔拉多在堤格尔协助下继位。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "sachstein",
+      "name": "萨克斯坦王国",
+      "type": "kingdom",
+      "summary": "布琉努西方山森之国，土豪势力强，佣兵、强韧弓箭和投石机闻名。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "muozinel",
+      "name": "墨吉涅王国",
+      "type": "desert-kingdom",
+      "summary": "布琉努东南方炎热沙漠国，保留奴隶制度且好战，国王克雷伊修。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "silver-meteor-army",
+      "name": "银色流星军",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "lourie-family",
+      "name": "露利叶家",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "alshavin-family",
+      "name": "阿尔夏芬家",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "brune-royal-house",
+      "name": "布琉努王室",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "zhcted-royal-house",
+      "name": "吉斯塔特王室",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "vorn-family",
+      "name": "冯伦家",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "ode-nobility",
+      "name": "奥德",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "lutetia",
+      "name": "卢堤迪亚",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "nemetacum-duchy",
+      "name": "涅梅塔库",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "demons",
+      "name": "魔物",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "ancient-divine",
+      "name": "远古/神性",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的势力/归属节点；需后续人工补强。"
+    },
+    {
+      "id": "alsace-domain",
+      "name": "亚尔萨斯领",
+      "aliases": [
+        "亚尔萨斯"
+      ],
+      "type": "territorial-domain",
+      "summary": "以亚尔萨斯领地/冯伦家治理共同体为角色归属使用的规范化势力节点。"
+    }
   ],
   "locations": [
-    {"id": "alsace", "name": "亚尔萨斯", "type": "territory", "controller": "堤格尔维尔穆德·冯伦", "summary": "布琉努北部边境领地，多森林山地，中心城市榭雷斯塔，少数不歧视弓箭的地区。"},
-    {"id": "nice", "name": "尼斯", "type": "capital", "controller": "布琉努王室", "summary": "布琉努王都。"},
-    {"id": "silesia", "name": "席雷吉亚", "type": "capital", "controller": "吉斯塔特王室", "summary": "吉斯塔特王都。"},
-    {"id": "vosges", "name": "孚日山脉", "type": "mountain-border", "summary": "布琉努与吉斯塔特之间的天然国境。"},
-    {"id": "tatras", "name": "塔特洛山", "type": "fortress-mountain", "controller": "奥尔米兹公国", "summary": "米拉公国关键防御地，壕沟、栅栏、土墙与弓兵高台构成多层体系。"},
-    {"id": "artishem", "name": "亚尔堤西姆/圣窟宫", "type": "city-hidden-ruin", "controller": "嘉奴隆公爵领", "summary": "卢堤迪亚核心都市及地下圣窟宫，后期黑弓与魔物真相、最终决战相关。"}
+    {
+      "id": "alsace",
+      "name": "亚尔萨斯",
+      "type": "territory",
+      "controller": "堤格尔维尔穆德·冯伦",
+      "summary": "布琉努北部边境领地，多森林山地，中心城市榭雷斯塔，少数不歧视弓箭的地区。"
+    },
+    {
+      "id": "nice",
+      "name": "尼斯",
+      "type": "capital",
+      "controller": "布琉努王室",
+      "summary": "布琉努王都。"
+    },
+    {
+      "id": "silesia",
+      "name": "席雷吉亚",
+      "type": "capital",
+      "controller": "吉斯塔特王室",
+      "summary": "吉斯塔特王都。"
+    },
+    {
+      "id": "vosges",
+      "name": "孚日山脉",
+      "type": "mountain-border",
+      "summary": "布琉努与吉斯塔特之间的天然国境。"
+    },
+    {
+      "id": "tatras",
+      "name": "塔特洛山",
+      "type": "fortress-mountain",
+      "controller": "奥尔米兹公国",
+      "summary": "米拉公国关键防御地，壕沟、栅栏、土墙与弓兵高台构成多层体系。"
+    },
+    {
+      "id": "artishem",
+      "name": "亚尔堤西姆/圣窟宫",
+      "type": "city-hidden-ruin",
+      "controller": "嘉奴隆公爵领",
+      "summary": "卢堤迪亚核心都市及地下圣窟宫，后期黑弓与魔物真相、最终决战相关。"
+    },
+    {
+      "id": "sheresuta",
+      "name": "榭雷斯塔",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "leitmeritz-seat",
+      "name": "莱德梅里兹",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "olmutz-seat",
+      "name": "奥尔米兹",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "polesia-seat",
+      "name": "波利西亚",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "legnica-seat",
+      "name": "莱格尼察",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "lebus-seat",
+      "name": "路伯修",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "osterode-seat",
+      "name": "奥斯特罗德",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "brest-seat",
+      "name": "布列斯特",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "ode",
+      "name": "奥德",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "reims",
+      "name": "兰斯",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "nemetacum",
+      "name": "涅梅塔库",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "muozinel-region",
+      "name": "墨吉涅",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "asvarre-region",
+      "name": "亚斯瓦尔",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    },
+    {
+      "id": "sachstein-region",
+      "name": "萨克斯坦",
+      "type": "normalization-stub",
+      "summary": "为角色索引规范化补入的地点节点；需后续按卷别补充细节。"
+    }
   ],
   "speciesAndThreats": [
-    {"id": "dragons", "name": "龙", "summary": "深山荒野栖息的巨型生物，身体坚固，常规武器难损；包括地龙、飞龙、火龙、双头龙、海龙等。"},
-    {"id": "demons", "name": "魔物", "summary": "具有人类本性的异形存在，远超人类身体能力并具自愈力，流黑血，被击杀后化作土块碎裂；共七只，与战姬宿敌，目标是颠覆世界。"}
+    {
+      "id": "dragons",
+      "name": "龙",
+      "summary": "深山荒野栖息的巨型生物，身体坚固，常规武器难损；包括地龙、飞龙、火龙、双头龙、海龙等。"
+    },
+    {
+      "id": "demons",
+      "name": "魔物",
+      "summary": "具有人类本性的异形存在，远超人类身体能力并具自愈力，流黑血，被击杀后化作土块碎裂；共七只，与战姬宿敌，目标是颠覆世界。"
+    }
   ],
   "majorEvents": [
-    {"id": "dinant-capture", "visibility": "public", "summary": "迪南特战役后堤格尔被艾莲俘虏，成为布琉努与吉斯塔特关系变化的起点。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "brune-civil-war-1", "visibility": "public", "summary": "法隆国王失政，两大公爵发动内乱；堤格尔借吉斯塔特力量组织银色流星军并平定局势。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "regin-coronation", "visibility": "public", "summary": "被认为战死的王子真身蕾琪存活并继位，成为布琉努首位女王。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "asvarre-war", "visibility": "public", "summary": "亚斯瓦尔王位继承内乱中，堤格尔介入并协助塔拉多继位。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "lebus-amnesia", "visibility": "public", "summary": "堤格尔一度失忆并漂流至路伯修，后恢复记忆并重获黑弓。", "sourceRefs": ["src-madan-no-ou-001#entry-0"]},
-    {"id": "zhcted-valentina-rebellion", "visibility": "gm-only", "summary": "凡伦蒂娜策划吉斯塔特内乱与王位夺取，利用王子、战姬和外国势力。", "sourceRefs": ["src-madan-no-ou-001#entry-22"]},
-    {"id": "sacred-cavern-final", "visibility": "gm-only", "summary": "嘉奴隆与魔物、墨吉涅勾结后引发圣窟宫决战，黑弓与蒂尔·纳·法谜团进入核心。", "sourceRefs": ["src-madan-no-ou-001#entry-0", "src-madan-no-ou-001#entry-5"]}
+    {
+      "id": "dinant-capture",
+      "visibility": "public",
+      "summary": "迪南特战役后堤格尔被艾莲俘虏，成为布琉努与吉斯塔特关系变化的起点。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "brune-civil-war-1",
+      "visibility": "public",
+      "summary": "法隆国王失政，两大公爵发动内乱；堤格尔借吉斯塔特力量组织银色流星军并平定局势。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "regin-coronation",
+      "visibility": "public",
+      "summary": "被认为战死的王子真身蕾琪存活并继位，成为布琉努首位女王。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "asvarre-war",
+      "visibility": "public",
+      "summary": "亚斯瓦尔王位继承内乱中，堤格尔介入并协助塔拉多继位。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "lebus-amnesia",
+      "visibility": "public",
+      "summary": "堤格尔一度失忆并漂流至路伯修，后恢复记忆并重获黑弓。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0"
+      ]
+    },
+    {
+      "id": "zhcted-valentina-rebellion",
+      "visibility": "gm-only",
+      "summary": "凡伦蒂娜策划吉斯塔特内乱与王位夺取，利用王子、战姬和外国势力。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-22"
+      ]
+    },
+    {
+      "id": "sacred-cavern-final",
+      "visibility": "gm-only",
+      "summary": "嘉奴隆与魔物、墨吉涅勾结后引发圣窟宫决战，黑弓与蒂尔·纳·法谜团进入核心。",
+      "sourceRefs": [
+        "src-madan-no-ou-001#entry-0",
+        "src-madan-no-ou-001#entry-5"
+      ]
+    }
   ],
   "rpUseNotes": [
     "不要把七战姬写成单纯附庸；她们是各自公国的政治军事领袖。",
     "龙技应有显著体力/武器恢复代价，不能无限滥用。",
     "本篇与冻涟 IF 的人物命运需按模式分支处理。",
     "取代/共存模式下，不应把堤格尔的身份、黑弓或性格强加给用户角色。"
-  ]
+  ],
+  "worldName": "魔弹之王与战姬",
+  "genre": [],
+  "sandboxPrinciple": {},
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {},
+  "notes": [],
+  "energyEnvironment": {},
+  "worldRules": {},
+  "publicEvents": [],
+  "hiddenEvents": []
 }

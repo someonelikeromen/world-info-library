@@ -1,15 +1,340 @@
 {
-  "schema": "rp-curated-relationship-graph-v1",
+  "schema": "rp-relationship-graph-v1",
   "worldSlug": "infinite-stratos",
   "relationships": [
-    {"from": "chifuyu-orimura", "to": "ichika-orimura", "type": "elder-sister-and-guardian", "notes": "千冬是一夏姐姐，也是学园权威角色。"},
-    {"from": "houki-shinonono", "to": "ichika-orimura", "type": "childhood-friend", "notes": "箒与一夏有青梅竹马关系。"},
-    {"from": "huang-lingyin", "to": "ichika-orimura", "type": "childhood-friend", "notes": "铃音也是一夏旧识。"},
-    {"from": "cecilia-alcott", "to": "ichika-orimura", "type": "classmate-rival", "notes": "英国代表候补生与男性驾驶者之间常形成竞争/关注关系。"},
-    {"from": "charlotte-dunois", "to": "ichika-orimura", "type": "classmate-ally", "notes": "法国代表候补生与一夏同处学园社交圈。"},
-    {"from": "laura-bodewig", "to": "chifuyu-orimura", "type": "admires", "notes": "拉芙拉常与千冬的军人/强者权威相关。"},
-    {"from": "tatenashi-sarashiki", "to": "kanzashi-sarashiki", "type": "sisters", "notes": "更识姐妹。"},
-    {"from": "tabane-shinonono", "to": "houki-shinonono", "type": "sisters", "notes": "束是箒的姐姐，与 IS 技术根源相连。"},
-    {"from": "squall-meusel", "to": "autumn", "type": "same-faction", "notes": "同属亡国机业一类反派网络。"}
-  ]
+    {
+      "from": "chifuyu-orimura",
+      "to": "ichika-orimura",
+      "type": "elder-sister-and-guardian",
+      "notes": "千冬是一夏姐姐，也是学园权威角色。"
+    },
+    {
+      "from": "houki-shinonono",
+      "to": "ichika-orimura",
+      "type": "childhood-friend",
+      "notes": "箒与一夏有青梅竹马关系。"
+    },
+    {
+      "from": "huang-lingyin",
+      "to": "ichika-orimura",
+      "type": "childhood-friend",
+      "notes": "铃音也是一夏旧识。"
+    },
+    {
+      "from": "cecilia-alcott",
+      "to": "ichika-orimura",
+      "type": "classmate-rival",
+      "notes": "英国代表候补生与男性驾驶者之间常形成竞争/关注关系。"
+    },
+    {
+      "from": "charlotte-dunois",
+      "to": "ichika-orimura",
+      "type": "classmate-ally",
+      "notes": "法国代表候补生与一夏同处学园社交圈。"
+    },
+    {
+      "from": "laura-bodewig",
+      "to": "chifuyu-orimura",
+      "type": "admires",
+      "notes": "拉芙拉常与千冬的军人/强者权威相关。"
+    },
+    {
+      "from": "tatenashi-sarashiki",
+      "to": "kanzashi-sarashiki",
+      "type": "sisters",
+      "notes": "更识姐妹。"
+    },
+    {
+      "from": "tabane-shinonono",
+      "to": "houki-shinonono",
+      "type": "sisters",
+      "notes": "束是箒的姐姐，与 IS 技术根源相连。"
+    },
+    {
+      "from": "squall-meusel",
+      "to": "autumn",
+      "type": "same-faction",
+      "notes": "同属亡国机业一类反派网络。"
+    }
+  ],
+  "campaignId": "infinite-stratos",
+  "nodes": [
+    {
+      "id": "chifuyu-orimura",
+      "label": "chifuyu-orimura",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'chifuyu-orimura'."
+      ],
+      "name": "织斑千冬",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "chifuyu-orimura",
+          "mappedId": "chifuyu-orimura",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "ichika-orimura",
+      "label": "ichika-orimura",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'ichika-orimura'."
+      ],
+      "name": "织斑一夏",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "ichika-orimura",
+          "mappedId": "ichika-orimura",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "houki-shinonono",
+      "label": "houki-shinonono",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'houki-shinonono'."
+      ],
+      "name": "筱之之箒",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "houki-shinonono",
+          "mappedId": "houki-shinonono",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "huang-lingyin",
+      "label": "huang-lingyin",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'huang-lingyin'."
+      ],
+      "name": "凰铃音",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "huang-lingyin",
+          "mappedId": "huang-lingyin",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "cecilia-alcott",
+      "label": "cecilia-alcott",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'cecilia-alcott'."
+      ],
+      "name": "塞西莉亚·奥尔科特",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "cecilia-alcott",
+          "mappedId": "cecilia-alcott",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "charlotte-dunois",
+      "label": "charlotte-dunois",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'charlotte-dunois'."
+      ],
+      "name": "夏洛特·迪努亚",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "charlotte-dunois",
+          "mappedId": "charlotte-dunois",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "laura-bodewig",
+      "label": "laura-bodewig",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'laura-bodewig'."
+      ],
+      "name": "拉芙拉·布迪威伊",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "laura-bodewig",
+          "mappedId": "laura-bodewig",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "tatenashi-sarashiki",
+      "label": "tatenashi-sarashiki",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'tatenashi-sarashiki'."
+      ],
+      "name": "更识楯无",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "tatenashi-sarashiki",
+          "mappedId": "tatenashi-sarashiki",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "kanzashi-sarashiki",
+      "label": "kanzashi-sarashiki",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'kanzashi-sarashiki'."
+      ],
+      "name": "更识簪",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "kanzashi-sarashiki",
+          "mappedId": "kanzashi-sarashiki",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "tabane-shinonono",
+      "label": "tabane-shinonono",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'tabane-shinonono'."
+      ],
+      "name": "筱之之束",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "tabane-shinonono",
+          "mappedId": "tabane-shinonono",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "squall-meusel",
+      "label": "squall-meusel",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'squall-meusel'."
+      ],
+      "name": "斯可儿·缪洁尔",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "squall-meusel",
+          "mappedId": "squall-meusel",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    },
+    {
+      "id": "autumn",
+      "label": "autumn",
+      "type": "character",
+      "notes": [
+        "Q4 normalized from legacy structural stub; mapped to characters-index entry 'autumn'."
+      ],
+      "name": "奥坦姆",
+      "metadata": {
+        "q4SourceRiskReview": {
+          "status": "resolved-by-curated-index-match",
+          "originalId": "autumn",
+          "mappedId": "autumn",
+          "mappedKind": "character",
+          "reviewStep": "source-risk-review-q4"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "chifuyu-orimura",
+      "to": "ichika-orimura",
+      "type": "elder-sister-and-guardian",
+      "notes": "千冬是一夏姐姐，也是学园权威角色。"
+    },
+    {
+      "from": "houki-shinonono",
+      "to": "ichika-orimura",
+      "type": "childhood-friend",
+      "notes": "箒与一夏有青梅竹马关系。"
+    },
+    {
+      "from": "huang-lingyin",
+      "to": "ichika-orimura",
+      "type": "childhood-friend",
+      "notes": "铃音也是一夏旧识。"
+    },
+    {
+      "from": "cecilia-alcott",
+      "to": "ichika-orimura",
+      "type": "classmate-rival",
+      "notes": "英国代表候补生与男性驾驶者之间常形成竞争/关注关系。"
+    },
+    {
+      "from": "charlotte-dunois",
+      "to": "ichika-orimura",
+      "type": "classmate-ally",
+      "notes": "法国代表候补生与一夏同处学园社交圈。"
+    },
+    {
+      "from": "laura-bodewig",
+      "to": "chifuyu-orimura",
+      "type": "admires",
+      "notes": "拉芙拉常与千冬的军人/强者权威相关。"
+    },
+    {
+      "from": "tatenashi-sarashiki",
+      "to": "kanzashi-sarashiki",
+      "type": "sisters",
+      "notes": "更识姐妹。"
+    },
+    {
+      "from": "tabane-shinonono",
+      "to": "houki-shinonono",
+      "type": "sisters",
+      "notes": "束是箒的姐姐，与 IS 技术根源相连。"
+    },
+    {
+      "from": "squall-meusel",
+      "to": "autumn",
+      "type": "same-faction",
+      "notes": "同属亡国机业一类反派网络。"
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

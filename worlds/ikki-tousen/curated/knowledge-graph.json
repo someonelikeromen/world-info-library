@@ -1,1 +1,214 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"ikki-tousen","nodes":[{"id":"magatama","type":"power-system","name":"勾玉"},{"id":"toushi","type":"role","name":"斗士"},{"id":"dragon-destiny","type":"power-system","name":"龙/霸王宿命"},{"id":"nanyo","type":"faction","name":"南阳学院"},{"id":"seito","type":"faction","name":"成都学园"},{"id":"kyosho","type":"faction","name":"许昌学院"},{"id":"rakuyo","type":"faction","name":"洛阳高校"},{"id":"kansai","type":"faction","name":"关西势力"}],"edges":[{"from":"magatama","to":"toushi","type":"empowers","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"dragon-destiny","to":"sonsaku-hakufu","type":"affects","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"dragon-destiny","to":"ryubi-gentoku","type":"affects","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"dragon-destiny","to":"sosou-moutoku","type":"affects","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"nanyo","to":"kyosho","type":"rival","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"seito","to":"kyosho","type":"rival-ally-variable","visibility":"public","sourceRefs":["src-ikki-tousen-001"]},{"from":"kansai","to":"nanyo","type":"later-conflict","visibility":"public","sourceRefs":["src-ikki-tousen-001"]}]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "ikki-tousen",
+  "nodes": [
+    {
+      "id": "magatama",
+      "type": "power-system",
+      "name": "勾玉",
+      "label": "勾玉"
+    },
+    {
+      "id": "toushi",
+      "type": "role",
+      "name": "斗士",
+      "label": "斗士武术"
+    },
+    {
+      "id": "dragon-destiny",
+      "type": "power-system",
+      "name": "龙/霸王宿命",
+      "label": "龙与霸王宿命"
+    },
+    {
+      "id": "nanyo",
+      "type": "faction",
+      "name": "南阳学院"
+    },
+    {
+      "id": "seito",
+      "type": "faction",
+      "name": "成都学园"
+    },
+    {
+      "id": "kyosho",
+      "type": "faction",
+      "name": "许昌学院"
+    },
+    {
+      "id": "rakuyo",
+      "type": "faction",
+      "name": "洛阳高校"
+    },
+    {
+      "id": "kansai",
+      "type": "faction",
+      "name": "关西势力"
+    },
+    {
+      "id": "sonsaku-hakufu",
+      "label": "孙策伯符",
+      "type": "character"
+    },
+    {
+      "id": "ryubi-gentoku",
+      "label": "刘备玄德",
+      "type": "character"
+    },
+    {
+      "id": "sosou-moutoku",
+      "label": "曹操孟德",
+      "type": "character"
+    },
+    {
+      "id": "yamato-himiko-line",
+      "type": "faction",
+      "label": "大和/卑弥呼线",
+      "summary": "大和/卑弥呼线",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "toushi-alliance",
+      "type": "faction",
+      "label": "斗士联盟/大斗士大会",
+      "summary": "斗士联盟/大斗士大会",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "secret-line",
+      "type": "faction",
+      "label": "隐秘线",
+      "summary": "隐秘线",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kanto-high-schools",
+      "type": "location",
+      "label": "关东各高校",
+      "summary": "关东各高校",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kyoto-kansai",
+      "type": "location",
+      "label": "京都/关西",
+      "summary": "京都/关西",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "toushi-tournament-venue",
+      "type": "location",
+      "label": "大斗士大会会场",
+      "summary": "大斗士大会会场",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "kanto-kansai",
+      "type": "location",
+      "label": "关东/关西",
+      "summary": "关东/关西",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "from": "magatama",
+      "to": "toushi",
+      "type": "empowers",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "magatama",
+      "target": "toushi"
+    },
+    {
+      "from": "dragon-destiny",
+      "to": "sonsaku-hakufu",
+      "type": "affects",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "dragon-destiny",
+      "target": "sonsaku-hakufu"
+    },
+    {
+      "from": "dragon-destiny",
+      "to": "ryubi-gentoku",
+      "type": "affects",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "dragon-destiny",
+      "target": "ryubi-gentoku"
+    },
+    {
+      "from": "dragon-destiny",
+      "to": "sosou-moutoku",
+      "type": "affects",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "dragon-destiny",
+      "target": "sosou-moutoku"
+    },
+    {
+      "from": "nanyo",
+      "to": "kyosho",
+      "type": "rival",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "nanyo",
+      "target": "kyosho"
+    },
+    {
+      "from": "seito",
+      "to": "kyosho",
+      "type": "rival-ally-variable",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "seito",
+      "target": "kyosho"
+    },
+    {
+      "from": "kansai",
+      "to": "nanyo",
+      "type": "later-conflict",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-ikki-tousen-001"
+      ],
+      "source": "kansai",
+      "target": "nanyo"
+    }
+  ],
+  "campaignId": "ikki-tousen",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 7,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}

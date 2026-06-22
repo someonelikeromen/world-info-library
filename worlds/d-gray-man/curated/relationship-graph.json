@@ -1,1 +1,153 @@
-{"schema":"rp-relationship-graph-v1","worldId":"d-gray-man","nodes":[{"id":"allen-walker","type":"character","name":"亚连·沃克"},{"id":"kanda-yu","type":"character","name":"神田优"},{"id":"lenalee-lee","type":"character","name":"李娜丽·李"},{"id":"lavi","type":"character","name":"拉比"},{"id":"cross-marian","type":"character","name":"克劳斯·马利安"},{"id":"millennium-earl","type":"character","name":"千年伯爵"},{"id":"tikki-mikk","type":"character","name":"缇奇·米克"},{"id":"road-kamelot","type":"character","name":"罗德·嘉美"},{"id":"neal-d-campbell","type":"character","name":"第十四号·内亚·D·坎贝尔"}],"edges":[{"from":"allen-walker","to":"kanda-yu","type":"rival-ally","status":"active","sourceRefs":["src-d-gray-man-001"]},{"from":"allen-walker","to":"lenalee-lee","type":"ally","status":"active","sourceRefs":["src-d-gray-man-001"]},{"from":"allen-walker","to":"cross-marian","type":"mentor-student","status":"historical","sourceRefs":["src-d-gray-man-001"]},{"from":"allen-walker","to":"millennium-earl","type":"enemy","status":"active","sourceRefs":["src-d-gray-man-001"]},{"from":"kanda-yu","to":"alma-karma","type":"linked-by-past","status":"gm-only","sourceRefs":["src-d-gray-man-001"]},{"from":"millennium-earl","to":"road-kamelot","type":"family","status":"active","sourceRefs":["src-d-gray-man-001"]},{"from":"millennium-earl","to":"tikki-mikk","type":"family","status":"active","sourceRefs":["src-d-gray-man-001"]},{"from":"allen-walker","to":"neal-d-campbell","type":"host-connection","status":"gm-only","sourceRefs":["src-d-gray-man-001"]}]}
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "d-gray-man",
+  "nodes": [
+    {
+      "id": "allen-walker",
+      "type": "character",
+      "name": "亚连·沃克",
+      "label": "亚连·沃克"
+    },
+    {
+      "id": "kanda-yu",
+      "type": "character",
+      "name": "神田优",
+      "label": "神田优"
+    },
+    {
+      "id": "lenalee-lee",
+      "type": "character",
+      "name": "李娜丽·李",
+      "label": "李娜丽·李"
+    },
+    {
+      "id": "lavi",
+      "type": "character",
+      "name": "拉比",
+      "label": "拉比"
+    },
+    {
+      "id": "cross-marian",
+      "type": "character",
+      "name": "克劳斯·马利安",
+      "label": "克劳斯·马利安/神田十字"
+    },
+    {
+      "id": "millennium-earl",
+      "type": "character",
+      "name": "千年伯爵",
+      "label": "千年伯爵"
+    },
+    {
+      "id": "tikki-mikk",
+      "type": "character",
+      "name": "缇奇·米克",
+      "label": "缇奇·米克"
+    },
+    {
+      "id": "road-kamelot",
+      "type": "character",
+      "name": "罗德·嘉美",
+      "label": "罗德·嘉美"
+    },
+    {
+      "id": "neal-d-campbell",
+      "type": "character",
+      "name": "第十四号·内亚·D·坎贝尔",
+      "label": "第十四号·内亚·D·坎贝尔"
+    },
+    {
+      "id": "alma-karma",
+      "label": "阿尔玛·卡尔玛",
+      "type": "character"
+    },
+    {
+      "id": "komui-lee",
+      "type": "character",
+      "label": "科穆伊·李",
+      "notes": [
+        "Q4 minimal relationship graph node added for high/critical indexed character coverage; no edge inferred."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "allen-walker",
+      "to": "kanda-yu",
+      "type": "rival-ally",
+      "status": "active",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "allen-walker",
+      "to": "lenalee-lee",
+      "type": "ally",
+      "status": "active",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "allen-walker",
+      "to": "cross-marian",
+      "type": "mentor-student",
+      "status": "historical",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "allen-walker",
+      "to": "millennium-earl",
+      "type": "enemy",
+      "status": "active",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "kanda-yu",
+      "to": "alma-karma",
+      "type": "linked-by-past",
+      "status": "gm-only",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "millennium-earl",
+      "to": "road-kamelot",
+      "type": "family",
+      "status": "active",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "millennium-earl",
+      "to": "tikki-mikk",
+      "type": "family",
+      "status": "active",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "allen-walker",
+      "to": "neal-d-campbell",
+      "type": "host-connection",
+      "status": "gm-only",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    }
+  ],
+  "campaignId": "d-gray-man",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
+}

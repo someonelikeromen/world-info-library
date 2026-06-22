@@ -1,25 +1,107 @@
 {
-  "schema": "rp-curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "blue-archive",
   "nodes": [
-    {"id": "kivotos", "label": "基沃托斯", "type": "world/city"},
-    {"id": "federal-student-council", "label": "联邦学生会", "type": "government"},
-    {"id": "sanctum-tower", "label": "神圣之塔", "type": "infrastructure"},
-    {"id": "academy-autonomy", "label": "学园自治", "type": "political-system"},
-    {"id": "halo-mystery", "label": "学生光环/神秘", "type": "power-concept"},
-    {"id": "armed-daily-life", "label": "武装日常", "type": "social-rule"},
-    {"id": "trinity", "label": "三一综合学园", "type": "academy"},
-    {"id": "gehenna", "label": "格黑娜学园", "type": "academy"},
-    {"id": "millennium", "label": "千禧年科学学院", "type": "academy"},
-    {"id": "shanhaijing", "label": "山海经高级中学", "type": "academy"},
-    {"id": "seven-mysteries", "label": "基沃托斯七大谜题", "type": "mystery"}
+    {
+      "id": "kivotos",
+      "label": "基沃托斯",
+      "type": "world/city"
+    },
+    {
+      "id": "federal-student-council",
+      "label": "联邦学生会",
+      "type": "government"
+    },
+    {
+      "id": "sanctum-tower",
+      "label": "神圣之塔",
+      "type": "infrastructure"
+    },
+    {
+      "id": "academy-autonomy",
+      "label": "学园自治",
+      "type": "political-system"
+    },
+    {
+      "id": "halo-mystery",
+      "label": "学生光环/神秘",
+      "type": "power-concept"
+    },
+    {
+      "id": "armed-daily-life",
+      "label": "武装日常",
+      "type": "social-rule"
+    },
+    {
+      "id": "trinity",
+      "label": "三一综合学园",
+      "type": "academy"
+    },
+    {
+      "id": "gehenna",
+      "label": "格黑娜学园",
+      "type": "academy"
+    },
+    {
+      "id": "millennium",
+      "label": "千禧年科学学院",
+      "type": "academy"
+    },
+    {
+      "id": "shanhaijing",
+      "label": "山海经高级中学",
+      "type": "academy"
+    },
+    {
+      "id": "seven-mysteries",
+      "label": "基沃托斯七大谜题",
+      "type": "mystery"
+    }
   ],
   "edges": [
-    {"from": "federal-student-council", "to": "sanctum-tower", "type": "controls", "note": "联邦学生会通过神圣之塔控制/统筹基沃托斯。"},
-    {"from": "academy-autonomy", "to": "trinity", "type": "applies-to", "note": "三一拥有茶会与执法/救援组织。"},
-    {"from": "academy-autonomy", "to": "gehenna", "type": "applies-to", "note": "格黑娜宽松自治造成混乱社团与黑市。"},
-    {"from": "academy-autonomy", "to": "millennium", "type": "applies-to", "note": "千禧年以研讨会和科技防卫管理自治区。"},
-    {"from": "halo-mystery", "to": "armed-daily-life", "type": "enables", "note": "学生异常耐久使枪械与重武器成为日常冲突工具。"},
-    {"from": "millennium", "to": "seven-mysteries", "type": "researches", "note": "千禧年使命与七大谜题相关。"}
-  ]
+    {
+      "from": "federal-student-council",
+      "to": "sanctum-tower",
+      "type": "controls",
+      "note": "联邦学生会通过神圣之塔控制/统筹基沃托斯。"
+    },
+    {
+      "from": "academy-autonomy",
+      "to": "trinity",
+      "type": "applies-to",
+      "note": "三一拥有茶会与执法/救援组织。"
+    },
+    {
+      "from": "academy-autonomy",
+      "to": "gehenna",
+      "type": "applies-to",
+      "note": "格黑娜宽松自治造成混乱社团与黑市。"
+    },
+    {
+      "from": "academy-autonomy",
+      "to": "millennium",
+      "type": "applies-to",
+      "note": "千禧年以研讨会和科技防卫管理自治区。"
+    },
+    {
+      "from": "halo-mystery",
+      "to": "armed-daily-life",
+      "type": "enables",
+      "note": "学生异常耐久使枪械与重武器成为日常冲突工具。"
+    },
+    {
+      "from": "millennium",
+      "to": "seven-mysteries",
+      "type": "researches",
+      "note": "千禧年使命与七大谜题相关。"
+    }
+  ],
+  "campaignId": "blue-archive",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

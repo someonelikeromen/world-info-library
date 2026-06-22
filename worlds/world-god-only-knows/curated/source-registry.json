@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "world-god-only-knows",
   "displayName": "只有神知道的世界",
   "curatedFrom": [
@@ -8,10 +8,72 @@
       "title": "只有神知道的世界",
       "sourceRegistryPath": "campaigns/world-library/worlds/world-god-only-knows/source-registry.json",
       "rawPreservedPath": "campaigns/world-library/worlds/world-god-only-knows/raw/imported-worldbooks/zyszddsj_card.worldbook.json",
-      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "factions/factions.json", "locations/locations.json", "canon-reference/plot-summary.json", "graphs/knowledge-graph.json", "graphs/relationship-graph.json"],
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "canon-reference/plot-summary.json",
+        "graphs/knowledge-graph.json",
+        "graphs/relationship-graph.json"
+      ],
       "reliability": "B",
       "notes": "原归档 comments 明确列出大量角色条目；curated 人物清单按这些条目人工归纳。"
     }
   ],
-  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose",
+  "campaignId": "world-god-only-knows",
+  "sources": [
+    {
+      "sourceId": "src-world-god-only-knows-001",
+      "type": "user-file-source",
+      "title": "只有神知道的世界",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/world-god-only-knows/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/world-god-only-knows/raw/imported-worldbooks/zyszddsj_card.worldbook.json",
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "canon-reference/plot-summary.json",
+        "graphs/knowledge-graph.json",
+        "graphs/relationship-graph.json"
+      ],
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "原归档 comments 明确列出大量角色条目；curated 人物清单按这些条目人工归纳。",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/world-god-only-knows/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "world-god-only-knows",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. 原归档 comments 明确列出大量角色条目；curated 人物清单按这些条目人工归纳。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

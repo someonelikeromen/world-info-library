@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "xianjian-1",
   "displayName": "仙剑奇侠传Ⅰ",
   "curatedFrom": [
@@ -22,5 +22,60 @@
       "notes": "人工阅读既有归档后归纳；原归档含大量 UI/状态栏/技术控制文本，curated 中仅保留世界观可用信息。"
     }
   ],
-  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose",
+  "campaignId": "xianjian-1",
+  "sources": [
+    {
+      "sourceId": "src-xianjian-1-001",
+      "type": "user-file-source",
+      "title": "仙剑奇侠传Ⅰ 世界书",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/xianjian-1/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/xianjian-1/raw/imported-worldbooks/仙剑奇侠传Ⅰ 世界书.worldbook.json",
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "canon-reference/plot-summary.json",
+        "graphs/knowledge-graph.json",
+        "graphs/relationship-graph.json"
+      ],
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "人工阅读既有归档后归纳；原归档含大量 UI/状态栏/技术控制文本，curated 中仅保留世界观可用信息。",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/xianjian-1/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "xianjian-1",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. 人工阅读既有归档后归纳；原归档含大量 UI/状态栏/技术控制文本，curated 中仅保留世界观可用信息。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

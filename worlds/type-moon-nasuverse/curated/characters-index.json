@@ -1,1 +1,721 @@
-{"schema":"rp-characters-index-v1","worldId":"type-moon-nasuverse","characters":[{"id":"shirou-emiya","name":"卫宫士郎","aliases":["正义伙伴","Emiya Shirou"],"visibility":"public","summary":"第五次圣杯战争御主，擅长投影与强化，理想是成为正义的伙伴。","roles":["protagonist","master"],"factions":["fuyuki-masters"],"locations":["冬木市"],"powerSystems":["magecraft"],"abilities":["投影","强化","无限剑制潜质"],"items":[],"relationships":["saber:servant","rin-tohsaka:ally","archer-emiya:future-self-conflict"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"路线差异显著。"},{"id":"saber-artoria","name":"阿尔托莉雅·潘德拉贡","aliases":["Saber","骑士王"],"visibility":"public","summary":"第五次圣杯战争 Saber 职阶从者，真名为亚瑟王。","roles":["servant","heroic-spirit"],"factions":["fuyuki-servants"],"locations":["冬木市"],"powerSystems":["servant-system"],"abilities":["魔力放出","直感","誓约胜利之剑"],"items":["Excalibur","Avalon"],"relationships":["shirou-emiya:master","gilgamesh:enemy"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"宝具使用需供魔。"},{"id":"rin-tohsaka","name":"远坂凛","aliases":["远坂家继承人"],"visibility":"public","summary":"远坂家魔术师，第五次圣杯战争御主。","roles":["master","mage"],"factions":["mage-association","tohsaka-family"],"locations":["冬木市","时钟塔"],"powerSystems":["magecraft"],"abilities":["宝石魔术","咒弹","强化"],"items":["宝石"],"relationships":["archer-emiya:servant","shirou-emiya:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":""},{"id":"sakura-matou","name":"间桐樱","aliases":["Matou Sakura"],"visibility":"private","summary":"间桐家养女，体内隐藏圣杯战争关键因素。","roles":["master-candidate","secret-vessel"],"factions":["matou-family"],"locations":["冬木市"],"powerSystems":["magecraft"],"abilities":["虚数属性","影之力"],"items":[],"relationships":["shirou-emiya:affection","rin-tohsaka:sister","zouken-matou:abuser"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"黑樱线为 GM/路线秘密。"},{"id":"illyasviel","name":"伊莉雅斯菲尔·冯·爱因兹贝伦","aliases":["伊莉雅","小圣杯"],"visibility":"private","summary":"爱因兹贝伦人造人，第五次圣杯战争御主，也有魔法少女伊莉雅平行线。","roles":["master","homunculus"],"factions":["einzbern-family"],"locations":["冬木市","爱因兹贝伦城"],"powerSystems":["magecraft","servant-system"],"abilities":["高魔力","小圣杯机能","魔法少女平行能力"],"items":[],"relationships":["berserker-heracles:servant","shirou-emiya:family-link"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"需区分 FSN 与 Prisma Illya。"},{"id":"gilgamesh","name":"吉尔伽美什","aliases":["英雄王","Archer"],"visibility":"private","summary":"最古英雄王，以王之财宝与乖离剑为核心战力。","roles":["servant","antagonist"],"factions":["fuyuki-servants"],"locations":["冬木市"],"powerSystems":["servant-system"],"abilities":["王之财宝","天之锁","天地乖离开辟之星"],"items":["Gate of Babylon","Ea"],"relationships":["saber-artoria:obsession","kirei-kotomine:ally"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"慢心影响实战评级。"},{"id":"ritsuka-fujimaru","name":"藤丸立香","aliases":["咕哒","人类最后的御主"],"visibility":"public","summary":"迦勒底御主，人理修复行动中心人物。","roles":["master","protagonist"],"factions":["chaldea"],"locations":["迦勒底","特异点"],"powerSystems":["servant-system","magecraft"],"abilities":["契约多名从者","战场指挥"],"items":["迦勒底礼装"],"relationships":["mash-kyrielight:partner","romani-archaman:doctor"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":"能力多依赖召唤系统与队伍。"},{"id":"mash-kyrielight","name":"玛修·基列莱特","aliases":["Shielder","盾娘"],"visibility":"public","summary":"迦勒底亚从者，与加拉哈德灵基相关。","roles":["servant","protector"],"factions":["chaldea"],"locations":["迦勒底"],"powerSystems":["servant-system"],"abilities":["盾防御","宝具展开","亚从者体质"],"items":["大盾"],"relationships":["ritsuka-fujimaru:partner"],"importance":"critical","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":""},{"id":"kirei-kotomine","name":"言峰绮礼","aliases":["监督役"],"visibility":"private","summary":"圣堂教会神父兼圣杯战争监督者，具有扭曲的自我探求。","roles":["antagonist","executor"],"factions":["holy-church"],"locations":["冬木教会"],"powerSystems":["magecraft","church-technique"],"abilities":["黑键","八极拳","令咒"],"items":["黑键"],"relationships":["gilgamesh:ally","rin-tohsaka:guardian-role"],"importance":"high","evidenceLevel":"A","sourceRefs":["src-tm-import-readme"],"notes":""}],"indices":{"byFaction":{"chaldea":["ritsuka-fujimaru","mash-kyrielight"],"fuyuki-masters":["shirou-emiya"],"fuyuki-servants":["saber-artoria","gilgamesh"],"mage-association":["rin-tohsaka"],"holy-church":["kirei-kotomine"]},"byPowerSystem":{"magecraft":["shirou-emiya","rin-tohsaka","sakura-matou","illyasviel","kirei-kotomine"],"servant-system":["saber-artoria","gilgamesh","ritsuka-fujimaru","mash-kyrielight","illyasviel"]},"byVisibility":{"public":["shirou-emiya","saber-artoria","rin-tohsaka","ritsuka-fujimaru","mash-kyrielight"],"private":["sakura-matou","illyasviel","gilgamesh","kirei-kotomine"]},"majorCharacters":["shirou-emiya","saber-artoria","rin-tohsaka","sakura-matou","gilgamesh","ritsuka-fujimaru","mash-kyrielight"]}}
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "characters": [
+    {
+      "id": "shirou-emiya",
+      "name": "卫宫士郎",
+      "aliases": [
+        "正义伙伴",
+        "Emiya Shirou"
+      ],
+      "visibility": "public",
+      "summary": "第五次圣杯战争御主，擅长投影与强化，理想是成为正义的伙伴。",
+      "roles": [
+        "protagonist",
+        "master"
+      ],
+      "factions": [
+        "fuyuki-masters"
+      ],
+      "locations": [
+        "fuyuki-city"
+      ],
+      "powerSystems": [
+        "magecraft"
+      ],
+      "abilities": [
+        "投影",
+        "强化",
+        "无限剑制潜质"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "saber-artoria",
+          "targetType": "character",
+          "relation": "servant",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "rin-tohsaka",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "archer-emiya",
+          "targetType": "character",
+          "relation": "future-self-conflict",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "路线差异显著。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "saber-artoria",
+      "name": "阿尔托莉雅·潘德拉贡",
+      "aliases": [
+        "Saber",
+        "骑士王"
+      ],
+      "visibility": "public",
+      "summary": "第五次圣杯战争 Saber 职阶从者，真名为亚瑟王。",
+      "roles": [
+        "servant",
+        "heroic-spirit"
+      ],
+      "factions": [
+        "fuyuki-servants"
+      ],
+      "locations": [
+        "fuyuki-city"
+      ],
+      "powerSystems": [
+        "servant-system"
+      ],
+      "abilities": [
+        "魔力放出",
+        "直感",
+        "誓约胜利之剑"
+      ],
+      "items": [
+        "Excalibur",
+        "Avalon"
+      ],
+      "relationships": [
+        {
+          "target": "shirou-emiya",
+          "targetType": "character",
+          "relation": "master",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "gilgamesh",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "宝具使用需供魔。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "rin-tohsaka",
+      "name": "远坂凛",
+      "aliases": [
+        "远坂家继承人"
+      ],
+      "visibility": "public",
+      "summary": "远坂家魔术师，第五次圣杯战争御主。",
+      "roles": [
+        "master",
+        "mage"
+      ],
+      "factions": [
+        "mage-association",
+        "tohsaka-family"
+      ],
+      "locations": [
+        "fuyuki-city",
+        "clock-tower"
+      ],
+      "powerSystems": [
+        "magecraft"
+      ],
+      "abilities": [
+        "宝石魔术",
+        "咒弹",
+        "强化"
+      ],
+      "items": [
+        "宝石"
+      ],
+      "relationships": [
+        {
+          "target": "archer-emiya",
+          "targetType": "character",
+          "relation": "servant",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "shirou-emiya",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市",
+            "时钟塔"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "sakura-matou",
+      "name": "间桐樱",
+      "aliases": [
+        "Matou Sakura"
+      ],
+      "visibility": "private",
+      "summary": "间桐家养女，体内隐藏圣杯战争关键因素。",
+      "roles": [
+        "master-candidate",
+        "secret-vessel"
+      ],
+      "factions": [
+        "matou-family"
+      ],
+      "locations": [
+        "fuyuki-city"
+      ],
+      "powerSystems": [
+        "magecraft"
+      ],
+      "abilities": [
+        "虚数属性",
+        "影之力"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "shirou-emiya",
+          "targetType": "character",
+          "relation": "affection",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "rin-tohsaka",
+          "targetType": "character",
+          "relation": "sister",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "zouken-matou",
+          "targetType": "character",
+          "relation": "abuser",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "黑樱线为 GM/路线秘密。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "illyasviel",
+      "name": "伊莉雅斯菲尔·冯·爱因兹贝伦",
+      "aliases": [
+        "伊莉雅",
+        "小圣杯"
+      ],
+      "visibility": "private",
+      "summary": "爱因兹贝伦人造人，第五次圣杯战争御主，也有魔法少女伊莉雅平行线。",
+      "roles": [
+        "master",
+        "homunculus"
+      ],
+      "factions": [
+        "einzbern-family"
+      ],
+      "locations": [
+        "fuyuki-city",
+        "einzbern-castle"
+      ],
+      "powerSystems": [
+        "magecraft",
+        "servant-system"
+      ],
+      "abilities": [
+        "高魔力",
+        "小圣杯机能",
+        "魔法少女平行能力"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "berserker-heracles",
+          "targetType": "character",
+          "relation": "servant",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "shirou-emiya",
+          "targetType": "character",
+          "relation": "family-link",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "需区分 FSN 与 Prisma Illya。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市",
+            "爱因兹贝伦城"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "gilgamesh",
+      "name": "吉尔伽美什",
+      "aliases": [
+        "英雄王",
+        "Archer"
+      ],
+      "visibility": "private",
+      "summary": "最古英雄王，以王之财宝与乖离剑为核心战力。",
+      "roles": [
+        "servant",
+        "antagonist"
+      ],
+      "factions": [
+        "fuyuki-servants"
+      ],
+      "locations": [
+        "fuyuki-city"
+      ],
+      "powerSystems": [
+        "servant-system"
+      ],
+      "abilities": [
+        "王之财宝",
+        "天之锁",
+        "天地乖离开辟之星"
+      ],
+      "items": [
+        "Gate of Babylon",
+        "Ea"
+      ],
+      "relationships": [
+        {
+          "target": "saber-artoria",
+          "targetType": "character",
+          "relation": "obsession",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "kirei-kotomine",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "慢心影响实战评级。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木市"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "ritsuka-fujimaru",
+      "name": "藤丸立香",
+      "aliases": [
+        "咕哒",
+        "人类最后的御主"
+      ],
+      "visibility": "public",
+      "summary": "迦勒底御主，人理修复行动中心人物。",
+      "roles": [
+        "master",
+        "protagonist"
+      ],
+      "factions": [
+        "chaldea"
+      ],
+      "locations": [
+        "chaldea-base",
+        "singularity"
+      ],
+      "powerSystems": [
+        "servant-system",
+        "magecraft"
+      ],
+      "abilities": [
+        "契约多名从者",
+        "战场指挥"
+      ],
+      "items": [
+        "迦勒底礼装"
+      ],
+      "relationships": [
+        {
+          "target": "mash-kyrielight",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "romani-archaman",
+          "targetType": "character",
+          "relation": "doctor",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "能力多依赖召唤系统与队伍。",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "迦勒底",
+            "特异点"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "mash-kyrielight",
+      "name": "玛修·基列莱特",
+      "aliases": [
+        "Shielder",
+        "盾娘"
+      ],
+      "visibility": "public",
+      "summary": "迦勒底亚从者，与加拉哈德灵基相关。",
+      "roles": [
+        "servant",
+        "protector"
+      ],
+      "factions": [
+        "chaldea"
+      ],
+      "locations": [
+        "chaldea-base"
+      ],
+      "powerSystems": [
+        "servant-system"
+      ],
+      "abilities": [
+        "盾防御",
+        "宝具展开",
+        "亚从者体质"
+      ],
+      "items": [
+        "大盾"
+      ],
+      "relationships": [
+        {
+          "target": "ritsuka-fujimaru",
+          "targetType": "character",
+          "relation": "partner",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "迦勒底"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "kirei-kotomine",
+      "name": "言峰绮礼",
+      "aliases": [
+        "监督役"
+      ],
+      "visibility": "private",
+      "summary": "圣堂教会神父兼圣杯战争监督者，具有扭曲的自我探求。",
+      "roles": [
+        "antagonist",
+        "executor"
+      ],
+      "factions": [
+        "holy-church"
+      ],
+      "locations": [
+        "fuyuki-church"
+      ],
+      "powerSystems": [
+        "magecraft",
+        "church-technique"
+      ],
+      "abilities": [
+        "黑键",
+        "八极拳",
+        "令咒"
+      ],
+      "items": [
+        "黑键"
+      ],
+      "relationships": [
+        {
+          "target": "gilgamesh",
+          "targetType": "character",
+          "relation": "ally",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "rin-tohsaka",
+          "targetType": "character",
+          "relation": "guardian-role",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "",
+      "metadata": {
+        "originalReferenceLabels": {
+          "locations": [
+            "冬木教会"
+          ]
+        }
+      },
+      "normalizationNotes": [
+        "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations."
+      ]
+    },
+    {
+      "id": "waver-velvet",
+      "name": "韦伯·维尔维特",
+      "aliases": [
+        "Waver Velvet",
+        "埃尔梅罗二世"
+      ],
+      "visibility": "public",
+      "summary": "时钟塔魔术师，擅长魔术理论与教学，和魔术协会保持密切联系。",
+      "roles": [
+        "mage",
+        "student",
+        "lecturer"
+      ],
+      "factions": [
+        "mage-association"
+      ],
+      "locations": [
+        "clock-tower"
+      ],
+      "powerSystems": [
+        "magecraft"
+      ],
+      "abilities": [
+        "魔术理论",
+        "工房运用"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "补足魔术协会 knownMembers。"
+    },
+    {
+      "id": "romani-archaman",
+      "name": "罗马尼·阿基曼",
+      "aliases": [
+        "Dr. Roman",
+        "罗曼医生"
+      ],
+      "visibility": "public",
+      "summary": "迦勒底医生，承担后勤与医疗协调。",
+      "roles": [
+        "doctor",
+        "support"
+      ],
+      "factions": [
+        "chaldea"
+      ],
+      "locations": [
+        "chaldea-base"
+      ],
+      "powerSystems": [
+        "magecraft"
+      ],
+      "abilities": [
+        "医疗",
+        "后勤协调"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-tm-import-readme"
+      ],
+      "notes": "补足迦勒底 knownMembers。"
+    }
+  ],
+  "indices": {
+    "byFaction": {
+      "fuyuki-masters": [
+        "shirou-emiya"
+      ],
+      "fuyuki-servants": [
+        "saber-artoria",
+        "gilgamesh"
+      ],
+      "mage-association": [
+        "rin-tohsaka",
+        "waver-velvet"
+      ],
+      "tohsaka-family": [
+        "rin-tohsaka"
+      ],
+      "matou-family": [
+        "sakura-matou"
+      ],
+      "einzbern-family": [
+        "illyasviel"
+      ],
+      "chaldea": [
+        "ritsuka-fujimaru",
+        "mash-kyrielight",
+        "romani-archaman"
+      ],
+      "holy-church": [
+        "kirei-kotomine"
+      ]
+    },
+    "byPowerSystem": {
+      "magecraft": [
+        "shirou-emiya",
+        "rin-tohsaka",
+        "sakura-matou",
+        "illyasviel",
+        "ritsuka-fujimaru",
+        "kirei-kotomine",
+        "waver-velvet",
+        "romani-archaman"
+      ],
+      "servant-system": [
+        "saber-artoria",
+        "illyasviel",
+        "gilgamesh",
+        "ritsuka-fujimaru",
+        "mash-kyrielight"
+      ],
+      "church-technique": [
+        "kirei-kotomine"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "shirou-emiya",
+        "saber-artoria",
+        "rin-tohsaka",
+        "ritsuka-fujimaru",
+        "mash-kyrielight",
+        "waver-velvet",
+        "romani-archaman"
+      ],
+      "private": [
+        "sakura-matou",
+        "illyasviel",
+        "gilgamesh",
+        "kirei-kotomine"
+      ]
+    },
+    "majorCharacters": [
+      "shirou-emiya",
+      "saber-artoria",
+      "rin-tohsaka",
+      "sakura-matou",
+      "illyasviel",
+      "gilgamesh",
+      "ritsuka-fujimaru",
+      "mash-kyrielight",
+      "kirei-kotomine",
+      "waver-velvet",
+      "romani-archaman"
+    ],
+    "byId": {},
+    "byName": {},
+    "byAffiliation": {},
+    "byTag": {}
+  }
+}

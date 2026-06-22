@@ -2,75 +2,511 @@
   "schema": "rp-relationship-graph-v1",
   "worldId": "date-a-live",
   "nodes": [
-    {"id":"ch-itsuka-shido","type":"character","label":"五河士道"},
-    {"id":"ch-yatogami-tohka","type":"character","label":"夜刀神十香"},
-    {"id":"ch-tobiichi-origami","type":"character","label":"鸢一折纸"},
-    {"id":"ch-honjo-nia","type":"character","label":"本条二亚"},
-    {"id":"ch-tokisaki-kurumi","type":"character","label":"时崎狂三"},
-    {"id":"ch-yoshino","type":"character","label":"冰芽川四糸乃"},
-    {"id":"ch-yoshinon","type":"character","label":"四糸奈"},
-    {"id":"ch-itsuka-kotori","type":"character","label":"五河琴里"},
-    {"id":"ch-hoshimiya-mukuro","type":"character","label":"星宫六喰"},
-    {"id":"ch-kyouno-natsumi","type":"character","label":"镜野七罪"},
-    {"id":"ch-yamai-kaguya","type":"character","label":"八舞耶俱矢"},
-    {"id":"ch-yamai-yuzuru","type":"character","label":"八舞夕弦"},
-    {"id":"ch-izayoi-miku","type":"character","label":"诱宵美九"},
-    {"id":"ch-takamiya-mio","type":"character","label":"崇宫澪"},
-    {"id":"ch-takamiya-mana","type":"character","label":"崇宫真那"},
-    {"id":"ch-ellen-mira-mathers","type":"character","label":"艾伦·M·马瑟斯"},
-    {"id":"ch-artemisia-bell-ashcroft","type":"character","label":"阿尔缇米希亚"},
-    {"id":"ch-isaac-westcott","type":"character","label":"维斯考特"},
-    {"id":"ch-kannazuki-kyohei","type":"character","label":"神无月恭平"},
-    {"id":"ch-itsuka-shiori","type":"character","label":"五河士织"},
-    {"id":"ch-takamiya-shinji","type":"character","label":"崇宫真士"},
-    {"id":"ch-higoromo-hibiki","type":"character","label":"绯衣响"},
-    {"id":"ch-white-queen","type":"character","label":"白之女王"},
-    {"id":"f-ratatoskr","type":"faction","label":"Ratatoskr"},
-    {"id":"f-ast","type":"faction","label":"AST"},
-    {"id":"f-dem","type":"faction","label":"DEM"},
-    {"id":"f-spirits","type":"faction","label":"精灵群体"},
-    {"id":"f-neighboring","type":"faction","label":"邻界准精灵"}
+    {
+      "id": "ch-itsuka-shido",
+      "type": "character",
+      "label": "五河士道"
+    },
+    {
+      "id": "ch-yatogami-tohka",
+      "type": "character",
+      "label": "夜刀神十香"
+    },
+    {
+      "id": "ch-tobiichi-origami",
+      "type": "character",
+      "label": "鸢一折纸"
+    },
+    {
+      "id": "ch-honjo-nia",
+      "type": "character",
+      "label": "本条二亚"
+    },
+    {
+      "id": "ch-tokisaki-kurumi",
+      "type": "character",
+      "label": "时崎狂三"
+    },
+    {
+      "id": "ch-yoshino",
+      "type": "character",
+      "label": "冰芽川四糸乃"
+    },
+    {
+      "id": "ch-yoshinon",
+      "type": "character",
+      "label": "四糸奈"
+    },
+    {
+      "id": "ch-itsuka-kotori",
+      "type": "character",
+      "label": "五河琴里"
+    },
+    {
+      "id": "ch-hoshimiya-mukuro",
+      "type": "character",
+      "label": "星宫六喰"
+    },
+    {
+      "id": "ch-kyouno-natsumi",
+      "type": "character",
+      "label": "镜野七罪"
+    },
+    {
+      "id": "ch-yamai-kaguya",
+      "type": "character",
+      "label": "八舞耶俱矢"
+    },
+    {
+      "id": "ch-yamai-yuzuru",
+      "type": "character",
+      "label": "八舞夕弦"
+    },
+    {
+      "id": "ch-izayoi-miku",
+      "type": "character",
+      "label": "诱宵美九"
+    },
+    {
+      "id": "ch-takamiya-mio",
+      "type": "character",
+      "label": "崇宫澪"
+    },
+    {
+      "id": "ch-takamiya-mana",
+      "type": "character",
+      "label": "崇宫真那"
+    },
+    {
+      "id": "ch-ellen-mira-mathers",
+      "type": "character",
+      "label": "艾伦·M·马瑟斯"
+    },
+    {
+      "id": "ch-artemisia-bell-ashcroft",
+      "type": "character",
+      "label": "阿尔缇米希亚"
+    },
+    {
+      "id": "ch-isaac-westcott",
+      "type": "character",
+      "label": "维斯考特"
+    },
+    {
+      "id": "ch-kannazuki-kyohei",
+      "type": "character",
+      "label": "神无月恭平"
+    },
+    {
+      "id": "ch-itsuka-shiori",
+      "type": "character",
+      "label": "五河士织"
+    },
+    {
+      "id": "ch-takamiya-shinji",
+      "type": "character",
+      "label": "崇宫真士"
+    },
+    {
+      "id": "ch-higoromo-hibiki",
+      "type": "character",
+      "label": "绯衣响"
+    },
+    {
+      "id": "ch-white-queen",
+      "type": "character",
+      "label": "白之女王"
+    },
+    {
+      "id": "f-ratatoskr",
+      "type": "faction",
+      "label": "Ratatoskr"
+    },
+    {
+      "id": "f-ast",
+      "type": "faction",
+      "label": "AST"
+    },
+    {
+      "id": "f-dem",
+      "type": "faction",
+      "label": "DEM"
+    },
+    {
+      "id": "f-spirits",
+      "type": "faction",
+      "label": "精灵群体"
+    },
+    {
+      "id": "f-neighboring",
+      "type": "faction",
+      "label": "邻界准精灵"
+    },
+    {
+      "id": "ch-date-a-bullet-minors",
+      "type": "group",
+      "label": "临界其他配角",
+      "visibility": "private",
+      "summary": "来源以集合条目记录的 Date A Bullet/临界其他人物，适合作为邻界支线 NPC 池。",
+      "resolutionStatus": "unresolved-reference",
+      "notes": "characters-index aggregate entry remains unresolved at individual-character level; modeled as group, not character."
+    },
+    {
+      "id": "grp-date-a-bullet-minors",
+      "type": "group",
+      "label": "临界其他配角",
+      "resolutionStatus": "unresolved-reference",
+      "notes": "characters-index aggregate entry remains unresolved at individual-character level; modeled as group, not character."
+    },
+    {
+      "id": "dem",
+      "type": "faction",
+      "label": "DEM 社",
+      "notes": [
+        "Q4 relationship target node for faction references."
+      ]
+    },
+    {
+      "id": "ratatoskr",
+      "type": "faction",
+      "label": "Ratatoskr",
+      "notes": [
+        "Q4 relationship target node for organization references."
+      ]
+    },
+    {
+      "id": "spirits",
+      "type": "group",
+      "label": "精灵群体",
+      "notes": [
+        "Q4 relationship target node for group references."
+      ]
+    }
   ],
   "edges": [
-    {"from":"ch-itsuka-shido","to":"f-ratatoskr","type":"protected-by/key-asset","summary":"士道是 Ratatoskr 封印战略核心。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-itsuka-kotori","to":"f-ratatoskr","type":"commander-of","summary":"琴里担任 Ratatoskr/Fraxinus 现场司令。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-kannazuki-kyohei","to":"ch-itsuka-kotori","type":"subordinate-to","summary":"神无月是琴里的副司令兼日常受罚对象。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-itsuka-kotori","to":"ch-itsuka-shido","type":"adoptive-siblings/protective","summary":"琴里是士道义妹，也负责指挥其约会封印行动。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yatogami-tohka","to":"ch-itsuka-shido","type":"love-and-trust","summary":"十香被士道接纳并封印，对他高度信赖。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-tobiichi-origami","to":"ch-itsuka-shido","type":"obsessive-affection","summary":"折纸对士道有强烈依恋和占有倾向。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-honjo-nia","to":"ch-itsuka-shido","type":"rescued-by/trusts","summary":"二亚从取材/调侃逐渐转为信赖士道。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-tokisaki-kurumi","to":"ch-itsuka-shido","type":"target-and-affection","summary":"狂三对士道兼具猎物、目标、共犯和好感等复杂关系。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yoshino","to":"ch-itsuka-shido","type":"trusts/protected-by","summary":"四糸乃把士道视作安心来源与重要保护者。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-itsuka-kotori","to":"ch-itsuka-shido","type":"protects-and-depends-on","summary":"琴里表面强势指挥，深层依赖并保护哥哥。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-hoshimiya-mukuro","to":"ch-itsuka-shido","type":"attachment-after-sealing","summary":"六喰被打开封闭心灵后对士道产生亲密依恋。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-kyouno-natsumi","to":"ch-itsuka-shido","type":"accepted-by","summary":"七罪因被士道和众人接纳而逐渐稳定。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yamai-kaguya","to":"ch-itsuka-shido","type":"trusts","summary":"耶俱矢与士道建立信赖。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yamai-yuzuru","to":"ch-itsuka-shido","type":"trusts","summary":"夕弦与士道建立信赖。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-izayoi-miku","to":"ch-itsuka-shido","type":"devoted-affection","summary":"美九后期将士道视作唯一特例和达令。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-izayoi-miku","to":"ch-itsuka-shiori","type":"infatuation","summary":"美九最初迷恋士织身份。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-itsuka-shiori","to":"ch-itsuka-shido","type":"alternate-identity-of","summary":"士织是士道女装/变身身份。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-yoshino","to":"ch-yoshinon","type":"host-and-persona","summary":"四糸奈是四糸乃的手偶人格/精神支柱。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yoshino","to":"ch-kyouno-natsumi","type":"close-friends","summary":"四糸乃与七罪是亲密闺蜜。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yamai-kaguya","to":"ch-yamai-yuzuru","type":"sisters/halves/rivals","summary":"八舞姐妹由同一精灵分裂，既竞争又不可分割。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-yatogami-tohka","to":"ch-tobiichi-origami","type":"romantic-rivals/comic-conflict","summary":"十香和折纸围绕士道常有情敌式冲突。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-tobiichi-origami","to":"ch-itsuka-kotori","type":"former-misidentified-enemy","summary":"折纸曾误认琴里为杀亲仇人，后转为复杂战友关系。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-honjo-nia","to":"ch-tokisaki-kurumi","type":"knows-past/indirect-aid","summary":"二亚与狂三在过去和 DEM 囚禁事件上有一定关联。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-takamiya-mana","to":"ch-itsuka-shido","type":"sibling-related","summary":"真那与士道存在亲缘关系，是主线重要亲属人物。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-ellen-mira-mathers","to":"f-dem","type":"elite-agent-of","summary":"艾伦是 DEM 顶级魔术师。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-artemisia-bell-ashcroft","to":"f-dem","type":"agent-of","summary":"阿尔缇米希亚为 DEM 高端战斗员。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-isaac-westcott","to":"f-dem","type":"leader-of","summary":"维斯考特是 DEM 幕后领导者。","visibility":"gm-only","evidenceLevel":"C"},
-    {"from":"f-dem","to":"f-ratatoskr","type":"enemy-of","summary":"DEM 与 Ratatoskr 在精灵处置路线和士道争夺上长期敌对。","visibility":"public","evidenceLevel":"B"},
-    {"from":"f-ast","to":"f-spirits","type":"hunts-or-contains","summary":"AST 公开职责是对精灵作战。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-tobiichi-origami","to":"f-ast","type":"former-member","summary":"折纸曾为 AST 成员。","visibility":"public","evidenceLevel":"B"},
-    {"from":"ch-takamiya-mana","to":"f-dem","type":"former-or-associated","summary":"真那与 DEM 技术体系有因缘。","visibility":"private","evidenceLevel":"B"},
-    {"from":"ch-takamiya-mio","to":"ch-takamiya-shinji","type":"obsessive-love/origin-cause","summary":"澪与真士的关系是始源因果核心。","visibility":"gm-only","evidenceLevel":"C"},
-    {"from":"ch-takamiya-shinji","to":"ch-itsuka-shido","type":"reincarnation-or-continuity","summary":"真士与士道存在转生/继承式因果解释。","visibility":"gm-only","evidenceLevel":"C"},
-    {"from":"ch-takamiya-mio","to":"f-spirits","type":"origin-linked-to","summary":"澪与多数精灵的灵结晶/诞生链条有关。","visibility":"gm-only","evidenceLevel":"B"},
-    {"from":"ch-tokisaki-kurumi","to":"ch-higoromo-hibiki","type":"date-a-bullet-linked","summary":"狂三与绯衣响在临界支线关联。","visibility":"private","evidenceLevel":"C"},
-    {"from":"ch-tokisaki-kurumi","to":"ch-white-queen","type":"date-a-bullet-conflict","summary":"狂三与白之女王构成临界支线核心冲突之一。","visibility":"private","evidenceLevel":"C"},
-    {"from":"ch-higoromo-hibiki","to":"f-neighboring","type":"member-or-resident","summary":"响属于邻界支线角色。","visibility":"private","evidenceLevel":"C"},
-    {"from":"ch-white-queen","to":"f-neighboring","type":"major-threat-in","summary":"白之女王是邻界支线重要威胁。","visibility":"private","evidenceLevel":"C"}
+    {
+      "from": "ch-itsuka-shido",
+      "to": "f-ratatoskr",
+      "type": "protected-by/key-asset",
+      "summary": "士道是 Ratatoskr 封印战略核心。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-itsuka-kotori",
+      "to": "f-ratatoskr",
+      "type": "commander-of",
+      "summary": "琴里担任 Ratatoskr/Fraxinus 现场司令。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-kannazuki-kyohei",
+      "to": "ch-itsuka-kotori",
+      "type": "subordinate-to",
+      "summary": "神无月是琴里的副司令兼日常受罚对象。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-itsuka-kotori",
+      "to": "ch-itsuka-shido",
+      "type": "adoptive-siblings/protective",
+      "summary": "琴里是士道义妹，也负责指挥其约会封印行动。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yatogami-tohka",
+      "to": "ch-itsuka-shido",
+      "type": "love-and-trust",
+      "summary": "十香被士道接纳并封印，对他高度信赖。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-tobiichi-origami",
+      "to": "ch-itsuka-shido",
+      "type": "obsessive-affection",
+      "summary": "折纸对士道有强烈依恋和占有倾向。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-honjo-nia",
+      "to": "ch-itsuka-shido",
+      "type": "rescued-by/trusts",
+      "summary": "二亚从取材/调侃逐渐转为信赖士道。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-tokisaki-kurumi",
+      "to": "ch-itsuka-shido",
+      "type": "target-and-affection",
+      "summary": "狂三对士道兼具猎物、目标、共犯和好感等复杂关系。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yoshino",
+      "to": "ch-itsuka-shido",
+      "type": "trusts/protected-by",
+      "summary": "四糸乃把士道视作安心来源与重要保护者。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-itsuka-kotori",
+      "to": "ch-itsuka-shido",
+      "type": "protects-and-depends-on",
+      "summary": "琴里表面强势指挥，深层依赖并保护哥哥。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-hoshimiya-mukuro",
+      "to": "ch-itsuka-shido",
+      "type": "attachment-after-sealing",
+      "summary": "六喰被打开封闭心灵后对士道产生亲密依恋。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-kyouno-natsumi",
+      "to": "ch-itsuka-shido",
+      "type": "accepted-by",
+      "summary": "七罪因被士道和众人接纳而逐渐稳定。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yamai-kaguya",
+      "to": "ch-itsuka-shido",
+      "type": "trusts",
+      "summary": "耶俱矢与士道建立信赖。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yamai-yuzuru",
+      "to": "ch-itsuka-shido",
+      "type": "trusts",
+      "summary": "夕弦与士道建立信赖。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-izayoi-miku",
+      "to": "ch-itsuka-shido",
+      "type": "devoted-affection",
+      "summary": "美九后期将士道视作唯一特例和达令。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-izayoi-miku",
+      "to": "ch-itsuka-shiori",
+      "type": "infatuation",
+      "summary": "美九最初迷恋士织身份。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-itsuka-shiori",
+      "to": "ch-itsuka-shido",
+      "type": "alternate-identity-of",
+      "summary": "士织是士道女装/变身身份。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yoshino",
+      "to": "ch-yoshinon",
+      "type": "host-and-persona",
+      "summary": "四糸奈是四糸乃的手偶人格/精神支柱。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yoshino",
+      "to": "ch-kyouno-natsumi",
+      "type": "close-friends",
+      "summary": "四糸乃与七罪是亲密闺蜜。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yamai-kaguya",
+      "to": "ch-yamai-yuzuru",
+      "type": "sisters/halves/rivals",
+      "summary": "八舞姐妹由同一精灵分裂，既竞争又不可分割。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-yatogami-tohka",
+      "to": "ch-tobiichi-origami",
+      "type": "romantic-rivals/comic-conflict",
+      "summary": "十香和折纸围绕士道常有情敌式冲突。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-tobiichi-origami",
+      "to": "ch-itsuka-kotori",
+      "type": "former-misidentified-enemy",
+      "summary": "折纸曾误认琴里为杀亲仇人，后转为复杂战友关系。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-honjo-nia",
+      "to": "ch-tokisaki-kurumi",
+      "type": "knows-past/indirect-aid",
+      "summary": "二亚与狂三在过去和 DEM 囚禁事件上有一定关联。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-takamiya-mana",
+      "to": "ch-itsuka-shido",
+      "type": "sibling-related",
+      "summary": "真那与士道存在亲缘关系，是主线重要亲属人物。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-ellen-mira-mathers",
+      "to": "f-dem",
+      "type": "elite-agent-of",
+      "summary": "艾伦是 DEM 顶级魔术师。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-artemisia-bell-ashcroft",
+      "to": "f-dem",
+      "type": "agent-of",
+      "summary": "阿尔缇米希亚为 DEM 高端战斗员。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-isaac-westcott",
+      "to": "f-dem",
+      "type": "leader-of",
+      "summary": "维斯考特是 DEM 幕后领导者。",
+      "visibility": "gm-only",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "f-dem",
+      "to": "f-ratatoskr",
+      "type": "enemy-of",
+      "summary": "DEM 与 Ratatoskr 在精灵处置路线和士道争夺上长期敌对。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "f-ast",
+      "to": "f-spirits",
+      "type": "hunts-or-contains",
+      "summary": "AST 公开职责是对精灵作战。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-tobiichi-origami",
+      "to": "f-ast",
+      "type": "former-member",
+      "summary": "折纸曾为 AST 成员。",
+      "visibility": "public",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-takamiya-mana",
+      "to": "f-dem",
+      "type": "former-or-associated",
+      "summary": "真那与 DEM 技术体系有因缘。",
+      "visibility": "private",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-takamiya-mio",
+      "to": "ch-takamiya-shinji",
+      "type": "obsessive-love/origin-cause",
+      "summary": "澪与真士的关系是始源因果核心。",
+      "visibility": "gm-only",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-takamiya-shinji",
+      "to": "ch-itsuka-shido",
+      "type": "reincarnation-or-continuity",
+      "summary": "真士与士道存在转生/继承式因果解释。",
+      "visibility": "gm-only",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-takamiya-mio",
+      "to": "f-spirits",
+      "type": "origin-linked-to",
+      "summary": "澪与多数精灵的灵结晶/诞生链条有关。",
+      "visibility": "gm-only",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "ch-tokisaki-kurumi",
+      "to": "ch-higoromo-hibiki",
+      "type": "date-a-bullet-linked",
+      "summary": "狂三与绯衣响在临界支线关联。",
+      "visibility": "private",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-tokisaki-kurumi",
+      "to": "ch-white-queen",
+      "type": "date-a-bullet-conflict",
+      "summary": "狂三与白之女王构成临界支线核心冲突之一。",
+      "visibility": "private",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-higoromo-hibiki",
+      "to": "f-neighboring",
+      "type": "member-or-resident",
+      "summary": "响属于邻界支线角色。",
+      "visibility": "private",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-white-queen",
+      "to": "f-neighboring",
+      "type": "major-threat-in",
+      "summary": "白之女王是邻界支线重要威胁。",
+      "visibility": "private",
+      "evidenceLevel": "C"
+    },
+    {
+      "from": "ch-higoromo-hibiki",
+      "to": "grp-date-a-bullet-minors",
+      "type": "associated-with",
+      "visibility": "public",
+      "evidenceLevel": "C",
+      "summary": "绯衣响与 Date A Bullet/邻界配角群相关。"
+    }
   ],
-  "sourceRefs": ["src-date-a-live-001"],
-  "notes": "关系强度用 type 和 summary 描述；未使用数值好感。"
+  "sourceRefs": [
+    "src-date-a-live-001"
+  ],
+  "notes": [
+    "关系强度用 type 和 summary 描述；未使用数值好感。"
+  ],
+  "campaignId": "date-a-live",
+  "views": {
+    "playerVisibleNodeIds": [],
+    "gmHighlightedNodeIds": [],
+    "activeSceneNodeIds": []
+  }
 }

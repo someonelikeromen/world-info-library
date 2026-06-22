@@ -1,5 +1,5 @@
 {
-  "schema": "rp-curated-source-registry-v1",
+  "schema": "rp-source-registry-v1",
   "worldSlug": "cheng-long-adventures",
   "displayName": "成龙历险记",
   "curatedFrom": [
@@ -8,10 +8,70 @@
       "title": "成龙历险记世界 (1)",
       "sourceRegistryPath": "campaigns/world-library/worlds/cheng-long-adventures/source-registry.json",
       "rawPreservedPath": "campaigns/world-library/worlds/cheng-long-adventures/raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json",
-      "consultedArchiveFiles": ["characters/characters.json", "world/world.json", "factions/factions.json", "locations/locations.json", "power-systems/power-systems.json", "raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json"],
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json"
+      ],
       "reliability": "B",
       "notes": "原归档以剧情时代、符咒与恶魔设定为主，人物条目较少；人物清单按已读条目中出现的角色与势力成员人工整理。"
     }
   ],
-  "curationMethod": "manual reading and summarization; no script extraction for curated prose"
+  "curationMethod": "manual reading and summarization; no script extraction for curated prose",
+  "campaignId": "cheng-long-adventures",
+  "sources": [
+    {
+      "sourceId": "src-cheng-long-adventures-001",
+      "type": "user-file-source",
+      "title": "成龙历险记世界 (1)",
+      "origin": "local archived worldbook trace",
+      "location": "campaigns/world-library/worlds/cheng-long-adventures/source-registry.json",
+      "rawPreservedPath": "campaigns/world-library/worlds/cheng-long-adventures/raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json",
+      "consultedArchiveFiles": [
+        "characters/characters.json",
+        "world/world.json",
+        "factions/factions.json",
+        "locations/locations.json",
+        "power-systems/power-systems.json",
+        "raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json"
+      ],
+      "reliability": "B",
+      "visibility": "local-archive",
+      "summary": "原归档以剧情时代、符咒与恶魔设定为主，人物条目较少；人物清单按已读条目中出现的角色与势力成员人工整理。",
+      "capture": {
+        "method": "existing-curated-trace",
+        "capturedAt": "2026-06-22",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/cheng-long-adventures/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "manual-registry-normalization",
+        "artifactPath": ""
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "cheng-long-adventures",
+          "field": "curated"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. 原归档以剧情时代、符咒与恶魔设定为主，人物条目较少；人物清单按已读条目中出现的角色与势力成员人工整理。"
+    }
+  ],
+  "conflictLog": [],
+  "registryNotes": [
+    "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
+    "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+  ],
+  "conflictReviewStatus": {
+    "status": "not-reviewed",
+    "reviewedAt": "2026-06-22",
+    "reviewScope": "registry metadata only; no new canon/source facts asserted",
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+  }
 }

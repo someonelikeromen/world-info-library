@@ -1,1 +1,229 @@
-{"schema":"rp-knowledge-graph-v1","worldId":"d-gray-man","nodes":[{"id":"innocence","type":"power-system","name":"Innocence/圣洁"},{"id":"noah","type":"power-system","name":"诺亚之记忆"},{"id":"akuma","type":"power-system","name":"Akuma/恶魔"},{"id":"black-order","type":"faction","name":"黑色教团"},{"id":"millennium-earl","type":"character","name":"千年伯爵"},{"id":"ark","type":"location","name":"方舟"},{"id":"nea","type":"character","name":"第十四号·内亚·D·坎贝尔"}],"edges":[{"from":"black-order","to":"innocence","type":"organizes-around","visibility":"public","sourceRefs":["src-d-gray-man-001"]},{"from":"millennium-earl","to":"akuma","type":"creates","visibility":"gm-only","sourceRefs":["src-d-gray-man-001"]},{"from":"noah","to":"akuma","type":"commands-or-oversees","visibility":"gm-only","sourceRefs":["src-d-gray-man-001"]},{"from":"nea","to":"allen-walker","type":"host-connection","visibility":"gm-only","sourceRefs":["src-d-gray-man-001"]},{"from":"ark","to":"noah","type":"used-by","visibility":"public","sourceRefs":["src-d-gray-man-001"]},{"from":"innocence","to":"akuma","type":"counters","visibility":"public","sourceRefs":["src-d-gray-man-001"]}]}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "d-gray-man",
+  "nodes": [
+    {
+      "id": "innocence",
+      "type": "power-system",
+      "name": "Innocence/圣洁",
+      "label": "Innocence/圣洁"
+    },
+    {
+      "id": "noah",
+      "type": "power-system",
+      "name": "诺亚之记忆",
+      "label": "诺亚之记忆"
+    },
+    {
+      "id": "akuma",
+      "type": "power-system",
+      "name": "Akuma/恶魔",
+      "label": "Akuma/恶魔制造"
+    },
+    {
+      "id": "black-order",
+      "type": "faction",
+      "name": "黑色教团"
+    },
+    {
+      "id": "millennium-earl",
+      "type": "character",
+      "name": "千年伯爵",
+      "label": "千年伯爵"
+    },
+    {
+      "id": "ark",
+      "type": "location",
+      "name": "方舟"
+    },
+    {
+      "id": "nea",
+      "type": "character",
+      "name": "第十四号·内亚·D·坎贝尔"
+    },
+    {
+      "id": "allen-walker",
+      "label": "亚连·沃克",
+      "type": "character"
+    },
+    {
+      "id": "millennium-earl-camp",
+      "type": "faction",
+      "label": "千年伯爵阵营"
+    },
+    {
+      "id": "noah-family",
+      "type": "faction",
+      "label": "诺亚一族"
+    },
+    {
+      "id": "north-american-branch",
+      "type": "faction",
+      "label": "北美分部"
+    },
+    {
+      "id": "european-branch",
+      "type": "faction",
+      "label": "欧洲总局/教团支部"
+    },
+    {
+      "id": "exorcist-squads",
+      "type": "faction",
+      "label": "驱魔师小队"
+    },
+    {
+      "id": "bookman-lineage",
+      "type": "faction",
+      "label": "Bookman 系",
+      "summary": "记录者 Bookman 相关谱系。"
+    },
+    {
+      "id": "secret-lines",
+      "type": "faction",
+      "label": "隐秘线",
+      "summary": "用于标记后期隐秘真相关联角色。"
+    },
+    {
+      "id": "black-order-hq",
+      "type": "location",
+      "label": "黑色教团本部"
+    },
+    {
+      "id": "european-branch-location",
+      "type": "location",
+      "label": "欧洲分部"
+    },
+    {
+      "id": "north-american-branch-location",
+      "type": "location",
+      "label": "北美分部"
+    },
+    {
+      "id": "japan",
+      "type": "location",
+      "label": "日本各地"
+    },
+    {
+      "id": "order-branches-and-battlefields",
+      "type": "location",
+      "label": "教团支部与战场"
+    },
+    {
+      "id": "europe",
+      "type": "location",
+      "label": "欧洲",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "battlefields",
+      "type": "location",
+      "label": "战场",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "order-periphery",
+      "type": "location",
+      "label": "教团外围",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "villages-and-towns",
+      "type": "location",
+      "label": "村镇",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "earl-battlefields",
+      "type": "location",
+      "label": "各地战场",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "illusion-space",
+      "type": "location",
+      "label": "幻境空间",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "order-secret-facilities",
+      "type": "location",
+      "label": "教团相关设施",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "past-ark",
+      "type": "location",
+      "label": "过去/方舟",
+      "summary": "为角色索引规范化补入的地点/场域节点；需后续补强。"
+    },
+    {
+      "id": "exorcist",
+      "type": "powerSystem",
+      "label": "驱魔师体系"
+    }
+  ],
+  "edges": [
+    {
+      "from": "black-order",
+      "to": "innocence",
+      "type": "organizes-around",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "millennium-earl",
+      "to": "akuma",
+      "type": "creates",
+      "visibility": "gm-only",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "noah",
+      "to": "akuma",
+      "type": "commands-or-oversees",
+      "visibility": "gm-only",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "nea",
+      "to": "allen-walker",
+      "type": "host-connection",
+      "visibility": "gm-only",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "ark",
+      "to": "noah",
+      "type": "used-by",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    },
+    {
+      "from": "innocence",
+      "to": "akuma",
+      "type": "counters",
+      "visibility": "public",
+      "sourceRefs": [
+        "src-d-gray-man-001"
+      ]
+    }
+  ],
+  "campaignId": "d-gray-man",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
+}

@@ -1,29 +1,121 @@
 {
-  "schema": "curated-knowledge-graph-v1",
+  "schema": "rp-knowledge-graph-v1",
   "worldSlug": "monster-hunter",
   "nodes": [
-    {"id": "guild", "label": "猎人公会", "type": "organization"},
-    {"id": "quests", "label": "任务星级/委托", "type": "system"},
-    {"id": "hunter", "label": "猎人", "type": "role"},
-    {"id": "craft", "label": "素材与装备锻造", "type": "system"},
-    {"id": "ecology", "label": "生态平衡", "type": "theme/system"},
-    {"id": "monsters", "label": "大型怪物", "type": "species-group"},
-    {"id": "elder-dragon", "label": "古龙", "type": "species-class"},
-    {"id": "forbidden", "label": "禁忌怪物", "type": "threat"},
-    {"id": "scribes", "label": "王立书士队", "type": "organization"},
-    {"id": "observatory", "label": "古龙观测局", "type": "organization"},
-    {"id": "regions", "label": "区域巡礼", "type": "narrative-structure"}
+    {
+      "id": "guild",
+      "label": "猎人公会",
+      "type": "organization"
+    },
+    {
+      "id": "quests",
+      "label": "任务星级/委托",
+      "type": "system"
+    },
+    {
+      "id": "hunter",
+      "label": "猎人",
+      "type": "role"
+    },
+    {
+      "id": "craft",
+      "label": "素材与装备锻造",
+      "type": "system"
+    },
+    {
+      "id": "ecology",
+      "label": "生态平衡",
+      "type": "theme/system"
+    },
+    {
+      "id": "monsters",
+      "label": "大型怪物",
+      "type": "species-group"
+    },
+    {
+      "id": "elder-dragon",
+      "label": "古龙",
+      "type": "species-class"
+    },
+    {
+      "id": "forbidden",
+      "label": "禁忌怪物",
+      "type": "threat"
+    },
+    {
+      "id": "scribes",
+      "label": "王立书士队",
+      "type": "organization"
+    },
+    {
+      "id": "observatory",
+      "label": "古龙观测局",
+      "type": "organization"
+    },
+    {
+      "id": "regions",
+      "label": "区域巡礼",
+      "type": "narrative-structure"
+    }
   ],
   "edges": [
-    {"from": "guild", "to": "quests", "relation": "publishes-and-regulates"},
-    {"from": "hunter", "to": "quests", "relation": "accepts"},
-    {"from": "hunter", "to": "monsters", "relation": "hunts-or-repels"},
-    {"from": "monsters", "to": "ecology", "relation": "part-of"},
-    {"from": "craft", "to": "hunter", "relation": "drives-growth"},
-    {"from": "scribes", "to": "monsters", "relation": "records-and-classifies"},
-    {"from": "observatory", "to": "elder-dragon", "relation": "tracks"},
-    {"from": "elder-dragon", "to": "ecology", "relation": "can-disrupt"},
-    {"from": "forbidden", "to": "regions", "relation": "long-term-mystery"},
-    {"from": "regions", "to": "quests", "relation": "structures-progression"}
-  ]
+    {
+      "from": "guild",
+      "to": "quests",
+      "relation": "publishes-and-regulates"
+    },
+    {
+      "from": "hunter",
+      "to": "quests",
+      "relation": "accepts"
+    },
+    {
+      "from": "hunter",
+      "to": "monsters",
+      "relation": "hunts-or-repels"
+    },
+    {
+      "from": "monsters",
+      "to": "ecology",
+      "relation": "part-of"
+    },
+    {
+      "from": "craft",
+      "to": "hunter",
+      "relation": "drives-growth"
+    },
+    {
+      "from": "scribes",
+      "to": "monsters",
+      "relation": "records-and-classifies"
+    },
+    {
+      "from": "observatory",
+      "to": "elder-dragon",
+      "relation": "tracks"
+    },
+    {
+      "from": "elder-dragon",
+      "to": "ecology",
+      "relation": "can-disrupt"
+    },
+    {
+      "from": "forbidden",
+      "to": "regions",
+      "relation": "long-term-mystery"
+    },
+    {
+      "from": "regions",
+      "to": "quests",
+      "relation": "structures-progression"
+    }
+  ],
+  "campaignId": "monster-hunter",
+  "indices": {
+    "byType": {},
+    "byTag": {},
+    "byVisibility": {},
+    "activeClues": [],
+    "lockedSecrets": []
+  }
 }

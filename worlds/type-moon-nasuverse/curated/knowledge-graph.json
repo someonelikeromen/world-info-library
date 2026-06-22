@@ -1,1 +1,387 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-type-moon-nasuverse","cardId":"type-moon-nasuverse","nodes":[{"id":"kg-root","type":"secret","title":"根源","aliases":["Akasha"],"visibility":"gm-only","summary":"魔术师追求的万物起点与终点。","fullText":"多数魔术研究、圣杯战争与魔法追求最终指向根源。","tags":["mystery"],"importance":"critical","source":{"kind":"worldbook","ref":"src-tm-classification-report"},"revealConditions":["魔术师高阶研究"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-holy-grail-war","type":"event","title":"圣杯战争","aliases":[],"visibility":"private","summary":"御主与从者围绕圣杯进行的仪式战争。","fullText":"常见于冬木，实际可能被污染或被家族目的操控。","tags":["ritual","war"],"importance":"critical","source":{"kind":"worldbook","ref":"src-tm-import-readme"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-human-order","type":"rule","title":"人理与特异点","aliases":[],"visibility":"private","summary":"FGO 线中人类史可被观测、烧却、修复或剪定。","fullText":"迦勒底通过灵子转移修复特异点。","tags":["fgo"],"importance":"critical","source":{"kind":"worldbook","ref":"src-tm-import-readme"},"revealConditions":["加入迦勒底线"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-hgw-root","from":"kg-holy-grail-war","to":"kg-root","type":"points-to","visibility":"gm-only","strength":{"level":"A","score":80,"description":"圣杯战争原始目的与抵达根源相关。"},"description":"圣杯仪式是通往根源尝试之一。","gmNotes":"按 FSN 线揭露。"},{"id":"kg-edge-chaldea-human-order","from":"kg-human-order","to":"kg-holy-grail-war","type":"supports","visibility":"private","strength":{"level":"C","score":45,"description":"二者均利用从者召唤与大型仪式系统。"},"description":"FGO 与 Fate 线共享英灵召唤概念。","gmNotes":"跨线时注意差异。"}],"indices":{"byVisibility":{"gm-only":["kg-root"],"private":["kg-holy-grail-war","kg-human-order"]},"byType":{"secret":["kg-root"],"event":["kg-holy-grail-war"],"rule":["kg-human-order"]},"byTag":{"mystery":["kg-root"],"ritual":["kg-holy-grail-war"],"fgo":["kg-human-order"]},"activeClues":[],"lockedSecrets":["kg-root"]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-type-moon-nasuverse",
+  "cardId": "type-moon-nasuverse",
+  "nodes": [
+    {
+      "id": "kg-root",
+      "type": "secret",
+      "title": "根源",
+      "aliases": [
+        "Akasha"
+      ],
+      "visibility": "gm-only",
+      "summary": "魔术师追求的万物起点与终点。",
+      "fullText": "多数魔术研究、圣杯战争与魔法追求最终指向根源。",
+      "tags": [
+        "mystery"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-tm-classification-report"
+      },
+      "revealConditions": [
+        "魔术师高阶研究"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-holy-grail-war",
+      "type": "event",
+      "title": "圣杯战争",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "御主与从者围绕圣杯进行的仪式战争。",
+      "fullText": "常见于冬木，实际可能被污染或被家族目的操控。",
+      "tags": [
+        "ritual",
+        "war"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-tm-import-readme"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-human-order",
+      "type": "rule",
+      "title": "人理与特异点",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "FGO 线中人类史可被观测、烧却、修复或剪定。",
+      "fullText": "迦勒底通过灵子转移修复特异点。",
+      "tags": [
+        "fgo"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-tm-import-readme"
+      },
+      "revealConditions": [
+        "加入迦勒底线"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "shirou-emiya",
+      "type": "character",
+      "label": "卫宫士郎",
+      "summary": "第五次圣杯战争御主，擅长投影与强化，理想是成为正义的伙伴。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "saber-artoria",
+      "type": "character",
+      "label": "阿尔托莉雅·潘德拉贡",
+      "summary": "第五次圣杯战争 Saber 职阶从者，真名为亚瑟王。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "rin-tohsaka",
+      "type": "character",
+      "label": "远坂凛",
+      "summary": "远坂家魔术师，第五次圣杯战争御主。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "sakura-matou",
+      "type": "character",
+      "label": "间桐樱",
+      "summary": "间桐家养女，体内隐藏圣杯战争关键因素。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "illyasviel",
+      "type": "character",
+      "label": "伊莉雅斯菲尔·冯·爱因兹贝伦",
+      "summary": "爱因兹贝伦人造人，第五次圣杯战争御主，也有魔法少女伊莉雅平行线。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "gilgamesh",
+      "type": "character",
+      "label": "吉尔伽美什",
+      "summary": "最古英雄王，以王之财宝与乖离剑为核心战力。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "ritsuka-fujimaru",
+      "type": "character",
+      "label": "藤丸立香",
+      "summary": "迦勒底御主，人理修复行动中心人物。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "mash-kyrielight",
+      "type": "character",
+      "label": "玛修·基列莱特",
+      "summary": "迦勒底亚从者，与加拉哈德灵基相关。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "kirei-kotomine",
+      "type": "character",
+      "label": "言峰绮礼",
+      "summary": "圣堂教会神父兼圣杯战争监督者，具有扭曲的自我探求。",
+      "resolutionStatus": "indexed-character-minimal",
+      "notes": "Added from curated characters-index for minimal KG coverage."
+    },
+    {
+      "id": "mage-association",
+      "type": "faction",
+      "label": "魔术协会",
+      "summary": "魔术协会",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "chaldea",
+      "type": "faction",
+      "label": "迦勒底",
+      "summary": "迦勒底",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "fuyuki-masters",
+      "type": "faction",
+      "label": "冬木御主阵营",
+      "summary": "冬木御主阵营",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "fuyuki-servants",
+      "type": "faction",
+      "label": "冬木从者阵营",
+      "summary": "冬木从者阵营",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "tohsaka-family",
+      "type": "faction",
+      "label": "远坂家",
+      "summary": "远坂家",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "matou-family",
+      "type": "faction",
+      "label": "间桐家",
+      "summary": "间桐家",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "einzbern-family",
+      "type": "faction",
+      "label": "爱因兹贝伦家",
+      "summary": "爱因兹贝伦家",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "holy-church",
+      "type": "faction",
+      "label": "圣堂教会",
+      "summary": "圣堂教会",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "fuyuki-city",
+      "type": "location",
+      "label": "冬木市",
+      "summary": "冬木市",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "clock-tower",
+      "type": "location",
+      "label": "时钟塔",
+      "summary": "时钟塔",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "chaldea-base",
+      "type": "location",
+      "label": "迦勒底",
+      "summary": "迦勒底",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "enzou-mountain",
+      "type": "location",
+      "label": "圆藏山",
+      "summary": "圆藏山",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "ryudou-temple",
+      "type": "location",
+      "label": "柳洞寺",
+      "summary": "柳洞寺",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "fairy-country",
+      "type": "location",
+      "label": "妖精国",
+      "summary": "妖精国",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "einzbern-castle",
+      "type": "location",
+      "label": "爱因兹贝伦城",
+      "summary": "爱因兹贝伦城",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "singularity",
+      "type": "location",
+      "label": "特异点",
+      "summary": "特异点",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "fuyuki-church",
+      "type": "location",
+      "label": "冬木教会",
+      "summary": "冬木教会",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "magecraft",
+      "type": "power-system",
+      "label": "魔术/魔术基盘",
+      "summary": "魔术/魔术基盘",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "servant-system",
+      "type": "power-system",
+      "label": "英灵召唤/从者系统",
+      "summary": "英灵召唤/从者系统",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    },
+    {
+      "id": "church-technique",
+      "type": "power-system",
+      "label": "圣堂教会战技",
+      "summary": "圣堂教会战技",
+      "resolutionStatus": "q5-world-entity-minimal",
+      "notes": "Q5 KG INFO: Added from curated world.json factions/locations/powerSystems for minimal graph coverage."
+    }
+  ],
+  "edges": [
+    {
+      "id": "kg-edge-hgw-root",
+      "from": "kg-holy-grail-war",
+      "to": "kg-root",
+      "type": "points-to",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "圣杯战争原始目的与抵达根源相关。"
+      },
+      "description": "圣杯仪式是通往根源尝试之一。",
+      "gmNotes": "按 FSN 线揭露。",
+      "source": "kg-holy-grail-war",
+      "target": "kg-root"
+    },
+    {
+      "id": "kg-edge-chaldea-human-order",
+      "from": "kg-human-order",
+      "to": "kg-holy-grail-war",
+      "type": "supports",
+      "visibility": "private",
+      "strength": {
+        "level": "C",
+        "score": 45,
+        "description": "二者均利用从者召唤与大型仪式系统。"
+      },
+      "description": "FGO 与 Fate 线共享英灵召唤概念。",
+      "gmNotes": "跨线时注意差异。",
+      "source": "kg-human-order",
+      "target": "kg-holy-grail-war"
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "gm-only": [
+        "kg-root"
+      ],
+      "private": [
+        "kg-holy-grail-war",
+        "kg-human-order"
+      ]
+    },
+    "byType": {
+      "secret": [
+        "kg-root"
+      ],
+      "event": [
+        "kg-holy-grail-war"
+      ],
+      "rule": [
+        "kg-human-order"
+      ]
+    },
+    "byTag": {
+      "mystery": [
+        "kg-root"
+      ],
+      "ritual": [
+        "kg-holy-grail-war"
+      ],
+      "fgo": [
+        "kg-human-order"
+      ]
+    },
+    "activeClues": [],
+    "lockedSecrets": [
+      "kg-root"
+    ]
+  },
+  "metadata": {
+    "q5KgInfoRepair": {
+      "addedWorldEntityNodes": 20,
+      "edgeAliasesAdded": "source/target mirrored from from/to when absent",
+      "scope": "factions/locations/powerSystems from curated world.json"
+    }
+  }
+}
