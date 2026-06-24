@@ -25,5 +25,10 @@
       "resolution": "初版采用东京区域与民警搭档的通用设定。"
     }
   ],
-  "campaignId": "black-bullet"
+  "campaignId": "black-bullet",
+  "registryNotes": [
+    "retry-01: completion-expansion.json uses chapter arc/full-plot entries because canon-reference/timeline.json has entryCount 0; generated timeline is high-level curation, not an independently verified complete chronology.",
+    "retry-01: sandbox/original variants and 11 unclassified entries remain low-confidence pending raw review."
+  ],
+  "lastCompletionPass": "retry-01"
 }

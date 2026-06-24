@@ -12,6 +12,7 @@
 - `knowledge-graph.json`
 - `relationship-graph.json`
 - `curation-notes.md`
+- `audit-completion-modules.json`
 
 ## 重点内容
 - 世界主轴：美食时代、人间界 / 美食界双域、IGO / 美食会 / NEO / 美食骑士 / 美食黑社会。
@@ -19,6 +20,7 @@
 - 人物主轴：阿虏、小松、四天王、一龙、次郎、三虎、阿卡西亚、乔亚、曼萨姆、节乃等。
 
 ## 未解决项
+- `audit-completion-modules.json` 已补美食界八王、阿卡西亚全套菜单、篇章索引与美食黑社会入口。
 - 八王、阿卡西亚全套菜单、NEO 终局线属于高剧透骨架，后续如需细化可再扩展。
 - 个别厨师榜单人物存在译名差异，当前按常见中文名保留。
 

@@ -1,0 +1,89 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "ikki-tousen",
+  "completionPass": "complete-06",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/ikki-tousen/source-registry.json",
+    "campaigns/world-library/worlds/ikki-tousen/characters/characters.json",
+    "campaigns/world-library/worlds/ikki-tousen/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/ikki-tousen/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/ikki-tousen/factions/factions.json",
+    "campaigns/world-library/worlds/ikki-tousen/power-systems/power-systems.json",
+    "world-info-library/worlds/ikki-tousen/curated/world-expansion.json"
+  ],
+  "coverageNote": "按本地源的章节标题补齐从第一季、Dragon Destiny、Great Guardians 到 Xtreme Xecutor 的 RP 路由；保持勾玉/斗士/龙觉醒为核心，关西/大和和复苏线标 B 级置信。",
+  "characters": {
+    "coreIndexedAlready": [
+      "sonsaku-hakufu",
+      "ryomou-shimei",
+      "shuyu-koukin",
+      "kanu-unchou",
+      "ryubi-gentoku",
+      "sosou-moutoku"
+    ],
+    "sourceDerivedSupplements": [
+      {"id": "saji-genpou-ouin-shishi", "name": "左慈元放 / 王允子师", "role": "孙策早期神秘保护者与洛阳身份谜底。", "sourceRefs": ["src-ikki-tousen-001"]},
+      {"id": "toutaku-chuuei", "name": "董卓仲颖", "role": "洛阳高校首领，推动大斗士大会和早期幕后操控。", "sourceRefs": ["src-ikki-tousen-001"]},
+      {"id": "ryofu-housen", "name": "吕布奉先", "role": "洛阳最强战力、背叛与复苏/幻影线的悲剧节点。", "sourceRefs": ["src-ikki-tousen-001"]},
+      {"id": "chinkyu-koudai", "name": "陈宫公台", "role": "洛阳军师，吕布线的情感执念和后续幻术控制入口。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+      {"id": "shokatsuryou-koumei", "name": "诸葛亮孔明", "role": "成都神秘军师，刘备/关羽/张飞保护线的策略核心。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+      {"id": "sonken-chubou", "name": "孙权仲谋", "role": "Great Guardians 线扩展人物，自称孙策妹妹，用于幻影/阴阳线。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+      {"id": "bachou-mouki", "name": "马超孟起", "role": "Xtreme Xecutor 初登场的西凉战神，连接大和阴影篇。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+      {"id": "himiko", "name": "卑弥呼", "role": "大和学院幕后首领/后期神秘线源头。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+      {"id": "shibai-chuutatsu", "name": "司马懿仲达", "role": "大和毒士与阴谋执行者，适合作为中后期调查敌手。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"}
+    ]
+  },
+  "timeline": [
+    {"phase": "season-1-arrival", "title": "霸王降临与勾玉宿命", "beats": ["孙策转学南阳", "关东街头初战", "废弃工厂伏击", "吕蒙试探", "左慈/王允救场"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"phase": "season-1-tournament", "title": "大斗士大会与洛阳绞肉机", "beats": ["董卓命令大会", "吕布/陈宫/贾诩等洛阳线登场", "貂蝉与于吉扰乱南阳", "吕布反叛与董卓地下祭坛"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"phase": "dragon-destiny", "title": "龙之宿命、刘备与曹操", "beats": ["成都旧校舍与刘备保护线", "曹操魔王暴走", "夏侯渊/夏侯惇/郭嘉许昌线", "真龙觉醒与赤壁前奏"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"phase": "great-guardians", "title": "幻影之都与吕布复苏", "beats": ["真左慈/左慈阴暗面登场", "吕布幻影复苏", "张昭亡灵与邪术蔓延", "龙水双绝和魔王之卵终局"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"phase": "xtreme-xecutor", "title": "大和阴影与卑弥呼线", "beats": ["孙策病厄", "马超和曹仁进入关东", "献帝与京都修学旅行", "司马懿和大和实验室", "二条城结界与大和霸王"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"}
+  ],
+  "plotArcs": [
+    {"id": "school-faction-war", "title": "高校阵营战争", "use": "以南阳、洛阳、成都、许昌、关西/大和的校际关系承载三国宿命。"},
+    {"id": "magatama-destiny", "title": "勾玉与武将宿命", "use": "用武将名号、等级和命运冲动推动角色选择，但保留改写余地。"},
+    {"id": "dragon-and-demon-king", "title": "龙觉醒与魔王暴走", "use": "孙策、刘备、曹操等关键人物的高风险爆发线，必须有预兆、代价和同伴制止窗口。"},
+    {"id": "revival-phantom-yamato", "title": "复苏/幻影/大和秘术", "use": "Great Guardians 与 Xtreme Xecutor 后期神秘线；当前标 B 置信，适合 GM 作为扩展而非早期默认规则。"}
+  ],
+  "powerSystems": [
+    {"id": "magatama", "name": "勾玉", "rules": ["承载三国武将宿命和斗士资质。", "可能诱发记忆、冲动或命运再演，但不等于完全人格替换。"]},
+    {"id": "toushi-rank", "name": "斗士等级", "rules": ["等级影响常规胜负和校内地位。", "战局仍受地形、伤势、同伴、觉醒和剧情抉择影响。"]},
+    {"id": "ki-martial-arts", "name": "气与武术", "rules": ["基础战斗以格斗、关节技、武器术、身法和气为主。", "RP 前声明战斗尺度：竞技、重伤、昏迷或死亡。"]},
+    {"id": "dragon-awakening", "name": "龙觉醒/霸王化", "rules": ["极端情绪、濒死或宿命节点触发。", "提升战力但伴随失控、误伤和宿命吞噬风险。"]},
+    {"id": "ritual-phantom", "name": "术式/幻影复苏", "rules": ["后期线使用，涉及亡灵、幻术、结界和大和秘术。", "未二次校对前不得把复活设为通用能力。"], "confidence": "B"}
+  ],
+  "factions": [
+    {"id": "nanyo-academy", "role": "孙策入学和南阳四天王舞台，适合转学生/底层斗士开局。"},
+    {"id": "luoyang-high", "role": "董卓、吕布、貂蝉、王允等早期幕后操盘。"},
+    {"id": "seito-academy", "role": "刘备、关羽、张飞、诸葛亮的保护与真龙线。"},
+    {"id": "xuchang-academy", "role": "曹操魔王宿命和许昌干部阵营。"},
+    {"id": "yamato-himiko-line", "role": "卑弥呼、大和学院、司马懿和结界/实验后期线。", "confidence": "B"}
+  ],
+  "locations": [
+    {"id": "nanyo-gate", "name": "南阳学院校门/天台", "role": "入学、试探和早期单挑。"},
+    {"id": "abandoned-factory", "name": "废弃工厂", "role": "伏击、底层斗士争夺、吕布线回声。"},
+    {"id": "luoyang-ritual-sites", "name": "洛阳地下祭坛/广播室", "role": "董卓操控、吕布反叛和早期终局。"},
+    {"id": "seito-old-schoolhouse", "name": "成都旧校舍", "role": "刘备保护、真龙觉醒和成都日常。"},
+    {"id": "kyoto-yamato-labs", "name": "京都/大和地下实验室", "role": "修学旅行、大和阴谋、献帝和结界线。", "confidence": "B"}
+  ],
+  "relationships": [
+    {"from": "sonsaku-hakufu", "to": "shuyu-koukin", "type": "cousin-guardian", "visibility": "public"},
+    {"from": "sonsaku-hakufu", "to": "saji-genpou-ouin-shishi", "type": "secret-protector", "visibility": "private"},
+    {"from": "ryofu-housen", "to": "chinkyu-koudai", "type": "tragic-loyalty", "visibility": "private-progressive"},
+    {"from": "ryubi-gentoku", "to": "kanu-unchou", "type": "leader-protected-by-warrior", "visibility": "public"},
+    {"from": "sosou-moutoku", "to": "dragon-destiny", "type": "demon-king-awakening-risk", "visibility": "private"},
+    {"from": "himiko", "to": "yamato-himiko-line", "type": "hidden-mastermind", "visibility": "gm-only", "confidence": "B"}
+  ],
+  "rpNotes": [
+    "开局必须锁定季/篇章：早期南阳、洛阳大会、Dragon Destiny、Great Guardians 或 Xtreme Xecutor。",
+    "OC 可以介入校际战争，但不要默认替孙策/刘备/曹操触发专属龙觉醒节点。",
+    "勾玉宿命是压力与诱惑，不是强制剧本；允许玩家选择改写或顺应。",
+    "后期复苏、幻影和大和秘术要作为高神秘度线索逐步揭示，避免压过早期武术校园战。"
+  ],
+  "residualGaps": [
+    "漫画、动画、外传混排仍需逐条确认正史/动画原创/沙盒取舍。",
+    "献帝、玉玺、关西/大和线人物生死和真实身份需要卷/话级校对。",
+    "阵营 canonical id 仍存在 nanyo/seito/kyosho/rakuyo 与 nanyo-academy/seito-academy/xuchang-academy/luoyang-high 的命名差异。"
+  ]
+}

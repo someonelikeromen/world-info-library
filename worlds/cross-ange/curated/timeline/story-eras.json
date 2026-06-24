@@ -1,0 +1,159 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cross-ange",
+  "module": "timeline/story-eras",
+  "status": "audit-completion-2026-06-24",
+  "sourceRefs": [
+    "src-cross-ange-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cross-ange/world/world.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/plot-summary.json"
+  ],
+  "curationPolicy": "按源世界蓝图和角色时间线约束归纳六期故事弧，不复制完整分集文本；时间门控用于 RP 连续性，而非强制玩家路线。",
+  "eras": [
+    {
+      "id": "pre-series-mana-utopia",
+      "name": "玛那乌托邦表象期",
+      "summary": "恩布利欧创造的玛那社会维持无战争、无贫困的理想乡表象；诺玛被定义为非人并被发现即隔离，龙族真相、奥拉和原始地球都被隐藏。",
+      "activeFactions": [
+        "mana-world-states",
+        "misurugi-empire",
+        "embryo-hidden-control"
+      ],
+      "rpEntryPoints": [
+        "贵族/平民日常中发现诺玛身份筛查异常。",
+        "玛那都市出现龙鸣、鑨能源或特异点相关事故。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-1-fallen-princess",
+      "name": "第1期：坠落公主与阿尔泽纳尔适应",
+      "summary": "安琪在洗礼仪式中暴露为诺玛，母亲索菲亚为保护她而死，随后被送往阿尔泽纳尔并从皇女身份坠落为士兵；佐拉之死、剪发和 Villkiss 初次响应构成觉醒起点。",
+      "episodeRangeHint": "1-5",
+      "activeFactions": [
+        "arzenal",
+        "misurugi-empire",
+        "mana-world-states"
+      ],
+      "rpEntryPoints": [
+        "新兵训练、第一次对龙出击、战死善后。",
+        "无人孤岛与塔斯克相遇，短暂脱离阿尔泽纳尔秩序。"
+      ],
+      "timeGateRules": [
+        "安琪尚不知道原始地球、龙族真相和恩布利欧本体。",
+        "Villkiss 的高阶时空能力不可随意使用。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-2-escape-and-rejection",
+      "name": "第2期：逃离、背叛与反抗决定",
+      "summary": "桃香进入阿尔泽纳尔，逃离计划、希尔达小队冲突和米斯尔奇家族彻底抛弃推动安琪确认自己作为安琪而非皇女生存。",
+      "episodeRangeHint": "6-10",
+      "activeFactions": [
+        "arzenal",
+        "misurugi-empire",
+        "norma-squadron"
+      ],
+      "rpEntryPoints": [
+        "逃亡路线、审问、处刑危机。",
+        "与希尔达、萨莉亚等队友从敌意到有限信任的关系调整。"
+      ],
+      "timeGateRules": [
+        "可强化阿尔泽纳尔日常和诺玛歧视，但仍不提前公开龙族真相。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-3-dragon-song-and-libertas",
+      "name": "第3期：龙之歌与 Libertas 真相",
+      "summary": "龙之歌秘密浮出水面，吉尔揭示过去的 Libertas 与部分真相；安琪开始从单纯生存转向主动反抗，离开阿尔泽纳尔旧框架。",
+      "episodeRangeHint": "11-13",
+      "activeFactions": [
+        "arzenal-command",
+        "dragon-people",
+        "embryo-hidden-control"
+      ],
+      "rpEntryPoints": [
+        "对龙任务中发现人形龙族或歌的共鸣。",
+        "吉尔以反抗计划要求安琪承担更大角色。"
+      ],
+      "timeGateRules": [
+        "恩布利欧可作为幕后压力或短暂显影，但完整目的仍可保留。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-4-original-earth-and-dragon-alliance",
+      "name": "第4期：原始地球与龙族同盟",
+      "summary": "安琪抵达或知晓原始地球，玛那世界与龙族的真实关系逐步揭开；萨拉曼蒂妮及奥拉之民从敌人转为可交涉同盟。",
+      "episodeRangeHint": "14-18",
+      "activeFactions": [
+        "dragon-people",
+        "ancient-people",
+        "arzenal-rebels"
+      ],
+      "rpEntryPoints": [
+        "废土世界探索、污染遗迹、龙族城市和龙神器展示。",
+        "诺玛与龙族围绕奥拉、鑨和复仇立场谈判。"
+      ],
+      "timeGateRules": [
+        "龙族真相公开后，普通猎龙任务要重新处理道德后果。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-5-embryo-and-diamond-rose",
+      "name": "第5期：恩布利欧与钻石玫瑰骑士团",
+      "summary": "恩布利欧正面介入，萨莉亚等人可能被其诱导或收编，钻石玫瑰骑士团和多台 Ragna-mail 形成中后期战斗压力。",
+      "episodeRangeHint": "19-22",
+      "activeFactions": [
+        "embryo-faction",
+        "diamond-rose-knights",
+        "arzenal-rebels",
+        "dragon-people"
+      ],
+      "rpEntryPoints": [
+        "被恩布利欧以理想、承认或欲望诱惑。",
+        "Ragna-mail 对 Ragna-mail 的高速战、叛变与救回。"
+      ],
+      "timeGateRules": [
+        "不要把恩布利欧写成普通军官；他是时空调律者和社会设计者。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "phase-6-final-libertas",
+      "name": "第6期：最终 Libertas 与新世界重建",
+      "summary": "反玛那/反恩布利欧同盟发动最终决战，时空融合与 Villkiss 的高阶能力成为终局核心；恩布利欧被击破后，两个世界在废墟和选择中重建。",
+      "episodeRangeHint": "23-25",
+      "activeFactions": [
+        "arzenal-rebels",
+        "dragon-people",
+        "ancient-people",
+        "embryo-faction-remnants"
+      ],
+      "rpEntryPoints": [
+        "最终突入、奥拉救援、次元兵器对抗。",
+        "战后玛那崩坏、诺玛身份恢复与跨世界重建。"
+      ],
+      "timeGateRules": [
+        "适合作为终局或高阶 AU，不建议低级开局直接启用。"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "continuityRules": [
+    "剧情阶段决定信息可见性：玛那真相、龙族身份、原始地球、恩布利欧目的应逐步揭露。",
+    "Villkiss、Ragna-mail 和收敛时空炮应锁定指轮、歌、适格性、驾驶者状态与剧情节点。",
+    "沙盒可分歧，但每次改变关键节点需记录关系网、阵营、机体所有权和世界真相公开程度。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源使用‘期/卷/话’混合结构；本模块以 25 话六期蓝图为主，不解决所有分集细节对齐。",
+    "部分角色条目的时间线约束比世界蓝图更细，运行时若冲突应以更具体的角色条目和 curation notes 待核项为准。"
+  ]
+}

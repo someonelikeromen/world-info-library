@@ -1,0 +1,255 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "sekirei",
+  "sourceRefs": [
+    "src-sekirei-001"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：鹡鸰能力、MBI/惩罚部队/神器体系、人物、地点、时间线、篇章和关系；仅使用 campaigns/world-library/worlds/sekirei 本地源。",
+  "powerSystems": [
+    {
+      "id": "ashikabi-winging",
+      "name": "苇牙与羽化",
+      "summary": "苇牙通过接吻等触发使鹡鸰羽化，激活鹡鸰纹、固有能力和祝词/祈祷。羽化并非单纯增幅，也会形成情感和命运绑定；苇牙适性越高，越可能维持多名鹡鸰的稳定战力。",
+      "rpLimits": [
+        "羽化需双方同意或明确剧情风险，curated 视图不采用强迫亲密作为常规推进。",
+        "苇牙本人通常脆弱，阵营战应围绕保护、撤离和指挥。",
+        "祝词是爆发技，应消耗体力、暴露位置或触发 MBI 监控。"
+      ]
+    },
+    {
+      "id": "sekirei-numbered-abilities",
+      "name": "编号鹡鸰与个体固有能力",
+      "summary": "鹡鸰拥有编号、身体机能和固有能力。结为拳系近战，月海操控水，草野操控植物，松负责电子战，风花操控风，焰操控火，鸦羽以高速剑术压制，椎菜具衰亡/枯萎系能力。编号越靠前通常越被重视，但战术、苇牙状态与地形仍可改变胜负。",
+      "rpLimits": [
+        "编号不等于绝对等级；信息差、神器规则和 MBI 阶段限制同样重要。",
+        "未成年角色如草野仅用于保护、支援和家庭线，不写成人化桥段。"
+      ]
+    },
+    {
+      "id": "jinki-system",
+      "name": "神器(Jinki)系统",
+      "summary": "神器是鹡鸰计划后期关键道具，与比赛阶段、胜者资格和御中广人的真实目的相关。神器争夺会迫使各苇牙阵营从单挑转向据点战、情报战和临时同盟。",
+      "rpLimits": [
+        "神器默认由 MBI 规则或剧情任务释放，不能作为开局装备。",
+        "神器线应同步推进城市封锁和阵营政治。"
+      ]
+    },
+    {
+      "id": "mbi-seal-and-plan",
+      "name": "MBI封锁与鹡鸰计划阶段",
+      "summary": "M.B.I.控制新东帝都作为实验舞台，通过城市封锁、监控、惩罚部队和阶段规则推动鹡鸰淘汰。御中广人以游戏化口吻操盘，但计划背后牵涉神座岛、鹡鸰起源和神器秘密。",
+      "rpLimits": [
+        "MBI可施加规则、公告和追捕，但不应无限全知；松等情报角色可制造盲区。",
+        "阶段推进应先公告规则，再给玩家逃亡/结盟/反抗选择。"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "takami",
+      "name": "佐桥高美",
+      "aliases": ["Sahashi Takami"],
+      "role": "MBI研究人员；皆人与由香理之母",
+      "affiliations": ["mbi", "sahashi-family"],
+      "abilities": ["鹡鸰研究", "计划内部情报", "母亲身份的保护动机"],
+      "notes": "可作为透露计划真相、保护皆人或与御中对峙的中后期关键 NPC。"
+    },
+    {
+      "id": "shiina",
+      "name": "椎菜",
+      "aliases": ["Shiina", "#107"],
+      "role": "草野的兄妹式对应鹡鸰；衰亡/枯萎系能力者",
+      "affiliations": ["independent-or-yukari-route"],
+      "abilities": ["生命力衰退", "枯萎", "高危范围能力"],
+      "notes": "与草野形成植物/枯萎对照，能力应谨慎处理以免秒杀普通人。"
+    },
+    {
+      "id": "uzume",
+      "name": "鹐",
+      "aliases": ["Uzume", "#10"],
+      "role": "鹡鸰计划中被胁迫/两难的行动者",
+      "affiliations": ["sekirei-plan-contestants"],
+      "abilities": ["战斗服/布带系机动", "潜入", "对苇牙的忠诚压力"],
+      "notes": "源条目将其列为重要角色，可用于被迫敌对、保护苇牙和阵营选择线。"
+    },
+    {
+      "id": "hikari-hibiki",
+      "name": "光与响",
+      "aliases": ["Hikari #11", "Hibiki #12"],
+      "role": "双子式鹡鸰组合，常作为协同战样例",
+      "affiliations": ["mbi-or-contestants"],
+      "abilities": ["双人协同", "远程/能量系配合", "封锁追击"],
+      "notes": "适合作为惩罚部队或规则执行下的双人战压力。"
+    }
+  ],
+  "factions": [
+    {
+      "id": "sahashi-house-izumo",
+      "name": "佐桥皆人阵营/出云庄",
+      "type": "household-alliance",
+      "summary": "由皆人和结、月海、草野、松、风花、焰等构成的家庭型阵营。出云庄提供物理安全区，美哉的威慑和松的情报网使其能在 MBI 规则下长期生存。",
+      "members": ["minato", "musubi", "tsukiumi", "kusano", "matsu", "kazehana", "homura", "miya"],
+      "resources": ["出云庄", "松的情报系统", "多能力组合", "美哉的隐藏战力"],
+      "conflicts": ["mbi", "disciplinary-squad", "other-ashikabi"]
+    },
+    {
+      "id": "mbi",
+      "name": "M.B.I.",
+      "type": "megacorp-controller",
+      "summary": "御中广人领导的企业组织，控制新东帝都、发放规则、部署惩罚部队并操盘神器线。内部包括佐桥高美等研究人员。"
+    },
+    {
+      "id": "disciplinary-squad",
+      "name": "惩罚部队",
+      "type": "elite-enforcer-sekirei-team",
+      "summary": "MBI麾下高危鹡鸰执行小队。鸦羽是核心剑士，焰曾与其有关联；用于追捕违规者、压制逃亡者和制造高强度战斗。",
+      "members": ["karasuba", "hikari-hibiki", "homura-former-association"],
+      "conflicts": ["sahashi-house-izumo", "rogue-ashikabi"]
+    },
+    {
+      "id": "other-ashikabi",
+      "name": "其他苇牙阵营",
+      "type": "rival-contractors",
+      "summary": "不同苇牙基于爱、占有、恐惧或利益聚集鹡鸰。计划阶段越后，越容易形成联盟、背叛和据点争夺。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "izumo-inn",
+      "name": "出云庄",
+      "type": "safe-house",
+      "summary": "美哉经营的旅馆，皆人阵营据点。生活喜剧、情报会议、敌袭防御和角色关系推进都集中在此。"
+    },
+    {
+      "id": "shinto-teito",
+      "name": "新东帝都",
+      "type": "sealed-urban-arena",
+      "summary": "现代都市外壳下的鹡鸰计划舞台，被 MBI 监控和阶段规则逐步封锁。高楼、地下设施、桥梁和区域封锁适合城市追逃。"
+    },
+    {
+      "id": "mbi-tower",
+      "name": "MBI总部",
+      "type": "corporate-command-center",
+      "summary": "御中广人的操盘中心，兼具广播、监控、实验和惩罚部队调度功能。"
+    },
+    {
+      "id": "kamikura-island",
+      "name": "神座岛",
+      "type": "origin-site",
+      "summary": "鹡鸰起源与计划真相相关的岛屿地点，适合后期揭示鹡鸰并非普通超能力者的背景。"
+    },
+    {
+      "id": "kouten",
+      "name": "嵩天",
+      "type": "high-risk-stage",
+      "summary": "源条目标为重要地点，可作为 MBI 规则或神器阶段的高风险战场节点。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "kamikura-origin",
+      "period": "计划前史",
+      "event": "神座岛发现与鹡鸰起源、神器秘密相连，御中广人与 MBI 以此建立鹡鸰计划基础。",
+      "visibility": "gm-secret"
+    },
+    {
+      "id": "minato-meets-musubi",
+      "period": "开局",
+      "event": "佐桥皆人与结相遇并羽化，卷入新东帝都的鹡鸰淘汰战。"
+    },
+    {
+      "id": "izumo-household-forms",
+      "period": "前期",
+      "event": "月海、草野、松等逐步加入或支援皆人阵营，出云庄成为家庭型据点。"
+    },
+    {
+      "id": "disciplinary-pressure",
+      "period": "中期",
+      "event": "惩罚部队和其他苇牙阵营的压力增强，鸦羽、焰、鹐等个人线推动敌友关系变化。"
+    },
+    {
+      "id": "jinki-stage",
+      "period": "中后期",
+      "event": "神器系统和 MBI 阶段规则把竞争从个人对战升级为据点、情报与道具争夺。"
+    },
+    {
+      "id": "anti-mbi-resolution",
+      "period": "后期/沙盒可变",
+      "event": "皆人阵营可选择继续规则内求胜、联合反抗 MBI、救出被胁迫鹡鸰或提前揭露计划真相。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "first-winging-and-household",
+      "name": "初羽化与出云庄家庭篇",
+      "focus": ["皆人", "结", "月海", "草野", "松", "生活据点"],
+      "endState": "皆人从普通落榜生转为多名鹡鸰的苇牙，出云庄成为行动中心。"
+    },
+    {
+      "id": "disciplinary-and-rivals",
+      "name": "惩罚部队与竞争苇牙篇",
+      "focus": ["鸦羽", "焰", "鹐", "光与响", "其他苇牙"],
+      "endState": "敌友界线不再只由 MBI 阵营决定，个人苇牙和保护对象成为选择核心。"
+    },
+    {
+      "id": "jinki-and-origin-truth",
+      "name": "神器与起源真相篇",
+      "focus": ["神器", "神座岛", "佐桥高美", "御中广人", "MBI计划"],
+      "endState": "玩家可把鹡鸰计划导向胜利、破局或多阵营停战。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "minato",
+      "to": "musubi",
+      "type": "first-winged-sekirei",
+      "note": "结是皆人最早羽化的核心战力，热血近战与保护欲相互强化。"
+    },
+    {
+      "from": "minato",
+      "to": "tsukiumi",
+      "type": "ashikabi-spouse-claim",
+      "note": "月海由抗拒羽化转为强烈恋慕，自称正妻并与结形成竞争同伴关系。"
+    },
+    {
+      "from": "kusano",
+      "to": "shiina",
+      "type": "sibling-contrast",
+      "note": "草野植物生长与椎菜枯萎/衰亡能力形成镜像对照，适合保护与重逢剧情。"
+    },
+    {
+      "from": "matsu",
+      "to": "miya",
+      "type": "old-acquaintance-household",
+      "note": "松与美哉旧识关系支撑出云庄内部信任，也保留美哉第一编号背景的秘密压力。"
+    },
+    {
+      "from": "karasuba",
+      "to": "musubi",
+      "type": "rival-obsession",
+      "note": "鸦羽对结有宿敌式执着，是高风险剑士战和结成长线的核心对手。"
+    },
+    {
+      "from": "takami",
+      "to": "minato",
+      "type": "mother-hidden-insider",
+      "note": "佐桥高美作为母亲与 MBI 研究人员双重身份，可在亲情、保密和组织忠诚之间撕裂。"
+    },
+    {
+      "from": "minaka",
+      "to": "mbi",
+      "type": "controller",
+      "note": "御中广人以游戏化姿态操盘 MBI，但其掌控力依赖公告、监控和规则，而非无条件全知。"
+    }
+  ],
+  "rpNotes": [
+    "OC 可作为新苇牙、未羽化鹡鸰、MBI职员、记者、出云庄房客或其他阵营同盟介入。",
+    "每次战斗先确认 MBI 当前阶段规则、区域封锁、参战鹡鸰编号/能力、苇牙位置和是否可撤退。",
+    "出云庄日常用于修复关系和恢复体力；城市追逃用于制造 MBI 压力；神器线用于中后期升级。",
+    "保持全年龄处理，过滤源中的成人化身体描写。"
+  ],
+  "residualGaps": [
+    "鹡鸰完整编号表、神器全部细节和结女相关真相仍需逐条补读。",
+    "现有 relationship-graph 已含 q5 低置信修复节点，本扩展为这些节点补充语义说明但未重写原图。"
+  ]
+}

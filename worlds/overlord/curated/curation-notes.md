@@ -14,7 +14,11 @@
 ## 风险与待补
 - 后期国家线、圣王国、精灵国等人物未充分展开。
 - 源可靠度标为 C，部分条目为二次设定或状态模板，应进一步校对原作。
-- 未运行 JSON 校验命令。
+- 原初整理时未运行 JSON 校验命令；retry-09 已对新增 JSON 做解析校验。
+
+## retry-09 补完
+- 新增 `completion-addendum.json`，补充纳萨力克、人类国家、教国/龙王后续占位、等级/位阶魔法/世界级道具、篇章层和残留缺口。
+- 129 个候选人物与后期国家线未逐条落索引；建议按纳萨力克、王国/帝国、教国/圣王国/龙王三批处理。
 
 ## 修改范围
-仅创建 `campaigns/world-library/worlds/overlord/curated/` 下标准产物。未修改 raw/imports/既有自动归档。
+仅修改 `world-info-library/worlds/overlord/curated/` 下产物。未修改 raw/imports/既有自动归档。

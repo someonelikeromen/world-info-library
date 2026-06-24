@@ -1,0 +1,179 @@
+{
+  "schema": "rp-setting-modules-extension-v1",
+  "worldId": "gundam-seed",
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "curationConfidence": "B",
+  "plotArcs": [
+    {
+      "id": "heliopolis-escape",
+      "name": "赫利奥波利斯逃亡",
+      "summary": "民间学生、联合军新兵器与 ZAFT 夺机小队交错，适合开局。"
+    },
+    {
+      "id": "archangel-pursuit",
+      "name": "大天使号追击战",
+      "summary": "舰队航行、补给、驾驶员疲劳和追击战构成移动战役。"
+    },
+    {
+      "id": "earth-desert",
+      "name": "地球/沙漠战线",
+      "summary": "巴尔特菲尔德等地面战与抵抗组织，突出战争人性化。"
+    },
+    {
+      "id": "orb-choice",
+      "name": "奥布的中立抉择",
+      "summary": "乌兹米理念、卡嘉莉身份与联合作战压力构成政治分歧。"
+    },
+    {
+      "id": "freedom-justice",
+      "name": "自由/正义转折",
+      "summary": "基拉和阿斯兰从敌对走向阻止双方灭绝。"
+    },
+    {
+      "id": "final-genesis",
+      "name": "创世纪终局",
+      "summary": "蓝色宇宙、ZAFT 强硬派与三舰同盟在战略武器阴影下决战。"
+    },
+    {
+      "id": "mendel-revelation",
+      "name": "孟德尔身世揭示篇",
+      "summary": "超级调整者、克隆、劳与基拉的真相把身份与战争仇恨连接起来。"
+    },
+    {
+      "id": "blue-cosmos-nuclear",
+      "name": "蓝色宇宙核报复篇",
+      "summary": "阿兹莱尔、强化人、核弹与对 PLANT 的灭绝意图推动终局升级。"
+    },
+    {
+      "id": "destiny-bridge",
+      "name": "C.E.73/Destiny 过渡篇",
+      "summary": "尤尼乌斯7坠落、命运计划与新一轮战争；后续低置信入口。",
+      "lowConfidence": true
+    }
+  ],
+  "factions": [
+    {
+      "id": "earth-alliance",
+      "name": "地球联合/大西洋联邦",
+      "summary": "自然人主导军政同盟；物量强大但受蓝色宇宙等极端主义影响。"
+    },
+    {
+      "id": "zaft-plant",
+      "name": "PLANT/ZAFT",
+      "summary": "调整者国家与军队；MS 技术领先，政治内部有克莱因派与萨拉派分裂。"
+    },
+    {
+      "id": "orb",
+      "name": "奥布联合首长国",
+      "summary": "坚持独立与中立，拥有高技术和氏族政治；战争中承压极大。"
+    },
+    {
+      "id": "blue-cosmos-logos",
+      "name": "蓝色宇宙/LOGOS",
+      "summary": "反调整者极端思想与军工资本网络，适合阴谋/幕后线。"
+    },
+    {
+      "id": "three-ships-alliance",
+      "name": "三舰同盟",
+      "summary": "反对双方灭绝战的临时阵营，以拉克丝、基拉、阿斯兰、卡嘉莉等为核心。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "heliopolis",
+      "name": "赫利奥波利斯",
+      "summary": "奥布资源卫星，GAT-X 秘密开发与故事开端。"
+    },
+    {
+      "id": "plant",
+      "name": "PLANT 殖民卫星群",
+      "summary": "调整者政治中心，尤尼乌斯7号创伤塑造集体记忆。"
+    },
+    {
+      "id": "archangel",
+      "name": "大天使号",
+      "summary": "联合军新型战舰，后成为主角团队移动根据地。"
+    },
+    {
+      "id": "orb-mainland",
+      "name": "奥布本土/曙光社",
+      "summary": "中立国政治与高达技术核心地，后期被迫卷入战争。"
+    },
+    {
+      "id": "space-final",
+      "name": "宇宙终战宙域",
+      "summary": "创世纪、永恒号、三舰同盟与两军决战空间。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "mobile-suit-os",
+      "name": "MS/OS 与驾驶适性",
+      "summary": "机体性能必须结合 OS、能源、装甲、武装和驾驶员适性判断。"
+    },
+    {
+      "id": "phase-shift",
+      "name": "相转移装甲",
+      "summary": "可抵御实弹，消耗能源；光束武器和能量耗尽是主要弱点。"
+    },
+    {
+      "id": "neutron-jammer",
+      "name": "中子干扰器/NJC",
+      "summary": "NJ 抑制核能并改变战略环境；NJC 允许核动力 MS 和战略武器重返战场。"
+    },
+    {
+      "id": "seed-factor",
+      "name": "SEED 因子",
+      "summary": "极限集中状态，不是常驻超能力；适合关键局部突破。"
+    },
+    {
+      "id": "strategic-weapons",
+      "name": "创世纪/核武等战略武器",
+      "summary": "剧情升级器，使用会快速把 RP 从个人战推向灭绝危机。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "kira-athrun",
+      "name": "基拉与阿斯兰",
+      "summary": "旧友被战争分置两边，是从敌对到和解的核心关系。"
+    },
+    {
+      "id": "kira-lacus",
+      "name": "基拉与拉克丝",
+      "summary": "理念与庇护关系推动自由高达转折。"
+    },
+    {
+      "id": "athrun-cagalli",
+      "name": "阿斯兰与卡嘉莉",
+      "summary": "敌对、政治身份与奥布理念交织。"
+    },
+    {
+      "id": "rau-kira",
+      "name": "劳与基拉",
+      "summary": "克隆/终极调整者相关宿命线，牵动人类仇恨主题。"
+    },
+    {
+      "id": "murrue-natarle-command",
+      "name": "玛琉与娜塔尔",
+      "summary": "保护平民、遵守军令和背叛联合之间的指挥理念分歧。"
+    },
+    {
+      "id": "athrun-patrick",
+      "name": "阿斯兰与帕特里克",
+      "summary": "父子、军令与政治信仰冲突。"
+    },
+    {
+      "id": "flay-kira-war-trauma",
+      "name": "芙蕾与基拉",
+      "summary": "丧亲、依赖、操控与内疚交织，应作为战争创伤。"
+    },
+    {
+      "id": "azrael-natarle-alliance",
+      "name": "阿兹莱尔与联合军舰桥",
+      "summary": "文官/资本力量介入前线军令。"
+    }
+  ]
+}

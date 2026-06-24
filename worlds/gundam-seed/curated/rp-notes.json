@@ -1,0 +1,57 @@
+{
+  "schema": "rp-notes-extension-v1",
+  "worldId": "gundam-seed",
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "curationConfidence": "B",
+  "recommendedEntryPoints": [
+    {
+      "id": "heliopolis-civilian",
+      "name": "赫利奥波利斯学生/技术员",
+      "summary": "随大天使号逃亡，在战争中学习驾驶、维修或情报。"
+    },
+    {
+      "id": "zaft-redcoat",
+      "name": "ZAFT 红衣/新兵",
+      "summary": "从夺取 GAT-X 或 PLANT 防卫视角体验调整者战争。"
+    },
+    {
+      "id": "orb-officer",
+      "name": "奥布军官/曙光社人员",
+      "summary": "在中立、技术保密与人道援助之间抉择。"
+    },
+    {
+      "id": "three-ships-agent",
+      "name": "三舰同盟协力者",
+      "summary": "适合中后期阻止双方战略武器的多舰队行动。"
+    },
+    {
+      "id": "archangel-bridge-crew",
+      "name": "大天使号舰桥/整备人员",
+      "summary": "通过补给、军令、难民和舰桥决策推动剧情。"
+    },
+    {
+      "id": "blue-cosmos-investigator",
+      "name": "蓝色宇宙调查者/反间者",
+      "summary": "调查强化人、核弹和军工资本黑幕。"
+    },
+    {
+      "id": "zaft-redcoat-conscience",
+      "name": "ZAFT 红衣良知线",
+      "summary": "从克鲁泽队或萨拉派体系内部发现灭绝路线问题。"
+    }
+  ],
+  "constraints": [
+    "个人 MS 战、舰队战与战略武器必须分层处理。",
+    "SEED 因子只在极限场景作为爆发，不应常驻无限加成。",
+    "核武、创世纪、NJC 等会快速升级世界线，需显式确认后果。",
+    "强化人、核攻击和创世纪属于高危升级器，启用后应明确平民伤亡与阵营反噬。",
+    "C.E.73/Destiny 要素需标记为后续时间线分支。"
+  ],
+  "lowConfidenceGaps": [
+    "源中 canonTimeline 分类为空；timeline 为从世界观和篇章条目归纳。",
+    "机体/道具数量很大，仍未建立独立 MS 型号索引。",
+    "C.E.73/Destiny、Astray 外传与完整机体型号索引仍未系统整理。"
+  ]
+}

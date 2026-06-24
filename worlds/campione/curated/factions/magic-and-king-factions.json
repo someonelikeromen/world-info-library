@@ -1,0 +1,110 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "campione",
+  "module": "factions/magic-and-king-factions",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/campione/factions/factions.json",
+    "campaigns/world-library/worlds/campione/world/world.json",
+    "campaigns/world-library/worlds/campione/characters/characters.json",
+    "campaigns/world-library/worlds/campione/canon-reference/timeline.json"
+  ],
+  "curationPolicy": "最小框架补充；只登记源中反复出现、对 RP 调度有直接用处的阵营与政治压力，不把玩家槽位或跨作品片段写成正史。",
+  "factions": [
+    {
+      "id": "campiones",
+      "name": "弑神者 / 地上魔王",
+      "type": "apex-individuals",
+      "visibility": "public",
+      "summary": "世界上极少数杀死不从之神并夺取权能的人类，被魔术师敬畏为王或魔王。源总纲以七位弑神者作为现代基准。",
+      "knownMembersOrExamples": [
+        "godou-kusanagi",
+        "luo-hao",
+        "voban",
+        "salvatore-doni",
+        "aisha",
+        "john-pluto-smith",
+        "alec"
+      ],
+      "rpUse": "每位弑神者都是区域级政治变量；新增或调动一位王应同步记录权能、庇护范围、敌对关系与灾害风险。",
+      "confidence": "B"
+    },
+    {
+      "id": "heretic-gods",
+      "name": "不从之神",
+      "type": "divine-threats",
+      "visibility": "public",
+      "summary": "脱离神话秩序降临现实的神祇，可造成大规模灾害；同时也是弑神者权能来源。",
+      "knownMembersOrExamples": [
+        "athena",
+        "verethragna",
+        "last-king"
+      ],
+      "rpUse": "事件设计先给神话征兆、真名线索与权能侧面，再升级到神兽、神具和本体显现。",
+      "confidence": "B"
+    },
+    {
+      "id": "european-magic-societies",
+      "name": "欧洲魔术结社",
+      "type": "magic-network",
+      "visibility": "public",
+      "summary": "源称欧洲存在众多源自中世纪骑士团传统的魔术结社；米兰的赤铜黑十字与青铜黑十字为强势代表，既竞争也会因王或神的事件协作。",
+      "knownSubgroups": [
+        "赤铜黑十字",
+        "青铜黑十字",
+        "王立工厂"
+      ],
+      "knownMembersOrExamples": [
+        "erica-blandelli",
+        "liliana-kranjcar",
+        "alec"
+      ],
+      "rpUse": "提供骑士、仪式、遗迹调查、神话文献、善后掩盖与结社政治。",
+      "confidence": "B"
+    },
+    {
+      "id": "history-compilation-committee",
+      "name": "正史编纂委员会",
+      "type": "japanese-occult-bureaucracy",
+      "visibility": "public",
+      "summary": "日本国家直属秘密组织，统筹咒术师、灵能力者与媛巫女，对普通社会隐藏超自然现象。",
+      "knownSubgroups": [
+        "媛巫女",
+        "咒术师",
+        "特务人员"
+      ],
+      "knownMembersOrExamples": [
+        "yuri-mariya",
+        "ena-seishuin",
+        "amakasu-touma"
+      ],
+      "rpUse": "适合承担本土情报、灵视预兆、政治协调、灾后封口和与弑神者交涉。",
+      "confidence": "B"
+    },
+    {
+      "id": "aisha-instability-network",
+      "name": "爱莎夫人引发的时空扰动圈",
+      "type": "event-driver",
+      "visibility": "gm-only",
+      "summary": "爱莎夫人的妖精境通廊会随机卷入人物和历史分歧；魔术结社将其视作极会制造麻烦的弑神者。",
+      "knownMembersOrExamples": [
+        "aisha"
+      ],
+      "rpUse": "用于短期平行世界、古代高卢、最后之王提前苏醒等高阶事件；不应用作稳定传送工具。",
+      "confidence": "B"
+    }
+  ],
+  "relationshipRules": [
+    "魔术结社通常畏惧并侍奉弑神者，但不同结社会因利益、地缘和王的性格产生竞争。",
+    "正史编纂委员会在日本承担隐匿与协调职责，面对弑神者时更偏向交涉和风险管控。",
+    "不从之神与弑神者不是普通阵营战；神话相性、真名考据、地点和仪式准备会显著改变冲突结果。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中存在译名差异：不从/不顺从之神、艾莉卡/艾丽卡、莉莉娅娜译名等，检索时需保留别名。",
+    "本模块列出的部分弑神者和结社成员来自源中人物/阵营条目，但当前 characters-index 尚未全量结构化；不要把 knownMembersOrExamples 当作完整人物索引。",
+    "命运之神、跨作品或玩家定制条目未并入阵营事实。"
+  ]
+}

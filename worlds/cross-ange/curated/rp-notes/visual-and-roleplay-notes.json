@@ -1,0 +1,106 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cross-ange",
+  "module": "rp-notes/visual-and-roleplay-notes",
+  "status": "audit-completion-2026-06-24",
+  "sourceRefs": [
+    "src-cross-ange-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cross-ange/characters/characters.json",
+    "campaigns/world-library/worlds/cross-ange/style/aesthetic-keywords.json",
+    "campaigns/world-library/worlds/cross-ange/style/narrative-style.json",
+    "campaigns/world-library/worlds/cross-ange/style/interaction-patterns.json",
+    "campaigns/world-library/worlds/cross-ange/world/world.json"
+  ],
+  "purpose": "补足 Cross Ange 的场景风格、视觉调度和角色时间门控提示；不覆盖 characters-index 既有人物事实。",
+  "sceneStyleNotes": [
+    "视觉核心是 SUNRISE 机甲动画：流畅变形、光线粒子、金色玛那乌托邦与铁灰阿尔泽纳尔对峙。",
+    "战斗场景采用机动、开火、回避、反击的短节奏循环，并穿插驾驶舱状态、机体损伤、残弹和战术意图。",
+    "日常场景要让海风、格纳库机油味、营房纪律、雅思敏商场和战后疲惫承托人物关系。",
+    "永遠語り和歌是世界灵魂之一；咏唱、龙之歌和战吼可作为机体/真相共鸣提示。",
+    "不替玩家角色决定行动；原作模式和共存模式的身份边界需保持。"
+  ],
+  "characterRoleplayProfiles": [
+    {
+      "characterId": "ange",
+      "name": "安琪 / Angelise",
+      "visualAnchor": "金发短发、红眼、皇家指轮、黑色阿尔泽纳尔战斗服与白色 Villkiss 的反差。",
+      "roleplayAnchor": "从傲慢皇女坠落为诺玛士兵，再以自己的意志选择生存和反抗；说话直接，脆弱常被愤怒遮住。",
+      "timeGateNotes": [
+        "第 1 期前半仍是长发皇女；剪发后才进入‘安琪’身份核心。",
+        "第 14 期前不应知道原始地球和玛那世界真相。",
+        "Villkiss 高阶能力必须随剧情和情绪/歌/指轮条件开放。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "salia",
+      "name": "萨莉亚",
+      "visualAnchor": "蓝发双马尾、金眼、标准军姿、整洁战斗服和隐藏魔法少女反差。",
+      "roleplayAnchor": "自卑的完美主义者，依赖规则保护自己；对安琪既嫉妒又渴望认可，后期可能被恩布利欧以承认感诱导。",
+      "timeGateNotes": [
+        "早期作为副队长/队长强调纪律和手册。",
+        "Ragna-mail 与恩布利欧相关剧情不宜提前到初期公开。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "hilda",
+      "name": "希尔达",
+      "visualAnchor": "酒红双马尾、突袭兵气质、挑衅表情和高机动战斗姿态。",
+      "roleplayAnchor": "刻薄与孤独并存，早期与安琪冲突，逃脱/家庭线后更适合同病相怜和强硬盟友定位。",
+      "timeGateNotes": [
+        "与安琪和解不应早于源中逃脱与家人抛弃节点。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "characterId": "tusk",
+      "name": "塔斯克",
+      "visualAnchor": "旧人类孤岛少年、机械维修工具、海风与地下遗迹机库。",
+      "roleplayAnchor": "不以诺玛歧视安琪，是阿尔泽纳尔外的喘息空间；承担 Villkiss 守护者和旧世界知识入口。",
+      "timeGateNotes": [
+        "早期只开放孤岛相遇与基础信任，不直接公开全部上古之民秘密。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "salamandinay",
+      "name": "萨拉曼蒂妮 / 萨拉",
+      "visualAnchor": "黑长直、龙族巫女公主、焰龙号和龙族仪式/歌的高贵感。",
+      "roleplayAnchor": "从敌对龙族领袖到镜像式盟友；与安琪的冲突应带有误解、骄傲和歌的共鸣。",
+      "timeGateNotes": [
+        "第 11 话前不应与安琪建立直接认知；第 14-18 期后适合作为同盟核心。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "embryo",
+      "name": "恩布利欧",
+      "visualAnchor": "优雅、超然、时空调律者的非人距离感；Hysterica 和次元空间作为威压背景。",
+      "roleplayAnchor": "不是单纯战斗 Boss，而是用承认、拯救、理想和孤独操控他人的创造者。描写需保留危险魅惑与支配欲。",
+      "timeGateNotes": [
+        "第 13 话前不应让多数角色完整理解其身份。",
+        "最终目的、新世界计划和奥拉囚禁应分阶段揭露。"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "combatAndMechaGuidelines": [
+    "Para-mail 量产机有明确性能上限；普通 Grave/Arquebus/Howitzer/Razor 不应无代价匹敌 Ragna-mail。",
+    "Ragna-mail 战斗要记录模式、驾驶者状态、歌/指轮/适格条件和收敛时空炮代价。",
+    "龙鸣对玛那使用者有效但对诺玛无效；这应在混合战场中制造战术差异。",
+    "战斗胜利不只靠火力，可用救援、撤退、机体回收、谈判和真相揭露作为目标。"
+  ],
+  "roleplaySafetyAndContinuity": [
+    "源中含成人化条目，本 curated 模块只保留 SFW 外观、关系和叙事节奏。",
+    "玩家若为共存独立角色，不应被改写成安琪；若原作模式使用安琪视角，也要保留选择空间。",
+    "关系变化须基于实际互动；不要凭设定直接跳到信任、恋爱、背叛或和解结论。",
+    "每次沙盒分歧记录：时间期、已公开真相、机体所有权、阵营关系和死亡/存活偏差。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "部分角色视觉细节来自 characters.json 的世界书风格化描述，可能混合推估；低置信项以 C 标注。",
+    "源中使用 Fandom 校验口吻，但本任务只读取本地资料；未进行外部校验。"
+  ]
+}

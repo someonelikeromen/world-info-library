@@ -1,0 +1,147 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "honkai-impact-3rd",
+  "completionPass": "complete-06",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/honkai-impact-3rd/source-registry.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/characters/characters.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/factions/factions.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/power-systems/power-systems.json",
+    "world-info-library/worlds/honkai-impact-3rd/curated/world-expansion.json"
+  ],
+  "coverageNote": "补完 audit incomplete/uncertain 的高层模块：不重写既有 characters-index，而用本扩展把前文明、神州/远古欧洲、逆熵、第二次崩坏、圣芙蕾雅期和天命总部冲突串成 RP 可用路线。",
+  "characters": {
+    "coreIndexedAlready": [
+      "kiana-kaslana",
+      "mei-raiden",
+      "bronya-zaychik",
+      "theresa-apocalypse",
+      "himeko-murata",
+      "fu-hua",
+      "otto-apocalypse",
+      "kevin-kaslana",
+      "seele-vollerei"
+    ],
+    "sourceDerivedSupplements": [
+      {
+        "id": "mei-dr",
+        "name": "梅博士 / Dr. MEI",
+        "role": "前文明科学核心，推动融合战士、神之键、空白之键和四大计划。",
+        "sourceRefs": ["src-honkai-impact-3rd-001"]
+      },
+      {
+        "id": "elysia",
+        "name": "爱莉希雅",
+        "role": "逐火十三英桀核心与始源/人之律者线，关联后世律者人性变量。",
+        "sourceRefs": ["src-honkai-impact-3rd-001"]
+      },
+      {
+        "id": "welt-joyce-yang",
+        "name": "瓦尔特·乔伊斯 / 瓦尔特·杨",
+        "role": "第一律者与逆熵精神源头；从柏林第一次崩坏、42实验室到第二次崩坏承担逆熵主轴。",
+        "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-002"],
+        "confidence": "B",
+        "notes": "既有 world.json 将 welt-yang 标为未规范化；本处保留合并提示，后续应拆分乔伊斯/杨状态。"
+      },
+      {
+        "id": "tesla-einstein",
+        "name": "特斯拉与爱因斯坦",
+        "role": "逆熵科学家组合，支撑机甲、42实验室、赫利俄斯支援与天命总部突袭。",
+        "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-002"],
+        "confidence": "B"
+      },
+      {
+        "id": "sirin",
+        "name": "西琳 / 第二律者",
+        "role": "巴比伦实验牺牲者与第二次崩坏核心敌我转折；琪亚娜梦境和空之律者线的隐秘源头。",
+        "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-003"]
+      },
+      {
+        "id": "cecilia-siegfried",
+        "name": "塞西莉亚·沙尼亚特与齐格飞·卡斯兰娜",
+        "role": "第二次崩坏、琪亚娜身世、卡斯兰娜/沙尼亚特牺牲主题的父母线。",
+        "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-003"],
+        "confidence": "B"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "phase": "former-era",
+      "title": "前文明纪元与逐火之蛾",
+      "beats": ["第一/第二律者降临", "第三次崩坏卷入凯文、梅、华", "炎律促成融合战士计划", "约束惨剧后十三英桀成形", "侵蚀核火、始源献祭、终焉月球战失败"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "phase": "ancient-bridges",
+      "title": "远古欧洲与神州火种",
+      "beats": ["凯文与苏在不列颠围绕圣痕计划冲突", "苏以第二神之键放逐凯文", "华、苍玄、丹朱执行火种计划", "赤鸢仙人守护神州并留下太虚剑气/遗产线"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"],
+      "confidence": "B"
+    },
+    {
+      "phase": "anti-entropy-origin",
+      "title": "逆熵 Anti-Entropy 起源",
+      "beats": ["1953 柏林第一次崩坏与 Q1", "42实验室、特斯拉/爱因斯坦介入", "北美支部叛离天命成立逆熵", "感恩节灾难与瓦尔特继承"],
+      "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-002"]
+    },
+    {
+      "phase": "second-eruption",
+      "title": "第二次崩坏 / 巴比伦塔",
+      "beats": ["西琳实验受害并觉醒", "天命和逆熵在西伯利亚/月球战场投入主力", "塞西莉亚与齐格飞牺牲线", "西琳意识成为琪亚娜体内隐患"],
+      "sourceRefs": ["src-honkai-impact-3rd-001", "src-honkai-impact-3rd-003"]
+    },
+    {
+      "phase": "st-freya-to-schicksal-hq",
+      "title": "圣芙蕾雅训练至天命总部突袭",
+      "beats": ["月光王座归来与琪亚娜梦境", "女武神考试/虚拟崩坏兽", "第二次崩坏数据空间与母亲幻象", "奥托带回琪亚娜", "德丽莎、姬子与逆熵突袭天命总部"],
+      "sourceRefs": ["src-honkai-impact-3rd-003"]
+    }
+  ],
+  "plotArcs": [
+    {"id": "herrscher-host-crisis", "title": "律者宿主危机", "use": "记录核心、人格、侵蚀、外部控制和同伴干预，避免把宿主形态合并为固定战力。"},
+    {"id": "moth-ethical-war", "title": "逐火之蛾伦理战争", "use": "融合战士、神之键、圣痕计划和四大计划之间的牺牲选择。"},
+    {"id": "anti-entropy-schicksal", "title": "逆熵与天命分裂", "use": "科学解放、人道实验、主教权力与机甲支援的组织政治线。"},
+    {"id": "kiana-family-memory", "title": "琪亚娜身世与梦境", "use": "用梦境、数据空间和西琳低语逐步揭示塞西莉亚/齐格飞/空之律者真相。"}
+  ],
+  "powerSystems": [
+    {"id": "herrscher-core", "name": "律者核心/权能", "rules": ["核心和权能按编号/宿主/人格状态记录。", "拟似律者、律者人格和继承权能不可无条件等同。"]},
+    {"id": "manticore-surgery", "name": "融合战士/超变手术", "rules": ["崩坏兽基因改造带来战略级力量。", "人为崩落是高风险释放，需设失控和回收条件。"]},
+    {"id": "divine-keys-and-blank-key", "name": "神之键/空白之键", "rules": ["神之键多为律者核心制成的前文明武器。", "空白之键属于高代价实验性装甲，不作常规装备。"]},
+    {"id": "stigmata-plan", "name": "圣痕/圣痕计划", "rules": ["个体圣痕提供抗性或能力。", "世界蛇圣痕计划是终局级文明方案，启用前需声明伦理与时代状态。"]}
+  ],
+  "factions": [
+    {"id": "schicksal", "role": "女武神体系和全球对崩坏秩序；奥托个人计划需 GM 延迟揭示。"},
+    {"id": "anti-entropy", "role": "由天命北美支部分裂出的科学/机甲阵营，常与圣芙蕾雅临时合作。"},
+    {"id": "world-serpent", "role": "凯文与前文明遗产线，圣痕计划与终局伦理冲突。"},
+    {"id": "moth", "role": "前文明对崩坏组织，包含研究所、军方、毒蛹和融合战士。"},
+    {"id": "flame-chasers", "role": "逐火十三英桀与往世乐土记忆叙事核心。"}
+  ],
+  "locations": [
+    {"id": "babylon-tower", "name": "巴比伦塔", "role": "西琳觉醒、第二次崩坏和琪亚娜身世回溯。"},
+    {"id": "schicksal-hq", "name": "天命总部", "role": "奥托计划、琪亚娜被俘和极东/逆熵突袭。"},
+    {"id": "forty-two-lab", "name": "42实验室", "role": "瓦尔特、特斯拉、爱因斯坦与逆熵起源。"},
+    {"id": "ancient-shenzhou", "name": "远古神州/拂云观", "role": "火种计划、赤鸢仙人与前文明终端遗产。"},
+    {"id": "moon-battlefield", "name": "月球战场", "role": "前文明终焉战与第二次崩坏月球段落均可使用，需标注时代。"}
+  ],
+  "relationships": [
+    {"from": "kiana-kaslana", "to": "sirin", "type": "host-memory-and-herrscher-shadow", "visibility": "private"},
+    {"from": "kiana-kaslana", "to": "cecilia-siegfried", "type": "family-trauma", "visibility": "private-progressive"},
+    {"from": "kevin-kaslana", "to": "su", "type": "comrades-opposed-over-stigma-plan", "visibility": "private"},
+    {"from": "welt-joyce-yang", "to": "anti-entropy", "type": "foundational-symbol", "visibility": "public-to-faction"},
+    {"from": "otto-apocalypse", "to": "kiana-kaslana", "type": "manipulates-herrscher-awakening", "visibility": "gm-only"}
+  ],
+  "rpNotes": [
+    "开局先锁定时代：前文明、远古神州/欧洲、逆熵起源、第二次崩坏、圣芙蕾雅期或终局期。",
+    "所有律者相关场景必须记录核心、宿主、人格、侵蚀程度、外部控制和可逆条件。",
+    "天命、逆熵、世界蛇不是单纯善恶阵营；用目标、代价和隐瞒信息推动冲突。",
+    "前文明/终局道具属于战略级资源，给 OC 使用前需明确来源、适配、代价和追踪风险。"
+  ],
+  "residualGaps": [
+    "现文明后续章节、装甲形态、后崩坏书和活动支线仍未逐章结构化。",
+    "神之键编号、律者编号和各角色多形态状态仍需独立表。",
+    "逆熵人物需要把瓦尔特·乔伊斯、瓦尔特·杨、特斯拉、爱因斯坦拆成标准 characters-index 条目。"
+  ]
+}

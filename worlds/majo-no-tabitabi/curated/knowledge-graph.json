@@ -51,6 +51,24 @@
       "id": "time-magic",
       "type": "power",
       "label": "时间回溯魔法"
+    },
+    {
+      "id": "country-short-story",
+      "type": "narrative-structure",
+      "label": "一国一短篇",
+      "summary": "每个国家/城市可承载独立规则、寓言主题和旅行事件。"
+    },
+    {
+      "id": "forbidden-magic-items",
+      "type": "threat",
+      "label": "违禁魔法道具",
+      "summary": "协会委托和短篇危机的常见来源。"
+    },
+    {
+      "id": "witch-master-apprentice",
+      "type": "relationship-system",
+      "label": "魔女师徒传承",
+      "summary": "见习生通过师傅认可获得胸针与魔女名。"
     }
   ],
   "edges": [
@@ -98,6 +116,26 @@
       "from": "time-magic",
       "to": "travel",
       "type": "creates-memory-and-causality-hooks"
+    },
+    {
+      "from": "travel",
+      "to": "country-short-story",
+      "type": "structures"
+    },
+    {
+      "from": "association",
+      "to": "forbidden-magic-items",
+      "type": "investigates"
+    },
+    {
+      "from": "witch-master-apprentice",
+      "to": "witch-name",
+      "type": "grants"
+    },
+    {
+      "from": "witch-master-apprentice",
+      "to": "brooch",
+      "type": "grants"
     }
   ],
   "campaignId": "majo-no-tabitabi",

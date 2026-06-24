@@ -1,0 +1,150 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cheng-long-adventures",
+  "module": "factions/hero-villain-factions",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cheng-long-adventures-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cheng-long-adventures/factions/factions.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/world/world.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/canon-reference/plot-summary.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/canon-reference/full-plot.json"
+  ],
+  "curationPolicy": "补足审计中的阵营可检索缺口；按剧情功能整理，不把喜剧吐槽口吻写成世界事实。",
+  "factions": [
+    {
+      "id": "dragon-team",
+      "name": "龙小组 / 成龙一方",
+      "type": "hero-team",
+      "summary": "成龙、小玉、老爹、特鲁以及阶段性盟友组成的正派行动核心，依靠考古、武术、气魔法和家庭互助解决危机。",
+      "knownMembers": [
+        "jackie-chan",
+        "jade-chan",
+        "uncle",
+        "tohru",
+        "captain-black",
+        "el-toro-fuerte",
+        "viper"
+      ],
+      "resources": [
+        "老爹古董店",
+        "气魔法古籍",
+        "临场 improvisation",
+        "十三区支援"
+      ],
+      "rpUse": "适合护送文物、追逐战、仪式材料收集、误会喜剧和正邪平衡任务。",
+      "confidence": "B"
+    },
+    {
+      "id": "section-13",
+      "name": "十三区",
+      "type": "secret-government-agency",
+      "summary": "布莱克警长负责的秘密政府机构，常作为符咒、魔法遗物和超自然犯人的收容地点。",
+      "knownMembers": [
+        "captain-black"
+      ],
+      "resources": [
+        "特工",
+        "收容金库",
+        "科技装备",
+        "官方掩护"
+      ],
+      "rpUse": "任务发布、收容失败、反派潜入、科技与魔法冲突。",
+      "confidence": "B"
+    },
+    {
+      "id": "dark-hand",
+      "name": "黑手帮",
+      "type": "criminal-organization",
+      "summary": "瓦龙领导的国际犯罪组织，源中其麾下包括阿奋、拉苏、周、特鲁早期以及后加入的阿福，常受圣主利用。",
+      "knownMembers": [
+        "valmont",
+        "finn",
+        "ratso",
+        "chow",
+        "hak-foo",
+        "tohru"
+      ],
+      "resources": [
+        "犯罪网络",
+        "盗窃潜入",
+        "佣金动机",
+        "黑影兵团支援（受圣主影响时）"
+      ],
+      "rpUse": "轻喜剧反派、符咒争夺、被更大邪恶背叛或临时求助的灰色势力。",
+      "confidence": "B"
+    },
+    {
+      "id": "eight-demons",
+      "name": "八大恶魔",
+      "type": "ancient-demon-lords",
+      "summary": "圣主及其七名兄弟姐妹，上古曾统治世界，后被八仙以信物封入恶魔地狱。",
+      "knownMembers": [
+        "shendu",
+        "tso-lan",
+        "dai-gui",
+        "po-kong",
+        "hsi-wu",
+        "bai-tza",
+        "xiao-fung",
+        "tchang-zu"
+      ],
+      "resources": [
+        "恶魔魔气",
+        "恶魔之门",
+        "盘库宝盒",
+        "黑气法术"
+      ],
+      "rpUse": "季节性大反派、封印失效、魔气寄宿、正气与黑气失衡。",
+      "confidence": "B"
+    },
+    {
+      "id": "shadowkhan-forces",
+      "name": "鬼影兵团与面具势力",
+      "type": "summoned-shadow-army",
+      "summary": "塔拉、尼嘉和多种鬼影面具关联的暗影军团；面具给予宿主兵团控制权并带来精神侵蚀。",
+      "knownMembers": [
+        "tarakudo",
+        "ninja-khan",
+        "mask-hosts"
+      ],
+      "resources": [
+        "鬼影面具",
+        "黑影忍者",
+        "城市渗透",
+        "宿主侵蚀"
+      ],
+      "rpUse": "普通人戴面具变成局部 Boss、校园线被鬼影事件打断、收容面具与净化宿主。",
+      "confidence": "B"
+    },
+    {
+      "id": "dark-chi-wizards",
+      "name": "黑气巫师与刀龙势力",
+      "type": "dark-magic-users",
+      "summary": "刀龙等黑气使用者可争夺符咒、召唤部下或利用黑气制造支线危机；源中刀龙曾闯入十三区夺取符咒。",
+      "knownMembers": [
+        "daolon-wong",
+        "gan-wen-cui"
+      ],
+      "resources": [
+        "黑气法术",
+        "召唤仆从",
+        "符咒能力争夺",
+        "邪恶仪式"
+      ],
+      "rpUse": "符咒被毁后寻找十二生肖能力、黑气污染、与圣主或黑手帮竞争。",
+      "confidence": "C"
+    }
+  ],
+  "conflictAndBalanceRules": [
+    "正气与黑气保持动态平衡；击败一类大邪恶后，另一个邪恶或同源力量变体可能浮现。",
+    "黑手帮是犯罪势力但常带喜剧失败空间；不要把所有成员写成写实恐怖组织。",
+    "恶魔、鬼影面具和岁月史书都是高风险威胁，需设置封印、反制或代价。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中部分条目可靠度为 C，并混有戏谑表达；本模块仅抽取结构事实与 RP 用法。",
+    "刀龙及黑气巫师的成员清单未从本批源全量展开，标为 C。"
+  ]
+}

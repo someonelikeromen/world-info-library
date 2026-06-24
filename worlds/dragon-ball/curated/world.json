@@ -2,199 +2,438 @@
   "schema": "rp-world-v1",
   "worldId": "dragon-ball",
   "displayName": "龙珠",
-  "curationStatus": "manual-initial",
+  "curationStatus": "manual-expanded-2026-06-24",
   "sourceRefs": [
     "src-dragon-ball-001"
   ],
-  "summary": "以地球武道、宇宙种族、龙珠许愿与跨星系强者战争为核心的高强度战斗世界。力量随修行、血统、变身、合体和神格训练阶梯式膨胀。",
+  "summary": "以地球武道、宇宙种族、龙珠许愿与跨星系强者战争为核心的高强度战斗世界。力量随修行、血统、变身、合体、神格训练和分支时间线阶梯式膨胀；RP 使用时必须先锁定年代、分支与毁灭尺度。",
   "powerSystems": [
     {
       "id": "ki",
       "name": "气/战斗力",
       "rules": [
-        "气可外放为冲击波、飞行、感知、屏障与强化",
-        "战斗力会因爆气、愤怒、濒死恢复和训练急剧变化",
-        "隐藏气息与瞬间爆发会误导侦测"
+        "气可外放为冲击波、飞行、感知、屏障、爆气与肉体强化。",
+        "战斗力会因爆气、愤怒、濒死恢复、重力训练、精神时光屋和名师训练急剧变化。",
+        "隐藏气息与瞬间爆发会误导侦测；常规闪避多表现为高速残影，不等同任意空间跳跃。",
+        "气耗尽会导致无法飞行、变身解除或濒死虚脱；不存在无代价无限爆发。"
+      ],
+      "sourceEntryIndexes": [
+        20,
+        21,
+        24
       ]
     },
     {
       "id": "saiyan-transform",
       "name": "赛亚人变身",
       "rules": [
-        "尾巴满月可巨猿化",
-        "超级赛亚人及后续形态以情绪、训练和能量负荷驱动",
-        "混血赛亚人潜力高但受心态影响"
+        "尾巴与满月/布尔茨波可触发巨猿化；GT 分支额外涉及黄金巨猿与超4。",
+        "超级赛亚人及后续形态以情绪、训练、熟练度和能量负荷驱动。",
+        "混血赛亚人潜力高但受心态、责任感和时代强度限制。",
+        "高阶变身需记录启用分支：Z 主干、GT 或超；不要默认同时开放超4、神之气与自在极意功。"
+      ],
+      "sourceEntryIndexes": [
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        43
       ]
     },
     {
       "id": "dragon-balls",
       "name": "龙珠许愿",
       "rules": [
-        "集齐龙珠召唤神龙/波仑伽实现受制于制造者能力的愿望",
-        "复活、修复星球、转移人群等可改变战役结局",
-        "冷却与分散机制限制连续使用"
+        "集齐龙珠召唤神龙/波仑伽实现受制造者能力限制的愿望。",
+        "复活、修复星球、转移人群等可改变战役结局。",
+        "冷却、分散、语言、制造者死亡或升级状态会限制连续使用。",
+        "GT 黑星龙珠与邪恶龙属于分支规则，启用后会引入宇宙寻珠倒计时和负向能源后果。"
+      ],
+      "sourceEntryIndexes": [
+        7,
+        10,
+        13,
+        14,
+        16
       ]
     },
     {
       "id": "fusion",
       "name": "融合/合体",
       "rules": [
-        "融合舞步需姿势同步且有时限",
-        "巴特拉耳环提供更稳定强力合体但存在规则例外",
-        "合体战士人格与战术独立"
+        "融合舞步需姿势同步且有时限，失误会产生弱化形态。",
+        "巴特拉耳环提供更稳定强力合体但存在时代规则例外。",
+        "合体战士人格与战术独立，强度必须受时间线阶段和持续时间限制。"
+      ],
+      "sourceEntryIndexes": [
+        12
       ]
     },
     {
       "id": "namekian-biology",
       "name": "那美克星人体质/同化",
       "rules": [
-        "用于规范化 namekian 标记。"
+        "用于规范化 namekian 标记。那美克星人可与同族同化、再生，并与地球/那美克龙珠制造权强相关。"
+      ],
+      "sourceEntryIndexes": [
+        8,
+        10,
+        11
       ]
     },
     {
       "id": "capsule-technology",
       "name": "胶囊公司科技",
       "rules": [
-        "用于规范化 technology 标记。"
+        "用于规范化 technology 标记。包含龙珠雷达、万能胶囊、飞船、重力室、医疗设备与分支科学装备。"
+      ],
+      "sourceEntryIndexes": [
+        7,
+        10,
+        21,
+        27
       ]
     },
     {
       "id": "alien-biology",
       "name": "宇宙种族体质",
       "rules": [
-        "用于规范化 alien-biology 标记。"
+        "用于规范化 alien-biology 标记。弗利萨一族、赛亚人、兹夫尔/贝比等宇宙种族具分支限定能力。"
+      ],
+      "sourceEntryIndexes": [
+        9,
+        10,
+        13,
+        14
       ]
     },
     {
       "id": "magic",
       "name": "魔法/魔人术式",
       "rules": [
-        "用于规范化 magic 标记。"
+        "用于规范化 magic 标记。默认战斗人员不混入外部魔法体系；龙珠内例外包括那美克龙族、巴比迪/达普拉、布欧变形/吸收等。"
+      ],
+      "sourceEntryIndexes": [
+        12,
+        24
       ]
+    },
+    {
+      "id": "god-ki",
+      "name": "神之气/破坏神与天使体系",
+      "rules": [
+        "仅在超分支启用；引入破坏神、天使、多宇宙、神境感知差和自在极意功等高阶规则。",
+        "凡人境界与神之境界对抗需额外确认感知盲区、防壁倍率和是否允许越级破防。"
+      ],
+      "sourceEntryIndexes": [
+        17,
+        18,
+        19,
+        20,
+        106
+      ],
+      "branchScope": "super-branch"
     }
   ],
   "factions": [
     {
       "id": "z-fighters",
-      "name": "Z 战士/地球守护者"
+      "name": "Z 战士/地球守护者",
+      "summary": "围绕悟空、悟饭、比克、贝吉塔、布尔玛等形成的松散守护者网络。"
     },
     {
       "id": "kame-school-earth-martial-arts",
-      "name": "龟仙流与地球武道界"
+      "name": "龟仙流与地球武道界",
+      "summary": "低至中战力成长入口，涵盖龟仙流训练、武道会、卡林塔与神殿前置试炼。"
     },
     {
       "id": "saiyan-survivors",
-      "name": "赛亚人残存者"
+      "name": "赛亚人残存者",
+      "summary": "悟空、贝吉塔及其后代构成的血统核心；巨猿、濒死突破与超级赛亚人规则由此进入。"
     },
     {
       "id": "frieza-force",
-      "name": "弗利萨军/宇宙帝王势力"
+      "name": "弗利萨军/宇宙帝王势力",
+      "summary": "那美克篇主要入侵势力，包含屠村夺珠、基纽特战队、宇宙统治与赛亚人灭族历史。"
     },
     {
       "id": "red-ribbon-androids",
-      "name": "红缎带军团与人造人系统"
+      "name": "红缎带军团与人造人系统",
+      "summary": "第一部红缎带军、盖洛博士、人造人和沙鲁线的科技敌对系统；超分支可接超级英雄线。"
     },
     {
       "id": "namekians",
-      "name": "那美克星人"
+      "name": "那美克星人",
+      "summary": "龙珠制造、波仑伽、同化和再生相关的关键物种/阵营。"
     },
     {
       "id": "kai-underworld-system",
-      "name": "界王神与阴间体系"
+      "name": "界王神与阴间体系",
+      "summary": "蛇道、界王星、地府保留肉身、界王神界、老界王神潜力解放与神系监督。"
     },
     {
       "id": "babidi-majin-buu-camp",
-      "name": "巴比迪/魔人布欧阵营"
+      "name": "巴比迪/魔人布欧阵营",
+      "summary": "布欧篇核心灾厄与魔法阵营，涉及石化、吸能、魔人化、吸收和地球毁灭。"
     },
     {
       "id": "capsule-corporation",
       "name": "胶囊公司",
-      "summary": "布尔玛家族主导的科技企业。"
+      "summary": "布尔玛家族主导的科技企业，提供雷达、飞船、万能胶囊、重力室和高阶后勤。"
     },
     {
       "id": "satan-friendly-buu-branch",
       "name": "撒旦友方分支",
-      "summary": "魔人布欧后期友方分支标记。"
+      "summary": "魔人布欧后期友方分支标记；撒旦与小狗触发胖布欧人格分裂和后续同盟可能。"
+    },
+    {
+      "id": "gt-black-star-threats",
+      "name": "GT 黑星龙珠/兹夫尔与邪恶龙威胁",
+      "summary": "GT 分支集合：黑星龙珠、贝比、超级17号、邪恶龙，不默认并入 Z 或超。",
+      "branchScope": "gt-branch"
+    },
+    {
+      "id": "god-destruction-angel-system",
+      "name": "破坏神/天使/多宇宙体系",
+      "summary": "超分支高阶势力：比鲁斯、维斯、第六宇宙、未来黑悟空、力量大会等。",
+      "branchScope": "super-branch"
     }
   ],
   "locations": [
     {
       "id": "earth",
-      "name": "地球"
+      "name": "地球",
+      "summary": "主舞台；从低战力寻珠、武道会、红缎带到赛亚人/人造人/布欧危机均会反复成为目标。"
     },
     {
       "id": "kame-house",
-      "name": "龟仙屋"
+      "name": "龟仙屋",
+      "summary": "龟仙流训练和早期队伍集合点。"
     },
     {
       "id": "world-martial-arts-tournament",
-      "name": "天下第一武道会会场"
+      "name": "天下第一武道会会场",
+      "summary": "低中高战力的公开擂台节点；常被主线危机中断或转化为分支入口。"
     },
     {
       "id": "korin-tower-kami-lookout",
-      "name": "卡林塔/神殿"
+      "name": "卡林塔/神殿",
+      "summary": "超圣水、仙豆、天神、神龙修复、精神时光屋和天界防线的垂直轴。"
     },
     {
       "id": "namek",
-      "name": "那美克星"
+      "name": "那美克星",
+      "summary": "弗利萨篇三方夺珠主舞台；涉及村落保护、大长老潜力、波仑伽与星球毁灭倒计时。"
     },
     {
       "id": "planet-vegeta-legacy",
-      "name": "贝吉塔行星遗产"
+      "name": "贝吉塔行星遗产",
+      "summary": "赛亚人灭族、巴达克/姬内、弗利萨支配和赛亚人王族身份的背景节点。"
     },
     {
       "id": "king-kai-world-kaioshin-realm",
-      "name": "界王星/界王神界"
+      "name": "界王星/界王神界",
+      "summary": "界王拳、元气弹、重力训练、界王神剑、老界王神潜力解放与布欧最终战区域。"
     },
     {
       "id": "hyperbolic-time-chamber",
-      "name": "精神时光屋"
+      "name": "精神时光屋",
+      "summary": "短时间推进训练和合体练习的高风险空间；需限制入场时长、资源与精神负荷。"
     },
     {
       "id": "west-city",
       "name": "西都",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "summary": "胶囊公司总部、布尔玛科技后勤与现代地球城市支点。"
     },
     {
       "id": "universe",
       "name": "宇宙",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "summary": "弗利萨军、GT 宇宙寻珠、超分支多宇宙和跨星球支线的总域。"
     },
     {
       "id": "kami-lookout",
       "name": "地球神殿",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "summary": "天神/波波、龙珠维护、精神时光屋入口和布欧篇天界防线。"
     },
     {
       "id": "king-kai-planet",
       "name": "界王星",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "summary": "蛇道终点、十倍重力、界王拳和元气弹训练节点。"
     },
     {
       "id": "kaioshin-realm",
       "name": "界王神界",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "summary": "界王神、老界王神、神剑、潜力解放和小布欧最终战节点。"
+    },
+    {
+      "id": "new-tuffle-planet",
+      "name": "新兹夫尔星",
+      "summary": "GT 贝比分支主要战场，不默认进入 Z/超主干。",
+      "branchScope": "gt-branch"
+    },
+    {
+      "id": "beerus-planet",
+      "name": "比鲁斯星/破坏神修行地",
+      "summary": "超分支神之气训练与天使指导节点。",
+      "branchScope": "super-branch"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "pilaf-red-ribbon-korin",
+      "name": "第一部寻珠至红缎带",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        7
+      ],
+      "rpUse": "低战力冒险、龟仙流入门、龙珠争夺、红缎带残党和卡林塔试炼。"
+    },
+    {
+      "id": "tien-king-piccolo-23rd",
+      "name": "天津饭/比克大魔王/第23届武道会",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        8
+      ],
+      "rpUse": "门派冲突、魔封波、神殿修行与魔二代赦免分支。"
+    },
+    {
+      "id": "saiyan-invasion",
+      "name": "赛亚人入侵",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        9
+      ],
+      "rpUse": "一年备战、赛亚人登陆、悟空复活延迟、贝吉塔放走后的分歧。"
+    },
+    {
+      "id": "namek-frieza",
+      "name": "那美克星/弗利萨篇",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        10
+      ],
+      "rpUse": "三方夺珠、弗利萨军屠村、波仑伽愿望、超级赛亚人觉醒与星球倒计时。"
+    },
+    {
+      "id": "android-cell",
+      "name": "人造人/沙鲁篇",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        11
+      ],
+      "rpUse": "未来情报差、盖洛研究室、17/18号唤醒、沙鲁吸收路线和沙鲁游戏。"
+    },
+    {
+      "id": "majin-buu",
+      "name": "魔人布欧篇",
+      "branchSet": "main-db-to-z",
+      "sourceEntryIndexes": [
+        12
+      ],
+      "rpUse": "高中/武道会日常被巴比迪打断、魔人化、合体术、吸收与地球毁灭复原。"
+    },
+    {
+      "id": "gt-black-star-baby-super17-shadow-dragons",
+      "name": "GT：黑星龙珠至邪恶龙",
+      "branchSet": "gt-branch",
+      "sourceEntryIndexes": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "rpUse": "宇宙寻珠、贝比寄生、超4、超级17号与邪恶龙；与超分支默认互斥。"
+    },
+    {
+      "id": "super-god-multiverse",
+      "name": "超：神与多宇宙",
+      "branchSet": "super-branch",
+      "sourceEntryIndexes": [
+        17,
+        18,
+        19
+      ],
+      "rpUse": "破坏神/天使、神之气、未来黑悟空、力量大会、新布罗利和超级英雄线。"
     }
   ],
   "combatRules": [
     "速度、能量输出、耐久和再生常比技巧更决定胜负，但武道经验可制造反制窗口。",
-    "气弹可造成区域毁灭，RP 中需声明是否压制威力以避免误伤。",
-    "瞬间移动、太阳拳、封印、吸收、石化等非纯输出能力可越级影响战局。",
-    "龙珠复活会降低死亡的永久性，但召唤条件和敌方干扰是重要限制。"
+    "气弹可造成区域毁灭，RP 中需声明是否压制威力、地图耐久和旁观者撤离。",
+    "瞬间移动、太阳拳、魔封波、吸收、石化、时间停止、身体交换等非纯输出能力可越级影响战局，但必须受源设定和阶段限制。",
+    "龙珠复活会降低死亡永久性，但召唤条件、冷却、制造者状态、语言和敌方干扰是重要限制。",
+    "外部力量体系默认禁用或改写为龙珠内部的气、科技、那美克龙族/魔导师例外；不要混入灵压、查克拉、霸气、替身或修仙法则。",
+    "战斗力数值如用于裁决，应作为粗略 RP 标尺；遇到源内倍率夸张或沙盒推算值时标记为 B 级、按桌面规则冻结。"
   ],
   "timelineNotes": [
-    "归档时间线覆盖第一部、Z、布欧篇及剧场版异闻；沙盒默认可从任一节点分歧。"
+    "`timeline/story-branches.json` 是当前足够的详细分支时间线模块；`timeline/index.json` 仅作为入口与分支锁定清单。",
+    "归档时间线覆盖第一部、Z、GT、超及剧场版/动画原创异闻；沙盒默认可从任一节点分歧。",
+    "跑团前必须选择 main-db-to-z、gt-branch 或 super-branch，并写明 cutoffDate；不要默认把 GT、超、剧场版异闻合并到同一主线。"
   ],
+  "rpNotes": [
+    "开局先冻结年代、角色强度、可用龙珠版本、死亡/复活规则、地图耐久和是否允许星球级攻击。",
+    "低战力阶段更适合武道会、寻珠、红缎带和卡林塔；Z 后期及超/GT 需要强制约束破坏尺度。",
+    "胶囊公司、仙豆、飞船、重力室、波仑伽和精神时光屋都是战役结构资源，应由 GM 控制获取窗口。",
+    "剧场版 Boss 可作为支线/平行世界/一次性事件；启用后需在 session notes 标记。",
+    "源内包含角色卡心理与成人向/技术控制文本；本 curated 层只抽取世界观、战斗和 RP 规则，不导入 NSFW 内容。"
+  ],
+  "sourceIndex": {
+    "primarySource": "src-dragon-ball-001",
+    "archiveEntryCount": 215,
+    "consultedCategories": [
+      "manifest",
+      "source-registry",
+      "reports",
+      "canon-reference/timeline",
+      "canon-reference/arcs",
+      "factions",
+      "locations",
+      "power-systems",
+      "sandbox",
+      "technical"
+    ],
+    "sourceReliability": "B",
+    "curationNote": "自动归档完整保留；curated 层为 RP 可操作摘要与索引，不替代 raw/worldbook。"
+  },
   "visibility": "public",
   "worldName": "龙珠",
-  "aliases": [],
-  "genre": [],
-  "sandboxPrinciple": {},
+  "aliases": [
+    "Dragon Ball",
+    "DB",
+    "DBZ",
+    "DBGT",
+    "DBS"
+  ],
+  "genre": [
+    "battle-shonen",
+    "martial-arts",
+    "science-fantasy",
+    "space-opera"
+  ],
+  "sandboxPrinciple": {
+    "branchLockRequired": true,
+    "defaultBranchSet": "main-db-to-z",
+    "movieSideEventsDefault": "optional"
+  },
   "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
-  "notes": [],
-  "energyEnvironment": {},
-  "worldRules": {},
+  "foreignPowerSuppressionDefault": {
+    "enabled": true,
+    "rule": "外部能力默认转写为气、科技、龙族/魔导师例外或禁用；若保留，必须在 session notes 标记跨界规则。"
+  },
+  "notes": [
+    "GT/超/剧场版并存是来源事实，不是默认同线结论。"
+  ],
+  "energyEnvironment": {
+    "primaryEnergy": "ki",
+    "highTierBranchEnergy": "god-ki"
+  },
+  "worldRules": {
+    "branchSelectionRequired": true,
+    "destructionScaleMustBeDeclared": true,
+    "resurrectionRulesMustBeDeclared": true
+  },
   "publicEvents": [],
   "hiddenEvents": []
 }

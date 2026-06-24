@@ -1,0 +1,288 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "absolute-duo",
+  "completionPass": "retry-01",
+  "sourceRefs": [
+    "src-absolute-duo-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/absolute-duo/world/world.json entry 0 世界总纲-绝对双刃",
+    "campaigns/world-library/worlds/absolute-duo/world/world.json entry 5 世界蓝图",
+    "campaigns/world-library/worlds/absolute-duo/world/world.json entry 8 世界知识",
+    "campaigns/world-library/worlds/absolute-duo/characters/characters.json entries 13-44",
+    "campaigns/world-library/worlds/absolute-duo/characters/characters.json entries 47-57 剧情 第一卷-第十一卷",
+    "campaigns/world-library/worlds/absolute-duo/factions/factions.json",
+    "campaigns/world-library/worlds/absolute-duo/power-systems/power-systems.json"
+  ],
+  "curationScope": "补足初版 curated 中未展开的位阶、黎明星纹、七曜/666/歌革与玛各、卷别时间线、后期音羽/鸣皇榊/绝对双刃终局和 RP 开局约束；不改写最小框架既有事实。",
+  "coverageNote": "本地源保留 75 条世界书条目，自动分类显示 characters 65、powerSystems 15、factions 27、locations 26、canonArcs 22、canonTimeline 3。现有最小框架已覆盖核心五人和昊陵学园，本扩展按语义模块补后期势力、卷别剧情、风险规则和低置信缺口。",
+  "plotArcs": [
+    {
+      "id": "vol1-duo-initiation",
+      "name": "入学、新刃战与绊双刃成立",
+      "sourceEntries": [
+        "剧情 第一卷",
+        "世界总纲-绝对双刃"
+      ],
+      "summary": "九重透流进入昊陵学园，盾形焰牙被视为异能；与尤莉叶组成绊双刃并经历新刃战和升华之仪。",
+      "rpUse": "适合新生 OC、取代透流或与原作共存模式开局；重点是同居训练、适性测试、焰牙显现和搭档信任。"
+    },
+    {
+      "id": "vol2-lilith-survival",
+      "name": "莉莉丝转入与生存斗争",
+      "sourceEntries": [
+        "剧情 第二卷",
+        "莉莉丝·布里斯托"
+      ],
+      "summary": "英国弗伦圣学园转学生莉莉丝以枪械系焰牙介入透流/尤莉叶关系，并发起围绕搭档资格的生存斗争。",
+      "rpUse": "适合远程型焰牙、贵族资源、跨校交流和搭档竞争线。"
+    },
+    {
+      "id": "vol3-unit-island",
+      "name": "海岛训练与装钢诱惑",
+      "sourceEntries": [
+        "剧情 第三卷",
+        "穗高雅",
+        "爱德华·沃克"
+      ],
+      "summary": "海岛分校训练中，穗高雅因自卑和力量差距被装钢技师诱导，歌革与玛各以装钢外骨骼袭击学生。",
+      "rpUse": "适合强化代价、被操控同伴救援、分校学生和装钢实验线。"
+    },
+    {
+      "id": "vol4-killing-game-aegis",
+      "name": "杀破游戏与位阶 IV 觉醒",
+      "sourceEntries": [
+        "剧情 第四卷",
+        "K（凯文·威斐尔）"
+      ],
+      "summary": "杀破游戏中透流以高风险升华进入位阶 IV，觉醒绝刃圈并击倒装钢杀手 K；爱德华·沃克随后被鸣皇榊肃清。",
+      "rpUse": "用于升级考核、真正杀意解除暗示、焰牙高阶能力初觉醒。"
+    },
+    {
+      "id": "vol5-sakaki-el-seraphim",
+      "name": "鸣皇榊与 El Seraphim 压迫",
+      "sourceEntries": [
+        "剧情 第五卷",
+        "鸣皇榊",
+        "瓦莱莉亚·卡莱尔"
+      ],
+      "summary": "透流挑战杀妹仇人鸣皇榊惨败，尤莉叶觉醒者过去和瓦莱莉亚的救援线揭示，复仇动机转向守护。",
+      "rpUse": "适合高压败北、复仇伦理、强者等级差和尤莉叶过去分层揭示。"
+    },
+    {
+      "id": "vol6-8-otoha-homunculus",
+      "name": "666竞拍会、尤格导师与音羽人造人",
+      "sourceEntries": [
+        "剧情 第六卷",
+        "剧情 第七卷",
+        "剧情 第八卷",
+        "九重音羽",
+        "尤格",
+        "贝雅朵莉克丝"
+      ],
+      "summary": "透流潜入 666 竞拍会并遇见尤格；音羽以人造人身份复活且被贝雅朵莉克丝操控，透流用 13 秒雷命恢复其记忆。",
+      "rpUse": "适合秘密结社、记忆传递魔法、救回被操控亲人和寿命代价线。"
+    },
+    {
+      "id": "vol9-11-absolute-duo-final",
+      "name": "七曜/666/Don 决战与绝对双刃",
+      "sourceEntries": [
+        "剧情 第九卷",
+        "剧情 第十卷",
+        "剧情 第十一卷"
+      ],
+      "summary": "终局中七曜、666、Don 等势力围绕绝对双刃全面冲突；音羽耗尽寿命牺牲，透流与尤莉叶最终以完全协调抵达绝对双刃。",
+      "rpUse": "终盘/后传使用；若提前使用需标记时间线分歧，避免把终局真相无条件公开。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "lucifer-adaptation",
+      "name": "黎明的星纹 / Lucifer 适性",
+      "summary": "Dawn 机关研发的生体超强化毫微计算机，植入胸口形成星形印记；约千人中一人可适应，植入伴随剧痛并强化身体能力、精神力和焰牙具现条件。",
+      "limits": [
+        "适性失败不应被轻易治愈。",
+        "星纹带来的力量与研究设施/机构控制绑定，不是普通魔法天赋。",
+        "位阶提升需要升华之仪或高风险条件。"
+      ]
+    },
+    {
+      "id": "blaze-and-killing-intent",
+      "name": "焰牙、操纵暗示与杀意",
+      "summary": "焰牙是灵魂具现化武器，通常为冷兵器；学园施加操纵暗示使学生默认焰牙不伤人。解除暗示且心怀杀意时才会对人造成真正伤害。",
+      "limits": [
+        "训练/对抗赛默认非致命，除非剧情明确进入实战或暗示解除。",
+        "焰牙形态反映灵魂，不宜随意换形。",
+        "透流的盾、莉莉丝的铳属于稀有例外。"
+      ]
+    },
+    {
+      "id": "rank-i-vii",
+      "name": "位阶 I-VII",
+      "summary": "超越者以 I 到 VII 位阶衡量成长；位阶 IV 以上可觉醒焰牙真正力量，位阶差距显著，位阶 VII 是源中已知最高层级。",
+      "limits": [
+        "普通新生默认位阶 I。",
+        "跨两位阶挑战应呈现压倒性差距。",
+        "位阶 IV 觉醒应绑定场景、代价和能力定义。"
+      ]
+    },
+    {
+      "id": "el-awake-and-absolute-duo",
+      "name": "觉醒者与绝对双刃",
+      "summary": "觉醒者是超越者原型，力量自然觉醒但难控制；源中尤莉叶为已知觉醒者。绝对双刃是两名 El Seraphim 级存在灵魂协调后抵达的终极境界。",
+      "visibility": "gm-only-until-late-story",
+      "limits": [
+        "绝对双刃不应作为开局奖励。",
+        "尤莉叶觉醒者身份需按第五卷以后信息分层公开。",
+        "原创角色若触及 El Seraphim，需明确是时间线分歧。"
+      ]
+    },
+    {
+      "id": "unit-exoskeleton-and-magic",
+      "name": "装钢、煌牙与 13 秒雷命",
+      "summary": "装钢是爱德华·沃克开发的外部骨骼武装，可让非星纹侧也具超常战力；煌牙、尤格魔法和 13 秒雷命属于后期高端/稀有体系。",
+      "limits": [
+        "装钢常伴随操控、军火与组织阴谋风险。",
+        "13 秒雷命涉及记忆与灵魂传递，默认由尤格导师线引入。",
+        "煌牙与鸣皇榊强度应作为高阶压迫源处理。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "kouryou-academy-expanded",
+      "name": "昊陵学园",
+      "summary": "位于东京湾背部、外界只能经悬吊型单轨道进入的封闭式训练校；表面培养超越者，实质是九十九朔夜的研究设施。",
+      "membersOrAnchors": [
+        "九十九朔夜",
+        "月见璃兔",
+        "三国",
+        "透流同期学生",
+        "分校学生"
+      ],
+      "rpHooks": [
+        "新生入学免学费与每月生活费带来的诱因",
+        "双人同居训练与新刃战筛选",
+        "理事长隐瞒研究目的"
+      ]
+    },
+    {
+      "id": "dawn-organization",
+      "name": "Dawn 机关 / 黎明机构",
+      "summary": "研发黎明星纹的组织，关联九十九博士、九十九朔夜和精锐护陵卫士。",
+      "visibility": "private",
+      "rpHooks": [
+        "星纹适性筛选",
+        "位阶 IV 以上护陵卫士任务",
+        "研究伦理与学生保护冲突"
+      ]
+    },
+    {
+      "id": "rain-seven",
+      "name": "七曜",
+      "summary": "为追求绝对双刃聚集的七名代表，成员包括九十九朔夜、王城、尤格、贝雅朵莉克丝、克洛维、爱德华·沃克等，路径彼此冲突。",
+      "visibility": "gm-only-mid-to-late",
+      "rpHooks": [
+        "成员之间互相利用和清算",
+        "不同路线对绝对双刃的理解冲突",
+        "导师、实验者、敌人身份交错"
+      ]
+    },
+    {
+      "id": "666-secret-society",
+      "name": "666秘密结社",
+      "summary": "数百年历史的里社会最大势力，环冥主为支配层，麾下有可兽化的兽部队，并与竞拍会和后期冲突相关。",
+      "visibility": "private",
+      "rpHooks": [
+        "非法竞拍会潜入",
+        "环冥主阶层暗杀与灭口",
+        "兽化部队袭击"
+      ]
+    },
+    {
+      "id": "gog-magog-and-don",
+      "name": "歌革与玛各 / Don组织",
+      "summary": "歌革与玛各由克洛维领导，拥有装钢神灭部队；Don 组织在终局与七曜、666 的冲突中出现。",
+      "visibility": "private",
+      "rpHooks": [
+        "装钢测试袭击学生",
+        "终局势力混战",
+        "原创后传的未清算残党"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "kouryou-island-campus",
+      "name": "昊陵学园本部",
+      "summary": "封闭式学园，含宿舍、训练场、礼堂、花园和研究区域；适合日常/战斗交替。"
+    },
+    {
+      "id": "freln-sacred-school",
+      "name": "英国弗伦圣学园",
+      "summary": "莉莉丝来源的兄弟校，适合交换生、贵族资源和跨校制度比较。"
+    },
+    {
+      "id": "island-training-branch",
+      "name": "海岛分校/夏季训练地",
+      "summary": "第三卷训练合宿与装钢袭击核心地点。"
+    },
+    {
+      "id": "666-auction-site",
+      "name": "666竞拍会会场",
+      "summary": "透流潜入后期里社会入口，适合情报、卧底、营救和高级势力初见。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "tooru-julie-duo",
+      "summary": "透流与尤莉叶是主轴绊双刃，从同居训练、战斗互信发展到终局绝对双刃；尤莉叶称呼透流为托尔。"
+    },
+    {
+      "id": "tomoe-miyabi-duo",
+      "summary": "橘巴与穗高雅是同伴/搭档，第三卷围绕高雅被装钢诱惑和巴救回高雅构成成长线。"
+    },
+    {
+      "id": "tooru-otoha-sakaki",
+      "summary": "透流复仇动机来自音羽被鸣皇榊杀害；第六卷后音羽以人造人身份回归并成为透流从复仇转向守护的痛点。"
+    },
+    {
+      "id": "seven-rain-cross-links",
+      "summary": "七曜成员横跨理事长、导师、反派、装钢开发者和结社执行者，关系不应简化为单一敌我阵营。"
+    }
+  ],
+  "rpNotes": {
+    "recommendedEntryPoints": [
+      {
+        "id": "new-exceed-student",
+        "name": "原创新生超越者",
+        "summary": "从入学、新刃战和绊双刃分配切入，焰牙形态需避免与已占用核心形态重复。"
+      },
+      {
+        "id": "replacement-or-coexistence-mode",
+        "name": "取代/共存透流模式",
+        "summary": "源中有明确模式守卫；取代模式下透流不存在，OC 不继承盾和音羽背景，除非另行设定。"
+      },
+      {
+        "id": "dawn-researcher-or-guardian",
+        "name": "Dawn研究员/护陵卫士",
+        "summary": "适合从设施伦理、星纹适性、位阶 IV+ 护卫和朔夜命令角度切入。"
+      },
+      {
+        "id": "secret-society-infiltrator",
+        "name": "里社会潜入者",
+        "summary": "从 666 竞拍会或歌革与玛各装钢线切入，需标注时间线晚于学园初期。"
+      }
+    ],
+    "constraints": [
+      "绝对双刃、El Seraphim、音羽人造人和榊目的默认属于中后期或 GM-only 信息。",
+      "焰牙训练默认非致命，但真正杀意、实弹、装钢或组织袭击会改变风险。",
+      "后传原创允许，但必须保留昊陵学园、黎明星纹、焰牙、绊双刃和位阶规则一致性。"
+    ],
+    "lowConfidenceGaps": [
+      "Don 组织和第七名七曜细节在本轮仅按源摘要保留，需继续从 raw/worldbook 深读。",
+      "部分译名/罗马字如 Tooru/Toru、Julie/Juli、Crovis/克洛维需后续统一。",
+      "源中存在 EJS/MVU 与动态好感规则，本扩展只迁移世界观可运行规则，不迁移完整变量系统。"
+    ]
+  }
+}

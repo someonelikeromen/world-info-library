@@ -1,10 +1,27 @@
 {
   "schema": "rp-world-v1",
+  "worldId": "kill-la-kill",
   "worldSlug": "kill-la-kill",
+  "worldName": "斩服少女 / Kill la Kill",
   "displayName": "斩服少女 / Kill la Kill",
+  "aliases": [
+    "斩服少女",
+    "Kill la Kill"
+  ],
+  "genre": [
+    "热血夸张",
+    "学园军团",
+    "服装即力量",
+    "反支配与家族阴谋"
+  ],
   "sourceBasis": [
     "src-kill-la-kill-001"
   ],
+  "sourceRefs": [
+    "src-kill-la-kill-001"
+  ],
+  "curationStatus": "manual-expanded-retry-07",
+  "summary": "战斗生命纤维通过服饰寄生与文明控制人类。本能字学园、REVOCS、裸体海滩与缠流子的复仇线共同揭开鬼龙院罗晓和原始生命纤维计划；鬼龙院皋月的学园军团表面是压迫体系，深层是反抗母亲与生命纤维支配的准备。",
   "premise": "战斗生命纤维通过服饰寄生与文明控制人类。本能字学园、REVOCS、裸体海滩与流子的复仇线共同揭开外星纤维计划。",
   "tone": [
     "热血夸张",
@@ -12,59 +29,439 @@
     "服装即力量",
     "反支配与家族阴谋"
   ],
-  "locations": [
+  "sandboxPrinciple": {
+    "summary": "允许原创转校生、社团、极制服和地下任务介入，但必须围绕服装权力、生命纤维寄生、阶层压迫和反支配主题。",
+    "notes": [
+      "源条目可靠度多为 C，curated 只保留可交叉定位的原作主线和世界观。",
+      "成人化状态栏、节日活动、跨作品/原创污染条目不纳入默认 RP。"
+    ]
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": true,
+    "summary": "外来能力默认会被生命纤维、制服系统或裸体海滩装备重新框定；不得无视战维丧失、同步率和纤维寄生风险。",
+    "notes": [
+      "强外来装备可能被 REVOCS 视为新素材或被生命纤维侵蚀。"
+    ]
+  },
+  "powerSystems": [
     {
-      "name": "本能市",
-      "role": "东京湾人工岛，鬼龙院家私有城市，星级区分阶层"
+      "id": "life-fibers",
+      "name": "战斗生命纤维",
+      "category": "alien-biological-material",
+      "rules": [
+        "生命纤维是外星生命体/材料，可被织入服装并通过神经电流与穿着者同步。",
+        "普通极制服按一星10%、二星20%、三星30%含量区分；神衣为100%战斗生命纤维。",
+        "纤维力量通过服装、肉体、意志和同步率表现，过度使用会造成身体/精神风险。",
+        "REVOCS 通过全球服饰网络扩散生命纤维，最终目标是覆盖并纤维化智慧生命。"
+      ],
+      "limitations": [
+        "战维丧失会破坏制服并失去纤维力量。",
+        "同步失败、失血、纤维暴走或精神压制会削弱穿着者。",
+        "裸体海滩装备和断斩之剪可针对纤维结构。"
+      ],
+      "confidence": "medium"
     },
     {
-      "name": "本能字学园",
-      "role": "皋月统治的巨型都市学园与军事堡垒"
+      "id": "goku-uniforms",
+      "name": "极制服",
+      "category": "powered-uniform",
+      "rules": [
+        "极制服由本能字学园裁缝部制作，星级和社团职能决定能力方向。",
+        "一星适合普通社团强化，二星对应部长级，三星多为四天王/核心干部。",
+        "制服能力应与社团、穿着者性格和学园职务绑定。"
+      ],
+      "limitations": [
+        "无星学生默认没有超常制服能力。",
+        "星级越高越依赖纤维控制和穿着者承受力。"
+      ]
     },
     {
-      "name": "鬼龙院财阀 / REVOCS",
-      "role": "东日本及全球服饰控制网络"
+      "id": "kamui",
+      "name": "神衣",
+      "category": "sentient-life-fiber-uniform",
+      "rules": [
+        "神衣为 100% 战斗生命纤维，拥有近似人格/意志并需要穿着者同步。",
+        "鲜血与流子、纯洁与皋月构成核心装备关系。",
+        "神衣解放能大幅提升战力，也会暴露身体、身份和精神压力。"
+      ],
+      "limitations": [
+        "同步不是单向服从，穿着者与神衣的信任和意志会影响战斗。",
+        "神衣与生命纤维主线真相强相关，不宜随意量产。"
+      ]
     },
     {
-      "name": "宝多财阀势力圈",
-      "role": "关西财阀对抗势力，持有宝多币等特色"
+      "id": "severing-weapons",
+      "name": "断斩之剪与反纤维武装",
+      "category": "anti-life-fiber-weapons",
+      "rules": [
+        "断斩之剪可切断生命纤维，是流子追索父亲真相和对抗纤维的核心武器。",
+        "裸体海滩拥有反生命纤维装备、情报和地下行动能力。"
+      ],
+      "limitations": [
+        "反纤维武器需要命中、情报和战术配合，不能自动解决所有制服战。"
+      ]
     }
   ],
   "factions": [
     {
+      "id": "honnouji-student-council",
       "name": "本能字学园学生会",
-      "role": "皋月与四天王统领的学园军事体系"
+      "type": "school-military-regime",
+      "summary": "鬼龙院皋月与四天王统领的学园军事体系，以星级制服和校规支配本能市。",
+      "powerSystemAffinity": [
+        "goku-uniforms",
+        "life-fibers"
+      ],
+      "knownMembers": [
+        "satsuki-kiryuin",
+        "ira-gamagoori",
+        "uzu-sanageyama",
+        "houka-inumuta",
+        "nonon-jakuzure"
+      ],
+      "territories": [
+        "honnouji-academy",
+        "honnou-city"
+      ],
+      "conflicts": [
+        "transfer-student-challenge",
+        "academy-domination",
+        "anti-ragyo-rebellion"
+      ]
     },
     {
+      "id": "revocs",
       "name": "REVOCS社 / 鬼龙院财阀",
-      "role": "以服饰销售扩散生命纤维的全球组织"
+      "type": "global-corporate-conspiracy",
+      "summary": "以服饰销售扩散生命纤维的全球组织，罗晓与原始生命纤维计划的执行网络。",
+      "powerSystemAffinity": [
+        "life-fibers"
+      ],
+      "knownMembers": [
+        "ragyo-kiryuin",
+        "nui-harime"
+      ],
+      "territories": [
+        "revocs-headquarters",
+        "global-fashion-network"
+      ],
+      "conflicts": [
+        "life-fiber-apocalypse",
+        "anti-ragyo-rebellion"
+      ]
     },
     {
+      "id": "nudist-beach",
       "name": "裸体海滩",
-      "role": "反生命纤维地下抵抗组织"
+      "type": "resistance-organization",
+      "summary": "反生命纤维地下抵抗组织，执行侦察、救援、破坏和反纤维作战。",
+      "powerSystemAffinity": [
+        "severing-weapons"
+      ],
+      "knownMembers": [
+        "aikuro-mikisugi",
+        "tsumugu-kinagase"
+      ],
+      "territories": [
+        "nudist-beach-base"
+      ],
+      "conflicts": [
+        "revocs-investigation",
+        "life-fiber-apocalypse"
+      ]
     },
     {
+      "id": "covers",
       "name": "COVERS",
-      "role": "生命纤维执行覆盖与回收的威胁"
+      "type": "life-fiber-execution-force",
+      "summary": "生命纤维执行覆盖、回收和吞噬的威胁群体。",
+      "powerSystemAffinity": [
+        "life-fibers"
+      ],
+      "conflicts": [
+        "life-fiber-apocalypse"
+      ]
+    },
+    {
+      "id": "mankanshoku-family",
+      "name": "满舰饰家",
+      "type": "civilian-support",
+      "summary": "流子在本能市的日常支点，提供喜剧、庇护和普通人视角。",
+      "knownMembers": [
+        "mako-mankanshoku"
+      ]
+    },
+    {
+      "id": "takara-faction",
+      "name": "宝多财阀势力圈",
+      "type": "regional-rival-power",
+      "summary": "关西财阀对抗势力，源中提及宝多币等特色；适合作为地区扩张支线。",
+      "confidence": "medium"
     }
   ],
-  "powerSystems": [
+  "locations": [
     {
-      "name": "战斗生命纤维",
-      "rules": [
-        "极制服按一星10%、二星20%、三星30%含量区分",
-        "神衣为100%战斗生命纤维",
-        "通过神经电流吸收能量",
-        "最终目标是纤维化智慧生命并播种宇宙"
+      "id": "honnou-city",
+      "name": "本能市",
+      "type": "company-school-city",
+      "summary": "东京湾人工岛，鬼龙院家私有城市，以学生星级区分生活阶层。"
+    },
+    {
+      "id": "honnouji-academy",
+      "name": "本能字学园",
+      "type": "academy-fortress",
+      "summary": "皋月统治的巨型都市学园与军事堡垒，社团战和星级制度的核心舞台。"
+    },
+    {
+      "id": "student-council-tower",
+      "name": "学生会塔/皋月办公室",
+      "type": "command-stage",
+      "summary": "皋月发布命令、四天王集结和权力宣言的高压场景。"
+    },
+    {
+      "id": "club-battle-arenas",
+      "name": "社团战场",
+      "type": "battle-stage",
+      "summary": "各社团根据极制服能力改造的战斗场地。"
+    },
+    {
+      "id": "revocs-headquarters",
+      "name": "鬼龙院财阀 / REVOCS",
+      "type": "corporate-conspiracy-site",
+      "summary": "全球服饰控制网络与罗晓计划的中心。"
+    },
+    {
+      "id": "nudist-beach-base",
+      "name": "裸体海滩秘密据点",
+      "type": "resistance-base",
+      "summary": "反生命纤维任务、装备维护和情报交换场景。"
+    },
+    {
+      "id": "mankanshoku-home",
+      "name": "满舰饰家",
+      "type": "civilian-home",
+      "summary": "流子休息、喜剧日常和普通人支持网络。"
+    },
+    {
+      "id": "takara-region",
+      "name": "宝多财阀势力圈",
+      "type": "regional-conflict-zone",
+      "summary": "关西财阀对抗势力区域，可用于远征或地区战争支线。",
+      "confidence": "medium"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ryuko-transfer",
+      "title": "流子转校与断斩之剪追索",
+      "phase": "start",
+      "summary": "缠流子带着断斩之剪来到本能字学园，寻找父亲死亡真相并挑战学园秩序。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
       ]
     },
     {
-      "name": "神衣与极制服",
-      "rules": [
-        "神衣需与穿着者同步",
-        "极制服由星级和社团职能决定能力",
-        "战维丧失会使制服破碎并失去纤维力量"
+      "id": "club-and-four-elite-trials",
+      "title": "社团战与四天王试炼",
+      "phase": "early-middle",
+      "summary": "流子与各社团、部长和四天王交战，逐步理解极制服、鲜血同步和本能字体系。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
       ]
+    },
+    {
+      "id": "revocs-investigation",
+      "title": "REVOCS 阴谋调查",
+      "phase": "middle",
+      "summary": "裸体海滩与皋月阵营的深层目的浮现，生命纤维从学园规则扩展为全球服饰阴谋。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
+      ]
+    },
+    {
+      "id": "sisters-truth",
+      "title": "姐妹真相与阵营重组",
+      "phase": "late-middle",
+      "summary": "流子、皋月、罗晓、总一郎和针目缝关系真相改变敌我结构，皋月的反抗计划公开。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
+      ]
+    },
+    {
+      "id": "life-fiber-apocalypse",
+      "title": "生命纤维决战",
+      "phase": "climax",
+      "summary": "REVOCS、COVERS、原始生命纤维与反抗阵营展开终局战。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
+      ]
+    },
+    {
+      "id": "post-fiber-sandbox",
+      "title": "后纤维沙盒",
+      "phase": "sandbox",
+      "summary": "可处理残余纤维、失去制服力量后的社会重建、原创社团或海外 REVOCS 残党。",
+      "sourceRefs": [
+        "src-kill-la-kill-001"
+      ]
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "transfer-student-challenge",
+      "name": "转校生挑战社团",
+      "summary": "流子或原创转校生通过社团战逐步挑战本能字星级秩序。",
+      "stakes": [
+        "制服星级",
+        "校内地位",
+        "断斩之剪线索"
+      ]
+    },
+    {
+      "id": "academy-domination",
+      "name": "本能字学园统治",
+      "summary": "皋月以高压校规、四天王和极制服维持秩序，表面压迫下隐藏反抗准备。",
+      "stakes": [
+        "阶层压迫",
+        "学生自治",
+        "皋月真实目的"
+      ]
+    },
+    {
+      "id": "revocs-investigation",
+      "name": "REVOCS 服饰阴谋",
+      "summary": "从学园战斗追查到全球服饰网络和生命纤维寄生计划。",
+      "stakes": [
+        "全球扩散",
+        "人体寄生",
+        "企业与家族支配"
+      ]
+    },
+    {
+      "id": "anti-ragyo-rebellion",
+      "name": "反罗晓同盟",
+      "summary": "流子、皋月、裸体海滩等从敌对走向联手，对抗罗晓与原始生命纤维。",
+      "stakes": [
+        "家族真相",
+        "阵营重组",
+        "人类自由"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ryuko-matoi",
+      "to": "satsuki-kiryuin",
+      "type": "sisters-rivals-allies",
+      "publicSummary": "初期敌对，后期可因家族真相和共同敌人转为姐妹同盟。",
+      "gmNotes": "不要过早公开姐妹真相，除非起点已在后期。"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "senketsu",
+      "type": "wearer-and-kamui",
+      "publicSummary": "流子与神衣鲜血同步战斗。",
+      "gmNotes": "同步关系应体现信任、羞耻/暴露压力和生命纤维真相。"
+    },
+    {
+      "from": "satsuki-kiryuin",
+      "to": "junketsu",
+      "type": "wearer-and-kamui",
+      "publicSummary": "皋月穿着神衣纯洁，以意志压制力量。",
+      "gmNotes": "纯洁关系更偏支配与承受，适合体现皋月决意。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "satsuki-kiryuin",
+      "type": "mother-antagonist",
+      "publicSummary": "罗晓是皋月的母亲与主要压迫源。",
+      "gmNotes": "亲子关系服务生命纤维阴谋和反支配主题。"
+    },
+    {
+      "from": "ragyo-kiryuin",
+      "to": "ryuko-matoi",
+      "type": "mother-antagonist-secret",
+      "publicSummary": "流子与罗晓存在后期亲属真相。",
+      "gmNotes": "GM-only，按剧情阶段公开。",
+      "visibility": "gm-only"
+    },
+    {
+      "from": "ryuko-matoi",
+      "to": "mako-mankanshoku",
+      "type": "friends-emotional-anchor",
+      "publicSummary": "真子是流子的好友和情绪锚点。",
+      "gmNotes": "真子可用夸张喜剧打断战斗升级，但不应替玩家做决定。"
+    },
+    {
+      "from": "nudist-beach",
+      "to": "revocs",
+      "type": "opposes",
+      "publicSummary": "裸体海滩反抗 REVOCS 和生命纤维计划。",
+      "gmNotes": "地下任务适合调查、破坏和救援。"
+    }
+  ],
+  "worldRules": {
+    "publicLaws": [
+      "本能字学园校规和星级制度支配学生生活",
+      "REVOCS 以全球服饰企业形式公开存在"
+    ],
+    "supernaturalRules": [
+      "生命纤维可与人类神经同步并强化服装战力",
+      "战维丧失会解除或破坏制服力量",
+      "神衣拥有高度生命纤维含量和近人格同步关系"
+    ],
+    "taboos": [
+      "把源内成人化状态栏或跨作品污染条目当作 canon",
+      "无视制服星级/战维丧失直接升级",
+      "过早公开姐妹和罗晓真相破坏阶段结构"
+    ],
+    "knownExceptions": [
+      "本作允许夸张物理和视觉演出，但核心约束仍是生命纤维与意志同步。"
+    ]
+  },
+  "energyEnvironment": {
+    "externalEnergies": [
+      "战斗生命纤维",
+      "神经电流/同步率"
+    ],
+    "restrictedZones": [
+      "本能字学园高星级区域",
+      "REVOCS 设施",
+      "COVERS 覆盖区"
+    ],
+    "specialFields": [
+      {
+        "id": "fiber-saturation",
+        "name": "生命纤维饱和",
+        "effect": "提高服装战力，同时增加寄生、控制和暴走风险。"
+      }
+    ]
+  },
+  "publicEvents": [
+    {
+      "id": "club-challenge",
+      "name": "社团挑战",
+      "summary": "挑战社团、部长或四天王，夺取线索、地位或通行权。"
+    },
+    {
+      "id": "school-crackdown",
+      "name": "校规肃清",
+      "summary": "学生会以校规、极制服和风纪执行压制反抗者。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "ragyo-plan",
+      "name": "罗晓计划",
+      "summary": "REVOCS 和原始生命纤维推动全球覆盖与纤维化。",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "satsuki-rebellion",
+      "name": "皋月的反抗准备",
+      "summary": "本能字学园军事化同时是皋月对抗母亲的筹码。",
+      "visibility": "gm-only"
     }
   ],
   "rpHooks": [
@@ -75,22 +472,186 @@
     "裸体海滩秘密任务",
     "姐妹联手对抗罗晓"
   ],
-  "worldId": "kill-la-kill",
-  "worldName": "斩服少女 / Kill la Kill",
-  "aliases": [],
-  "genre": [
-    "热血夸张",
-    "学园军团",
-    "服装即力量",
-    "反支配与家族阴谋"
+  "notes": [
+    "源可靠度混杂；战斗生命纤维、极制服、神衣、REVOCS、本能字学园等为优先保留主干。",
+    "本能字/本能寺用字不一，curated 采用本能字学园。"
   ],
-  "summary": "",
-  "sandboxPrinciple": {},
-  "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
-  "notes": [],
-  "energyEnvironment": {},
-  "worldRules": {},
-  "publicEvents": [],
-  "hiddenEvents": []
+  "rpNotes": [
+    "每场战斗先定义制服星级/纤维含量、同步率、战维丧失风险和舞台夸张规则。",
+    "皋月阵营初期可作为压迫者使用，但 GM 应保留其后期反抗层。",
+    "低置信/未验证：源内大量 C 级条目、成人化状态栏、跨作品角色、随机活动和论坛/网站条目不纳入初始 canon。",
+    "未发现小说原文或剧本原文；存在大量导入世界书原始条目，可继续按 canon/污染/原创支线拆分索引。"
+  ],
+  "characters": [
+    {
+      "id": "ryuko-matoi",
+      "name": "缠流子",
+      "role": "转校生/断斩之剪持有者",
+      "rpUse": "复仇、身份真相、鲜血同步和反支配核心"
+    },
+    {
+      "id": "satsuki-kiryuin",
+      "name": "鬼龙院皋月",
+      "role": "学生会长/反抗策划者",
+      "rpUse": "压迫者表层、反罗晓深层和四天王统帅"
+    },
+    {
+      "id": "mako-mankanshoku",
+      "name": "满舰饰真子",
+      "role": "好友/喜剧锚点",
+      "rpUse": "情绪救援、普通人视角和荒诞打断"
+    },
+    {
+      "id": "ragyo-kiryuin",
+      "name": "鬼龙院罗晓",
+      "role": "REVOCS 支配者/主要反派",
+      "rpUse": "生命纤维全球计划和家族压迫源"
+    },
+    {
+      "id": "nui-harime",
+      "name": "针目缝",
+      "role": "罗晓侧执行者/危险强敌",
+      "rpUse": "父亲真相、挑衅和高危战斗"
+    },
+    {
+      "id": "senketsu",
+      "name": "鲜血",
+      "role": "神衣/流子搭档",
+      "rpUse": "同步、信任和生命纤维真相载体"
+    }
+  ],
+  "itemsArtifacts": [
+    {
+      "id": "scissor-blade",
+      "name": "断斩之剪",
+      "type": "anti-life-fiber-weapon",
+      "summary": "流子追索父亲真相与切断生命纤维的核心武器。"
+    },
+    {
+      "id": "senketsu",
+      "name": "神衣鲜血",
+      "type": "kamui",
+      "summary": "与流子同步的 100% 生命纤维神衣。"
+    },
+    {
+      "id": "junketsu",
+      "name": "神衣纯洁",
+      "type": "kamui",
+      "summary": "皋月穿着的神衣，体现意志压制和鬼龙院家计划。"
+    },
+    {
+      "id": "goku-uniform-stars",
+      "name": "星级极制服",
+      "type": "powered-uniform-system",
+      "summary": "以生命纤维含量和社团职务决定能力。"
+    }
+  ],
+  "combatSystem": {
+    "axes": [
+      "纤维含量/星级",
+      "同步率",
+      "战维丧失风险",
+      "舞台夸张度",
+      "意志与身份揭示"
+    ],
+    "resolutionFactors": [
+      "制服相性",
+      "反纤维武器命中",
+      "精神压制",
+      "同伴支援",
+      "COVERS/REVOCS 介入"
+    ],
+    "failureModes": [
+      "制服破碎",
+      "纤维暴走",
+      "被罗晓/生命纤维控制",
+      "普通人被卷入覆盖"
+    ]
+  },
+  "economyPolitics": {
+    "summary": "本能市以学园星级制度分配生活待遇；REVOCS 通过全球服饰企业网络把经济、时尚和生命纤维扩散绑定。",
+    "rpUse": [
+      "星级等于阶层",
+      "服装消费是控制渠道",
+      "皋月的学园统治可同时是压迫与反抗准备"
+    ]
+  },
+  "toneStyleGuide": {
+    "keywords": [
+      "爆裂热血",
+      "夸张构图",
+      "服装权力",
+      "反支配",
+      "家族阴谋"
+    ],
+    "do": [
+      "把服装能力与身份/欲望绑定",
+      "让战斗舞台高度视觉化",
+      "保留皋月表层压迫和深层反抗双重性"
+    ],
+    "avoid": [
+      "导入源内成人化状态栏",
+      "无视战维丧失",
+      "提前剧透所有家族真相"
+    ]
+  },
+  "rpScenarios": [
+    {
+      "id": "club-president-duel",
+      "title": "社团部长决斗",
+      "hook": "某社团以二星极制服封锁通路，挑战者必须找到制服能力弱点。"
+    },
+    {
+      "id": "nudist-beach-op",
+      "title": "裸体海滩潜入任务",
+      "hook": "抵抗组织需要潜入 REVOCS 设施取回纤维样本。"
+    },
+    {
+      "id": "satsuki-audience",
+      "title": "皋月召见",
+      "hook": "学生会长给予玩家一次选择：服从星级秩序或被肃清。"
+    },
+    {
+      "id": "covers-outbreak",
+      "title": "COVERS 覆盖爆发",
+      "hook": "普通居民被生命纤维覆盖，战斗目标从击败敌人变成救援。"
+    }
+  ],
+  "canonDivergence": {
+    "safeDivergences": [
+      "新增社团和极制服",
+      "调整某次社团挑战顺序",
+      "让裸体海滩提前接触玩家"
+    ],
+    "highImpactDivergences": [
+      "断斩之剪被夺走或重铸",
+      "姐妹真相提前公开",
+      "皋月反抗计划提前暴露",
+      "罗晓计划提前启动"
+    ],
+    "guardrails": [
+      "低置信源不当 canon",
+      "保留生命纤维寄生主题",
+      "高影响分歧需重排阵营"
+    ]
+  },
+  "sourceIndex": {
+    "readNotes": [
+      "campaigns/world-library/worlds/kill-la-kill/source-registry.json",
+      "campaigns/world-library/worlds/kill-la-kill/curated/README.md",
+      "campaigns/world-library/worlds/kill-la-kill/curated/curation-notes.md",
+      "world-info-library/worlds/kill-la-kill/curated/README.md",
+      "world-info-library/worlds/kill-la-kill/curated/source-registry.json"
+    ],
+    "rawMaterials": [
+      "campaigns/world-library/worlds/kill-la-kill/raw/imported-worldbooks/斩服少女.worldbook.json",
+      "campaigns/world-library/worlds/kill-la-kill/raw/original-entry-index.json"
+    ],
+    "longFormStatus": "未发现独立小说/动画剧本/游戏原文；导入世界书含大量 C 级、成人化和跨作品污染素材。"
+  },
+  "openQuestions": [
+    "是否建立 canon/污染/原创支线四分类 source-index？",
+    "四天王各自极制服能力是否需单独 power-system 索引？",
+    "宝多财阀与地区战争条目可信度需继续校验。"
+  ]
 }

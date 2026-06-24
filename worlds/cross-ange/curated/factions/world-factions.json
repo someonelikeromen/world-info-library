@@ -1,0 +1,169 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cross-ange",
+  "module": "factions/world-factions",
+  "status": "audit-completion-2026-06-24",
+  "sourceRefs": [
+    "src-cross-ange-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cross-ange/world/world.json",
+    "campaigns/world-library/worlds/cross-ange/factions/factions.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/plot-summary.json",
+    "campaigns/world-library/worlds/cross-ange/characters/characters.json"
+  ],
+  "curationPolicy": "只登记对 RP 调度直接有用的政治/军事势力；源中成人化、玩家槽位和模式守卫不作为阵营事实。",
+  "factions": [
+    {
+      "id": "mana-world-states",
+      "name": "玛那世界诸国家",
+      "type": "utopian-control-society",
+      "visibility": "public-with-gm-truth",
+      "summary": "表面由玛那便利、和平与繁荣维系的国家体系，实际上建立在诺玛隔离、龙族能源抽取和恩布利欧设计之上。",
+      "knownSubgroups": [
+        "米斯尔奇皇国",
+        "罗森布鲁姆王国",
+        "高卢帝国"
+      ],
+      "resources": [
+        "玛那通信与物理干涉",
+        "户籍注销与社会宣传",
+        "对诺玛隔离制度",
+        "对阿尔泽纳尔的政治授权"
+      ],
+      "rpUse": "日常乌托邦、制度性歧视、诺玛暴露和玛那失效后的社会崩坏。",
+      "confidence": "B"
+    },
+    {
+      "id": "misurugi-empire",
+      "name": "米斯尔奇皇国",
+      "type": "royal-mana-state",
+      "visibility": "public",
+      "summary": "安琪出身的皇国；源称朱利奥篡位/自立神圣皇帝，皇室仪式、皇家指轮和永遠語り与 Villkiss 启动紧密相关。",
+      "knownMembersOrExamples": [
+        "angelise-ikaruga-misurugi",
+        "julio",
+        "sylvia",
+        "sophia"
+      ],
+      "resources": [
+        "王室血统",
+        "洗礼仪式",
+        "皇家指轮",
+        "永遠語り"
+      ],
+      "rpUse": "安琪身份坠落、家族背叛、处刑/政治宣传和后期皇国战线。",
+      "confidence": "B"
+    },
+    {
+      "id": "arzenal",
+      "name": "阿尔泽纳尔",
+      "type": "norma-military-prison-base",
+      "visibility": "public",
+      "summary": "罗森布鲁姆王国管辖的海上对龙军事基地兼诺玛隔离所，全员女性，严格军事化管理，被称为诺玛的棺材。",
+      "knownSubgroups": [
+        "第一中队",
+        "司令部",
+        "整备班",
+        "医疗/后勤",
+        "监察官"
+      ],
+      "knownMembersOrExamples": [
+        "jill",
+        "salia",
+        "hilda",
+        "vivian",
+        "jasmine",
+        "mei",
+        "emma"
+      ],
+      "resources": [
+        "Para-mail 部队",
+        "格纳库与训练设施",
+        "雅思敏商场",
+        "禁闭/惩罚体系",
+        "鑨回收流程"
+      ],
+      "rpUse": "军队日常、猎龙战斗、诺玛互助/压迫、逃离和 Libertas 反抗起点。",
+      "confidence": "B"
+    },
+    {
+      "id": "dragon-people",
+      "name": "龙族 / 奥拉之民",
+      "type": "original-earth-transformed-humans",
+      "visibility": "gm-only-until-revealed",
+      "summary": "原始地球基因改造人类的后裔；女性可在人形与小型龙之间转换，大型龙多对应男性。萨拉曼蒂妮领导的奥拉之民试图夺回被囚禁的始祖奥拉。",
+      "knownMembersOrExamples": [
+        "salamandinay",
+        "naga",
+        "kaname",
+        "aura",
+        "vivian-as-dragon"
+      ],
+      "resources": [
+        "龙神器",
+        "龙鸣",
+        "特异点穿越",
+        "原始地球据点",
+        "对鑨与奥拉真相的知识"
+      ],
+      "rpUse": "从怪物敌人到同盟对象的立场反转；适合真相揭露、赎罪和联合作战。",
+      "confidence": "B"
+    },
+    {
+      "id": "ancient-people",
+      "name": "上古之民 / 旧人类",
+      "type": "non-mana-survivors",
+      "visibility": "gm-only",
+      "summary": "玛那体系之外的旧人类幸存者，不使用玛那也不干涉玛那；塔斯克是代表性幸存者，并守护 Villkiss 与地下遗迹。",
+      "knownMembersOrExamples": [
+        "tusk",
+        "vanessa"
+      ],
+      "resources": [
+        "旧时代机械技术",
+        "孤岛地下遗迹",
+        "Villkiss 守护传承",
+        "Libertas 旧盟约"
+      ],
+      "rpUse": "隐秘庇护、机械维修、旧世界知识和反恩布利欧遗产。",
+      "confidence": "B"
+    },
+    {
+      "id": "embryo-faction",
+      "name": "恩布利欧势力",
+      "type": "creator-and-hidden-controller",
+      "visibility": "gm-only-until-revealed",
+      "summary": "恩布利欧是玛那世界创造者、时空调律者和幕后操纵者，囚禁奥拉并以 Hysterica 与时空能力支配局势。",
+      "knownSubgroups": [
+        "钻石玫瑰骑士团"
+      ],
+      "knownMembersOrExamples": [
+        "embryo",
+        "salia-as-cleopatra",
+        "chris-as-theodora",
+        "tanya-as-victoria",
+        "irma-as-eirene"
+      ],
+      "resources": [
+        "Ragna-mail",
+        "次元空间",
+        "时空调律",
+        "诱导和收编诺玛",
+        "新世界计划"
+      ],
+      "rpUse": "中后期主敌、心理诱惑、机体战和世界系统级对抗。",
+      "confidence": "B"
+    }
+  ],
+  "relationshipRules": [
+    "玛那世界把诺玛非人化并依赖她们猎龙，形成制度性矛盾。",
+    "阿尔泽纳尔初期猎杀 DRAGON，但龙族真相揭露后可转向同盟。",
+    "恩布利欧同时操纵玛那世界、诺玛与龙族战争；其诱导方式不只靠武力，也靠承认、理想和孤独。",
+    "上古之民与阿尔泽纳尔的 Libertas 旧关系应作为秘密线索逐步揭露。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中钻石玫瑰骑士团包含较多扩写细节；本模块只保留与世界总纲、人物清单和 Ragna-mail 对应的高层结构。",
+    "部分 Ragna-mail 驾驶者转移已在 power-systems 模块标为 C；阵营成员列表不得当作完整时间线。"
+  ]
+}

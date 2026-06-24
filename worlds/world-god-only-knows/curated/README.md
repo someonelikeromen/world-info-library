@@ -10,3 +10,4 @@
 - `knowledge-graph.json`：驱魂、女神、新地狱等知识节点。
 - `relationship-graph.json`：桂马、协力者、攻略对象、女神与敌对势力关系。
 - `curation-notes.md`：整理说明。
+- `audit-completion-modules.json`：补完女神宿主映射、驱魂阶段模型、案件种子、势力/地点/RP 边界；已按本地源校正女神译名差异。

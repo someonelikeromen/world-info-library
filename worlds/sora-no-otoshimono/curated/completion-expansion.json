@@ -1,0 +1,169 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "sora-no-otoshimono",
+  "completionPass": "retry-12",
+  "sourceRefs": [
+    "src-sora-no-otoshimono-001",
+    "src-sora-no-otoshimono-002"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/sora-no-otoshimono/source-registry.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/characters/characters.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/power-systems/abilities.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/locations/locations.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/factions/factions.json",
+    "campaigns/world-library/worlds/sora-no-otoshimono/sandbox/scenario-seeds.json",
+    "world-info-library/worlds/sora-no-otoshimono/curated/world.json",
+    "world-info-library/worlds/sora-no-otoshimono/curated/characters-index.json",
+    "world-info-library/worlds/sora-no-otoshimono/curated/knowledge-graph.json",
+    "world-info-library/worlds/sora-no-otoshimono/curated/relationship-graph.json"
+  ],
+  "curationScope": "补足 retry-12 要求的人造天使、时间线、篇章、能力体系、地点、关系与 RP notes；只保留剧情功能、科幻/喜剧运行规则和非露骨互动提示。",
+  "coverageNote": "本地归档显示 characters 73、canonArcs 31、fullPlot 35、abilities 54、powerSystems 3、locations 55、factions 31、scenarioSeeds 52；canonTimeline 分类为空，因此本文件按卷名和已有 curated 手工整理可运行时间线。",
+  "characters": {
+    "angeloidAnchors": [
+      {
+        "id": "ikaros-type-alpha",
+        "name": "伊卡洛斯",
+        "type": "Type α / 战略用万能天使",
+        "runtimeRole": "初始降临者、铭刻对象、空之女王与兵器少女救赎线核心。",
+        "capabilities": ["可变双翼核心", "高机动", "战略级火力", "万能卡片/传送装置接口", "情感回路成长"],
+        "rpLimits": ["初期以命令执行和常识缺失为主，情感表达迟钝。", "战略火力只在西纳普斯威胁、终局危机或明确战场中开放。", "Master 命令必须考虑伦理后果；不得把铭刻当作无条件合理化。"]
+      },
+      {
+        "id": "nymph-type-beta",
+        "name": "妮姆芙",
+        "type": "Type β / 电子战用万能天使",
+        "runtimeRole": "从敌对监视者转为同伴，负责电子战、入侵、解除控制与情感进化线。",
+        "capabilities": ["电子战", "隐形/干扰", "系统入侵", "情报解析", "对万能天使控制链的突破"],
+        "rpLimits": ["电子战可破解设备与结界式科技，但不能无代价跳过西纳普斯主系统。", "早期受锁链、恐惧与空之主命令压迫；解放需剧情节点支撑。"]
+      },
+      {
+        "id": "astraea-type-delta",
+        "name": "阿斯特蕾亚",
+        "type": "Type Δ / 局地战斗用万能天使",
+        "runtimeRole": "高输出近战单位、笨拙喜剧源和背叛西纳普斯后的地面同伴。",
+        "capabilities": ["超高近战", "防御与突击", "对空战", "高耐久"],
+        "rpLimits": ["认知笨拙可制造喜剧，但战斗判断不应被永久降智。", "对抗同级或二代万能天使时需受场地、能量和保护对象限制。"]
+      },
+      {
+        "id": "chaos-second-generation",
+        "name": "卡奥斯",
+        "type": "第二代万能天使",
+        "runtimeRole": "围绕‘爱’概念失控的强敌与救赎难题，深海、吞噬与终局危机锚点。",
+        "capabilities": ["高规格战斗", "吞噬/吸收", "深海潜伏", "情感误读", "世界重构危机触发"],
+        "rpLimits": ["卡奥斯不是普通怪物；冲突应围绕孤独、依恋和对爱的误解。", "吞噬与暴走需作为高压剧情，不作为日常万能工具。"]
+      },
+      {
+        "id": "hiyori-weather-angeloid",
+        "name": "风音日和",
+        "type": "人类学生 / 气象天使改造事件核心",
+        "runtimeRole": "记忆篡改、校园日常被西纳普斯侵蚀和妮姆芙情感进化的关键。",
+        "capabilities": ["气象控制", "改造后飞行/战斗", "记忆与身份异常"],
+        "rpLimits": ["日和线必须保留‘普通日常被夺走’的悲剧感。", "救援重点是恢复人格与选择权，而非单纯击败目标。"]
+      },
+      {
+        "id": "melan-type-theta",
+        "name": "美兰",
+        "aliases": ["Type Θ", "二代伊卡洛斯"],
+        "runtimeRole": "复制伊卡洛斯能力的突袭型强敌，用于展示西纳普斯量产与替代逻辑。",
+        "rpLimits": ["登场应伴随西纳普斯主动升级；不要在早期日常随机投放。"]
+      },
+      {
+        "id": "siren-underwater-angeloid",
+        "name": "塞壬",
+        "runtimeRole": "水中战斗与海上袭击节点，可连接深海、卡奥斯与西纳普斯刺客线。",
+        "rpLimits": ["水中优势明显，离开适性场地后需降低压迫力。"]
+      },
+      {
+        "id": "oregano-robot",
+        "name": "奥勒冈",
+        "runtimeRole": "毒舌机器人/日常骚动节点，可用于武道会、家政和信息吐槽。",
+        "rpLimits": ["定位为喜剧与小型事件，不替代主线万能天使。"]
+      }
+    ],
+    "humanAndSynapseAnchors": [
+      "樱井智树：Master/和平主义但欲望失控的道德反差核心；OC 取代或并行时必须显式声明。",
+      "见月楚原：青梅竹马、常识制动器和地面日常的情感锚。",
+      "守形英四郎：新大陆发现部部长，负责空中黑洞、石板、西纳普斯入侵与理性调查线。",
+      "五月田根美香子：学生会长和五月田根家权力节点，能把校园日常组织成危险游戏。",
+      "代达罗斯：西纳普斯科学者、伊卡洛斯创造者和梦境线索，不宜过早完全公开。",
+      "空之主：西纳普斯统治者，支配万能天使与世界重构系统的幕后反派。"
+    ]
+  },
+  "powerSystems": [
+    {
+      "id": "imprint-master-command",
+      "name": "铭刻、Master 命令与控制链",
+      "summary": "万能天使通过铭刻将命令优先级绑定到 Master；西纳普斯仍可通过更高层控制链、锁链或系统权限干涉。",
+      "rpRules": ["开局明确 Master 是原作主角、OC 还是无人/失联状态。", "Master 命令越接近世界改写或伤害他人，越需要后果与反噬。", "解除控制需由情感回路、电子战、创造者权限或牺牲节点推动。"]
+    },
+    {
+      "id": "angeloid-core-and-wings",
+      "name": "万能天使核心、翼与机能分类",
+      "summary": "Type α 偏战略歼灭，Type β 偏电子战，Type Δ 偏局地近战，二代型偏极端特化/复制；核心与翼决定机动、武装与生存。",
+      "rpRules": ["类型定义战斗风格而非绝对胜负。", "核心损伤、翼被封锁、能量不足或保护对象会显著降低输出。", "情感回路成长可改变行动选择，但不凭空提高所有数值。"]
+    },
+    {
+      "id": "synapse-cards-reality-rewrite",
+      "name": "万能卡片/传送装置与现实改写",
+      "summary": "卡片可造成金钱、传送、时间停止、物质变化乃至世界级异常；残缺或误用会引发荒诞灾害。",
+      "rpRules": ["卡片是短篇事件触发器，需记录剩余张数、限制和副作用。", "世界级愿望必须进入高压伦理场景或回滚/分支。", "日常副作用适合喜剧，但不得永久破坏主舞台除非进入 IF。"]
+    },
+    {
+      "id": "synapse-world-rebuild",
+      "name": "西纳普斯、石板与世界重构",
+      "summary": "后期核心威胁由单体天使战扩展到西纳普斯文明、石板系统、天使军团和世界重构。",
+      "rpRules": ["终局前只放出梦境、黑洞、石板、天使命令等线索。", "世界重构必须由多角色协作阻止，避免单人秒解。", "守形、妮姆芙、代达罗斯和智树阵营需各有贡献。"]
+    }
+  ],
+  "factionsAndLocations": {
+    "factions": [
+      {"id": "sorami-daily-life", "name": "空美町地面日常层", "role": "学校、樱井家、学生会和邻镇构成喜剧与情感基线。"},
+      {"id": "new-continent-club", "name": "新大陆发现部", "role": "守形调查空中黑洞、西纳普斯与石板的行动框架。"},
+      {"id": "synapse", "name": "西纳普斯", "role": "制造并支配万能天使的天空文明，兼具科技神话与统治压迫。"},
+      {"id": "angeloid-defectors", "name": "地面同伴化万能天使", "role": "伊卡洛斯、妮姆芙、阿斯特蕾亚等从工具转向自我选择。"},
+      {"id": "synapse-attack-units", "name": "西纳普斯刺客/二代型", "role": "卡奥斯、美兰、塞壬等用于分阶段升级威胁。"}
+    ],
+    "locations": [
+      {"id": "sorami-town", "name": "空美町", "sceneUses": ["荒诞日常", "学校活动", "卡片副作用", "天使坠落后的同居生活"]},
+      {"id": "sakurai-house", "name": "樱井家/废墟与帐篷状态", "sceneUses": ["铭刻后的同居", "爆炸或改造骚动", "家族记忆与普通生活守护"]},
+      {"id": "school-and-student-council", "name": "空美学园/学生会", "sceneUses": ["社团活动", "生存游戏", "文化祭/比赛", "会长操盘"]},
+      {"id": "synapse-airspace", "name": "空中黑洞/西纳普斯空域", "sceneUses": ["梦境线索", "天使派遣", "终局入侵", "守形调查"]},
+      {"id": "sea-and-deep-ocean", "name": "海边与深海", "sceneUses": ["海边喜剧", "塞壬/卡奥斯线", "深海囚禁与救援"]},
+      {"id": "mikako-estate", "name": "五月田根家豪宅", "sceneUses": ["豪宅规则", "处刑式喜剧恐怖", "守形家与五月田根家背景暗示"]}
+    ]
+  },
+  "timelineAndArcs": [
+    {"id": "arc-01-fallen-angel", "label": "伊卡洛斯降临与铭刻", "beats": ["悲伤梦境", "空中黑洞", "万能卡片失控", "世界重置", "空之女王伏笔"]},
+    {"id": "arc-02-nymph-introduction", "label": "电子战天使妮姆芙登场", "beats": ["夏日荒诞", "圣诞谎言", "西纳普斯敌意显形", "电子战与锁链"]},
+    {"id": "arc-03-ikaros-awakening", "label": "空之女王觉醒与无法传达的笑容", "beats": ["伊卡洛斯真实用途", "战斗机能暴露", "情感表达困难"]},
+    {"id": "arc-04-chain-break", "label": "妮姆芙锁链断裂与七色日常", "beats": ["背叛/解放", "地面接纳", "喜剧日常恢复"]},
+    {"id": "arc-05-astraea-arrival", "label": "阿斯特蕾亚降临与地面同伴化", "beats": ["局地战斗型追击", "笨拙恋爱/喜剧", "选择站队"]},
+    {"id": "arc-06-chaos-and-hiyori", "label": "卡奥斯侵袭、日和改造与爱的超进化", "beats": ["第二代天使威胁", "日常记忆被篡改", "妮姆芙突破", "深海危机"]},
+    {"id": "arc-07-late-synapse-war", "label": "美兰、塞壬、天使军团与世界重构", "beats": ["复制型袭击", "深海/海战", "石板与终焉", "终末的爱与最初的笑颜"]}
+  ],
+  "relationships": [
+    {"source": "樱井智树", "target": "伊卡洛斯", "type": "Master-to-free-will", "runtimeNote": "从命令服从转为互相选择；OC 取代时需重写该关系起点。"},
+    {"source": "樱井智树", "target": "妮姆芙", "type": "保护/解放", "runtimeNote": "自由与不输的承诺是她转向地面的关键。"},
+    {"source": "妮姆芙", "target": "风音日和", "type": "救援与情感进化", "runtimeNote": "日和事件用于证明电子战天使也能为他人选择。"},
+    {"source": "伊卡洛斯", "target": "卡奥斯", "type": "同类/对照", "runtimeNote": "一个学习爱，一个误读爱；战斗后必须处理孤独与救赎。"},
+    {"source": "代达罗斯", "target": "伊卡洛斯", "type": "创造者/反抗者", "runtimeNote": "梦境和创造者权限可作为后期解锁线索。"},
+    {"source": "守形英四郎", "target": "西纳普斯", "type": "调查与入侵", "runtimeNote": "守形是从日常进入宇宙真相的主要桥。"}
+  ],
+  "rpNotes": [
+    "每个场景先选择基调：空美町喜剧、兵器少女创伤、西纳普斯悬疑、终局战争。",
+    "OC 介入必须明确是否取代智树成为 Master；若不取代，智树保留原作核心关系，OC 以旁观者、调查者、学生、天使关联者等方式改变支线。",
+    "喜剧桥段可夸张，但不要复制露骨成人向源条目；保留羞耻、误会、灾难后果即可。",
+    "万能天使高规格能力应用于制造选择压力，不用于一键解决全部事件。",
+    "后期卷数信息密集，建议按篇章解锁卡奥斯、日和、美兰、塞壬和世界重构。"
+  ],
+  "residualGaps": [
+    "canonTimeline 源分类为空；本文件用卷名和既有 curated 建立顺序，仍需后续逐条日期化。",
+    "美兰、塞壬、奥勒冈等条目源证据较少，后续可拆入 characters-index 并补 sourceEvidence。",
+    "两份导入源可能存在重复/二设混入，本扩展未做逐句冲突消解。"
+  ]
+}

@@ -67,7 +67,8 @@
     "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
     "Runtime gate: registered sources describe a cross-work reference library, not a single canon setting.",
     "Raw adult/NSFW details are excluded from curated runtime use.",
-    "Source-quality repair 2026-06-22: conflictLog empty classified as not-applicable; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-applicable; absence of entries is not evidence of confirmed no conflicts unless later reviewed.",
+    "retry-01: completion-expansion.json treats this slug as cross-work reference library only; duplicate monthly versions, adult/NSFW raw details, and partial archetype coverage remain usage caveats documented in curation-notes.md."
   ],
   "registryUseGate": {
     "notSingleWorldSourceRegistry": true,
@@ -79,5 +80,6 @@
     "reviewedAt": "2026-06-22",
     "reviewScope": "registry metadata only; no new canon/source facts asserted",
     "rationale": "This registry is a cross-work reference library rather than a single canon continuity; ordinary single-world conflict review is not applicable. Source safety/usage caveats still apply."
-  }
+  },
+  "lastCompletionPass": "retry-01"
 }

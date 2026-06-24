@@ -1,0 +1,133 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cheng-long-adventures",
+  "module": "power-systems/talismans-and-magic",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cheng-long-adventures-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cheng-long-adventures/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/assets/items.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/species/species.json"
+  ],
+  "talismans": [
+    {
+      "id": "rat",
+      "name": "鼠符咒",
+      "power": "生命/化静为动",
+      "rpLimits": "可赋予非生命物活动性；圣主曾借此伪复活，移除后会失效。"
+    },
+    {
+      "id": "ox",
+      "name": "牛符咒",
+      "power": "力量",
+      "rpLimits": "提升蛮力，仍受持有者判断和战术限制。"
+    },
+    {
+      "id": "tiger",
+      "name": "虎符咒",
+      "power": "阴阳平衡/分裂",
+      "rpLimits": "可造成善恶或人格面向分裂，需记录双方状态。"
+    },
+    {
+      "id": "rabbit",
+      "name": "兔符咒",
+      "power": "速度",
+      "rpLimits": "高速移动易带来碰撞、失控和救援窗口。"
+    },
+    {
+      "id": "dragon",
+      "name": "龙符咒",
+      "power": "爆破",
+      "rpLimits": "高破坏力，适合终局打击；需考虑建筑和旁观者风险。"
+    },
+    {
+      "id": "snake",
+      "name": "蛇符咒",
+      "power": "隐形",
+      "rpLimits": "隐形不等于无声、无气味或无法被魔法追踪。"
+    },
+    {
+      "id": "horse",
+      "name": "马符咒",
+      "power": "复愈",
+      "rpLimits": "治疗/复原可解危机，但不应抹消所有诅咒和剧情代价。"
+    },
+    {
+      "id": "sheep",
+      "name": "羊符咒",
+      "power": "显灵/灵魂出窍",
+      "rpLimits": "灵魂行动带来肉身空置、附身和驱魔风险。"
+    },
+    {
+      "id": "monkey",
+      "name": "猴符咒",
+      "power": "变形",
+      "rpLimits": "形态改变不保证获得完整技能或记忆。"
+    },
+    {
+      "id": "rooster",
+      "name": "鸡符咒",
+      "power": "漂浮/念动力",
+      "rpLimits": "可移动物体和飞行辅助，但精密控制需练习。"
+    },
+    {
+      "id": "dog",
+      "name": "狗符咒",
+      "power": "永生/不死",
+      "rpLimits": "可防死亡但不能解决封印、囚禁或夺取符咒。"
+    },
+    {
+      "id": "pig",
+      "name": "猪符咒",
+      "power": "镭射/热射线",
+      "rpLimits": "直线高热攻击，容易误伤和暴露位置。"
+    }
+  ],
+  "activationRules": [
+    "源条目称手握任一符咒即可激发魔力，通常不需要念咒；松手可终止或解除运作。",
+    "符咒是争夺型道具，持有权变化应实时记录。",
+    "单人长期集齐多枚符咒会快速破坏平衡，建议以十三区收容或敌我争夺维持节奏。"
+  ],
+  "magicTypes": [
+    {
+      "id": "chi-magic",
+      "name": "气魔法/正气魔法",
+      "users": [
+        "uncle",
+        "tohru"
+      ],
+      "rpUse": "驱魔、封印、反制黑气、材料任务和仪式喜剧。"
+    },
+    {
+      "id": "demon-magic",
+      "name": "恶魔魔法/黑气",
+      "users": [
+        "shendu",
+        "daolon",
+        "eight-demons"
+      ],
+      "rpUse": "契约欺骗、附身、法术大全、污染与魔气寄宿。"
+    },
+    {
+      "id": "panku-box",
+      "name": "盘库宝盒",
+      "rpUse": "寻找恶魔之门的钥匙；适合作为周游世界的地图型 MacGuffin。"
+    },
+    {
+      "id": "shadowkhan-masks",
+      "name": "鬼影面具",
+      "rpUse": "戴上后获得鬼影兵团指挥权并受塔拉/面具意志侵蚀。"
+    },
+    {
+      "id": "book-of-ages",
+      "name": "岁月史书",
+      "rpUse": "可改写历史但极高风险；应作为受限终局物而非常规法术。"
+    }
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中符咒能力条目可靠度为 C；名称和效果与常见设定基本一致，但仍建议后续逐集核对细节。",
+    "demon-magic 也作为 knowledge-graph 缺失节点曾被审计指出；本模块显式登记以便后续图谱修复。"
+  ]
+}

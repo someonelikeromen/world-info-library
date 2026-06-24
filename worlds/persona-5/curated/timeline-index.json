@@ -1,0 +1,304 @@
+{
+  "schema": "rp-timeline-index-v1",
+  "worldSlug": "persona-5",
+  "displayName": "女神异闻录5 / Persona 5 Royal",
+  "sourceBasis": [
+    {
+      "sourceId": "src-persona-5-001",
+      "archivePath": "campaigns/world-library/worlds/persona-5/canon-reference/timeline.json",
+      "entryIndexes": [
+        26,
+        27,
+        28
+      ],
+      "confidence": "C",
+      "notes": "主时间线条目自称为参考用；月度详述条目保留完整原文但仍由自动分类归档为 C。"
+    },
+    {
+      "sourceId": "src-persona-5-001",
+      "archivePath": "campaigns/world-library/worlds/persona-5/canon-reference/arcs.json",
+      "entryIndexes": [
+        2,
+        3,
+        4
+      ],
+      "confidence": "C",
+      "notes": "用于补足异世界导航 App、Coop、时间管理、组织势力等 RP 规则。"
+    }
+  ],
+  "metaverseRules": [
+    {
+      "id": "nav-inputs",
+      "rule": "异世界导航 App 进入个人殿堂时需要目标姓名、现实地点与认知关键词；印象空间有固定入口。",
+      "rpUse": "调查线先取得关键词，再决定是否能开启殿堂。"
+    },
+    {
+      "id": "calling-card",
+      "rule": "确认秘宝路线后需向目标发预告信，使秘宝实体化并触发决战。",
+      "rpUse": "预告信是公开宣战、社会舆论与期限压力的交汇点。"
+    },
+    {
+      "id": "deadline-calendar",
+      "rule": "日历分白天/放学后/夜晚；殿堂攻略、考试、Coop 与打工共同消耗时间段。",
+      "rpUse": "每个章节用倒计时推动潜入、日常与羁绊选择。"
+    },
+    {
+      "id": "cognitive-equipment",
+      "rule": "现实模型枪、近战武器与防具会因认知在异世界具现为有效装备。",
+      "rpUse": "装备采购、岩井线和潜入准备可自然接入战斗资源。"
+    },
+    {
+      "id": "public-cognition",
+      "rule": "怪盗频道、新闻与街头舆论影响怪盗团支持率，并与印象空间的大众认知相连。",
+      "rpUse": "舆论高涨或崩盘可改变委托密度、敌方行动与大众认知环境。"
+    }
+  ],
+  "royalAccessGates": [
+    {
+      "date": "11/17",
+      "requirement": "丸喜拓人（顾问官）Coop 达 Rank 9；明智吾郎（正义）Coop 达 Rank 8。",
+      "impact": "确保 Royal 第三学期条件之一。"
+    },
+    {
+      "date": "12/22",
+      "requirement": "芳泽霞/堇（信念）Coop 达 Rank 5。",
+      "impact": "确保 Royal 第三学期条件之一，并承接身份复归线。"
+    },
+    {
+      "date": "12/24 onward",
+      "requirement": "满足第三学期条件后，丸喜理想现实开始覆盖现实。",
+      "impact": "进入自由意志与无痛幸福冲突的 Royal 终局。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "prologue-probation",
+      "period": "故事开始前至4月上旬",
+      "summary": "主人公因狮童相关冤案缓刑并转学东京；芳泽姐妹事故与丸喜对堇的心理干预成为 Royal 暗线。",
+      "rpHooks": [
+        "重演或改写见义勇为冤案的取证过程。",
+        "让玩家提前察觉芳泽身份认知的微小裂缝。"
+      ]
+    },
+    {
+      "id": "kamoshida-castle",
+      "period": "4月-5/2",
+      "palace": {
+        "target": "鸭志田卓",
+        "cognitiveForm": "古城/城堡",
+        "deadline": "5/1 路线确保；5/2 悔改"
+      },
+      "joinsOrConfidants": [
+        "坂本龙司 / Skull",
+        "高卷杏 / Panther",
+        "摩尔加纳 / Mona",
+        "丸喜拓人初登场"
+      ],
+      "summary": "秀尽学园压迫事件催生怪盗团，确立殿堂、预告信、悔改的基本循环。",
+      "rpHooks": [
+        "校园调查与受害者保护必须和首次潜入训练并行。",
+        "目标悔改后的学校舆论可决定怪盗团初期名声。"
+      ]
+    },
+    {
+      "id": "madarame-museum",
+      "period": "5月-6/5",
+      "palace": {
+        "target": "斑目一流斋",
+        "cognitiveForm": "美术馆",
+        "deadline": "6/3 路线确保；6/5 悔改"
+      },
+      "joinsOrConfidants": [
+        "喜多川祐介 / Fox",
+        "三岛由辉（月）",
+        "佐仓惣治郎（法皇）",
+        "吉田寅之助（太阳）",
+        "芳泽霞/堇（信念）"
+      ],
+      "summary": "艺术剥削与赝作问题扩展怪盗团社会议题，也开启更多城市协助者线。",
+      "rpHooks": [
+        "赝作证据、弟子证言与祐介觉醒可拆成调查场景。",
+        "怪盗频道初期委托为印象空间支线铺路。"
+      ]
+    },
+    {
+      "id": "kaneshiro-bank",
+      "period": "6月-7/10",
+      "palace": {
+        "target": "金城润矢",
+        "cognitiveForm": "银行",
+        "deadline": "7/7 路线确保；7/9-7/10 悔改与后续新闻"
+      },
+      "joinsOrConfidants": [
+        "新岛真 / Queen",
+        "御船千早（命运）",
+        "东乡一二三（星）",
+        "织田信也（塔）"
+      ],
+      "summary": "黑道勒索把学生会、涩谷犯罪和期末考试压力绑在一起；金城后接梅吉多宣言。",
+      "rpHooks": [
+        "金钱倒计时可和殿堂密码/账本谜题同步推进。",
+        "梅吉多宣言将街头恶人线升级为网络危机。"
+      ]
+    },
+    {
+      "id": "futaba-pyramid",
+      "period": "7月下旬-8/21",
+      "palace": {
+        "target": "佐仓双叶",
+        "cognitiveForm": "金字塔/坟墓",
+        "deadline": "8/19 路线确保；8/21 觉醒并解决梅吉多"
+      },
+      "joinsOrConfidants": [
+        "佐仓双叶 / Oracle/Navi",
+        "川上贞代（节制）",
+        "大宅一子（恶魔）"
+      ],
+      "summary": "少见的自我委托章节，现实中的信任建立与殿堂攻略同等重要。",
+      "rpHooks": [
+        "门缝纸条、女仆计划与契约书可作为低战斗高情感场景。",
+        "若叶死亡真相可连接认知科学阴谋。"
+      ]
+    },
+    {
+      "id": "okumura-spaceport",
+      "period": "9月-10/11",
+      "palace": {
+        "target": "奥村邦和",
+        "cognitiveForm": "宇宙基地",
+        "deadline": "10/9 路线确保；10/11 悔改后精神失控死亡"
+      },
+      "joinsOrConfidants": [
+        "奥村春 / Noir"
+      ],
+      "summary": "企业剥削、父权婚约与摩尔加纳离队危机交织，结局使怪盗团被嫁祸。",
+      "rpHooks": [
+        "队内裂痕可影响潜入效率与社交修复场景。",
+        "奥村之死把幕后黑手与舆论崩盘推到前台。"
+      ]
+    },
+    {
+      "id": "sae-casino",
+      "period": "10月下旬-11/20",
+      "palace": {
+        "target": "新岛冴",
+        "cognitiveForm": "赌场",
+        "deadline": "11/18 路线确保；11/19 逮捕与审讯框架；11/20 欺骗世界"
+      },
+      "joinsOrConfidants": [
+        "明智吾郎 / Crow（临时）"
+      ],
+      "summary": "审讯叙事框架回收主线，怪盗团利用认知与现实错位欺骗敌人。",
+      "rpHooks": [
+        "赌场规则可改写为情报、筹码与司法压力三线谜题。",
+        "明智合作的每一步都可带有背叛伏笔。"
+      ]
+    },
+    {
+      "id": "shido-cruiser",
+      "period": "11月下旬-12/18",
+      "palace": {
+        "target": "狮童正义",
+        "cognitiveForm": "沉没的豪华客船",
+        "deadline": "12/16 路线确保；12/18 悔改"
+      },
+      "joinsOrConfidants": [
+        "明智吾郎真实身份暴露"
+      ],
+      "summary": "主人公冤案源头、政治阴谋与明智宿敌线集中爆发。",
+      "rpHooks": [
+        "船舱可分为政界、官僚、媒体等舱层来组织情报战。",
+        "明智对决可决定第三学期共斗的情绪基线。"
+      ]
+    },
+    {
+      "id": "mementos-yaldabaoth",
+      "period": "12/24-12/25",
+      "palace": {
+        "target": "大众集体无意识/圣杯（亚尔达拜特）",
+        "cognitiveForm": "印象空间最深处",
+        "deadline": "12/24 决战"
+      },
+      "joinsOrConfidants": [],
+      "summary": "原版终局由大众认知与自由意志问题收束，民众声援帮助怪盗团取回现实。",
+      "rpHooks": [
+        "若未达 Royal 条件，可作为原版结局路线。",
+        "民众是否相信怪盗团可成为最终战资源。"
+      ]
+    },
+    {
+      "id": "maruki-laboratory",
+      "period": "12/24晚-2/3",
+      "palace": {
+        "target": "丸喜拓人",
+        "cognitiveForm": "认知诃学研究所/理想的伊甸园",
+        "deadline": "2/2 预告信；2/3 最终决战"
+      },
+      "joinsOrConfidants": [
+        "芳泽堇 / Violet 正式参战",
+        "明智吾郎第三学期共斗"
+      ],
+      "summary": "Royal 第三学期用理想现实复活与愿望实现考验每位角色对痛苦、自由与自我的选择。",
+      "rpHooks": [
+        "逐个检视同伴愿望，让玩家决定唤醒顺序与代价。",
+        "丸喜可作为温柔但不可妥协的对立者，而非单纯恶人。"
+      ]
+    },
+    {
+      "id": "epilogue-future",
+      "period": "2/13-3月下旬",
+      "summary": "Royal 真结局中主人公再度自首后获释，伙伴各自迈向未来；丸喜、芳泽与明智留下开放余韵。",
+      "rpHooks": [
+        "以返乡、新干线或毕业季作为后日谈开局。",
+        "明智生死未卜可保留为 GM 秘密或续作钩子。"
+      ]
+    }
+  ],
+  "confidantIndex": [
+    {
+      "arcana": "愚者",
+      "character": "Joker/怪盗团",
+      "rpFunction": "团队等级、潜入决策与同伴凝聚。"
+    },
+    {
+      "arcana": "魔术师/战车/恋爱/皇帝/女教皇/隐者/女皇/正义/信念",
+      "character": "怪盗团成员与 Royal 关键成员",
+      "rpFunction": "战斗行动、觉醒剧情、队内冲突与伙伴日常。"
+    },
+    {
+      "arcana": "顾问官",
+      "character": "丸喜拓人",
+      "rpFunction": "Royal 第三学期入口、心理咨询与理想现实冲突。"
+    },
+    {
+      "arcana": "法皇/月/死神/节制/星/塔/恶魔/命运/太阳/倒悬者",
+      "character": "东京协助者群",
+      "rpFunction": "资源、情报、训练、社会议题与日常时间管理。"
+    },
+    {
+      "arcana": "审判/力量",
+      "character": "新岛冴、天鹅绒房间助手",
+      "rpFunction": "审讯框架、命运试炼、人格面具合成与真相揭露。"
+    }
+  ],
+  "sourceIndex": [
+    "campaigns/world-library/worlds/persona-5/source-registry.json",
+    "campaigns/world-library/worlds/persona-5/reports/classification-report.md",
+    "campaigns/world-library/worlds/persona-5/reports/low-confidence.md",
+    "campaigns/world-library/worlds/persona-5/reports/conflicts.md",
+    "campaigns/world-library/imports/worldviews/persona-5/README.md",
+    "campaigns/world-library/worlds/persona-5/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/persona-5/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/persona-5/canon-reference/plot-summary.json",
+    "campaigns/world-library/worlds/persona-5/world/world.json",
+    "campaigns/world-library/worlds/persona-5/locations/locations.json",
+    "campaigns/world-library/worlds/persona-5/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/persona-5/factions/factions.json"
+  ],
+  "lowConfidenceNotes": [
+    "自动归档报告显示 59 个源条目完整保留、unclassified 为 0，但分类 confidence 多为 C；本文件只做 RP 索引，不作为独立正史校验。",
+    "殿堂期限和悔改日期来自归档时间线，其中部分条目注明实际事件日与路线确保日不同；RP 时应区分调查期、路线确保、预告信和决战日。",
+    "原冲突报告未登记具体冲突，只说明自动归档阶段不删除冲突项；当前 curated 维持 conflictLog not-reviewed 状态。",
+    "Royal 第三学期条件按归档时间线记录整理；若 campaign 另有用户修正规则，应以后续用户修正优先。"
+  ]
+}

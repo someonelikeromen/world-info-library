@@ -287,50 +287,411 @@
         "factions: ZAFT -> zaft-plant",
         "powerSystems: coordinator-related -> coordinator"
       ]
+    },
+    {
+      "id": "mu-la-flaga",
+      "name": "穆·拉·弗拉格",
+      "aliases": [
+        "不可能化为可能的男人"
+      ],
+      "visibility": "public",
+      "summary": "地球联合王牌驾驶员，大天使号前期保护者。",
+      "roles": [
+        "王牌驾驶员",
+        "导师/护卫"
+      ],
+      "factions": [
+        "earth-alliance",
+        "archangel-crew",
+        "three-ships-alliance"
+      ],
+      "locations": [
+        "archangel",
+        "space-battlefields"
+      ],
+      "powerSystems": [
+        "mobile-suit-tech"
+      ],
+      "abilities": [
+        "空间战",
+        "MA/MS驾驶",
+        "战术判断"
+      ],
+      "items": [
+        "梅比乌斯零式"
+      ],
+      "relationships": [
+        "murrue-ramius:romance",
+        "kira-yamato:mentor",
+        "rau-le-creuset:rival-origin"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "身世与劳存在克隆/家族关联。"
+    },
+    {
+      "id": "flay-allster",
+      "name": "芙蕾·阿尔斯塔",
+      "aliases": [
+        "弗蕾"
+      ],
+      "visibility": "public",
+      "summary": "赫利奥波利斯学生与政治家之女，丧父后影响基拉心理线。",
+      "roles": [
+        "平民幸存者",
+        "心理冲突核心"
+      ],
+      "factions": [
+        "archangel-crew"
+      ],
+      "locations": [
+        "archangel"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "情绪影响",
+        "宣传价值"
+      ],
+      "items": [],
+      "relationships": [
+        "kira-yamato:trauma-affection",
+        "sai-argyle:former-fiance",
+        "rau-le-creuset:captor"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "重点是战争创伤，不单纯反派化。"
+    },
+    {
+      "id": "natarle-badgiruel",
+      "name": "娜塔尔·巴基露露",
+      "aliases": [
+        "巴基露露"
+      ],
+      "visibility": "public",
+      "summary": "大天使号副舰长，纪律与军令优先，后期与玛琉理念分流。",
+      "roles": [
+        "副舰长",
+        "军令执行者"
+      ],
+      "factions": [
+        "earth-alliance",
+        "archangel-crew"
+      ],
+      "locations": [
+        "archangel",
+        "space-battlefields"
+      ],
+      "powerSystems": [
+        "political-authority"
+      ],
+      "abilities": [
+        "舰桥指挥",
+        "军纪执行"
+      ],
+      "items": [
+        "舰桥指挥系统"
+      ],
+      "relationships": [
+        "murrue-ramius:command-conflict",
+        "muruta-azrael:superior-later"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "军法/命令伦理线。"
+    },
+    {
+      "id": "andrew-waltfeld",
+      "name": "安德鲁·巴尔特菲尔德",
+      "aliases": [
+        "沙漠之虎"
+      ],
+      "visibility": "public",
+      "summary": "ZAFT 地球战线指挥官，强敌但重视对手与战场人性。",
+      "roles": [
+        "ZAFT指挥官",
+        "沙漠战王牌"
+      ],
+      "factions": [
+        "zaft-plant",
+        "klein-faction",
+        "three-ships-alliance"
+      ],
+      "locations": [
+        "space-battlefields"
+      ],
+      "powerSystems": [
+        "coordinator",
+        "mobile-suit-tech"
+      ],
+      "abilities": [
+        "地面战",
+        "指挥",
+        "MS驾驶"
+      ],
+      "items": [
+        "巴库/盖亚相关机体"
+      ],
+      "relationships": [
+        "kira-yamato:respected-enemy",
+        "lacus-clyne:ally-later"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "敌转友范例。"
+    },
+    {
+      "id": "dearka-elsman",
+      "name": "迪亚哥·艾尔斯曼",
+      "aliases": [
+        "迪亚卡"
+      ],
+      "visibility": "public",
+      "summary": "ZAFT 克鲁泽队成员，被俘后逐步理解大天使号。",
+      "roles": [
+        "ZAFT红衣",
+        "炮击驾驶员"
+      ],
+      "factions": [
+        "zaft-plant",
+        "three-ships-alliance"
+      ],
+      "locations": [
+        "archangel",
+        "space-battlefields"
+      ],
+      "powerSystems": [
+        "coordinator",
+        "mobile-suit-tech"
+      ],
+      "abilities": [
+        "炮击战",
+        "MS驾驶"
+      ],
+      "items": [
+        "暴风高达"
+      ],
+      "relationships": [
+        "yzak-joule:friend-rival"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "俘虏交流与立场变化线。"
+    },
+    {
+      "id": "yzak-joule",
+      "name": "伊扎克·玖尔",
+      "aliases": [
+        "伊萨克"
+      ],
+      "visibility": "public",
+      "summary": "ZAFT 红衣精英，自尊心强，经历战争后从复仇冲动走向军人责任。",
+      "roles": [
+        "ZAFT红衣",
+        "决斗高达驾驶员"
+      ],
+      "factions": [
+        "zaft-plant"
+      ],
+      "locations": [
+        "space-battlefields",
+        "plant"
+      ],
+      "powerSystems": [
+        "coordinator",
+        "mobile-suit-tech"
+      ],
+      "abilities": [
+        "近战MS驾驶",
+        "小队指挥"
+      ],
+      "items": [
+        "决斗高达"
+      ],
+      "relationships": [
+        "athrun-zala:teammate",
+        "dearka-elsman:friend-rival",
+        "kira-yamato:enemy-to-respect"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "ZAFT 内部视角。"
+    },
+    {
+      "id": "patrick-zala",
+      "name": "帕特里克·萨拉",
+      "aliases": [
+        "萨拉议长"
+      ],
+      "visibility": "private",
+      "summary": "PLANT 强硬派政治领袖，阿斯兰之父，推动创世纪报复路线。",
+      "roles": [
+        "政治领袖",
+        "强硬派"
+      ],
+      "factions": [
+        "zaft-plant",
+        "zala-faction"
+      ],
+      "locations": [
+        "plant",
+        "yakin-due"
+      ],
+      "powerSystems": [
+        "political-authority"
+      ],
+      "abilities": [
+        "政治动员",
+        "军令控制"
+      ],
+      "items": [
+        "创世纪权限"
+      ],
+      "relationships": [
+        "athrun-zala:father-conflict",
+        "lacus-clyne:political-enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "private：终局意图需按剧情揭示。"
+    },
+    {
+      "id": "muruta-azrael",
+      "name": "穆尔塔·阿兹莱尔",
+      "aliases": [
+        "蓝色宇宙盟主"
+      ],
+      "visibility": "private",
+      "summary": "蓝色宇宙/军工资本代表，推动联合军以核武和强化人扩大灭绝战。",
+      "roles": [
+        "幕后反派",
+        "军工资本代表"
+      ],
+      "factions": [
+        "earth-alliance",
+        "blue-cosmos-logos"
+      ],
+      "locations": [
+        "space-battlefields"
+      ],
+      "powerSystems": [
+        "political-authority"
+      ],
+      "abilities": [
+        "政治施压",
+        "资源调度",
+        "仇恨宣传"
+      ],
+      "items": [
+        "核攻击权限/战略资源"
+      ],
+      "relationships": [
+        "natarle-badgiruel:coerced-command",
+        "rau-le-creuset:manipulated-by-intel"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gundam-seed-001"
+      ],
+      "notes": "地球联合内部黑幕线。"
     }
   ],
   "indices": {
     "byFaction": {
       "archangel-crew": [
-        "kira-yamato"
-      ],
-      "earth-alliance": [
-        "murrue-ramius"
-      ],
-      "klein-faction": [
-        "lacus-clyne"
-      ],
-      "orb-union": [
         "kira-yamato",
-        "cagalli-yula-athha"
+        "mu-la-flaga",
+        "flay-allster",
+        "natarle-badgiruel"
       ],
       "three-ships-alliance": [
         "kira-yamato",
         "athrun-zala",
         "lacus-clyne",
         "cagalli-yula-athha",
-        "murrue-ramius"
+        "murrue-ramius",
+        "mu-la-flaga",
+        "andrew-waltfeld",
+        "dearka-elsman"
+      ],
+      "orb-union": [
+        "kira-yamato",
+        "cagalli-yula-athha"
       ],
       "zaft-plant": [
         "athrun-zala",
-        "rau-le-creuset"
+        "rau-le-creuset",
+        "andrew-waltfeld",
+        "dearka-elsman",
+        "yzak-joule",
+        "patrick-zala"
+      ],
+      "klein-faction": [
+        "lacus-clyne",
+        "andrew-waltfeld"
+      ],
+      "earth-alliance": [
+        "murrue-ramius",
+        "mu-la-flaga",
+        "natarle-badgiruel",
+        "muruta-azrael"
+      ],
+      "zala-faction": [
+        "patrick-zala"
+      ],
+      "blue-cosmos-logos": [
+        "muruta-azrael"
       ]
     },
     "byPowerSystem": {
       "coordinator": [
         "kira-yamato",
         "athrun-zala",
-        "rau-le-creuset"
+        "rau-le-creuset",
+        "andrew-waltfeld",
+        "dearka-elsman",
+        "yzak-joule"
+      ],
+      "seed-factor": [
+        "kira-yamato",
+        "athrun-zala"
       ],
       "mobile-suit-tech": [
         "kira-yamato",
         "athrun-zala",
         "cagalli-yula-athha",
-        "rau-le-creuset"
+        "rau-le-creuset",
+        "mu-la-flaga",
+        "andrew-waltfeld",
+        "dearka-elsman",
+        "yzak-joule"
       ],
-      "seed-factor": [
-        "kira-yamato",
-        "athrun-zala"
+      "political-authority": [
+        "natarle-badgiruel",
+        "patrick-zala",
+        "muruta-azrael"
       ]
     },
     "byVisibility": {
@@ -340,22 +701,42 @@
         "lacus-clyne",
         "cagalli-yula-athha",
         "murrue-ramius",
-        "rau-le-creuset"
+        "rau-le-creuset",
+        "mu-la-flaga",
+        "flay-allster",
+        "natarle-badgiruel",
+        "andrew-waltfeld",
+        "dearka-elsman",
+        "yzak-joule"
+      ],
+      "private": [
+        "patrick-zala",
+        "muruta-azrael"
       ]
     },
     "majorCharacters": [
       "kira-yamato",
       "athrun-zala",
       "lacus-clyne",
-      "rau-le-creuset"
+      "rau-le-creuset",
+      "patrick-zala",
+      "muruta-azrael"
     ],
     "byId": {
-      "kira-yamato": 0,
-      "athrun-zala": 1,
-      "lacus-clyne": 2,
-      "cagalli-yula-athha": 3,
-      "murrue-ramius": 4,
-      "rau-le-creuset": 5
+      "kira-yamato": "基拉·大和",
+      "athrun-zala": "阿斯兰·萨拉",
+      "lacus-clyne": "拉克丝·克莱因",
+      "cagalli-yula-athha": "卡嘉莉·尤拉·阿斯哈",
+      "murrue-ramius": "玛琉·拉米亚斯",
+      "rau-le-creuset": "劳·鲁·克鲁泽",
+      "mu-la-flaga": "穆·拉·弗拉格",
+      "flay-allster": "芙蕾·阿尔斯塔",
+      "natarle-badgiruel": "娜塔尔·巴基露露",
+      "andrew-waltfeld": "安德鲁·巴尔特菲尔德",
+      "dearka-elsman": "迪亚哥·艾尔斯曼",
+      "yzak-joule": "伊扎克·玖尔",
+      "patrick-zala": "帕特里克·萨拉",
+      "muruta-azrael": "穆尔塔·阿兹莱尔"
     },
     "byName": {
       "基拉·大和": "kira-yamato",
@@ -363,9 +744,143 @@
       "拉克丝·克莱因": "lacus-clyne",
       "卡嘉莉·尤拉·阿斯哈": "cagalli-yula-athha",
       "玛琉·拉米亚斯": "murrue-ramius",
-      "劳·鲁·克鲁泽": "rau-le-creuset"
+      "劳·鲁·克鲁泽": "rau-le-creuset",
+      "穆·拉·弗拉格": "mu-la-flaga",
+      "芙蕾·阿尔斯塔": "flay-allster",
+      "娜塔尔·巴基露露": "natarle-badgiruel",
+      "安德鲁·巴尔特菲尔德": "andrew-waltfeld",
+      "迪亚哥·艾尔斯曼": "dearka-elsman",
+      "伊扎克·玖尔": "yzak-joule",
+      "帕特里克·萨拉": "patrick-zala",
+      "穆尔塔·阿兹莱尔": "muruta-azrael"
     },
-    "byAffiliation": {},
-    "byTag": {}
+    "byAffiliation": {
+      "archangel-crew": [
+        "kira-yamato",
+        "mu-la-flaga",
+        "flay-allster",
+        "natarle-badgiruel"
+      ],
+      "three-ships-alliance": [
+        "kira-yamato",
+        "athrun-zala",
+        "lacus-clyne",
+        "cagalli-yula-athha",
+        "murrue-ramius",
+        "mu-la-flaga",
+        "andrew-waltfeld",
+        "dearka-elsman"
+      ],
+      "orb-union": [
+        "kira-yamato",
+        "cagalli-yula-athha"
+      ],
+      "zaft-plant": [
+        "athrun-zala",
+        "rau-le-creuset",
+        "andrew-waltfeld",
+        "dearka-elsman",
+        "yzak-joule",
+        "patrick-zala"
+      ],
+      "klein-faction": [
+        "lacus-clyne",
+        "andrew-waltfeld"
+      ],
+      "earth-alliance": [
+        "murrue-ramius",
+        "mu-la-flaga",
+        "natarle-badgiruel",
+        "muruta-azrael"
+      ],
+      "zala-faction": [
+        "patrick-zala"
+      ],
+      "blue-cosmos-logos": [
+        "muruta-azrael"
+      ]
+    },
+    "byTag": {
+      "主角": [
+        "kira-yamato"
+      ],
+      "MS驾驶员": [
+        "kira-yamato",
+        "athrun-zala"
+      ],
+      "宿敌/盟友": [
+        "athrun-zala"
+      ],
+      "政治象征": [
+        "lacus-clyne"
+      ],
+      "歌姬": [
+        "lacus-clyne"
+      ],
+      "政治继承人": [
+        "cagalli-yula-athha"
+      ],
+      "战士": [
+        "cagalli-yula-athha"
+      ],
+      "舰长": [
+        "murrue-ramius"
+      ],
+      "军官": [
+        "murrue-ramius"
+      ],
+      "反派": [
+        "rau-le-creuset"
+      ],
+      "指挥官": [
+        "rau-le-creuset"
+      ],
+      "王牌驾驶员": [
+        "mu-la-flaga"
+      ],
+      "导师/护卫": [
+        "mu-la-flaga"
+      ],
+      "平民幸存者": [
+        "flay-allster"
+      ],
+      "心理冲突核心": [
+        "flay-allster"
+      ],
+      "副舰长": [
+        "natarle-badgiruel"
+      ],
+      "军令执行者": [
+        "natarle-badgiruel"
+      ],
+      "ZAFT指挥官": [
+        "andrew-waltfeld"
+      ],
+      "沙漠战王牌": [
+        "andrew-waltfeld"
+      ],
+      "ZAFT红衣": [
+        "dearka-elsman",
+        "yzak-joule"
+      ],
+      "炮击驾驶员": [
+        "dearka-elsman"
+      ],
+      "决斗高达驾驶员": [
+        "yzak-joule"
+      ],
+      "政治领袖": [
+        "patrick-zala"
+      ],
+      "强硬派": [
+        "patrick-zala"
+      ],
+      "幕后反派": [
+        "muruta-azrael"
+      ],
+      "军工资本代表": [
+        "muruta-azrael"
+      ]
+    }
   }
 }

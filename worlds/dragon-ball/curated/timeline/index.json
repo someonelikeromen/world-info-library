@@ -1,0 +1,172 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "dragon-ball",
+  "module": "timeline/index",
+  "status": "manual-expanded-2026-06-24",
+  "sourceRefs": [
+    "src-dragon-ball-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/dragon-ball/canon-reference/timeline.json"
+  ],
+  "decision": "`timeline/story-branches.json` is the sufficient detailed timeline module. This file is an RP-facing index for branch selection, source entry mapping, and cutoff decisions rather than a duplicate explicit chronology.",
+  "primaryTimelineModule": "timeline/story-branches.json",
+  "branchSelectionChecklist": [
+    "Choose exactly one default branchSet before play: main-db-to-z, gt-branch, or super-branch.",
+    "Set cutoffDate/dateRange and freeze character forms available at that point.",
+    "Mark movie/anime-original events as optional side events unless session notes explicitly enable them.",
+    "Declare dragon-ball version, resurrection limits, map durability, and whether planet-level attacks are permitted.",
+    "If enabling GT, do not also default-enable Super god-ki continuity; if enabling Super, do not default-enable GT black-star/SS4 aftermath."
+  ],
+  "sourceEntryMap": [
+    {
+      "entryIndex": 7,
+      "enabledInSource": true,
+      "branchSet": "main-db-to-z",
+      "eraId": "db-beginning-pilaf-red-ribbon",
+      "label": "第一部上：寻珠、龟仙流、红缎带",
+      "dateRange": "749年9月1日-750年6月2日起",
+      "movieSideEvents": [
+        "神龙传说",
+        "魔神城内的睡美人",
+        "摩诃不可思议大冒险"
+      ]
+    },
+    {
+      "entryIndex": 8,
+      "enabledInSource": false,
+      "branchSet": "main-db-to-z",
+      "eraId": "db-tien-king-piccolo-23rd-tournament",
+      "label": "第一部下：天津饭、比克大魔王、神殿修行",
+      "dateRange": "753年4月15日-756年5月10日起"
+    },
+    {
+      "entryIndex": 9,
+      "enabledInSource": false,
+      "branchSet": "main-db-to-z",
+      "eraId": "z-saiyan-arc",
+      "label": "Z：赛亚人篇",
+      "dateRange": "761年9月1日-762年11月20日起",
+      "movieSideEvents": [
+        "卡利克二世",
+        "威洛博士",
+        "达列斯"
+      ]
+    },
+    {
+      "entryIndex": 10,
+      "enabledInSource": false,
+      "branchSet": "main-db-to-z",
+      "eraId": "z-namek-frieza-arc",
+      "label": "Z：那美克星/弗利萨篇",
+      "dateRange": "762年11月20日-763年9月3日起",
+      "movieSideEvents": [
+        "史拉格",
+        "魔凶星/加里克二世逆袭"
+      ]
+    },
+    {
+      "entryIndex": 11,
+      "enabledInSource": false,
+      "branchSet": "main-db-to-z",
+      "eraId": "z-android-cell-arc",
+      "label": "Z：人造人/沙鲁篇",
+      "dateRange": "764年8月14日-767年9月2日起",
+      "movieSideEvents": [
+        "古拉",
+        "超级13号",
+        "金属古拉",
+        "布罗利",
+        "波杰克"
+      ]
+    },
+    {
+      "entryIndex": 12,
+      "enabledInSource": false,
+      "branchSet": "main-db-to-z",
+      "eraId": "z-majin-buu-arc",
+      "label": "Z：魔人布欧篇",
+      "dateRange": "774年4月15日-784年5月8日起",
+      "movieSideEvents": [
+        "布罗利二度",
+        "生化布罗利",
+        "邪念波",
+        "龙拳/希尔德刚"
+      ]
+    },
+    {
+      "entryIndex": 13,
+      "enabledInSource": false,
+      "branchSet": "gt-branch",
+      "eraId": "gt-black-star-baby-super17-shadow-dragons",
+      "label": "GT：黑星龙珠宇宙冒险",
+      "dateRange": "789年5月1日-789年8月17日起"
+    },
+    {
+      "entryIndex": 14,
+      "enabledInSource": false,
+      "branchSet": "gt-branch",
+      "eraId": "gt-black-star-baby-super17-shadow-dragons",
+      "label": "GT：贝比篇",
+      "dateRange": "789年9月1日-790年5月2日起"
+    },
+    {
+      "entryIndex": 15,
+      "enabledInSource": false,
+      "branchSet": "gt-branch",
+      "eraId": "gt-black-star-baby-super17-shadow-dragons",
+      "label": "GT：超级17号篇",
+      "dateRange": "源条目见 story-branches 汇总"
+    },
+    {
+      "entryIndex": 16,
+      "enabledInSource": false,
+      "branchSet": "gt-branch",
+      "eraId": "gt-black-star-baby-super17-shadow-dragons",
+      "label": "GT：邪恶龙篇",
+      "dateRange": "源条目见 story-branches 汇总"
+    },
+    {
+      "entryIndex": 17,
+      "enabledInSource": false,
+      "branchSet": "super-branch",
+      "eraId": "super-god-frieza-u6-future-tournament-broly-hero",
+      "label": "超：破坏神与复活的弗利萨",
+      "dateRange": "778年起"
+    },
+    {
+      "entryIndex": 18,
+      "enabledInSource": false,
+      "branchSet": "super-branch",
+      "eraId": "super-god-frieza-u6-future-tournament-broly-hero",
+      "label": "超：第六宇宙/未来黑悟空/力量大会",
+      "dateRange": "源条目见 story-branches 汇总"
+    },
+    {
+      "entryIndex": 19,
+      "enabledInSource": false,
+      "branchSet": "super-branch",
+      "eraId": "super-god-frieza-u6-future-tournament-broly-hero",
+      "label": "超：新布罗利/超级英雄后续",
+      "dateRange": "源条目见 story-branches 汇总"
+    }
+  ],
+  "continuityRisks": [
+    {
+      "id": "gt-super-divergence",
+      "summary": "GT 的黑星龙珠、超4、贝比/邪恶龙后续与超的神之气、多宇宙和超级英雄线默认互斥。",
+      "rpHandling": "只在明确选择的 branchSet 中启用对应规则；另一分支可作为平行宇宙传闻或禁用。"
+    },
+    {
+      "id": "movie-side-events",
+      "summary": "源时间线把大量剧场版/动画原创异闻嵌入日期附近。",
+      "rpHandling": "默认为 optional-movie-side-events，不作为主线必经事件；启用时记录 Boss、地点破坏和角色强度影响。"
+    },
+    {
+      "id": "enabled-source-vs-curated-branch",
+      "summary": "源中仅第一部上条目 enabled=true，其余时间线条目多为 disabled 多选一。",
+      "rpHandling": "curated 可作为可选分支索引使用，但不能声称全部已在源世界书同时启用。"
+    }
+  ],
+  "confidence": "B"
+}

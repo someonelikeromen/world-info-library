@@ -48,6 +48,26 @@
       "label": "魔人布欧篇"
     },
     {
+      "id": "android-cell-arc",
+      "type": "eventArc",
+      "label": "人造人/沙鲁篇"
+    },
+    {
+      "id": "gt-branch",
+      "type": "timelineBranch",
+      "label": "GT 分支"
+    },
+    {
+      "id": "super-branch",
+      "type": "timelineBranch",
+      "label": "超 分支"
+    },
+    {
+      "id": "main-db-to-z",
+      "type": "timelineBranch",
+      "label": "第一部至 Z 主干"
+    },
+    {
       "id": "kame-school-earth-martial-arts",
       "type": "faction",
       "label": "龟仙流与地球武道界"
@@ -85,6 +105,18 @@
       "summary": "魔人布欧后期友方分支标记。"
     },
     {
+      "id": "gt-black-star-threats",
+      "type": "faction",
+      "label": "GT 黑星龙珠/兹夫尔与邪恶龙威胁",
+      "branchScope": "gt-branch"
+    },
+    {
+      "id": "god-destruction-angel-system",
+      "type": "faction",
+      "label": "破坏神/天使/多宇宙体系",
+      "branchScope": "super-branch"
+    },
+    {
       "id": "kame-house",
       "type": "location",
       "label": "龟仙屋"
@@ -117,32 +149,39 @@
     {
       "id": "west-city",
       "type": "location",
-      "label": "西都",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "label": "西都"
     },
     {
       "id": "universe",
       "type": "location",
-      "label": "宇宙",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "label": "宇宙"
     },
     {
       "id": "kami-lookout",
       "type": "location",
-      "label": "地球神殿",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "label": "地球神殿"
     },
     {
       "id": "king-kai-planet",
       "type": "location",
-      "label": "界王星",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "label": "界王星"
     },
     {
       "id": "kaioshin-realm",
       "type": "location",
-      "label": "界王神界",
-      "summary": "为角色索引规范化补入/拆分的地点节点。"
+      "label": "界王神界"
+    },
+    {
+      "id": "new-tuffle-planet",
+      "type": "location",
+      "label": "新兹夫尔星",
+      "branchScope": "gt-branch"
+    },
+    {
+      "id": "beerus-planet",
+      "type": "location",
+      "label": "比鲁斯星/破坏神修行地",
+      "branchScope": "super-branch"
     },
     {
       "id": "saiyan-transform",
@@ -173,6 +212,17 @@
       "id": "magic",
       "type": "powerSystem",
       "label": "魔法/魔人术式"
+    },
+    {
+      "id": "god-ki",
+      "type": "powerSystem",
+      "label": "神之气/破坏神与天使体系",
+      "branchScope": "super-branch"
+    },
+    {
+      "id": "movie-side-events",
+      "type": "continuityPolicy",
+      "label": "剧场版/动画原创异闻默认可选"
     }
   ],
   "edges": [
@@ -182,9 +232,19 @@
       "type": "uses"
     },
     {
+      "from": "saiyans",
+      "to": "saiyan-transform",
+      "type": "unlocks"
+    },
+    {
       "from": "namekians",
       "to": "dragon-balls",
       "type": "creates"
+    },
+    {
+      "from": "namekians",
+      "to": "namekian-biology",
+      "type": "uses"
     },
     {
       "from": "z-fighters",
@@ -197,14 +257,89 @@
       "type": "invades"
     },
     {
+      "from": "frieza-force",
+      "to": "saiyan-survivors",
+      "type": "historical_oppressor"
+    },
+    {
+      "from": "red-ribbon-androids",
+      "to": "android-cell-arc",
+      "type": "drives"
+    },
+    {
+      "from": "capsule-corporation",
+      "to": "capsule-technology",
+      "type": "develops"
+    },
+    {
+      "from": "capsule-corporation",
+      "to": "dragon-balls",
+      "type": "tracks_with_radar"
+    },
+    {
       "from": "buu-arc",
       "to": "earth",
       "type": "threatens"
     },
     {
+      "from": "babidi-majin-buu-camp",
+      "to": "magic",
+      "type": "uses"
+    },
+    {
+      "from": "buu-arc",
+      "to": "fusion",
+      "type": "requires_countermeasure"
+    },
+    {
       "from": "dragon-balls",
       "to": "earth",
       "type": "can_restore"
+    },
+    {
+      "from": "kai-underworld-system",
+      "to": "king-kai-world-kaioshin-realm",
+      "type": "governs"
+    },
+    {
+      "from": "hyperbolic-time-chamber",
+      "to": "saiyan-transform",
+      "type": "training_accelerator"
+    },
+    {
+      "from": "gt-branch",
+      "to": "gt-black-star-threats",
+      "type": "enables"
+    },
+    {
+      "from": "gt-black-star-threats",
+      "to": "new-tuffle-planet",
+      "type": "uses_location"
+    },
+    {
+      "from": "gt-branch",
+      "to": "super-branch",
+      "type": "default_mutual_exclusion"
+    },
+    {
+      "from": "super-branch",
+      "to": "god-ki",
+      "type": "enables"
+    },
+    {
+      "from": "god-destruction-angel-system",
+      "to": "beerus-planet",
+      "type": "uses_location"
+    },
+    {
+      "from": "god-destruction-angel-system",
+      "to": "god-ki",
+      "type": "teaches_or_enforces"
+    },
+    {
+      "from": "movie-side-events",
+      "to": "main-db-to-z",
+      "type": "optional_overlay"
     }
   ],
   "sourceRefs": [

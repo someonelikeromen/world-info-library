@@ -1,0 +1,310 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "akame-ga-kill",
+  "completionPass": "retry-01",
+  "sourceRefs": [
+    "src-akame-ga-kill-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/akame-ga-kill/world/world.json entry 1 世界观",
+    "campaigns/world-library/worlds/akame-ga-kill/characters/characters.json entries 2-28",
+    "campaigns/world-library/worlds/akame-ga-kill/characters/characters.json entries 29, 32-33, 36 user/original equipment variants",
+    "campaigns/world-library/worlds/akame-ga-kill/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/akame-ga-kill/factions/factions.json",
+    "campaigns/world-library/worlds/akame-ga-kill/canon-reference/timeline.json"
+  ],
+  "curationScope": "补足帝具规则、革命/帝国阵营结构、夜袭与狩人角色锚点、原著时间线和 OC/假面骑士/叛逃者线的低置信分流；不删除现有高层摘要。",
+  "coverageNote": "本地源 preserved entries 38，characters 32、factions 24、locations 19、abilities 30、canonTimeline 2、canonArcs 1。源可靠性多为 C，且含 user 原创支线与自制帝具，应与正史条目分开使用。",
+  "timeline": [
+    {
+      "id": "empire-decline",
+      "order": 1,
+      "name": "帝国腐败与革命军崛起",
+      "summary": "初代皇帝打造四十八件帝具以维持统治；后世帝国在幼帝和奥内斯特大臣操控下腐败，革命军在各地秘密活动。",
+      "confidence": "C"
+    },
+    {
+      "id": "tatsumi-arrives-capital",
+      "order": 2,
+      "name": "塔兹米来到帝都并接触夜袭",
+      "summary": "乡村少年塔兹米进入帝都，遭遇贵族黑暗面后加入革命军暗杀部队 Night Raid。",
+      "confidence": "C"
+    },
+    {
+      "id": "night-raid-assassinations",
+      "order": 3,
+      "name": "夜袭暗杀行动",
+      "summary": "夜袭在帝都清除腐败官员和恶人，成员以帝具和个人武技进行高风险潜入与暗杀。",
+      "confidence": "C"
+    },
+    {
+      "id": "jaegers-formed",
+      "order": 4,
+      "name": "狩人组建",
+      "summary": "帝国最强将军艾斯德斯组建 Jaegers/狩人，以帝具使队伍追猎 Night Raid。",
+      "confidence": "C"
+    },
+    {
+      "id": "anrakudo-religion",
+      "order": 5,
+      "name": "安宁道冲突",
+      "summary": "安宁道利用民众苦难发展壮大，并成为革命军、帝国和暗杀任务交错的宗教据点。",
+      "confidence": "C"
+    },
+    {
+      "id": "civil-war-final",
+      "order": 6,
+      "name": "革命终局与高死亡代价",
+      "summary": "夜袭、革命军、帝国军和狩人在终局冲突中付出惨烈牺牲；帝具使对决常伴随一方死亡。",
+      "confidence": "C",
+      "notes": "源中未完整逐章列出漫画/动画差异，本轮只做高层 RP 时间线。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "corrupt-capital-arc",
+      "name": "帝都腐败与暗杀任务",
+      "summary": "夜袭以精准暗杀清除贪官、贵族和军警恶人；主题是个人正义与革命暴力的边界。",
+      "rpHooks": [
+        "潜入贵族宅邸搜证",
+        "保护证人与暗杀目标之间的抉择",
+        "任务后被帝都警备队追捕"
+      ]
+    },
+    {
+      "id": "night-raid-vs-jaegers",
+      "name": "夜袭与狩人对抗",
+      "summary": "艾斯德斯的狩人将帝国侧帝具使集中化，制造正面对决、道德镜像和旧友/亲属冲突。",
+      "rpHooks": [
+        "帝具使遭遇战",
+        "赤瞳与黑瞳姐妹线",
+        "威尔等狩人成员对帝国正义的怀疑"
+      ]
+    },
+    {
+      "id": "teigu-inheritance",
+      "name": "帝具适格、继承与夺取",
+      "summary": "帝具是稀缺超凡武器，适格和心理状态决定使用；战死、夺取、损毁会改变阵营力量。",
+      "rpHooks": [
+        "新帝具适格测试",
+        "从战场回收失主帝具",
+        "帝具奥义代价选择"
+      ]
+    },
+    {
+      "id": "original-variant-lines",
+      "name": "OC/自制帝具变体线",
+      "summary": "源中含 user-假面骑士、user-叛逃者线、帝具-夜煌、帝具·帕拉吉之盾等原创条目，应作为可选分歧而非正史。",
+      "rpHooks": [
+        "帝国暗杀部队叛逃者",
+        "异世界改造人误入帝都",
+        "融合臣具/帝具的自制武器争夺"
+      ],
+      "visibility": "optional-variant"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "teigu-48",
+      "name": "帝具四十八件",
+      "summary": "初代皇帝集全世界顶尖工匠、传说级危险种素材和失传秘术打造的超凡武器；每件帝具能力独特，通常需要适格者。",
+      "rules": [
+        "帝具不是普通装备，持有者、适格性和精神状态决定能否发挥。",
+        "一名角色通常不应轻易同时持有多件帝具。",
+        "帝具使对决常以一方死亡或永久损失收束。"
+      ],
+      "examplesFromSource": [
+        "一斩必杀·村雨",
+        "恶鬼缠身·操作铠甲",
+        "浪漫炮台·南瓜",
+        "万物两断·销魂",
+        "魔神显现·恶魔之粹",
+        "死者行军·八房"
+      ]
+    },
+    {
+      "id": "trump-card-and-cost",
+      "name": "帝具奥义与代价",
+      "summary": "帝具可有秘技/奥义，通常通过放大核心能力换取风险、身体负荷或战略暴露。",
+      "rules": [
+        "奥义应作为关键场景资源，不宜连续无代价使用。",
+        "使用前后应表现疲劳、弹药/能量/身体损伤或战术破绽。"
+      ]
+    },
+    {
+      "id": "danger-beasts",
+      "name": "危险种与素材生态",
+      "summary": "危险种是世界各地强大怪物，传说级素材可用于打造帝具；它们也构成边境、森林和战争环境的生态威胁。",
+      "rules": [
+        "危险种不只是掉落素材，也可作为地区灾害和军队威胁。",
+        "自制帝具若使用危险种素材，应标记为 OC/variant 并说明来源。"
+      ]
+    },
+    {
+      "id": "martial-training-and-modification",
+      "name": "武技、训练与人体改造",
+      "summary": "普通武者通过训练获得战斗力；帝国侧也存在改造、实验和军队训练。Dr.时尚等条目提示实验线可用但需控制猎奇化。",
+      "rules": [
+        "非帝具角色仍可通过战术、情报和地形发挥作用。",
+        "人体改造线应作为黑暗政治/战争伦理处理，不作为无代价升级。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "empire",
+      "name": "帝国",
+      "summary": "由幼帝象征统治、奥内斯特大臣实际操控的腐败国家；军队、警备队、贵族和帝具使构成压迫体系。",
+      "anchors": [
+        "奥内斯特",
+        "小皇帝",
+        "艾斯德斯",
+        "帝都警备队"
+      ],
+      "conflicts": [
+        "革命军",
+        "Night Raid",
+        "异民族"
+      ]
+    },
+    {
+      "id": "revolutionary-army",
+      "name": "革命军",
+      "summary": "旨在推翻帝国的反抗组织，拥有广域组织网络，夜袭是其部署于帝都的暗杀刀锋。",
+      "anchors": [
+        "娜洁希坦",
+        "Night Raid"
+      ],
+      "conflicts": [
+        "帝国",
+        "狩人"
+      ]
+    },
+    {
+      "id": "night-raid",
+      "name": "Night Raid / 夜袭",
+      "summary": "革命军旗下秘密暗杀部队，成员多为帝具使或高战力杀手，以清除腐败者和破坏帝国统治为目标。",
+      "anchors": [
+        "塔兹米",
+        "赤瞳",
+        "玛茵",
+        "希尔",
+        "布兰德",
+        "雷欧奈",
+        "娜洁希坦",
+        "拉伯克",
+        "须佐之男",
+        "切尔茜"
+      ],
+      "rpHooks": [
+        "目标调查与道德确认",
+        "安全屋生活与战损补位",
+        "任务失败后的撤离"
+      ]
+    },
+    {
+      "id": "jaegers",
+      "name": "Jaegers / 狩人",
+      "summary": "艾斯德斯组建的帝国特殊警察部队，以狩猎夜袭为目标，同时保留成员各自的正义、执念或创伤。",
+      "anchors": [
+        "艾斯德斯",
+        "黑瞳",
+        "威尔",
+        "赛琉",
+        "Dr.时尚",
+        "波鲁斯",
+        "兰"
+      ],
+      "rpHooks": [
+        "帝具使对决",
+        "帝国正义的裂缝",
+        "赤瞳/黑瞳姐妹线"
+      ]
+    },
+    {
+      "id": "anrakudo",
+      "name": "安宁道",
+      "summary": "在民众苦难中扩张的新兴宗教势力，适合作为帝国腐败、革命宣传和民间信仰交汇点。",
+      "confidence": "C"
+    }
+  ],
+  "locations": [
+    {
+      "id": "capital",
+      "name": "帝都",
+      "summary": "政治腐败中心、贵族宅邸、警备队和夜袭暗杀任务最密集的舞台。"
+    },
+    {
+      "id": "night-raid-base",
+      "name": "夜袭基地",
+      "summary": "暗杀部队生活、训练、部署和处理战损的秘密据点。"
+    },
+    {
+      "id": "revolutionary-hq",
+      "name": "革命军总部",
+      "summary": "革命军战略决策与补给来源，通常隐蔽且不轻易暴露。"
+    },
+    {
+      "id": "anrakudo-region",
+      "name": "安宁道据点",
+      "summary": "宗教势力扩张地，适合群众、信仰、阴谋和潜入线。"
+    },
+    {
+      "id": "northern-border",
+      "name": "北方边境/异民族战场",
+      "summary": "艾斯德斯出征与帝国外部战争背景相关，适合军队线和危险种生态。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "akame-kurome",
+      "summary": "赤瞳与黑瞳为姐妹，分别处于夜袭和狩人/帝国侧，是阵营冲突与亲情痛点。"
+    },
+    {
+      "id": "tatsumi-night-raid",
+      "summary": "塔兹米由乡村少年进入夜袭，经历同伴死亡和帝具继承，是新成员视角模板。"
+    },
+    {
+      "id": "esdeath-tatsumi",
+      "summary": "艾斯德斯对塔兹米的兴趣可制造敌方强者压迫、扭曲恋慕和阵营不可调和。"
+    },
+    {
+      "id": "minister-emperor",
+      "summary": "奥内斯特操控幼帝，帝国合法性与实际腐败分离；政治线应保留这个结构。"
+    }
+  ],
+  "rpNotes": {
+    "recommendedEntryPoints": [
+      {
+        "id": "night-raid-recruit",
+        "name": "夜袭新成员/协力者",
+        "summary": "从帝都腐败事件后加入，承担侦察、潜入、暗杀或后勤支援。"
+      },
+      {
+        "id": "jaegers-probationary-member",
+        "name": "狩人候补/帝国士兵",
+        "summary": "从帝国侧切入，可逐步发现帝国腐败并面临忠诚选择。"
+      },
+      {
+        "id": "teigu-candidate",
+        "name": "帝具适格者",
+        "summary": "围绕新帝具、遗失帝具或危险种素材展开，需控制强度与代价。"
+      },
+      {
+        "id": "civilian-in-capital",
+        "name": "帝都平民/线人",
+        "summary": "适合黑暗现实、革命宣传、贵族压迫和任务道德选择。"
+      }
+    ],
+    "constraints": [
+      "高死亡风险是基调，但 RP 可通过分歧避免强制重演原作死亡。",
+      "帝具对决不应无代价反复逃生；失败、失去装备或角色死亡都应是真实风险。",
+      "源中 user/自制帝具条目为可选 variant，不能覆盖正史默认。"
+    ],
+    "lowConfidenceGaps": [
+      "源可靠性为 C，且时间线条目只提供局部帝国历与校验规则，未完整拆漫画/动画差异。",
+      "安宁道、异民族和革命军总部细节仍需后续深读 raw 或外部 canon 校验。",
+      "部分帝具名称译法可能与通行译名不同，已保留中文源名但需后续统一。"
+    ]
+  }
+}

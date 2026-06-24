@@ -1,0 +1,349 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "danmachi",
+  "completionPass": "retry-03",
+  "sourceRefs": [
+    "src-danmachi-import-readme",
+    "src-danmachi-classification-report"
+  ],
+  "localArchiveSourceRefs": [
+    "src-danmachi-001",
+    "src-danmachi-002",
+    "src-danmachi-003",
+    "src-danmachi-004"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/danmachi/reports/classification-report.md",
+    "campaigns/world-library/worlds/danmachi/source-registry.json",
+    "campaigns/world-library/worlds/danmachi/characters/characters.json",
+    "campaigns/world-library/worlds/danmachi/factions/factions.json",
+    "campaigns/world-library/worlds/danmachi/locations/locations.json",
+    "campaigns/world-library/worlds/danmachi/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/danmachi/canon-reference/timeline.json"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：以本地归档的 4 个 worldbook 和分类报告为基础，扩展眷族、地点、能力体系、历史/时间线、剧情篇章、关系与 RP 钩子；不把所有 617 个 character 分类条目自动写入正式人物索引。",
+  "coverageNote": "本地分类报告显示 874 条保留条目，characters 617、factions 517、locations 700、powerSystems 594、canonArcs 196、canonTimeline 31。现有 characters-index 仅 7 人，本扩展优先补语义框架与高价值候选，完整名册仍待后续人工分批。",
+  "characters": {
+    "indexedCoreAnchors": [
+      {
+        "id": "bell-cranel",
+        "name": "贝尔·克朗尼",
+        "appearanceAndDemeanor": "源人物条目描述为白发红瞳、身形偏瘦、容貌清秀；性格纯真善良、正直勇敢、容易害羞，关键时刻意志坚定。",
+        "rpUse": "成长主轴、英雄愿望、赫斯缇雅眷族凝聚力、异端儿伦理冲突和多神关注的中心。"
+      },
+      {
+        "id": "hestia",
+        "name": "赫斯缇雅",
+        "appearanceAndDemeanor": "源条目以黑色及腰双马尾、蓝眼、白色连衣裙和蓝色丝带为标志；元气、护短、勤劳但对贝尔占有欲强。",
+        "rpUse": "眷族主神、Falna 更新、眷族债务/驻地经营、神明社交与 Denatus 的入口。"
+      },
+      {
+        "id": "ais-wallenstein",
+        "name": "艾丝·华伦斯坦",
+        "appearanceAndDemeanor": "剑姬与顶级剑士形象，战斗锚点为风灵疾走、剑术与高等级冒险者压迫感。",
+        "rpUse": "贝尔憧憬与高速成长的触发点；洛基眷族远征、深层探索和外传线入口。"
+      },
+      {
+        "id": "liliruca-arde",
+        "name": "莉莉露卡·厄德",
+        "rpUse": "支援者、后勤、背叛后信任重建、赫斯缇雅眷族战术大脑。"
+      },
+      {
+        "id": "welf-crozzo",
+        "name": "韦尔夫·克罗佐",
+        "rpUse": "锻造、魔剑、装备维修、赫菲斯托丝眷族与克罗佐血脉问题。"
+      },
+      {
+        "id": "ryu-lion",
+        "name": "琉·璃昂",
+        "rpUse": "丰饶的女主人、疾风身份、阿斯特莉亚眷族旧案、正义与复仇线。"
+      },
+      {
+        "id": "freya",
+        "name": "芙蕾雅",
+        "rpUse": "美神、识魂与魅惑、希儿身份/贝尔执念、芙蕾雅眷族政治。"
+      }
+    ],
+    "expansionCandidatesFromSource": [
+      "洛基眷族：洛基、芬恩·迪姆那、里维莉雅、加雷斯、蒂奥娜、蒂奥涅、伯特、蕾菲亚等；源条目列为黄昏馆和最强远征眷族核心。",
+      "芙蕾雅眷族：奥塔、阿伦、海丁、赫格尼、加利兄弟、赫伦等；源条目列为高等级战力和对芙蕾雅狂热忠诚。",
+      "赫菲斯托丝、迦尼萨、苏摩、建御雷、米赫、赫尔墨斯、古伯纽、迪安凯特等神与眷族：源主要眷族概览列为装备、治安、酒、远东、医疗、情报/商业等功能入口。",
+      "春姬、命、薇妮、阿斯泰里俄斯、异端儿群体、黑暗派阀残党和各卷反派：源历史/事件和贝尔人物关系提及，但现有正式索引未覆盖。",
+      "宙斯/赫拉眷族与三大委托相关人物：源历史节点提及为古代强者/失落背景，适合作为 GM-only 或传说层。"
+    ],
+    "indexingPolicy": "候选只作为扩展提示；后续写入 characters-index 时应按卷别/时间线锁定等级、技能、魔法和阵营，避免把未来状态混入开局。"
+  },
+  "powerSystems": [
+    {
+      "id": "falna-status-excelia",
+      "name": "神之恩惠、能力值与伟业",
+      "summary": "冒险者接受神之恩惠后，能力值与伟业由主神在背上状态中记录。升级需要足够经验和伟业，等级与真实战力高度相关，但技能、魔法、发展能力和装备会造成越级表现。",
+      "rpLimits": [
+        "状态更新必须由主神或等价眷族机制完成，不能战斗中自动升级。",
+        "开局应锁定卷别/等级；贝尔等核心角色等级随时间变化极大。",
+        "Lv. 差距通常是压倒性压力，但英雄愿望、魔剑、地形和队伍配合可改变局面。"
+      ],
+      "sourceEvidence": "characters.json entryIndex 10 力量体系 - 冒险者与支援者；world.json falna。"
+    },
+    {
+      "id": "adventurer-supporter-alias",
+      "name": "冒险者、支援者与称号/异名",
+      "summary": "源条目将冒险者定义为接受 Falna、以探索地下城和战斗为职业的人；支援者承担搬运、回收、警戒和道具支援。Lv.2 及以上升级后可在诸神大会 Denatus 获得称号/异名。",
+      "rpLimits": [
+        "支援者不是背景道具；负重、地图、掉落物、撤退路线和情报决定探索成败。",
+        "称号由神明政治和戏谑影响，适合升级后作为社交事件。"
+      ]
+    },
+    {
+      "id": "dungeon-ecology-floors",
+      "name": "地下城楼层生态、魔石与楼层主",
+      "summary": "地下城会孕育怪物与楼层生态，死亡怪物掉落魔石和材料。源 locations/powerSystems 分类大量保留楼层、迷宫孤王和深层节点。",
+      "rpLimits": [
+        "探索前必须声明楼层、队伍、补给、撤退路线和当前状态。",
+        "楼层越深，怪物重生、地形、怪物宴和楼层主风险越高。",
+        "安全楼层只是相对安全，剧情事件仍可打破常规。"
+      ]
+    },
+    {
+      "id": "divine-politics-no-arcanum",
+      "name": "神会政治与下界禁用神力",
+      "summary": "众神下界组织眷族、游戏化经营势力，但神力滥用会导致遣返。Denatus、战争游戏和眷族同盟/敌对构成城市政治。",
+      "rpLimits": [
+        "神明可以授恩惠、更新状态、经营眷族和政治博弈，但不能随意用神力解决地下城危机。",
+        "魅惑、神威等神性影响需标明触发范围、抵抗条件和社会后果。"
+      ]
+    },
+    {
+      "id": "xenos-intelligent-monsters",
+      "name": "异端儿与怪物伦理",
+      "summary": "源历史节点列出异端儿事件：具智慧的怪物存在被揭露，引发怪物、人类和共存的伦理冲突与秘密战争。",
+      "rpLimits": [
+        "异端儿线默认 private，公开会导致欧拉丽舆论、眷族与公会冲突。",
+        "不得把所有怪物自动视作可交流；智慧个体需明确来源和社会风险。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "hestia-familia-expanded",
+      "name": "赫斯缇雅眷族",
+      "type": "small-growing-familia",
+      "summary": "源主要眷族概览称其从弱小快速成长，驻地灶火之馆/炉灶馆，核心成员关系紧密。",
+      "members": ["bell-cranel", "hestia", "liliruca-arde", "welf-crozzo", "haruhime-candidate", "mikoto-candidate"],
+      "rpHooks": ["还债与驻地经营", "招募新眷族成员", "低级楼层训练到远征升级", "战争游戏或神会政治"]
+    },
+    {
+      "id": "loki-familia-expanded",
+      "name": "洛基眷族",
+      "type": "top-exploration-familia",
+      "summary": "源条目列驻地黄昏馆、欧拉丽最强眷族之一，目标直指地下城最深处；芬恩为团长，里维莉雅、加雷斯和艾丝等为高层战力。",
+      "rpHooks": ["远征委托", "高等级训练", "外传视角", "与赫斯缇雅眷族的竞争/协作"]
+    },
+    {
+      "id": "freya-familia-expanded",
+      "name": "芙蕾雅眷族",
+      "type": "elite-devotional-familia",
+      "summary": "源条目列芙蕾雅具识魂/魅力，奥塔为欧拉丽顶级战力，干部层实力极高且对主神忠诚狂热；芙蕾雅对贝尔有特殊执念。",
+      "visibility": "private-until-route",
+      "rpHooks": ["贝尔灵魂争夺", "丰饶的女主人与希儿身份", "高等级试炼", "芙蕾雅主导的城市政治"]
+    },
+    {
+      "id": "guild-and-ganesha",
+      "name": "公会与迦尼萨眷族",
+      "type": "civil-order",
+      "summary": "公会管理冒险者、委托和魔石经济；源主要眷族概览称迦尼萨眷族规模大、业务广泛，涉及冒险、驯兽、娱乐与治安。"
+    },
+    {
+      "id": "craft-medical-information-familias",
+      "name": "锻造、医疗与情报眷族群",
+      "type": "support-network",
+      "summary": "源概览列赫菲斯托丝/古伯纽为锻造，迪安凯特/米赫偏制药医疗，赫尔墨斯偏情报/商业。适合作为装备、恢复、委托和暗线入口。"
+    },
+    {
+      "id": "evilus-and-remnants",
+      "name": "黑暗派阀与残党",
+      "type": "criminal-anti-order",
+      "summary": "源历史节点提及暗派阀曾发动大规模动乱，最终被洛基/芙蕾雅眷族等联盟击败；残党可作为中后期阴谋。",
+      "visibility": "private"
+    },
+    {
+      "id": "xenos-hidden-community",
+      "name": "异端儿隐秘群体",
+      "type": "intelligent-monster-community",
+      "summary": "拥有智慧的怪物群体，源历史节点表明其存在会引发伦理冲突和秘密战争。",
+      "visibility": "gm-or-private"
+    }
+  ],
+  "locations": [
+    {
+      "id": "orario-expanded",
+      "name": "欧拉丽都市层",
+      "summary": "迷宫都市与眷族政治核心，包括巴别塔、公会、各眷族驻地、商业街、酒馆与治安节点。",
+      "sceneUses": ["神会政治", "委托接取", "眷族日常", "战后恢复", "城市舆论"]
+    },
+    {
+      "id": "hearth-stone-expanded",
+      "name": "炉灶馆/灶火之馆",
+      "summary": "赫斯缇雅眷族驻地，适合状态更新、队伍会议、债务/维修/招募和成员关系推进。"
+    },
+    {
+      "id": "twilight-manor",
+      "name": "黄昏馆",
+      "summary": "洛基眷族驻地；源洛基眷族条目以此为关键地点，适合高等级冒险者社交和远征准备。"
+    },
+    {
+      "id": "benevolent-mistress-expanded",
+      "name": "丰饶的女主人",
+      "summary": "酒馆与隐藏强者网络；琉、希儿/芙蕾雅暗线和冒险者情报交换常围绕此处。"
+    },
+    {
+      "id": "dungeon-upper-middle-lower-deep",
+      "name": "地下城分层：上层/中层/下层/深层",
+      "summary": "源 locations 分类大量保存楼层信息；本扩展只保留分层运行规则，具体楼层怪物表待后续单独整理。"
+    },
+    {
+      "id": "rivira-floor-18",
+      "name": "第18层里维拉/安全楼层",
+      "summary": "源 locations 分类列第18层/里维拉为重点地点；适合作为远征休整、交易、突发怪物事件和队伍分裂节点。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ancient-zeus-hera-age",
+      "period": "古代/英雄时代",
+      "event": "宙斯眷族与赫拉眷族曾完成利维坦/贝希摩斯等三大冒险者委托中的两项，但未能讨伐黑龙 OEBD，后衰落消失。",
+      "visibility": "legend-or-gm",
+      "certainty": "source-derived-c"
+    },
+    {
+      "id": "evilus-turmoil",
+      "period": "过去",
+      "event": "黑暗派阀发动大规模动乱，试图颠覆欧拉丽秩序，最终被洛基/芙蕾雅眷族等联盟击败。",
+      "certainty": "source-derived-c"
+    },
+    {
+      "id": "bell-arrival-hestia",
+      "period": "本篇开局",
+      "event": "贝尔来到欧拉丽加入赫斯缇雅眷族，由弱小新人开始快速成长。",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "familia-growth-war-game",
+      "period": "前中期",
+      "event": "赫斯缇雅眷族扩张、战争游戏和装备/支援/同伴线推动贝尔从单人冒险转向小队和眷族经营。",
+      "certainty": "curated-summary"
+    },
+    {
+      "id": "xenos-reveal",
+      "period": "中期/私密线",
+      "event": "异端儿存在逐渐揭露，引发人类与怪物共存、秘密庇护和公开舆论冲突。",
+      "visibility": "private",
+      "certainty": "source-derived-c"
+    },
+    {
+      "id": "deep-floor-and-freya-pressure",
+      "period": "中后期",
+      "event": "深层探索、芙蕾雅眷族压力和各大眷族平衡把贝尔成长线推向城市级政治与高等级战斗。",
+      "visibility": "route-dependent",
+      "certainty": "coverage-gap"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "rookie-adventurer-growth",
+      "name": "新人冒险者与英雄憧憬",
+      "focus": ["贝尔", "赫斯缇雅", "Falna", "上层地下城", "艾丝憧憬"],
+      "rpEntry": "OC 可作为新人冒险者、支援者、公会员工或赫斯缇雅眷族候选人进入。"
+    },
+    {
+      "id": "familia-politics-war-game",
+      "name": "眷族经营、神会与战争游戏",
+      "focus": ["Denatus", "称号", "眷族驻地", "装备债务", "神明博弈"],
+      "rpEntry": "适合城市层 RP：称号授予、同盟、驻地防御、债务和战争游戏。"
+    },
+    {
+      "id": "dungeon-expedition-ecology",
+      "name": "地下城远征与楼层生态",
+      "focus": ["楼层", "魔石", "支援者", "楼层主", "里维拉"],
+      "rpEntry": "每次远征都应准备补给、撤退线和队伍分工。"
+    },
+    {
+      "id": "xenos-ethical-war",
+      "name": "异端儿伦理与秘密战争",
+      "focus": ["薇妮", "异端儿", "公会/眷族舆论", "怪物与人类边界"],
+      "visibility": "private-until-triggered",
+      "rpEntry": "需要先建立玩家对怪物的认知冲突，避免开局公开全部真相。"
+    },
+    {
+      "id": "freyas-game-and-soul",
+      "name": "美神、希儿与灵魂争夺",
+      "focus": ["芙蕾雅", "希儿", "奥塔", "贝尔灵魂", "城市级操盘"],
+      "visibility": "route-dependent-private",
+      "rpEntry": "适合后期或指定芙蕾雅路线；不要在普通酒馆日常中提前剧透身份。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "bell-cranel",
+      "to": "ais-wallenstein",
+      "type": "admiration-growth-catalyst",
+      "note": "贝尔对艾丝的憧憬与高速成长技能相关；关系应根据卷别和训练/救援事件推进。"
+    },
+    {
+      "from": "hestia",
+      "to": "bell-cranel",
+      "type": "deity-familia-protective-affection",
+      "note": "赫斯缇雅既是主神又是家庭核心，保护欲会影响眷族政治选择。"
+    },
+    {
+      "from": "freya",
+      "to": "bell-cranel",
+      "type": "soul-obsession",
+      "visibility": "private",
+      "note": "源条目强调芙蕾雅能看穿灵魂并对贝尔有特殊执念；公开程度需按路线控制。"
+    },
+    {
+      "from": "ryu-lion",
+      "to": "astraea-familia",
+      "type": "survivor-past-justice",
+      "visibility": "private",
+      "note": "琉过去身份和正义创伤适合由丰饶的女主人任务逐步揭示。"
+    },
+    {
+      "from": "xenos-hidden-community",
+      "to": "orario-expanded",
+      "type": "hidden-coexistence-conflict",
+      "visibility": "private",
+      "note": "异端儿若公开，会与公会秩序、冒险者经济和市民恐惧冲突。"
+    }
+  ],
+  "rpNotes": [
+    "开局必须声明卷别/等级阶段；同一角色在 Lv.1、Lv.2、Lv.4 或后期的战斗尺度完全不同。",
+    "每次地下城探索先列：楼层、队伍、补给、支援者、地图、撤退路线、当前 HP/精神/负重状态。",
+    "神明可以推动政治与情绪，但下界禁用神力；不要用神力直接解决地下城或战斗。",
+    "支援者、铁匠、医疗、情报眷族是可玩职业入口，不要只围绕高等级前卫。",
+    "源文件含大量状态栏/战斗面板/成人向分类，curated 只保留 SFW 世界观、战斗规则和 RP 钩子。"
+  ],
+  "lowConfidenceAndConflicts": [
+    {
+      "topic": "时间轴至 5.1 与不同 worldbook 进度",
+      "status": "unresolved",
+      "note": "现有 source-registry 已记录 danmachi-volume-state 冲突；本扩展不锁定具体最终等级，要求运行前声明卷别。"
+    },
+    {
+      "topic": "分类置信度 C 的 worldbook 条目",
+      "status": "low-confidence",
+      "note": "本扩展引用 characters.json entryIndex 6/10/11 等条目，它们多为 C；作为 RP 框架可用，但不等同官方设定逐条校勘。"
+    },
+    {
+      "topic": "人物索引覆盖不足",
+      "status": "incomplete-index",
+      "note": "617 个 character 分类条目未人工全量消歧；候选名单需后续分批入 characters-index。"
+    }
+  ],
+  "residualGaps": [
+    "洛基眷族、芙蕾雅眷族、阿斯特莉亚眷族、异端儿、黑暗派阀和各卷反派仍需正式人物卡。",
+    "地下城楼层、怪物、掉落物和楼层主可从 700 个 locations/852 个 species 分类条目继续拆分。",
+    "贝尔及核心角色的具体技能/魔法/发展能力随卷变化，仍需按卷别建立状态表。"
+  ]
+}

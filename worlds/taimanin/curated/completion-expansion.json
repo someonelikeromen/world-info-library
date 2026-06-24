@@ -1,0 +1,168 @@
+{
+  "schema": "rp-world-completion-expansion-v1",
+  "worldSlug": "taimanin",
+  "displayName": "对魔忍",
+  "completionPass": "retry-13",
+  "sourceAssessment": {
+    "primarySourceId": "src-taimanin-001",
+    "sourceType": "user-file-source / adult-game-derived-worldbook",
+    "reliability": "B",
+    "readPaths": [
+      "campaigns/world-library/worlds/taimanin/source-registry.json",
+      "campaigns/world-library/worlds/taimanin/world/world.json",
+      "campaigns/world-library/worlds/taimanin/characters/characters.json",
+      "campaigns/world-library/worlds/taimanin/factions/factions.json",
+      "campaigns/world-library/worlds/taimanin/locations/locations.json",
+      "campaigns/world-library/worlds/taimanin/power-systems/abilities.json",
+      "campaigns/world-library/worlds/taimanin/sandbox/scenario-seeds.json"
+    ],
+    "curationBoundary": "源包含成人化改写、状态栏和玩家怪物设定；本扩展只保留 SFW 世界设定、任务结构、人物关系、魔化/失踪等非露骨剧情事实。",
+    "confidenceNotes": [
+      "人物数量受源条目限制，主要围绕井河阿莎姬、水城雪风、秋山凛子、高坂静流、水城不知火展开。",
+      "《对魔忍紫》《对魔忍红》等标题只在世界设定中作为参考系列出现，本次不新增无源角色。"
+    ]
+  },
+  "characterCoverage": [
+    {
+      "id": "igawa-asagi",
+      "name": "井河阿莎姬",
+      "functionForRp": "传奇导师/校长级任务发布者，也可作为高风险营救或政治压力的核心人物。",
+      "relationshipNotes": ["井河樱为血亲妹妹", "与故人泽木恭介、泽木浩介构成旧案与收养关系", "与水城不知火同属传奇级对魔忍参照系"],
+      "powerNotes": ["逸刀流·对魔杀法", "顶级剑术、体术与魔之力运用"],
+      "sourceRefs": ["src-taimanin-001"]
+    },
+    {
+      "id": "mizuki-yukikaze",
+      "name": "水城雪风",
+      "functionForRp": "年轻主视角型对魔忍，适合训练、搭档任务与寻找母亲线。",
+      "relationshipNotes": ["水城不知火之女", "秋山凛子搭档", "五车学园训练体系内成员"],
+      "powerNotes": ["雷遁之术", "闪电射手", "电力转化与恢复应用"],
+      "sourceRefs": ["src-taimanin-001"]
+    },
+    {
+      "id": "akiyama-rinko",
+      "name": "秋山凛子",
+      "functionForRp": "剑术与空间机动专家，可承担前锋、护卫或搭档线。",
+      "relationshipNotes": ["水城雪风搭档", "秋山家传承者"],
+      "powerNotes": ["逸刀流", "拔刀术", "空遁之术", "五感跳跃", "空间跳跃", "石切兼光"],
+      "sourceRefs": ["src-taimanin-001"]
+    },
+    {
+      "id": "kousaka-shizuru",
+      "name": "高坂静流",
+      "functionForRp": "单独潜入、情报收集、伪装与外语交涉担当。",
+      "relationshipNotes": ["对魔忍组织内的独行任务专家"],
+      "powerNotes": ["木遁之术", "植物操控", "玫瑰鞭", "多语言与高学识"],
+      "sourceRefs": ["src-taimanin-001"]
+    },
+    {
+      "id": "mizuki-shiranui",
+      "name": "水城不知火",
+      "functionForRp": "失踪/魔化救援线核心，不宜把成人化源细节带入正文。",
+      "relationshipNotes": ["水城雪风母亲", "与井河阿莎姬齐名的传奇对魔忍", "五年前黄泉原任务失败后状态异常"],
+      "powerNotes": ["水遁之术", "幻术", "薙刀近战"],
+      "sourceRefs": ["src-taimanin-001"]
+    }
+  ],
+  "factions": [
+    {
+      "id": "taimanin-organization",
+      "name": "对魔忍组织",
+      "role": "人类政府秘密忍者部队，承担暗杀、情报、反恐和对魔族战斗。",
+      "rpUse": "任务发布、训练考核、内部救援与保密压力。"
+    },
+    {
+      "id": "gosha-academy",
+      "name": "五车学园",
+      "role": "训练基地、选拔地点与任务部署中心。",
+      "rpUse": "新人入学、导师授课、模拟潜入、失踪报告追查。"
+    },
+    {
+      "id": "demon-races",
+      "name": "魔族",
+      "role": "来自魔界的异种族群，借裂隙与地下据点影响人类世界。",
+      "rpUse": "裂隙侦察、据点潜入、污染/魔化风险。"
+    },
+    {
+      "id": "ninja-families",
+      "name": "忍者家族",
+      "role": "井河、水城、秋山等血统与忍法传承网络。",
+      "rpUse": "家族秘传、继承试炼、旧案与亲属关系。"
+    },
+    {
+      "id": "yomihara-underground",
+      "name": "黄泉原地下势力",
+      "role": "源中不知火任务失败与囚禁/魔化传闻相关的地下都市势力。",
+      "rpUse": "高风险营救、魔族据点调查、失踪任务真相。"
+    }
+  ],
+  "timeline": [
+    {"order": 1, "period": "近未来背景", "event": "负面情绪与堕落区域累积，引发连接魔界的空间裂隙。", "visibility": "public-lore"},
+    {"order": 2, "period": "组织成立", "event": "人类政府组建秘密忍者部队对魔忍，用忍法与现代战术对抗魔族。", "visibility": "public-lore"},
+    {"order": 3, "period": "传奇世代", "event": "井河阿莎姬、水城不知火等人成为对魔忍中的传奇级战力。", "visibility": "public-lore"},
+    {"order": 4, "period": "五年前", "event": "水城不知火潜入黄泉原任务失败并失踪，源中现状为魔化。", "visibility": "sensitive-gm-note"},
+    {"order": 5, "period": "现在线", "event": "水城雪风、秋山凛子等年轻对魔忍在五车学园接受训练并参与任务。", "visibility": "public-lore"}
+  ],
+  "arcs": [
+    {
+      "id": "academy-onboarding",
+      "title": "五车学园新人训练",
+      "setup": "玩家以新人、外部协力者或导师助手身份进入五车学园。",
+      "conflicts": ["忍法适性测试", "保密制度", "第一次裂隙侦察"],
+      "rpEntryPoints": ["训练课", "任务简报", "导师面谈"]
+    },
+    {
+      "id": "rift-recon",
+      "title": "魔界裂隙侦察",
+      "setup": "城市边缘出现负能量异常和空间裂隙迹象。",
+      "conflicts": ["魔族斥候", "普通市民安全", "政府保密"],
+      "rpEntryPoints": ["夜间巡逻", "异常报告", "失踪者线索"]
+    },
+    {
+      "id": "yomihara-rescue",
+      "title": "黄泉原救援与真相",
+      "setup": "旧任务档案指向水城不知火和黄泉原地下都市。",
+      "conflicts": ["魔族据点", "潜入路线", "魔化状态是否可逆"],
+      "rpEntryPoints": ["雪风请求协助", "阿莎姬批准秘密行动", "静流提前渗透"],
+      "safetyNote": "只使用失踪、魔化、救援等非露骨表达。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "ninjutsu",
+      "name": "忍法",
+      "rules": ["通常与家族、血统和个人适性绑定", "可与刀、枪、薙刀、潜入术及现代装备结合", "高级忍法可造成大范围机动、元素攻击或感知强化"],
+      "knownBranches": ["雷遁", "水遁", "空遁", "木遁", "逸刀流·对魔杀法"]
+    },
+    {
+      "id": "demonic-power",
+      "name": "魔族能力与魔化",
+      "rules": ["能力差异按种族和个体而变化", "魔化可作为状态异常、敌方改造或污染结果处理", "curated 不采用成人化控制细节"],
+      "knownBranches": ["魔族体能", "异界瘴气", "精神/肉体污染风险"]
+    },
+    {
+      "id": "covert-operations",
+      "name": "对魔忍潜入战术",
+      "rules": ["情报、伪装、救援、暗杀和反恐并重", "任务失败可能导致失踪、俘获、情报泄露或魔化", "推荐用小队协作而非单人碾压解决"],
+      "knownBranches": ["单独潜入", "据点侦察", "目标护送", "失踪者救援"]
+    }
+  ],
+  "relationshipAdditions": [
+    {"from": "igawa-asagi", "to": "mizuki-shiranui", "type": "legendary-peers", "note": "两人被源中并列为传奇级对魔忍参照。"},
+    {"from": "mizuki-yukikaze", "to": "mizuki-shiranui", "type": "mother-daughter/rescue-motivation", "note": "雪风可由母亲失踪与魔化线驱动行动。"},
+    {"from": "akiyama-rinko", "to": "mizuki-yukikaze", "type": "partners", "note": "剑术/空间机动与雷遁射击形成搭档互补。"},
+    {"from": "kousaka-shizuru", "to": "taimanin-organization", "type": "specialist-agent", "note": "静流适合单独潜入与情报支援。"},
+    {"from": "gosha-academy", "to": "taimanin-organization", "type": "training-arm", "note": "五车学园是训练与任务部署中心。"}
+  ],
+  "rpNotes": {
+    "recommendedPlayerRoles": ["五车学园新人", "政府联络员", "忍者家族旁支", "魔界裂隙调查员", "失踪任务档案管理员"],
+    "toneGuidelines": ["近未来暗战", "任务制推进", "潜入与撤离压力", "家族传承与救援情感线"],
+    "doNotUse": ["源内状态栏格式", "成人化触发机制", "玩家怪物设定", "露骨堕落描写"],
+    "safeRewritePatterns": ["将成人化堕落改写为魔化/污染/记忆封锁", "将控制文本改写为任务档案或 GM note", "将救援目标状态保持为可调查而非可消费内容"]
+  },
+  "remainingGaps": [
+    "缺少官方向完整时间线；当前只依据源世界书条目整理。",
+    "黄泉原势力首领、魔族种类与具体据点层级未在已读源中稳定分辨。",
+    "若后续引入官方资料，应拆分成人向改写源与正史来源并重新评级。"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "rp-curation-timeline-branch-index-v1",
+  "worldId": "rozen-maiden",
+  "displayName": "蔷薇少女",
+  "status": "compact-rp-branch-index-derived-from-campaign-archive",
+  "updatedAt": "2026-06-24",
+  "sourceRefs": [
+    "campaigns/world-library/worlds/rozen-maiden/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/rozen-maiden/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/rozen-maiden/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/rozen-maiden/world/world.json",
+    "world-info-library/worlds/rozen-maiden/curated/source-registry.json"
+  ],
+  "branchPolicy": {
+    "defaultStage": "爱丽丝游戏进行中 / 沙盒初始",
+    "mangaBranch": "正作/漫画相关状态优先时，动画原创人物与结局只作为 adapted/optional。",
+    "animeAdaptedBranch": "蔷薇水晶、槐等动画原创/改编内容需显式标注为 adapted。",
+    "rule": "不要在无标记情况下把最终卷状态、动画原创角色和沙盒初始状态混为同一事实。"
+  },
+  "plotArcIndex": [
+    {
+      "arcId": "contract-and-medium-setup",
+      "label": "契约/媒介建立",
+      "rpUse": "定义主人类媒介、蔷薇戒指、生命力供给与日常箱庭入口。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "alice-game-active",
+      "label": "爱丽丝游戏进行中",
+      "rpUse": "适合作为默认冲突阶段；允许结盟、回避、谈判或战斗。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "n-field-and-dream-world",
+      "label": "N之领域/梦境空间探索",
+      "rpUse": "适合心理、迷宫、失物寻找、人工精灵与记忆线索。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "adapted-anime-original",
+      "label": "动画原创/改编分支",
+      "rpUse": "使用蔷薇水晶、槐等元素时需要显式声明 branch。",
+      "confidence": "C"
+    }
+  ],
+  "systemIndex": {
+    "coreTerms": ["蔷薇少女", "媒介", "蔷薇戒指", "蔷薇圣母/Rosa Mystica", "人工精灵", "N之领域", "爱丽丝游戏"],
+    "rpUseRule": "默认不预设固定结局；爱丽丝游戏可以作为压力源而非强制死亡竞赛锁。"
+  },
+  "knownLimits": [
+    "归档中未分类条目较多；使用具体人物最终状态前需回查 canon-reference。",
+    "动画原创与正作分支混用风险高。"
+  ]
+}

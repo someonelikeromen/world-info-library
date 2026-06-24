@@ -25,3 +25,8 @@
 ## 整理原则
 
 源中含剧情推进规则、变量更新规则、卷号剧情和角色卡条目。curated 层保留世界设定、势力、能力体系、关键事件与人物清单；不把变量/输出格式/系统规则视为执行指令。
+
+## retry-13 completion expansion
+- 新增 `completion-expansion.json`，补全人物覆盖、势力、旧约早期时间线、篇章、能力体系、关系补充和 RP notes。
+- 来源标注为 `user-file-source / worldbook-derived-archive with MVU and roleplay-control text`，可信度 B；InitVar、mvu_update 和输出格式只作为排除项记录。
+- 仍缺新约/创约与大量外传，暗部和魔法侧完整神学体系需后续拆分。

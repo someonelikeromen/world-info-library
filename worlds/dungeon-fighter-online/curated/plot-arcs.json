@@ -1,0 +1,202 @@
+{
+  "schema": "rp-plot-arcs-v1",
+  "worldId": "dungeon-fighter-online",
+  "title": "阿拉德主线篇章与分支",
+  "sourceRefs": [
+    "src-dfo-canon-timeline-entry-99",
+    "src-dfo-canon-arcs"
+  ],
+  "arcs": [
+    {
+      "id": "arc-seria-and-elvenguard",
+      "name": "艾尔文防线与赛丽亚起点",
+      "status": "sandbox-entry",
+      "publicPremise": "阿拉德历990年，冒险家在艾尔文防线救出赛丽亚，动植物狂暴与格兰之森异变成为早期冒险入口。",
+      "privateDrivers": [
+        "第一次转移事件后的连锁灾厄。",
+        "格兰之森变异与后续格兰之火。"
+      ],
+      "branchPoints": [
+        "冒险家是否从贝尔玛尔、公国防线、帝国调查或自由冒险者身份切入。",
+        "赛丽亚的引导者定位按版本保留，不在本档固定秘密真相。"
+      ],
+      "majorActors": [
+        "player-adventurer",
+        "seria-kirmin",
+        "de-los-empire",
+        "bel-myre-principality"
+      ],
+      "locations": [
+        "elvenguard",
+        "gran-floris",
+        "hendon-myere"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "arc-apostle-transfers",
+      "name": "使徒转移灾厄链",
+      "status": "major-canon-spine",
+      "publicPremise": "希洛克、罗特斯、狄瑞吉、安徒恩、卢克、奥兹玛等使徒或其影响以转移、复活、封印、讨伐等形式推动阿拉德主线。",
+      "privateDrivers": [
+        "赫尔德多次与使徒转移或幕后推动相关。",
+        "不同使徒不是单一阵营意志，动机与危害必须分开处理。"
+      ],
+      "branchPoints": [
+        "可按悲鸣洞穴、天帷巨兽、诺伊佩拉/诺斯玛尔、能源中心、寂静城、黑色大地拆分区域战役。",
+        "冒险家可阻止、延迟或改变局部灾害后果，但不应直接重写未展开版本真相。"
+      ],
+      "majorActors": [
+        "sirocco",
+        "lotus",
+        "diregie",
+        "anton",
+        "luke",
+        "ozma",
+        "herder",
+        "adventurers"
+      ],
+      "locations": [
+        "screaming-cavern",
+        "behemoth",
+        "noire-ferra",
+        "northmyre",
+        "eaton-industrial-zone",
+        "silent-city",
+        "black-earth"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ]
+    },
+    {
+      "id": "arc-heaven-kartel-and-bakal",
+      "name": "天界、卡勒特与巴卡尔遗产",
+      "status": "political-war-arc",
+      "publicPremise": "天界长期受巴卡尔封锁影响，机械文明崛起后又面对卡勒特、皇女被绑架、内战、机械七战神遗产与巴卡尔遗产。",
+      "privateDrivers": [
+        "巴卡尔死后天界进入机械崛起；后续仍通过遗产、龙族与扭曲次元影响主线。",
+        "卡勒特与诺斯匹斯贵族等天界内部势力可形成非使徒政治冲突。"
+      ],
+      "branchPoints": [
+        "冒险家可从救援皇女、皇都保卫、能源中心、机械七战神遗产或神界航行切入。",
+        "是否公开巴卡尔对赫尔德的警戒与遗产目的，视主线阶段决定。"
+      ],
+      "majorActors": [
+        "bakal",
+        "eirene",
+        "kartel",
+        "heaven-army",
+        "seven-shards",
+        "mechanical-seven-war-gods"
+      ],
+      "locations": [
+        "heaven",
+        "ghent",
+        "mosphise",
+        "eaton-industrial-zone",
+        "ispins"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "arc-ozma-and-imposters",
+      "name": "奥兹玛、伪装者与暗黑圣战",
+      "status": "dark-crusade-spine",
+      "publicPremise": "卡赞与奥兹玛悲剧引出血之诅咒、伪装者、圣职者体系、第一次与第二次暗黑圣战。",
+      "privateDrivers": [
+        "奥兹玛从佩鲁斯大魔法师转为混沌灾厄。",
+        "米歇尔、雷米迪亚体系、乌希尔教与黑暗教团在不同阶段围绕伪装者处理产生冲突。"
+      ],
+      "branchPoints": [
+        "早期可做历史调查、遗物追踪、伪装者鉴别；后期可进入黑色大地、混沌之门与教团内部分歧。",
+        "范恩感染伪装者之血是德洛斯继承与政治线的重要后续缺口。"
+      ],
+      "majorActors": [
+        "ozma",
+        "kazan",
+        "michael",
+        "remidia-order",
+        "black-order",
+        "de-los-empire"
+      ],
+      "locations": [
+        "black-earth",
+        "chestertown",
+        "exile-mountains",
+        "remidia-basilica"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "arc-pandemonium-and-magic-groups",
+      "name": "魔界、盟会与魔法组织",
+      "status": "regional-power-arc",
+      "publicPremise": "魔界由魔法、使徒、佧修派、塔拉库沓、旋魔会、古代图书馆、誓卫者等组织构成高魔与混乱政治舞台。",
+      "privateDrivers": [
+        "赫尔德与生命之水传说、使徒命名、魔界重建深度相关。",
+        "佧修派通过黑暗之眼造成魔界大战与次元风暴。"
+      ],
+      "branchPoints": [
+        "可将职业导师/魔法派系作为冒险家训练、盟会比赛、组织间冲突或调查任务使用。",
+        "魔界资料跨度大，具体导师与职业分支需另开角色卡或职业模块。"
+      ],
+      "majorActors": [
+        "herder",
+        "kashipa",
+        "tarakuta",
+        "second-pact",
+        "ancient-library",
+        "guardians"
+      ],
+      "locations": [
+        "pandemonium",
+        "central-park",
+        "harlem",
+        "metro-center"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ]
+    },
+    {
+      "id": "arc-seon-and-mist-god",
+      "name": "神界、雾之都与迷雾高原",
+      "status": "late-game-expansion",
+      "publicPremise": "神界在通道中断千年后重新与阿拉德缔结誓约，冒险家前往白海、雾之都晴烟、迷雾高原并卷入索利达里斯攻击。",
+      "privateDrivers": [
+        "雾神、天之印、晴烟事件与神界妖气侵袭仍需后续源条目细化。"
+      ],
+      "branchPoints": [
+        "适合作为高等级远征、外交、探索或全新地区篇章。",
+        "本档只采用时间线源已给出的地名和事件，不扩写神界社会结构。"
+      ],
+      "majorActors": [
+        "adventurers",
+        "seon",
+        "mist-god",
+        "solidaris"
+      ],
+      "locations": [
+        "white-ocean",
+        "clearmist",
+        "mist-plateau"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    }
+  ],
+  "continuityNotes": [
+    "篇章可按时间线顺序运行，也可选择地区沙盒切片；不要默认所有使徒都同时活跃。",
+    "若玩家改变历史节点，优先记录为 timeline-divergence，不回写本 canon 摘要。"
+  ]
+}

@@ -1,126 +1,687 @@
 {
   "schema": "rp-world-v1",
   "worldId": "kekkaishi",
+  "worldName": "结界师 / Kekkaishi",
   "displayName": "结界师 / Kekkaishi",
-  "curationStatus": "manual-initial-expanded",
+  "aliases": [
+    "结界师",
+    "Kekkaishi"
+  ],
+  "genre": [
+    "现代退魔",
+    "夜间校园战斗",
+    "家族继承",
+    "妖怪与灵地"
+  ],
+  "curationStatus": "manual-expanded-retry-07",
   "sourceRefs": [
     "src-kekkaishi-001"
   ],
-  "summary": "乌森之地会增强妖怪力量，墨村家与雪村家世代作为正统继承者以结界术守护此地。墨村良守与雪村时音在夜间学校战斗，同时卷入夜行、里会、黑芒楼、土地神与宙心丸等更深层结构。",
+  "summary": "乌森之地会吸引并增强妖怪，墨村家与雪村家世代作为正统继承者以结界术守护此地。墨村良守与雪村时音在夜间学校战斗，同时卷入夜行、里会、黑芒楼、土地神与宙心丸等更深层结构；适合日常与夜战交替推进。",
+  "sandboxPrinciple": {
+    "summary": "以乌森巡逻、妖怪强化、家族继承和里会政治为主轴；原创角色可取代、共存或旁观介入，但不得预设拥有结界术或灵力。",
+    "notes": [
+      "日常场景和夜间战斗应交替，避免连续大战消耗乌森神秘感。",
+      "间时守、守美子、宙心丸等后期真相保持 GM-only/分阶段公开。"
+    ]
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": true,
+    "summary": "外来力量进入乌森会被灵地吸引、放大或扭曲，默认需要通过妖气/灵力边界重新解释，不能无代价绕过结界术与乌森规则。",
+    "notes": [
+      "若外来者无灵感，默认无法稳定识别妖气和结界边界。"
+    ]
+  },
   "powerSystems": [
     {
       "id": "kekkai-jutsu",
       "name": "结界术",
+      "category": "spiritual-barrier",
       "rules": [
-        "以方围、定础、结、灭等步骤形成方形结界并封灭目标。",
-        "精度、速度、领域感知和术者心象决定战斗效率。",
+        "基础流程为方围锁定目标、定础画定边界、结展开方形结界、灭封灭或解释放。",
+        "精度、速度、领域感知、灵力储量和术者心象决定战斗效率。",
+        "结界可被外力打破，维持多个结界或大型结界会显著增加消耗。",
+        "绝界、真界等高级技法消耗极大，需作为危机或成长节点处理。",
         "正统继承者可与乌森之地发生特殊共鸣。"
+      ],
+      "commonTechniques": [
+        "方围",
+        "定础",
+        "结",
+        "灭",
+        "解",
+        "天穴清理",
+        "绝界",
+        "真界"
+      ],
+      "limitations": [
+        "高速、小型或多目标妖怪会考验定位精度。",
+        "反复结界碎裂会造成灵力与精神压力。",
+        "对人类/异能者目标使用封灭需处理伦理与组织后果。"
       ]
     },
     {
       "id": "karasumori",
       "name": "乌森之地",
+      "category": "spiritual-land",
       "rules": [
         "乌森会吸引并强化妖怪，导致学校夜间成为高危区域。",
-        "乌森力量与历史、间时守和宙心丸线有关，适合 GM-only 渐进公开。"
+        "妖怪在乌森可进化、失控或显露异常欲望。",
+        "乌森力量与历史、间时守和宙心丸线相关，适合 GM-only 渐进公开。"
+      ],
+      "limitations": [
+        "白天与普通人秩序仍限制战斗公开化。",
+        "过度公开真相会破坏前期巡逻结构。"
       ]
     },
     {
       "id": "ayakashi",
       "name": "妖怪/异能者生态",
+      "category": "spiritual-beings",
       "rules": [
         "妖怪可因乌森强化、进化或失控。",
-        "异能者可加入夜行、里会或独立行动。"
+        "异能者可加入夜行、里会或独立行动。",
+        "妖怪强度应分层：普通妖怪、干部级妖怪、土地神/高阶存在。"
+      ],
+      "limitations": [
+        "妖怪不是纯粹经验包，动机、栖地和灵地反应会影响事件走向。"
+      ]
+    },
+    {
+      "id": "spirit-dogs",
+      "name": "妖犬/式神搭档",
+      "category": "spiritual-partner",
+      "rules": [
+        "斑尾与白尾等搭档用于侦测、追踪、战斗支援和吐槽。",
+        "搭档记忆与过去因缘可牵出历史或妖怪支线。"
       ]
     }
   ],
   "factions": [
     {
       "id": "sumimura-family",
-      "name": "墨村家"
+      "name": "墨村家",
+      "type": "kekkai-family",
+      "summary": "正统继承者家系之一，良守所属。与雪村家共同守护乌森，同时存在竞争和家族期待。",
+      "powerSystemAffinity": [
+        "kekkai-jutsu",
+        "karasumori"
+      ],
+      "knownMembers": [
+        "sumimura-yoshimori",
+        "sumimura-masamori",
+        "sumimura-sumiko"
+      ],
+      "territories": [
+        "sumimura-house",
+        "karasumori-school"
+      ],
+      "conflicts": [
+        "orthodox-succession",
+        "karasumori-night-watch"
+      ]
     },
     {
       "id": "yukimura-family",
-      "name": "雪村家"
+      "name": "雪村家",
+      "type": "kekkai-family",
+      "summary": "正统继承者家系之一，时音所属；与墨村家既合作又竞争。",
+      "powerSystemAffinity": [
+        "kekkai-jutsu",
+        "karasumori"
+      ],
+      "knownMembers": [
+        "yukimura-tokine"
+      ],
+      "territories": [
+        "yukimura-house",
+        "karasumori-school"
+      ],
+      "conflicts": [
+        "orthodox-succession"
+      ]
     },
     {
       "id": "yakou",
-      "name": "夜行"
+      "name": "夜行",
+      "type": "ability-user-unit",
+      "summary": "里会相关异能者组织，常承担调查、镇压和组织战。",
+      "powerSystemAffinity": [
+        "ayakashi"
+      ],
+      "knownMembers": [
+        "sumimura-masamori",
+        "shishio-gen"
+      ],
+      "territories": [
+        "yakou-base"
+      ],
+      "conflicts": [
+        "rikai-politics",
+        "kokuboro-arc"
+      ]
     },
     {
       "id": "rikai",
-      "name": "里会"
+      "name": "里会",
+      "type": "spiritual-bureaucracy",
+      "summary": "管理异能者与灵异事务的组织，拥有政治、审查和秘密命令。",
+      "powerSystemAffinity": [
+        "ayakashi",
+        "kekkai-jutsu"
+      ],
+      "territories": [
+        "rikai-facility"
+      ],
+      "conflicts": [
+        "rikai-politics",
+        "ougi-family-line"
+      ]
     },
     {
       "id": "kokuboro",
-      "name": "黑芒楼"
+      "name": "黑芒楼",
+      "type": "ayakashi-faction",
+      "summary": "妖怪势力，觊觎乌森之力，推动中期高危冲突。",
+      "powerSystemAffinity": [
+        "ayakashi",
+        "karasumori"
+      ],
+      "knownMembers": [
+        "princess-kokuboro",
+        "kaguro"
+      ],
+      "territories": [
+        "kokuboro-hq"
+      ],
+      "conflicts": [
+        "kokuboro-arc"
+      ]
     },
     {
       "id": "ayakashi-group",
-      "name": "妖怪群体"
+      "name": "妖怪群体",
+      "type": "loose-ecology",
+      "summary": "被乌森吸引或卷入事件的独立妖怪、群体和高阶存在。"
     },
     {
       "id": "karasumori-affiliation",
-      "name": "乌森相关势力"
+      "name": "乌森相关势力",
+      "type": "hidden-history",
+      "summary": "间时守、宙心丸、土地神和乌森历史相关角色/结构；默认 GM-only。",
+      "visibility": "gm-only"
     }
   ],
   "locations": [
     {
       "id": "karasumori-school",
-      "name": "乌森学园"
+      "name": "乌森学园",
+      "type": "school-night-battlefield",
+      "summary": "白天是普通学校，夜晚是乌森妖怪事件核心战场。"
     },
     {
       "id": "karasumori-land",
-      "name": "乌森之地"
+      "name": "乌森之地",
+      "type": "spiritual-land",
+      "summary": "吸引并强化妖怪的灵地，不应只当地点处理。"
     },
     {
       "id": "sumimura-house",
-      "name": "墨村家"
+      "name": "墨村家",
+      "type": "family-base",
+      "summary": "训练、家族争执、任务准备和日常恢复场景。"
     },
     {
       "id": "yukimura-house",
-      "name": "雪村家"
+      "name": "雪村家",
+      "type": "family-base",
+      "summary": "雪村家继承、时音支线和两家竞争场景。"
     },
     {
       "id": "yakou-base",
-      "name": "夜行据点"
+      "name": "夜行据点",
+      "type": "organization-base",
+      "summary": "异能者组织行动、队员训练和政治任务入口。"
     },
     {
       "id": "rikai-facility",
-      "name": "里会相关设施"
+      "name": "里会相关设施",
+      "type": "bureaucratic-secret-zone",
+      "summary": "审查、命令、禁忌资料和组织政治场景。"
     },
     {
       "id": "kokuboro-hq",
-      "name": "黑芒楼"
-    },
-    {
-      "id": "outside-world",
-      "name": "外界"
-    },
-    {
-      "id": "karasumori-related",
-      "name": "乌森相关地点"
+      "name": "黑芒楼",
+      "type": "enemy-domain",
+      "summary": "妖怪势力据点，高危中期战斗与潜入场景。"
     },
     {
       "id": "spirit-land",
-      "name": "灵地"
+      "name": "灵地",
+      "type": "spiritual-site",
+      "summary": "土地神、妖怪和结界术之外的灵异规则可在此展开。"
+    },
+    {
+      "id": "outside-world",
+      "name": "外界",
+      "type": "modern-world",
+      "summary": "普通社会、学校白天秩序和非乌森事件。"
     }
   ],
   "combatRules": [
-    "结界术以定位、困锁、封灭为核心；面对高速或大型目标需预判。",
-    "乌森强化会使普通妖怪迅速升级，战斗需限制地点和时间。",
-    "里会与夜行战斗含大量异能者，需明确异能边界。"
+    "结界术战斗先确认目标定位、边界稳定、封灭/释放意图，再写结果。",
+    "乌森强化会使普通妖怪迅速升级，战斗需限制地点、时间和普通人暴露度。",
+    "里会与夜行战斗含大量异能者，需明确异能边界和组织后果。",
+    "绝界、真界等高级能力不应频繁使用；每次使用要留下消耗、伤势或心理代价。",
+    "白天日常不能完全脱离夜战压力，夜战后果也应回流到学校和家庭。"
+  ],
+  "timeline": [
+    {
+      "id": "night-watch-beginnings",
+      "title": "乌森夜间守护起点",
+      "phase": "start",
+      "summary": "良守与时音以学生身份白天上学、夜间巡逻，处理被乌森吸引的妖怪并建立搭档/竞争关系。",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    },
+    {
+      "id": "gen-and-yakou-entry",
+      "title": "夜行与志志尾限介入",
+      "phase": "early-middle",
+      "summary": "夜行、正守和志志尾限等异能者把乌森守护从两家夜巡扩展为组织层面的冲突。",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    },
+    {
+      "id": "kokuboro-arc",
+      "title": "黑芒楼冲突",
+      "phase": "middle-climax",
+      "summary": "黑芒楼觊觎乌森力量，妖怪干部级战斗与牺牲风险显著提高。",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    },
+    {
+      "id": "rikai-politics",
+      "title": "里会政治与扇家线",
+      "phase": "late-middle",
+      "summary": "里会、夜行、扇家等组织政治使乌森事件不再只是妖怪袭击；细节需继续校对。",
+      "confidence": "medium",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    },
+    {
+      "id": "karasumori-origin-secret",
+      "title": "乌森起源与宙心丸线",
+      "phase": "late-gm-only",
+      "summary": "间时守、守美子、宙心丸和乌森本质相关的后期真相；默认不在开局公开。",
+      "visibility": "gm-only",
+      "confidence": "medium",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    },
+    {
+      "id": "post-canon-sandbox",
+      "title": "灵地后续沙盒",
+      "phase": "sandbox",
+      "summary": "可围绕新灵地、里会改革、家族继承或原创妖怪事件继续。",
+      "sourceRefs": [
+        "src-kekkaishi-001"
+      ]
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "karasumori-night-watch",
+      "name": "乌森夜巡",
+      "summary": "日常学生生活与夜间妖怪事件交替，构成最稳定的单元剧结构。",
+      "stakes": [
+        "普通人安全",
+        "灵力消耗",
+        "身份保密"
+      ]
+    },
+    {
+      "id": "orthodox-succession",
+      "name": "正统继承者竞争",
+      "summary": "墨村与雪村两家共同守护却互相竞争，良守与时音关系由别扭搭档逐步深化。",
+      "stakes": [
+        "家族期待",
+        "正统资格",
+        "搭档信任"
+      ]
+    },
+    {
+      "id": "kokuboro-arc",
+      "name": "黑芒楼威胁",
+      "summary": "妖怪组织主动觊觎乌森，推动从夜巡到组织战的升级。",
+      "stakes": [
+        "乌森失控",
+        "同伴伤亡",
+        "妖怪干部级压迫"
+      ]
+    },
+    {
+      "id": "rikai-politics",
+      "name": "里会与夜行政治",
+      "summary": "组织命令、异能者管理和家族派系使正确行动不再简单。",
+      "stakes": [
+        "命令与良心",
+        "组织审查",
+        "灵异秩序"
+      ]
+    },
+    {
+      "id": "karasumori-truth",
+      "name": "乌森真相",
+      "summary": "逐步揭示乌森历史、间时守和宙心丸相关秘密。",
+      "visibility": "gm-only",
+      "stakes": [
+        "世界真相",
+        "封印选择",
+        "继承者命运"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "sumimura-yoshimori",
+      "to": "yukimura-tokine",
+      "type": "partner-rival",
+      "publicSummary": "共同守护乌森的搭档与竞争者。",
+      "gmNotes": "关系应通过夜战互救、日常争执和家族压力推进。"
+    },
+    {
+      "from": "sumimura-yoshimori",
+      "to": "sumimura-masamori",
+      "type": "siblings-pressure",
+      "publicSummary": "兄弟关系带有实力差、期待和组织立场张力。",
+      "gmNotes": "正守与夜行/里会立场可制造复杂任务。"
+    },
+    {
+      "from": "sumimura-yoshimori",
+      "to": "madarao",
+      "type": "spirit-partner",
+      "publicSummary": "斑尾提供侦测、支援和历史视角。",
+      "gmNotes": "妖犬记忆可作为旧因缘线索。"
+    },
+    {
+      "from": "yukimura-tokine",
+      "to": "hakubi",
+      "type": "spirit-partner",
+      "publicSummary": "白尾支援雪村家守护任务。",
+      "gmNotes": "可与斑尾形成搭档吐槽和历史映照。"
+    },
+    {
+      "from": "shishio-gen",
+      "to": "kaguro",
+      "type": "enemy-arc-dependent",
+      "publicSummary": "黑芒楼线中的高风险敌对关系。",
+      "gmNotes": "涉及牺牲风险，需按剧情阶段启用。"
+    },
+    {
+      "from": "hazama-tokimori",
+      "to": "karasumori-affiliation",
+      "type": "legacy-secret",
+      "publicSummary": "乌森历史相关人物。",
+      "gmNotes": "GM-only，避免开局剧透。",
+      "visibility": "gm-only"
+    }
+  ],
+  "worldRules": {
+    "publicLaws": [
+      "现代日本日常秩序",
+      "学校白天是普通社会空间"
+    ],
+    "supernaturalRules": [
+      "乌森吸引并强化妖怪",
+      "结界术可锁定、隔离和封灭目标",
+      "灵力、妖气、土地神和异能者组织共存"
+    ],
+    "taboos": [
+      "未经声明让原创主角自动拥有结界术或灵力",
+      "开局公开乌森终局真相",
+      "无代价滥用绝界/真界"
+    ],
+    "knownExceptions": [
+      "共存/取代模式可改变良守位置，但乌森吸引妖怪的结构仍存在。"
+    ]
+  },
+  "energyEnvironment": {
+    "externalEnergies": [
+      "灵力",
+      "妖气",
+      "乌森之力"
+    ],
+    "restrictedZones": [
+      "乌森学园夜间",
+      "里会设施",
+      "黑芒楼"
+    ],
+    "specialFields": [
+      {
+        "id": "karasumori-amplification",
+        "name": "乌森强化",
+        "effect": "吸引、增强并诱发妖怪变化。"
+      }
+    ]
+  },
+  "publicEvents": [
+    {
+      "id": "night-patrol",
+      "name": "夜间巡逻",
+      "summary": "发现妖气、追踪、结界战斗、天穴清理和次日日常后果。"
+    },
+    {
+      "id": "school-day-aftermath",
+      "name": "战后白天",
+      "summary": "夜战伤势、睡眠不足、身份保密和同学关系回流到学校。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "karasumori-origin",
+      "name": "乌森起源",
+      "summary": "乌森、间时守和宙心丸相关后期真相。",
+      "visibility": "gm-only"
+    },
+    {
+      "id": "rikai-orders",
+      "name": "里会秘密命令",
+      "summary": "组织政治可能要求主角圈执行与个人判断冲突的任务。"
+    }
   ],
   "visibility": "public",
-  "worldName": "结界师 / Kekkaishi",
-  "aliases": [],
-  "genre": [],
-  "sandboxPrinciple": {},
-  "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
-  "notes": [],
-  "energyEnvironment": {},
-  "worldRules": {},
-  "publicEvents": [],
-  "hiddenEvents": []
+  "notes": [
+    "把乌森之地作为地点兼力量节点，而非单纯地点。",
+    "结界术记录为可操作规则：定位、成形、封锁、消灭。",
+    "间时守、守美子、宙心丸相关线保持 GM-only/待补，避免过早公开。"
+  ],
+  "rpNotes": [
+    "默认节奏：日常→巡逻→遭遇→结界战→清理→日常后果。",
+    "战斗中不要替玩家决定是否封灭、释放或冒险救援。",
+    "低置信/待补：夜行大量成员、扇家线、黑芒楼译名、宙心丸细节仍需按源条目细校。",
+    "源为导入世界书与分类条目，不是小说原文；卷剧情可继续拆成更细 timeline。"
+  ],
+  "characters": [
+    {
+      "id": "sumimura-yoshimori",
+      "name": "墨村良守",
+      "role": "墨村家正统继承者",
+      "rpUse": "夜巡主轴、仁慈判断、成长和保护欲"
+    },
+    {
+      "id": "yukimura-tokine",
+      "name": "雪村时音",
+      "role": "雪村家正统继承者",
+      "rpUse": "冷静搭档、竞争者和战术平衡"
+    },
+    {
+      "id": "sumimura-masamori",
+      "name": "墨村正守",
+      "role": "夜行相关强者/兄长",
+      "rpUse": "组织政治、兄弟压力和高阶任务入口"
+    },
+    {
+      "id": "shishio-gen",
+      "name": "志志尾限",
+      "role": "夜行成员/异能者",
+      "rpUse": "异能者身份、同伴牺牲风险和黑芒楼线"
+    },
+    {
+      "id": "madarao",
+      "name": "斑尾",
+      "role": "墨村家妖犬搭档",
+      "rpUse": "侦测、吐槽、旧因缘线索"
+    },
+    {
+      "id": "hakubi",
+      "name": "白尾",
+      "role": "雪村家妖犬搭档",
+      "rpUse": "支援时音、与斑尾形成历史映照"
+    }
+  ],
+  "magicSystem": {
+    "coreLoop": [
+      "感知妖气",
+      "方围定位",
+      "定础设边",
+      "结成形",
+      "灭/解处理",
+      "天穴清理"
+    ],
+    "advanced": [
+      "绝界",
+      "真界",
+      "大型结界",
+      "乌森共鸣"
+    ],
+    "costs": [
+      "灵力消耗",
+      "结界碎裂反噬",
+      "精神压力",
+      "普通人暴露风险"
+    ]
+  },
+  "speciesRaces": [
+    {
+      "id": "ayakashi-common",
+      "name": "普通妖怪",
+      "summary": "被乌森吸引或强化的单元剧威胁。"
+    },
+    {
+      "id": "ayakashi-officer",
+      "name": "干部级妖怪",
+      "summary": "需要多人协作或高级技法处理。"
+    },
+    {
+      "id": "land-god-spirit",
+      "name": "土地神/高阶灵性存在",
+      "summary": "与灵地规则相关，不应按普通妖怪处理。"
+    },
+    {
+      "id": "ability-users",
+      "name": "异能者",
+      "summary": "可隶属夜行、里会或独立行动，能力边界需逐案定义。"
+    }
+  ],
+  "episodeGuide": [
+    {
+      "id": "monster-of-night",
+      "title": "夜间单元妖怪",
+      "use": "快速开局或低风险巡逻"
+    },
+    {
+      "id": "yakou-contact",
+      "title": "夜行接触",
+      "use": "引入组织、正守和异能者政治"
+    },
+    {
+      "id": "kokuboro-escalation",
+      "title": "黑芒楼升级",
+      "use": "中期高危冲突和同伴牺牲风险"
+    },
+    {
+      "id": "karasumori-truth-route",
+      "title": "乌森真相路线",
+      "use": "后期 GM-only 解谜与封印选择"
+    }
+  ],
+  "toneStyleGuide": {
+    "keywords": [
+      "夜色校园",
+      "白描行动",
+      "退魔紧张",
+      "家族责任",
+      "日常余波"
+    ],
+    "do": [
+      "让战斗后果回流白天",
+      "分阶段公开秘密",
+      "明确结界步骤和代价"
+    ],
+    "avoid": [
+      "开局剧透乌森终局",
+      "预设原创主角有灵力",
+      "滥用绝界/真界"
+    ]
+  },
+  "rpScenarios": [
+    {
+      "id": "first-night-patrol",
+      "title": "第一次夜巡",
+      "hook": "放学后的校园出现异常妖气，玩家必须在普通人发现前处理。"
+    },
+    {
+      "id": "rikai-order-conflict",
+      "title": "里会命令冲突",
+      "hook": "组织命令要求捕获目标，但现场情况显示目标并非纯粹恶意。"
+    },
+    {
+      "id": "spirit-dog-memory",
+      "title": "妖犬旧忆",
+      "hook": "斑尾或白尾认出旧敌气味，牵出历史因缘。"
+    }
+  ],
+  "canonDivergence": {
+    "safeDivergences": [
+      "新增夜巡妖怪",
+      "原创异能者旁观/协助",
+      "改变某次妖怪逃脱或净化结果"
+    ],
+    "highImpactDivergences": [
+      "正统继承者身份改变",
+      "黑芒楼干部提前死亡/倒戈",
+      "乌森真相提前公开"
+    ],
+    "guardrails": [
+      "乌森吸引妖怪结构仍存在",
+      "原创主角能力由玩家声明",
+      "GM-only 真相分阶段启用"
+    ]
+  },
+  "sourceIndex": {
+    "readNotes": [
+      "campaigns/world-library/worlds/kekkaishi/source-registry.json",
+      "campaigns/world-library/worlds/kekkaishi/curated/README.md",
+      "campaigns/world-library/worlds/kekkaishi/curated/curation-notes.md",
+      "world-info-library/worlds/kekkaishi/curated/README.md",
+      "world-info-library/worlds/kekkaishi/curated/source-registry.json"
+    ],
+    "rawMaterials": [
+      "campaigns/world-library/worlds/kekkaishi/raw/imported-worldbooks/jjs_card.worldbook.json",
+      "campaigns/world-library/worlds/kekkaishi/raw/original-entry-index.json"
+    ],
+    "longFormStatus": "未发现独立小说/漫画/游戏/剧本文本；主要为导入世界书、卷剧情和分类归档。"
+  },
+  "openQuestions": [
+    "是否将各卷剧情拆成 chronology/episode-guide 细表？",
+    "宙心丸是否应单列角色并建立 GM-only 关系？",
+    "夜行和里会干部能力边界需逐人核对。"
+  ]
 }

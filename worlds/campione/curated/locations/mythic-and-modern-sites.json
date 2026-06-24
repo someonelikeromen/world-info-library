@@ -1,0 +1,91 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "campione",
+  "module": "locations/mythic-and-modern-sites",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/campione/locations/locations.json",
+    "campaigns/world-library/worlds/campione/factions/factions.json",
+    "campaigns/world-library/worlds/campione/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/campione/canon-reference/arcs.json"
+  ],
+  "curationPolicy": "按源中反复出现的地区功能归纳 RP 地点类型；不尝试把 100+ location 分类条目全量拆成地图。",
+  "locations": [
+    {
+      "id": "modern-japan-occult-front",
+      "name": "日本咒术界与日常城市圈",
+      "type": "modern-occult-front",
+      "visibility": "public",
+      "summary": "现代日本表面维持日常秩序，正史编纂委员会与媛巫女负责灵视、结界、情报和善后。",
+      "associatedFactions": [
+        "history-compilation-committee"
+      ],
+      "rpUse": "适合校园/神社日常突然被神话征兆打断、委员会交涉、普通社会掩盖。",
+      "confidence": "B"
+    },
+    {
+      "id": "italian-magic-society-circle",
+      "name": "意大利魔术结社圈",
+      "type": "magic-society-region",
+      "visibility": "public",
+      "summary": "欧洲魔术发源地之一，赤铜黑十字和青铜黑十字等结社在此有强影响力；萨丁岛等地可成为弑神初遇与神明纷争舞台。",
+      "associatedFactions": [
+        "european-magic-societies"
+      ],
+      "rpUse": "适合骑士任务、结社政治、神具争夺、遗迹调查和地中海神话事件。",
+      "confidence": "B"
+    },
+    {
+      "id": "mythic-incident-sites",
+      "name": "神显现灾害现场",
+      "type": "event-location-class",
+      "visibility": "public",
+      "summary": "不从之神可在与自身神话并非直接关联的土地显现，引发气象、地形、神兽或文明级灾害。",
+      "associatedFactions": [
+        "heretic-gods",
+        "campiones",
+        "magic-societies"
+      ],
+      "rpUse": "先以异常征兆和神话符号铺垫，再决定是否进入神兽清场、权能战或撤离保护任务。",
+      "confidence": "B"
+    },
+    {
+      "id": "netherworld-and-plutarch-hall",
+      "name": "幽世与普鲁塔克之馆",
+      "type": "spirit-realm",
+      "visibility": "gm-only",
+      "summary": "源第十五卷条目提到佑理与莉莉娅娜通过约翰·布鲁托·史密斯协助前往幽世的普鲁塔克之馆，从时光守护者处得知最后之王提前苏醒。",
+      "associatedFactions": [
+        "history-compilation-committee",
+        "campiones"
+      ],
+      "rpUse": "适合高阶情报、时间修正提示和最后之王相关预兆；不要作为普通快捷传送点。",
+      "confidence": "B"
+    },
+    {
+      "id": "ancient-gaul-divergence",
+      "name": "古代高卢分歧线",
+      "type": "time-divergence-stage",
+      "visibility": "gm-only",
+      "summary": "源第十五卷中护堂、艾莉卡、惠那、东尼被爱莎权能卷入西元五世纪初古代高卢，造成最后之王提前苏醒风险。",
+      "associatedFactions": [
+        "campiones",
+        "aisha-instability-network"
+      ],
+      "rpUse": "作为爱莎时空通廊的大型事故模板；每次使用必须记录偏差、修正力与返回代价。",
+      "confidence": "B"
+    }
+  ],
+  "locationRules": [
+    "现代社会可被超自然临时破坏，但魔术组织通常会尝试遮蔽和善后。",
+    "神显现地点的神话解释比地理距离更重要；同一地点可能因不同神格呈现完全不同灾害。",
+    "幽世、古代高卢和平行分歧线属于高阶 GM 工具，不作为普通开局常驻地图。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中 location 分类含大量人物条目交叉归类，本模块按功能地点而非全量实体地点整理。",
+    "古代高卢和幽世条目来自剧情卷摘要；卷号与后续外传/衍生资料仍需二次校对。"
+  ]
+}

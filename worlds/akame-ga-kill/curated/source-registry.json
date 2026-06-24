@@ -28,12 +28,15 @@
   "conflictLog": [],
   "registryNotes": [
     "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
-    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed.",
+    "retry-01: completion-expansion.json uses local single source plus character/teigu/faction/timeline classifications; user/original equipment entries are optional variants, not default canon.",
+    "retry-01: campaign item confidence is often C; manga/anime differences and secondary factions need later review."
   ],
   "conflictReviewStatus": {
     "status": "not-reviewed",
     "reviewedAt": "2026-06-22",
     "reviewScope": "registry metadata only; no new canon/source facts asserted",
     "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
-  }
+  },
+  "lastCompletionPass": "retry-01"
 }

@@ -1,0 +1,104 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "claymore",
+  "module": "power-systems/yoma-claymore-awakening",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-claymore-001",
+    "characters.json entryIndex 8"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/claymore/world/world.json",
+    "campaigns/world-library/worlds/claymore/factions/factions.json",
+    "campaigns/world-library/worlds/claymore/species/species.json",
+    "campaigns/world-library/worlds/claymore/power-systems/abilities.json"
+  ],
+  "coreMechanics": [
+    {
+      "id": "yoma",
+      "name": "妖魔",
+      "summary": "捕食人类、可伪装潜入聚落的怪物，是组织派遣大剑讨伐的常见威胁。",
+      "rpSignals": [
+        "腐臭或异样气味",
+        "村民恐惧和排斥",
+        "失踪、尸体、身份替换"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "claymore-warrior",
+      "name": "大剑战士",
+      "summary": "半人半妖女性战士，银眼、巨剑和制式装束构成职业识别；释放妖力可增强感知、速度和力量。",
+      "rpSignals": [
+        "银色眼眸",
+        "背负巨剑",
+        "被人类畏惧但又受雇保护人类"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "yoki-release",
+      "name": "妖力解放",
+      "summary": "战士通过释放妖力提升战斗力，但越接近临界越危险。源明确提到组织禁止解放自身 75% 以上妖力。",
+      "thresholds": [
+        {
+          "range": "0-30%",
+          "rpMeaning": "常规增强和侦测；风险可控。"
+        },
+        {
+          "range": "30-70%",
+          "rpMeaning": "明显强化，外观/气息变化增强；需要记录精神压力。"
+        },
+        {
+          "range": "75%+",
+          "rpMeaning": "触及组织禁忌，觉醒风险极高；同伴可能收到斩杀责任。"
+        }
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "awakening",
+      "name": "觉醒",
+      "summary": "超过临界后不可逆地转化为觉醒者，比妖魔更强，常保留人格残响、执念或美学化形态。",
+      "rpUse": "作为战斗极限、悲剧转折和组织追杀的核心风险；不宜轻易反转。",
+      "confidence": "B"
+    },
+    {
+      "id": "abyssal-ones",
+      "name": "深渊者",
+      "summary": "极高等级觉醒者/初代或强大世代战士的顶点存在，例如北之伊斯力、西之莉芙露等。",
+      "rpUse": "区域级势力，不宜作为普通讨伐目标；更适合长期阵营压力或谈判对象。",
+      "confidence": "B"
+    }
+  ],
+  "organizationIronLaws": [
+    {
+      "id": "obedience",
+      "name": "绝对服从",
+      "rule": "不得违抗组织命令。",
+      "rpPressure": "组织代理人、黑函和处刑队可作为违令后果。"
+    },
+    {
+      "id": "no-killing-humans",
+      "name": "人类禁令",
+      "rule": "无论理由不得杀害人类。",
+      "rpPressure": "最适合制造道德困境：保护人类却不能报复作恶人类。"
+    },
+    {
+      "id": "awakening-taboo",
+      "name": "觉醒禁忌",
+      "rule": "严禁解放 75% 以上妖力；觉醒前兆需被同伴斩杀。",
+      "rpPressure": "同伴黑函、最后请求和半觉醒挣扎。"
+    }
+  ],
+  "combatGuidelines": [
+    "普通妖魔任务重在调查身份、保护村民和处理人类恐惧。",
+    "大剑之间的排名差距应明显，但战术、环境和心理状态可改变结果。",
+    "觉醒者战斗应突出形态、执念和压迫感，而不是只堆数值。",
+    "组织的阴谋和信息控制比单场战斗更能塑造世界压抑感。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中包含大量叙事指令，本模块只提取世界规则。",
+    "具体角色排名、世代和死亡节点仍需逐条核对；当前仅保留对 RP 影响最大的规则。"
+  ]
+}

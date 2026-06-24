@@ -1,0 +1,313 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "blue-archive",
+  "completionPass": "retry-01",
+  "sourceRefs": [
+    "src-blue-archive-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/blue-archive/world/world.json entries 0,6,7,8,10",
+    "campaigns/world-library/worlds/blue-archive/factions/factions.json entries 0-14",
+    "campaigns/world-library/worlds/blue-archive/locations/locations.json entries 0-14",
+    "campaigns/world-library/worlds/blue-archive/power-systems/power-systems.json entries 0,9,11",
+    "campaigns/world-library/worlds/blue-archive/canon-reference/arcs.json entries 16,18,23",
+    "campaigns/world-library/worlds/blue-archive/reports/classification-report.md"
+  ],
+  "curationScope": "补足基沃托斯学园自治、主要学院/组织、反派组织、神秘/光环与武装日常规则、可用剧情切入点；保留 characters 为空导致的人物索引 caveat。",
+  "coverageNote": "本地源 preserved entries 25，world 5、factions 14、locations 15、powerSystems 3、canonArcs 3、characters 0、canonTimeline 0。现有 curated 已人工补岗位角色，本扩展补语义模块但不伪造完整角色 roster。",
+  "settingModules": {
+    "kivotosPoliticalModel": {
+      "summary": "基沃托斯是面积近大陆的学园城市，数千学园和直辖地区组成。学园不是普通学校，而是拥有行政、执法、军事、贸易、外交和条约能力的自治政治实体。",
+      "rules": [
+        "学院间冲突可以像城市国家冲突一样处理。",
+        "社团可同时承担行政机关、执法队、商业组织或武装团体功能。",
+        "联邦学生会和神圣之塔提供整体秩序，但各学院拥有高自治权。"
+      ]
+    },
+    "combatAndDurabilityModel": {
+      "summary": "学生普遍持枪并具异常耐久与光环/神秘，枪战、坦克、机器人和爆炸是日常冲突的一部分，但通常不按现实致死处理。",
+      "rules": [
+        "常规枪械和爆炸多数造成昏厥、负伤或战术压制，而非默认死亡。",
+        "政治、信任、社团关系和资源调度常比单纯火力更关键。",
+        "老师/先生的作用是调停、战术指挥和建立信任，不是替学生单刷战斗。"
+      ]
+    },
+    "mysteryAndExternalThreats": {
+      "summary": "源提及神秘、十字神名、数秘术/盖玛特里亚、总力战 Boss 和色彩相关兵器；这类内容适合作为高阶 GM-only 或主线后期危机。",
+      "visibility": "gm-only-high-stakes",
+      "rules": [
+        "不要在普通社团日常开局直接公开所有神秘真相。",
+        "外来者结社与实验应作为阴谋层，逐步通过事件揭示。",
+        "总力战级敌人需要跨学院协作和明确阶段。"
+      ]
+    }
+  },
+  "factionsAndAcademies": [
+    {
+      "id": "federal-student-council",
+      "name": "联邦学生会 / D.U.直辖区",
+      "summary": "基沃托斯最高行政机关，通过神圣之塔统筹各校和直辖区；夏莱办公楼、古圣堂大教堂和瓦尔基里警察学校位于 D.U.。",
+      "rpHooks": [
+        "神圣之塔权限异常",
+        "跨校任务发布",
+        "联邦学生会失灵后的自治失衡"
+      ]
+    },
+    {
+      "id": "schale",
+      "name": "夏莱 / Schale",
+      "summary": "联邦搜查部，是老师/先生与学生建立跨校协作的核心据点。",
+      "rpHooks": [
+        "委托调停",
+        "跨学院小队行动",
+        "学生信任与战术指挥"
+      ],
+      "sourceCaveat": "源条目明确列出夏莱办公大楼；老师身份为 RP 常用核心身份，characters 源为空。"
+    },
+    {
+      "id": "abydos",
+      "name": "阿拜多斯高中 / 废校对策委员会",
+      "summary": "曾经庞大的学园因沙漠化和凯撒信贷债务衰落，仅剩对策委员会五人维持重建。",
+      "rpHooks": [
+        "七亿债务谈判",
+        "沙漠化调查",
+        "凯撒集团夺地与校园重建"
+      ]
+    },
+    {
+      "id": "trinity",
+      "name": "三一综合学园",
+      "summary": "历史悠久、设施与财力雄厚，由多个信奉同一经典但解读不同的学园合并而成；茶会为最高行政机关，和格黑娜长期敌对。",
+      "subgroups": [
+        "茶会",
+        "实现正义部",
+        "修女会",
+        "救援骑士团",
+        "自卫队"
+      ],
+      "rpHooks": [
+        "茶会派系政治",
+        "阿里乌斯分校历史阴影",
+        "三一与格黑娜外交危机"
+      ]
+    },
+    {
+      "id": "gehenna",
+      "name": "格黑娜学园",
+      "summary": "宽松混乱且财力强，万魔殿名义管理但业务能力差，风纪委员会与空崎阳奈维持实际秩序；温泉开发部、美食研究会和黑市制造大量事件。",
+      "subgroups": [
+        "万魔殿",
+        "风纪委员会",
+        "温泉开发部",
+        "美食研究会",
+        "黑市"
+      ],
+      "rpHooks": [
+        "黑市装备流出",
+        "风纪委员会疲于奔命",
+        "万魔殿与风纪委员会内斗"
+      ]
+    },
+    {
+      "id": "millennium",
+      "name": "千禧年科学学院",
+      "summary": "科技最先进的新兴理工学院，研讨会围绕基沃托斯七大谜题形成；校内有古代城市废墟、要塞都市和 C&C 等行动单位。",
+      "subgroups": [
+        "研讨会",
+        "Cleaning & Clearing",
+        "机器人防卫系统"
+      ],
+      "rpHooks": [
+        "七大谜题研究",
+        "古代废墟事故",
+        "自律机器人暴走或防卫演习"
+      ]
+    },
+    {
+      "id": "hyakkiyako",
+      "name": "百鬼夜行联合学园",
+      "summary": "多个社团联合形成的旅游/服务业学园，百花缭乱纷争调停委员会促成社团联合但成员流失，阴阳部名义统筹。",
+      "rpHooks": [
+        "祭典安保",
+        "都市传说调查",
+        "百花缭乱重建"
+      ]
+    },
+    {
+      "id": "red-winter",
+      "name": "赤冬联邦学园",
+      "summary": "北部外围超巨型学园，自治范围极大，赤冬事务局统治，政变与派系斗争常态化但通常偏喜剧政治。",
+      "rpHooks": [
+        "学生政变",
+        "工务部/知识解放阵线事件",
+        "温泉开发部跨校事故"
+      ]
+    },
+    {
+      "id": "shanhaijing",
+      "name": "山海经高级中学",
+      "summary": "外围古老学园，长期隔离形成独特文化，旅游和贸易发达；玄龙门与玄武商会关系紧张，龙华妃咲致力弥合。",
+      "rpHooks": [
+        "贸易争端",
+        "玄龙门与玄武商会调停",
+        "旅游文化事件"
+      ]
+    },
+    {
+      "id": "valkyrie-police-school",
+      "name": "女武神警察学院",
+      "summary": "联邦学生会防卫室领导的治安机关，主要负责 D.U. 直辖区治安，跨自治区执法常显得力不从心。",
+      "rpHooks": [
+        "跨区逃犯追捕",
+        "公安局高风险案件",
+        "直辖区公共安全"
+      ]
+    },
+    {
+      "id": "kaiser-corporation",
+      "name": "凯撒集团",
+      "summary": "黑白通吃的大型财阀，旗下有凯撒信贷、凯撒 PMC、凯撒工业、凯撒建设和章鱼银行，对老师和学生造成巨大影响。",
+      "rpHooks": [
+        "阿拜多斯债务压迫",
+        "PMC 私兵冲突",
+        "企业收购和黑市交易"
+      ]
+    },
+    {
+      "id": "gematria",
+      "name": "数秘术 / 盖玛特里亚",
+      "summary": "基沃托斯外来者秘密结社，研究学生、神秘、恐惧与崇高，制造或关联总力战级实验体。",
+      "visibility": "gm-only",
+      "rpHooks": [
+        "实验观测",
+        "神秘诱导",
+        "色彩/总力战级威胁前兆"
+      ]
+    },
+    {
+      "id": "helmet-gang",
+      "name": "头盔团",
+      "summary": "多个雇佣兵小团队统称，共同点是头盔，经常作为反派、打手或低阶武装冲突来源。",
+      "rpHooks": [
+        "街区劫案",
+        "被凯撒或其他组织雇佣",
+        "误入跨校纷争"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "du-district",
+      "name": "联邦学生会直辖区 D.U.",
+      "summary": "基沃托斯中心区，神圣之塔、夏莱、古圣堂大教堂、瓦尔基里总部和小兔子公园等聚集。"
+    },
+    {
+      "id": "abydos-desert",
+      "name": "阿拜多斯沙漠化自治区",
+      "summary": "校园周边和大部分自治区因沙漠化和凯撒控制而衰落，是重建与债务线核心地。"
+    },
+    {
+      "id": "trinity-district",
+      "name": "三一综合学园自治区",
+      "summary": "历史宗教政治浓厚，设施完善，适合茶会、修女会和实现正义部剧情。"
+    },
+    {
+      "id": "gehenna-volcano-and-black-market",
+      "name": "格黑娜火山校区与黑市",
+      "summary": "火山上的雄伟建筑与自治区黑市形成混乱活力，适合追捕和黑市装备事件。"
+    },
+    {
+      "id": "millennium-ruins",
+      "name": "千禧年古代城市废墟/要塞都市",
+      "summary": "科技与神秘交汇地点，适合七大谜题、AI 和机器人防卫事件。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "abydos-debt-and-desertification",
+      "name": "阿拜多斯债务与沙漠化",
+      "summary": "阿拜多斯从强校衰落到只剩对策委员会，凯撒信贷债务和沙漠化是核心矛盾。",
+      "rpUse": "最适合初期老师介入：帮助学生保校、谈判债务、阻止企业侵占。"
+    },
+    {
+      "id": "trinity-gehenna-diplomacy",
+      "name": "三一—格黑娜冲突调停",
+      "summary": "两个历史强校长期敌对，内部又各有派系和治安难题，适合外交、误会与大规模事件。",
+      "rpUse": "老师可作为调停者，学生可作为执法、社团或情报角色。"
+    },
+    {
+      "id": "millennium-mystery-tech",
+      "name": "千禧年七大谜题与科技事故",
+      "summary": "研讨会的研究、古代废墟和自律机器人提供解谜、技术暴走和神秘阴谋。",
+      "rpUse": "适合科幻调查、小队潜入和高阶主线伏笔。"
+    },
+    {
+      "id": "kaiser-corporate-antagonist",
+      "name": "凯撒集团企业反派线",
+      "summary": "凯撒集团横跨金融、PMC、工业和建设，可在阿拜多斯、黑市、D.U. 等地引发冲突。",
+      "rpUse": "适合非神秘层面的长期反派，便于从街头案件升级到政治经济战。"
+    },
+    {
+      "id": "gematria-mystery-endgame",
+      "name": "数秘术与神秘实验",
+      "summary": "盖玛特里亚研究神秘、恐惧、崇高和学生本质，适合中后期主线或总力战级危机。",
+      "rpUse": "默认 GM-only，分阶段揭示，不宜开局全公开。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "fsc-schale-academies",
+      "summary": "联邦学生会授权和夏莱行动构成跨学院调停机制；老师/先生是学生信任枢纽。"
+    },
+    {
+      "id": "trinity-gehenna-rivalry",
+      "summary": "三一与格黑娜长期敌对，但具体冲突常由茶会、风纪委员会、万魔殿和社团事件触发。"
+    },
+    {
+      "id": "abydos-kaiser-debt",
+      "summary": "阿拜多斯前学生会借凯撒信贷导致巨额债务，凯撒实际控制大量自治区。"
+    },
+    {
+      "id": "shanhaijing-xuanlong-xuanwu",
+      "summary": "山海经玄龙门与玄武商会紧张，龙华妃咲尝试弥合行政与贸易社团裂痕。"
+    },
+    {
+      "id": "prefect-pandemonium-geordnet",
+      "summary": "格黑娜万魔殿名义管理，风纪委员会维持实际秩序，二者常互相掣肘。"
+    }
+  ],
+  "rpNotes": {
+    "recommendedEntryPoints": [
+      {
+        "id": "sensei-schale-case",
+        "name": "老师/夏莱委托",
+        "summary": "作为老师接收跨校委托，调停冲突、组织战术小队、建立学生信任。"
+      },
+      {
+        "id": "academy-student-role",
+        "name": "学院学生/社团成员",
+        "summary": "选择三一、格黑娜、千禧年、阿拜多斯等学院和社团，从校内事件切入。"
+      },
+      {
+        "id": "valkyrie-public-order",
+        "name": "女武神/D.U.治安案件",
+        "summary": "处理头盔团、黑市逃犯、跨自治区追捕和神圣之塔周边事件。"
+      },
+      {
+        "id": "kaiser-or-gematria-antagonist",
+        "name": "凯撒/数秘术阴谋线",
+        "summary": "从企业犯罪或神秘实验逐步升级；数秘术默认后期。"
+      }
+    ],
+    "constraints": [
+      "characters-index 不是完整 Blue Archive roster，源 characters 分类为空。",
+      "岗位角色/组织角色是 RP 插槽，不应全部视为固定 canon NPC。",
+      "武装日常通常低致死，但政治、神秘和总力战级事件可显著提高风险。"
+    ],
+    "lowConfidenceGaps": [
+      "本地源只有 25 条，未覆盖全部主线、活动、学生名册和学院。",
+      "canonTimeline 为空，本轮未伪造完整游戏剧情时间线。",
+      "译名/设定来自单一中文世界书，数秘术/十字神名/色彩关系需后续 canon 校验。"
+    ]
+  }
+}

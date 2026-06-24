@@ -1,0 +1,52 @@
+{
+  "schema": "rp-notes-extension-v1",
+  "worldId": "high-school-dxd",
+  "sourceRefs": [
+    "src-high-school-dxd-001",
+    "src-high-school-dxd-002"
+  ],
+  "curationConfidence": "B",
+  "recommendedEntryPoints": [
+    {
+      "id": "new-gremory-pawn",
+      "name": "吉蒙里眷族新棋子",
+      "summary": "从驹王学院日常、召唤委托和眷族训练切入。"
+    },
+    {
+      "id": "kuoh-human-sacred-gear",
+      "name": "驹王镇神器宿主人类",
+      "summary": "被恶魔、堕天使或教会发现前保持普通学生身份。"
+    },
+    {
+      "id": "church-transfer",
+      "name": "教会圣剑士/驱魔师转学生",
+      "summary": "从圣剑事件或和平会谈后切入。"
+    },
+    {
+      "id": "sitri-student-council",
+      "name": "西迪学生会成员",
+      "summary": "校园行政、排名游戏竞争和恶魔教育理想线。"
+    },
+    {
+      "id": "youkai-envoy",
+      "name": "京都妖怪使者",
+      "summary": "连接小猫/黑歌、仙术和京都妖怪界。"
+    },
+    {
+      "id": "rogue-sacred-gear-user",
+      "name": "流浪神器宿主/祸之团目标",
+      "summary": "作为被争夺资源进入瓦利队、英雄派或三大势力保护网。"
+    }
+  ],
+  "constraints": [
+    "龙神、魔王级、Longinus 禁手和世界级排名游戏必须按阶段锁定，不能在开局常驻满功率。",
+    "圣力对恶魔有相性伤害；混血、圣魔剑和神器融合是例外而非默认规则。",
+    "排名游戏是规则战，和恐怖袭击/生死战分层处理。",
+    "原始导入包含大量成人/身体数据和玩家控制条目，curated 只保留世界观、战斗、关系与 RP 钩子。"
+  ],
+  "lowConfidenceGaps": [
+    "后期世界排名游戏、各神话主神、E×E/D×D 队伍完整名单尚未系统索引。",
+    "神器 13 Longinus 与大量持有者只收录关键样本，缺独立物品/机体式索引。",
+    "src-high-school-dxd-001 与 002 均为用户世界书导入，存在角色卡视角和成人化偏置，需按 canon/低置信再复核。"
+  ]
+}

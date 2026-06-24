@@ -10,6 +10,11 @@
 - `knowledge-graph.json`：符咒、恶魔、面具、气魔法知识图谱。
 - `relationship-graph.json`：正邪阵营与人物关系。
 - `curation-notes.md`：整理说明。
+- `timeline/story-eras.json`：上古恶魔统治、符咒争夺、恶魔之门、岁月史书、鬼影/魔气时代。
+- `power-systems/talismans-and-magic.json`：十二符咒、气魔法、恶魔魔气、鬼影面具等规则。
+- `factions/hero-villain-factions.json`：成龙一方、十三区、黑手帮、八大恶魔、鬼影势力等阵营。
+- `locations/adventure-sites.json`：古董店、十三区、香港宫殿、恶魔之门与鬼影相关舞台。
+- `rp-notes/visual-and-roleplay-notes.json`：主角团、反派和恶魔模板的 SFW 视觉/角色扮演提示。
 
 ## 来源路径
 

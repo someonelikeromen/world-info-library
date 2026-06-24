@@ -3,271 +3,46 @@
   "campaignId": "world-library-dungeon-fighter-online",
   "cardId": "dungeon-fighter-online",
   "nodes": [
-    {
-      "id": "player-adventurer",
-      "type": "character",
-      "name": "冒险家",
-      "aliases": [],
-      "visibility": "public",
-      "summary": "主角群体。",
-      "tags": [
-        "adventurer"
-      ],
-      "metadata": {}
-    },
-    {
-      "id": "seria-kirmin",
-      "type": "character",
-      "name": "赛丽亚",
-      "aliases": [],
-      "visibility": "public",
-      "summary": "引导者。",
-      "tags": [
-        "support"
-      ],
-      "metadata": {}
-    },
-    {
-      "id": "apostles",
-      "type": "faction",
-      "name": "使徒",
-      "aliases": [],
-      "visibility": "private",
-      "summary": "灾厄级存在。",
-      "tags": [
-        "enemy"
-      ],
-      "metadata": {}
-    },
-    {
-      "id": "de-los-empire",
-      "type": "faction",
-      "name": "德洛斯帝国",
-      "aliases": [],
-      "visibility": "public",
-      "summary": "军事政治势力。",
-      "tags": [
-        "empire"
-      ],
-      "metadata": {}
-    },
-    {
-      "id": "sirocco",
-      "type": "character",
-      "name": "希洛克",
-      "aliases": [
-        "第五使徒"
-      ],
-      "visibility": "private",
-      "summary": "使徒之一，与悲鸣洞穴等事件相关。",
-      "tags": [
-        "apostle",
-        "antagonist"
-      ],
-      "metadata": {
-        "source": "characters-index",
-        "q5Repair": "relationship-coverage"
-      }
-    },
-    {
-      "id": "ozma",
-      "type": "character",
-      "name": "奥兹玛",
-      "aliases": [
-        "混沌之神",
-        "使徒"
-      ],
-      "visibility": "private",
-      "summary": "黑色大地与伪装者灾厄核心。",
-      "tags": [
-        "apostle",
-        "antagonist"
-      ],
-      "metadata": {
-        "source": "characters-index",
-        "q5Repair": "relationship-coverage"
-      }
-    },
-    {
-      "id": "bakal",
-      "type": "character",
-      "name": "巴卡尔",
-      "aliases": [
-        "爆龙王"
-      ],
-      "visibility": "private",
-      "summary": "龙族使徒/暴君，与天界封锁和龙之战争相关。",
-      "tags": [
-        "apostle",
-        "dragon-king"
-      ],
-      "metadata": {
-        "source": "characters-index",
-        "q5Repair": "relationship-coverage"
-      }
-    },
-    {
-      "id": "kazan",
-      "type": "character",
-      "name": "卡赞",
-      "aliases": [
-        "毁灭之鬼神"
-      ],
-      "visibility": "private",
-      "summary": "鬼剑士鬼手与鬼神传说中的核心存在。",
-      "tags": [
-        "spirit",
-        "legend"
-      ],
-      "metadata": {
-        "source": "characters-index",
-        "q5Repair": "relationship-coverage"
-      }
-    },
-    {
-      "id": "michael",
-      "type": "character",
-      "name": "米歇尔",
-      "aliases": [
-        "Michael of the Holy Eye"
-      ],
-      "visibility": "private",
-      "summary": "与奥兹玛因伪装者/启示线相关的圣者。",
-      "tags": [
-        "saint"
-      ],
-      "metadata": {
-        "source": "q5-relationship-low",
-        "q5Repair": "relationship-target"
-      }
-    },
-    {
-      "id": "adventurers",
-      "type": "group",
-      "name": "冒险家们",
-      "aliases": [],
-      "visibility": "public",
-      "summary": "阿拉德冒险者群体。",
-      "tags": [
-        "group"
-      ],
-      "metadata": {
-        "source": "q5-relationship-low",
-        "q5Repair": "relationship-target"
-      }
-    },
-    {
-      "id": "heaven",
-      "type": "location",
-      "name": "天界",
-      "aliases": [],
-      "visibility": "public",
-      "summary": "巴卡尔相关压迫与统治线的重要地域。",
-      "tags": [
-        "location"
-      ],
-      "metadata": {
-        "source": "q5-relationship-low",
-        "q5Repair": "relationship-target"
-      }
-    },
-    {
-      "id": "ghostblade-line",
-      "type": "concept",
-      "name": "鬼手/鬼剑士源流",
-      "aliases": [],
-      "visibility": "private",
-      "summary": "卡赞诅咒与鬼剑士设定相关概念。",
-      "tags": [
-        "concept"
-      ],
-      "metadata": {
-        "source": "q5-relationship-low",
-        "q5Repair": "relationship-target"
-      }
-    }
+    {"id": "player-adventurer", "type": "character", "name": "冒险家", "aliases": ["玩家角色"], "visibility": "public", "summary": "主角群体代表。", "tags": ["adventurer", "player"], "metadata": {"source": "characters-index"}},
+    {"id": "adventurers", "type": "group", "name": "冒险家群体", "aliases": [], "visibility": "public", "summary": "自由职业者与玩家侧行动者。", "tags": ["group", "protagonist-side"], "metadata": {"source": "factions.json"}},
+    {"id": "seria-kirmin", "type": "character", "name": "赛丽亚·克鲁敏", "aliases": ["赛丽亚"], "visibility": "public", "summary": "冒险旅途中的关键引导者与支援人物。", "tags": ["guide", "support"], "metadata": {"source": "characters-index"}},
+    {"id": "apostles", "type": "faction", "name": "使徒", "aliases": [], "visibility": "private", "summary": "灾厄级存在群体；成员动机不同。", "tags": ["apostle", "disaster"], "metadata": {"source": "factions.json"}},
+    {"id": "herder", "type": "character", "name": "赫尔德", "aliases": ["哭泣之眼赫尔德"], "visibility": "private", "summary": "首次发现魔法、命名使徒并与多次转移事件相关。", "tags": ["apostle", "schemer"], "metadata": {"source": "characters-index"}},
+    {"id": "sirocco", "type": "character", "name": "希洛克", "aliases": ["第五使徒"], "visibility": "private", "summary": "悲鸣洞穴与复活线核心使徒。", "tags": ["apostle"], "metadata": {"source": "characters-index"}},
+    {"id": "lotus", "type": "character", "name": "罗特斯", "aliases": ["长脚罗特斯"], "visibility": "private", "summary": "天帷巨兽精神支配灾厄核心。", "tags": ["apostle", "mental-control"], "metadata": {"source": "characters-index"}},
+    {"id": "diregie", "type": "character", "name": "狄瑞吉", "aliases": ["黑色瘟疫狄瑞吉"], "visibility": "private", "summary": "诺伊佩拉与诺斯玛尔瘟疫线核心。", "tags": ["apostle", "plague"], "metadata": {"source": "characters-index"}},
+    {"id": "anton", "type": "character", "name": "安徒恩", "aliases": ["火焰吞噬者安徒恩"], "visibility": "private", "summary": "天界能源中心危机核心使徒。", "tags": ["apostle", "fire"], "metadata": {"source": "characters-index"}},
+    {"id": "luke", "type": "character", "name": "卢克", "aliases": ["制造者卢克"], "visibility": "private", "summary": "寂静城建造者和魔界通路线核心。", "tags": ["apostle", "maker"], "metadata": {"source": "characters-index"}},
+    {"id": "ozma", "type": "character", "name": "奥兹玛", "aliases": ["混沌之神"], "visibility": "private", "summary": "伪装者和暗黑圣战核心。", "tags": ["apostle", "chaos"], "metadata": {"source": "characters-index"}},
+    {"id": "bakal", "type": "character", "name": "巴卡尔", "aliases": ["爆龙王"], "visibility": "private", "summary": "天界统治、龙族灾厄与巴卡尔遗产核心。", "tags": ["apostle", "dragon"], "metadata": {"source": "characters-index"}},
+    {"id": "kazan", "type": "character", "name": "卡赞", "aliases": ["毁灭之鬼神"], "visibility": "private", "summary": "鬼手、鬼泣与奥兹玛悲剧共同历史根。", "tags": ["spirit", "ghost-arm"], "metadata": {"source": "characters-index"}},
+    {"id": "michael", "type": "character", "name": "米歇尔", "aliases": ["圣者米歇尔"], "visibility": "private", "summary": "辨认伪装者并奠定圣职者体系的圣者。", "tags": ["saint", "priest"], "metadata": {"source": "characters-index"}},
+    {"id": "de-los-empire", "type": "faction", "name": "德洛斯帝国", "aliases": [], "visibility": "public", "summary": "阿拉德军事政治强权。", "tags": ["empire"], "metadata": {"source": "factions.json"}},
+    {"id": "bel-myre-principality", "type": "faction", "name": "贝尔玛尔公国", "aliases": [], "visibility": "public", "summary": "中立公国与早期冒险据点。", "tags": ["principality", "hub"], "metadata": {"source": "factions.json"}},
+    {"id": "dark-elf-kingdom", "type": "faction", "name": "暗精灵王国", "aliases": [], "visibility": "public", "summary": "地下暗精灵国家。", "tags": ["dark-elf"], "metadata": {"source": "factions.json"}},
+    {"id": "bantu", "type": "faction", "name": "班图族", "aliases": [], "visibility": "public", "summary": "斯特鲁山脉北部部族联盟。", "tags": ["tribe", "snow"], "metadata": {"source": "factions.json"}},
+    {"id": "gbl", "type": "faction", "name": "蓝色真谛 / GBL教", "aliases": ["GBL"], "visibility": "public", "summary": "天帷巨兽遗迹求知组织。", "tags": ["knowledge-cult"], "metadata": {"source": "factions.json"}},
+    {"id": "kashipa", "type": "faction", "name": "佧修派", "aliases": [], "visibility": "private", "summary": "魔界恶意利用魔法的组织。", "tags": ["pandemonium", "enemy"], "metadata": {"source": "factions.json"}},
+    {"id": "grim-seeker", "type": "faction", "name": "暴戾搜捕团", "aliases": [], "visibility": "private", "summary": "围绕使徒和预言行动的组织，内部分裂。", "tags": ["cult", "apostle-research"], "metadata": {"source": "factions.json"}},
+    {"id": "heaven", "type": "location", "name": "天界", "aliases": [], "visibility": "public", "summary": "巴卡尔统治、机械文明、卡勒特与皇都战争的主要舞台。", "tags": ["location", "heaven"], "metadata": {"source": "locations.json"}}
   ],
   "edges": [
-    {
-      "id": "rel-adventurer-seria",
-      "from": "seria-kirmin",
-      "to": "player-adventurer",
-      "type": "ally",
-      "directional": false,
-      "visibility": "public",
-      "playerKnown": true,
-      "strength": {
-        "level": "A",
-        "score": 80,
-        "description": "长期引导与支援。"
-      },
-      "facets": {
-        "trust": "A",
-        "affection": "B",
-        "fear": null,
-        "suspicion": null,
-        "debt": "B",
-        "loyalty": null,
-        "hostility": null
-      },
-      "publicDescription": "赛丽亚帮助冒险家展开旅途。",
-      "gmTruth": "其特殊性可按版本展开。",
-      "evidence": [
-        "src-dfo-import-readme"
-      ],
-      "history": [],
-      "conditions": [],
-      "notes": ""
-    },
-    {
-      "id": "rel-adventurer-apostles",
-      "from": "player-adventurer",
-      "to": "apostles",
-      "type": "enemy",
-      "directional": false,
-      "visibility": "private",
-      "playerKnown": true,
-      "strength": {
-        "level": "S",
-        "score": 90,
-        "description": "冒险主线最终多次指向使徒级灾厄。"
-      },
-      "facets": {
-        "trust": "E",
-        "affection": null,
-        "fear": "A",
-        "suspicion": "A",
-        "debt": null,
-        "loyalty": null,
-        "hostility": "A"
-      },
-      "publicDescription": "使徒是阿拉德重大威胁。",
-      "gmTruth": "不同使徒并非单一阵营意志。",
-      "evidence": [
-        "src-dfo-classification-report"
-      ],
-      "history": [],
-      "conditions": [],
-      "notes": ""
-    }
+    {"id": "rel-adventurer-seria", "from": "seria-kirmin", "to": "player-adventurer", "type": "ally", "directional": false, "visibility": "public", "playerKnown": true, "strength": {"level": "A", "score": 80, "description": "长期引导与支援。"}, "facets": {"trust": "A", "affection": "B", "fear": null, "suspicion": null, "debt": "B", "loyalty": null, "hostility": null}, "publicDescription": "赛丽亚帮助冒险家展开旅途。", "gmTruth": "特殊性按版本展开，不在本档固定。", "evidence": ["src-dfo-import-readme", "src-dfo-canon-timeline-entry-99"], "history": ["阿拉德历990年冒险家在艾尔文防线救出赛丽亚。"], "conditions": [], "notes": ""},
+    {"id": "rel-adventurers-apostles", "from": "adventurers", "to": "apostles", "type": "enemy", "directional": false, "visibility": "private", "playerKnown": true, "strength": {"level": "S", "score": 90, "description": "多次主线围绕使徒灾厄。"}, "facets": {"trust": "E", "affection": null, "fear": "A", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "A"}, "publicDescription": "使徒常是阿拉德重大威胁。", "gmTruth": "不同使徒并非单一阵营意志。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": [], "conditions": ["按篇章阶段启用具体使徒。"], "notes": ""},
+    {"id": "rel-herder-apostles", "from": "herder", "to": "apostles", "type": "secret-link", "directional": true, "visibility": "private", "playerKnown": false, "strength": {"level": "S", "score": 90, "description": "赫尔德命名使徒并与多次转移相关。"}, "facets": {"trust": null, "affection": null, "fear": null, "suspicion": "S", "debt": null, "loyalty": null, "hostility": null}, "publicDescription": "赫尔德是魔界重要使徒。", "gmTruth": "赫尔德是多次转移事件关键幕后。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["赫尔德将同类存在称作使徒。"], "conditions": [], "notes": ""},
+    {"id": "rel-lotus-gbl", "from": "lotus", "to": "gbl", "type": "command", "directional": true, "visibility": "private", "playerKnown": false, "strength": {"level": "A", "score": 85, "description": "精神支配造成GBL没落。"}, "facets": {"trust": "E", "affection": null, "fear": "S", "suspicion": null, "debt": null, "loyalty": null, "hostility": "A"}, "publicDescription": "天帷巨兽上的GBL遭遇罗特斯灾厄。", "gmTruth": "罗特斯精神支配求知者，部分变成章鱼怪。", "evidence": ["src-dfo-canon-arcs"], "history": [], "conditions": ["天帷巨兽篇启用。"], "notes": ""},
+    {"id": "rel-diregie-dark-elves", "from": "diregie", "to": "dark-elf-kingdom", "type": "fear", "directional": true, "visibility": "private", "playerKnown": false, "strength": {"level": "A", "score": 80, "description": "狄瑞吉幻影引发诺伊佩拉瘟疫与战争误会。"}, "facets": {"trust": "E", "affection": null, "fear": "A", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "A"}, "publicDescription": "诺伊佩拉瘟疫使暗精灵与人类关系恶化。", "gmTruth": "真因是狄瑞吉幻影。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["995年冒险家查明瘟疫真相并解除误会。"], "conditions": [], "notes": ""},
+    {"id": "rel-bakal-heaven", "from": "bakal", "to": "heaven", "type": "command", "directional": true, "visibility": "public", "playerKnown": true, "strength": {"level": "S", "score": 90, "description": "长期统治并封杀魔法。"}, "facets": {"trust": "E", "affection": null, "fear": "S", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "S"}, "publicDescription": "巴卡尔曾统治天界并施行封杀魔法令。", "gmTruth": "其遗产与对赫尔德的警戒可作为后期秘密。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["公元前14年巴卡尔成为天界统治者；526年巴卡尔死亡。"], "conditions": [], "notes": ""},
+    {"id": "rel-ozma-kazan", "from": "ozma", "to": "kazan", "type": "guilt", "directional": false, "visibility": "private", "playerKnown": false, "strength": {"level": "A", "score": 80, "description": "共同佩鲁斯历史与悲剧源头。"}, "facets": {"trust": null, "affection": null, "fear": "B", "suspicion": "A", "debt": null, "loyalty": null, "hostility": null}, "publicDescription": "卡赞和奥兹玛与佩鲁斯旧史相关。", "gmTruth": "二者悲剧引出血之诅咒、鬼手和暗黑圣战。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["152年二者讨伐狂龙赫斯；157年相继死亡。"], "conditions": [], "notes": ""},
+    {"id": "rel-michael-ozma", "from": "michael", "to": "ozma", "type": "enemy", "directional": false, "visibility": "private", "playerKnown": false, "strength": {"level": "S", "score": 90, "description": "圣职者与暗黑圣战核心对立。"}, "facets": {"trust": "E", "affection": null, "fear": "A", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "S"}, "publicDescription": "米歇尔和圣职者体系对抗伪装者。", "gmTruth": "奥兹玛线中米歇尔圣物和圣者定位需按版本揭示。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["253—347年暗黑圣战；1009年第二次暗黑圣战。"], "conditions": [], "notes": ""},
+    {"id": "rel-delos-bantu", "from": "de-los-empire", "to": "bantu", "type": "enemy", "directional": false, "visibility": "public", "playerKnown": true, "strength": {"level": "A", "score": 80, "description": "第二次雪色战役造成长期仇怨。"}, "facets": {"trust": "E", "affection": null, "fear": "B", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "A"}, "publicDescription": "德洛斯与班图有雪色战役旧怨。", "gmTruth": "帝国紫雾团突袭夏特利是关键导火索。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["968年夏特利突袭引发第二次雪色战役。"], "conditions": [], "notes": ""},
+    {"id": "rel-dark-elves-belmyre", "from": "dark-elf-kingdom", "to": "bel-myre-principality", "type": "suspicion", "directional": false, "visibility": "public", "playerKnown": true, "strength": {"level": "B", "score": 65, "description": "诺伊佩拉瘟疫曾导致战争误会，后修复。"}, "facets": {"trust": "C", "affection": null, "fear": "C", "suspicion": "B", "debt": "C", "loyalty": null, "hostility": "C"}, "publicDescription": "暗精灵与人类曾因瘟疫误会开战，后由冒险家协助解除。", "gmTruth": "元老院政治可继续制造摩擦。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["986年莎兰出使公国；995年诺伊佩拉瘟疫误会解除。"], "conditions": [], "notes": ""},
+    {"id": "rel-grimseeker-sirocco", "from": "grim-seeker", "to": "sirocco", "type": "secret-link", "directional": true, "visibility": "private", "playerKnown": false, "strength": {"level": "A", "score": 85, "description": "暴戾搜捕团温和派与希洛克复活线相关。"}, "facets": {"trust": null, "affection": null, "fear": "B", "suspicion": "S", "debt": null, "loyalty": null, "hostility": null}, "publicDescription": "暴戾搜捕团围绕使徒行动。", "gmTruth": "1007年未能阻止温和派导致希洛克复活。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["1007年希洛克复活并被阿拉德联合军与天界军阻止。"], "conditions": ["希洛克复活篇启用。"], "notes": ""},
+    {"id": "rel-kashipa-pandemonium", "from": "kashipa", "to": "adventurers", "type": "enemy", "directional": false, "visibility": "private", "playerKnown": false, "strength": {"level": "A", "score": 80, "description": "魔界大战中佧修派成为主要敌对组织。"}, "facets": {"trust": "E", "affection": null, "fear": "A", "suspicion": "A", "debt": null, "loyalty": null, "hostility": "A"}, "publicDescription": "佧修派是魔界危险组织。", "gmTruth": "黑暗之眼与结晶炸弹造成次元风暴。", "evidence": ["src-dfo-canon-timeline-entry-99"], "history": ["1006年魔界大战爆发并落幕。"], "conditions": ["魔界篇启用。"], "notes": ""}
   ],
   "views": {
-    "playerVisibleNodeIds": [
-      "player-adventurer",
-      "seria-kirmin",
-      "de-los-empire",
-      "adventurers",
-      "heaven"
-    ],
-    "gmHighlightedNodeIds": [
-      "apostles",
-      "sirocco",
-      "ozma",
-      "bakal",
-      "kazan",
-      "michael",
-      "ghostblade-line"
-    ],
+    "playerVisibleNodeIds": ["player-adventurer", "adventurers", "seria-kirmin", "de-los-empire", "bel-myre-principality", "dark-elf-kingdom", "bantu", "gbl", "heaven"],
+    "gmHighlightedNodeIds": ["apostles", "herder", "sirocco", "lotus", "diregie", "anton", "luke", "ozma", "bakal", "kazan", "michael", "kashipa", "grim-seeker"],
     "activeSceneNodeIds": []
   }
 }

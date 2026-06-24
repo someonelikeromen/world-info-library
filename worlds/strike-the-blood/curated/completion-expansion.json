@@ -1,0 +1,151 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "strike-the-blood",
+  "completionPass": "retry-12",
+  "sourceRefs": [
+    "src-strike-the-blood-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/strike-the-blood/source-registry.json",
+    "campaigns/world-library/worlds/strike-the-blood/characters/characters.json",
+    "campaigns/world-library/worlds/strike-the-blood/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/strike-the-blood/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/strike-the-blood/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/strike-the-blood/power-systems/abilities.json",
+    "campaigns/world-library/worlds/strike-the-blood/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/strike-the-blood/locations/locations.json",
+    "campaigns/world-library/worlds/strike-the-blood/factions/factions.json",
+    "campaigns/world-library/worlds/strike-the-blood/sandbox/scenario-seeds.json",
+    "world-info-library/worlds/strike-the-blood/curated/world.json",
+    "world-info-library/worlds/strike-the-blood/curated/characters-index.json",
+    "world-info-library/worlds/strike-the-blood/curated/knowledge-graph.json",
+    "world-info-library/worlds/strike-the-blood/curated/relationship-graph.json"
+  ],
+  "curationScope": "补足 retry-12 要求的眷兽、人物、时间线、篇章、能力体系、地点、关系与 RP notes；以弦神岛魔族特区和第四真祖事件为运行边界。",
+  "coverageNote": "本地归档显示 characters 153、canonArcs 41、fullPlot 52、timeline 5、abilities 139、powerSystems 100、locations 123、factions 118、scenarioSeeds 95；现有 curated 仅索引 5 名核心角色，因此本文件优先补运行模块与候选人物。",
+  "characters": {
+    "indexedCoreAnchors": [
+      {
+        "id": "kojou-akatsuki",
+        "name": "晓古城",
+        "role": "第四真祖、弦神岛事件中心",
+        "rpUse": "以吸血冲动、眷兽解放、家人与同伴保护欲推动危机；不是无成本城市级炮台。",
+        "stageLocks": ["早期眷兽逐步解锁。", "血液媒介和精神稳定决定召唤成功。", "真祖身份公开会升级为外交事件。"]
+      },
+      {
+        "id": "yukina-himeragi",
+        "name": "姬柊雪菜",
+        "role": "狮子王机关剑巫、监视者兼搭档",
+        "rpUse": "以雪霞狼、灵视、结界破除和‘监视’职责牵引古城行动。",
+        "stageLocks": ["职责、私人感情和机构命令常冲突。", "雪霞狼对魔力/结界具克制但不等于绝对封杀真祖。"]
+      },
+      {
+        "id": "asagi-aiba",
+        "name": "蓝羽浅葱",
+        "role": "电子情报核心、弦神岛系统层钥匙",
+        "rpUse": "适合黑客战、人工岛控制、情报反制和非正面战略胜利。"
+      },
+      {
+        "id": "sayaka-kirasaka",
+        "name": "煌坂纱矢华",
+        "role": "舞威媛/攻魔师、雪菜同伴与竞争者",
+        "rpUse": "用于机构支援、远程灵装、结界和对古城阵营的警惕。"
+      },
+      {
+        "id": "nagisa-akatsuki",
+        "name": "晓凪沙",
+        "role": "古城妹妹、奥萝菈/灵体秘密相关者",
+        "rpUse": "家人日常与真祖秘密的交叉点；隐藏状态由 GM 管理。"
+      }
+    ],
+    "expansionCandidatesFromSource": [
+      "南宫那月：彩海学园教师与强力攻魔师/魔女层角色，适合监狱结界、苍蓝魔女、咎神骑士等篇章。",
+      "拉·芙利亚·利哈瓦因：阿尔迪基亚王国公主，连接王室外交、叶濑夏音与海上/国家级事件。",
+      "叶濑夏音：天使焚身与人工天使相关线核心，适合伦理实验、救援和王室秘密。",
+      "迪米特列·瓦特拉：战王领域贵族与战斗狂吸血鬼，常把个人战斗升级为真祖政治。",
+      "奥萝菈·弗洛雷斯缇纳与焰光夜伯素体群：第四真祖继承、记忆、血脉与封印真相的 GM 级线索。",
+      "仙都木阿夜：苍蓝魔女/监狱结界相关高危魔女，适合规则破坏、旧怨和魔导犯罪。",
+      "阿古罗拉相关十二素体：若展开焰光夜伯线，需要逐体记录编号、能力、记忆状态和古城继承进度。"
+    ],
+    "indexingPolicy": "后续写入 characters-index 时应标注所属组织、篇章初登场、是否公开知道第四真祖真相、是否为 GM-only 角色。"
+  },
+  "powerSystems": [
+    {
+      "id": "fourth-primogenitor-and-blood-memory",
+      "name": "第四真祖、血之记忆与吸血冲动",
+      "summary": "第四真祖力量由血脉、记忆、眷兽和媒介共同构成；吸血不是装饰，而是眷兽唤醒、关系推进和失控风险的核心机制。",
+      "rpRules": ["召唤前声明媒介、精神状态、眷兽编号/属性和场地承受力。", "吸血冲动必须有心理和关系后果，不能当作无成本充能。", "封印、失忆或素体真相会改变可用眷兽。"]
+    },
+    {
+      "id": "familiar-beasts-runtime",
+      "name": "眷兽运行层",
+      "summary": "眷兽是高阶吸血鬼支配的超自然实体，表现为雷电、海兽、枪、龙蛇、迷雾、火焰、重力、结界破坏等大范围现象。",
+      "rpRules": ["眷兽出场默认会触发警报、结界、管理公社或狮子王机关响应。", "城市内召唤需限制范围、持续时间和余波。", "眷兽可以互相克制，不以单纯大小决定胜负。"],
+      "exampleSlots": [
+        {"slot": "regulus-aurum-like", "function": "雷电/狮子型高输出", "sceneUse": "初期压制、展示真祖级破坏"},
+        {"slot": "water-serpent-or-sea-beast-like", "function": "海域与人工岛周边战", "sceneUse": "港湾、海底设施、逃亡路线"},
+        {"slot": "spear-or-anti-barrier-like", "function": "贯穿结界/防御", "sceneUse": "攻破仪式、对抗魔导设施"},
+        {"slot": "mist-shadow-or-domain-like", "function": "控制场域/感知干扰", "sceneUse": "救援、人质、监狱结界"}
+      ]
+    },
+    {
+      "id": "sword-shaman-and-spirit-medium",
+      "name": "剑巫、舞威媛与狮子王机关术式",
+      "summary": "狮子王机关以灵视、枪术、灵装、结界破除、诅咒对策和观察任务对抗魔族灾害。",
+      "rpRules": ["机构成员优先封印、观测、减灾，而非追求最大火力。", "灵装有专门用途；雪霞狼克制魔力但仍受使用者体力和战术限制。", "任务命令与私人选择冲突时应推动角色戏。"]
+    },
+    {
+      "id": "magecraft-technology-and-island-systems",
+      "name": "魔导科技、人工岛系统与黑客战",
+      "summary": "弦神岛是魔族特区与人工岛，安全系统、港湾、地下设施、数据库和结界构成第二战场。",
+      "rpRules": ["浅葱等情报角色可改变地图、封锁、警报和证据，而非直接替代战斗。", "人工岛受损会带来民众、结构和外交后果。", "魔导犯罪常把术式与现代科技混合。"]
+    }
+  ],
+  "factionsAndLocations": {
+    "factions": [
+      {"id": "itg-management", "name": "弦神岛管理公社/魔族特区", "role": "维持人工岛、魔族共存、灾害控制与信息封锁。"},
+      {"id": "lion-king-organization", "name": "狮子王机关", "role": "日本侧对魔族灾害机构，派遣剑巫/舞威媛监视第四真祖。"},
+      {"id": "warlord-domain", "name": "战王领域等真祖势力", "role": "吸血鬼国际政治层；瓦特拉等角色让战斗变成外交问题。"},
+      {"id": "aldigia-kingdom", "name": "阿尔迪基亚王国", "role": "王室、人工天使和国家外交线。"},
+      {"id": "mage-crime", "name": "魔导犯罪组织/魔女/炼金术师", "role": "各卷事件的术式犯罪、实验与复仇来源。"},
+      {"id": "kojou-household-allies", "name": "晓家与古城同伴圈", "role": "彩海学园日常、家人保护和事件介入的低烈度层。"}
+    ],
+    "locations": [
+      {"id": "itogami-island", "name": "弦神岛", "sceneUses": ["魔族特区", "人工岛灾害", "海上封锁", "城市级眷兽限制"]},
+      {"id": "saikai-academy", "name": "彩海学园", "sceneUses": ["日常伪装", "那月课堂", "学生卷入事件", "监视古城"]},
+      {"id": "keystone-gate-and-port", "name": "港湾/基石之门/人工岛设施", "sceneUses": ["入境", "大型结界", "系统控制", "海上战"]},
+      {"id": "prison-barrier", "name": "监狱结界", "sceneUses": ["魔女与重罪犯", "那月/仙都木线", "空间规则异常"]},
+      {"id": "underground-labs", "name": "地下实验设施", "sceneUses": ["人工天使", "炼金术", "素体/眷兽实验", "伦理冲突"]},
+      {"id": "international-stages", "name": "王国/真祖势力海外舞台", "sceneUses": ["外交访问", "王室继承", "真祖大战", "逃亡线"]}
+    ]
+  },
+  "timelineAndArcs": [
+    {"id": "arc-01-saints-right-arm", "label": "圣者的右腕", "beats": ["古城第四真祖身份", "雪菜监视任务", "初期眷兽与雪霞狼"]},
+    {"id": "arc-02-warlord-emissary", "label": "战王的使者", "beats": ["瓦特拉登场", "真祖政治", "煌坂纱矢华支援"]},
+    {"id": "arc-03-angel-burning", "label": "天使焚身", "beats": ["叶濑夏音", "人工天使/王室秘密", "救援与实验伦理"]},
+    {"id": "arc-04-blue-witch", "label": "苍蓝魔女的迷宫", "beats": ["南宫那月", "仙都木阿夜", "监狱结界规则"]},
+    {"id": "arc-05-observer-and-alchemy", "label": "观测者之宴至炼金术师归来", "beats": ["弦神岛系统", "炼金术犯罪", "浅葱情报战"]},
+    {"id": "arc-06-kaleid-blood", "label": "焰光夜伯与第四真祖真相", "beats": ["奥萝菈/素体", "记忆与血脉继承", "眷兽解放升级"]},
+    {"id": "arc-07-late-primogenitor-war", "label": "逃亡、咎神、真祖大战与凯旋", "beats": ["古城被追捕", "圣骑士/圣枪", "十二眷兽与血之从者", "晓的凯旋"]}
+  ],
+  "relationships": [
+    {"source": "晓古城", "target": "姬柊雪菜", "type": "监视者/搭档/血之媒介", "runtimeNote": "关系推进与眷兽唤醒、机构命令和私人信任绑定。"},
+    {"source": "晓古城", "target": "蓝羽浅葱", "type": "青梅竹马/系统支援", "runtimeNote": "浅葱能拯救局面，也会因被隐瞒真相产生关系压力。"},
+    {"source": "姬柊雪菜", "target": "狮子王机关", "type": "执行者/被培养者", "runtimeNote": "任务忠诚与古城同伴身份冲突是常用张力。"},
+    {"source": "晓古城", "target": "晓凪沙", "type": "兄妹/秘密保护", "runtimeNote": "凪沙相关真相应按篇章逐步解锁。"},
+    {"source": "瓦特拉", "target": "晓古城", "type": "兴趣/政治威胁", "runtimeNote": "瓦特拉可把私人挑衅变成吸血鬼贵族事件。"},
+    {"source": "南宫那月", "target": "弦神岛", "type": "教师/守门人", "runtimeNote": "那月适合在日常和高阶魔导危机之间切换。"}
+  ],
+  "rpNotes": [
+    "每次眷兽释放前先确认场地：学校、港湾、海上、结界内或海外；城市内必须处理伤亡与信息封锁。",
+    "古城的力量不是纯战力表，吸血、同伴信任和精神状态决定能否使用。",
+    "雪菜的台词和行动应兼具监视任务、专业判断和逐渐个人化的信任。",
+    "浅葱/管理公社/人工岛系统适合做第二战场，不要让黑客战一键解决所有魔导问题。",
+    "真祖政治、王室外交和魔导犯罪会把校园事件升级；升级前需给玩家撤离或协商窗口。"
+  ],
+  "residualGaps": [
+    "眷兽逐只名称、编号和属性仍需后续从源条目精确登记到 characters-index 或 power-systems 模块。",
+    "characters-index 只收 5 名核心角色，本扩展列出的候选角色尚未逐条结构化。",
+    "后期篇章来源多且密集，本文件提供运行顺序但未做逐卷完整剧情复述。"
+  ]
+}

@@ -81,12 +81,83 @@
         "kind": "entryIndex",
         "value": "8"
       }
+    },
+    {
+      "sourceId": "factions.json entryIndex 2",
+      "title": "factions.json entryIndex 2",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "retry-02 provenance repair：该 sourceId 是 factions.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；只修复 sourceRefs 可追踪性，不新增 canon 事实。",
+      "sourceKind": "factions-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/factions/factions.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "2"
+      }
+    },
+    {
+      "sourceId": "factions.json entryIndex 3",
+      "title": "factions.json entryIndex 3",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "retry-02 provenance repair：该 sourceId 是 factions.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；只修复 sourceRefs 可追踪性，不新增 canon 事实。",
+      "sourceKind": "factions-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/factions/factions.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "3"
+      }
+    },
+    {
+      "sourceId": "world.json entryIndex 0",
+      "title": "world.json entryIndex 0",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "retry-02 provenance repair：该 sourceId 是 world.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；只修复 sourceRefs 可追踪性，不新增 canon 事实。",
+      "sourceKind": "world-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/world/world.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "0"
+      }
+    },
+    {
+      "sourceId": "world.json entryIndex 3",
+      "title": "world.json entryIndex 3",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "retry-02 provenance repair：该 sourceId 是 world.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；只修复 sourceRefs 可追踪性，不新增 canon 事实。",
+      "sourceKind": "world-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/world/world.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "3"
+      }
+    },
+    {
+      "sourceId": "narrative-style entryIndex 0",
+      "title": "narrative-style entryIndex 0",
+      "type": "derived-source-alias",
+      "reliability": "B",
+      "notes": "retry-02 provenance repair：该 sourceId 是 style/narrative-style.json entryIndex 片段的可追踪派生别名，归属于父来源 src-claymore-001；只修复 sourceRefs 可追踪性，不新增 canon 事实。",
+      "sourceKind": "style-json-entry-fragment",
+      "parentSourceId": "src-claymore-001",
+      "location": "campaigns/world-library/worlds/claymore/style/narrative-style.json",
+      "selector": {
+        "kind": "entryIndex",
+        "value": "0"
+      }
     }
   ],
   "conflictLog": [],
   "registryNotes": [
     "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
     "source-ref 修复（2026-06-22）：将 comment/entryIndex/#entry 形式 sourceRefs 登记为父来源的派生别名；这些条目只修复 provenance 可追踪性，不新增或改写 canon 事实。",
+    "retry-02（2026-06-24）：补登 factions/world/style 派生 sourceRefs，供补完模块追踪来源；不新增或改写 canon 事实。",
     "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
   ],
   "conflictReviewStatus": {

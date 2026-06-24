@@ -17,3 +17,10 @@
 
 ## 修改范围
 仅创建 `campaigns/world-library/worlds/rakudai-kishi/curated/` 下标准产物。未修改 raw/imports/既有自动归档。
+
+
+## 2026-06-24 本地收尾
+- `r3` 的 rakudai 子代理步骤因 `Service temporarily unavailable` 失败；本地工具接管收尾。
+- 新增 `timeline-index.json`，仅作为 RP 启动/检索索引，不替代 campaign `canon-reference/timeline.json`。
+- 新增 `completion-index.json`，记录 source 覆盖、raw/NSFW 分离与残余低置信项。
+- 已运行本地 JSON parse 验证，`curated/` 下所有 JSON 均有效；未修改 campaign 原始归档。

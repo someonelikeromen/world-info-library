@@ -252,6 +252,256 @@
         "src-hidan-no-aria-001"
       ],
       "notes": "血脉命名随译本不同。"
+    },
+    {
+      "id": "tooyama-kinichi-kana",
+      "name": "远山金一/加奈",
+      "aliases": [
+        "金一",
+        "加奈"
+      ],
+      "visibility": "private",
+      "summary": "金次兄长，常以“加奈”身份活动，远山家爆发模式与暗杀线的重要谜团。",
+      "roles": [
+        "兄长",
+        "暗杀者/谜团角色"
+      ],
+      "factions": [
+        "远山家",
+        "伊・幽"
+      ],
+      "locations": [
+        "日本/海外任务地"
+      ],
+      "powerSystems": [
+        "hysteria-mode",
+        "butei"
+      ],
+      "abilities": [
+        "伪装",
+        "暗杀",
+        "枪械/近战"
+      ],
+      "items": [],
+      "relationships": [
+        "tooyama-kinji:brother-rival",
+        "aria-holmes-kanzaki:assassination-target-or-protector"
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "身份、动机与时间线复杂，private/低置信使用。",
+      "lowConfidence": true
+    },
+    {
+      "id": "vlad",
+      "name": "弗拉德",
+      "aliases": [
+        "无限罪之弗拉德",
+        "瓦拉几亚之鬼"
+      ],
+      "visibility": "private",
+      "summary": "伊・幽高位成员，吸血鬼真身与理子罗宾家秘宝线强敌。",
+      "roles": [
+        "伊・幽干部",
+        "吸血鬼敌人"
+      ],
+      "factions": [
+        "伊・幽"
+      ],
+      "locations": [
+        "横滨红鸣馆/陆标塔"
+      ],
+      "powerSystems": [
+        "supernatural-lineages"
+      ],
+      "abilities": [
+        "吸血鬼能力",
+        "再生",
+        "怪力",
+        "谋略"
+      ],
+      "items": [
+        "罗宾家十字架"
+      ],
+      "relationships": [
+        "riko-mine:oppressor",
+        "aria-holmes-kanzaki:enemy",
+        "tooyama-kinji:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "卷三相关，源分类 C。",
+      "lowConfidence": true
+    },
+    {
+      "id": "sherlock-holmes",
+      "name": "夏洛克·福尔摩斯",
+      "aliases": [
+        "Sherlock Holmes",
+        "伊・幽首领"
+      ],
+      "visibility": "private",
+      "summary": "伊・幽首领与福尔摩斯血脉根源之一，牵动亚里亚家族、N 与后期世界线。",
+      "roles": [
+        "伊・幽首领",
+        "传奇侦探"
+      ],
+      "factions": [
+        "伊・幽"
+      ],
+      "locations": [
+        "海外任务地",
+        "印度/鹦鹉螺号周边"
+      ],
+      "powerSystems": [
+        "supernatural-lineages"
+      ],
+      "abilities": [
+        "推理",
+        "组织运营",
+        "超常级谋略"
+      ],
+      "items": [],
+      "relationships": [
+        "aria-holmes-kanzaki:ancestor-lineage",
+        "tooyama-kinji:mentor-or-enemy",
+        "organization-n:rival"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "后期登场与动机复杂，private。",
+      "lowConfidence": true
+    },
+    {
+      "id": "watson",
+      "name": "华生",
+      "aliases": [
+        "Watson"
+      ],
+      "visibility": "public",
+      "summary": "英国线中协助金次与亚里亚的福尔摩斯相关人物，适合伦敦调查和情报支援。",
+      "roles": [
+        "侦探协力者",
+        "英国线支援"
+      ],
+      "factions": [
+        "英国王室武侦/MI6"
+      ],
+      "locations": [
+        "伦敦/白金汉宫周边"
+      ],
+      "powerSystems": [
+        "butei"
+      ],
+      "abilities": [
+        "调查",
+        "情报支援"
+      ],
+      "items": [],
+      "relationships": [
+        "aria-holmes-kanzaki:family-or-ally",
+        "tooyama-kinji:ally"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "译名与身份细节需复核。",
+      "lowConfidence": true
+    },
+    {
+      "id": "nemo-rinkarun",
+      "name": "尼莫·林卡尔",
+      "aliases": [
+        "提督",
+        "Nemo Rinkarun"
+      ],
+      "visibility": "private",
+      "summary": "N/Nautilus 相关核心角色，掌控鹦鹉螺号并引出后期莱克忒亚/接轨危机。",
+      "roles": [
+        "N相关人物",
+        "潜艇指挥"
+      ],
+      "factions": [
+        "N/Nautilus"
+      ],
+      "locations": [
+        "苏伊士运河/鹦鹉螺号",
+        "海外任务地"
+      ],
+      "powerSystems": [
+        "irokane-gods",
+        "magic-psychic"
+      ],
+      "abilities": [
+        "指挥",
+        "科技/异能",
+        "情报操盘"
+      ],
+      "items": [
+        "鹦鹉螺号"
+      ],
+      "relationships": [
+        "tooyama-kinji:paired-fate",
+        "organization-n:former-or-current-link"
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "后期 N 线低置信。",
+      "lowConfidence": true
+    },
+    {
+      "id": "g-iii",
+      "name": "GIII",
+      "aliases": [
+        "G3"
+      ],
+      "visibility": "private",
+      "summary": "远山家/海外任务相关人物，用于金次家族与国际战线扩展。",
+      "roles": [
+        "远山家相关",
+        "海外行动者"
+      ],
+      "factions": [
+        "远山家",
+        "各国武侦与情报机关"
+      ],
+      "locations": [
+        "海外任务地"
+      ],
+      "powerSystems": [
+        "hysteria-mode",
+        "butei"
+      ],
+      "abilities": [
+        "枪械",
+        "近战",
+        "战术"
+      ],
+      "items": [],
+      "relationships": [
+        "tooyama-kinji:family-or-rival"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-hidan-no-aria-001"
+      ],
+      "notes": "身份译名和细节未复核。",
+      "lowConfidence": true
     }
   ],
   "indices": {
@@ -262,9 +512,36 @@
         "hotogi-shirayuki",
         "reki"
       ],
+      "远山家": [
+        "tooyama-kinji",
+        "tooyama-kinichi-kana",
+        "g-iii"
+      ],
+      "神崎家": [
+        "aria-holmes-kanzaki"
+      ],
+      "星伽神社": [
+        "hotogi-shirayuki"
+      ],
       "伊・幽": [
         "riko-mine",
+        "jeanne-darc-30",
+        "tooyama-kinichi-kana",
+        "vlad",
+        "sherlock-holmes"
+      ],
+      "东京武侦高周边": [
+        "riko-mine",
         "jeanne-darc-30"
+      ],
+      "英国王室武侦/MI6": [
+        "watson"
+      ],
+      "N/Nautilus": [
+        "nemo-rinkarun"
+      ],
+      "各国武侦与情报机关": [
+        "g-iii"
       ]
     },
     "byPowerSystem": {
@@ -273,16 +550,29 @@
         "aria-holmes-kanzaki",
         "hotogi-shirayuki",
         "riko-mine",
-        "reki"
+        "reki",
+        "tooyama-kinichi-kana",
+        "watson",
+        "g-iii"
       ],
       "hysteria-mode": [
-        "tooyama-kinji"
+        "tooyama-kinji",
+        "tooyama-kinichi-kana",
+        "g-iii"
       ],
       "supernatural-lineages": [
         "aria-holmes-kanzaki",
         "hotogi-shirayuki",
         "riko-mine",
-        "jeanne-darc-30"
+        "jeanne-darc-30",
+        "vlad",
+        "sherlock-holmes"
+      ],
+      "irokane-gods": [
+        "nemo-rinkarun"
+      ],
+      "magic-psychic": [
+        "nemo-rinkarun"
       ]
     },
     "byVisibility": {
@@ -292,7 +582,15 @@
         "hotogi-shirayuki",
         "riko-mine",
         "reki",
-        "jeanne-darc-30"
+        "jeanne-darc-30",
+        "watson"
+      ],
+      "private": [
+        "tooyama-kinichi-kana",
+        "vlad",
+        "sherlock-holmes",
+        "nemo-rinkarun",
+        "g-iii"
       ]
     },
     "majorCharacters": [
@@ -300,11 +598,149 @@
       "aria-holmes-kanzaki",
       "hotogi-shirayuki",
       "riko-mine",
-      "reki"
+      "reki",
+      "sherlock-holmes"
     ],
-    "byId": {},
-    "byName": {},
-    "byAffiliation": {},
-    "byTag": {}
+    "byId": {
+      "tooyama-kinji": "远山金次",
+      "aria-holmes-kanzaki": "神崎·H·亚里亚",
+      "hotogi-shirayuki": "星伽白雪",
+      "riko-mine": "峰理子",
+      "reki": "蕾姬",
+      "jeanne-darc-30": "贞德·达尔克三十世",
+      "tooyama-kinichi-kana": "远山金一/加奈",
+      "vlad": "弗拉德",
+      "sherlock-holmes": "夏洛克·福尔摩斯",
+      "watson": "华生",
+      "nemo-rinkarun": "尼莫·林卡尔",
+      "g-iii": "GIII"
+    },
+    "byName": {
+      "远山金次": "tooyama-kinji",
+      "神崎·H·亚里亚": "aria-holmes-kanzaki",
+      "星伽白雪": "hotogi-shirayuki",
+      "峰理子": "riko-mine",
+      "蕾姬": "reki",
+      "贞德·达尔克三十世": "jeanne-darc-30",
+      "远山金一/加奈": "tooyama-kinichi-kana",
+      "弗拉德": "vlad",
+      "夏洛克·福尔摩斯": "sherlock-holmes",
+      "华生": "watson",
+      "尼莫·林卡尔": "nemo-rinkarun",
+      "GIII": "g-iii"
+    },
+    "byAffiliation": {
+      "东京武侦高": [
+        "tooyama-kinji",
+        "aria-holmes-kanzaki",
+        "hotogi-shirayuki",
+        "reki"
+      ],
+      "远山家": [
+        "tooyama-kinji",
+        "tooyama-kinichi-kana",
+        "g-iii"
+      ],
+      "神崎家": [
+        "aria-holmes-kanzaki"
+      ],
+      "星伽神社": [
+        "hotogi-shirayuki"
+      ],
+      "伊・幽": [
+        "riko-mine",
+        "jeanne-darc-30",
+        "tooyama-kinichi-kana",
+        "vlad",
+        "sherlock-holmes"
+      ],
+      "东京武侦高周边": [
+        "riko-mine",
+        "jeanne-darc-30"
+      ],
+      "英国王室武侦/MI6": [
+        "watson"
+      ],
+      "N/Nautilus": [
+        "nemo-rinkarun"
+      ],
+      "各国武侦与情报机关": [
+        "g-iii"
+      ]
+    },
+    "byTag": {
+      "主角": [
+        "tooyama-kinji"
+      ],
+      "武侦高学生": [
+        "tooyama-kinji"
+      ],
+      "女主角": [
+        "aria-holmes-kanzaki"
+      ],
+      "S级武侦": [
+        "aria-holmes-kanzaki"
+      ],
+      "巫女": [
+        "hotogi-shirayuki"
+      ],
+      "武侦": [
+        "hotogi-shirayuki"
+      ],
+      "怪盗后裔": [
+        "riko-mine"
+      ],
+      "武侦/对手": [
+        "riko-mine"
+      ],
+      "狙击科学生": [
+        "reki"
+      ],
+      "远程支援": [
+        "reki"
+      ],
+      "异能剑士": [
+        "jeanne-darc-30"
+      ],
+      "转向盟友": [
+        "jeanne-darc-30"
+      ],
+      "兄长": [
+        "tooyama-kinichi-kana"
+      ],
+      "暗杀者/谜团角色": [
+        "tooyama-kinichi-kana"
+      ],
+      "伊・幽干部": [
+        "vlad"
+      ],
+      "吸血鬼敌人": [
+        "vlad"
+      ],
+      "伊・幽首领": [
+        "sherlock-holmes"
+      ],
+      "传奇侦探": [
+        "sherlock-holmes"
+      ],
+      "侦探协力者": [
+        "watson"
+      ],
+      "英国线支援": [
+        "watson"
+      ],
+      "N相关人物": [
+        "nemo-rinkarun"
+      ],
+      "潜艇指挥": [
+        "nemo-rinkarun"
+      ],
+      "远山家相关": [
+        "g-iii"
+      ],
+      "海外行动者": [
+        "g-iii"
+      ]
+    }
   }
 }

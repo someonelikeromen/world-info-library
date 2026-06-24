@@ -1,0 +1,57 @@
+{
+  "schema": "rp-notes-extension-v1",
+  "worldId": "hidan-no-aria",
+  "sourceRefs": [
+    "src-hidan-no-aria-001"
+  ],
+  "curationConfidence": "C",
+  "recommendedEntryPoints": [
+    {
+      "id": "butei-transfer",
+      "name": "东京武侦高转学生",
+      "summary": "可选强袭/侦探/狙击/车辆/谍报科，从委托任务切入。"
+    },
+    {
+      "id": "legal-butei-case",
+      "name": "合法武侦案件",
+      "summary": "以逮捕而非杀戮为目标，处理劫持、追车、护卫、校园袭击。"
+    },
+    {
+      "id": "lineage-heir",
+      "name": "历史血脉继承者",
+      "summary": "自创后裔能力需与物理/法律限制并存，避免无限异能。"
+    },
+    {
+      "id": "few-agent",
+      "name": "师团/眷属代理人",
+      "summary": "适合中后期极东战役与 N 组织低置信分支。"
+    },
+    {
+      "id": "baskerville-support",
+      "name": "巴斯克维尔小队支援成员",
+      "summary": "从情报、车辆、装备或医疗支援切入。"
+    },
+    {
+      "id": "overseas-butei-exchange",
+      "name": "海外武侦交换生",
+      "summary": "伦敦、罗马、香港或俄罗斯任务地，适合独立案件后汇入主线。"
+    },
+    {
+      "id": "n-low-confidence-branch",
+      "name": "N/鹦鹉螺号后期代理人",
+      "summary": "高危低置信线，需先确认色金与接轨尺度。"
+    }
+  ],
+  "constraints": [
+    "武侦法强调相信伙伴和逮捕优先；枪战应考虑法律、弹道、掩体与非致死性。",
+    "HSS 是代价型爆发，不应常驻；长期使用有身体和人格风险。",
+    "色金、莱克忒亚、N 组织等后期设定统一标记低置信。",
+    "后期 N/莱克忒亚/色金线会把类型从武装侦探推向异世界灾害，默认应作为显式分歧。",
+    "未复核译名的人物（华生、尼莫、GIII 等）在场景内需保留别名和低置信标记。"
+  ],
+  "lowConfidenceGaps": [
+    "源整体分类 confidence 多为 C；后续组织、译名与卷数顺序需复核。",
+    "伊・幽、眷属、N、眷族战线未按小说卷数完全拆分。",
+    "GIII、华生、尼莫、莱克忒亚公会和后期卷顺序仍需逐卷复核。"
+  ]
+}

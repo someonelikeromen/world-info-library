@@ -1,0 +1,214 @@
+{
+  "schema": "rp-timeline-v1",
+  "worldId": "evangelion",
+  "title": "EVA 分支时间线索引",
+  "sourceRefs": [
+    "src-eva-canon-timeline-archive",
+    "src-eva-canon-arcs-tv-eoe"
+  ],
+  "curationPolicy": {
+    "scope": "从本地 canon-reference/timeline.json 与 canon-reference/arcs.json 抽取高影响节点；TV/旧剧场版与新剧场版分支分开，不合并使徒编号、组织和结局设定。",
+    "confidence": "B for preserved archive entries; C where source itself marks approximate dates or mixes broad style/reference material."
+  },
+  "continuities": [
+    {
+      "id": "tv-eoe",
+      "name": "TV版 + THE END OF EVANGELION",
+      "allowedWorks": [
+        "新世纪福音战士TV版（含Director's Cut补充）",
+        "THE END OF EVANGELION / Air / 真心为你"
+      ],
+      "excludedWorks": [
+        "新剧场版序/破/Q/终独有设定",
+        "Mark.06 / 第13号机 / WILLE / 新剧场版使徒编号"
+      ],
+      "eras": [
+        {
+          "id": "tv-second-impact",
+          "name": "第二次冲击与NERV前史",
+          "timeframe": "2000年9月13日—2015年前",
+          "summary": "南极实验触发第二次冲击，南极毁灭、海平面上升、人类人口减半；GEHIRN/NERV与EVA计划在灾后秘密推进。",
+          "keyEvents": [
+            "葛城探险队、ADAM觉醒和朗基努斯之枪实验是公开灾难背后的核心线索。",
+            "NERV、SEELE、人类补完计划与EVA建造在灾后逐步成形。"
+          ],
+          "involvedFactions": [
+            "nerv",
+            "seele",
+            "united-nations"
+          ],
+          "involvedLocations": [
+            "antarctica",
+            "gehirn-lab",
+            "tokyo-3"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive"
+          ]
+        },
+        {
+          "id": "tv-early-angels",
+          "name": "真嗣到来与早期使徒战",
+          "timeframe": "2015年6月22日—9月20日",
+          "summary": "真嗣被召至第三新东京市驾驶初号机；丽、明日香、美里等围绕萨基尔、夏姆榭尔、拉米尔、迦基尔、伊斯拉斐尔、桑达冯、马特里尔、萨哈奎尔等事件形成作战团队。",
+          "keyEvents": [
+            "初号机暴走击败萨基尔，确立EVA与AT Field的核心战斗模式。",
+            "屋岛作战让真嗣与丽关系推进，并展示城市级能源动员。",
+            "明日香与二号机来日，三名驾驶员开始从冲突走向短暂协同。",
+            "马特里尔与萨哈奎尔战役展示三机联合和美里作战指挥能力。"
+          ],
+          "involvedFactions": [
+            "nerv",
+            "angels",
+            "united-nations"
+          ],
+          "involvedLocations": [
+            "tokyo-3",
+            "nerv-hq",
+            "misato-apartment",
+            "pacific-fleet",
+            "asama-volcano"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive",
+            "src-eva-canon-arcs-tv-eoe"
+          ]
+        },
+        {
+          "id": "tv-mid-collapse",
+          "name": "阴谋显影与驾驶员崩坏",
+          "timeframe": "2015年9月21日—11月25日",
+          "summary": "MAGI入侵、机体互换、Terminal Dogma真相、雷里尔虚数空间、三号机/巴迪尔事件、初号机吞噬S2机关、阿拉尔精神攻击、丽自爆、渚薰死亡等事件使团队与信任结构持续崩坏。",
+          "keyEvents": [
+            "第十一使徒伊洛尔入侵MAGI，由律子用进化加速方案处理。",
+            "加持带美里见到Terminal Dogma中的白色巨人，NERV真相开始泄露。",
+            "三号机事件中Dummy System摧毁受寄生机体，真嗣与源堂冲突彻底升级。",
+            "初号机觉醒并吞噬S2机关，EVA从兵器滑向神性/生命体风险。",
+            "阿拉尔精神攻击重创明日香；丽与阿米沙尔同归于尽后第三个丽出现。",
+            "渚薰以第十七使徒身份入侵并请求真嗣杀死自己，成为补完前的精神断点。"
+          ],
+          "involvedFactions": [
+            "nerv",
+            "seele",
+            "angels"
+          ],
+          "involvedLocations": [
+            "nerv-hq",
+            "terminal-dogma",
+            "matsushiro-test-site",
+            "dirac-sea",
+            "lake-ruins"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive",
+            "src-eva-canon-arcs-tv-eoe"
+          ]
+        },
+        {
+          "id": "eoe-instrumentality",
+          "name": "Air / 真心为你与补完后海滩",
+          "timeframe": "2015年12月31日—2016年1月2日起",
+          "summary": "SEELE动用战略自卫队进攻NERV，量产型EVA、朗基努斯之枪、莉莉丝/丽与初号机共同引发补完仪式；真嗣最终拒绝无差别融合，个体回归的可能性重新打开。",
+          "keyEvents": [
+            "战略自卫队攻占NERV本部，NERV职员遭屠杀，美里牺牲护送真嗣。",
+            "明日香在二号机中感知母亲灵魂，短暂击败量产型EVA后被复苏量产机压倒。",
+            "源堂计划被丽拒绝，丽回归莉莉丝并参与全球反AT Field仪式。",
+            "真嗣在LCL之海中经历群体潜意识与自我选择，拒绝虚假融合。",
+            "结局停在红海沙滩与个体回归的开放状态；高敏医院事件仅记录为安全审校风险，不展开描写。"
+          ],
+          "involvedFactions": [
+            "seele",
+            "nerv",
+            "jsdf",
+            "mass-production-eva"
+          ],
+          "involvedLocations": [
+            "nerv-hq",
+            "terminal-dogma",
+            "lcl-sea",
+            "red-sea-shore"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive",
+            "src-eva-canon-arcs-tv-eoe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebuild",
+      "name": "新剧场版序/破/Q/终",
+      "allowedWorks": [
+        "序",
+        "破",
+        "Q",
+        "终"
+      ],
+      "excludedWorks": [
+        "TV版使徒编号体系",
+        "旧剧场版THE END OF EVANGELION独有事件",
+        "惣流设定与TV版二号机结局"
+      ],
+      "eras": [
+        {
+          "id": "rebuild-jo-ha",
+          "name": "序/破：近第三次冲击前",
+          "timeframe": "2015年6月22日—2015年9月22日起",
+          "summary": "序重演真嗣到来、屋岛作战与渚薰月面觉醒；破加入真希波、式波、尼布甲尼撒之钥、三号机替代驾驶与近第三次冲击。",
+          "keyEvents": [
+            "序中第四至第六使徒编号不同于TV分支，屋岛作战后渚薰在月球登场。",
+            "破中真希波驾驶临时五号机，式波·明日香·兰格雷替代惣流体系登场。",
+            "三号机事件中明日香代替绫波参与测试并受重伤。",
+            "第十使徒吞噬零号机/绫波，真嗣救出绫波时初号机觉醒并开启古夫之门，渚薰以Mark.06阻止近第三次冲击。"
+          ],
+          "involvedFactions": [
+            "nerv",
+            "seele",
+            "angels"
+          ],
+          "involvedLocations": [
+            "tokyo-3",
+            "moon-tabuha-base",
+            "bethany-base",
+            "matsushiro-test-site"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive"
+          ]
+        },
+        {
+          "id": "rebuild-q-thrice",
+          "name": "Q/终：14年后、WILLE与新世纪创造",
+          "timeframe": "2029年1月1日—2029年8月4日起",
+          "summary": "近第三次冲击后世界赤化，WILLE成立并与NERV对立；真嗣苏醒后引发第四次冲击危机，最终在终中经第三村、Wunder南极决战和Additional Impact走向无EVA世界。",
+          "keyEvents": [
+            "WILLE强夺封印初号机，真嗣在Wunder苏醒并被植入DSS项圈。",
+            "真嗣逃往废墟NERV，与渚薰驾驶第13号机导致第四次冲击，渚薰死亡。",
+            "第三村提供战后人类生活与黑波消逝节点。",
+            "南极决战中源堂抛弃肉体，明日香释放使徒之力，美里以Wunder制造盖乌斯之枪。",
+            "Additional Impact后所有EVA消失，世界重置为没有EVA的形态。"
+          ],
+          "involvedFactions": [
+            "wille",
+            "nerv-rebuild",
+            "village-3"
+          ],
+          "involvedLocations": [
+            "aaa-wunder",
+            "ruined-nerv-hq",
+            "village-3",
+            "antarctica-black-moon",
+            "ube-shinkawa-station"
+          ],
+          "sourceRefs": [
+            "src-eva-canon-timeline-archive"
+          ]
+        }
+      ]
+    }
+  ],
+  "openGaps": [
+    "未逐条抽取所有使徒个体档案；仅保留与主线阶段强相关的使徒节点。",
+    "新剧场版与TV/EOE必须在开局锁定其一，不能共享编号和组织状态。"
+  ]
+}

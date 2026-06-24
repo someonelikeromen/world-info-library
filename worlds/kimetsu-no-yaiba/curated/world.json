@@ -11,7 +11,7 @@
     "猎鬼",
     "剑术"
   ],
-  "summary": "大正日本暗处存在以人类为食的鬼，鬼杀队以呼吸法、日轮刀和藤花毒猎杀鬼。鬼舞辻无惨是鬼的源头，十二鬼月构成鬼方核心战力。",
+  "summary": "大正日本暗处存在以人类为食的鬼，鬼杀队以呼吸法、日轮刀、藤花毒与情报网络猎杀鬼。鬼舞辻无惨是鬼的源头，十二鬼月构成鬼方核心战力；斑纹、通透世界、赫刀与血鬼术是后期高危变量。",
   "sandboxPrinciple": {
     "summary": "不固定炭治郎路线；鬼杀队任务、鬼的潜伏和无惨行动动态推进。",
     "notes": []
@@ -23,7 +23,9 @@
     "notes": []
   },
   "notes": [
-    "呼吸法多为身体技艺与感知强化，视觉特效是否实体需按跑团规则声明。"
+    "呼吸法多为身体技艺与感知强化，视觉特效是否实体需按跑团规则声明。",
+    "retry-08 补完：对 355 条大体量源采用保守分层摘要，未复制全部原条目。",
+    "呼吸法特效默认按剑技意象处理；赫刀高温和血鬼术可作为实体效果。"
   ],
   "powerSystems": [
     {
@@ -90,6 +92,40 @@
         "畏惧阳光、藤花毒与无惨控制。"
       ],
       "compatibilityNotes": []
+    },
+    {
+      "id": "advanced-slayer-state",
+      "name": "斑纹/通透世界/赫刀",
+      "category": "advanced-martial-awakening",
+      "principle": "在极限体温、心率与濒死压力下打开斑纹，进一步达到感知肌肉血流的通透世界，并通过握力、共鸣或特定条件让日轮刀转为赫刀。",
+      "classification": [
+        "Technique",
+        "Body",
+        "Risk"
+      ],
+      "energySource": "internal",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "体温",
+        "心率",
+        "濒死压力",
+        "日轮刀材质",
+        "同伴协作"
+      ],
+      "commonAbilities": [
+        "斑纹爆发",
+        "通透世界",
+        "赫刀抑制再生"
+      ],
+      "limitations": [
+        "斑纹有寿命与身体负荷风险；通透世界要求极高集中；赫刀维持困难。"
+      ],
+      "compatibilityNotes": [
+        "适合柱级或后期决战，不应作为普通新人默认能力。"
+      ]
     }
   ],
   "factions": [
@@ -97,7 +133,7 @@
       "id": "demon-slayer-corps",
       "name": "鬼杀队",
       "type": "secret-hunter-corps",
-      "summary": "非官方猎鬼组织。",
+      "summary": "以产屋敷家为精神核心的非官方猎鬼组织，拥有柱、隐、锻刀人、藤之家与鎹鸦情报网。",
       "powerSystemAffinity": [
         "breathing-styles"
       ],
@@ -111,7 +147,16 @@
         "tanjiro-kamado",
         "zenitsu-agatsuma",
         "inosuke-hashibira",
-        "giyu-tomioka"
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "sanemi-shinazugawa",
+        "obanai-iguro",
+        "gyomei-himejima",
+        "kagaya-ubuyashiki"
       ],
       "territories": [
         "藤之家",
@@ -119,7 +164,12 @@
       ],
       "resources": [
         "日轮刀",
-        "鎹鸦"
+        "鎹鸦",
+        "隐后勤",
+        "柱合会议",
+        "藤之家网络",
+        "蝶屋敷医疗",
+        "锻刀村补给"
       ],
       "conflicts": [
         "demons"
@@ -139,7 +189,7 @@
       "id": "demons",
       "name": "鬼与十二鬼月",
       "type": "monster-network",
-      "summary": "无惨支配下的鬼群。",
+      "summary": "无惨血液支配下的鬼群，由十二鬼月、无限城与普通恶鬼构成，内部以恐惧和血量压制维系。",
       "powerSystemAffinity": [
         "demon-blood-art"
       ],
@@ -150,14 +200,27 @@
       "attitudeToOutsiders": "predatory",
       "knownMembers": [
         "muzan-kibutsuji",
-        "akaza"
+        "akaza",
+        "kokushibo",
+        "doma",
+        "rui",
+        "enmu",
+        "daki-gyutaro",
+        "hantengu",
+        "gyokko",
+        "nakime",
+        "kaigaku"
       ],
       "territories": [
         "无限城"
       ],
       "resources": [
         "血鬼术",
-        "再生"
+        "再生",
+        "十二鬼月席位",
+        "无限城空间",
+        "鬼化血液",
+        "情报封口诅咒"
       ],
       "conflicts": [
         "demon-slayer-corps"
@@ -216,5 +279,101 @@
   "hiddenEvents": [
     "无惨追踪青色彼岸花",
     "无限城决战"
+  ],
+  "locationDetails": [
+    {
+      "id": "sagiri-mountain",
+      "name": "狭雾山",
+      "role": "鳞泷训练与最终选拔前修行"
+    },
+    {
+      "id": "fujikasane-mountain",
+      "name": "藤袭山",
+      "role": "最终选拔地"
+    },
+    {
+      "id": "asakusa",
+      "name": "浅草",
+      "role": "无惨、珠世与愈史郎线索"
+    },
+    {
+      "id": "natagumo-mountain",
+      "name": "那田蜘蛛山",
+      "role": "累一家与柱介入"
+    },
+    {
+      "id": "butterfly-mansion",
+      "name": "蝶屋敷",
+      "role": "医疗与机能恢复训练"
+    },
+    {
+      "id": "mugen-train",
+      "name": "无限列车",
+      "role": "魇梦梦境与炼狱/猗窝座事件"
+    },
+    {
+      "id": "yoshiwara",
+      "name": "吉原游郭",
+      "role": "上弦之陆潜伏"
+    },
+    {
+      "id": "swordsmith-village",
+      "name": "锻刀村",
+      "role": "日轮刀锻造与上弦袭击"
+    },
+    {
+      "id": "infinity-castle",
+      "name": "无限城",
+      "role": "鸣女血鬼术空间与最终决战枢纽"
+    }
+  ],
+  "canonicalArcs": [
+    "雪夜惨剧与狭雾山修行",
+    "藤袭山最终选拔",
+    "浅草与珠世府邸",
+    "鼓屋敷",
+    "那田蜘蛛山与柱合会议",
+    "蝶屋敷训练",
+    "无限列车",
+    "吉原游郭",
+    "锻刀村",
+    "柱指导训练",
+    "无限城突入战",
+    "黎明决战与战后解散"
+  ],
+  "timelineSummary": [
+    {
+      "period": "1905-1910",
+      "event": "真菰、锖兔、香奈惠等前代牺牲奠定鬼杀队伤痕。"
+    },
+    {
+      "period": "1912-1914",
+      "event": "灶门家惨剧、炭治郎修行、最终选拔、浅草与鼓屋敷事件。"
+    },
+    {
+      "period": "1914-1915",
+      "event": "那田蜘蛛山、无限列车、游郭、锻刀村与柱指导训练连锁升级。"
+    },
+    {
+      "period": "1915-1916",
+      "event": "无限城与黎明决战后，无惨灭亡、鬼杀队解散。"
+    },
+    {
+      "period": "沙盒分歧",
+      "event": "可在任一篇章前后开局；需锁定祢豆子阳光抗性是否暴露。"
+    }
+  ],
+  "rpHooks": [
+    "新入队员接受藤袭山最终选拔",
+    "隐部队清理鬼袭现场并发现异常血鬼术",
+    "锻刀村护送任务暴露内鬼线索",
+    "藤之家收留伤员引来十二鬼月侦查",
+    "柱指导训练期间的派系与能力瓶颈",
+    "无惨寻找青色彼岸花的暗线调查",
+    "普通鬼试图摆脱无惨诅咒寻求珠世帮助"
+  ],
+  "coverageGaps": [
+    "未逐条搬运全 355 条源条目与全下弦/全配角心理模型。",
+    "现代转世篇仅保留为可选尾声，不作为默认 RP 主舞台。"
   ]
 }

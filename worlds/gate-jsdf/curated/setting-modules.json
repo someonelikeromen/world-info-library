@@ -1,0 +1,174 @@
+{
+  "schema": "rp-setting-modules-extension-v1",
+  "worldId": "gate-jsdf",
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
+  "curationConfidence": "B",
+  "plotArcs": [
+    {
+      "id": "contact",
+      "name": "接触篇",
+      "summary": "从银座事件到阿尔努斯基地，核心是现代国家如何面对异世界领土、难民与情报未知。"
+    },
+    {
+      "id": "italica-diplomacy",
+      "name": "伊塔黎卡/外交篇",
+      "summary": "以平娜、菅原、帝国贵族和阿尔努斯居民为轴，处理军事压倒优势下的讲和与文化冲击。"
+    },
+    {
+      "id": "fire-dragon",
+      "name": "炎龙讨伐篇",
+      "summary": "将现代火力、精灵复仇、萝莉使徒与蕾莱魔法学术并置，适合英雄冒险或创伤恢复线。"
+    },
+    {
+      "id": "imperial-coup",
+      "name": "帝国内战篇",
+      "summary": "索沙尔主战派、蒂尤蕾复仇和平娜正统政府对撞，适合政治谍报与战役 RP。"
+    },
+    {
+      "id": "dark-gate",
+      "name": "冥门终局篇",
+      "summary": "门的控制权、地球列强干涉、蕾莱被争夺、虫兽灾难与封门决断并行。"
+    },
+    {
+      "id": "alnus-community-economy",
+      "name": "阿尔努斯共同体经营篇",
+      "summary": "难民、亚人、商人、PX 与基地规则交织，适合低烈度经营和文化摩擦。"
+    },
+    {
+      "id": "earth-power-interference",
+      "name": "地球列强干涉篇",
+      "summary": "列强通过情报、绑架和外交施压争夺门与特区资源。"
+    },
+    {
+      "id": "post-gate-separation",
+      "name": "封门后重建/再连通篇",
+      "summary": "门关闭后的重建与再次连通，适合后日谈或分歧。",
+      "lowConfidence": true
+    }
+  ],
+  "factions": [
+    {
+      "id": "jsdf-expedition",
+      "name": "自卫队特地派遣方面队",
+      "summary": "现代军队；优势在火力、后勤、情报和空地协同，弱点是政治授权与门的投送瓶颈。"
+    },
+    {
+      "id": "third-recon",
+      "name": "第三侦查队",
+      "summary": "伊丹队的接触/救援/非常规任务核心，适合玩家随队或替代队员。"
+    },
+    {
+      "id": "empire-peace",
+      "name": "帝国讲和派",
+      "summary": "摩特、平娜、部分元老院与贵族；目标是在保存帝国的同时避免被现代军力摧毁。"
+    },
+    {
+      "id": "empire-war",
+      "name": "帝国主战派",
+      "summary": "索沙尔及其将军、特务；依靠人海、恐怖统治和反自卫队不对称战。"
+    },
+    {
+      "id": "alnus-community",
+      "name": "阿尔努斯协同生活组合",
+      "summary": "难民、亚人、佣兵、商人与自卫队协助者的混合自治圈。"
+    },
+    {
+      "id": "earth-powers",
+      "name": "地球列强",
+      "summary": "美国、中国、俄罗斯等试图争夺门、资源或特区人口；多为间谍与政治压力。"
+    },
+    {
+      "id": "apostles-gods",
+      "name": "诸神与使徒",
+      "summary": "萝莉、吉赛儿等承载神格意志，能改变局部战局但受神域职责约束。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "ginza-gate",
+      "name": "银座/门驻地",
+      "summary": "地球侧战略入口；政治、媒体、特工和军事冲突高度集中。"
+    },
+    {
+      "id": "alnus",
+      "name": "阿尔努斯丘陵基地",
+      "summary": "特区侧总枢纽，含基地、难民营、PX、协同生活组合与魔方阵风险。"
+    },
+    {
+      "id": "italica",
+      "name": "伊塔黎卡",
+      "summary": "帝国城市与贵族封地，平娜外交线和盗贼防卫战核心地点。"
+    },
+    {
+      "id": "imperial-capital",
+      "name": "帝都与黑街",
+      "summary": "贵族政治、皇宫政变、黑街谍报和特殊作战群据点。"
+    },
+    {
+      "id": "fire-dragon-zone",
+      "name": "炎龙巢域/精灵村落",
+      "summary": "高威胁魔物生态与杜嘉创伤线所在地。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "modern-military",
+      "name": "现代军事",
+      "summary": "开放地形压倒中世纪军队；城市、人质、政治限制和超常个体会削弱优势。"
+    },
+    {
+      "id": "magic",
+      "name": "特区魔法",
+      "summary": "翻译、风、攻击、防御、学术研究等；适合局部辅助与解谜，不应整体压制现代体系。"
+    },
+    {
+      "id": "apostle-contracts",
+      "name": "使徒/眷属契约",
+      "summary": "使徒长寿高战力，萝莉与伊丹存在伤害/血之归属式联系；需按剧情阶段慎用。"
+    },
+    {
+      "id": "gate-cosmology",
+      "name": "门与异世界连接",
+      "summary": "门是战略资源也是灾难源；破坏或过载会引发多世界连通与虫兽危机。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "itami-rory-lelei-tuka",
+      "name": "伊丹与三女主",
+      "summary": "保护、眷属、学术协作与父亲投射交叠，RP 中应避免简化为单一恋爱线。"
+    },
+    {
+      "id": "pina-empire-jsdf",
+      "name": "平娜—帝国—自卫队",
+      "summary": "平娜在帝国存续与对日讲和之间斡旋，是外交 RP 的关键枢纽。"
+    },
+    {
+      "id": "zorzal-tyuule",
+      "name": "索沙尔与蒂尤蕾",
+      "summary": "奴役、操纵与复仇悲剧，适合黑暗政治线；终局结局需标记可分歧。"
+    },
+    {
+      "id": "furuta-tyuule-delilah",
+      "name": "古田/蒂尤蕾/德莉拉",
+      "summary": "卧底、救赎、背叛与幸存者伦理，源内终局高戏剧性。"
+    },
+    {
+      "id": "tomita-bozes",
+      "name": "富田与波赛斯",
+      "summary": "跨文化恋爱/婚姻线，把军纪、贵族礼法和身份问题拉到台前。"
+    },
+    {
+      "id": "yao-dark-elves-jsdf",
+      "name": "姚—暗黑精灵—自卫队",
+      "summary": "救援请求与越权行动的伦理冲突。"
+    },
+    {
+      "id": "furuta-tyuule",
+      "name": "古田与蒂尤蕾",
+      "summary": "卧底、救赎和复仇悲剧。"
+    }
+  ]
+}

@@ -1,1 +1,426 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library-evangelion","sources":[{"sourceId":"src-eva-import-readme","type":"user-file-source","title":"EVA 导入说明","origin":"manual archive","location":"campaigns/world-library/imports/worldviews/evangelion/README.md","reliability":"A","visibility":"public","summary":"2 个 worldbook。","quotedOrExtractedText":"Worldbook files: 2","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/imports/worldviews/evangelion/README.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"evangelion","field":"sources"}],"conflictsWith":[],"notes":"手工读取。"},{"sourceId":"src-eva-classification-report","type":"agent-summary-source","title":"EVA 分类报告","origin":"archive report","location":"campaigns/world-library/worlds/evangelion/reports/classification-report.md","reliability":"B","visibility":"public","summary":"88 条保留条目。","quotedOrExtractedText":"preserved entries: 88","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/evangelion/reports/classification-report.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"evangelion","field":"coverage"}],"conflictsWith":[],"notes":"自动归档报告。"}],"conflictLog":[{"conflictId":"eva-continuity","sourceIds":["src-eva-classification-report"],"summary":"TV/旧剧场/新剧场存在设定与事件差异。","resolution":"unresolved","notes":"开局需锁定版本。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library-evangelion",
+  "sources": [
+    {
+      "sourceId": "src-eva-import-readme",
+      "type": "user-file-source",
+      "title": "EVA 导入说明",
+      "origin": "manual archive",
+      "location": "campaigns/world-library/imports/worldviews/evangelion/README.md",
+      "reliability": "A",
+      "visibility": "public",
+      "summary": "导入包说明：2 个 worldbook，分别为 eva_card.worldbook.json 与 新世纪福音战士·旧约.worldbook.json。",
+      "quotedOrExtractedText": "Worldbook files: 2",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/imports/worldviews/evangelion/README.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "evangelion",
+          "field": "sources"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "手工读取。"
+    },
+    {
+      "sourceId": "src-eva-classification-report",
+      "type": "agent-summary-source",
+      "title": "EVA 分类报告",
+      "origin": "archive report",
+      "location": "campaigns/world-library/worlds/evangelion/reports/classification-report.md",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "88 条保留条目；分类计数包含 characters 45、world 59、abilities 54、locations 24、factions 13、canonTimeline 8。",
+      "quotedOrExtractedText": "preserved entries: 88",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/reports/classification-report.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "evangelion",
+          "field": "coverage"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "自动归档报告，适合覆盖度判断，不作为逐条正史事实来源。"
+    },
+    {
+      "sourceId": "src-eva-campaign-source-registry",
+      "type": "agent-summary-source",
+      "title": "campaigns 归档 source-registry",
+      "origin": "archive report",
+      "location": "campaigns/world-library/worlds/evangelion/source-registry.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "记录原始两个用户提供世界书来源 src-evangelion-001 与 src-evangelion-002 及提取脚本信息。",
+      "quotedOrExtractedText": "Imported source preserved in full; classification files keep complete entry content and source entry indexes.",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/source-registry.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "evangelion",
+          "field": "provenance"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "用于确认素材来源，不直接扩展设定。"
+    },
+    {
+      "sourceId": "src-eva-canon-timeline-archive",
+      "type": "agent-summary-source",
+      "title": "EVA canon-reference/timeline.json",
+      "origin": "classified archive",
+      "location": "campaigns/world-library/worlds/evangelion/canon-reference/timeline.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "保存 TV上、TV下、EOE、序/破、Q/终等多选一时间线条目，明确要求版本限定并禁止跨版本混入。",
+      "quotedOrExtractedText": "版本限定；TV/EOE 排除新剧场版独有概念；新剧场版排除TV版使徒编号体系与旧剧场版独有概念。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/canon-reference/timeline.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": "world-info-library/worlds/evangelion/curated/timeline.json"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "timeline",
+          "targetId": "evangelion",
+          "field": "continuityBranches"
+        }
+      ],
+      "conflictsWith": [
+        "src-eva-style-archive"
+      ],
+      "notes": "作为分支拆分的主来源；部分精确日期来自RP世界书条目，按B级处理。"
+    },
+    {
+      "sourceId": "src-eva-canon-arcs-tv-eoe",
+      "type": "agent-summary-source",
+      "title": "EVA canon-reference/arcs.json",
+      "origin": "classified archive",
+      "location": "campaigns/world-library/worlds/evangelion/canon-reference/arcs.json",
+      "reliability": "C",
+      "visibility": "public",
+      "summary": "保存TV版关键事件时间线、概要、叙事推进协议，以及写作风格指南。",
+      "quotedOrExtractedText": "叙事应围绕 event_chronology 中定义的关键事件展开；允许在关键事件之间填充角色互动、日常、训练、次要冲突。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/canon-reference/arcs.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "medium"
+      },
+      "appliesTo": [
+        {
+          "targetType": "timeline",
+          "targetId": "tv-eoe",
+          "field": "plotArcs"
+        },
+        {
+          "targetType": "rp-notes",
+          "targetId": "evangelion",
+          "field": "narrativeStyle"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "条目标记confidence C；用于剧情节奏和主题，不用于逐字事实裁定。"
+    },
+    {
+      "sourceId": "src-eva-locations-archive",
+      "type": "agent-summary-source",
+      "title": "EVA locations archive",
+      "origin": "classified archive",
+      "location": "campaigns/world-library/worlds/evangelion/locations/locations.json",
+      "reliability": "C",
+      "visibility": "public",
+      "summary": "主要地点概述：第三新东京市、GeoFront、Central/Terminal Dogma、莉莉丝所在地等。",
+      "quotedOrExtractedText": "第三新东京市：日本箱根地区；GeoFront：第三新东京市正下方巨大球状空洞；Central Dogma：GeoFront最深处，NERV禁区。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/locations/locations.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "medium"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "evangelion",
+          "field": "locations"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "地点概述来源于旧约世界书条目，C级。"
+    },
+    {
+      "sourceId": "src-eva-relationships-archive",
+      "type": "agent-summary-source",
+      "title": "EVA relationship archive",
+      "origin": "classified archive",
+      "location": "campaigns/world-library/worlds/evangelion/sandbox/timeline-divergence-rules.json",
+      "reliability": "C",
+      "visibility": "mixed",
+      "summary": "人物关系网（TV版）条目：真嗣、丽、惣流、美里、律子、源堂、冬月、加持、渚薰、东治、剑介、洞木等。",
+      "quotedOrExtractedText": "人物关系网 (来源: 新世纪福音战士 TV版)",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/sandbox/timeline-divergence-rules.json",
+        "pageRange": "entryIndex 8",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": "world-info-library/worlds/evangelion/curated/relationship-graph.json"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "medium"
+      },
+      "appliesTo": [
+        {
+          "targetType": "relationship-graph",
+          "targetId": "evangelion",
+          "field": "tvRelationships"
+        }
+      ],
+      "conflictsWith": [
+        "src-eva-canon-timeline-archive"
+      ],
+      "notes": "主要用于TV关系；新剧场版的式波/真希波关系单独标注为rebuild，不与惣流关系合并。"
+    },
+    {
+      "sourceId": "src-eva-character-archive",
+      "type": "agent-summary-source",
+      "title": "EVA characters archive",
+      "origin": "classified archive",
+      "location": "campaigns/world-library/worlds/evangelion/characters/characters.json",
+      "reliability": "C",
+      "visibility": "mixed",
+      "summary": "人物条目包括真希波、伊吹摩耶、洞木光、赤木律子、葛城美里、式波、惣流、绫波、相田、铃原、冬月、加持、碇源堂等。",
+      "quotedOrExtractedText": "角色:真希波·真理·伊拉丝多莉亚斯；角色:式波·明日香·兰格雷；角色:惣流·明日香·兰格雷；角色:赤木律子；角色:加持良治；角色:冬月耕造。",
+      "capture": {
+        "method": "manual grep/read",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/characters/characters.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "grep/read",
+        "artifactPath": "world-info-library/worlds/evangelion/curated/characters-index.json"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "medium"
+      },
+      "appliesTo": [
+        {
+          "targetType": "characters-index",
+          "targetId": "evangelion",
+          "field": "majorCharacters"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "人物档案含大量外观/心理模型，curated仅抽取RP索引级信息；低置信度或衍生解释不写为硬事实。"
+    },
+    {
+      "sourceId": "src-eva-boundary-filter",
+      "type": "user-file-source",
+      "title": "EVA世界观校验/过滤规则",
+      "origin": "classified worldbook entry",
+      "location": "campaigns/world-library/worlds/evangelion/sandbox/timeline-divergence-rules.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "规定AT Field、EVA本质、同步率反馈、电源倒计时、使徒击杀条件、科技边界和外来力量替换。",
+      "quotedOrExtractedText": "未中和AT力场=物理攻击100%无效；EVA本质=人造人；精神状态→同步率；力量体系隔离。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/sandbox/timeline-divergence-rules.json",
+        "pageRange": "entryIndex 16",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": "world-info-library/worlds/evangelion/curated/rp-notes.json"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "evangelion",
+          "field": "worldRules"
+        },
+        {
+          "targetType": "rp-notes",
+          "targetId": "evangelion",
+          "field": "guardrails"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "作为RP一致性规则使用；不是官方原文设定。"
+    },
+    {
+      "sourceId": "src-eva-style-archive",
+      "type": "agent-summary-source",
+      "title": "EVA写作风格指南",
+      "origin": "classified worldbook entry",
+      "location": "campaigns/world-library/worlds/evangelion/canon-reference/arcs.json",
+      "reliability": "C",
+      "visibility": "public",
+      "summary": "心理深度、象征主义、日常与末日并置、压抑与爆发的风格指南。",
+      "quotedOrExtractedText": "心理深度优先；刻意的模糊性与象征主义；日常与末日的极端并置；情感的压抑与爆发。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/evangelion/canon-reference/arcs.json",
+        "pageRange": "entryIndex 13",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": "world-info-library/worlds/evangelion/curated/rp-notes.json"
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "medium"
+      },
+      "appliesTo": [
+        {
+          "targetType": "rp-notes",
+          "targetId": "evangelion",
+          "field": "tone"
+        }
+      ],
+      "conflictsWith": [
+        "src-eva-canon-timeline-archive"
+      ],
+      "notes": "该风格条目把TV、旧剧场、新剧场、漫画、ANIMA等列为风格参考；curated仅采用通用语气，不允许它覆盖分支事实边界。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "conflictId": "eva-continuity",
+      "sourceIds": [
+        "src-eva-canon-timeline-archive",
+        "src-eva-canon-arcs-tv-eoe",
+        "src-eva-style-archive"
+      ],
+      "summary": "TV版、旧剧场版EOE、新剧场版存在角色版本、使徒编号、组织状态、机体、结局机制差异；风格条目又跨作品引用多分支素材。",
+      "resolution": "resolved-by-branch-split",
+      "notes": "curated/world.json与timeline.json要求开局锁定分支；TV、old-movie-eoe、rebuild不得混用。风格指南只作语气参考，不作事实合并依据。"
+    },
+    {
+      "conflictId": "eva-asuka-identity",
+      "sourceIds": [
+        "src-eva-character-archive",
+        "src-eva-canon-timeline-archive"
+      ],
+      "summary": "惣流·明日香·兰格雷与式波·明日香·兰格雷属于不同连续性。",
+      "resolution": "resolved-by-separate-character-ids",
+      "notes": "characters-index使用asuka-langley-soryu与asuka-shikinami-langley两个ID。"
+    },
+    {
+      "conflictId": "eva-low-confidence-rp-extensions",
+      "sourceIds": [
+        "src-eva-character-archive",
+        "src-eva-style-archive",
+        "src-eva-relationships-archive"
+      ],
+      "summary": "部分心理模型、精确日期、衍生解释和RP强约束来自世界书整理或风格指南，非官方逐字事实。",
+      "resolution": "recorded-low-confidence",
+      "notes": "这些内容在curation-notes中标为B/C；正式RP应优先采用分支时间线和明确角色关系。"
+    }
+  ]
+}

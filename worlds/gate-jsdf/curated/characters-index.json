@@ -634,16 +634,263 @@
         "locations normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.locations.",
         "factions normalized to canonical ids; original labels preserved in metadata.originalReferenceLabels.factions."
       ]
+    },
+    {
+      "id": "kuribayashi-shino",
+      "name": "栗林志乃",
+      "aliases": [
+        "栗林"
+      ],
+      "visibility": "public",
+      "summary": "第三侦查队队员，近战和步兵战斗表现突出。",
+      "roles": [
+        "第三侦查队",
+        "格斗/火力支援"
+      ],
+      "factions": [
+        "third-recon-team",
+        "jsdf-special-region-expeditionary-force"
+      ],
+      "locations": [
+        "alnus-hill-base"
+      ],
+      "powerSystems": [
+        "modern-military"
+      ],
+      "abilities": [
+        "格斗",
+        "步兵战术",
+        "护卫"
+      ],
+      "items": [
+        "自卫队装备"
+      ],
+      "relationships": [
+        "itami-youji:subordinate"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "补足第三侦查队日常/战斗 RP。"
+    },
+    {
+      "id": "tomita-akira",
+      "name": "富田章",
+      "aliases": [
+        "富田"
+      ],
+      "visibility": "public",
+      "summary": "第三侦查队队员，承担护卫、侦察和现场支援。",
+      "roles": [
+        "第三侦查队",
+        "自卫官"
+      ],
+      "factions": [
+        "third-recon-team",
+        "jsdf-special-region-expeditionary-force"
+      ],
+      "locations": [
+        "alnus-hill-base"
+      ],
+      "powerSystems": [
+        "modern-military"
+      ],
+      "abilities": [
+        "侦察",
+        "射击",
+        "护卫"
+      ],
+      "items": [
+        "自卫队装备"
+      ],
+      "relationships": [
+        "bozes-co-palesti:romance-open"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "富田—波赛斯线适合跨文化 RP。"
+    },
+    {
+      "id": "bozes-co-palesti",
+      "name": "波赛斯·科·帕雷斯提",
+      "aliases": [
+        "波赛斯"
+      ],
+      "visibility": "public",
+      "summary": "蔷薇骑士团成员、平娜近臣之一。",
+      "roles": [
+        "蔷薇骑士",
+        "贵族"
+      ],
+      "factions": [
+        "rose-order",
+        "empire-peace-faction"
+      ],
+      "locations": [
+        "italica",
+        "imperial-capital"
+      ],
+      "powerSystems": [
+        "martial-training"
+      ],
+      "abilities": [
+        "剑术",
+        "骑士礼仪",
+        "贵族交涉"
+      ],
+      "items": [
+        "骑士装备"
+      ],
+      "relationships": [
+        "pina-co-lada:retainer",
+        "tomita-akira:romance-open"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "译名可能有波洁斯等差异。"
+    },
+    {
+      "id": "furuta-hitoshi",
+      "name": "古田均",
+      "aliases": [
+        "古田"
+      ],
+      "visibility": "public",
+      "summary": "自卫队厨师/情报接触点，在帝都黑街和蒂尤蕾线中承担救赎桥梁。",
+      "roles": [
+        "厨师",
+        "情报协力"
+      ],
+      "factions": [
+        "jsdf-special-region-expeditionary-force",
+        "special-operations-group"
+      ],
+      "locations": [
+        "imperial-capital",
+        "imperial-black-street"
+      ],
+      "powerSystems": [
+        "modern-military"
+      ],
+      "abilities": [
+        "料理",
+        "潜伏",
+        "人脉建立"
+      ],
+      "items": [
+        "炊事装备"
+      ],
+      "relationships": [
+        "tyuule:redemption-tragedy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "适合黑街/卧底桥段。"
+    },
+    {
+      "id": "yao-haa-dushi",
+      "name": "姚·哈·杜西",
+      "aliases": [
+        "暗黑精灵姚"
+      ],
+      "visibility": "public",
+      "summary": "暗黑精灵使者，为讨伐炎龙不断请求自卫队援助。",
+      "roles": [
+        "暗黑精灵",
+        "求援者"
+      ],
+      "factions": [
+        "dark-elves",
+        "special-region-kingdoms-and-demi-humans"
+      ],
+      "locations": [
+        "dark-elf-forest",
+        "fire-dragon-territory"
+      ],
+      "powerSystems": [
+        "magic",
+        "dragon-and-monster-ecology"
+      ],
+      "abilities": [
+        "弓术",
+        "精灵感知",
+        "谈判"
+      ],
+      "items": [
+        "长弓"
+      ],
+      "relationships": [
+        "itami-youji:requests-aid"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "炎龙篇扩展用。"
+    },
+    {
+      "id": "sherry-tyueli",
+      "name": "雪莉·堤艾利",
+      "aliases": [
+        "雪莉"
+      ],
+      "visibility": "public",
+      "summary": "帝国贵族少女，外交线和保护/政治婚约主题相关。",
+      "roles": [
+        "贵族少女",
+        "外交线关键人"
+      ],
+      "factions": [
+        "empire-peace-faction"
+      ],
+      "locations": [
+        "imperial-capital"
+      ],
+      "powerSystems": [
+        "political-authority"
+      ],
+      "abilities": [
+        "贵族礼仪",
+        "情报传递"
+      ],
+      "items": [],
+      "relationships": [
+        "japan-government:diplomatic-link"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-gate-jsdf-001"
+      ],
+      "notes": "年龄、译名与具体事件需复核。",
+      "lowConfidence": true
     }
   ],
   "indices": {
     "byFaction": {
       "third-recon-team": [
-        "itami-youji"
+        "itami-youji",
+        "kuribayashi-shino",
+        "tomita-akira"
       ],
       "jsdf-special-region-expeditionary-force": [
         "itami-youji",
-        "yanagida-akira"
+        "yanagida-akira",
+        "kuribayashi-shino",
+        "tomita-akira",
+        "furuta-hitoshi"
       ],
       "emroy-cult": [
         "rory-mercury"
@@ -658,13 +905,17 @@
       ],
       "special-region-kingdoms-and-demi-humans": [
         "tuka-luna-marceau",
-        "tyuule"
+        "tyuule",
+        "yao-haa-dushi"
       ],
       "empire-peace-faction": [
-        "pina-co-lada"
+        "pina-co-lada",
+        "bozes-co-palesti",
+        "sherry-tyueli"
       ],
       "rose-order": [
-        "pina-co-lada"
+        "pina-co-lada",
+        "bozes-co-palesti"
       ],
       "empire-war-faction": [
         "zorzal-el-caesar",
@@ -672,12 +923,21 @@
       ],
       "apostles": [
         "giselle"
+      ],
+      "special-operations-group": [
+        "furuta-hitoshi"
+      ],
+      "dark-elves": [
+        "yao-haa-dushi"
       ]
     },
     "byPowerSystem": {
       "modern-military": [
         "itami-youji",
-        "yanagida-akira"
+        "yanagida-akira",
+        "kuribayashi-shino",
+        "tomita-akira",
+        "furuta-hitoshi"
       ],
       "apostles-gods": [
         "rory-mercury",
@@ -685,14 +945,20 @@
       ],
       "magic": [
         "lelei-la-lelena",
-        "tuka-luna-marceau"
+        "tuka-luna-marceau",
+        "yao-haa-dushi"
       ],
       "martial-training": [
-        "pina-co-lada"
+        "pina-co-lada",
+        "bozes-co-palesti"
       ],
       "political-authority": [
         "zorzal-el-caesar",
-        "tyuule"
+        "tyuule",
+        "sherry-tyueli"
+      ],
+      "dragon-and-monster-ecology": [
+        "yao-haa-dushi"
       ]
     },
     "byVisibility": {
@@ -705,7 +971,13 @@
         "zorzal-el-caesar",
         "tyuule",
         "yanagida-akira",
-        "giselle"
+        "giselle",
+        "kuribayashi-shino",
+        "tomita-akira",
+        "bozes-co-palesti",
+        "furuta-hitoshi",
+        "yao-haa-dushi",
+        "sherry-tyueli"
       ]
     },
     "majorCharacters": [
@@ -724,7 +996,13 @@
       "zorzal-el-caesar": "索沙尔·埃·凯撒",
       "tyuule": "蒂尤蕾",
       "yanagida-akira": "柳田明",
-      "giselle": "吉赛儿"
+      "giselle": "吉赛儿",
+      "kuribayashi-shino": "栗林志乃",
+      "tomita-akira": "富田章",
+      "bozes-co-palesti": "波赛斯·科·帕雷斯提",
+      "furuta-hitoshi": "古田均",
+      "yao-haa-dushi": "姚·哈·杜西",
+      "sherry-tyueli": "雪莉·堤艾利"
     },
     "byName": {
       "伊丹耀司": "itami-youji",
@@ -735,15 +1013,26 @@
       "索沙尔·埃·凯撒": "zorzal-el-caesar",
       "蒂尤蕾": "tyuule",
       "柳田明": "yanagida-akira",
-      "吉赛儿": "giselle"
+      "吉赛儿": "giselle",
+      "栗林志乃": "kuribayashi-shino",
+      "富田章": "tomita-akira",
+      "波赛斯·科·帕雷斯提": "bozes-co-palesti",
+      "古田均": "furuta-hitoshi",
+      "姚·哈·杜西": "yao-haa-dushi",
+      "雪莉·堤艾利": "sherry-tyueli"
     },
     "byAffiliation": {
       "third-recon-team": [
-        "itami-youji"
+        "itami-youji",
+        "kuribayashi-shino",
+        "tomita-akira"
       ],
       "jsdf-special-region-expeditionary-force": [
         "itami-youji",
-        "yanagida-akira"
+        "yanagida-akira",
+        "kuribayashi-shino",
+        "tomita-akira",
+        "furuta-hitoshi"
       ],
       "emroy-cult": [
         "rory-mercury"
@@ -758,13 +1047,17 @@
       ],
       "special-region-kingdoms-and-demi-humans": [
         "tuka-luna-marceau",
-        "tyuule"
+        "tyuule",
+        "yao-haa-dushi"
       ],
       "empire-peace-faction": [
-        "pina-co-lada"
+        "pina-co-lada",
+        "bozes-co-palesti",
+        "sherry-tyueli"
       ],
       "rose-order": [
-        "pina-co-lada"
+        "pina-co-lada",
+        "bozes-co-palesti"
       ],
       "empire-war-faction": [
         "zorzal-el-caesar",
@@ -772,6 +1065,12 @@
       ],
       "apostles": [
         "giselle"
+      ],
+      "special-operations-group": [
+        "furuta-hitoshi"
+      ],
+      "dark-elves": [
+        "yao-haa-dushi"
       ]
     },
     "byTag": {
@@ -841,6 +1140,40 @@
       ],
       "龙人": [
         "giselle"
+      ],
+      "第三侦查队": [
+        "kuribayashi-shino",
+        "tomita-akira"
+      ],
+      "格斗/火力支援": [
+        "kuribayashi-shino"
+      ],
+      "自卫官": [
+        "tomita-akira"
+      ],
+      "蔷薇骑士": [
+        "bozes-co-palesti"
+      ],
+      "贵族": [
+        "bozes-co-palesti"
+      ],
+      "厨师": [
+        "furuta-hitoshi"
+      ],
+      "情报协力": [
+        "furuta-hitoshi"
+      ],
+      "暗黑精灵": [
+        "yao-haa-dushi"
+      ],
+      "求援者": [
+        "yao-haa-dushi"
+      ],
+      "贵族少女": [
+        "sherry-tyueli"
+      ],
+      "外交线关键人": [
+        "sherry-tyueli"
       ]
     }
   }

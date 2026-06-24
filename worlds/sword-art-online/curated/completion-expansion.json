@@ -1,0 +1,165 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "sword-art-online",
+  "completionPass": "retry-12",
+  "sourceRefs": [
+    "src-sword-art-online-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/sword-art-online/source-registry.json",
+    "campaigns/world-library/worlds/sword-art-online/characters/characters.json",
+    "campaigns/world-library/worlds/sword-art-online/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/sword-art-online/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/sword-art-online/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/sword-art-online/power-systems/abilities.json",
+    "campaigns/world-library/worlds/sword-art-online/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/sword-art-online/locations/locations.json",
+    "campaigns/world-library/worlds/sword-art-online/factions/factions.json",
+    "campaigns/world-library/worlds/sword-art-online/sandbox/scenario-seeds.json",
+    "world-info-library/worlds/sword-art-online/curated/world.json",
+    "world-info-library/worlds/sword-art-online/curated/characters-index.json",
+    "world-info-library/worlds/sword-art-online/curated/knowledge-graph.json",
+    "world-info-library/worlds/sword-art-online/curated/relationship-graph.json"
+  ],
+  "curationScope": "补足 retry-12 要求的 SAO 艾恩葛朗特游戏篇章：人物、2022-2024 时间线、楼层/Boss/公会篇章、剑技与经济体系、地点、关系与 RP notes。",
+  "coverageNote": "本地归档显示 characters 30、canonArcs 10、fullPlot 6、timeline 3、abilities 32、powerSystems 18、locations 24、factions 30、scenarioSeeds 32；源资料集中在艾恩葛朗特与少量 Progressive/NPC 支线，本文件保持 SAO 死亡游戏边界。",
+  "characters": {
+    "corePlayers": [
+      {
+        "id": "kirito",
+        "name": "桐人",
+        "aliases": ["桐谷和人", "黑衣剑士"],
+        "role": "封测玩家、独行攻略者、二刀流持有者",
+        "rpUse": "可作为前线战斗、封测情报伦理、月夜黑猫团创伤和终局真相的核心 NPC。",
+        "stageLocks": ["二刀流在中后期作为特殊技能公开。", "封测知识带来优势也带来排斥。", "月夜黑猫团后更倾向独行和自责。"]
+      },
+      {
+        "id": "asuna",
+        "name": "结城明日奈",
+        "aliases": ["亚丝娜", "闪光"],
+        "role": "血盟骑士团副团长、细剑高手、前线指挥",
+        "rpUse": "适合前线攻略、KoB 政治、料理/休息日和与桐人的伙伴关系。",
+        "stageLocks": ["早期从绝望型玩家逐步成长为攻略组核心。", "KoB 职责会与个人选择冲突。"]
+      },
+      {
+        "id": "heathcliff-kayaba",
+        "name": "希兹克利夫 / 茅场晶彦",
+        "role": "血盟骑士团团长、神圣剑持有者、死亡游戏真相核心",
+        "rpUse": "终局前以无敌感和公会领袖形象存在；真实身份默认 GM-only。",
+        "visibility": "gm-only-until-final-duel"
+      },
+      {
+        "id": "argo",
+        "name": "阿尔戈",
+        "aliases": ["鼠之情报贩子"],
+        "role": "情报商、封测与攻略信息网络",
+        "rpUse": "用于楼层情报、玩家传闻、Progressive 支线和情报代价。"
+      },
+      {
+        "id": "agil",
+        "name": "艾基尔",
+        "role": "商人/战斗玩家",
+        "rpUse": "中立店铺、物资交换、前线补给和玩家社区支点。"
+      },
+      {
+        "id": "klein",
+        "name": "克莱因",
+        "role": "风林火山领队、开服友人",
+        "rpUse": "代表普通玩家中的义气、团队求生和前线支援。"
+      }
+    ],
+    "supportAndThreatAnchors": [
+      "莉兹贝特：生产玩家与武器素材冒险线，可把经济/素材系统转成关系事件。",
+      "西莉卡：驯兽师与低中等级玩家视角，适合使魔、复活道具和诱杀风险支线。",
+      "幸与启太/月夜黑猫团：新手小队悲剧线，严禁当普通可重复刷副本；应作为桐人创伤和死亡规则教育。",
+      "罗莎莉雅/泰坦之手：橙名诱杀和玩家犯罪入门威胁。",
+      "PoH 与微笑棺木：红名恐怖组织核心威胁，适合中后期 PK、审判和玩家道德崩坏。",
+      "辛卡与由莉耶儿：艾恩葛朗特解放军内部政治、救援与大型公会腐败线。",
+      "绮兹梅尔：Progressive 黑暗精灵 NPC，适合任务线深度和 NPC 自我意识主题。"
+    ],
+    "indexingPolicy": "后续若扩 characters-index，应为每人标注玩家/ NPC、前线/中层/生产/红名、死亡或存活状态、首次出现楼层和是否 Progressive 支线。"
+  },
+  "powerSystems": [
+    {
+      "id": "sword-skills-and-motion-lock",
+      "name": "剑技、预备动作与硬直",
+      "summary": "SAO 战斗以系统辅助剑技为核心：姿势触发、光效加速、命中判定、连击与硬直共同决定风险。",
+      "rpRules": ["每次高风险攻击声明武器、剑技、距离和硬直窗口。", "剑技不能无视 Boss 机制或队友站位。", "特殊技能如二刀流/神圣剑需按剧情阶段解锁，不能普遍发放。"],
+      "failureModes": ["硬直被抓", "耐久耗尽", "仇恨失控", "技能误判", "HP 进入红区"]
+    },
+    {
+      "id": "aincrad-floor-progression",
+      "name": "楼层攻略、迷宫区与 Boss 战",
+      "summary": "玩家通过探索野外、迷宫区、Boss 房和楼层主街区推进艾恩葛朗特；情报、侦查、会议和队伍分工决定攻略成败。",
+      "rpRules": ["Boss 战前至少经过侦查、攻略会议、补给和撤离方案。", "Last Attack Bonus 是诱因，也是队伍政治风险。", "楼层推进应改变资源、物价、安全区和玩家心理。"]
+    },
+    {
+      "id": "player-economy-and-crafting",
+      "name": "玩家经济、生产技能与资源管理",
+      "summary": "柯尔、掉落、锻造、料理、药水、传送水晶、素材稀缺和店铺信誉支撑死亡游戏的日常。",
+      "rpRules": ["出城前记录药水、水晶、装备耐久和备用武器。", "生产玩家不是背景板；武器升级、素材采集和委托可独立成篇。", "物价会随楼层开放、PK 风险和 Boss 失败波动。"]
+    },
+    {
+      "id": "pk-orange-red-and-crime",
+      "name": "橙名/红名、PK 与玩家犯罪",
+      "summary": "死亡游戏中玩家犯罪从诱杀、抢劫到红名公会恐怖化；系统颜色、监狱、复仇和审判构成道德压力。",
+      "rpRules": ["玩家死亡不可轻易回滚，除非开局就是 IF/测试沙盒。", "橙名误伤、红名谋杀和正当防卫需区分。", "微笑棺木事件应带来长期恐惧和前线安保变化。"]
+    },
+    {
+      "id": "nervegear-death-game-rules",
+      "name": "NerveGear 与死亡游戏规则",
+      "summary": "登出被封锁、HP 归零现实死亡、外部摘除 NerveGear 风险和 100 层攻略目标构成世界压迫。",
+      "rpRules": ["不要让外部救援无成本解除游戏。", "每次时间跳跃记录当前年月、攻略楼层、主要公会状态和死亡人数氛围。", "系统公告、菜单和安全区规则是叙事工具。"]
+    }
+  ],
+  "factionsAndLocations": {
+    "factions": [
+      {"id": "frontline-raid-group", "name": "攻略组", "role": "最前线玩家联盟，围绕 Boss 情报、资源、战利品和牺牲承担压力。"},
+      {"id": "knights-of-blood", "name": "血盟骑士团", "role": "精英公会，以希兹克利夫和亚丝娜为核心，象征秩序与前线权威。"},
+      {"id": "aincrad-liberation-force", "name": "艾恩葛朗特解放军", "role": "大型公会/军队化组织，适合内部政治、资源控制和救援任务。"},
+      {"id": "fuurinkazan", "name": "风林火山", "role": "克莱因带领的义气型玩家队伍，连接普通玩家和前线。"},
+      {"id": "neutral-merchants-and-crafters", "name": "中立商人/生产玩家", "role": "艾基尔、莉兹贝特等支撑装备、情报、店铺与玩家社区。"},
+      {"id": "laughing-coffin", "name": "微笑棺木与红名群体", "role": "PK 恐怖和道德崩坏的中后期威胁。"},
+      {"id": "npc-quest-lines", "name": "NPC/Progressive 任务阵营", "role": "绮兹梅尔等任务 NPC 用于探索系统与人格边界。"}
+    ],
+    "locations": [
+      {"id": "town-of-beginnings", "name": "起始之镇", "sceneUses": ["死亡游戏公告", "新手滞留", "低层经济", "安全区心理压力"]},
+      {"id": "floor-main-towns", "name": "各楼层主街区", "sceneUses": ["补给", "攻略会议", "传送门开放", "玩家社群"]},
+      {"id": "field-and-dungeons", "name": "野外练级区与迷宫区", "sceneUses": ["素材采集", "侦查", "陷阱", "野外 PK"]},
+      {"id": "boss-rooms", "name": "楼层 Boss 房", "sceneUses": ["攻略战", "战术阶段", "LA 奖励争夺", "死亡压力"]},
+      {"id": "kob-headquarters", "name": "血盟骑士团据点", "sceneUses": ["前线政治", "亚丝娜职责", "希兹克利夫伏笔"]},
+      {"id": "player-shops", "name": "玩家店铺/铁匠铺/酒馆", "sceneUses": ["装备升级", "情报买卖", "休息日", "委托"]},
+      {"id": "elf-war-quest-zones", "name": "精灵战争任务区", "sceneUses": ["绮兹梅尔", "Progressive 支线", "NPC 深度与阵营选择"], "visibility": "optional-progressive"}
+    ]
+  },
+  "timelineAndArcs": [
+    {"id": "timeline-2022-launch", "period": "2022", "beats": ["SAO 正式开服", "茅场晶彦公告死亡游戏", "玩家分化为封测者、新手、滞留者和早期攻略者", "第一层攻略与前线形成"]},
+    {"id": "timeline-2023-middle", "period": "2023", "beats": ["楼层持续推进", "经济和生产职业稳定", "月夜黑猫团等悲剧体现中低层风险", "橙名犯罪和前线政治加剧"]},
+    {"id": "timeline-2024-endgame", "period": "2024", "beats": ["前线进入高层", "KoB 权威与桐人/亚丝娜关系定型", "微笑棺木威胁深化", "第75层后终局真相与通关"]},
+    {"id": "arc-floor-boss-loop", "label": "标准楼层攻略循环", "beats": ["新楼层开放", "地图与怪物调查", "资源/装备准备", "攻略会议", "Boss 战", "战利品分配和伤亡处理"]},
+    {"id": "arc-guild-politics", "label": "公会政治与联盟", "beats": ["KoB 指挥", "ALS/ALF 资源压力", "独行玩家情报不对称", "中立商人调停"]},
+    {"id": "arc-crime-and-trauma", "label": "PK、诱杀与创伤", "beats": ["泰坦之手诱杀", "月夜黑猫团死亡", "微笑棺木讨伐", "玩家审判与心理后遗症"]},
+    {"id": "arc-progressive-elf-war", "label": "Progressive 精灵战争支线", "beats": ["绮兹梅尔相遇", "NPC 阵营任务", "楼层连续选择后果"], "visibility": "optional-branch"}
+  ],
+  "relationships": [
+    {"source": "桐人", "target": "亚丝娜", "type": "前线搭档/伴侣", "runtimeNote": "由攻略合作、休息日、互相保护和对死亡游戏意义的选择推进。"},
+    {"source": "桐人", "target": "封测玩家标签", "type": "优势/污名", "runtimeNote": "封测知识可救人也会被视为自私，需处理玩家舆论。"},
+    {"source": "亚丝娜", "target": "血盟骑士团", "type": "副团长/职责", "runtimeNote": "个人愿望与公会秩序冲突可推动中期剧情。"},
+    {"source": "桐人", "target": "月夜黑猫团", "type": "创伤/隐瞒等级后果", "runtimeNote": "该关系应影响他对新手队伍和独行选择的态度。"},
+    {"source": "阿尔戈", "target": "攻略组", "type": "情报交易", "runtimeNote": "信息有价格，公开或隐瞒都会改变伤亡与信任。"},
+    {"source": "希兹克利夫", "target": "SAO 系统", "type": "隐藏设计者", "runtimeNote": "终局前只通过异常防御、神圣剑和领导气质埋伏笔。"},
+    {"source": "微笑棺木", "target": "攻略组/普通玩家", "type": "恐怖威胁", "runtimeNote": "红名威胁应改变巡逻、组队和野外安全规则。"}
+  ],
+  "rpNotes": [
+    "开局必须锁定日期、当前楼层、玩家身份、死亡规则是否原样保留。",
+    "楼层攻略比单场战斗更重要：情报、补给、会议、分工和撤退路线都应上桌。",
+    "OC 可以是封测玩家、新手、生产玩家、情报商、攻略组或红名猎手；若取代桐人，需显式重写二刀流、月夜黑猫团和终局关系。",
+    "安全区不是绝对轻松区：经济、心理、诈骗、舆论和公会政治仍可推进剧情。",
+    "不要把后续 ALO/GGO/Alicization 能力混入 SAO 死亡游戏，除非开局声明跨篇 IF。"
+  ],
+  "residualGaps": [
+    "源资料偏艾恩葛朗特和少量 Progressive，后续篇章未纳入本扩展。",
+    "楼层 1-75 的逐层 Boss、城镇和掉落仍需后续细化。",
+    "characters-index 未使用统一 id/indices 结构，后续可标准化但本轮未改动既有文件。"
+  ]
+}

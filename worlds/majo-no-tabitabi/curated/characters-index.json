@@ -16,7 +16,9 @@
         "高阶魔法",
         "扫帚飞行"
       ],
-      "sourceStatus": "源条目多次作为关系核心提及"
+      "sourceStatus": "源条目多次作为关系核心提及",
+      "visibility": "public",
+      "summary": "旅行魔女、主角"
     },
     {
       "id": "saya",
@@ -36,7 +38,9 @@
       "sourceEntries": [
         0,
         1
-      ]
+      ],
+      "visibility": "public",
+      "summary": "来自东方国度的魔女、魔法统合协会成员"
     },
     {
       "id": "mina",
@@ -57,7 +61,9 @@
       ],
       "sourceEntries": [
         8
-      ]
+      ],
+      "visibility": "public",
+      "summary": "沙耶的妹妹、协会中坚魔女"
     },
     {
       "id": "fran",
@@ -77,7 +83,9 @@
       ],
       "sourceEntries": [
         2
-      ]
+      ],
+      "visibility": "public",
+      "summary": "伊蕾娜的师父、王立瑟雷斯特利亚教师"
     },
     {
       "id": "sheila",
@@ -97,7 +105,9 @@
       ],
       "sourceEntries": [
         "factions:席拉"
-      ]
+      ],
+      "visibility": "public",
+      "summary": "魔法统合协会中坚、沙耶与美奈的师父"
     },
     {
       "id": "victorica",
@@ -116,7 +126,9 @@
       ],
       "sourceEntries": [
         9
-      ]
+      ],
+      "visibility": "public",
+      "summary": "伊蕾娜的母亲、芙兰与席拉的师父"
     },
     {
       "id": "amnesia",
@@ -127,7 +139,10 @@
       "abilities": [],
       "sourceEntries": [
         4
-      ]
+      ],
+      "visibility": "public",
+      "summary": "源归档列名角色；本轮未获得足够正文，保守保留为待补人物。",
+      "notes": "待补：需后续阅读全文后再展开能力、地点与关系。"
     },
     {
       "id": "avilia",
@@ -138,7 +153,10 @@
       "abilities": [],
       "sourceEntries": [
         7
-      ]
+      ],
+      "visibility": "public",
+      "summary": "源归档列名角色；本轮未获得足够正文，保守保留为待补人物。",
+      "notes": "待补：需后续阅读全文后再展开能力、地点与关系。"
     },
     {
       "id": "estelle",
@@ -156,7 +174,9 @@
       ],
       "sourceEntries": [
         "factions:罗斯特洛夫"
-      ]
+      ],
+      "visibility": "public",
+      "summary": "时钟乡罗斯特洛夫的优秀魔女"
     },
     {
       "id": "selena",
@@ -169,7 +189,9 @@
       "abilities": [],
       "sourceEntries": [
         "factions:艾丝黛尔条目"
-      ]
+      ],
+      "visibility": "public",
+      "summary": "艾丝黛尔挚友与时间事件关键人物"
     },
     {
       "id": "unnamed-grey-witch",
@@ -185,7 +207,9 @@
       ],
       "sourceEntries": [
         2
-      ]
+      ],
+      "visibility": "public",
+      "summary": "芙兰幼年事件中的关键导师/时间悖论人物"
     }
   ],
   "nonCharacterEntriesNoted": [
@@ -195,9 +219,86 @@
   ],
   "worldId": "majo-no-tabitabi",
   "indices": {
-    "byId": {},
-    "byName": {},
-    "byAffiliation": {},
-    "byTag": {}
+    "byId": {
+      "elaina": 0,
+      "saya": 1,
+      "mina": 2,
+      "fran": 3,
+      "sheila": 4,
+      "victorica": 5,
+      "amnesia": 6,
+      "avilia": 7,
+      "estelle": 8,
+      "selena": 9,
+      "unnamed-grey-witch": 10
+    },
+    "byName": {
+      "伊蕾娜": "elaina",
+      "沙耶": "saya",
+      "美奈": "mina",
+      "芙兰": "fran",
+      "席拉": "sheila",
+      "维多利加": "victorica",
+      "艾姆妮西亚": "amnesia",
+      "艾维莉亚": "avilia",
+      "艾丝黛尔": "estelle",
+      "瑟琳娜": "selena",
+      "灰发的魔女": "unnamed-grey-witch"
+    },
+    "byAffiliation": {
+      "魔女": [
+        "elaina",
+        "fran",
+        "victorica",
+        "unnamed-grey-witch"
+      ],
+      "魔法统合协会": [
+        "saya",
+        "mina",
+        "sheila",
+        "estelle"
+      ],
+      "席拉门下": [
+        "saya",
+        "mina"
+      ],
+      "维多利加门下": [
+        "fran",
+        "sheila"
+      ]
+    },
+    "byTag": {
+      "旅行魔女、主角": [
+        "elaina"
+      ],
+      "来自东方国度的魔女、魔法统合协会成员": [
+        "saya"
+      ],
+      "沙耶的妹妹、协会中坚魔女": [
+        "mina"
+      ],
+      "伊蕾娜的师父、王立瑟雷斯特利亚教师": [
+        "fran"
+      ],
+      "魔法统合协会中坚、沙耶与美奈的师父": [
+        "sheila"
+      ],
+      "伊蕾娜的母亲、芙兰与席拉的师父": [
+        "victorica"
+      ],
+      "源归档列名角色": [
+        "amnesia",
+        "avilia"
+      ],
+      "时钟乡罗斯特洛夫的优秀魔女": [
+        "estelle"
+      ],
+      "艾丝黛尔挚友与时间事件关键人物": [
+        "selena"
+      ],
+      "芙兰幼年事件中的关键导师/时间悖论人物": [
+        "unnamed-grey-witch"
+      ]
+    }
   }
 }

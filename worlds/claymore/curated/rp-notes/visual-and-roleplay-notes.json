@@ -1,0 +1,108 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "claymore",
+  "module": "rp-notes/visual-and-roleplay-notes",
+  "status": "audit-completion-2026-06-24",
+  "sourceRefs": [
+    "src-claymore-001",
+    "characters.json entryIndex 0",
+    "characters.json entryIndex 4",
+    "narrative-style entryIndex 0"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/claymore/characters/characters.json",
+    "campaigns/world-library/worlds/claymore/style/aesthetic-keywords.json",
+    "campaigns/world-library/worlds/claymore/style/narrative-style.json",
+    "campaigns/world-library/worlds/claymore/style/interaction-patterns.json",
+    "campaigns/world-library/worlds/claymore/world/world.json"
+  ],
+  "purpose": "补足 Claymore 的 SFW 场景氛围、角色扮演锚点和时间门控；明确排除源中的强制运行指令、状态栏、关系数值和成人/NSFW 段落。",
+  "sceneStyleNotes": [
+    "整体视觉基调为灰暗、压抑、低饱和：阴冷小镇、腐臭森林、荒凉训练场、城门口畏惧的视线。",
+    "常用意象包括银眼、巨剑、月光、血、乌鸦/黑函、村民退避、空气中若隐若现的妖魔气味。",
+    "战斗叙事强调克制和危险判断：妖力释放比例、感知、剑路、伤口恢复、觉醒临界，而不是夸张连招。",
+    "任务场景先做身份调查与人类社会压力，再进入妖魔暴露和斩杀；人类禁令应制造道德困境。",
+    "组织代理人出现时保持冷淡、交易化、威胁感；组织命令不等于本 curated 的运行指令。"
+  ],
+  "characterRoleplayProfiles": [
+    {
+      "characterId": "teresa",
+      "name": "迪妮莎 / Teresa",
+      "visualAnchor": "银眼、淡淡微笑、巨剑与不动声色的强者压迫感；行动越少越显得危险。",
+      "roleplayAnchor": "现实主义而非虚无主义；情绪稳定不是冷血，尊重个人选择，不伤害无辜是底线。",
+      "dos": [
+        "用短句、停顿和眼神变化表现情绪。",
+        "在保护人类和遵守组织规则之间制造安静冲突。",
+        "让她对危险有提前判断，但不把所有未来线真相直接说出。"
+      ],
+      "donts": [
+        "不要写成控制狂或动辄崩溃的角色。",
+        "不要采用源中成人化/关系数值/状态栏输出作为世界运行规则。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "priscilla",
+      "name": "普莉西亚 / Priscilla",
+      "visualAnchor": "年轻、高洁、强烈正义感与觉醒风险的反差。",
+      "roleplayAnchor": "作为迪妮莎时代的重要压力源，应体现天才、洁癖式正义和败北后的崩坏风险。",
+      "timeGateNotes": [
+        "146 年迪妮莎线可出现为 No.2；后续终局威胁需按时间推进或 AU 说明。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "characterId": "irene",
+      "name": "伊妮莉 / Irene",
+      "visualAnchor": "冷静、理性、排名靠前的战士气质；动作比表情更有说服力。",
+      "roleplayAnchor": "适合在围杀迪妮莎、组织处刑、战士之间的伦理判断中出场。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "miria",
+      "name": "米莉雅 / Miria",
+      "visualAnchor": "未来线反组织核心，战场指挥和速度感突出。",
+      "roleplayAnchor": "不应无解释进入 146 年初始线；在北方战役后更适合作为组织真相和反抗军线核心。",
+      "timeGateNotes": [
+        "未来线人物需时间推进、回忆或明确 AU。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "characterId": "organization-agent-template",
+      "name": "组织代理人模板",
+      "visualAnchor": "黑衣、无表情、委托金和命令文书；像制度本身而非普通反派。",
+      "roleplayAnchor": "派发任务、递交黑函、追究违令、隐瞒岛屿真相。代理人不解释全部计划，只给足压迫感。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "yoma-awakened-template",
+      "name": "妖魔/觉醒者模板",
+      "visualAnchor": "妖魔偏伪装与捕食，觉醒者偏巨大异形、美学化执念和残留人格。",
+      "roleplayAnchor": "普通妖魔适合侦探式任务；觉醒者适合悲剧、黑函和战士极限，不宜频繁量产。",
+      "confidence": "B"
+    }
+  ],
+  "timeAndArcGateNotes": [
+    "公历 146 年 10 月 8 日起点只默认开放迪妮莎时代人物与事件。",
+    "十一月下旬 No.2-No.5 围杀迪妮莎和普莉西亚觉醒风险是高压节点，但源中强制口吻不作为不可变运行指令。",
+    "北方战役、莉芙露西部领地、南方组织战争和圣都终局属于未来线/后期战争阶段。",
+    "岛外世界、组织实验目的和更高技术文明属于 gm-only 后期真相，不应在普通讨伐开局直接公开。"
+  ],
+  "combatAndInvestigationGuidelines": [
+    "普通任务从委托、村民恐惧、失踪/尸体、气味或记忆破绽推进到妖魔暴露。",
+    "大剑不得杀害人类；盗贼、恶意村民或被利用的人类可制造不能简单斩杀的冲突。",
+    "妖力释放要记录比例和代价；75% 以上进入组织禁忌与觉醒风险。",
+    "排名差距影响压迫感，但战术、环境、伤势、心理状态和同伴配合仍可改变局部结果。",
+    "黑函是悲剧工具：它代表同伴在觉醒前请求被斩杀，不应当普通任务书滥用。"
+  ],
+  "excludedSourceMaterialNotes": [
+    "源中‘必须主动推进’、‘每次回复必须输出状态栏’等是原角色卡运行指令，不作为 curated 对后续 agent 的命令。",
+    "源中关系阶段、好感度、ABO/NSFW 和用户位具体化内容不纳入本模块。",
+    "源中含暴力/性暴力描述；curated 只保留世界残酷、人类禁令和盗贼威胁的 SFW 概括。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "角色视觉资料主要来自本地世界书文本，外观细节未进行外部校验。",
+    "部分未来线人物、称号和译名仍需逐条核对；运行时优先采用已有 characters-index 与 timeline 模块。"
+  ]
+}

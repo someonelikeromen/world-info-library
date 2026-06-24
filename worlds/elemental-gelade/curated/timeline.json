@@ -1,0 +1,225 @@
+{
+  "schema": "rp-timeline-v1",
+  "worldId": "elemental-gelade",
+  "routeBasis": "anime-song-structure",
+  "sourceRefs": [
+    "src-elemental-gelade-001"
+  ],
+  "confidence": "B",
+  "timeline": [
+    {
+      "id": "phase-01-awakening-flight",
+      "name": "苏醒、初次同契与护送承诺",
+      "entries": [
+        {
+          "episode": 1,
+          "title": "第一唱 空与风之歌",
+          "sourceEntryIndex": 16,
+          "summary": "库德在红山猫飞艇货物中发现沉睡的蕾；蕾苏醒并提出前往艾迪鲁庭园的愿望。"
+        },
+        {
+          "episode": 2,
+          "title": "第二唱 命运的契约",
+          "sourceEntryIndex": 17,
+          "summary": "敌袭围绕七煌宝树蕾展开，蕾与库德初次同契，飞艇坠落后与希丝卡同行。"
+        },
+        {
+          "episode": 3,
+          "title": "第三唱 背叛的七煌宝树",
+          "sourceEntryIndex": 18,
+          "summary": "蕾被夺走并被迫卷入假契约/背叛表象，库德的信任与救援决心受考验。"
+        },
+        {
+          "episode": 4,
+          "title": "第四唱 光与暗之石",
+          "sourceEntryIndex": 19,
+          "summary": "比总相关危机解决，光暗之石与同契障碍强调核石、信任和战斗意志的联系。"
+        },
+        {
+          "episode": 5,
+          "title": "第五唱 那天的落泪",
+          "sourceEntryIndex": 20,
+          "summary": "强盗将蕾视作道具的冲突推动库德接受训练，明确圣战天使不是武器物品的主题。"
+        }
+      ],
+      "branchHooks": [
+        "放弃蕾或将其交出会导致护送约定破裂，应作为坏结局/回溯节点处理。"
+      ]
+    },
+    {
+      "id": "phase-02-trust-training-hunters",
+      "name": "使用者资格、同唱决心与猎人压力",
+      "entries": [
+        {
+          "episode": 6,
+          "title": "第六唱 使用者的凝视",
+          "sourceEntryIndex": 21,
+          "summary": "旅途中继续检验使用者如何看待圣战天使，关系从单纯护送走向相互理解。"
+        },
+        {
+          "episode": 7,
+          "title": "第七唱 对同唱的决心",
+          "sourceEntryIndex": 22,
+          "summary": "同契不只是力量借用，而是双方共唱与意志同步；队伍对战斗方式形成共识。"
+        },
+        {
+          "episode": 8,
+          "title": "第八唱 战栗的煌珠猎人",
+          "sourceEntryIndex": 23,
+          "summary": "煌珠猎人的威胁公开化，蕾作为七煌宝树的稀有性引来持续追捕。"
+        },
+        {
+          "episode": 9,
+          "title": "第九唱 港市的秘密",
+          "sourceEntryIndex": 24,
+          "summary": "港市补给与情报交换暴露地方黑幕，为地下赌斗场篇铺垫。"
+        }
+      ],
+      "branchHooks": [
+        "玩家可选择保护、交易、潜入、公开对抗等路径，但不得把圣战天使写成无意志装备。"
+      ]
+    },
+    {
+      "id": "phase-03-arena-sisters",
+      "name": "港市赌斗场与拉萨蒂/莉莉雅支线",
+      "entries": [
+        {
+          "episode": 10,
+          "title": "第十唱 爱与欲望的赌斗场",
+          "sourceEntryIndex": 25,
+          "summary": "队伍进入地下赌斗场，金钱、欲望和圣战天使交易风险成为支线核心。"
+        },
+        {
+          "episode": 11,
+          "title": "第十一唱 复仇之赌斗士",
+          "sourceEntryIndex": 26,
+          "summary": "拉萨蒂为妹妹莉莉雅的自由参战，竞技场老板玛鲁的骗局与贩卖阴谋被揭露。"
+        },
+        {
+          "episode": 12,
+          "title": "第十二唱 向着自由奔跑",
+          "sourceEntryIndex": 27,
+          "summary": "赌斗场支线收束，主题从偿债和控制转向姐妹自由与继续旅程。"
+        }
+      ],
+      "branchHooks": [
+        "袖手旁观会让拉萨蒂和莉莉雅继续被地下规则吞没，应记录为坏结局/回溯节点。"
+      ]
+    },
+    {
+      "id": "phase-04-arc-aile-and-road",
+      "name": "保护协会介入、旅途村镇与猎人回流",
+      "entries": [
+        {
+          "episode": 13,
+          "title": "第十三唱 天使守护队",
+          "sourceEntryIndex": 28,
+          "summary": "Arc Aile/天使守护队作为制度化保护组织被推到台前，队伍与组织立场继续磨合。"
+        },
+        {
+          "episode": 14,
+          "title": "第十四唱 煌珠猎人，重现",
+          "sourceEntryIndex": 29,
+          "summary": "猎人压力再次出现，保护、监管和自由的边界形成反复冲突。"
+        },
+        {
+          "episode": 15,
+          "title": "第十五唱 大风车之村",
+          "sourceEntryIndex": 30,
+          "summary": "村镇旅途段强调地方生活、风与机械的世界美学，以及队伍在路上的日常选择。"
+        },
+        {
+          "episode": 16,
+          "title": "第十六唱 追忆之枪弹",
+          "sourceEntryIndex": 31,
+          "summary": "希丝卡/枪械侧的过去与保护协会行动逻辑被补强，非同契战力也具有叙事价值。"
+        }
+      ],
+      "branchHooks": [
+        "协会可作为盟友、监管者或临时冲突方；不要简单写成绝对正义。"
+      ]
+    },
+    {
+      "id": "phase-05-false-react-sting-raid",
+      "name": "身份反转、虚伪同契与拟煌珠真相",
+      "entries": [
+        {
+          "episode": 17,
+          "title": "第十七唱 波澜的邂逅",
+          "sourceEntryIndex": 32,
+          "summary": "旅途中出现身份与阵营有阶段性反转的邂逅，扩大人际和势力不确定性。"
+        },
+        {
+          "episode": 18,
+          "title": "第十八唱 虚伪之同契",
+          "sourceEntryIndex": 33,
+          "summary": "伪装、强迫或不平等的同契被作为反面例子，衬托真正共唱的伦理基础。"
+        },
+        {
+          "episode": 19,
+          "title": "第十九唱 小石子的心意",
+          "sourceEntryIndex": 34,
+          "summary": "小事件承载人物心意与信任累积，为终盘前的情感选择蓄力。"
+        },
+        {
+          "episode": 20,
+          "title": "第二十唱 拟煌珠",
+          "sourceEntryIndex": 35,
+          "summary": "拟煌珠/Sting Raid作为人造劣化圣战天使技术登场，揭示混沌圣歌把生命武器化的残酷。"
+        },
+        {
+          "episode": 21,
+          "title": "第二十一唱 明朗化的真相",
+          "sourceEntryIndex": 36,
+          "summary": "关于拟煌珠、艾迪鲁庭园和敌对组织的核心真相逐步明朗。"
+        }
+      ],
+      "branchHooks": [
+        "薇罗等阶段性反转人物细节低置信，应在具体使用前回读源条目。"
+      ]
+    },
+    {
+      "id": "phase-06-garden-chaos-finale",
+      "name": "埋葬传说、艾迪鲁庭园与终局",
+      "entries": [
+        {
+          "episode": 22,
+          "title": "第二十二唱 埋葬的传说",
+          "sourceEntryIndex": 37,
+          "summary": "被埋葬的传说推动队伍接近艾迪鲁庭园真相，乐园叙事开始转向阴谋和支配风险。"
+        },
+        {
+          "episode": 23,
+          "title": "第二十三唱 约定与乐园的真相",
+          "sourceEntryIndex": 38,
+          "summary": "蕾前往庭园的约定与乐园真相发生碰撞，护送目标不再只是抵达地点。"
+        },
+        {
+          "episode": 24,
+          "title": "第二十四唱 艾迪鲁庭园",
+          "sourceEntryIndex": 39,
+          "summary": "队伍抵达/接近艾迪鲁庭园，庭园作为圣战天使诞生地和敌对势力据点的双重性凸显。"
+        },
+        {
+          "episode": 25,
+          "title": "第二十五唱 混沌圣歌",
+          "sourceEntryIndex": 40,
+          "summary": "混沌圣歌/欧尔凯那德作为视圣战天使为统治工具的对立组织进入终局正面冲突。"
+        },
+        {
+          "episode": 26,
+          "title": "第二十六唱 天空与未来之歌",
+          "sourceEntryIndex": 41,
+          "summary": "天空、未来与共唱主题收束；RP中不固定终局，应由同契双方意志和势力选择决定后续。"
+        }
+      ],
+      "branchHooks": [
+        "终盘可分为解放庭园、破坏支配技术、救出被控制者或偏离原作路线；漫画差异未纳入。"
+      ]
+    }
+  ],
+  "curationNotes": [
+    "按源文件的第一至第二十六唱标题与已有长条目整理，未逐字压缩完整剧情。",
+    "第二十一唱以后涉及真相和终局，当前只做RP安全摘要，具体场景应回读 sourceEntryIndex。"
+  ]
+}

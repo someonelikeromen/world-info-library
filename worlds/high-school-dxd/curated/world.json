@@ -89,6 +89,159 @@
         "精神负担和宿主适性。"
       ],
       "compatibilityNotes": []
+    },
+    {
+      "id": "dragon-power",
+      "name": "龙/龙神体系",
+      "category": "mythic-race-power",
+      "principle": "赤龙帝、白龙皇、奥菲斯和伟大之赤等龙格存在提供超规格力量。",
+      "classification": [
+        "Race",
+        "Myth",
+        "Energy"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "龙力",
+      "energyTraits": [
+        {
+          "tag": "draconic",
+          "level": "S",
+          "description": "随宿主器量、神器阶段和龙格源头差异巨大。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "龙力",
+        "神器宿主精神",
+        "龙魂契约"
+      ],
+      "commonAbilities": [
+        "倍增/减半",
+        "龙铠",
+        "龙化"
+      ],
+      "limitations": [
+        "龙神级存在不应作为常规战斗单位；需按剧情阶段锁定。"
+      ],
+      "compatibilityNotes": [
+        "与神灭具、恶魔棋子和圣剑等可发生融合或冲突。"
+      ]
+    },
+    {
+      "id": "holy-demonic-forces",
+      "name": "圣力/魔力/光力相克",
+      "category": "alignment-energy",
+      "principle": "恶魔、天使、堕天使和教会圣剑士使用属性相克的能量体系。",
+      "classification": [
+        "Magic",
+        "Divine",
+        "Race"
+      ],
+      "energySource": "external/internal",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "圣力/魔力/光力",
+      "energyTraits": [
+        {
+          "tag": "holy",
+          "level": "A",
+          "description": "对恶魔高危。"
+        },
+        {
+          "tag": "demonic",
+          "level": "A",
+          "description": "恶魔魔法和毁灭之力等。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "祈祷",
+        "魔力",
+        "光之枪",
+        "圣剑/魔剑"
+      ],
+      "commonAbilities": [
+        "净化",
+        "光枪",
+        "恶魔魔法",
+        "圣魔剑融合"
+      ],
+      "limitations": [
+        "恶魔承受圣力会受伤；混血和神器可制造例外。"
+      ],
+      "compatibilityNotes": [
+        "木场圣魔剑、朱乃雷光等是冲突属性融合案例。"
+      ]
+    },
+    {
+      "id": "senjutsu-youjutsu",
+      "name": "仙术/妖术",
+      "category": "youkai-ki",
+      "principle": "妖怪和修行者操控气、生命力与自然灵力。",
+      "classification": [
+        "Ki",
+        "Youkai",
+        "Technique"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "气/自然灵力",
+      "energyTraits": [
+        {
+          "tag": "ki",
+          "level": "B",
+          "description": "可感知生命、干涉气脉并强化体术。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "气",
+        "妖力",
+        "修行"
+      ],
+      "commonAbilities": [
+        "气脉攻击",
+        "分身/变化",
+        "妖术结界"
+      ],
+      "limitations": [
+        "过度使用可能污染精神或暴露妖怪身份。"
+      ],
+      "compatibilityNotes": [
+        "猫又黑歌/小猫线、京都妖怪界适用。"
+      ]
+    },
+    {
+      "id": "rating-game",
+      "name": "排名游戏/眷族战规则",
+      "category": "devil-sport-politics",
+      "principle": "恶魔贵族以眷族棋子和规则化战斗评定实力、政治地位与队伍成长。",
+      "classification": [
+        "Social",
+        "CombatRule"
+      ],
+      "energySource": "none",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "棋子配置",
+        "场地规则",
+        "裁判/转播",
+        "家族声望"
+      ],
+      "commonAbilities": [
+        "战术编组",
+        "升变",
+        "规则胜利"
+      ],
+      "limitations": [
+        "规则战不等于生死战；政治压力可干扰公平性。"
+      ],
+      "compatibilityNotes": [
+        "适合把眷族成长转为团队战术。"
+      ]
     }
   ],
   "factions": [
@@ -160,6 +313,194 @@
       "normalizationNotes": [
         "knownMembers unresolved (not present in characters-index ids): michael"
       ]
+    },
+    {
+      "id": "fallen-angels",
+      "name": "堕天使阵营",
+      "type": "supernatural-faction",
+      "summary": "以阿萨谢尔为代表，使用光力并研究神器，后期参与和平框架。",
+      "powerSystemAffinity": [
+        "sacred-gear",
+        "holy-demonic-forces"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "variable",
+      "knownMembers": [
+        "azazel",
+        "raynare"
+      ],
+      "territories": [
+        "人界据点",
+        "堕天使据点"
+      ],
+      "resources": [
+        "神器研究",
+        "光之枪"
+      ],
+      "conflicts": [
+        "gremory-peerage"
+      ],
+      "aliases": [
+        "堕天使"
+      ]
+    },
+    {
+      "id": "church-exorcists",
+      "name": "教会/驱魔师/圣剑士",
+      "type": "religious-military",
+      "summary": "圣剑、圣力和驱魔术体系，洁诺薇亚、伊莉娜等从此线接入。",
+      "powerSystemAffinity": [
+        "holy-demonic-forces",
+        "sacred-gear"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "hostile-to-devils-early",
+      "knownMembers": [
+        "xenovia-quarta",
+        "irina-shidou",
+        "michael"
+      ],
+      "territories": [
+        "教会据点",
+        "天界"
+      ],
+      "resources": [
+        "圣剑",
+        "圣水",
+        "祈祷体系"
+      ],
+      "conflicts": [
+        "devils",
+        "fallen-angels"
+      ],
+      "aliases": [
+        "教会",
+        "驱魔师"
+      ]
+    },
+    {
+      "id": "sitri-peerage",
+      "name": "西迪眷族/学生会",
+      "type": "devil-peerage",
+      "summary": "苍那·西迪率领的驹王学院学生会，与吉蒙里眷族既竞争又合作。",
+      "powerSystemAffinity": [
+        "devil-piece",
+        "sacred-gear"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "formal-friendly",
+      "knownMembers": [
+        "sona-sitri"
+      ],
+      "territories": [
+        "驹王学院",
+        "西迪领地"
+      ],
+      "resources": [
+        "学生会网络",
+        "排名游戏经验"
+      ],
+      "conflicts": [],
+      "aliases": [
+        "西迪眷族"
+      ]
+    },
+    {
+      "id": "khaos-brigade",
+      "name": "祸之团/旧魔王派",
+      "type": "terror-network",
+      "summary": "以奥菲斯名义被利用的跨神话恐怖网络，包含旧魔王派、英雄派等分支。",
+      "powerSystemAffinity": [
+        "dragon-power",
+        "sacred-gear",
+        "holy-demonic-forces"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "hostile",
+      "knownMembers": [
+        "ophis",
+        "vali-lucifer",
+        "cao-cao",
+        "kuroka"
+      ],
+      "territories": [
+        "次元间隙",
+        "各神话暗线"
+      ],
+      "resources": [
+        "神器宿主",
+        "龙神名义",
+        "跨神话盟友"
+      ],
+      "conflicts": [
+        "three-factions",
+        "gremory-peerage"
+      ],
+      "aliases": [
+        "祸之团",
+        "Khaos Brigade"
+      ]
+    },
+    {
+      "id": "vali-team",
+      "name": "瓦利队",
+      "type": "rogue-team",
+      "summary": "白龙皇瓦利为核心的游离强者队伍，既可敌对也可临时合作。",
+      "powerSystemAffinity": [
+        "dragon-power",
+        "sacred-gear"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "challenge-seeking",
+      "knownMembers": [
+        "vali-lucifer",
+        "kuroka"
+      ],
+      "territories": [
+        "流动据点"
+      ],
+      "resources": [
+        "白龙皇",
+        "强者网络"
+      ],
+      "conflicts": [
+        "gremory-peerage"
+      ],
+      "aliases": [
+        "瓦利队"
+      ]
+    },
+    {
+      "id": "kyoto-youkai",
+      "name": "京都妖怪势力",
+      "type": "youkai-polity",
+      "summary": "以八坂和京都为中心的日本妖怪势力，连接小猫/黑歌仙术线。",
+      "powerSystemAffinity": [
+        "senjutsu-youjutsu"
+      ],
+      "publicRules": [],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "protective",
+      "knownMembers": [
+        "kuroka"
+      ],
+      "territories": [
+        "京都妖怪界"
+      ],
+      "resources": [
+        "妖力",
+        "结界",
+        "神社网络"
+      ],
+      "conflicts": [],
+      "aliases": [
+        "京都妖怪界"
+      ]
     }
   ],
   "energyEnvironment": {
@@ -205,14 +546,32 @@
     "冥界",
     "天界",
     "次元间隙",
-    "京都妖怪界"
+    "京都妖怪界",
+    "吉蒙里领地/城堡",
+    "教会据点",
+    "堕天使据点",
+    "西迪学生会室",
+    "祸之团隐匿据点",
+    "瓦利队流动据点",
+    "北欧神话界/阿斯加德"
   ],
   "publicEvents": [
     "评级游戏",
-    "三大势力和平会谈"
+    "三大势力和平会谈",
+    "圣剑事件",
+    "莱萨·菲尼克斯婚约评级游戏",
+    "京都妖怪骚动"
   ],
   "hiddenEvents": [
     "奥菲斯与祸之团行动",
-    "神器宿主争夺"
+    "神器宿主争夺",
+    "旧魔王派渗透",
+    "瓦利队接触",
+    "英雄派与黄昏圣枪行动",
+    "龙神奥菲斯被利用"
+  ],
+  "sourceRefs": [
+    "src-high-school-dxd-001",
+    "src-high-school-dxd-002"
   ]
 }

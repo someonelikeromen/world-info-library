@@ -1,0 +1,165 @@
+{
+  "schema": "rp-curation-completion-addendum-v1",
+  "worldId": "overlord",
+  "stepId": "retry-09",
+  "status": "layered-supplement",
+  "sourceEvidence": {
+    "readableSources": [
+      "campaigns/world-library/worlds/overlord/characters/characters.json",
+      "campaigns/world-library/worlds/overlord/factions/factions.json",
+      "campaigns/world-library/worlds/overlord/locations/locations.json",
+      "campaigns/world-library/worlds/overlord/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/overlord/power-systems/abilities.json",
+      "campaigns/world-library/worlds/overlord/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/overlord/canon-reference/timeline.json",
+      "campaigns/world-library/worlds/overlord/assets/items.json",
+      "campaigns/world-library/worlds/overlord/species/species.json"
+    ],
+    "sourceCategoryCounts": {
+      "characters": 129,
+      "factions": 106,
+      "locations": 91,
+      "powerSystems": 104,
+      "abilities": 124,
+      "arcs": 88,
+      "timeline": 2,
+      "plotSummary": 3,
+      "items": 75,
+      "species": 124
+    },
+    "sourceRisks": [
+      "源档大量混入状态变量、剧情推进规则和输出检查文本；本补记仅提取世界资料层。",
+      "部分条目是二次跑团模板或章节演化文本，可靠度低于原作资料；需要后续逐章校对。"
+    ]
+  },
+  "coverageAdditions": {
+    "characterLayers": [
+      {
+        "layer": "纳萨力克最高层",
+        "members": ["安兹·乌尔·恭/飞鼠/飞飞", "雅儿贝德", "迪米乌哥斯", "夏提雅·布拉德弗伦", "科塞特斯", "亚乌菈", "马雷", "赛巴斯·蒂安", "潘多拉·亚克特"],
+        "rpUse": "统治决策、误解喜剧、征服规划和内部忠诚压力。"
+      },
+      {
+        "layer": "昴宿星团与纳萨力克执行层",
+        "members": ["由莉·阿尔法", "露普斯蕾琪娜·贝塔", "娜贝拉尔·伽玛", "希姿·德尔塔", "索留香·艾普西隆", "艾多玛·巴西利莎·泽塔", "欧蕾儿·欧米伽"],
+        "rpUse": "潜入、护卫、外交伪装、暗杀和对外任务。"
+      },
+      {
+        "layer": "早期人类侧",
+        "members": ["安莉·艾默特", "涅姆·艾默特", "恩弗雷亚·巴雷亚雷", "莉琪·巴雷亚雷", "漆黑之剑小队", "克莱门汀", "卡吉特"],
+        "rpUse": "卡恩村、耶·兰提尔、冒险者身份和亡灵事件。"
+      },
+      {
+        "layer": "王国与帝国政治",
+        "members": ["拉娜·提耶儿·夏尔敦·莱尔·凡瑟芙", "克莱姆", "布莱恩·安格劳斯", "葛杰夫·史托罗诺夫", "雷布恩侯", "吉尔克尼弗"],
+        "rpUse": "王都阴谋、贵族腐败、骑士忠诚和帝国外交恐惧。"
+      },
+      {
+        "layer": "区域强者与后续国家线",
+        "members": ["白金龙王", "绝死绝命", "圣王国关键人物", "矮人国与蜥蜴人部族代表"],
+        "rpUse": "后期国家线与新世界顶级战力占位；需后续细化。"
+      }
+    ],
+    "factionLayers": [
+      {
+        "id": "great-tomb-of-nazarick",
+        "name": "纳萨力克地下大坟墓",
+        "summary": "安兹与守护者的绝对核心，拥有压倒性等级、道具、NPC忠诚和多层防御。"
+      },
+      {
+        "id": "re-estize-kingdom",
+        "name": "里·耶斯提杰王国",
+        "summary": "腐败贵族、贫弱王权、战士长和王都地下势力交错，是纳萨力克对人类国家施压的早期舞台。"
+      },
+      {
+        "id": "baharuth-empire",
+        "name": "巴哈斯帝国",
+        "summary": "皇帝吉尔克尼弗主导的强权国家，因安兹力量展示而进入恐惧外交。"
+      },
+      {
+        "id": "slane-theocracy",
+        "name": "斯连教国",
+        "summary": "人类至上和神人/世界级道具线索集中地，与夏提雅事件和后期龙王势力相关。"
+      },
+      {
+        "id": "carne-village",
+        "name": "卡恩村",
+        "summary": "安兹早期施恩地点，安莉、恩弗雷亚和哥布林军队使其成为新世界变化的缩影。"
+      },
+      {
+        "id": "adventurer-guilds-and-underworld",
+        "name": "冒险者公会与地下组织",
+        "summary": "飞飞身份、八指、工作者和情报网络用于低阶互动与伪装行动。"
+      }
+    ],
+    "powerSystemLayers": [
+      {
+        "id": "yggdrasil-level-and-class-system",
+        "summary": "等级、种族职业、职业职业、HP/MP/属性和技能构成纳萨力克战力基础；100级 NPC 与新世界凡人存在巨大断层。"
+      },
+      {
+        "id": "tier-magic-and-super-tier",
+        "summary": "位阶魔法与超位魔法来自 YGGDRASIL 体系，新世界也存在本土位阶魔法但平均层级较低。"
+      },
+      {
+        "id": "martial-arts-and-talents",
+        "summary": "新世界武技、天赋、职业和特殊血统可在低中等级形成局部优势，但通常难以正面对抗纳萨力克顶层。"
+      },
+      {
+        "id": "world-items",
+        "summary": "世界级道具能造成常规规则外效果，是威胁高阶 NPC 或抵消同级权能的少数手段。"
+      },
+      {
+        "id": "undead-and-race-traits",
+        "summary": "不死者、异形种、龙、恶魔、天使等种族特性影响精神、恐惧、生命、恢复和支配效果。"
+      }
+    ],
+    "arcLayers": [
+      {
+        "title": "卡恩村与新世界降临",
+        "anchors": ["纳萨力克", "卡恩村", "王国边境"],
+        "function": "安兹试探新世界、救下安莉姐妹并建立最早外部影响。"
+      },
+      {
+        "title": "飞飞冒险者线",
+        "anchors": ["耶·兰提尔", "冒险者公会", "药师任务", "克莱门汀/卡吉特事件"],
+        "function": "伪装收集情报、建立声望并清理早期亡灵阴谋。"
+      },
+      {
+        "title": "蜥蜴人部族征服",
+        "anchors": ["湿地村落", "科塞特斯试炼", "纳萨力克军事演习"],
+        "function": "展示纳萨力克征服逻辑与守护者成长。"
+      },
+      {
+        "title": "王都与八指",
+        "anchors": ["王都", "地下组织", "赛巴斯/琪雅蕾线"],
+        "function": "将人类政治腐败、守护者价值观和纳萨力克介入城市阴影连接。"
+      },
+      {
+        "title": "帝国、王国战争与魔导国",
+        "anchors": ["卡兹平原", "巴哈斯帝国", "耶·兰提尔"],
+        "function": "安兹公开压倒性力量并推动魔导国成立。"
+      }
+    ],
+    "locationLayers": [
+      "纳萨力克地下大坟墓各楼层与玉座之间",
+      "卡恩村及周边森林",
+      "要塞都市耶·兰提尔",
+      "里·耶斯提杰王都与贵族领",
+      "巴哈斯帝国首都与竞技/魔法研究设施",
+      "斯连教国、龙王活动区、圣王国与矮人国后续舞台"
+    ],
+    "relationshipPriorities": [
+      "安兹-守护者：绝对忠诚、误读命令和统治压力。",
+      "安兹-雅儿贝德/迪米乌哥斯：情感执着、战略误解与政策执行。",
+      "安兹-人类侧：飞飞伪装、恩惠、恐惧和利益交换并存。",
+      "纳萨力克-王国/帝国/教国：从试探、威慑到统治的外交升级。",
+      "世界级道具持有者-纳萨力克：少数能制造真实风险的隐藏对抗。"
+    ]
+  },
+  "residualGaps": [
+    "未将 129 个候选人物逐条去重成角色索引；建议下一轮按纳萨力克、王国/帝国、教国/圣王国/龙王三批拆分。",
+    "world.json 仍有部分标准字段为空，已有旧版 coreSystems/majorLocations 可用；后续可迁移到统一字段。",
+    "后期国家线和龙王/教国世界级道具资料仍需原作校对；源可靠度偏低。"
+  ]
+}

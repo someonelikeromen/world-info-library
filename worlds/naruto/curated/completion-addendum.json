@@ -1,0 +1,143 @@
+{
+  "schema": "rp-curation-completion-addendum-v1",
+  "worldId": "naruto",
+  "stepId": "retry-09",
+  "status": "layered-supplement",
+  "sourceEvidence": {
+    "readableSources": [
+      "campaigns/world-library/worlds/naruto/reports/classification-report.md",
+      "campaigns/world-library/worlds/naruto/characters/characters.json",
+      "campaigns/world-library/worlds/naruto/factions/factions.json",
+      "campaigns/world-library/worlds/naruto/locations/locations.json",
+      "campaigns/world-library/worlds/naruto/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/naruto/power-systems/abilities.json",
+      "campaigns/world-library/worlds/naruto/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/naruto/canon-reference/timeline.json"
+    ],
+    "sourceCategoryCounts": {
+      "characters": 583,
+      "factions": 418,
+      "locations": 566,
+      "powerSystems": 545,
+      "abilities": 640,
+      "arcs": 100,
+      "timeline": 45,
+      "plotSummary": 64
+    },
+    "sourceRisks": [
+      "多个 worldbook 混杂技术变量、状态栏、沙盒触发器与正文章目；本补记只归纳世界资料，不移植控制文本。",
+      "部分源文件存在编码损坏或同名条目重复，人物状态必须按具体开局时间线二次确认。"
+    ]
+  },
+  "coverageAdditions": {
+    "characterLayers": [
+      {
+        "layer": "第七班与导师",
+        "members": ["漩涡鸣人", "宇智波佐助", "春野樱", "旗木卡卡西", "大和", "佐井"],
+        "rpUse": "默认主线交互核心；佐助离村、佐井加入和大和代理队长需按时间点切换。"
+      },
+      {
+        "layer": "木叶十二小强与同期",
+        "members": ["日向雏田", "奈良鹿丸", "山中井野", "秋道丁次", "犬冢牙", "油女志乃", "洛克李", "日向宁次", "天天"],
+        "rpUse": "补足学园、联合任务、中忍考试和木叶防卫场景；应在后续拆成单独人物条。"
+      },
+      {
+        "layer": "村级领袖与导师",
+        "members": ["猿飞日斩", "纲手", "自来也", "大蛇丸", "波风水门", "千手柱间", "千手扉间", "志村团藏"],
+        "rpUse": "承接木叶政治、三忍线、火影传承、暗部/根部秘密和秽土转生信息。"
+      },
+      {
+        "layer": "晓与幕后威胁",
+        "members": ["长门/佩恩", "小南", "宇智波鼬", "干柿鬼鲛", "迪达拉", "蝎", "飞段", "角都", "绝", "宇智波带土", "宇智波斑", "大筒木辉夜"],
+        "rpUse": "尾兽猎捕、雨隐统治、月之眼计划和后期世界级威胁的分层索引。"
+      },
+      {
+        "layer": "各村人柱力与影",
+        "members": ["我爱罗", "奇拉比", "照美冥", "大野木", "艾", "罗砂", "历代人柱力"],
+        "rpUse": "五影会谈、忍界大战和尾兽平衡需要的关键 NPC 池。"
+      }
+    ],
+    "factionLayers": [
+      {
+        "id": "five-great-villages",
+        "name": "五大忍村",
+        "members": ["木叶隐村", "砂隐村", "雾隐村", "云隐村", "岩隐村"],
+        "conflicts": ["任务委托竞争", "尾兽军事平衡", "忍界大战后的互信不足"],
+        "rpUse": "区域政治和跨村任务的默认大框架。"
+      },
+      {
+        "id": "hidden-villages-minor",
+        "name": "小国忍村与特殊据点",
+        "members": ["雨隐村", "草隐村", "泷隐村", "音隐村", "铁之国武士势力"],
+        "conflicts": ["大国代理战争", "叛忍庇护", "实验基地与禁术交易"],
+        "rpUse": "低到中强度支线、叛忍追踪和战争遗留问题。"
+      },
+      {
+        "id": "bloodline-clans",
+        "name": "血继与秘术家族",
+        "members": ["宇智波一族", "日向一族", "奈良一族", "山中一族", "秋道一族", "油女一族", "犬冢一族", "辉夜一族", "漩涡一族"],
+        "conflicts": ["宗家/分家制度", "灭族与血继争夺", "秘术外流风险"],
+        "rpUse": "家族政治、能力继承和秘密揭露。"
+      }
+    ],
+    "timelineLayers": [
+      {
+        "era": "忍村建立前后",
+        "anchors": ["六道仙人与尾兽起源", "战国时代", "木叶建立", "宇智波与千手决裂"],
+        "visibility": "gm-only"
+      },
+      {
+        "era": "本篇前史",
+        "anchors": ["三次忍界大战", "神无毗桥", "九尾袭击木叶", "宇智波灭族"],
+        "visibility": "private"
+      },
+      {
+        "era": "少年篇",
+        "anchors": ["第七班成立", "波之国任务", "中忍考试", "木叶崩溃", "佐助夺还"],
+        "visibility": "public"
+      },
+      {
+        "era": "疾风传与大战",
+        "anchors": ["我爱罗夺还", "晓猎捕尾兽", "佩恩袭击木叶", "五影会谈", "第四次忍界大战", "无限月读"],
+        "visibility": "locked-until-era"
+      }
+    ],
+    "powerSystemLayers": [
+      {
+        "id": "chakra-nature-and-form",
+        "summary": "查克拉使用分性质变化、形态变化、体术强化和经络控制；火/风/雷/土/水与阴阳遁构成大多数术的基础。"
+      },
+      {
+        "id": "ocular-bloodlines",
+        "summary": "写轮眼、万花筒、轮回眼、白眼等瞳术需区分血统、移植、觉醒条件和消耗。"
+      },
+      {
+        "id": "sealing-and-summoning",
+        "summary": "封印术与通灵契约是跨阵营战略资源，可封锁尾兽、结界、情报或物资。"
+      },
+      {
+        "id": "senjutsu-and-six-paths",
+        "summary": "仙术、六道之力和大筒木层级应作为高阶状态，避免开局泛用。"
+      }
+    ],
+    "locationLayers": [
+      "木叶隐村与火之国任务圈",
+      "砂隐/风之国与中忍考试后续",
+      "雨隐村和晓的隐秘控制区",
+      "龟岛、云隐与奇拉比训练线",
+      "终末之谷、南贺神社、宇智波据点等秘密揭露地点"
+    ],
+    "relationshipPriorities": [
+      "鸣人-佐助：竞争、救赎与最终对照。",
+      "鸣人-九尾/ Kurama：从封印威胁到协力伙伴的阶段关系。",
+      "佐助-鼬-木叶高层：复仇动机、真相反转和政治黑幕。",
+      "自来也-长门-鸣人：和平理念的传承与失败样本。",
+      "五影-忍者联军：战争阶段从互疑转向临时联盟。"
+    ]
+  },
+  "residualGaps": [
+    "未将 583 个候选人物逐条规范化为角色索引；建议下一轮按木叶同期、晓、五影/人柱力三个小批次拆分。",
+    "未建立逐人物战斗评级；需区分常态、咒印、仙人、尾兽化、秽土、六道等条件。",
+    "未解决原 worldbook 的时间线变体与用户主角替代规则；跑团前需锁定 era 和主角模式。"
+  ]
+}

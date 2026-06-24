@@ -1,0 +1,131 @@
+{
+  "schema": "rp-lore-v1",
+  "worldId": "dungeon-fighter-online",
+  "sourceRefs": [
+    "src-dfo-canon-timeline-entry-99",
+    "src-dfo-factions-archive",
+    "src-dfo-locations-archive"
+  ],
+  "entries": [
+    {
+      "id": "lore-tera-and-great-will",
+      "title": "泰拉、卡洛索与创世纪号",
+      "visibility": "private",
+      "summary": "伟大意志卡洛索与12位人造神之战导致泰拉灭亡；艾泽拉·洛伊率泰拉人乘创世纪号逃离并在阿拉德定居，魔界作为泰拉残片继续漂流。",
+      "rpUse": "可作为高阶远古文明、暴戾搜捕团、使徒计划与宇宙级背景的秘密线索。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "lore-life-water",
+      "title": "生命之水传说",
+      "visibility": "private",
+      "summary": "魔界流传生命之水传说，据称赫尔德在行星阿古朗达发现并带回，喝下可获得永生；多位使徒因传闻或赫尔德劝说来到魔界。",
+      "rpUse": "适合作为使徒动机、赫尔德操盘、远古遗物争夺或伪情报主题；不要默认角色已确认其真实性。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "lore-grand-magic-array",
+      "title": "大魔法阵与精灵牺牲",
+      "visibility": "public",
+      "summary": "大魔法师玛尔在中央沙漠设下大魔法阵，使之适合人类居住；格兰之火后精灵牺牲维持大魔法阵，阻止天空之海淹没阿拉德。",
+      "rpUse": "可承载森林遗迹、精灵消失、魔法阵维护、灾害倒计时和贝尔玛尔建国背景。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-locations-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "lore-venus-curse-and-dark-elves",
+      "title": "维纳斯诅咒与暗精灵起源",
+      "visibility": "public",
+      "summary": "因矮人国王奥古斯都阴谋，美神维纳斯诅咒降临，暗精灵由此诞生；阿拉贡整合暗精灵，攻占诺伊佩拉并与矮人关系恶化。",
+      "rpUse": "适合暗精灵外交、矮人旧怨、诅咒考古、诺伊佩拉历史调查。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-factions-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "lore-kazan-ozma-blood-curse",
+      "title": "卡赞、奥兹玛与血之诅咒",
+      "visibility": "private",
+      "summary": "卡赞与奥兹玛曾为佩鲁斯主力，讨伐狂龙赫斯后相继死亡；随后血之诅咒、伪装者与奥兹玛复仇引出暗黑圣战。",
+      "rpUse": "可作为鬼手、鬼泣、圣职者、暗黑圣战、德洛斯继承危机的共同源头。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "lore-bakal-magic-ban",
+      "title": "巴卡尔封杀魔法令",
+      "visibility": "public",
+      "summary": "巴卡尔降临天界后成为统治者，为对抗赫尔德施行封杀魔法令，使天界进入黑暗时代，并间接推动天界机械文明崛起。",
+      "rpUse": "解释天界科技路线、机械七战神、神枪手文化与反巴卡尔组织动机。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "lore-gbl-and-great-blue-truth",
+      "title": "蓝色真谛与天帷巨兽遗迹",
+      "visibility": "public",
+      "summary": "莱斯利·贝伊兰斯在天帷巨兽背部发现古代遗迹并创建追求伟大蓝色真理的组织；罗特斯降临后大部分求知者被精神支配，奥菲利亚是已知幸存者。",
+      "rpUse": "适合遗迹探索、精神污染、幸存者救援、古代知识争夺。",
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "lore-seon-mist-and-sky-seal",
+      "title": "神界、雾神与天之印",
+      "visibility": "private",
+      "summary": "神界曾出现雾神、无云之夜、迷雾发展与天之印；通道破坏千年后，冒险家与各国代表重返神界并抵达白海和晴烟。",
+      "rpUse": "作为后期扩展线索；本轮缺少神界细节，不宜扩写组织结构。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "C"
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "lore-grand-magic-array",
+        "lore-venus-curse-and-dark-elves",
+        "lore-bakal-magic-ban",
+        "lore-gbl-and-great-blue-truth"
+      ],
+      "private": [
+        "lore-tera-and-great-will",
+        "lore-life-water",
+        "lore-kazan-ozma-blood-curse",
+        "lore-seon-mist-and-sky-seal"
+      ]
+    },
+    "byTag": {
+      "ancient": [
+        "lore-tera-and-great-will",
+        "lore-life-water",
+        "lore-grand-magic-array"
+      ],
+      "curse": [
+        "lore-venus-curse-and-dark-elves",
+        "lore-kazan-ozma-blood-curse"
+      ],
+      "late-game": [
+        "lore-seon-mist-and-sky-seal"
+      ]
+    }
+  }
+}

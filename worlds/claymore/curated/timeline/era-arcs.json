@@ -1,0 +1,122 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "claymore",
+  "module": "timeline/era-arcs",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-claymore-001",
+    "characters.json entryIndex 0",
+    "characters.json entryIndex 8"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/claymore/world/world.json",
+    "campaigns/world-library/worlds/claymore/factions/factions.json",
+    "campaigns/world-library/worlds/claymore/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/claymore/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/claymore/characters/characters.json"
+  ],
+  "curationPolicy": "源中含主线推进指令和成人/状态栏内容；本模块只保留 SFW 世界时间、战争阶段和角色可用性约束。",
+  "timeline": [
+    {
+      "id": "teresa-start-146-10-08",
+      "name": "公历146年10月8日：迪妮莎时代起点",
+      "summary": "源设定以迪妮莎作为主要可扮演/核心 NPC 的时期开始；此时 No.1 迪妮莎仍在组织调度下行动。",
+      "activeCharacters": [
+        "teresa",
+        "priscilla",
+        "irene",
+        "sophia",
+        "noel",
+        "organization-agents"
+      ],
+      "rpUse": "适合低信息量、压抑旅行、妖魔讨伐、组织命令与人类禁令冲突。",
+      "confidence": "B"
+    },
+    {
+      "id": "teresa-hunt-late-146",
+      "name": "146年晚秋：迪妮莎追杀/围杀节点",
+      "summary": "源指出十一月下旬会出现 No.2-No.5 围杀迪妮莎，普莉西亚在败北后走向觉醒风险。",
+      "activeCharacters": [
+        "teresa",
+        "priscilla",
+        "irene",
+        "sophia",
+        "noel"
+      ],
+      "rpUse": "作为高压节点，玩家只能影响局部选择、逃亡、情报或支援，不应轻易抹消组织铁律。",
+      "confidence": "B",
+      "notes": "源中的强制推进口吻不作为运行时指令；只作为时间线事实/钩子。"
+    },
+    {
+      "id": "post-teresa-gap",
+      "name": "迪妮莎事件后至未来线间隔",
+      "summary": "迪妮莎时代之后至少跨越到后续主线人物活动期；未来线人物不应无解释出现在 146 年初始线。",
+      "activeCharacters": [
+        "organization",
+        "future-warriors-as-locked"
+      ],
+      "rpUse": "可用作训练、组织改造、黑函和觉醒者传闻阶段。",
+      "confidence": "C"
+    },
+    {
+      "id": "pieta-northern-war",
+      "name": "北方战役 / 皮埃塔之战",
+      "summary": "大剑与北方觉醒者军团冲突，战士开始质疑组织。",
+      "activeCharacters": [
+        "miria",
+        "future-warriors",
+        "awakened-beings",
+        "isley"
+      ],
+      "rpUse": "战场生存、撤退、战友牺牲和反组织意识萌芽。",
+      "confidence": "B"
+    },
+    {
+      "id": "western-riful-war",
+      "name": "西部之战 / 莉芙露领地",
+      "summary": "与莉芙露、达夫等觉醒者势力发生冲突。",
+      "activeCharacters": [
+        "liful",
+        "duff",
+        "future-warriors"
+      ],
+      "rpUse": "适合觉醒者谈判、陷阱、救援和半觉醒风险。",
+      "confidence": "B"
+    },
+    {
+      "id": "southern-organization-war",
+      "name": "南方之战 / 组织总部附近",
+      "summary": "米莉雅组建反抗军，对抗组织及新世代战士；拉花娜与露西艾拉同归于尽被源列为高潮。",
+      "activeCharacters": [
+        "miria",
+        "rafaela",
+        "luciela",
+        "organization",
+        "new-generation-warriors"
+      ],
+      "rpUse": "组织阴谋、叛逃、代理人追杀和战士身份选择。",
+      "confidence": "B"
+    },
+    {
+      "id": "rabona-final-war",
+      "name": "最终圣都拉波勒之战",
+      "summary": "全部大剑/反抗力量对抗普莉西亚等终局威胁。",
+      "activeCharacters": [
+        "priscilla",
+        "surviving-warriors",
+        "human-settlements"
+      ],
+      "rpUse": "终局战役，不建议作为初始低级开局直接启用。",
+      "confidence": "B"
+    }
+  ],
+  "timeGateRules": [
+    "146 年初始线只开放迪妮莎时代人物；未来线人物需要时间推进、回忆或明确 AU 说明。",
+    "组织黑函、代理人命令和人类禁令是推动冲突的主要工具。",
+    "源中的玩家槽位、强制剧情和成人段落不作为 curated 运行指令。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中‘拉琪/拉基’等译名与常见译名可能不一致，沿用 curated 现名并标注待核。",
+    "rigaldo 被源列为南之深渊者，与常见资料可能冲突；相关条目不在本文件强化。"
+  ]
+}

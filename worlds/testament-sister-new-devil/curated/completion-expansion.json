@@ -1,0 +1,83 @@
+{
+  "schema": "rp-world-completion-expansion-v1",
+  "worldSlug": "testament-sister-new-devil",
+  "displayName": "新妹魔王的契约者",
+  "completionPass": "retry-13",
+  "sourceAssessment": {
+    "primarySourceId": "src-testament-sister-new-devil-001",
+    "sourceType": "user-file-source / character-card-or-worldbook-derived-archive with adultized contract rewrite",
+    "reliability": "B",
+    "readPaths": [
+      "campaigns/world-library/worlds/testament-sister-new-devil/source-registry.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/characters/characters.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/world/world.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/factions/factions.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/canon-reference/full-plot.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/canon-reference/plot-summary.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/testament-sister-new-devil/power-systems/abilities.json"
+    ],
+    "curationBoundary": "主从契约、梦魔与契约副作用在源中有成人化表达；本扩展只保留契约、保护、定位、魔力连接、誓约、政治斗争和战斗规则。",
+    "confidenceNotes": [
+      "卷剧情来源覆盖第一至十三卷、番外/LIGHT/SWEET/EX，但源为世界书整理，不等同官方逐字正史。",
+      "人物和势力按现有 characters-index 与源 comments 归纳，低置信人物不强行扩写。"
+    ]
+  },
+  "characterCoverage": [
+    {"id": "toujou-basara", "name": "东城刃更", "functionForRp": "家庭共同体核心、前勇者相关少年、守护澪和万理亚的行动中心。", "relationshipNotes": ["与成濑澪存在主从契约和家人式保护关系", "与成濑万理亚由契约事故和共同生活绑定", "与东城迅构成父子和隐秘血脉线"], "powerNotes": ["无次元的执行", "勇者系战斗素养", "三族血脉/神格相关后期风险"], "sourceRefs": ["src-testament-sister-new-devil-001"]},
+    {"id": "naruse-mio", "name": "成濑澪", "functionForRp": "前任魔王威尔贝特之力继承者，多方争夺目标。", "relationshipNotes": ["刃更保护对象与契约对象", "万理亚随从/家人", "魔界政治的焦点"], "powerNotes": ["魔王之力", "高输出魔力", "情绪与安全感影响力量稳定"], "sourceRefs": ["src-testament-sister-new-devil-001"]},
+    {"id": "naruse-maria", "name": "成濑万理亚", "functionForRp": "梦魔少女、契约推动者、日常与任务之间的情报/调解角色。", "relationshipNotes": ["澪的随从", "刃更家共同体成员"], "powerNotes": ["梦魔魔力", "契约知识", "魔界情报"], "sourceRefs": ["src-testament-sister-new-devil-001"]},
+    {"id": "hasegawa-chisato", "name": "长谷川千里", "functionForRp": "学校保健老师表层身份下的神族/阿芙蕾亚相关庇护者。", "relationshipNotes": ["暗中庇护刃更等人", "与神界规则和誓约限制相关"], "powerNotes": ["神格相关权能", "庇护与限制并存"], "sourceRefs": ["src-testament-sister-new-devil-001"]},
+    {"id": "leohart", "name": "雷欧哈特", "functionForRp": "现任魔王与魔界新秩序代表，可从敌手转为政治协商对象。", "relationshipNotes": ["与稳健派、枢机院和澪的魔王之力构成魔界政治三角", "与莉雅菈等阵营成员相关"], "powerNotes": ["魔王级魔力", "魔界统治权"], "sourceRefs": ["src-testament-sister-new-devil-001"]},
+    {"id": "nonaka-yuki", "name": "野中柚希", "functionForRp": "勇者一族旧识与协作者，连接刃更过去和勇者阵营。", "relationshipNotes": ["刃更青梅竹马", "野中胡桃相关", "勇者一族命令与个人选择的冲突点"], "powerNotes": ["勇者系灵力", "结界/武装战斗"], "sourceRefs": ["src-testament-sister-new-devil-001"]}
+  ],
+  "factions": [
+    {"id": "toujou-household", "name": "东城家共同体", "role": "刃更、澪、万理亚及后续同伴形成的家人式防线。", "rpUse": "日常据点、保护目标、契约与共同生活冲突。"},
+    {"id": "hero-clans", "name": "勇者一族", "role": "讨伐魔族与维持秩序的血脉/组织网络。", "rpUse": "命令、追杀、旧友对立、协作转向。"},
+    {"id": "current-demon-lord-faction", "name": "现任魔王派", "role": "雷欧哈特统治下的魔界政权。", "rpUse": "政治谈判、魔界篇、军事压力。"},
+    {"id": "moderate-faction", "name": "稳健派", "role": "反对单纯夺权或战争的魔界政治力量。", "rpUse": "秘密同盟、护送、谈判筹码。"},
+    {"id": "cardinal-institute", "name": "枢机院", "role": "魔界内部幕后政治/阴谋势力。", "rpUse": "内乱、背叛、暗杀和权力夺取。"},
+    {"id": "divine-side", "name": "神族/神界势力", "role": "远古三界冲突的上位规则来源，与长谷川千里真实身份相关。", "rpUse": "神格、誓约限制、后期东京决战。"}
+  ],
+  "timeline": [
+    {"order": 1, "period": "远古", "event": "神界、人界、魔界由远古争端分裂，魔族被放逐至异次元魔界。", "visibility": "gm-lore"},
+    {"order": 2, "period": "前史", "event": "前任魔王威尔贝特死亡，其魔王之力成为成濑澪被争夺的核心。", "visibility": "public-lore"},
+    {"order": 3, "period": "第一卷", "event": "澪与万理亚进入东城家，刃更与她们形成家人式共同体并出现主从契约。", "visibility": "public-lore"},
+    {"order": 4, "period": "第二至四卷", "event": "勇者一族、魔族袭击与日常守护交织，刃更阵营逐步扩大。", "visibility": "public-lore"},
+    {"order": 5, "period": "第五至七卷", "event": "魔界政治冲突升级，现任魔王派、稳健派和枢机院角力并爆发决战。", "visibility": "public-lore"},
+    {"order": 6, "period": "第八至十三卷", "event": "神格、东京决战、圣女誓约与永恒誓言等后期事件推进三族冲突。", "visibility": "public-lore"},
+    {"order": 7, "period": "番外", "event": "LIGHT/SWEET/EX 等补充日常、温泉、节日和关系加深片段。", "visibility": "optional-arc"}
+  ],
+  "arcs": [
+    {"id": "contract-miscalculation", "title": "新妹魔王与契约的误算", "setup": "澪和万理亚搬入东城家，刃更被卷入魔界与勇者追杀。", "conflicts": ["身份保密", "契约误启动", "保护与命令冲突"], "rpEntryPoints": ["转学生入住", "夜间袭击", "勇者旧友来访"]},
+    {"id": "hero-dusk", "title": "灼热之契与勇者的黄昏", "setup": "勇者一族开始直接介入澪的问题。", "conflicts": ["消灭命令", "旧友情义", "魔王之力失控风险"], "rpEntryPoints": ["圣坂学园监视", "勇者会议", "保护任务"]},
+    {"id": "demon-realm-war", "title": "魔界冲突与决战", "setup": "刃更阵营进入魔界，卷入现任魔王派、稳健派与枢机院斗争。", "conflicts": ["魔界城市与竞技场", "阵营谈判", "枢机院阴谋"], "rpEntryPoints": ["维尔达城外交", "伦德瓦尔城潜入", "古代都市拉达线索"]},
+    {"id": "divine-oath", "title": "神格与永恒誓言", "setup": "长谷川千里/阿芙蕾亚相关神族线进入主冲突。", "conflicts": ["神界规则", "三族血脉", "圣女誓约"], "rpEntryPoints": ["保健室秘密", "东京结界异常", "誓约代价选择"]}
+  ],
+  "powerSystems": [
+    {"id": "master-servant-contract", "name": "主从契约", "rules": ["以魔法阵、誓词与灵魂连接建立上下级或保护关系", "可用于定位、魔力联系、守护誓约和状态反馈", "curated 不使用成人化触发、惩罚或攻略规则"], "knownBranches": ["逆向契约", "契约感应", "誓约绑定"]},
+    {"id": "hero-spirit-power", "name": "勇者灵力", "rules": ["勇者一族和神族侧常用的强化与武装能量", "可构筑结界、强化肉体或驱动神格武装", "与魔力相克但可在混血/例外个体中并存"], "knownBranches": ["结界术", "灵力武装", "勇者剑技"]},
+    {"id": "demonic-power", "name": "魔力/魔王之力", "rules": ["魔族与魔王血脉的力量源", "澪继承的魔王之力会引来政治争夺", "情绪、契约和血脉状态影响输出稳定"], "knownBranches": ["魔王级魔力", "梦魔术式", "魔界贵族能力"]},
+    {"id": "banishing-shift", "name": "无次元的执行", "rules": ["东城刃更核心能力，可切断或消除空间、结界或特定异能效果", "适合处理束缚、结界和高阶术式，但不应无限制解决所有冲突"], "knownBranches": ["空间切断", "术式破坏", "结界消除"]}
+  ],
+  "relationshipAdditions": [
+    {"from": "toujou-basara", "to": "naruse-mio", "type": "protector-contract-family", "note": "刃更保护澪并通过契约和共同生活形成家人关系。"},
+    {"from": "naruse-maria", "to": "naruse-mio", "type": "servant-family", "note": "万理亚作为梦魔随从与澪共同进入东城家。"},
+    {"from": "toujou-basara", "to": "nonaka-yuki", "type": "childhood-friend-hero-clan", "note": "勇者旧识带来情感与命令冲突。"},
+    {"from": "leohart", "to": "current-demon-lord-faction", "type": "ruler", "note": "雷欧哈特代表现任魔王派秩序。"},
+    {"from": "hasegawa-chisato", "to": "divine-side", "type": "hidden-identity", "note": "长谷川千里与神族/阿芙蕾亚线相关。"},
+    {"from": "cardinal-institute", "to": "naruse-mio", "type": "political-threat", "note": "枢机院围绕魔王之力与魔界权力布局。"}
+  ],
+  "rpNotes": {
+    "recommendedPlayerRoles": ["圣坂学园转学生", "勇者一族旁支", "魔界稳健派使者", "东城家邻居/协力者", "神族观察者"],
+    "toneGuidelines": ["现代校园日常与高风险异界政治并行", "家人共同体优先", "契约作为保护与责任机制", "战斗后果应影响阵营关系"],
+    "doNotUse": ["成人化契约触发", "攻略法则", "变量/输出格式控制文本", "露骨梦魔描写"],
+    "safeRewritePatterns": ["将契约副作用改写为魔力共鸣、疲劳或定位反应", "将成人化场面改写为关系压力、誓约代价或信任考验", "将卷号剧情转换为可选 RP 篇章，不直接向角色宣告小说卷号"]
+  },
+  "remainingGaps": [
+    "部分低频角色仅在源 comments 中出现，阵营与能力未完全可证。",
+    "番外卷事件成人化密度高，本次只保留日常/关系补充层。",
+    "神族远古史仍依赖源世界观摘要，需官方资料时再细化。"
+  ]
+}

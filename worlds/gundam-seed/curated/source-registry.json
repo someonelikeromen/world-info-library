@@ -25,5 +25,8 @@
       "resolution": "初版聚焦 SEED 本篇主干，续作内容需另行标注。"
     }
   ],
-  "campaignId": "gundam-seed"
+  "campaignId": "gundam-seed",
+  "registryNotes": [
+    "2026-06-24 retry-05: curated expanded from preserved source archive; cross-read README/curation-notes/manifest and retained low-confidence gaps."
+  ]
 }

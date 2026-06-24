@@ -20,4 +20,5 @@
 
 ## 验证状态
 
-未运行机器 JSON 校验；JSON 为人工编写。
+- retry-13 新增 `completion-expansion.json`，覆盖人物、势力、旧约早期时间线、篇章、能力体系、关系和 RP notes。
+- 2026-06-24 运行 Python `json.load` 校验本目录全部 JSON：通过。

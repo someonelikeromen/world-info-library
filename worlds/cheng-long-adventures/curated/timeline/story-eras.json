@@ -1,0 +1,110 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cheng-long-adventures",
+  "module": "timeline/story-eras",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cheng-long-adventures-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cheng-long-adventures/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/factions/factions.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/locations/locations.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/raw/imported-worldbooks/成龙历险记世界 (1).worldbook.json"
+  ],
+  "curationPolicy": "源年表文件为空，但 power/faction/location 分类中保留了时代剧情；本模块按源条目最小拆分时代。",
+  "eras": [
+    {
+      "id": "ancient-demon-rule",
+      "name": "上古恶魔统治与洛佩封印",
+      "sourceEntryHints": [
+        "power-systems entryIndex 2"
+      ],
+      "summary": "圣主曾依靠火之魔气、十二符咒和恶魔魔法统治世界；约九百年前，洛佩以石化与提取魔咒将圣主变成雕像，并把其魔力分成十二符咒。",
+      "rpEntryPoints": [
+        "寻找洛佩遗留咒文或古代封印道具。",
+        "某个符咒被误认为普通文物出土。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "talisman-hunt",
+      "name": "寻觅符咒时代",
+      "sourceEntryHints": [
+        "power-systems entryIndex 1",
+        "power-systems entryIndex 2"
+      ],
+      "summary": "瓦龙继承圣主雕像，黑手帮为复活圣主与成龙一方争夺十二符咒；圣主短暂复活后背弃瓦龙并在香港宫殿引发终局危机。",
+      "rpEntryPoints": [
+        "新势力抢夺某枚符咒。",
+        "十三区需要外部顾问协助收容。",
+        "黑手帮成员为金鸡王宝藏或佣金接受任务。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "demon-portal-era",
+      "name": "群魔乱舞时代",
+      "sourceEntryHints": [
+        "factions entryIndex 3",
+        "locations entryIndex 3"
+      ],
+      "summary": "圣主死亡后灵魂回到恶魔地狱并附身瓦龙，利用盘库宝盒寻找恶魔之门释放七大恶魔；八仙神明信物成为再封印关键。",
+      "rpEntryPoints": [
+        "恶魔之门提前开启或地点发生偏移。",
+        "盘库宝盒被第三方盗走。",
+        "小玉/特鲁/老爹的气魔法事故造成地狱短暂泄漏。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "book-of-ages-and-dark-chi",
+      "name": "岁月史书与黑气巫师支线",
+      "sourceEntryHints": [
+        "locations entryIndex 4"
+      ],
+      "summary": "圣主尝试利用岁月史书改写历史，之后刀龙等黑气巫师围绕黑气、石像和圣斗士/正气遗产引发支线危机。",
+      "rpEntryPoints": [
+        "局部历史被改写但只有少数人保留记忆。",
+        "刀龙或黑气追随者争夺被封印的黑气。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "shadowkhan-era",
+      "name": "鬼影兵团/面具时代",
+      "sourceEntryHints": [
+        "world.json existing era",
+        "characters-index tarakudo"
+      ],
+      "summary": "塔拉、尼嘉及鬼影面具把普通人或熟人变成鬼影军团宿主；面具越多，城市渗透与精神侵蚀越强。",
+      "rpEntryPoints": [
+        "普通人戴上面具成为区域小 Boss。",
+        "小玉或校园线被鬼影刺青/面具误触发。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "demon-chi-era",
+      "name": "恶魔魔气时代",
+      "sourceEntryHints": [
+        "world.json existing era"
+      ],
+      "summary": "八大恶魔被封印后，其魔气仍可寄宿、转移或被黑气势力利用，使旧敌以新形态回归。",
+      "rpEntryPoints": [
+        "玩家或 NPC 被某种恶魔魔气短期影响。",
+        "正气与黑气因某次胜利重新失衡。"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "continuityRules": [
+    "正气与黑气维持动态平衡；击败一种邪恶后，新邪恶或旧力量变体可能出现。",
+    "符咒、盘库宝盒、岁月史书、鬼影面具都应有收容/反制/代价，不宜作为玩家永久无代价装备。",
+    "喜剧冒险节奏优先：危机严重但解决方式常依赖误打误撞、家庭互助和咒语材料。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "本地源可靠度标为 B/C，且部分时代叙述含戏谑口吻；本模块抽象为可用时间线，不逐字采用口吻。",
+    "canonTimeline 分类为空；时代顺序由世界书剧情条目和既有 curated world.json 交叉整理。"
+  ]
+}

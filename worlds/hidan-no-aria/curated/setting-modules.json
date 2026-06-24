@@ -1,0 +1,255 @@
+{
+  "schema": "rp-setting-modules-extension-v1",
+  "worldId": "hidan-no-aria",
+  "sourceRefs": [
+    "src-hidan-no-aria-001"
+  ],
+  "curationConfidence": "C",
+  "plotArcs": [
+    {
+      "id": "school-case",
+      "name": "东京武侦高校任务",
+      "summary": "日常委托、训练、搭档磨合和突发劫持/追车开局。",
+      "lowConfidence": true
+    },
+    {
+      "id": "aria-family",
+      "name": "亚里亚/福尔摩斯线",
+      "summary": "神崎家、冤案、双枪双剑和高压家族使命。",
+      "lowConfidence": true
+    },
+    {
+      "id": "shirayuki-hoshiga",
+      "name": "白雪/星伽神社线",
+      "summary": "鬼道术、青梅竹马保护欲与封印职责。",
+      "lowConfidence": true
+    },
+    {
+      "id": "reki-sniper",
+      "name": "蕾姬狙击线",
+      "summary": "远程支援、沉默少女、任务伦理和超远距离战术。",
+      "lowConfidence": true
+    },
+    {
+      "id": "iu-retainers",
+      "name": "伊・幽/眷属线",
+      "summary": "历史名人后裔、怪盗、吸血鬼与地下秩序残党。",
+      "lowConfidence": true
+    },
+    {
+      "id": "organization-n",
+      "name": "N/接轨线",
+      "summary": "莫里亚蒂、色金与异世界莱克忒亚；后期高危分支。",
+      "lowConfidence": true
+    },
+    {
+      "id": "vlad-riko-mansion",
+      "name": "弗拉德/红鸣馆篇",
+      "summary": "理子、罗宾秘宝、红鸣馆潜入和横滨陆标塔决战，适合潜入与协作。",
+      "lowConfidence": true
+    },
+    {
+      "id": "london-royal-butei",
+      "name": "伦敦王室武侦篇",
+      "summary": "亚里亚 R 级武侦、华生、梅露爱特和 MI6 线，适合海外调查。",
+      "lowConfidence": true
+    },
+    {
+      "id": "nautilus-lactea",
+      "name": "鹦鹉螺号/莱克忒亚篇",
+      "summary": "N、尼莫、异世界公会和接轨危机，将案件推向世界线尺度。",
+      "lowConfidence": true
+    }
+  ],
+  "factions": [
+    {
+      "id": "tokyo-butei-high",
+      "name": "东京武侦高",
+      "summary": "半军事化教育机构，拥有武装自治与实务委托制度。"
+    },
+    {
+      "id": "butei-departments",
+      "name": "武侦各科",
+      "summary": "强袭、侦探、狙击、车辆、谍报、卫生等构成专业生态。"
+    },
+    {
+      "id": "tooyama-family",
+      "name": "远山家",
+      "summary": "HSS/爆发模式血统与战斗技术传承。"
+    },
+    {
+      "id": "kanzaki-holmes",
+      "name": "神崎家/福尔摩斯血脉",
+      "summary": "亚里亚的家族与侦探宿命。"
+    },
+    {
+      "id": "iu",
+      "name": "伊・幽/I-U",
+      "summary": "旧全球地下秩序与超常犯罪人才汇集点。"
+    },
+    {
+      "id": "division",
+      "name": "师团",
+      "summary": "维持现有秩序的武侦、情报机关与古老家族联盟。"
+    },
+    {
+      "id": "retainers",
+      "name": "眷属",
+      "summary": "超自然族群与激进能力者阵营。"
+    },
+    {
+      "id": "organization-n",
+      "name": "N/Nautilus",
+      "summary": "推动第三次接轨的后期组织；低置信。",
+      "lowConfidence": true
+    },
+    {
+      "id": "baskerville-team",
+      "name": "巴斯克维尔小队",
+      "summary": "金次周边核心搭档网络，可承接校园任务、追捕与超常战。"
+    },
+    {
+      "id": "iu-remnants",
+      "name": "伊・U残党",
+      "summary": "伊・幽瓦解后散落的后裔、怪盗与超常犯罪者。",
+      "lowConfidence": true
+    },
+    {
+      "id": "lactea-guild",
+      "name": "莱克忒亚公会",
+      "summary": "异世界接轨后的后期敌对/谈判组织；低置信。",
+      "lowConfidence": true
+    }
+  ],
+  "locations": [
+    {
+      "id": "tokyo-butei-high",
+      "name": "东京武侦高人工岛",
+      "summary": "训练、委托、袭击和校园生活核心。"
+    },
+    {
+      "id": "assault-class",
+      "name": "强袭科设施",
+      "summary": "枪械近战训练、危险实务和搭档磨合。"
+    },
+    {
+      "id": "tokyo-bay",
+      "name": "东京湾/台场",
+      "summary": "追车、船舶、劫持和城市战常用区域。"
+    },
+    {
+      "id": "kanzaki-sites",
+      "name": "神崎家相关据点",
+      "summary": "亚里亚家族和福尔摩斯线索所在地。"
+    },
+    {
+      "id": "hoshiga-shrine",
+      "name": "星伽神社",
+      "summary": "白雪、封印和鬼道术相关。"
+    },
+    {
+      "id": "overseas-fields",
+      "name": "欧洲/香港/俄罗斯等海外任务地",
+      "summary": "跨国犯罪、蓝帮和后裔组织线。"
+    },
+    {
+      "id": "lactea-overlap",
+      "name": "莱克忒亚接轨点",
+      "summary": "后期低置信异世界重叠地点。",
+      "lowConfidence": true
+    },
+    {
+      "id": "yokohama-koumeikan",
+      "name": "横滨红鸣馆/陆标塔",
+      "summary": "理子与弗拉德线的潜入和高空决战地点。",
+      "lowConfidence": true
+    },
+    {
+      "id": "london-royal-sites",
+      "name": "伦敦/白金汉宫周边",
+      "summary": "英国王室武侦、华生、梅露爱特和 MI6 线。",
+      "lowConfidence": true
+    },
+    {
+      "id": "nautilus",
+      "name": "鹦鹉螺号/Nautilus",
+      "summary": "N 与尼莫相关移动据点，连接苏伊士、印度和后期接轨。",
+      "lowConfidence": true
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "butei-ranks",
+      "name": "武侦等级与科目",
+      "summary": "E-A、S、R 等级和科目专长共同决定任务适性。"
+    },
+    {
+      "id": "hss",
+      "name": "HSS 爆发模式",
+      "summary": "远山家遗传特质；提升反应和判断，代价为身体/脑神经负荷与人格偏移。"
+    },
+    {
+      "id": "irokane",
+      "name": "色金",
+      "summary": "知性金属生命体，可与宿主共鸣并干涉物理常数；存在意识侵蚀风险。",
+      "lowConfidence": true
+    },
+    {
+      "id": "lineages",
+      "name": "历史血脉/后裔能力",
+      "summary": "福尔摩斯、罗宾、武人等后裔以家族技艺与宿命构成能力来源。"
+    },
+    {
+      "id": "magic-psychic",
+      "name": "魔法/异能/鬼道术",
+      "summary": "与枪械科技并存，通常需要媒介、血脉或环境条件。",
+      "lowConfidence": true
+    }
+  ],
+  "relationships": [
+    {
+      "id": "kinji-aria",
+      "name": "远山金次与亚里亚",
+      "summary": "核心搭档：HSS 与双枪双剑互补，亦承载侦探宿命与信任主题。"
+    },
+    {
+      "id": "kinji-shirayuki",
+      "name": "金次与星伽白雪",
+      "summary": "青梅竹马、神社职责和保护欲易引发阵营冲突。"
+    },
+    {
+      "id": "kinji-reki",
+      "name": "金次与蕾姬",
+      "summary": "前线强袭与狙击支援的高互补关系。"
+    },
+    {
+      "id": "butei-partners",
+      "name": "战徒/搭档制度",
+      "summary": "Amigo/Amica 和战斗搭档是 RP 关系推进机制。"
+    },
+    {
+      "id": "kinji-kinichi-kana",
+      "name": "金次与金一/加奈",
+      "summary": "兄弟、伪装、失踪与暗杀邀约构成远山家核心谜团。",
+      "lowConfidence": true
+    },
+    {
+      "id": "riko-vlad",
+      "name": "理子与弗拉德",
+      "summary": "罗宾后裔与吸血鬼压迫者的秘宝/解放线。",
+      "lowConfidence": true
+    },
+    {
+      "id": "aria-sherlock-lineage",
+      "name": "亚里亚与福尔摩斯血脉",
+      "summary": "母亲冤案、夏洛克、王室武侦和家族使命共同驱动亚里亚线。",
+      "lowConfidence": true
+    },
+    {
+      "id": "kinji-nemo-n",
+      "name": "金次与尼莫/N",
+      "summary": "成对命运、鹦鹉螺号和接轨危机，是后期扩展入口。",
+      "lowConfidence": true
+    }
+  ]
+}

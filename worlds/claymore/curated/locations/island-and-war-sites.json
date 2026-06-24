@@ -1,0 +1,128 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "claymore",
+  "module": "locations/island-and-war-sites",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-claymore-001",
+    "characters.json entryIndex 8",
+    "world.json entryIndex 0",
+    "world.json entryIndex 3"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/claymore/locations/locations.json",
+    "campaigns/world-library/worlds/claymore/world/world.json",
+    "campaigns/world-library/worlds/claymore/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/claymore/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/claymore/factions/factions.json"
+  ],
+  "curationPolicy": "补足地点和战役舞台；地点按 RP 功能分层，强制剧情口吻不作为运行指令。",
+  "locations": [
+    {
+      "id": "isolated-island",
+      "name": "被海环绕的巨大孤岛",
+      "type": "world-region",
+      "visibility": "gm-only",
+      "summary": "源中世界观称舞台是一片被海包围的巨大孤岛，技术表层近似中世纪欧洲；岛外存在更广阔、技术更高的人类世界属于后期隐藏真相。",
+      "sceneUses": [
+        "旅行闭塞感",
+        "组织实验场真相",
+        "外部世界伏笔"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "remote-villages-and-forests",
+      "name": "村镇、森林与盗贼道路",
+      "type": "common-mission-zone",
+      "visibility": "public",
+      "summary": "村庄和城镇被广袤森林隔开，常有妖魔潜伏和盗贼出没；普通人需凑钱委托组织派遣大剑。",
+      "sceneUses": [
+        "妖魔身份调查",
+        "村民恐惧",
+        "盗贼与人类禁令冲突",
+        "旅馆和城门低信息场景"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "organization-training-ground",
+      "name": "组织总部/荒凉训练场",
+      "type": "control-facility",
+      "visibility": "gm-only",
+      "summary": "组织制造、训练、编号和调度大剑的中心；适合呈现冷酷实验、代理人命令、处刑队和新世代战士。",
+      "sceneUses": [
+        "黑函下达",
+        "违令审判",
+        "实验真相",
+        "反组织战争"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "pieta-northern-fortress",
+      "name": "皮埃塔北方要塞",
+      "type": "war-front",
+      "visibility": "public",
+      "summary": "北方战役/皮埃塔之战舞台，大剑与北方觉醒者军团冲突，推动战士质疑组织。",
+      "sceneUses": [
+        "战场生存",
+        "撤退与牺牲",
+        "觉醒者军团压力",
+        "反组织意识萌芽"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "riful-western-domain",
+      "name": "莉芙露西部领地",
+      "type": "abyssal-domain",
+      "visibility": "gm-only",
+      "summary": "西部之战舞台，源列为与莉芙露和达夫等觉醒者势力冲突的阶段。",
+      "sceneUses": [
+        "觉醒者谈判",
+        "陷阱救援",
+        "半觉醒风险",
+        "区域 Boss 压力"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "southern-organization-front",
+      "name": "南方组织总部附近战线",
+      "type": "rebellion-front",
+      "visibility": "gm-only",
+      "summary": "米莉雅组建反抗军对抗组织和新世代战士的阶段；源中拉花娜与露西艾拉同归于尽列为高潮。",
+      "sceneUses": [
+        "叛逃选择",
+        "组织追杀",
+        "新世代战士冲突",
+        "隐藏真相暴露"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "holy-city-rabone",
+      "name": "圣都拉波勒",
+      "type": "final-war-stage",
+      "visibility": "public",
+      "summary": "最终圣都之战舞台，全部大剑/反抗力量与普莉西亚等终局威胁对峙。",
+      "sceneUses": [
+        "终局战役",
+        "人类城市卷入",
+        "全部战士集结",
+        "宿命收束"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "locationRules": [
+    "146 年初始线优先使用村镇、森林、旅馆、组织任务和迪妮莎时代地点。",
+    "皮埃塔、西部领地、南方总部战线和圣都终局应随时间推进或明确 AU 才开放。",
+    "岛外世界与组织实验真相属于 gm-only，不应在低级讨伐开局直接公开。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源的 locations 分类多为长剧情文本重复归档；本模块按世界/战役功能归纳。",
+    "圣都译名拉波勒/拉波纳等可能有异体，curated 沿用既有 world.json 的拉波勒。"
+  ]
+}

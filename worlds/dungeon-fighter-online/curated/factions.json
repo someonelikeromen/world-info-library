@@ -1,0 +1,464 @@
+{
+  "schema": "rp-factions-v1",
+  "worldId": "dungeon-fighter-online",
+  "sourceRefs": [
+    "src-dfo-factions-archive",
+    "src-dfo-canon-timeline-entry-99"
+  ],
+  "factions": [
+    {
+      "id": "adventurers",
+      "name": "冒险家群体",
+      "type": "loose-heroes",
+      "visibility": "public",
+      "summary": "多职业自由行动者，可作为玩家主角或主角团，参与地下城、地区战役与使徒讨伐。",
+      "goals": [
+        "探索地下城与异常事件。",
+        "处理转移、瘟疫、龙族、使徒等灾厄。"
+      ],
+      "resources": [
+        "职业体系",
+        "装备与公会",
+        "跨地区行动能力"
+      ],
+      "knownMembers": [
+        "player-adventurer"
+      ],
+      "territories": [
+        "hendon-myere",
+        "elvenguard",
+        "west-coast"
+      ],
+      "relations": [
+        {
+          "target": "apostles",
+          "type": "enemy",
+          "notes": "多数主线将冒险家推向使徒灾厄。"
+        },
+        {
+          "target": "bel-myre-principality",
+          "type": "ally-or-host",
+          "notes": "早期冒险据点常位于贝尔玛尔及西海岸。"
+        }
+      ],
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-classification-report"
+      ]
+    },
+    {
+      "id": "de-los-empire",
+      "name": "德洛斯帝国",
+      "type": "empire",
+      "visibility": "public",
+      "summary": "自称佩鲁斯正统后裔并完成征服战争的阿拉德强国，军事实力强，常介入公国、班图、天界与使徒相关事件。",
+      "goals": [
+        "维持帝国扩张与中央权威。",
+        "利用军事、实验和贵族政治影响阿拉德局势。"
+      ],
+      "resources": [
+        "帝国军",
+        "贵族体系",
+        "秘密实验与精锐组织"
+      ],
+      "knownMembers": [
+        "leon-heinrich-iii",
+        "barrn-bashut",
+        "van-franz"
+      ],
+      "territories": [
+        "de-los-empire",
+        "vitalon",
+        "chestertown"
+      ],
+      "relations": [
+        {
+          "target": "bel-myre-principality",
+          "type": "pressure",
+          "notes": "天空之城显现后曾强制占领公国领土。"
+        },
+        {
+          "target": "bantu",
+          "type": "hostile-history",
+          "notes": "夏特利突袭引发第二次雪色战役。"
+        },
+        {
+          "target": "adventurers",
+          "type": "conditional-cooperation",
+          "notes": "可在使徒讨伐中合作，也可因政治阴谋对立。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-factions-archive",
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "bel-myre-principality",
+      "name": "贝尔玛尔公国",
+      "type": "neutral-principality",
+      "visibility": "public",
+      "summary": "建立在玛尔大魔法阵附近的中立国家，土地肥沃，现任女王为斯卡迪，但实际权力由议员掌握。",
+      "goals": [
+        "维持中立与城市秩序。",
+        "在军事薄弱条件下应对帝国和地下城威胁。"
+      ],
+      "resources": [
+        "赫顿玛尔等城市据点",
+        "西海岸交通",
+        "魔法师公会"
+      ],
+      "knownMembers": [
+        "skardi-queen",
+        "sharan"
+      ],
+      "territories": [
+        "hendon-myere",
+        "west-coast",
+        "elvenguard"
+      ],
+      "relations": [
+        {
+          "target": "de-los-empire",
+          "type": "pressured-by",
+          "notes": "中立与弱军事造成领土被帝国介入的风险。"
+        },
+        {
+          "target": "dark-elf-kingdom",
+          "type": "diplomatic-repair",
+          "notes": "莎兰被派往公国以促进暗精灵与人类关系。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-factions-archive"
+      ]
+    },
+    {
+      "id": "suju",
+      "name": "虚祖",
+      "type": "martial-kingdom",
+      "visibility": "public",
+      "summary": "历史悠久的东方文明古国，人人习武，素喃工坊武器闻名；暗黑圣战时期曾与佩鲁斯同盟并建立抗魔团。",
+      "goals": [
+        "维持武学传统与国家独立。",
+        "在灾厄时期派出驱魔师与抗魔力量。"
+      ],
+      "resources": [
+        "武学传承",
+        "素喃工坊",
+        "虚祖抗魔团"
+      ],
+      "knownMembers": [
+        "asuka-sunan",
+        "siran"
+      ],
+      "territories": [
+        "sunan",
+        "suju"
+      ],
+      "relations": [
+        {
+          "target": "perus-empire",
+          "type": "former-ally-then-war",
+          "notes": "256年结盟，349年佩鲁斯撕毁盟约发动战争。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-factions-archive",
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "bantu",
+      "name": "班图族",
+      "type": "northern-tribal-confederation",
+      "visibility": "public",
+      "summary": "斯特鲁山脉北部边界部族总称，含沃克、库尼、图卢斯等小部族；每逢冰龙斯卡萨苏醒会迁徙或与外界冲突。",
+      "goals": [
+        "在冰龙与雪山环境下保全族群。",
+        "维护部族独立并警惕帝国背叛。"
+      ],
+      "resources": [
+        "雪山生存经验",
+        "部族战士",
+        "对斯特鲁山脉地形的熟悉"
+      ],
+      "knownMembers": [],
+      "territories": [
+        "strou-mountains",
+        "strigo-plateau",
+        "chatley"
+      ],
+      "relations": [
+        {
+          "target": "de-los-empire",
+          "type": "hostile-history",
+          "notes": "德洛斯紫雾团突袭夏特利导致第二次雪色战役。"
+        },
+        {
+          "target": "bel-myre-principality",
+          "type": "alliance",
+          "notes": "996年讨伐冰龙后与公国缔结同盟。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-factions-archive",
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "dark-elf-kingdom",
+      "name": "暗精灵王国",
+      "type": "subterranean-kingdom",
+      "visibility": "public",
+      "summary": "由受维纳斯诅咒形成的暗精灵建立的地下国家，戒备心强且长期与外界隔绝，受诺伊佩拉瘟疫、黑咒术与元老院政治影响。",
+      "goals": [
+        "维护暗精灵国家安全与隔离政策。",
+        "处理黑咒术、瘟疫和元老院权力问题。"
+      ],
+      "resources": [
+        "暗精灵魔法师",
+        "元老院",
+        "地下国土"
+      ],
+      "knownMembers": [
+        "queen-maya",
+        "shaphron",
+        "sharan"
+      ],
+      "territories": [
+        "dark-elf-kingdom",
+        "underfoot",
+        "noire-ferra"
+      ],
+      "relations": [
+        {
+          "target": "bel-myre-principality",
+          "type": "conflict-then-repair",
+          "notes": "诺伊佩拉瘟疫误会导致对人类宣战，后由冒险家与诺顿协助解除。"
+        },
+        {
+          "target": "dwarves",
+          "type": "old-hostility",
+          "notes": "维纳斯诅咒与诺伊佩拉战争造成历史仇怨。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-factions-archive",
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "apostles",
+      "name": "使徒",
+      "type": "disaster-entities",
+      "visibility": "private",
+      "summary": "由赫尔德命名的超规格存在群体；成员来源、立场和动机不同，但其转移、统治、复活或讨伐常引发地区级灾厄。",
+      "goals": [
+        "无统一目标；需按个体处理。"
+      ],
+      "resources": [
+        "使徒级权能",
+        "追随者或污染影响",
+        "跨世界历史牵连"
+      ],
+      "knownMembers": [
+        "kain",
+        "herder",
+        "prey",
+        "casillas",
+        "sirocco",
+        "diregie",
+        "anton",
+        "lotus",
+        "luke",
+        "michael",
+        "ozma",
+        "bakal"
+      ],
+      "territories": [
+        "pandemonium",
+        "heaven",
+        "behemoth",
+        "black-earth"
+      ],
+      "relations": [
+        {
+          "target": "adventurers",
+          "type": "antagonist-or-crisis",
+          "notes": "多数主线中成为冒险家必须处理的灾厄核心。"
+        },
+        {
+          "target": "herder",
+          "type": "named-by-and-manipulated-by",
+          "notes": "赫尔德命名使徒，并在多次转移事件中作为关键幕后。"
+        }
+      ],
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ]
+    },
+    {
+      "id": "kashipa",
+      "name": "佧修派",
+      "type": "pandemonium-criminal-magic-organization",
+      "visibility": "private",
+      "summary": "魔界中恶意利用魔法力量的组织；黑眼之夏勒·弗兹控制后通过黑暗之眼与袭击主要势力引发魔界大战。",
+      "goals": [
+        "扩张魔界势力与利用黑暗魔法压迫他者。"
+      ],
+      "resources": [
+        "黑暗之眼",
+        "魔界成员",
+        "结晶炸弹"
+      ],
+      "knownMembers": [
+        "black-eye-sarpoza",
+        "moa-trio"
+      ],
+      "territories": [
+        "pandemonium",
+        "harlem"
+      ],
+      "relations": [
+        {
+          "target": "tarakuta",
+          "type": "enemy",
+          "notes": "第一届/第二届魔界盟会与魔界大战背景下冲突。"
+        },
+        {
+          "target": "second-pact",
+          "type": "enemy",
+          "notes": "曾攻击誓卫者等魔法组织。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ]
+    },
+    {
+      "id": "gbl",
+      "name": "蓝色真谛 / GBL教",
+      "type": "knowledge-cult",
+      "visibility": "public",
+      "summary": "莱斯利·贝伊兰斯创立的追求伟大蓝色真理的学术/教派组织，总部位于天帷巨兽背部神殿，罗特斯降临后大多被精神支配。",
+      "goals": [
+        "追求和汇聚远古知识。"
+      ],
+      "resources": [
+        "天帷巨兽遗迹",
+        "求知者",
+        "神殿资料"
+      ],
+      "knownMembers": [
+        "leslie-beilance",
+        "ophelia-beilance",
+        "marcellus"
+      ],
+      "territories": [
+        "behemoth",
+        "gbl-temple"
+      ],
+      "relations": [
+        {
+          "target": "lotus",
+          "type": "controlled-by",
+          "notes": "罗特斯精神支配导致组织没落。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ]
+    },
+    {
+      "id": "grim-seeker",
+      "name": "暴戾搜捕团",
+      "type": "cult-research-faction",
+      "visibility": "private",
+      "summary": "在德洛斯贫民阶层流行的教派/组织，艾泽拉·洛伊、索德罗斯和强硬派等线索与使徒、绝望之塔、希洛克复活相关。",
+      "goals": [
+        "围绕使徒与预言开展行动；内部温和派与强硬派存在分歧。"
+      ],
+      "resources": [
+        "绝望之塔相关力量",
+        "强硬派行动者",
+        "使徒研究线索"
+      ],
+      "knownMembers": [
+        "azalea-loy",
+        "soldoros",
+        "solas-red-ghost"
+      ],
+      "territories": [
+        "tower-of-despair",
+        "de-los-mines"
+      ],
+      "relations": [
+        {
+          "target": "adventurers",
+          "type": "ambiguous",
+          "notes": "艾泽拉曾与冒险家相遇；后续强硬派与复活希洛克线可能对立。"
+        },
+        {
+          "target": "apostles",
+          "type": "obsessed-with",
+          "notes": "组织行动围绕使徒预兆与复活事件。"
+        }
+      ],
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "adventurers",
+        "de-los-empire",
+        "bel-myre-principality",
+        "suju",
+        "bantu",
+        "dark-elf-kingdom",
+        "gbl"
+      ],
+      "private": [
+        "apostles",
+        "kashipa",
+        "grim-seeker"
+      ]
+    },
+    "byRegion": {
+      "arad-continent": [
+        "adventurers",
+        "de-los-empire",
+        "bel-myre-principality",
+        "suju",
+        "bantu",
+        "dark-elf-kingdom"
+      ],
+      "pandemonium": [
+        "apostles",
+        "kashipa"
+      ],
+      "behemoth": [
+        "gbl"
+      ]
+    }
+  },
+  "openIssues": [
+    "部分 knownMembers 尚未在 characters-index.json 中建独立角色条目；保留为后续扩展候选。",
+    "源归档分类 confidence 多为 C，本文件不把低置信条目提升为 canon certainty。"
+  ]
+}

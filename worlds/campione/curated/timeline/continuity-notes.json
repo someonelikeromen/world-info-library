@@ -1,0 +1,62 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "campione",
+  "module": "timeline/continuity-notes",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/campione/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/campione/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/campione/canon-reference/plot-summary.json"
+  ],
+  "continuityPrinciples": [
+    {
+      "id": "modern-hidden-world",
+      "name": "现代社会下的里世界",
+      "summary": "神与魔术存在于现代社会水面下；魔术结社和正史编纂委员会负责隐匿、调查和善后。",
+      "confidence": "B"
+    },
+    {
+      "id": "seven-campiones-baseline",
+      "name": "少数魔王基准",
+      "summary": "源总纲称世界范围内弑神者数量极稀少并以七位为基准；新增 Campione 会显著改变政治平衡。",
+      "confidence": "B"
+    },
+    {
+      "id": "aisha-time-disruption",
+      "name": "爱莎夫人时空扰动",
+      "summary": "爱莎无法稳定控制时空/平行世界旅行。世界存在历史修正力，多数小改动会收束，但重大干涉可能形成灾害。",
+      "confidence": "B",
+      "sourceEntryHints": [
+        "canon-reference/timeline.json entryIndex 59",
+        "canon-reference/timeline.json entryIndex 67 duplicate/variant"
+      ]
+    }
+  ],
+  "recommendedArcOrder": [
+    {
+      "id": "local-heretic-god-incident",
+      "name": "局地不从之神显现",
+      "rpEntryPoint": "魔术结社先发现异常神话征兆，玩家作为调查者、巫女、骑士或普通卷入者介入。",
+      "gmNotes": "先给神话线索，再升级为神兽/权能战；避免开场就多名魔王混战。"
+    },
+    {
+      "id": "campione-political-pressure",
+      "name": "弑神者政治压力",
+      "rpEntryPoint": "某位王宣称庇护、索取或狩猎，引发结社站队和普通政府善后。",
+      "gmNotes": "弑神者非普通 Boss，应以交涉、条件和神话相性制造可玩空间。"
+    },
+    {
+      "id": "aisha-or-parallel-divergence",
+      "name": "爱莎/平行世界分歧事件",
+      "rpEntryPoint": "异常洞窟、年代错位人物或历史修正力制造短期错位。",
+      "gmNotes": "只作为阶段性事件，不默认改写主世界全部历史；记录每次偏差与修正。"
+    }
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中的 canonArcs 大量混合人物卡、剧情卷和能力条目，尚未逐卷拆分。",
+    "本文件只提供 RP 连续性约束；不是完整小说/动画分卷年表。"
+  ]
+}

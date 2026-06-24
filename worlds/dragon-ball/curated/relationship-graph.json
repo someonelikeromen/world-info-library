@@ -38,9 +38,47 @@
       "label": "魔人布欧"
     },
     {
+      "id": "mr-satan",
+      "type": "character",
+      "label": "撒旦先生",
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "trunks",
+      "type": "character",
+      "label": "特兰克斯",
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "babidi",
+      "type": "character",
+      "label": "巴比迪",
+      "evidenceLevel": "B"
+    },
+    {
       "id": "z-fighters",
       "type": "faction",
       "label": "Z 战士"
+    },
+    {
+      "id": "capsule-corporation",
+      "type": "faction",
+      "label": "胶囊公司"
+    },
+    {
+      "id": "frieza-force",
+      "type": "faction",
+      "label": "弗利萨军"
+    },
+    {
+      "id": "babidi-majin-buu-camp",
+      "type": "faction",
+      "label": "巴比迪/魔人布欧阵营"
+    },
+    {
+      "id": "satan-friendly-buu-branch",
+      "type": "faction",
+      "label": "撒旦友方分支"
     },
     {
       "id": "earth",
@@ -53,7 +91,8 @@
       "from": "son-goku",
       "to": "vegeta",
       "type": "rivalry",
-      "visibility": "public"
+      "visibility": "public",
+      "rpNote": "宿敌/同盟强度随年代变化，需冻结分支和形态。"
     },
     {
       "from": "son-goku",
@@ -71,9 +110,34 @@
       "type": "family"
     },
     {
+      "from": "vegeta",
+      "to": "trunks",
+      "type": "family"
+    },
+    {
+      "from": "bulma",
+      "to": "trunks",
+      "type": "family"
+    },
+    {
+      "from": "bulma",
+      "to": "capsule-corporation",
+      "type": "leads_or_core_member"
+    },
+    {
       "from": "frieza",
       "to": "son-goku",
       "type": "enemy"
+    },
+    {
+      "from": "frieza",
+      "to": "vegeta",
+      "type": "former_overlord_enemy"
+    },
+    {
+      "from": "frieza",
+      "to": "frieza-force",
+      "type": "commands"
     },
     {
       "from": "majin-buu",
@@ -81,9 +145,34 @@
       "type": "enemy_then_conditional_ally"
     },
     {
+      "from": "majin-buu",
+      "to": "mr-satan",
+      "type": "friendship_pacifies_branch"
+    },
+    {
+      "from": "majin-buu",
+      "to": "babidi",
+      "type": "former_master_then_rebellion"
+    },
+    {
+      "from": "majin-buu",
+      "to": "babidi-majin-buu-camp",
+      "type": "core_threat"
+    },
+    {
+      "from": "majin-buu",
+      "to": "satan-friendly-buu-branch",
+      "type": "conditional_ally_branch"
+    },
+    {
       "from": "z-fighters",
       "to": "earth",
       "type": "protects"
+    },
+    {
+      "from": "capsule-corporation",
+      "to": "z-fighters",
+      "type": "logistics_support"
     }
   ],
   "sourceRefs": [
@@ -92,7 +181,13 @@
   "campaignId": "dragon-ball",
   "views": {
     "playerVisibleNodeIds": [],
-    "gmHighlightedNodeIds": [],
+    "gmHighlightedNodeIds": [
+      "son-goku",
+      "vegeta",
+      "frieza",
+      "majin-buu",
+      "capsule-corporation"
+    ],
     "activeSceneNodeIds": []
   }
 }

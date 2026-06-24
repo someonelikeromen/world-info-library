@@ -1,0 +1,97 @@
+{
+  "schema": "rp-world-expansion-v1",
+  "worldId": "jojo",
+  "displayName": "JOJO",
+  "curationStatus": "manual-completion-06-expanded",
+  "sourceRefs": ["src-jojo-001"],
+  "sourceFilesConsulted": [
+    "campaigns/world-library/worlds/jojo/source-registry.json",
+    "campaigns/world-library/worlds/jojo/characters/characters.json",
+    "campaigns/world-library/worlds/jojo/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/jojo/canon-reference/arcs.json",
+    "world-info-library/worlds/jojo/curated/world.json",
+    "world-info-library/worlds/jojo/curated/characters-index.json"
+  ],
+  "charactersSupplement": [
+    {"id": "erina-pendleton", "name": "艾莉娜·班德鲁顿 / 艾莉娜·乔斯达", "role": "乔纳森的伴侣；乔斯达血脉延续者", "affiliations": ["joestar-family"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"id": "speedwagon", "name": "罗伯特·E·O·史比特瓦根", "role": "乔纳森盟友；后续基金会线源头", "affiliations": ["joestar-family-allies"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"id": "straizo", "name": "史特雷", "role": "波纹战士/后续石鬼面悲剧线", "affiliations": ["hamon-warriors"], "sourceRefs": ["src-jojo-001"], "confidence": "C"},
+    {"id": "santana", "name": "桑塔纳", "role": "柱之男早期威胁", "affiliations": ["pillar-men"], "abilities": ["柱之男体质"], "sourceRefs": ["src-jojo-001"], "confidence": "C"},
+    {"id": "esidisi", "name": "艾斯迪斯", "role": "柱之男成员；第二部敌人", "affiliations": ["pillar-men"], "abilities": ["柱之男体质", "热/血液相关能力"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"id": "wamuu", "name": "瓦姆乌", "role": "柱之男战士；第二部强敌", "affiliations": ["pillar-men"], "abilities": ["柱之男体质", "风/格斗能力"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"id": "suzi-q", "name": "丝吉Q", "role": "莉莎莉莎身边人物；乔瑟夫关系线", "affiliations": ["hamon-circle"], "sourceRefs": ["src-jojo-001"], "confidence": "C"},
+    {"id": "iggy", "name": "伊奇", "role": "埃及远征队成员；找到迪奥藏身处的小狗替身使者", "affiliations": ["egypt-expedition"], "abilities": ["替身：愚者/The Fool"], "sourceRefs": ["src-jojo-001"]},
+    {"id": "enya", "name": "恩雅婆婆", "role": "迪奥助手；替身使者网络召集者", "affiliations": ["dio-forces"], "abilities": ["替身相关知识", "替身：正义/Justice"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"id": "vanilla-ice", "name": "瓦尼拉·艾斯", "role": "迪奥忠诚手下；埃及宅邸强敌", "affiliations": ["dio-forces"], "abilities": ["替身：亚空瘴气/Cream"], "sourceRefs": ["src-jojo-001"], "confidence": "C"}
+  ],
+  "timeline": [
+    {"id": "jojo-tl-pb-01", "era": "phantom-blood", "summary": "乔治·乔斯达收留迪奥，迪奥图谋家产并以慢性毒药谋害乔治。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-pb-02", "era": "phantom-blood", "summary": "迪奥戴上石鬼面化为吸血鬼，乔纳森在祖宅战斗后学习波纹。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-pb-03", "era": "phantom-blood", "summary": "乔纳森与齐贝林一行前往风骑士小镇击败迪奥，但游轮上被迪奥残首偷袭并牺牲。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-bt-01", "era": "battle-tendency", "summary": "二十世纪三四十年代纽约，乔瑟夫遭遇柱之男威胁。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-bt-02", "era": "battle-tendency", "summary": "乔瑟夫与西撒在威尼斯接受莉莎莉莎波纹训练，对抗追求超级艾哲红石的卡兹等柱之男。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-sc-01", "era": "stardust-crusaders", "summary": "1984年迪奥棺材被打捞，夺取乔纳森身体的迪奥复苏并获得替身世界。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-sc-02", "era": "stardust-crusaders", "summary": "迪奥复苏牵动乔斯达血脉替身觉醒，荷莉因无法承受替身而重病。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-sc-03", "era": "stardust-crusaders", "summary": "承太郎、乔瑟夫、阿布德尔、花京院、波鲁那雷夫和伊奇组成远征队前往埃及。", "sourceRefs": ["src-jojo-001"]},
+    {"id": "jojo-tl-sc-04", "era": "stardust-crusaders", "summary": "花京院临终破解时间停止之谜，乔瑟夫传达情报，承太郎最终击败迪奥救下荷莉。", "sourceRefs": ["src-jojo-001"]}
+  ],
+  "plotArcs": [
+    {"id": "phantom-blood", "name": "幻影之血", "beats": ["乔斯达家收养迪奥", "毒杀阴谋败露", "石鬼面吸血鬼化", "波纹修行", "风骑士小镇决战", "游轮牺牲"], "rpUse": "哥特恐怖、贵族家族悲剧、波纹入门与吸血鬼讨伐。"},
+    {"id": "battle-tendency", "name": "战斗潮流", "beats": ["纽约遭遇柱之男", "威尼斯波纹训练", "超级艾哲红石", "西撒牺牲", "卡兹究极生命"], "rpUse": "冒险喜剧与古代生物威胁并重，适合训练、智斗与牺牲。", "confidence": "B"},
+    {"id": "stardust-crusaders", "name": "星尘斗士", "beats": ["迪奥复苏", "荷莉危机", "日本集结", "旅途替身战", "埃及宅邸", "时间停止谜题", "承太郎决战"], "rpUse": "公路冒险、单元替身战、团队羁绊和最终能力解谜。"}
+  ],
+  "powerSystemsSupplement": [
+    {"id": "stone-mask-vampirism", "name": "石鬼面与吸血鬼化", "rules": ["石鬼面可将人类转化为吸血鬼，获得强韧肉体、再生与尸生人支配等能力。", "弱点与波纹/太阳性质相关；吸血鬼能力强但受环境与对策克制。"]},
+    {"id": "hamon-breathing", "name": "波纹呼吸法", "rules": ["通过特殊呼吸在细胞中产生与太阳波相似的生命能量。", "可对抗吸血鬼、尸生人和柱之男，也可治疗、止痛或扰乱尸生人组织。", "血管冻结、无法呼吸或严重体能受限会阻断波纹。"], "sourceRefs": ["src-jojo-001"]},
+    {"id": "pillar-men-physiology", "name": "柱之男体质", "rules": ["史前强大生物，身体能力远超人类，可创造或利用石鬼面。", "卡兹追求超级艾哲红石以达成更高生命形态。"]},
+    {"id": "stands", "name": "替身", "rules": ["替身是人类或动物精神能量显现，可呈人形、物体、现象或群体。", "替身使者通常能感知替身；替身能力规则个体差异极大。", "替身战核心是能力情报、距离、射程、破坏力、精密性和使用者心理。"], "sourceRefs": ["src-jojo-001"]},
+    {"id": "time-stop", "name": "时间停止", "rules": ["迪奥的世界/The World 可暂停时间；第三部中其秘密由花京院以时钟讯息破解。", "同类能力对决需严格记录可行动秒数、冷却和角色认知。"]}
+  ],
+  "standsIndex": [
+    {"standId": "star-platinum", "name": "白金之星", "user": "jotaro-kujo", "traits": ["高精密", "近战强力", "后期时间停止觉醒"], "sourceRefs": ["src-jojo-001"]},
+    {"standId": "the-world", "name": "世界/The World", "user": "dio-brando", "traits": ["近战强力", "时间停止"], "sourceRefs": ["src-jojo-001"]},
+    {"standId": "hermit-purple", "name": "隐者之紫", "user": "joseph-joestar", "traits": ["念写/侦查", "波纹传导"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"standId": "magicians-red", "name": "魔术师之红", "user": "muhammad-avdol", "traits": ["火焰", "占卜师战斗经验"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"standId": "hierophant-green", "name": "法皇之绿", "user": "noriaki-kakyoin", "traits": ["远距离", "结界/绿宝石水花", "临终情报传达"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"standId": "silver-chariot", "name": "银色战车", "user": "jean-pierre-polnareff", "traits": ["剑术", "高速近战"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"standId": "the-fool", "name": "愚者/The Fool", "user": "iggy", "traits": ["砂", "犬类替身使者"], "sourceRefs": ["src-jojo-001"], "confidence": "B"},
+    {"standId": "justice", "name": "正义/Justice", "user": "enya", "traits": ["雾", "操控伤口/尸体"], "sourceRefs": ["src-jojo-001"], "confidence": "C"},
+    {"standId": "cream", "name": "亚空瘴气/Cream", "user": "vanilla-ice", "traits": ["空间吞噬", "高危险近战"], "sourceRefs": ["src-jojo-001"], "confidence": "C"}
+  ],
+  "factionsSupplement": [
+    {"id": "hamon-warriors", "name": "波纹战士", "summary": "通过波纹呼吸法对抗石鬼面、尸生人与柱之男的人类战斗者。"},
+    {"id": "zeppeli-family", "name": "齐贝林家族", "summary": "威廉、西撒等与乔斯达家族并肩承担牺牲命运。"},
+    {"id": "speedwagon-foundation", "name": "史比特瓦根基金会", "summary": "乔斯达盟友网络与调查/后勤组织；本地源只间接支持，需后续校对。", "confidence": "C"},
+    {"id": "dio-stand-network", "name": "迪奥替身使者网络", "summary": "迪奥在恩雅等协助下召集的替身部下，构成第三部旅途单元战。"}
+  ],
+  "locationsSupplement": [
+    {"id": "joestar-mansion", "name": "乔斯达祖宅", "use": "迪奥阴谋败露与石鬼面吸血鬼化后的第一场大战。"},
+    {"id": "windknights-lot", "name": "风骑士小镇", "use": "第一部迪奥讨伐与波纹实战场景。"},
+    {"id": "cruise-ship", "name": "蜜月游轮", "use": "乔纳森牺牲、迪奥夺取身体的跨代转折。"},
+    {"id": "new-york", "name": "纽约", "use": "乔瑟夫遭遇柱之男的第二部开局。"},
+    {"id": "venice", "name": "威尼斯", "use": "莉莎莉莎波纹训练、乔瑟夫与西撒成长。"},
+    {"id": "japan", "name": "日本", "use": "承太郎觉醒与第三部远征队集结。"},
+    {"id": "egypt-mansion", "name": "埃及迪奥宅邸", "use": "第三部最终探索、伊奇带路、迪奥与世界决战。"}
+  ],
+  "relationshipsSupplement": [
+    {"from": "jonathan-joestar", "to": "dio-brando", "relation": "adoptive-brothers-enemies", "summary": "被同一家庭收养却因财产阴谋、石鬼面与血脉宿命成为跨代敌对源头。"},
+    {"from": "jonathan-joestar", "to": "william-zeppelin", "relation": "student-and-hamon-master", "summary": "齐贝林教导乔纳森波纹，并在讨伐迪奥时牺牲。"},
+    {"from": "joseph-joestar", "to": "caesar-zeppeli", "relation": "rivals-comrades", "summary": "二人在威尼斯训练和柱之男战斗中从冲突走向并肩。", "confidence": "B"},
+    {"from": "kars", "to": "stone-mask", "relation": "creator", "summary": "卡兹创造石鬼面，目的在于获得更高生命形态。"},
+    {"from": "dio-brando", "to": "joestar-bloodline", "relation": "bloodline-curse", "summary": "迪奥夺取乔纳森身体后复苏，牵动乔斯达血脉替身觉醒与荷莉病危。"},
+    {"from": "noriaki-kakyoin", "to": "jotaro-kujo", "relation": "final-message", "summary": "花京院以打破时钟提示时间停止秘密，为承太郎击败迪奥创造条件。"},
+    {"from": "iggy", "to": "egypt-expedition", "relation": "guide-and-comrade", "summary": "伊奇带远征队找到迪奥藏身处并参与最终阶段。"}
+  ],
+  "rpNotes": [
+    "先确定部数/时代：第一部偏哥特吸血鬼与波纹，第二部偏古代生物与训练冒险，第三部偏替身公路战。不同能力体系不要混用为常识。",
+    "替身战重点是信息差：每个替身先定义射程、表现形态、能力触发、弱点和使用者心理。",
+    "波纹需要呼吸和血液循环条件；冻结、窒息、重伤或环境压制会影响输出。",
+    "迪奥和乔斯达血脉是跨代因果核心，但 OC 可作为盟友、旁支、调查员或敌对替身使者改变单元战结果。",
+    "第三部时间停止谜题不宜提前公开给普通角色；可通过线索、牺牲或能力实验逐步揭示。"
+  ],
+  "pending": [
+    "本地源主要覆盖一至三部；第四至六部虽被源文本提到外部参考，但未本地展开，本次未补齐。",
+    "史比特瓦根基金会、部分柱之男和埃及九荣神/塔罗牌敌人的独立条目需后续从本地源或新源补证。",
+    "Stand 参数（破坏力、速度、射程、持续力、精密性、成长性）尚未结构化。"
+  ]
+}

@@ -315,6 +315,516 @@
       "normalizationNotes": [
         "locations unresolved (no safe canonical id): 传说/封印"
       ]
+    },
+    {
+      "id": "herder",
+      "name": "赫尔德",
+      "aliases": [
+        "哭泣之眼赫尔德"
+      ],
+      "visibility": "private",
+      "summary": "首次发现魔法、掌握连接魔界与其他行星方法的使徒级关键幕后人物，多次与使徒转移相关。",
+      "roles": [
+        "apostle",
+        "schemer",
+        "mage-origin"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "pandemonium"
+      ],
+      "powerSystems": [
+        "apostle-power",
+        "transfer-and-dimensionality"
+      ],
+      "abilities": [
+        "魔法发现与操控",
+        "转移相关手段",
+        "幕后布局"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "apostles",
+          "targetType": "group",
+          "relation": "namer",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "sirocco",
+          "targetType": "character",
+          "relation": "transferred",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "diregie",
+          "targetType": "character",
+          "relation": "transferred",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "幕后动机和版本细节需继续校准。"
+    },
+    {
+      "id": "lotus",
+      "name": "罗特斯",
+      "aliases": [
+        "长脚罗特斯",
+        "第八使徒"
+      ],
+      "visibility": "private",
+      "summary": "被转移至天帷巨兽背部的使徒，以精神支配GBL求知者造成天帷巨兽灾厄。",
+      "roles": [
+        "apostle",
+        "antagonist"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "behemoth"
+      ],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "精神支配",
+        "使徒级战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "gbl",
+          "targetType": "group",
+          "relation": "controller",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-arcs",
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "精神控制和章鱼怪化来自天帷巨兽/GBL条目。"
+    },
+    {
+      "id": "diregie",
+      "name": "狄瑞吉",
+      "aliases": [
+        "黑色瘟疫狄瑞吉"
+      ],
+      "visibility": "private",
+      "summary": "瘟疫型使徒，诺伊佩拉幻影与诺斯玛尔瘟疫线核心，最终在痛苦之村列瑟芬被封印至异次元裂缝。",
+      "roles": [
+        "apostle",
+        "plague-disaster"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "noire-ferra",
+        "northmyre"
+      ],
+      "powerSystems": [
+        "apostle-power",
+        "transfer-and-dimensionality"
+      ],
+      "abilities": [
+        "瘟疫扩散",
+        "使徒级污染"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "dark-elf-kingdom",
+          "targetType": "group",
+          "relation": "plague-source",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "区分诺伊佩拉幻影与诺斯玛尔本体/封印线。"
+    },
+    {
+      "id": "anton",
+      "name": "安徒恩",
+      "aliases": [
+        "火焰吞噬者安徒恩"
+      ],
+      "visibility": "private",
+      "summary": "被转移至天界并占据伊顿工业区能源中心的使徒，被冒险家与天界军、帝国军联手消灭。",
+      "roles": [
+        "apostle",
+        "energy-center-crisis"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "eaton-industrial-zone",
+        "kronos-island"
+      ],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "火焰与吞噬",
+        "能源中心占据"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "heaven",
+          "targetType": "location",
+          "relation": "occupier",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "死亡残骸构成克洛诺斯岛地形。"
+    },
+    {
+      "id": "luke",
+      "name": "卢克",
+      "aliases": [
+        "制造者卢克",
+        "第九使徒"
+      ],
+      "visibility": "private",
+      "summary": "来自海伯伦的制造者，使魔界有了电并秘密建造寂静城，后在寂静城/魔界通路线被消灭。",
+      "roles": [
+        "apostle",
+        "maker"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "silent-city",
+        "pandemonium"
+      ],
+      "powerSystems": [
+        "apostle-power",
+        "heaven-mechanical-civilization"
+      ],
+      "abilities": [
+        "建造与制造",
+        "使徒级技术/权能"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "silent-city",
+          "targetType": "location",
+          "relation": "builder",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "巴卡尔除名后由卢克替代成为第九使徒的时间线细节保留。"
+    },
+    {
+      "id": "kain",
+      "name": "卡恩",
+      "aliases": [
+        "宿命者卡恩",
+        "第一使徒"
+      ],
+      "visibility": "private",
+      "summary": "魔界最强级存在之一，居住于布鲁克林协会广场，曾与普雷鏖战并击败/震慑卡西利亚斯、巴卡尔等强者。",
+      "roles": [
+        "apostle",
+        "apex-combatant"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "pandemonium"
+      ],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "至高力量",
+        "近乎不可破坏的体魄"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "prey",
+          "targetType": "character",
+          "relation": "duel-stalemate",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "casillas",
+          "targetType": "character",
+          "relation": "defeated",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "bakal",
+          "targetType": "character",
+          "relation": "feared-by",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ],
+      "notes": "使徒排名不等同战力，但卡恩条目明确强调其力量。"
+    },
+    {
+      "id": "prey",
+      "name": "普雷",
+      "aliases": [
+        "伊希斯·普雷",
+        "天骄普雷",
+        "第三使徒"
+      ],
+      "visibility": "private",
+      "summary": "来自泰波尔斯的天骄，因故乡异变登上魔界并与卡恩鏖战，后等待与泰波尔斯重逢。",
+      "roles": [
+        "apostle",
+        "sky-warrior"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "pandemonium",
+        "tayberrs"
+      ],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "飞翔",
+        "高阶战斗",
+        "近乎不死"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "kain",
+          "targetType": "character",
+          "relation": "duel-stalemate",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "conditional-ally",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-arcs",
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "1006年冒险家帮助普雷击败普雷·伊希斯。"
+    },
+    {
+      "id": "casillas",
+      "name": "卡西利亚斯",
+      "aliases": [
+        "征服者卡西利亚斯",
+        "第四使徒"
+      ],
+      "visibility": "private",
+      "summary": "追求强者的使徒，因感受强者气息登上魔界，曾挑战卡恩惨败，后与凯蒂签订召唤契约。",
+      "roles": [
+        "apostle",
+        "duelist"
+      ],
+      "factions": [
+        "apostles"
+      ],
+      "locations": [
+        "pandemonium"
+      ],
+      "powerSystems": [
+        "apostle-power"
+      ],
+      "abilities": [
+        "决斗经验",
+        "使徒级战斗"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "kain",
+          "targetType": "character",
+          "relation": "defeated-by",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "katie",
+          "targetType": "character",
+          "relation": "summon-contract",
+          "resolutionStatus": "unresolved-target"
+        },
+        {
+          "target": "soldoros",
+          "targetType": "character",
+          "relation": "duel",
+          "resolutionStatus": "unresolved-target"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ],
+      "notes": "凯蒂、索德罗斯尚未在本索引建立完整条目。"
+    },
+    {
+      "id": "michael",
+      "name": "米歇尔",
+      "aliases": [
+        "圣者米歇尔",
+        "Michael of the Holy Eye"
+      ],
+      "visibility": "private",
+      "summary": "最初受启示并辨认伪装者的圣者，创制巨型兵器战斗术和神格拳，暗黑圣战与奥兹玛线核心。",
+      "roles": [
+        "saint",
+        "priest-origin",
+        "anti-imposter"
+      ],
+      "factions": [
+        "remidia-order"
+      ],
+      "locations": [
+        "black-earth",
+        "remidia-basilica"
+      ],
+      "powerSystems": [
+        "divine-revelation-and-imposter-detection"
+      ],
+      "abilities": [
+        "伪装者辨识",
+        "神格拳",
+        "巨型兵器战斗术"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "ozma",
+          "targetType": "character",
+          "relation": "enemy",
+          "resolutionStatus": "resolved"
+        },
+        {
+          "target": "priest-line",
+          "targetType": "concept",
+          "relation": "foundational",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "不同版本身份定位需继续校准。"
+    },
+    {
+      "id": "azalea-loy",
+      "name": "艾泽拉·洛伊",
+      "aliases": [
+        "艾泽拉"
+      ],
+      "visibility": "private",
+      "summary": "泰拉遗民领导者之一，后与暴戾搜捕团温和派和绝望之塔线相关；1005年死于强硬派之手。",
+      "roles": [
+        "terra-survivor",
+        "grim-seeker-moderate"
+      ],
+      "factions": [
+        "grim-seeker",
+        "terra-survivors"
+      ],
+      "locations": [
+        "tower-of-despair"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "组织领导",
+        "预言/使徒相关研究"
+      ],
+      "items": [],
+      "relationships": [
+        {
+          "target": "soldoros",
+          "targetType": "character",
+          "relation": "influenced",
+          "resolutionStatus": "unresolved-target"
+        },
+        {
+          "target": "adventurers",
+          "targetType": "group",
+          "relation": "encountered",
+          "resolutionStatus": "resolved"
+        }
+      ],
+      "importance": "high",
+      "evidenceLevel": "C",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "notes": "索德罗斯未在本次完整建条。"
     }
   ],
   "indices": {
@@ -326,7 +836,24 @@
       "apostles": [
         "sirocco",
         "ozma",
-        "bakal"
+        "bakal",
+        "herder",
+        "lotus",
+        "diregie",
+        "anton",
+        "luke",
+        "kain",
+        "prey",
+        "casillas"
+      ],
+      "remidia-order": [
+        "michael"
+      ],
+      "grim-seeker": [
+        "azalea-loy"
+      ],
+      "terra-survivors": [
+        "azalea-loy"
       ]
     },
     "byPowerSystem": {
@@ -337,7 +864,25 @@
       "apostle-power": [
         "sirocco",
         "ozma",
-        "bakal"
+        "bakal",
+        "herder",
+        "lotus",
+        "diregie",
+        "anton",
+        "luke",
+        "kain",
+        "prey",
+        "casillas"
+      ],
+      "transfer-and-dimensionality": [
+        "herder",
+        "diregie"
+      ],
+      "heaven-mechanical-civilization": [
+        "luke"
+      ],
+      "divine-revelation-and-imposter-detection": [
+        "michael"
       ]
     },
     "byVisibility": {
@@ -349,7 +894,17 @@
         "sirocco",
         "ozma",
         "bakal",
-        "kazan"
+        "kazan",
+        "herder",
+        "lotus",
+        "diregie",
+        "anton",
+        "luke",
+        "kain",
+        "prey",
+        "casillas",
+        "michael",
+        "azalea-loy"
       ]
     },
     "majorCharacters": [
@@ -358,10 +913,54 @@
       "sirocco",
       "ozma",
       "bakal",
-      "kazan"
+      "kazan",
+      "herder",
+      "lotus",
+      "diregie",
+      "anton",
+      "luke",
+      "kain",
+      "prey",
+      "casillas",
+      "michael",
+      "azalea-loy"
     ],
-    "byId": {},
-    "byName": {},
+    "byId": {
+      "player-adventurer": "player-adventurer",
+      "seria-kirmin": "seria-kirmin",
+      "sirocco": "sirocco",
+      "ozma": "ozma",
+      "bakal": "bakal",
+      "kazan": "kazan",
+      "herder": "herder",
+      "lotus": "lotus",
+      "diregie": "diregie",
+      "anton": "anton",
+      "luke": "luke",
+      "kain": "kain",
+      "prey": "prey",
+      "casillas": "casillas",
+      "michael": "michael",
+      "azalea-loy": "azalea-loy"
+    },
+    "byName": {
+      "冒险家": "player-adventurer",
+      "赛丽亚·克鲁敏": "seria-kirmin",
+      "希洛克": "sirocco",
+      "奥兹玛": "ozma",
+      "巴卡尔": "bakal",
+      "卡赞": "kazan",
+      "赫尔德": "herder",
+      "罗特斯": "lotus",
+      "狄瑞吉": "diregie",
+      "安徒恩": "anton",
+      "卢克": "luke",
+      "卡恩": "kain",
+      "普雷": "prey",
+      "卡西利亚斯": "casillas",
+      "米歇尔": "michael",
+      "艾泽拉·洛伊": "azalea-loy"
+    },
     "byAffiliation": {},
     "byTag": {}
   }

@@ -1,0 +1,188 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "acg-character-database",
+  "completionPass": "retry-01",
+  "sourceRefs": [
+    "src-acg-character-database-001",
+    "src-acg-character-database-002",
+    "src-acg-character-database-003"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/acg-character-database/reports/classification-report.md",
+    "campaigns/world-library/worlds/acg-character-database/characters/characters.json",
+    "campaigns/world-library/worlds/acg-character-database/world/world.json",
+    "campaigns/world-library/worlds/acg-character-database/sandbox/random-events.json entries from 咩咩_acg角色心理模型_1.3.0",
+    "campaigns/world-library/worlds/acg-character-database/source-registry.json"
+  ],
+  "curationScope": "补足此 slug 的特殊库定位、来源分层、角色条目使用策略、人格原型模块和运行时禁用项；不把跨作品角色强行合并为单一世界线。",
+  "coverageNote": "本地分类报告显示 preserved entries 395，characters 392、world 317、canonArcs 285、factions 302、locations 279、abilities 371。该计数来自角色卡/心理模板重复分类，不代表存在统一地理、阵营或正史。",
+  "libraryModel": {
+    "type": "cross-work-character-psychology-reference-library",
+    "notSingleWorld": true,
+    "continuityPolicy": [
+      "必须由调用方提供目标作品、活动世界或 OC 连续性。",
+      "角色条目只作为心理、语气、关系动力和外观参考，不自动导入其原作品全部历史。",
+      "不同作品角色之间默认无共同时间线、共同地点、共同阵营或共同关系。",
+      "重复月份版本和心理模型包的同名条目保留为多版本证据，不在本轮强制去重。"
+    ],
+    "runtimeUse": [
+      "非露骨人格标签选择与行为约束",
+      "角色来源作品索引",
+      "OC 性格参考和对话风格校准",
+      "同作品条目内部的关系/背景提示，需二次核对"
+    ],
+    "runtimeForbidden": [
+      "默认挂载为可探索世界地图",
+      "将成人作品、性暴力或露骨身体细节作为运行内容",
+      "把现实历史、网络模因和 ACG 角色合并成一个共同 canon",
+      "以自动分类的 factions/locations 字段推断跨作品阵营关系"
+    ]
+  },
+  "sourceFamilies": [
+    {
+      "id": "monthly-character-database-2025-02",
+      "sourceRef": "src-acg-character-database-001",
+      "name": "SSSR 类脑同人角色数据库 2025年2月号",
+      "contentKind": "cross-work-character-cards",
+      "risk": "含成人/NSFW 和暴力/性暴力字段，curated 只保留非露骨索引用途。"
+    },
+    {
+      "id": "monthly-character-database-2025-03",
+      "sourceRef": "src-acg-character-database-002",
+      "name": "SSSR 类脑同人角色数据库 2025年3月号",
+      "contentKind": "cross-work-character-cards",
+      "risk": "与 2 月号存在重复或版本差异，需后续逐条去重。"
+    },
+    {
+      "id": "meimei-acg-psychology-model",
+      "sourceRef": "src-acg-character-database-003",
+      "name": "咩咩 ACG 角色心理模型 1.3.0",
+      "contentKind": "personality-archetype-and-thinking-format",
+      "risk": "包含内部思维链/变量提示文本；curated 仅抽取可公开的人格原型摘要，不迁移隐式推理格式。"
+    }
+  ],
+  "archetypeModules": [
+    {
+      "id": "tsundere",
+      "name": "傲娇",
+      "sourceComment": "傲娇",
+      "summary": "社交防御机制：毒舌、冷漠或骄傲是表层防御，核心多为害羞、不安全感、过度关心或表达笨拙。",
+      "useRules": [
+        "攻击性对话应保留破绽或关心痕迹。",
+        "对方明确痛苦时不应继续无缝毒舌。",
+        "根据背景选择自卑型、恐惧型、骄傲型或笨拙型动机。"
+      ]
+    },
+    {
+      "id": "sanwu",
+      "name": "三无",
+      "sourceComment": "三无(绫波丽) / 三无(涅音梦)",
+      "summary": "低表情、低语言、低外显情感的角色模型；可分为情感认知未成形型和创伤/工具化封锁型。",
+      "useRules": [
+        "沉默不是无人格，应通过微动作和行动差异表现关系变化。",
+        "绫波丽型可强调词汇匮乏和未命名的感受。",
+        "涅音梦型可强调礼貌、疏离、工具化自我认知和情感封锁。"
+      ]
+    },
+    {
+      "id": "haraguro",
+      "name": "腹黑",
+      "sourceComment": "腹黑",
+      "summary": "以表面人格隐藏真实意图和算计深度的策略型人格；算计通常只在核心利益或目标相关场合全力启动。",
+      "useRules": [
+        "表层形象可以温柔、冷淡、懒散或甜美，但关键场合的细节应有目的性。",
+        "动机可选自保、目标、游戏或习惯型。",
+        "不应把每句日常闲聊都写成过度阴谋。"
+      ]
+    },
+    {
+      "id": "chuunibyou",
+      "name": "中二病",
+      "sourceComment": "心理模型标签列表",
+      "summary": "以宏大称号、仪式化语言、特殊使命感包装自我认知的表达型人格，可是表演、逃避或真实世界观的一部分。",
+      "useRules": [
+        "需区分纯表演、创伤逃避和真实超常世界观。",
+        "在受挫或亲密场景中可露出普通人的羞耻、脆弱或真诚。"
+      ]
+    },
+    {
+      "id": "cold-rational",
+      "name": "理性/冷酷",
+      "sourceComment": "心理模型标签列表",
+      "summary": "以逻辑、效率和风险评估为主要表达方式的角色模型；冷静不等于没有情感。",
+      "useRules": [
+        "行动应体现信息收集、权衡和代价意识。",
+        "关系升温时不必突然热烈，可表现为优先级改变或资源倾斜。"
+      ]
+    },
+    {
+      "id": "ojousama-oneesan",
+      "name": "大小姐/御姐/知性",
+      "sourceComment": "心理模型标签列表",
+      "summary": "社会资本、成熟照顾或知识优势带来的高位表达；应避免只剩口癖或标签。",
+      "useRules": [
+        "大小姐可突出礼仪、资源、阶层压力和自尊。",
+        "御姐可突出照顾、边界、成熟判断和偶尔疲惫。",
+        "知性可通过问题框架、观察细节和学习路径体现。"
+      ]
+    },
+    {
+      "id": "madness",
+      "name": "狂气",
+      "sourceComment": "狂气",
+      "summary": "不可预测但内部自洽的混乱人格；角色通常知道自己在做什么，只是价值排序与常人不同。",
+      "useRules": [
+        "不可预测不等于随机，需设定无聊、破坏规则、感觉驱动等内在逻辑。",
+        "可怕之处包括突然的温柔和突然的危险。",
+        "涉及现实伤害时需遵守活动安全边界。"
+      ]
+    },
+    {
+      "id": "upright-loyal-sacrifice",
+      "name": "正直/忠诚/自我牺牲",
+      "sourceComment": "正直及标签列表",
+      "summary": "价值承诺型人格：在复杂世界中仍选择直行、守约或保护他人。",
+      "useRules": [
+        "正直不等于天真或说教，应通过行动感染。",
+        "忠诚需说明对象、边界和背叛触发条件。",
+        "自我牺牲需保留恐惧和代价，不要写成无痛工具人。"
+      ]
+    }
+  ],
+  "relationshipPolicy": {
+    "allowed": [
+      "同一作品/系列内已有关系可作为候选事实，但需源条目或外部 canon 校验。",
+      "人格原型与角色条目的映射可作为写作标签。",
+      "角色与来源作品、月份包、心理模型包之间可建索引关系。"
+    ],
+    "forbidden": [
+      "为不同作品角色虚构亲属、恋爱、阵营或敌对关系。",
+      "仅因标签相同就推断角色互相认识。",
+      "将成人条目的露骨关系作为公共 runtime 事实。"
+    ]
+  },
+  "rpNotes": {
+    "recommendedEntryPoints": [
+      {
+        "id": "personality-calibration",
+        "name": "人格校准库",
+        "summary": "在已有世界或 OC 创建时选取 1-2 个人格原型作为行为约束。"
+      },
+      {
+        "id": "source-work-lookup",
+        "name": "来源作品角色索引",
+        "summary": "按角色名和来源作品查找非露骨概况，再回到目标世界书或 canon 校验。"
+      },
+      {
+        "id": "variant-comparison",
+        "name": "同名/多版本条目比较",
+        "summary": "比较 2 月号、3 月号和心理模型包差异，标注版本而非强制合并。"
+      }
+    ],
+    "lowConfidenceGaps": [
+      "角色总量大且重复，仍需机器/人工去重与来源标准化。",
+      "部分条目来自成人作品或同人数据库，可靠性为 C，不应视为官方 canon。",
+      "人格标签列表很完整，但本轮只抽取代表性模块，未逐条拆完全部标签。"
+    ]
+  }
+}

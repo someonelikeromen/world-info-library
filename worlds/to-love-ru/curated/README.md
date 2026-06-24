@@ -16,3 +16,8 @@
 - `curation-notes.md`：整理记录和风险。
 
 说明：原始归档含成人化条目；本 curated 仅保留全年龄恋爱喜剧、科幻日常、校园与人物关系结构。
+
+## retry-13 completion expansion
+- 新增 `completion-expansion.json`，补全人物覆盖、势力、时间线、篇章、能力体系、关系补充和 RP notes。
+- 来源标注为 `user-file-source / character-card-or-worldbook-derived-archive with adultized harem-plan rewrite`，可信度 B；乐园计划改写为全年龄关系观察与喜剧推动。
+- 仍缺本篇/Darkness 全章节逐条结构化和一次性外星访客细分。

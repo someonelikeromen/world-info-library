@@ -8,22 +8,65 @@
       "type": "character-card-worldbook",
       "reliability": "B",
       "location": "campaigns/world-library/worlds/dragon-ball/source-registry.json / imports/raw/world-sources/lz.png",
+      "archiveLocations": [
+        "campaigns/world-library/worlds/dragon-ball/raw/original-entry-index.json",
+        "campaigns/world-library/worlds/dragon-ball/raw/imported-worldbooks/lz_card.worldbook.json"
+      ],
       "appliesTo": [
         "world",
         "characters",
         "powerSystems",
         "factions",
-        "timeline"
+        "locations",
+        "timeline",
+        "plotArcs",
+        "relationships",
+        "rpNotes"
       ],
-      "notes": "自动归档保留 215 条；手工初版仅抽取 RP 关键框架。"
+      "consultedArchivePaths": [
+        "campaigns/world-library/worlds/dragon-ball/manifest.json",
+        "campaigns/world-library/worlds/dragon-ball/reports/classification-report.md",
+        "campaigns/world-library/worlds/dragon-ball/reports/conflicts.md",
+        "campaigns/world-library/worlds/dragon-ball/reports/low-confidence.md",
+        "campaigns/world-library/worlds/dragon-ball/canon-reference/timeline.json",
+        "campaigns/world-library/worlds/dragon-ball/canon-reference/arcs.json",
+        "campaigns/world-library/worlds/dragon-ball/factions/factions.json",
+        "campaigns/world-library/worlds/dragon-ball/locations/locations.json",
+        "campaigns/world-library/worlds/dragon-ball/power-systems/power-systems.json",
+        "campaigns/world-library/worlds/dragon-ball/power-systems/abilities.json",
+        "campaigns/world-library/worlds/dragon-ball/sandbox/scenario-seeds.json",
+        "campaigns/world-library/worlds/dragon-ball/sandbox/timeline-divergence-rules.json",
+        "campaigns/world-library/worlds/dragon-ball/technical/technical-and-control-text.json"
+      ],
+      "notes": "自动归档保留 215 条；curated 层抽取 RP 关键框架、分支时间线、阵营/地点/能力规则和 GM 操作提示。源含角色心理、技术控制与 NSFW 分类内容，本 curated 层不导入 NSFW 文本。"
     }
   ],
   "conflictLog": [
     {
       "id": "db-conflict-001",
       "summary": "剧场版异闻、原作 Z、沙盒未来节点并存。",
-      "resolution": "curated 文件标记为可选分支；跑团前锁定时间线。"
+      "resolution": "curated 文件标记为可选支线/平行事件；跑团前锁定时间线。"
+    },
+    {
+      "id": "db-conflict-002",
+      "summary": "GT 与超分支在时代后续、变身体系和宇宙规则上默认互斥。",
+      "resolution": "`timeline/story-branches.json` 和 `timeline/index.json` 要求选择 branchSet；不要默认同时启用 GT 黑星龙珠/超4 与超神之气/多宇宙。"
+    },
+    {
+      "id": "db-conflict-003",
+      "summary": "源中仅第一部上时间线 enabled=true，其余主干/GT/超多为 disabled 多选一条目。",
+      "resolution": "curated 将 disabled 条目作为可选分支索引使用，并在 notes 中保留 B 级置信和启用条件。"
+    },
+    {
+      "id": "db-conflict-004",
+      "summary": "战斗力与倍率条目包含沙盒推算、时代膨胀和神境规则。",
+      "resolution": "用于 RP 标尺而非精确模拟；开局冻结角色强度、地图耐久、复活和星球级攻击许可。"
     }
+  ],
+  "lowConfidenceNotes": [
+    "reports/low-confidence.md 指向 unclassified、technical 与各分类 confidence 字段；本轮仅吸收技术文本中可转为 RP 规则的边界/状态/战斗信息。",
+    "source reliability 为 B；未引入外部百科补证。",
+    "GT/超/剧场版分支、角色强度和战斗力数值需由具体桌面团最终确认。"
   ],
   "campaignId": "dragon-ball"
 }

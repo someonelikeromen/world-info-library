@@ -1,0 +1,526 @@
+{
+  "schema": "rp-locations-v1",
+  "worldId": "dungeon-fighter-online",
+  "sourceRefs": [
+    "src-dfo-locations-archive",
+    "src-dfo-canon-timeline-entry-99",
+    "src-dfo-canon-arcs"
+  ],
+  "locations": [
+    {
+      "id": "arad-continent",
+      "name": "阿拉德大陆",
+      "type": "continent",
+      "visibility": "public",
+      "summary": "人类、精灵遗产、暗精灵、班图、帝国、公国、虚祖等势力共存的主要冒险舞台；大魔法阵维持其环境安全。",
+      "parent": null,
+      "controllingFactions": [],
+      "notableFeatures": [
+        "地下城与灾厄事件密集。",
+        "精灵牺牲与大魔法阵阻止天空之海淹没大陆。"
+      ],
+      "hazards": [
+        "转移现象",
+        "使徒灾厄",
+        "国家战争"
+      ],
+      "connectedLocations": [
+        "hendon-myere",
+        "gran-floris",
+        "west-coast",
+        "strou-mountains",
+        "dark-elf-kingdom"
+      ],
+      "sourceRefs": [
+        "src-dfo-locations-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "hendon-myere",
+      "name": "赫顿玛尔",
+      "type": "city",
+      "visibility": "public",
+      "summary": "贝尔玛尔公国重要城市和常用冒险据点；历史上班图曾占据该地区，后凯丽等天界人物也在此出现。",
+      "parent": "bel-myre-principality",
+      "controllingFactions": [
+        "bel-myre-principality"
+      ],
+      "notableFeatures": [
+        "城市型冒险起点。",
+        "可连接艾尔文防线、西海岸与格兰之森。"
+      ],
+      "hazards": [
+        "帝国政治压力",
+        "周边地下城异变"
+      ],
+      "connectedLocations": [
+        "elvenguard",
+        "west-coast",
+        "gran-floris"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-locations-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "elvenguard",
+      "name": "艾尔文防线",
+      "type": "frontier",
+      "visibility": "public",
+      "summary": "阿拉德历990年冒险家救出赛丽亚的早期舞台，可作为新角色进入格兰之森异变线的入口。",
+      "parent": "arad-continent",
+      "controllingFactions": [
+        "adventurers"
+      ],
+      "notableFeatures": [
+        "赛丽亚起点事件。",
+        "临近狂暴动植物与森林危机。"
+      ],
+      "hazards": [
+        "魔物袭击",
+        "森林异变"
+      ],
+      "connectedLocations": [
+        "gran-floris",
+        "hendon-myere"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "gran-floris",
+      "name": "格兰之森",
+      "type": "forest-dungeon-region",
+      "visibility": "public",
+      "summary": "精灵居住过的森林，第一次转移后动植物变异，985年爆发格兰之火，大部分精灵消失并维持大魔法阵。",
+      "parent": "arad-continent",
+      "controllingFactions": [],
+      "notableFeatures": [
+        "精灵遗产。",
+        "格兰之火与大魔法阵相关。"
+      ],
+      "hazards": [
+        "变异动植物",
+        "火灾遗留",
+        "转移影响"
+      ],
+      "connectedLocations": [
+        "elvenguard",
+        "hendon-myere"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "west-coast",
+      "name": "西海岸",
+      "type": "port-and-magic-hub",
+      "visibility": "public",
+      "summary": "通向天空之城、天空之海与天帷巨兽相关冒险的港口/枢纽；后期阿拉德联合军以西海岸中央驻地为中心成立。",
+      "parent": "bel-myre-principality",
+      "controllingFactions": [
+        "bel-myre-principality",
+        "arad-allied-forces"
+      ],
+      "notableFeatures": [
+        "交通与远征集结点。",
+        "连接天界与天空之海线索。"
+      ],
+      "hazards": [
+        "使徒相关远征风险",
+        "帝国占领/政治介入"
+      ],
+      "connectedLocations": [
+        "sky-tower",
+        "sky-sea",
+        "behemoth",
+        "hendon-myere"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "sky-tower",
+      "name": "天空之城",
+      "type": "tower-route",
+      "visibility": "public",
+      "summary": "从阿拉德通往天空之海和天界的关键通道；公元前1年通往天界的通道被破坏，994年冒险家发现道路仍被堵死。",
+      "parent": "arad-continent",
+      "controllingFactions": [],
+      "notableFeatures": [
+        "阿拉德与天界往来的唯一路线相关。",
+        "光之城主赛格哈特事件。"
+      ],
+      "hazards": [
+        "封锁",
+        "高空与地下城危险"
+      ],
+      "connectedLocations": [
+        "sky-sea",
+        "heaven",
+        "west-coast"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "sky-sea",
+      "name": "天空之海",
+      "type": "aerial-sea",
+      "visibility": "public",
+      "summary": "存在于阿拉德大陆天空上的海；从阿拉德经天空之城才能穿越到天界，少数天族也曾从天界跳入天空之海抵达阿拉德。",
+      "parent": null,
+      "controllingFactions": [],
+      "notableFeatures": [
+        "阿拉德—天界交通边界。",
+        "可容纳高空航行、坠落与异界路线。"
+      ],
+      "hazards": [
+        "高空环境",
+        "路线断绝"
+      ],
+      "connectedLocations": [
+        "sky-tower",
+        "heaven",
+        "behemoth"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "behemoth",
+      "name": "天帷巨兽",
+      "type": "living-continent-dungeon",
+      "visibility": "public",
+      "summary": "游弋于天空之海的巨大生物，背部形成遗迹与GBL教总部；罗特斯降临后大批求知者受精神支配。",
+      "parent": "sky-sea",
+      "controllingFactions": [
+        "gbl",
+        "lotus"
+      ],
+      "notableFeatures": [
+        "神殿外围、树精丛林、炼狱、极昼、第一/第二脊椎、天帷禁地、蓝色真谛女神殿等下属区域。",
+        "每300年落地休息的传说。"
+      ],
+      "hazards": [
+        "罗特斯精神控制",
+        "章鱼怪化",
+        "古代神殿危险"
+      ],
+      "connectedLocations": [
+        "sky-sea",
+        "west-coast"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "screaming-cavern",
+      "name": "悲鸣洞穴",
+      "type": "apostle-disaster-site",
+      "visibility": "private",
+      "summary": "第一次转移事件中希洛克被转移至此并造成巨大伤害；980年四剑圣讨伐希洛克，卢克西因希洛克力量影响被遗忘。",
+      "parent": "arad-continent",
+      "controllingFactions": [
+        "sirocco"
+      ],
+      "notableFeatures": [
+        "第一次转移关键地点。",
+        "四剑圣与卢克西事件。"
+      ],
+      "hazards": [
+        "使徒级残留影响",
+        "记忆/精神影响"
+      ],
+      "connectedLocations": [
+        "gran-floris",
+        "arad-continent"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "noire-ferra",
+      "name": "诺伊佩拉",
+      "type": "plague-site",
+      "visibility": "public",
+      "summary": "暗精灵重要地点，曾因狄瑞吉幻影爆发瘟疫并引发暗精灵与人类战争误会。",
+      "parent": "dark-elf-kingdom",
+      "controllingFactions": [
+        "dark-elf-kingdom"
+      ],
+      "notableFeatures": [
+        "矮人与暗精灵历史仇怨地点。",
+        "狄瑞吉幻影瘟疫。"
+      ],
+      "hazards": [
+        "瘟疫",
+        "政治误判",
+        "暗精灵戒备"
+      ],
+      "connectedLocations": [
+        "dark-elf-kingdom",
+        "northmyre"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-factions-archive"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "northmyre",
+      "name": "诺斯玛尔",
+      "type": "plague-region",
+      "visibility": "public",
+      "summary": "狄瑞吉被转移后瘟疫蔓延的地区；冒险家最终在痛苦之村列瑟芬将其封印至异次元裂缝。",
+      "parent": "arad-continent",
+      "controllingFactions": [],
+      "notableFeatures": [
+        "痛苦之村列瑟芬。",
+        "狄瑞吉封印线。"
+      ],
+      "hazards": [
+        "瘟疫",
+        "异次元裂缝"
+      ],
+      "connectedLocations": [
+        "noire-ferra",
+        "dimension-rift"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "strou-mountains",
+      "name": "斯特鲁山脉",
+      "type": "mountain-frontier",
+      "visibility": "public",
+      "summary": "班图族与乌希尔教、卡赞遗体、冰龙斯卡萨相关的北方山地；多次雪色战役与班图迁徙围绕此地发生。",
+      "parent": "arad-continent",
+      "controllingFactions": [
+        "bantu",
+        "ushir-order"
+      ],
+      "notableFeatures": [
+        "卡赞遗体保管线。",
+        "班图族迁徙与冰龙周期。"
+      ],
+      "hazards": [
+        "雪山气候",
+        "冰龙苏醒",
+        "帝国边境冲突"
+      ],
+      "connectedLocations": [
+        "strigo-plateau",
+        "chatley",
+        "de-los-empire"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-factions-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "heaven",
+      "name": "天界",
+      "type": "upper-world",
+      "visibility": "public",
+      "summary": "被巴卡尔长期统治和封锁的天空世界，巴卡尔死后发展机械文明，后经历卡勒特战争、皇都内战、能源中心与机械七战神遗产线。",
+      "parent": null,
+      "controllingFactions": [
+        "heaven-army",
+        "seventh-empire"
+      ],
+      "notableFeatures": [
+        "第七帝国、根特、伊顿工业区、诺斯匹斯、莫斯匹斯等地区。",
+        "封杀魔法令遗产与机械文明。"
+      ],
+      "hazards": [
+        "卡勒特战争",
+        "贵族叛乱",
+        "安徒恩能源中心占据",
+        "巴卡尔遗产"
+      ],
+      "connectedLocations": [
+        "sky-sea",
+        "ghent",
+        "eaton-industrial-zone",
+        "mosphise",
+        "nospis"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "pandemonium",
+      "name": "魔界",
+      "type": "drifting-dimensional-city-world",
+      "visibility": "private",
+      "summary": "泰拉残余城市在异次元漂流形成的世界，魔法、突变、使徒、生命之水传说、佧修派和多魔法组织的核心舞台。",
+      "parent": null,
+      "controllingFactions": [
+        "apostles",
+        "kashipa",
+        "tarakuta"
+      ],
+      "notableFeatures": [
+        "与多行星/世界连接。",
+        "赫尔德发现魔法并命名使徒。",
+        "卢克建造寂静城。"
+      ],
+      "hazards": [
+        "异次元射线与疾病",
+        "魔法组织冲突",
+        "使徒级存在"
+      ],
+      "connectedLocations": [
+        "silent-city",
+        "central-park",
+        "harlem",
+        "metro-center"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "silent-city",
+      "name": "寂静城",
+      "type": "dimensional-route-and-fortress",
+      "visibility": "private",
+      "summary": "卢克秘密建造的城；巴卡尔曾借其逃往天界，后安徒恩残骸形成克洛诺斯岛并发现通往魔界的寂静城。",
+      "parent": "pandemonium",
+      "controllingFactions": [
+        "luke"
+      ],
+      "notableFeatures": [
+        "连接天界、魔界与阿拉德后期主线。",
+        "被吉赛尔改造、被索德罗斯与卡西利亚斯战斗破坏。"
+      ],
+      "hazards": [
+        "使徒卢克机关",
+        "次元通道不稳定"
+      ],
+      "connectedLocations": [
+        "pandemonium",
+        "heaven",
+        "kronos-island"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "black-earth",
+      "name": "黑色大地",
+      "type": "sealed-disaster-realm",
+      "visibility": "private",
+      "summary": "奥兹玛与黑色大地被封印至异次元的暗黑圣战核心地点；第二次暗黑圣战中再次成为混沌之门和奥兹玛讨伐线核心。",
+      "parent": null,
+      "controllingFactions": [
+        "ozma",
+        "black-order"
+      ],
+      "notableFeatures": [
+        "奥兹玛封印与复活线。",
+        "米歇尔圣物线。"
+      ],
+      "hazards": [
+        "伪装者",
+        "混沌污染",
+        "异次元封印"
+      ],
+      "connectedLocations": [
+        "chestertown",
+        "exile-mountains"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "seon",
+      "name": "神界",
+      "type": "upper-expansion-world",
+      "visibility": "private",
+      "summary": "通道中断千年后重新与阿拉德缔结誓约的世界；白海、雾之都晴烟、迷雾高原、雾神与索利达里斯事件构成后期篇章。",
+      "parent": null,
+      "controllingFactions": [
+        "seon"
+      ],
+      "notableFeatures": [
+        "天之印与雾神线索。",
+        "白海、晴烟、迷雾高原。"
+      ],
+      "hazards": [
+        "妖气侵袭",
+        "索利达里斯攻击",
+        "资料缺口大"
+      ],
+      "connectedLocations": [
+        "white-ocean",
+        "clearmist",
+        "mist-plateau"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "C"
+    }
+  ],
+  "indices": {
+    "majorHubs": [
+      "hendon-myere",
+      "west-coast",
+      "heaven",
+      "pandemonium",
+      "seon"
+    ],
+    "apostleSites": [
+      "screaming-cavern",
+      "behemoth",
+      "noire-ferra",
+      "northmyre",
+      "silent-city",
+      "black-earth"
+    ],
+    "earlyGame": [
+      "elvenguard",
+      "gran-floris",
+      "hendon-myere",
+      "west-coast"
+    ]
+  },
+  "openIssues": [
+    "大量下属地下城未展开成独立 location；本轮仅补关键篇章节点。",
+    "神界、魔界细分区域需要后续从对应条目逐项抽取。"
+  ]
+}

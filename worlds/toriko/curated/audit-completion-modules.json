@@ -1,0 +1,410 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "toriko",
+  "completionPass": "complete-14",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/toriko/reports/classification-report.md",
+    "campaigns/world-library/worlds/toriko/characters/characters.json",
+    "campaigns/world-library/worlds/toriko/factions/factions.json",
+    "campaigns/world-library/worlds/toriko/locations/locations.json",
+    "campaigns/world-library/worlds/toriko/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/toriko/canon-reference/arcs.json"
+  ],
+  "coverageNote": "既有 curated 已覆盖主角团与核心体系；本模块补强美食界、八王、阿卡西亚全套菜单、篇章索引和 RP 使用边界，仍不逐条展开全部食材与厨师榜单。",
+  "characters": {
+    "coreGroups": [
+      {
+        "id": "four-heavenly-kings",
+        "members": [
+          "toriko",
+          "coco",
+          "sunny",
+          "zebra"
+        ],
+        "role": "人间界顶级美食猎人队列，各自承担力量、毒/情报、美学/毛发、音波/破坏等战斗风格。"
+      },
+      {
+        "id": "chef-partners",
+        "members": [
+          "komatsu",
+          "setsuno"
+        ],
+        "role": "料理解析、食材处理和团队生存的关键；高等级食材常必须由厨师解锁。"
+      },
+      {
+        "id": "igo-leadership",
+        "members": [
+          "ichiryu",
+          "mansam"
+        ],
+        "role": "人间界秩序、捕获等级标准和美食界威胁预警。"
+      },
+      {
+        "id": "bishokukai-neo",
+        "members": [
+          "midora",
+          "stajyu",
+          "joa",
+          "acacia"
+        ],
+        "role": "美食会、NEO 与终局食欲线；三虎/阿卡西亚关系默认高剧透。"
+      }
+    ],
+    "expansionCandidates": [
+      "八王：每一王对应美食界生态霸权，不宜当普通怪物使用。",
+      "蓝色尼特罗/红色尼特罗：与阿卡西亚全套菜单、食欲恶魔和终局历史相关，默认 GM-only。",
+      "美食会干部与副料理长：可作中期敌对任务目标，但需按具体篇章再查源。",
+      "厨师榜单人物：存在译名差异，当前只作为料理网络背景，不做完整人物索引。"
+    ]
+  },
+  "factions": [
+    {
+      "id": "igo",
+      "name": "IGO国际美食机构",
+      "role": "人间界秩序、捕获等级、食材流通和生态保护的公开机构。",
+      "rpHooks": [
+        "委托捕获",
+        "第0生物保护区",
+        "料理节与市场管制",
+        "对美食会战争动员"
+      ]
+    },
+    {
+      "id": "gourmet-corps",
+      "name": "美食会",
+      "role": "追求强大食材和食欲满足的敌对组织，三虎系为核心。",
+      "rpHooks": [
+        "抢夺稀有食材",
+        "捕获任务遭遇",
+        "副料理长试炼",
+        "与 IGO 的全面冲突"
+      ]
+    },
+    {
+      "id": "neo",
+      "name": "NEO",
+      "role": "终局秘密组织，关联乔亚、阿卡西亚与食之理想的反转。",
+      "rpHooks": [
+        "身份渗透",
+        "全套菜单争夺",
+        "世界级阴谋"
+      ],
+      "visibility": "gm-only"
+    },
+    {
+      "id": "eight-kings",
+      "name": "八王",
+      "role": "美食界八大生态顶点，不服从人类政治秩序。",
+      "rpHooks": [
+        "领域禁入",
+        "生态考验",
+        "与全套菜单食材的区域关联"
+      ],
+      "visibility": "private-to-gm"
+    },
+    {
+      "id": "chef-network",
+      "name": "厨师/美食骑士网络",
+      "role": "料理技术、食义修行和食材解锁的非单纯战斗力量。",
+      "rpHooks": [
+        "烹饪失败风险",
+        "食义修行",
+        "料理节社交",
+        "高等级食材处理"
+      ]
+    },
+    {
+      "id": "gourmet-yakuza",
+      "name": "美食黑社会",
+      "role": "地下美食流通与灰色中间商网络。",
+      "rpHooks": [
+        "地下美食街",
+        "稀有食材走私",
+        "委托冲突",
+        "从犯罪集团转型为合法中介的灰度选择"
+      ],
+      "source": "assets/items.json entry 美食黑社会"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "gourmet-cells",
+      "name": "美食细胞",
+      "rules": [
+        "进食高质量食材可推动肉体进化，但过度追求会被食欲反噬。",
+        "宿主体内的食欲恶魔不是单纯技能树，而是人格、饥饿与细胞记忆的综合体现。",
+        "再生、力量、感知和特殊技都应与食材经验绑定。"
+      ]
+    },
+    {
+      "id": "appetite-demon",
+      "name": "食欲恶魔",
+      "rules": [
+        "红、蓝、白、黑等位阶/表现不应无条件开放；觉醒需重大食材或剧情门槛。",
+        "恶魔力量可救场也会带来失控、吞噬冲动和身份暴露。"
+      ]
+    },
+    {
+      "id": "capture-level",
+      "name": "捕获等级",
+      "rules": [
+        "等级衡量危险度、稀有度、环境和捕获难度，不是纯战斗力数值。",
+        "人间界早期目标可用于教学；美食界目标通常需要团队、料理、路线和撤退计划。"
+      ]
+    },
+    {
+      "id": "food-honor",
+      "name": "食义/食没",
+      "rules": [
+        "食义强调敬畏、节制与高效率吸收，是高难度料理和战斗稳定器。",
+        "食没/吞噬路线可提供短期爆发，但容易变成反派或失控风险。"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "human-world",
+      "name": "人间界",
+      "role": "IGO 秩序与美食市场主域，适合早中期捕获任务。"
+    },
+    {
+      "id": "gourmet-world",
+      "name": "美食界",
+      "role": "八王统治的高危生态域；天气、重力、猛兽和食材本身都是威胁。"
+    },
+    {
+      "id": "igo-0-biotope",
+      "name": "IGO第0生物保护区",
+      "role": "高等级食材、保护种和终局情报入口。"
+    },
+    {
+      "id": "food-temple",
+      "name": "食林寺",
+      "role": "食义修行、精神稳定和料理/战斗节制。"
+    },
+    {
+      "id": "cooking-festival-stage",
+      "name": "料理节舞台",
+      "role": "厨师排名、社交、袭击与战争导火索。"
+    },
+    {
+      "id": "gourmet-world-routes",
+      "name": "美食界航路/大陆入口",
+      "role": "进入美食界前必须进行路线、食材和撤退设计。"
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "gourmet-age",
+      "title": "美食时代成型",
+      "notes": "食材价值、捕获等级和美食猎人成为社会核心。"
+    },
+    {
+      "phase": "early-captures",
+      "title": "人间界捕获任务",
+      "notes": "阿虏与小松搭档建立，适合 PC 学习捕获等级与料理配合。"
+    },
+    {
+      "phase": "training-and-festival",
+      "title": "修行、食义与料理节",
+      "notes": "蔬菜天空、食林寺、料理舞台等地点可串联角色成长。"
+    },
+    {
+      "phase": "four-beasts-war",
+      "title": "四兽与美食界威胁外溢",
+      "notes": "人间界不再安全，IGO/美食会冲突升级。"
+    },
+    {
+      "phase": "gourmet-world-expedition",
+      "title": "美食界探索",
+      "notes": "八王领域、阿卡西亚菜单和高等级生态成为主轴。"
+    },
+    {
+      "phase": "neo-final",
+      "title": "NEO/阿卡西亚终局",
+      "notes": "GM-only 高剧透；决定是否启用前需锁定时间线和 PC 战力尺度。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "capture-commission",
+      "title": "捕获委托",
+      "use": "用具体食材/猛兽建立短篇任务，强调准备、生态和料理处理。"
+    },
+    {
+      "id": "chef-hunter-combo",
+      "title": "猎人与厨师搭档",
+      "use": "战斗角色无法单独完成高等级食材；厨师的判断决定成果。"
+    },
+    {
+      "id": "igo-vs-bishokukai",
+      "title": "IGO 与美食会战争",
+      "use": "中期阵营冲突、抢夺稀有食材、干部遭遇战。"
+    },
+    {
+      "id": "eight-kings-menu",
+      "title": "八王与全套菜单",
+      "use": "美食界高剧透探索线，必须将生态威压置于数值战斗之上。"
+    },
+    {
+      "id": "appetite-demon-crisis",
+      "title": "食欲恶魔危机",
+      "use": "觉醒、失控、吞噬冲动和同伴牵制的角色剧情。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "toriko",
+      "to": "komatsu",
+      "type": "hunter-chef-partner",
+      "visibility": "public"
+    },
+    {
+      "from": "toriko",
+      "to": "four-heavenly-kings",
+      "type": "member",
+      "visibility": "public"
+    },
+    {
+      "from": "igo",
+      "to": "capture-level",
+      "type": "standardizes",
+      "visibility": "public"
+    },
+    {
+      "from": "gourmet-corps",
+      "to": "igo",
+      "type": "strategic-enemies",
+      "visibility": "public"
+    },
+    {
+      "from": "neo",
+      "to": "acacia-full-menu",
+      "type": "seeks-controls",
+      "visibility": "gm-only"
+    },
+    {
+      "from": "eight-kings",
+      "to": "gourmet-world",
+      "type": "rules-ecological-domains",
+      "visibility": "private"
+    }
+  ],
+  "rpNotes": [
+    "每次捕获任务先定义目标捕获等级、栖息环境、可食部位、料理条件和失败后果。",
+    "进入美食界前必须给出补给、导航、料理人、撤退条件和生态禁忌；不要把美食界当普通副本。",
+    "PC 可作为猎人、厨师、IGO 调查员、美食会成员或独立冒险者；不要默认替代阿虏。",
+    "高剧透内容（八王、NEO、阿卡西亚全套菜单）默认锁定，除非用户选择后期主线。"
+  ],
+  "residualGaps": [
+    "未逐项整理八王名称、领域与阿卡西亚全套菜单食材对应表。",
+    "未逐条拆分全部食材、猛兽和捕获等级。",
+    "厨师榜单与后期译名差异仍需二次校对。",
+    "已补八王/阿卡西亚全套菜单骨架；仍未逐条列出每个食材的捕获等级、料理步骤与守护生态。"
+  ],
+  "gourmetWorldExpansion": {
+    "source": "campaigns/world-library/worlds/toriko canon-reference/arcs.json entries 世界知识/美食界八王探索篇 and assets/items.json",
+    "worldSplit": {
+      "humanWorld": "地球表面约 30%，IGO、市场、早中期捕获任务主域。",
+      "gourmetWorld": "地球表面约 70%，Area 1-8 由八王级生态顶点支配，捕获等级与环境威胁远超人间界。"
+    },
+    "eightKings": [
+      {
+        "area": "Area 8",
+        "name": "马王赫拉克勒斯",
+        "role": "空气/生命循环压力，进入美食界的尺度校准。"
+      },
+      {
+        "area": "Area 7",
+        "name": "猿王班比娜",
+        "role": "猿武与蓝鬼觉醒相关考验。"
+      },
+      {
+        "area": "Area 6",
+        "name": "鲸王沐恩",
+        "role": "海域/深海生态顶点。"
+      },
+      {
+        "area": "Area 5",
+        "name": "鹿王空鹿",
+        "role": "森林/时间感异常与回避战考验。"
+      },
+      {
+        "area": "Area 4",
+        "name": "蛇王母蛇",
+        "role": "巨体、毒性与地形压迫。"
+      },
+      {
+        "area": "Area 3",
+        "name": "鸟王皇帝乌鸦",
+        "role": "天空生态顶点与群体压迫。"
+      },
+      {
+        "area": "Area 2",
+        "name": "狼王吉尼斯",
+        "role": "狼族生态、泰利·克洛斯祖先线与嗅觉/领地考验。"
+      },
+      {
+        "area": "Area 1",
+        "name": "龙王德拉库斯",
+        "role": "最高位龙族/美食界终局入口之一。"
+      }
+    ],
+    "acaciaFullCourse": [
+      {
+        "course": "前菜",
+        "item": "CENTER",
+        "rpGate": "再生/生命源相关，终局级。"
+      },
+      {
+        "course": "汤",
+        "item": "PAIR",
+        "rpGate": "Area 7/猿王线，高难仪式与搭档配合。"
+      },
+      {
+        "course": "鱼料理",
+        "item": "ANOTHER",
+        "rpGate": "Area 6/海域料理，厨师处理不可省略。"
+      },
+      {
+        "course": "肉料理",
+        "item": "NEWS",
+        "rpGate": "Area 5，高级生态与情报风险。"
+      },
+      {
+        "course": "主菜",
+        "item": "GOD",
+        "rpGate": "美食时代终极目标，不能作为普通委托。"
+      },
+      {
+        "course": "沙拉",
+        "item": "AIR",
+        "rpGate": "Area 8 空气树/马王领域。"
+      },
+      {
+        "course": "甜点",
+        "item": "EARTH",
+        "rpGate": "Area 4 等后期区域，需路线锁。"
+      },
+      {
+        "course": "饮品",
+        "item": "ATOM",
+        "rpGate": "Area 3/天空生态，需高端准备。"
+      }
+    ],
+    "arcIndex": [
+      "加拉鳄篇",
+      "世纪汤篇",
+      "蔬菜天空篇",
+      "梅尔克山篇",
+      "美食金字塔篇",
+      "美食赌场篇",
+      "食林寺篇",
+      "四兽篇",
+      "烹饪节篇",
+      "美食会战争篇",
+      "美食界八王探索篇"
+    ],
+    "useBoundary": "八王和全套菜单可以给 GM 做路线地图，但实际遭遇必须检查 PC 捕获等级、厨师搭档、补给、撤退条件和是否选择后期剧透。"
+  }
+}

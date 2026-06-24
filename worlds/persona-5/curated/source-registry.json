@@ -14,11 +14,15 @@
         "locations/locations.json",
         "power-systems/power-systems.json",
         "canon-reference/timeline.json",
+        "canon-reference/arcs.json",
         "canon-reference/plot-summary.json",
-        "factions/factions.json"
+        "factions/factions.json",
+        "reports/classification-report.md",
+        "reports/low-confidence.md",
+        "reports/conflicts.md"
       ],
       "reliability": "B",
-      "notes": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。"
+      "notes": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目；新增 timeline-index.json 仅作 RP 索引，不作为独立正史校验。"
     }
   ],
   "curationMethod": "manual reading and summarization; no script extraction for curated prose",
@@ -37,12 +41,16 @@
         "locations/locations.json",
         "power-systems/power-systems.json",
         "canon-reference/timeline.json",
+        "canon-reference/arcs.json",
         "canon-reference/plot-summary.json",
-        "factions/factions.json"
+        "factions/factions.json",
+        "reports/classification-report.md",
+        "reports/low-confidence.md",
+        "reports/conflicts.md"
       ],
       "reliability": "B",
       "visibility": "local-archive",
-      "summary": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。",
+      "summary": "原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间、角色条目与自动分类报告。",
       "capture": {
         "method": "existing-curated-trace",
         "capturedAt": "2026-06-22",
@@ -58,22 +66,28 @@
           "targetType": "world",
           "targetId": "persona-5",
           "field": "curated"
+        },
+        {
+          "targetType": "timeline-index",
+          "targetId": "persona-5-timeline-index",
+          "field": "plotArcs/metaverseRules/royalAccessGates/sourceIndex"
         }
       ],
       "conflictsWith": [],
-      "notes": "Normalized into sources[] from existing curatedFrom trace; this records local archive provenance and is not an independent canon verification. 原归档包含 P5R 世界观、地点、时间线、认知世界、人格面具、阴影、天鹅绒房间与角色条目。"
+      "notes": "Normalized into sources[] from existing curatedFrom/sourcesUsed local archive traces; this records local archive provenance and is not an independent canon verification. Persona-5 completion 2026-06-24 consulted timeline/arcs/plot-summary and reports for a compact RP timeline index; many archive entries remain confidence C."
     }
   ],
   "conflictLog": [],
   "registryNotes": [
     "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
     "Source-quality repair 2026-06-22: sources[] populated only from existing curatedFrom/sourcesUsed local archive traces; treat as provenance records, not independent canon verification.",
-    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed.",
+    "Persona-5 completion 2026-06-24: timeline-index.json added from local archive timeline/arcs/plot-summary plus reports; source confidence remains C for many archive entries and the module is an RP index, not independent canon verification."
   ],
   "conflictReviewStatus": {
     "status": "not-reviewed",
     "reviewedAt": "2026-06-22",
     "reviewScope": "registry metadata only; no new canon/source facts asserted",
-    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free."
+    "rationale": "Empty conflictLog means no conflicts are currently registered in the curated file; it has not been independently reviewed as conflict-free. Persona-5 completion preserved this status after reading campaign reports/conflicts.md, which also does not register concrete conflicts."
   }
 }

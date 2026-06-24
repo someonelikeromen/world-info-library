@@ -22,3 +22,10 @@
 ## 后续建议
 - 后续若需要扩展，可补入八王、食材、具体美食界区域与更多美食会干部的细化条目。
 - 若要用于剧情生成，建议继续补一份按篇章排序的事件索引，但不要回写 raw/imports。
+
+## retry-14 补完记录
+
+- 已确认 `audit-completion-modules.json` 承载美食界、八王、阿卡西亚全套菜单、NEO、料理节、食义/食没与 RP 使用边界。
+- 已对 campaigns 源的 characters/factions/locations/power-systems/canon-reference 做分层保守整理；不把八王或终局 NEO 线扩展为普通随机遭遇。
+- 残留缺口：具体食材索引、八王逐王资料、美食会干部细表、厨师榜单译名仍需下一轮按源条目拆分。
+- 验证：2026-06-24 使用 Node.js 解析本目录 JSON，包含本文件相邻 6 个 JSON，全部有效。

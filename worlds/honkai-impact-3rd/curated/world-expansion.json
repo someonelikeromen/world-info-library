@@ -1,0 +1,180 @@
+{
+  "schema": "rp-world-expansion-v1",
+  "worldId": "honkai-impact-3rd",
+  "displayName": "崩坏 / 崩坏三",
+  "curationStatus": "manual-completion-06-expanded",
+  "sourceRefs": [
+    "src-honkai-impact-3rd-001",
+    "src-honkai-impact-3rd-002",
+    "src-honkai-impact-3rd-003"
+  ],
+  "sourceFilesConsulted": [
+    "campaigns/world-library/worlds/honkai-impact-3rd/source-registry.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/characters/characters.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/honkai-impact-3rd/factions/factions.json",
+    "world-info-library/worlds/honkai-impact-3rd/curated/world.json",
+    "world-info-library/worlds/honkai-impact-3rd/curated/characters-index.json"
+  ],
+  "charactersSupplement": [
+    {
+      "id": "mei-dr",
+      "name": "梅博士 / Dr. MEI",
+      "role": "前文明科学核心；融合战士、神之键、空白之键与四大计划的推动者",
+      "factions": ["former-era", "moth"],
+      "powerSystems": ["valkyrie-tech", "divine-keys", "manticore-surgery"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"],
+      "notes": "与雷电芽衣不同，需用 mei-dr 区分。"
+    },
+    {
+      "id": "elysia",
+      "name": "爱莉希雅",
+      "role": "逐火十三英桀II「真我」；始源/人之律者；为后世律者注入人性变量",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["honkai-energy", "manticore-surgery", "herrscher-core"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"],
+      "notes": "其律者身份适合作为 GM 逐步揭示。"
+    },
+    {
+      "id": "aponia",
+      "name": "阿波尼亚",
+      "role": "逐火十三英桀III「戒律」；预知与精神控制能力者",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["manticore-surgery"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"],
+      "notes": "第十二律者事件中戒律的副作用需谨慎处理。"
+    },
+    {
+      "id": "eden",
+      "name": "伊甸",
+      "role": "逐火十三英桀IV「黄金」；前时代巨星；伊甸之星使用者",
+      "factions": ["flame-chasers", "former-era"],
+      "items": ["eden-star"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "vill-v",
+      "name": "维尔薇",
+      "role": "逐火十三英桀V「螺旋」；意识分割的工程师与魔术师",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["divine-keys", "valkyrie-tech"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "kalpas",
+      "name": "千劫",
+      "role": "逐火十三英桀VI「鏖灭」；狂暴异人；曾瞬杀冰之律者",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["manticore-surgery"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "su",
+      "name": "苏",
+      "role": "逐火十三英桀VII「天慧」；精神型融合战士；恒沙计划相关",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["manticore-surgery", "mental-discipline"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "sakura",
+      "name": "樱",
+      "role": "逐火十三英桀VIII「刹那」；前暗杀部队「毒蛹」成员；铃的姐姐",
+      "factions": ["flame-chasers", "former-era"],
+      "relationships": [{"target": "rin-former-era", "relation": "elder-sister"}],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "kosma",
+      "name": "科斯魔",
+      "role": "逐火十三英桀IX「旭光」；首个重要人为崩落案例之一",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["manticore-surgery", "active-honkai-reaction"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "mobius",
+      "name": "梅比乌斯",
+      "role": "逐火十三英桀X「无限」；生命实验与蛇蜕复活相关科学家",
+      "factions": ["flame-chasers", "former-era"],
+      "powerSystems": ["manticore-surgery", "biotech"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "griseo",
+      "name": "格蕾修",
+      "role": "逐火十三英桀XI「繁星」；方舟计划相关幸存者",
+      "factions": ["flame-chasers", "former-era"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "pardofelis",
+      "name": "帕朵菲莉丝",
+      "role": "逐火十三英桀XIII「空梦」；黄昏街出身；乐土商店老板",
+      "factions": ["flame-chasers", "former-era"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    },
+    {
+      "id": "prometheus-17",
+      "name": "普罗米修斯十七号",
+      "role": "前文明超级人工智能；潜入崩坏意志相关",
+      "factions": ["former-era"],
+      "powerSystems": ["ai", "valkyrie-tech"],
+      "sourceRefs": ["src-honkai-impact-3rd-001"]
+    }
+  ],
+  "timeline": [
+    {"id": "hi3-tl-pe-01", "era": "前文明", "summary": "第一律者（理）与第二律者（空）相继降临，逐火之蛾雏形建立。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-pe-02", "era": "前文明", "summary": "长空市/千羽学园第三次崩坏爆发，凯文、梅、华等关键人物卷入抗争。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-pe-03", "era": "前文明", "summary": "炎之律者焚毁澳洲，融合战士计划启动，凯文融合帕凡提基因。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-pe-04", "era": "前文明", "summary": "识、岩、支配律者事件造成梦魇、穆大陆沉没与千人危机，英桀逐渐集结。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-pe-05", "era": "前文明", "summary": "约束的惨剧后融合战士仅余十三人，逐火十三英桀与黄金庭园/往世乐土体系成形。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-pe-06", "era": "前文明", "summary": "侵蚀律者事件与核火毁灭最后城市；爱莉希雅献祭；终焉月球战失败后四大计划启动。", "sourceRefs": ["src-honkai-impact-3rd-001"]},
+    {"id": "hi3-tl-ce-01", "era": "现文明", "summary": "天命、逆熵、圣芙蕾雅与世界蛇围绕崩坏灾害、律者与前文明遗产展开冲突。", "sourceRefs": ["src-honkai-impact-3rd-002", "src-honkai-impact-3rd-003"], "confidence": "B"},
+    {"id": "hi3-tl-ce-02", "era": "现文明", "summary": "琪亚娜、芽衣、布洛妮娅等核心角色经历律者化、牺牲、分离与重组，推动终局对抗。", "sourceRefs": ["src-honkai-impact-3rd-002", "src-honkai-impact-3rd-003"], "confidence": "B"}
+  ],
+  "plotArcs": [
+    {"id": "former-era-epic", "name": "前文明纪元", "beats": ["理空双生", "雷风灾害", "融合战士诞生", "约束惨剧", "侵蚀核火", "始源献祭", "月球终焉战", "四大计划休眠"], "rpUse": "适合高压末世、组织政治、牺牲抉择和 OC 改写路线。"},
+    {"id": "st-freya-herrschers", "name": "圣芙蕾雅与律者成长线", "beats": ["御三家结成", "律者核心觉醒", "导师牺牲", "自我身份选择"], "rpUse": "适合校园训练、灾害现场、人格/权能冲突。", "confidence": "B"},
+    {"id": "otto-kallen-plan", "name": "奥托与卡莲执念线", "beats": ["天命资源操控", "虚空万藏", "复活执念", "主教终局"], "rpUse": "作为 GM 隐秘动机与天命高层任务线。", "confidence": "B"},
+    {"id": "world-serpent-stigma", "name": "世界蛇与圣痕计划", "beats": ["前文明遗产", "凯文复出", "圣痕计划执行", "人类存续伦理冲突"], "rpUse": "适合阵营潜入、极端方案伦理辩论、终局沙盒分歧。"}
+  ],
+  "powerSystemsSupplement": [
+    {"id": "herrscher-core", "name": "律者核心/权能", "rules": ["律者拥有对应权能与核心，宿主人格、律者人格和外部干预需分状态记录。", "权能强度高但通常伴随崩坏侵蚀、社会灾害和精神风险。"]},
+    {"id": "manticore-surgery", "name": "融合战士 / 超变手术", "rules": ["以崩坏兽基因改造人体，获得对抗律者的身体与异能。", "人为崩落是高风险禁限释放，需作为阶段性事件而非常态能力。"]},
+    {"id": "divine-keys", "name": "神之键", "rules": ["由律者核心与前文明科技制成的战略级武器。", "使用代价、持有者适配和维护状态必须标注。"]},
+    {"id": "stigmata", "name": "圣痕/圣痕计划", "rules": ["个人圣痕可提供抗性与能力；世界蛇圣痕计划属于终局级文明方案。", "跨世界角色不默认具有圣痕，需来源或事件赋予。"]}
+  ],
+  "factionsSupplement": [
+    {"id": "moth", "name": "逐火之蛾", "summary": "前文明对崩坏组织，内部包含军方、研究所、暗杀部队与融合战士体系。"},
+    {"id": "flame-chasers", "name": "逐火十三英桀", "summary": "约束惨剧后剩余的十三位融合战士，也是往世乐土记忆叙事核心。"},
+    {"id": "kaslana-line", "name": "卡斯兰娜血脉/家族线", "summary": "连接凯文、齐格飞、琪亚娜等牺牲与守护主题的家族标签。", "confidence": "B"}
+  ],
+  "locationsSupplement": [
+    {"id": "vostok-51", "name": "沃斯托克-51号", "use": "爱莉希雅起源地；前文明回忆入口。"},
+    {"id": "changkong-city", "name": "长空市/千羽学园", "use": "第三次崩坏、雷之律者与现文明灾害场景。"},
+    {"id": "dusk-street", "name": "黄昏街", "use": "千劫、阿波尼亚、帕朵相关底层与疫病线。"},
+    {"id": "mu-continent", "name": "穆大陆", "use": "岩之律者与拟似黑洞灾害；牺牲战术和理念冲突。"},
+    {"id": "moon-far-side", "name": "月球背面", "use": "终焉律者决战；压倒性差距与撤退节点。"},
+    {"id": "shelter-cryopods", "name": "避难所休眠仓", "use": "四大计划启动和跨纪元角色转场。"}
+  ],
+  "relationshipsSupplement": [
+    {"from": "kevin-kaslana", "to": "mei-dr", "relation": "lovers-and-comrades", "summary": "科学计划与战斗执行相互依存，但胜利代价不断拉大距离。"},
+    {"from": "elysia", "to": "flame-chasers", "relation": "founding-heart", "summary": "以真我和宴会重新凝聚英桀，并为后世律者留下人性变量。"},
+    {"from": "sakura", "to": "rin-former-era", "relation": "sisters-tragedy", "summary": "铃的死亡触发第十二律者悲剧，牵动樱与千劫。"},
+    {"from": "otto-apocalypse", "to": "kallen-kaslana", "relation": "obsession", "summary": "奥托行动的核心私密动机；适合延后揭示。", "confidence": "B"},
+    {"from": "kiana-kaslana", "to": "mei-raiden", "relation": "bond-under-crisis", "summary": "在律者、世界蛇和终局事件中反复经历分离与守护选择。", "confidence": "B"}
+  ],
+  "rpNotes": [
+    "开局先确定时代：前文明、现文明早期、圣芙蕾雅期、世界蛇/终局期。不同阶段的组织状态和可用科技差异很大。",
+    "每个律者/宿主都要记录核心、权能、人格状态、崩坏侵蚀与外部控制来源，避免把所有形态合并为单一战力。",
+    "OC 介入时以世界法则兼容而非强迫原作路线重合；原作主角可转为 NPC、背景战力或被事件蝴蝶效应改变。",
+    "崩坏能对外来体系不默认压制，但生物体接触高浓度崩坏能时需要抗性、感染和精神判定。",
+    "前文明线基调是灾害史诗与牺牲伦理；现文明线更适合友情、身份选择、组织博弈与终局方案辩论。"
+  ],
+  "pending": [
+    "现文明各章节、装甲形态、后崩坏书与支线角色仍需按源条目继续拆分。",
+    "律者编号、神之键编号和圣痕计划执行细节需二次校对后再做结构化表。",
+    "特斯拉、爱因斯坦、瓦尔特等逆熵人物在既有 world.json 中标为未规范化，未在本次强行补齐。"
+  ]
+}

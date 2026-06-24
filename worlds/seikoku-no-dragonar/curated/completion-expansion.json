@@ -1,0 +1,297 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "seikoku-no-dragonar",
+  "sourceRefs": [
+    "src-seikoku-no-dragonar-001"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：龙、星刻、圣骑甲、学院/国家组织、人物、地点、时间线、篇章和关系；仅使用 campaigns/world-library/worlds/seikoku-no-dragonar 本地源。",
+  "powerSystems": [
+    {
+      "id": "seikoku-pal-bond",
+      "name": "星刻、幼生仪式与帕尔契约",
+      "summary": "骑龙者通过幼生仪式获得星刻，星刻内孕育或召唤其帕尔。帕尔是龙骑士的搭档而非普通坐骑，信赖、情绪、血统与星刻稳定性会改变成长方向。亚修的特殊性在于原本未孵化的星刻诞生出人形龙少女艾可。",
+      "rpLimits": [
+        "新角色若拥有帕尔，应说明星刻位置、帕尔种类、成长阶段与信赖状态。",
+        "未成熟帕尔不应稳定展开高阶圣骑甲；情绪失控可导致龙化、魔力暴走或战斗中断。",
+        "借用他人帕尔可作为剧情特例，但会受到默契和规则限制。"
+      ]
+    },
+    {
+      "id": "dragonar-dragoncraft",
+      "name": "龙骑士、圣骑甲与龙媒魔法",
+      "summary": "成熟龙骑士可与帕尔协同进行空战、吐息、屏障、骑枪冲锋和魔法阵式飞行。圣骑甲是帕尔或古代圣骑甲残片等力量显化的装备形态，可显著提升机动、防御与命运干涉级武装。",
+      "examples": [
+        "艾可可生成亚修专属圣骑甲，觉醒后存在圣龙/魔龙形态。",
+        "蕾贝卡继承圣女遗物圣骑甲，并使用命运干涉魔枪凯·波尔古。",
+        "奥斯卡的菲尔诺特具强制命中性质；尤苏拉的弗拉加拉哈是无厚度的魔导能量剑。"
+      ],
+      "rpLimits": [
+        "圣骑甲应有持续、维护和魔力消耗；命运锁定/必中能力须保留闪避代价、预备动作或反制条件。",
+        "空战必须考虑空域、天气、龙的体力和骑手心理。"
+      ]
+    },
+    {
+      "id": "avalon-five-star-tools",
+      "name": "艾瓦隆传承与五大星具",
+      "summary": "艾可与艾瓦隆圣龙皇血统相连；伊苏卡瓦隆等索诺顿文明遗产可作为移动基地和政治宣言。五大星具由龙族制作，用于分割并封印贤龙王印波尔克的灵魂，包括星剑、星铠、星冠、星动机和星体。",
+      "rpLimits": [
+        "五大星具属于高阶剧情道具，默认不可随意获得或复制。",
+        "伊苏卡瓦隆作为领地/母舰时会引发国家承认、补给和外交压力。"
+      ]
+    },
+    {
+      "id": "dark-star-and-demiurge",
+      "name": "冥星石与戴米乌尔苟斯魔导技术",
+      "summary": "冥星石可利用憎恨、嫉妒等负面情绪产生结晶并外部操控龙族；魔导组织戴米乌尔苟斯及七翼将利用魔导兵器、战略物资和渗透行动制造国际危机。",
+      "rpLimits": [
+        "冥星石操控应可被净化、破坏载体或切断情绪供给来反制。",
+        "戴米乌尔苟斯线建议作为中后期组织战，不宜在学院日常开局直接压满。"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "veronica-loreamon",
+      "name": "维若妮卡·罗雷亚蒙",
+      "aliases": ["铁血女武神", "第一王女"],
+      "role": "罗雷亚蒙第一王女、军团统帅、魔导舰希瓦娜丝最高指挥官",
+      "affiliations": ["罗雷亚蒙骑士国"],
+      "abilities": ["阔刃巨剑", "军团指挥", "纯武技压制", "魔导舰战术"],
+      "notes": "极端现实主义与武力至上，适合作为高压导师、上级命令和战场统帅。"
+    },
+    {
+      "id": "lucca-saarinen",
+      "name": "露卡·沙里宁",
+      "aliases": ["森之妖精", "飞天妖精"],
+      "role": "耶库布莱德族少女、学院学生会书记、史上最年少龙骑士级天才",
+      "affiliations": ["安萨里邦骑龙学院", "耶库布莱德族"],
+      "abilities": ["骑龙演舞", "药草学", "净化蜜雨", "高精度飞行魔法阵"],
+      "notes": "害羞怕生但对帕尔极温柔，可连接阿比昂森林与龙族传统线。"
+    },
+    {
+      "id": "mirabel-lautreamont",
+      "name": "米拉贝勒·罗雷亚蒙",
+      "aliases": ["第三王女", "冰冷圣女"],
+      "role": "安萨里邦骑龙学院院长、罗雷亚蒙第三王女",
+      "affiliations": ["罗雷亚蒙骑士国", "安萨里邦骑龙学院"],
+      "abilities": ["西洋剑术", "学院管理", "学术研究", "威压"],
+      "notes": "奉维若妮卡命令监视亚修与艾可；红茶时间是鲜明行为锚点。"
+    },
+    {
+      "id": "oscar-brailsford",
+      "name": "奥斯卡·布列斯佛德",
+      "aliases": ["音速贵公子"],
+      "role": "谢普隆王位继承人、学院学生会副会长、女扮男装的野心家",
+      "affiliations": ["谢普隆王国", "安萨里邦骑龙学院"],
+      "abilities": ["菲尔诺特", "金色圣骑甲", "高速骑龙战"],
+      "notes": "觊觎艾瓦隆力量，常以占有亚修和王位野心制造冲突。"
+    },
+    {
+      "id": "celestina-lafau",
+      "name": "赛乐丝汀娜·拉佛",
+      "aliases": ["赛乐丝", "冥星石之子"],
+      "role": "谢普隆王安插在奥斯卡身边的监视者、冥星石持有人",
+      "affiliations": ["谢普隆王国"],
+      "abilities": ["冥星石魔眼", "龙族操控结晶", "药草学", "足技", "撬锁"],
+      "notes": "可作为黑化圣龙、绑架和宫廷阴谋的触发角色。"
+    },
+    {
+      "id": "ursula-salvon",
+      "name": "尤苏拉·L·萨尔文",
+      "aliases": ["沉默的骑士圣女", "七翼将"],
+      "role": "前罗雷亚蒙圣龙骑士团团长、戴米乌尔苟斯干部",
+      "affiliations": ["戴米乌尔苟斯", "罗雷亚蒙骑士国旧关系"],
+      "abilities": ["神剑弗拉加拉哈", "黄金圣骑甲", "瞬间机动", "圣龙加拉哈德协同"],
+      "notes": "武痴与虚无主义者，适合作为中后期强敌和西尔维亚血缘阴影。"
+    }
+  ],
+  "factions": [
+    {
+      "id": "ansullivan-academy",
+      "name": "安萨里邦骑龙学院",
+      "type": "dragonar-academy",
+      "summary": "罗雷亚蒙境内培养育龙人与龙骑士的最高学府，分高级班与基础班，拥有中央塔、阿波罗舍、爱波娜舍、龙舍、草坪训练区等设施。",
+      "resources": ["白羊宫骑龙祭", "学生会", "龙族训练设施", "王室关注"]
+    },
+    {
+      "id": "lautreamont-knight-country",
+      "name": "罗雷亚蒙骑士国",
+      "type": "dragon-centered-kingdom",
+      "summary": "大陆五大势力之一，被称为龙之心脏与育龙之国，由骑士王统治。传统上严禁龙族军事化，但战争与国际危机正在改变禁令。",
+      "members": ["silvia-lautreamont", "veronica-loreamon", "mirabel-lautreamont"]
+    },
+    {
+      "id": "chevrome-kingdom",
+      "name": "谢普隆王国",
+      "type": "foreign-monarchy",
+      "summary": "奥斯卡的王位野心与冥星石阴谋来源之一，围绕王位继承、黑龙化和艾瓦隆力量展开竞争。"
+    },
+    {
+      "id": "sepharos-empire",
+      "name": "赛法洛斯帝国",
+      "type": "imperial-power",
+      "summary": "拥有大型航空舰贝武夫号和魔导实验能力，非法实验与军备竞赛构成重要威胁。"
+    },
+    {
+      "id": "demiurge",
+      "name": "戴米乌尔苟斯",
+      "type": "secret-magical-organization",
+      "summary": "魔导组织，干部七翼将涉入星具争夺、魔导兵器和全球危机。艾纽席翁包围网正是针对其建立的国际制裁与联防计划。"
+    },
+    {
+      "id": "avalon-holy-dragonar-order",
+      "name": "艾瓦隆圣龙皇骑士团",
+      "type": "mobile-polity-order",
+      "summary": "以伊苏卡瓦隆为领地/母舰、围绕亚修与艾可建立的独立行动集团，用于后期跨国行动和外交冲突。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "ansullivan-dragonar-academy",
+      "name": "安萨里邦骑龙学院",
+      "type": "academy-city",
+      "summary": "学院都市核心，适合开局、训练、白羊宫骑龙祭、学生会冲突和艾可身份暴露事件。"
+    },
+    {
+      "id": "silvanus",
+      "name": "魔导舰希瓦娜丝",
+      "type": "aerial-command-ship",
+      "summary": "维若妮卡的空中作战司令部，以千年龙绮华晶驱动，火力和机动性强但防御相对薄弱。"
+    },
+    {
+      "id": "albion-forest",
+      "name": "阿比昂森林",
+      "type": "sacred-dragon-forest",
+      "summary": "龙之母所在地，覆盖幻术迷宫结界并隐藏利维坦防御系统；亚修与西尔维亚童年邂逅和记忆恢复均关联此处。"
+    },
+    {
+      "id": "beowulf-airship",
+      "name": "贝武夫号",
+      "type": "destroyed-experimental-airship",
+      "summary": "赛法洛斯帝国大型航空舰，曾作为绑架与人体实验据点；艾可觉醒后将其摧毁。"
+    },
+    {
+      "id": "iscavalon",
+      "name": "伊苏卡瓦隆",
+      "type": "ancient-mobile-ship",
+      "summary": "超古代索诺顿文明遗产，发现于安萨里邦地下迷宫第十九层；识别亚修为驾圣龙皇飞驰的骑士，后成为移动基地与独立领地。"
+    },
+    {
+      "id": "holy-capital-espada",
+      "name": "圣都艾斯帕达",
+      "type": "holy-capital",
+      "summary": "艾斯帕达圣厅与圣萝莎·玛莉亚大圣堂所在地，大陆会议与死亡游戏炸弹危机舞台，设有防召唤龙的强力魔导结界。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ancient-sonoton-avalon",
+      "period": "超古代",
+      "event": "索诺顿文明留下伊苏卡瓦隆等遗产；龙族制作五大星具封印贤龙王印波尔克。",
+      "visibility": "gm-secret-or-late-arc"
+    },
+    {
+      "id": "childhood-albion-meeting",
+      "period": "九年前/童年",
+      "event": "亚修与西尔维亚在阿比昂森林相遇，西尔维亚获得原本属于亚修的圣龙兰斯洛特，成为后续记忆与契约错位线。"
+    },
+    {
+      "id": "academy-opening",
+      "period": "学院开局",
+      "event": "亚修作为问题儿童就读安萨里邦骑龙学院，艾可从星刻中以人形龙少女诞生。"
+    },
+    {
+      "id": "aries-dragonar-festival",
+      "period": "学院篇",
+      "event": "白羊宫骑龙祭以速度和飞行技巧竞赛推进学院关系；亚修可因帕尔未诞生被允许借用他人帕尔。"
+    },
+    {
+      "id": "eco-beowulf-awakening",
+      "period": "实验危机",
+      "event": "艾可被诱拐至贝武夫号接受人体实验，魔力失控并龙化，摧毁航空舰。"
+    },
+    {
+      "id": "iscavalon-order",
+      "period": "中期",
+      "event": "伊苏卡瓦隆启动并成为亚修一行移动基地，艾瓦隆圣龙皇骑士团政治框架浮出。"
+    },
+    {
+      "id": "continental-crisis",
+      "period": "后期",
+      "event": "戴米乌尔苟斯、五大星具、圣都艾斯帕达会议和艾纽席翁包围网把冲突扩展到全球联防。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "academy-pal-birth",
+      "name": "学院与艾可诞生篇",
+      "focus": ["亚修", "艾可", "星刻", "学院规则", "西尔维亚"],
+      "endState": "亚修与艾可形成特殊契约，学院承认其异常但保持监视。"
+    },
+    {
+      "id": "royal-and-airship-crisis",
+      "name": "王女、魔导舰与实验危机",
+      "focus": ["维若妮卡", "希瓦娜丝", "贝武夫号", "艾可觉醒", "米拉贝勒监视"],
+      "endState": "艾可力量和各国实验野心曝光，罗雷亚蒙王室介入加深。"
+    },
+    {
+      "id": "avalon-and-star-tools",
+      "name": "艾瓦隆与五大星具篇",
+      "focus": ["伊苏卡瓦隆", "五大星具", "贤龙王", "艾瓦隆圣龙皇骑士团"],
+      "endState": "亚修一行具备跨国行动平台，也承受独立领地与星具争夺的外交风险。"
+    },
+    {
+      "id": "demiurge-continental-war",
+      "name": "戴米乌尔苟斯与大陆会议篇",
+      "focus": ["七翼将", "尤苏拉", "圣都艾斯帕达", "艾纽席翁包围网", "死亡游戏"],
+      "endState": "多国联防成形，适合作为高阶组织战与世界危机主线。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ash-blake",
+      "to": "eco",
+      "type": "contractor-pal-royal-dragon",
+      "note": "艾可以人形龙少女从亚修星刻中诞生，对亚修既高傲支配又强烈依赖。"
+    },
+    {
+      "from": "ash-blake",
+      "to": "silvia-lautreamont",
+      "type": "rival-ally-memory-knot",
+      "note": "学院竞争与王女责任并行，童年阿比昂森林相遇和兰斯洛特归属构成隐藏情感/命运线。"
+    },
+    {
+      "from": "silvia-lautreamont",
+      "to": "veronica-loreamon",
+      "type": "sisters-pressure",
+      "note": "维若妮卡以铁血教育和军令压迫西尔维亚成长，是王室责任线主要压力源。"
+    },
+    {
+      "from": "mirabel-lautreamont",
+      "to": "ash-blake",
+      "type": "principal-monitoring",
+      "note": "米拉贝勒表面任院长，实则监视亚修与艾可的异常成长。"
+    },
+    {
+      "from": "ursula-salvon",
+      "to": "demiurge",
+      "type": "seven-wing-general",
+      "note": "尤苏拉背叛原骑士圣女身份成为戴米乌尔苟斯干部。"
+    },
+    {
+      "from": "oscar-brailsford",
+      "to": "celestina-lafau",
+      "type": "royal-master-and-monitor",
+      "note": "赛乐丝汀娜被安排在奥斯卡身边监视，同时其冥星石能力可反过来威胁王位斗争。"
+    }
+  ],
+  "rpNotes": [
+    "OC 最适合从学院学生、帕尔研究者、王室随员、外邦龙骑士或戴米乌尔苟斯调查对象切入。",
+    "每场龙骑战应记录：帕尔状态、空域、圣骑甲/魔装是否展开、骑手情绪和龙的疲劳。",
+    "学院日常和王国战争不要混为单一强度：开局以骑龙祭/课程/学生会为主，中后期再开放星具、伊苏卡瓦隆和国际会议。"
+  ],
+  "residualGaps": [
+    "龙族亚种、全部七翼将和后期国家首脑仍需按源逐条扩展。",
+    "部分译名存在繁简与英文差异，本扩展保留常用中文名并以 id 稳定引用。"
+  ]
+}

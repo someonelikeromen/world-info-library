@@ -1,1 +1,430 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library-dungeon-fighter-online","sources":[{"sourceId":"src-dfo-import-readme","type":"user-file-source","title":"DFO 导入说明","origin":"manual archive","location":"campaigns/world-library/imports/worldviews/dungeon-fighter-online/README.md","reliability":"A","visibility":"public","summary":"2 个 worldbook。","quotedOrExtractedText":"Worldbook files: 2","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/imports/worldviews/dungeon-fighter-online/README.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"dungeon-fighter-online","field":"sources"}],"conflictsWith":[],"notes":"手工读取。"},{"sourceId":"src-dfo-classification-report","type":"agent-summary-source","title":"DFO 分类报告","origin":"archive report","location":"campaigns/world-library/worlds/dungeon-fighter-online/reports/classification-report.md","reliability":"B","visibility":"public","summary":"629 条保留条目。","quotedOrExtractedText":"preserved entries: 629","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/dungeon-fighter-online/reports/classification-report.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"dungeon-fighter-online","field":"coverage"}],"conflictsWith":[],"notes":"自动归档报告。"}],"conflictLog":[{"conflictId":"dfo-class-scale","sourceIds":["src-dfo-classification-report"],"summary":"职业分支与版本剧情跨度大。","resolution":"unresolved","notes":"需按版本与职业单独扩展。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library-dungeon-fighter-online",
+  "sources": [
+    {
+      "sourceId": "src-dfo-import-readme",
+      "type": "user-file-source",
+      "title": "DFO 导入说明",
+      "origin": "manual archive",
+      "location": "campaigns/world-library/imports/worldviews/dungeon-fighter-online/README.md",
+      "reliability": "A",
+      "visibility": "public",
+      "summary": "2 个 worldbook。",
+      "quotedOrExtractedText": "Worldbook files: 2",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/imports/worldviews/dungeon-fighter-online/README.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "dungeon-fighter-online",
+          "field": "sources"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "手工读取。"
+    },
+    {
+      "sourceId": "src-dfo-classification-report",
+      "type": "agent-summary-source",
+      "title": "DFO 分类报告",
+      "origin": "archive report",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/reports/classification-report.md",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "629 条保留条目。",
+      "quotedOrExtractedText": "preserved entries: 629",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/reports/classification-report.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "dungeon-fighter-online",
+          "field": "coverage"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "自动归档报告。"
+    },
+    {
+      "sourceId": "src-dfo-archive-manifest",
+      "type": "agent-summary-source",
+      "title": "DFO 归档 manifest",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/manifest.json",
+      "reliability": "A",
+      "visibility": "public",
+      "summary": "本地归档包含 2 个 worldbook、629 条保留条目；列出各分类计数与路径。",
+      "quotedOrExtractedText": "本地归档包含 2 个 worldbook、629 条保留条目；列出各分类计数与路径。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/manifest.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "dungeon-fighter-online",
+          "field": "archive-coverage"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": ""
+    },
+    {
+      "sourceId": "src-dfo-canon-timeline-entry-99",
+      "type": "agent-summary-source",
+      "title": "阿拉德编年史长时间线",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/timeline.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "entryIndex 99；覆盖泰拉崩坏、魔界、龙之战争、暗黑圣战、第一次转移、天界/魔界、神界等主轴。",
+      "quotedOrExtractedText": "entryIndex 99；覆盖泰拉崩坏、魔界、龙之战争、暗黑圣战、第一次转移、天界/魔界、神界等主轴。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/timeline.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "dungeon-fighter-online",
+          "field": "timeline"
+        },
+        {
+          "targetType": "relationship",
+          "targetId": "multiple",
+          "field": "history"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "源条目自身 confidence=C；curated 仅做结构化抽取。"
+    },
+    {
+      "sourceId": "src-dfo-canon-arcs",
+      "type": "agent-summary-source",
+      "title": "DFO 篇章/使徒条目归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/arcs.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "24 条 canonArcs，含天空之海、天帷巨兽、GBL、卡恩、普雷等关键条目。",
+      "quotedOrExtractedText": "24 条 canonArcs，含天空之海、天帷巨兽、GBL、卡恩、普雷等关键条目。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/arcs.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "dungeon-fighter-online",
+          "field": "plot-arcs"
+        },
+        {
+          "targetType": "character",
+          "targetId": "multiple",
+          "field": "apostle-profiles"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "源条目多为 confidence=C，需按条目回查。"
+    },
+    {
+      "sourceId": "src-dfo-factions-archive",
+      "type": "agent-summary-source",
+      "title": "DFO 阵营归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/factions/factions.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "245 条 factions 分类归档；本轮抽取德洛斯、贝尔玛尔、虚祖、班图、暗精灵、GBL、佧修派、暴戾搜捕团等。",
+      "quotedOrExtractedText": "245 条 factions 分类归档；本轮抽取德洛斯、贝尔玛尔、虚祖、班图、暗精灵、GBL、佧修派、暴戾搜捕团等。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/factions/factions.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "faction",
+          "targetId": "multiple",
+          "field": "summary"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "分类归档含重复/跨类条目，curated 已去重摘要。"
+    },
+    {
+      "sourceId": "src-dfo-locations-archive",
+      "type": "agent-summary-source",
+      "title": "DFO 地点归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/locations/locations.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "284 条 locations 分类归档；本轮抽取主要城市、灾厄地点、天界、魔界、神界等 playable hubs。",
+      "quotedOrExtractedText": "284 条 locations 分类归档；本轮抽取主要城市、灾厄地点、天界、魔界、神界等 playable hubs。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/locations/locations.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "location",
+          "targetId": "multiple",
+          "field": "summary"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "未穷尽所有下属地下城。"
+    },
+    {
+      "sourceId": "src-dfo-power-systems-archive",
+      "type": "agent-summary-source",
+      "title": "DFO 力量体系归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/power-systems/power-systems.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "197 条 powerSystems 分类归档；本轮抽取上位职业、使徒、转移、圣职者、天界机械文明。",
+      "quotedOrExtractedText": "197 条 powerSystems 分类归档；本轮抽取上位职业、使徒、转移、圣职者、天界机械文明。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/power-systems/power-systems.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "power-system",
+          "targetId": "multiple",
+          "field": "summary"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "未逐条拆分所有职业分支。"
+    },
+    {
+      "sourceId": "src-dfo-abilities-archive",
+      "type": "agent-summary-source",
+      "title": "DFO 能力归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/power-systems/abilities.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "318 条 abilities 分类归档；本轮仅作为职业/觉醒/技能覆盖证据，不逐条纳入硬设定。",
+      "quotedOrExtractedText": "318 条 abilities 分类归档；本轮仅作为职业/觉醒/技能覆盖证据，不逐条纳入硬设定。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/power-systems/abilities.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "ability",
+          "targetId": "multiple",
+          "field": "coverage"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "源中含部分游戏化/模板条目，需后续清洗。"
+    },
+    {
+      "sourceId": "src-dfo-technical-status-template",
+      "type": "agent-summary-source",
+      "title": "DFO 状态栏/技术模板归档",
+      "origin": "local archive",
+      "location": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/plot-summary.json",
+      "reliability": "C",
+      "visibility": "public",
+      "summary": "plot-summary 当前条目是状态栏/界面规则模板，非世界剧情摘要；本轮明确排除为硬设定。",
+      "quotedOrExtractedText": "plot-summary 当前条目是状态栏/界面规则模板，非世界剧情摘要；本轮明确排除为硬设定。",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-24",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/dungeon-fighter-online/canon-reference/plot-summary.json",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read/bash",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "rule",
+          "targetId": "technical-status-template",
+          "field": "exclusion"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "保留为技术/UI资料，不写入 lore。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "conflictId": "dfo-class-scale",
+      "sourceIds": [
+        "src-dfo-classification-report"
+      ],
+      "summary": "职业分支与版本剧情跨度大。",
+      "resolution": "unresolved",
+      "notes": "需按版本与职业单独扩展。"
+    },
+    {
+      "conflictId": "dfo-archive-confidence-c",
+      "sourceIds": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs",
+        "src-dfo-factions-archive",
+        "src-dfo-locations-archive",
+        "src-dfo-power-systems-archive",
+        "src-dfo-abilities-archive"
+      ],
+      "summary": "本地归档条目大量标注 confidence=C，curated 摘要不可自动提升为绝对正史。",
+      "resolution": "unresolved",
+      "notes": "已在各模块 evidenceLevel 和 curation-notes.md 标记；后续按版本/条目复核。"
+    },
+    {
+      "conflictId": "dfo-technical-template-not-lore",
+      "sourceIds": [
+        "src-dfo-technical-status-template"
+      ],
+      "summary": "canonPlotSummary 文件当前是状态栏/界面规则模板，不是剧情摘要。",
+      "resolution": "canon-priority",
+      "notes": "本轮不纳入 lore、timeline 或 plot-arcs，只在 rp-notes.md 标记排除。"
+    },
+    {
+      "conflictId": "dfo-unresolved-character-targets",
+      "sourceIds": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-canon-arcs"
+      ],
+      "summary": "部分关系目标如凯蒂、索德罗斯、具体皇族/导师/魔界组织尚未完整建 characters-index 条目。",
+      "resolution": "unresolved",
+      "notes": "characters-index 已为部分关系标记 unresolved-target；后续按人物批次补全。"
+    }
+  ]
+}

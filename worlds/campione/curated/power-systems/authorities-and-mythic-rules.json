@@ -1,0 +1,147 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "campione",
+  "module": "power-systems/authorities-and-mythic-rules",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/campione/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/campione/power-systems/abilities.json",
+    "campaigns/world-library/worlds/campione/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/campione/characters/characters.json"
+  ],
+  "curationPolicy": "最小框架补充；只把源中高频、可复用的权能规则转成 RP 检索结构，不逐字搬运 100+ 能力条目。",
+  "authorityRules": [
+    {
+      "id": "authority-acquisition",
+      "name": "弑神夺权",
+      "confidence": "B",
+      "summary": "人类在极少数情况下杀死不从之神后，会篡夺该神的神圣权能并成为 Campione。权能性质由被弑之神的神话本质决定。",
+      "rpUse": "新增弑神者或新增权能必须先定义被弑神明、神话侧面、篡夺场景与权能限制。"
+    },
+    {
+      "id": "mythic-condition",
+      "name": "神话条件与相性",
+      "confidence": "B",
+      "summary": "权能往往带有咒文、次数、环境、对手类型、受伤状态或神话解释等发动条件；理解神名、神格侧面和传承可作为战斗中的关键情报。",
+      "rpUse": "战斗裁定优先要求说明神话解释，而不是把权能当作无条件超能力。"
+    },
+    {
+      "id": "campione-resistance",
+      "name": "魔王体质与抗性",
+      "confidence": "B",
+      "summary": "弑神者是地上霸王/魔王，普通人和普通魔术难以正面对抗；同级权能、不从之神、神具、仪式准备和情报战更重要。",
+      "rpUse": "普通魔术师适合作为封印、调查、仪式与补刀辅助，不宜单挑弑神者或神。"
+    },
+    {
+      "id": "history-correction",
+      "name": "历史修正力与平行世界",
+      "confidence": "B",
+      "summary": "爱莎夫人的妖精境通廊会造成时间轴/平行世界跳跃；世界具有修正力，会把多数小变动导向近似正史，但重大干涉仍会制造灾害。",
+      "rpUse": "跨时空剧情可作为事件源，但要保留修正力、随机性和代价，避免随意改写所有既定事实。"
+    }
+  ],
+  "knownAuthorityFamilies": [
+    {
+      "holderId": "godou-kusanagi",
+      "holderName": "草薙护堂",
+      "authorityFamily": "东方军神韦勒斯拉纳的十化身系权能",
+      "sourceEntryHints": [
+        "power-systems/abilities entryIndex 1 mentions 韦勒斯拉纳十化身"
+      ],
+      "knownForms": [
+        "风",
+        "公牛",
+        "白马",
+        "骆驼",
+        "山猪",
+        "少年",
+        "凤",
+        "牡羊",
+        "山羊",
+        "战士"
+      ],
+      "limitations": [
+        "不同化身有不同触发条件；不应一次性无限连发。",
+        "需要按场景说明为何满足该化身条件。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "holderId": "voban",
+      "holderName": "沃班侯爵",
+      "authorityFamily": "狼群、盐化、死者使役等古老魔王权能",
+      "sourceEntryHints": [
+        "power-systems/abilities entryIndex 1 mentions 贪婪之狼群、索多玛之瞳、死亡仆从的牢笼"
+      ],
+      "knownEffects": [
+        "召唤狼群",
+        "使目标化为盐柱",
+        "操纵死者/幽灵军势"
+      ],
+      "limitations": [
+        "具体范围、目标条件和弱点仍需逐条回源核对。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "holderId": "luo-hao",
+      "holderName": "罗濠 / 罗翠莲",
+      "authorityFamily": "中华武术宗师体术与神格权能混合",
+      "sourceEntryHints": [
+        "characters/characters.json contains 主要人物: 罗翠莲/罗濠 fragments"
+      ],
+      "knownEffects": [
+        "武术压制",
+        "神威级气势",
+        "权能与拳脚/咒力结合"
+      ],
+      "limitations": [
+        "当前 curated 只确认其高阶弑神者定位；具体权能名与条件待二次抽取。"
+      ],
+      "confidence": "C"
+    },
+    {
+      "holderId": "aisha",
+      "holderName": "爱莎夫人",
+      "authorityFamily": "生命/冥府、幸运、时空通廊、魅惑与守护系权能",
+      "sourceEntryHints": [
+        "characters/characters.json entry for 爱莎夫人",
+        "canon-reference/timeline.json entryIndex 59/67 history correction duplicates"
+      ],
+      "knownEffects": [
+        "治疗或极寒/冥府侧面",
+        "行善时偏向自身的强运",
+        "不可控时空通廊",
+        "高好感/魅惑性干涉",
+        "防御型守护武装"
+      ],
+      "limitations": [
+        "时空通廊随机且高风险；不应用作稳定传送门。",
+        "魅惑和幸运需作为剧情风险而非无条件玩家控制。"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "magicSupportRoles": [
+    {
+      "id": "european-knights",
+      "name": "欧洲魔术骑士",
+      "summary": "魔术结社中的精英兼具仪式、神话知识、剑术与护卫职责；赤铜黑十字/青铜黑十字是代表。",
+      "rpUse": "适合承接调查、护送、翻译神话、牵制神兽等任务。"
+    },
+    {
+      "id": "hime-miko",
+      "name": "媛巫女/灵视者",
+      "summary": "日本咒术界的强灵力女性，承担灵视、预言、净化和祭祀。",
+      "rpUse": "适合提供真名线索、梦兆、结界和净化辅助。"
+    }
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源内有玩家槽位、跨作品或特殊能力片段；本模块未把这些片段登记为 Campione 正史。",
+    "源中部分译名有异体（不从/不顺从之神、罗濠/罗翠莲、艾莉卡/艾丽卡等），curated 检索应保留 aliases。",
+    "能力条目数量很高，本批只抽取规则与代表性权能，未完成全量逐条化。"
+  ]
+}

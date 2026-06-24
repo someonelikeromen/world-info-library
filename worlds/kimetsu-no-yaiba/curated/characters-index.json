@@ -328,6 +328,523 @@
         "src-kny-import-readme"
       ],
       "notes": ""
+    },
+    {
+      "id": "shinobu-kocho",
+      "name": "蝴蝶忍",
+      "aliases": [
+        "虫柱"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队虫柱，蝶屋敷医疗与藤花毒技术核心。",
+      "roles": [
+        "hashira",
+        "medic"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "butterfly-mansion"
+      ],
+      "powerSystems": [
+        "breathing-styles"
+      ],
+      "abilities": [
+        "虫之呼吸",
+        "藤花毒",
+        "高速突刺"
+      ],
+      "items": [
+        "特制日轮刀",
+        "藤花毒"
+      ],
+      "relationships": [
+        "kanao-tsuyuri:mentor",
+        "doma:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "kyojuro-rengoku",
+      "name": "炼狱杏寿郎",
+      "aliases": [
+        "炎柱"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队炎柱，无限列车篇核心柱。",
+      "roles": [
+        "hashira",
+        "mentor"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "mugen-train"
+      ],
+      "powerSystems": [
+        "breathing-styles"
+      ],
+      "abilities": [
+        "炎之呼吸",
+        "护卫列车乘客"
+      ],
+      "items": [
+        "日轮刀"
+      ],
+      "relationships": [
+        "tanjiro-kamado:inspires",
+        "akaza:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "tengen-uzui",
+      "name": "宇髓天元",
+      "aliases": [
+        "音柱"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队音柱，擅长潜入、爆药与音律战斗分析。",
+      "roles": [
+        "hashira",
+        "infiltrator"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "yoshiwara"
+      ],
+      "powerSystems": [
+        "breathing-styles"
+      ],
+      "abilities": [
+        "音之呼吸",
+        "谱面完成",
+        "爆药忍具"
+      ],
+      "items": [
+        "双刀",
+        "爆药"
+      ],
+      "relationships": [
+        "tanjiro-kamado:field-commander",
+        "daki-gyutaro:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "mitsuri-kanroji",
+      "name": "甘露寺蜜璃",
+      "aliases": [
+        "恋柱"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队恋柱，柔韧体质与特殊日轮软剑使用者。",
+      "roles": [
+        "hashira"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "swordsmith-village"
+      ],
+      "powerSystems": [
+        "breathing-styles",
+        "advanced-slayer-state"
+      ],
+      "abilities": [
+        "恋之呼吸",
+        "斑纹",
+        "异常肌力"
+      ],
+      "items": [
+        "鞭状日轮刀"
+      ],
+      "relationships": [
+        "obanai-iguro:bond",
+        "hantengu:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "muichiro-tokito",
+      "name": "时透无一郎",
+      "aliases": [
+        "霞柱"
+      ],
+      "visibility": "public",
+      "summary": "年轻霞柱，锻刀村中觉醒斑纹并对抗玉壶。",
+      "roles": [
+        "hashira"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "swordsmith-village"
+      ],
+      "powerSystems": [
+        "breathing-styles",
+        "advanced-slayer-state"
+      ],
+      "abilities": [
+        "霞之呼吸",
+        "斑纹",
+        "通透世界潜质"
+      ],
+      "items": [
+        "日轮刀"
+      ],
+      "relationships": [
+        "gyokko:enemy",
+        "kokushibo:descendant-line"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "gyomei-himejima",
+      "name": "悲鸣屿行冥",
+      "aliases": [
+        "岩柱"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队最强柱之一，使用锁链斧锤型日轮武器。",
+      "roles": [
+        "hashira",
+        "elite"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "ubuyashiki-estate"
+      ],
+      "powerSystems": [
+        "breathing-styles",
+        "advanced-slayer-state"
+      ],
+      "abilities": [
+        "岩之呼吸",
+        "通透世界",
+        "赫刀协作"
+      ],
+      "items": [
+        "锁链斧锤日轮武器"
+      ],
+      "relationships": [
+        "kokushibo:enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "tamayo",
+      "name": "珠世",
+      "aliases": [
+        "珠世小姐"
+      ],
+      "visibility": "public",
+      "summary": "脱离无惨支配的鬼医者，研究鬼血与变人药。",
+      "roles": [
+        "demon",
+        "doctor",
+        "defector"
+      ],
+      "factions": [
+        "tamayo-clinic"
+      ],
+      "locations": [
+        "asakusa"
+      ],
+      "powerSystems": [
+        "demon-blood-art"
+      ],
+      "abilities": [
+        "惑血",
+        "医术",
+        "变人药研究"
+      ],
+      "items": [
+        "鬼血样本",
+        "药剂"
+      ],
+      "relationships": [
+        "yushiro:creator",
+        "tanjiro-kamado:ally",
+        "muzan-kibutsuji:enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "kagaya-ubuyashiki",
+      "name": "产屋敷耀哉",
+      "aliases": [
+        "主公大人"
+      ],
+      "visibility": "public",
+      "summary": "鬼杀队当主，以预见性布局与人格魅力维系组织。",
+      "roles": [
+        "leader"
+      ],
+      "factions": [
+        "demon-slayer-corps"
+      ],
+      "locations": [
+        "ubuyashiki-estate"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "组织统率",
+        "情报判断",
+        "牺牲布局"
+      ],
+      "items": [],
+      "relationships": [
+        "demon-slayer-corps:leader",
+        "muzan-kibutsuji:bloodline-enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "kokushibo",
+      "name": "黑死牟",
+      "aliases": [
+        "上弦之一"
+      ],
+      "visibility": "gm-only",
+      "summary": "十二鬼月上弦之一，月之呼吸鬼剑士。",
+      "roles": [
+        "upper-moon",
+        "antagonist"
+      ],
+      "factions": [
+        "demons"
+      ],
+      "locations": [
+        "infinity-castle"
+      ],
+      "powerSystems": [
+        "demon-blood-art",
+        "breathing-styles"
+      ],
+      "abilities": [
+        "月之呼吸",
+        "多眼通透",
+        "超高速再生"
+      ],
+      "items": [
+        "血肉之刀"
+      ],
+      "relationships": [
+        "muzan-kibutsuji:subordinate",
+        "gyomei-himejima:enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "doma",
+      "name": "童磨",
+      "aliases": [
+        "上弦之二"
+      ],
+      "visibility": "gm-only",
+      "summary": "上弦之二，冰系血鬼术与万世极乐教教主身份结合。",
+      "roles": [
+        "upper-moon",
+        "cult-leader"
+      ],
+      "factions": [
+        "demons"
+      ],
+      "locations": [
+        "infinity-castle"
+      ],
+      "powerSystems": [
+        "demon-blood-art"
+      ],
+      "abilities": [
+        "冰血鬼术",
+        "信徒操控",
+        "高速再生"
+      ],
+      "items": [
+        "铁扇"
+      ],
+      "relationships": [
+        "shinobu-kocho:enemy",
+        "kanao-tsuyuri:enemy"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "rui",
+      "name": "累",
+      "aliases": [
+        "下弦之五"
+      ],
+      "visibility": "public",
+      "summary": "那田蜘蛛山的下弦鬼，以丝线与伪家庭支配山中鬼群。",
+      "roles": [
+        "lower-moon",
+        "arc-antagonist"
+      ],
+      "factions": [
+        "demons"
+      ],
+      "locations": [
+        "natagumo-mountain"
+      ],
+      "powerSystems": [
+        "demon-blood-art"
+      ],
+      "abilities": [
+        "丝线切割",
+        "家族支配",
+        "硬质丝"
+      ],
+      "items": [],
+      "relationships": [
+        "muzan-kibutsuji:favored",
+        "tanjiro-kamado:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "enmu",
+      "name": "魇梦",
+      "aliases": [
+        "下弦之一"
+      ],
+      "visibility": "public",
+      "summary": "下弦之一，操控梦境并与无限列车融合。",
+      "roles": [
+        "lower-moon",
+        "arc-antagonist"
+      ],
+      "factions": [
+        "demons"
+      ],
+      "locations": [
+        "mugen-train"
+      ],
+      "powerSystems": [
+        "demon-blood-art"
+      ],
+      "abilities": [
+        "强制昏睡",
+        "梦境入侵",
+        "列车融合"
+      ],
+      "items": [],
+      "relationships": [
+        "muzan-kibutsuji:empowered",
+        "kyojuro-rengoku:enemy"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
+    },
+    {
+      "id": "daki-gyutaro",
+      "name": "堕姬与妓夫太郎",
+      "aliases": [
+        "上弦之陆"
+      ],
+      "visibility": "public",
+      "summary": "共享上弦之陆席位的兄妹鬼，潜伏吉原游郭。",
+      "roles": [
+        "upper-moon",
+        "arc-antagonist"
+      ],
+      "factions": [
+        "demons"
+      ],
+      "locations": [
+        "yoshiwara"
+      ],
+      "powerSystems": [
+        "demon-blood-art"
+      ],
+      "abilities": [
+        "腰带血鬼术",
+        "毒血镰",
+        "双首同时斩首条件"
+      ],
+      "items": [
+        "血镰",
+        "腰带"
+      ],
+      "relationships": [
+        "tengen-uzui:enemy",
+        "muzan-kibutsuji:subordinate"
+      ],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-kny-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。"
     }
   ],
   "indices": {
@@ -337,11 +854,26 @@
         "nezuko-kamado",
         "zenitsu-agatsuma",
         "inosuke-hashibira",
-        "giyu-tomioka"
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima",
+        "kagaya-ubuyashiki"
       ],
       "demons": [
         "muzan-kibutsuji",
-        "akaza"
+        "akaza",
+        "kokushibo",
+        "doma",
+        "rui",
+        "enmu",
+        "daki-gyutaro"
+      ],
+      "tamayo-clinic": [
+        "tamayo"
       ]
     },
     "byPowerSystem": {
@@ -349,12 +881,30 @@
         "tanjiro-kamado",
         "zenitsu-agatsuma",
         "inosuke-hashibira",
-        "giyu-tomioka"
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima",
+        "kokushibo"
       ],
       "demon-blood-art": [
         "nezuko-kamado",
         "muzan-kibutsuji",
-        "akaza"
+        "akaza",
+        "tamayo",
+        "kokushibo",
+        "doma",
+        "rui",
+        "enmu",
+        "daki-gyutaro"
+      ],
+      "advanced-slayer-state": [
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima"
       ]
     },
     "byVisibility": {
@@ -363,10 +913,23 @@
         "nezuko-kamado",
         "zenitsu-agatsuma",
         "inosuke-hashibira",
-        "giyu-tomioka"
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima",
+        "tamayo",
+        "kagaya-ubuyashiki",
+        "rui",
+        "enmu",
+        "daki-gyutaro"
       ],
       "gm-only": [
-        "muzan-kibutsuji"
+        "muzan-kibutsuji",
+        "kokushibo",
+        "doma"
       ],
       "private": [
         "akaza"
@@ -379,11 +942,172 @@
       "inosuke-hashibira",
       "giyu-tomioka",
       "muzan-kibutsuji",
-      "akaza"
+      "akaza",
+      "shinobu-kocho",
+      "kyojuro-rengoku",
+      "tengen-uzui",
+      "mitsuri-kanroji",
+      "muichiro-tokito",
+      "gyomei-himejima",
+      "tamayo",
+      "kagaya-ubuyashiki",
+      "kokushibo",
+      "doma",
+      "rui",
+      "enmu",
+      "daki-gyutaro"
     ],
-    "byId": {},
-    "byName": {},
-    "byAffiliation": {},
-    "byTag": {}
+    "byId": {
+      "tanjiro-kamado": 0,
+      "nezuko-kamado": 1,
+      "zenitsu-agatsuma": 2,
+      "inosuke-hashibira": 3,
+      "giyu-tomioka": 4,
+      "muzan-kibutsuji": 5,
+      "akaza": 6,
+      "shinobu-kocho": 7,
+      "kyojuro-rengoku": 8,
+      "tengen-uzui": 9,
+      "mitsuri-kanroji": 10,
+      "muichiro-tokito": 11,
+      "gyomei-himejima": 12,
+      "tamayo": 13,
+      "kagaya-ubuyashiki": 14,
+      "kokushibo": 15,
+      "doma": 16,
+      "rui": 17,
+      "enmu": 18,
+      "daki-gyutaro": 19
+    },
+    "byName": {
+      "灶门炭治郎": "tanjiro-kamado",
+      "灶门祢豆子": "nezuko-kamado",
+      "我妻善逸": "zenitsu-agatsuma",
+      "嘴平伊之助": "inosuke-hashibira",
+      "富冈义勇": "giyu-tomioka",
+      "鬼舞辻无惨": "muzan-kibutsuji",
+      "猗窝座": "akaza",
+      "蝴蝶忍": "shinobu-kocho",
+      "炼狱杏寿郎": "kyojuro-rengoku",
+      "宇髓天元": "tengen-uzui",
+      "甘露寺蜜璃": "mitsuri-kanroji",
+      "时透无一郎": "muichiro-tokito",
+      "悲鸣屿行冥": "gyomei-himejima",
+      "珠世": "tamayo",
+      "产屋敷耀哉": "kagaya-ubuyashiki",
+      "黑死牟": "kokushibo",
+      "童磨": "doma",
+      "累": "rui",
+      "魇梦": "enmu",
+      "堕姬与妓夫太郎": "daki-gyutaro"
+    },
+    "byAffiliation": {
+      "demon-slayer-corps": [
+        "tanjiro-kamado",
+        "nezuko-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira",
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima",
+        "kagaya-ubuyashiki"
+      ],
+      "demons": [
+        "muzan-kibutsuji",
+        "akaza",
+        "kokushibo",
+        "doma",
+        "rui",
+        "enmu",
+        "daki-gyutaro"
+      ],
+      "tamayo-clinic": [
+        "tamayo"
+      ]
+    },
+    "byTag": {
+      "protagonist": [
+        "tanjiro-kamado"
+      ],
+      "demon-slayer": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ],
+      "demon": [
+        "nezuko-kamado",
+        "tamayo"
+      ],
+      "companion": [
+        "nezuko-kamado"
+      ],
+      "ally": [
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ],
+      "hashira": [
+        "giyu-tomioka",
+        "shinobu-kocho",
+        "kyojuro-rengoku",
+        "tengen-uzui",
+        "mitsuri-kanroji",
+        "muichiro-tokito",
+        "gyomei-himejima"
+      ],
+      "mentor": [
+        "giyu-tomioka",
+        "kyojuro-rengoku"
+      ],
+      "main-antagonist": [
+        "muzan-kibutsuji"
+      ],
+      "demon-progenitor": [
+        "muzan-kibutsuji"
+      ],
+      "antagonist": [
+        "akaza",
+        "kokushibo"
+      ],
+      "upper-moon": [
+        "akaza",
+        "kokushibo",
+        "doma",
+        "daki-gyutaro"
+      ],
+      "medic": [
+        "shinobu-kocho"
+      ],
+      "infiltrator": [
+        "tengen-uzui"
+      ],
+      "elite": [
+        "gyomei-himejima"
+      ],
+      "doctor": [
+        "tamayo"
+      ],
+      "defector": [
+        "tamayo"
+      ],
+      "leader": [
+        "kagaya-ubuyashiki"
+      ],
+      "cult-leader": [
+        "doma"
+      ],
+      "lower-moon": [
+        "rui",
+        "enmu"
+      ],
+      "arc-antagonist": [
+        "rui",
+        "enmu",
+        "daki-gyutaro"
+      ]
+    }
   }
 }

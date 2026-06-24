@@ -1,0 +1,203 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "saijaku-muhai-bahamut",
+  "sourceRefs": [
+    "src-saijaku-muhai-bahamut-001"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：机龙能力、组织体系、地点、时间线、篇章和关系；仅使用 campaigns/world-library/worlds/saijaku-muhai-bahamut 本地源。",
+  "powerSystems": [
+    {
+      "id": "drag-ride-classes",
+      "name": "装甲机龙基础分类",
+      "summary": "装甲机龙由机攻壳剑召唤，分为泛用机龙与唯一型神装机龙。常见泛用机龙可按飞翔、陆战、特装等操作倾向区分，战斗时以机动力、装甲负荷、武装相性和驾驶员技量共同判定。",
+      "rpLimits": [
+        "泛用机龙可承受常规训练与小队战，但不应硬吃神装机龙奥义。",
+        "机体损坏、能量耗尽、驾驶员疲劳会立即影响输出。",
+        "男性适性较低是世界常识，路克斯属于因训练和特殊机体调校形成的例外。"
+      ]
+    },
+    {
+      "id": "divine-attires",
+      "name": "神装能力与奥义",
+      "summary": "神装机龙拥有独有的神装能力。路克斯《巴哈姆特》的《暴食》表现为五秒减速与五秒加速的压缩强化，代价是巨大身体负担；《强制超过》则是驾驶员技巧，将过载边缘的负荷转化为破坏力。莉夏《迪亚玛特》以《天声》进行重力/火力压制；库露露席法《法夫纳》具预测与解析性质；保泽里多《艾基·达哈卡》的《千变魔术》可夺取/复制神装表现。",
+      "rpLimits": [
+        "神装能力必须说明启动条件、持续时间和代价。",
+        "复制、夺取、预测类能力不能自动获胜，需受环境、情报与机体负荷制约。",
+        "《暴食》和《强制超过》使用后应给路克斯或使用者追加昏迷、行动迟滞或维修成本。"
+      ]
+    },
+    {
+      "id": "ruins-abyss-automata",
+      "name": "遗迹、幻神兽与自动人形",
+      "summary": "七座古代遗迹是机龙、幻神兽与古代权限的核心来源。遗迹由自动人形等管理者守护，能识别生存者/钥匙等权限。幻神兽从石像鬼、迪亚波罗斯到终焉神兽 Ragnarok 不等，是人类秩序的高压威胁。",
+      "rpLimits": [
+        "遗迹探索应以权限、队伍分散、环境陷阱和幻神兽遭遇推进，而非只作为宝箱。",
+        "Ragnarok 级威胁默认需要多势力协作和阶段性削弱。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "atisimarta-new-kingdom",
+      "name": "亚提司玛特新王国",
+      "type": "post-coup-monarchy",
+      "summary": "旧阿卡迪亚帝国覆灭后的主舞台政权，由女王罗菲与公主莉夏代表王权，但四大贵族仍掣肘实权。王国试图摆脱旧帝国暴政遗产，同时必须防范残党、列强和遗迹危机。",
+      "resources": ["王立士官学园", "骑士团", "王族名分", "遗迹调查权"],
+      "conflicts": ["旧帝国残党", "海布格共和国", "创造主", "遗迹势力"]
+    },
+    {
+      "id": "academy-knights",
+      "name": "王立士官学园/骑士团",
+      "type": "military-academy",
+      "summary": "培养女性机龙使的精英学园，也是路克斯作为唯一男学生进入的日常与作战核心。学生自警队与三和音承担校内秩序和支援。",
+      "members": ["lux-arcadia", "lieselotte-atisimarta", "philuffy-aingram", "krulcifer-einfolk", "celistia-ralgris", "triad-sharis", "triad-tillfur", "triad-noct", "reiri-aingram"]
+    },
+    {
+      "id": "old-empire-remnants",
+      "name": "旧帝国残党/龙匪贼",
+      "type": "revanchist-insurgency",
+      "summary": "企图复辟旧阿卡迪亚或利用旧帝国裂痕制造混乱的势力。别贝特袭击和旧贵族腐败线均属于此类压力源。",
+      "methods": ["幻神兽召唤", "贵族勾结", "羞辱旧王族身份", "边境袭击"]
+    },
+    {
+      "id": "international-powers",
+      "name": "海布格共和国、优密尔教国与国际强权",
+      "type": "foreign-powers",
+      "summary": "遗迹技术让列国处于合作与竞争并存状态。海布格共和国偏军事扩张；优密尔教国与钥匙管理者秘密有关；七龙骑圣代表世界联盟级顶尖武力。"
+    },
+    {
+      "id": "the-creator",
+      "name": "创造主/The Creator",
+      "type": "late-game-antagonist",
+      "summary": "由古代皇族后裔组成的神秘组织，以救济世界为名试图掌控遗迹，是后期世界真相与弗基尔线的主要反派框架。",
+      "visibility": "gm-secret-until-late-arc"
+    }
+  ],
+  "locations": [
+    {
+      "id": "crossfield-fortress-city",
+      "name": "城塞都市克罗斯菲德",
+      "type": "fortress-city",
+      "summary": "王立士官学园所在的王都防卫据点；卷一浴场误会、演习场决斗与旧帝国袭击均围绕此地展开。"
+    },
+    {
+      "id": "academy-bath-and-arena",
+      "name": "学园大浴场与机龙演习场",
+      "type": "social-combat-stage",
+      "summary": "大浴场是路克斯与莉夏冲突开端；演习场用于公开决斗、训练与突发幻神兽战。"
+    },
+    {
+      "id": "drag-ride-workshop",
+      "name": "机龙工房",
+      "type": "maintenance-hub",
+      "summary": "莉夏进行机体改造、修复《巴哈姆特》和维护机攻壳剑的据点；适合触发维修、装备升级和秘密谈话。"
+    },
+    {
+      "id": "sixth-ruin-box-garden",
+      "name": "第六遗迹“箱庭”",
+      "type": "ruin",
+      "summary": "库露露席法线核心遗迹。内部存在祭坛、权限识别、幻神兽迪亚波罗斯与崩塌分断事件，揭示生存者/钥匙设定。"
+    },
+    {
+      "id": "moonlit-church-ruins",
+      "name": "月下教会遗址",
+      "type": "duel-site",
+      "summary": "卷二最终决斗地点，路克斯在此以负伤状态驾驶《巴哈姆特》击破保泽里多《艾基·达哈卡》。"
+    },
+    {
+      "id": "seven-ruins-network",
+      "name": "七大遗迹网络",
+      "type": "ancient-megastructure-network",
+      "summary": "包含塔、地下迷宫、浮空方舟等不同结构，是自动人形、幻神兽、神装机龙与终盘真相的源头。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ancient-holy-arcadia",
+      "period": "远古/千年前",
+      "event": "神圣阿卡迪亚皇国与创造主相关技术奠定遗迹、自动人形和机龙体系。",
+      "visibility": "gm-secret"
+    },
+    {
+      "id": "ruins-discovery",
+      "period": "故事十多年前",
+      "event": "古代遗迹被发现，装甲机龙改变战争形态，列国围绕遗迹调查权展开竞争。"
+    },
+    {
+      "id": "coup-five-years-ago",
+      "period": "五年前",
+      "event": "路克斯化身黑色英雄，驾驶《巴哈姆特》单机推翻腐朽的阿卡迪亚帝国，新王国成立。"
+    },
+    {
+      "id": "vol1-black-hero",
+      "period": "本篇开端",
+      "event": "路克斯追猫坠入学园大浴场，与莉夏决斗；别贝特召唤幻神兽袭击，巴哈姆特再现，路克斯入学。"
+    },
+    {
+      "id": "vol2-blue-survivor",
+      "period": "五月",
+      "event": "库露露席法委托路克斯扮演七日情人；箱庭遗迹揭示生存者/钥匙秘密；月下决斗击败保泽里多。"
+    },
+    {
+      "id": "late-ruin-international-war",
+      "period": "中后期",
+      "event": "七龙骑圣、国际强权、创造主、Ragnarok 与遗迹权限逐步卷入，冲突从学园扩大到世界级。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "black-hero-reentry",
+      "name": "最弱无败的黑色英雄",
+      "focus": ["路克斯身份", "莉夏秘密", "旧帝国残党", "巴哈姆特负荷"],
+      "endState": "路克斯成为女子学园唯一男学生，黑色英雄秘密仅少数人知晓。"
+    },
+    {
+      "id": "blue-survivor-key",
+      "name": "苍蓝的生存者",
+      "focus": ["库露露席法", "第六遗迹箱庭", "钥匙/生存者", "保泽里多夺取能力"],
+      "endState": "库露露席法摆脱被道具化的婚约阴谋，加入路克斯信赖圈。"
+    },
+    {
+      "id": "world-truth-escalation",
+      "name": "遗迹真相与世界级战争",
+      "focus": ["七龙骑圣", "创造主", "弗基尔", "Ragnarok", "古代皇国"],
+      "endState": "适合中后期 RP 作为多国会议、遗迹争夺和终末威胁主线。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "lux-arcadia",
+      "to": "lieselotte-atisimarta",
+      "type": "secret-trust",
+      "note": "浴场误会与决斗后，路克斯守护莉夏旧帝国烙印秘密；莉夏修复巴哈姆特并推动其入学。"
+    },
+    {
+      "from": "lux-arcadia",
+      "to": "krulcifer-einfolk",
+      "type": "fake-lover-protector",
+      "note": "七日情人委托从伪装转为真实信赖，路克斯保护其生存者/钥匙身份不被保泽里多工具化。"
+    },
+    {
+      "from": "lux-arcadia",
+      "to": "fugil-arcadia",
+      "type": "half-brother-mystery",
+      "note": "兄弟关系连接政变真相、神圣阿卡迪亚与终盘世界谜题。"
+    },
+    {
+      "from": "academy-knights",
+      "to": "old-empire-remnants",
+      "type": "security-conflict",
+      "note": "学园侧需抵御旧帝国残党、幻神兽袭击和贵族阴谋。"
+    }
+  ],
+  "rpNotes": [
+    "OC 可以作为新生机龙使、遗迹调查员、贵族随从、旧帝国流亡者或列国观察员介入。",
+    "每场机龙战至少声明：机体、神装/武装、驾驶员状态、场地、胜败代价。",
+    "遗迹相关秘密分层揭示：权限/钥匙 → 自动人形 → 创造主/古代皇国 → Ragnarok 级终盘。",
+    "保留全年龄叙事，源条目中的成人化描写不进入 curated 视图。"
+  ],
+  "residualGaps": [
+    "后期卷全部七龙骑圣成员、Ragnarok 个体名和部分神装技能名仍需逐卷核对。",
+    "本扩展按本地世界书整理，不等同官方设定集逐条校勘。"
+  ]
+}

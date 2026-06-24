@@ -1,0 +1,263 @@
+{
+  "schema": "rp-power-systems-v1",
+  "worldId": "dungeon-fighter-online",
+  "sourceRefs": [
+    "src-dfo-power-systems-archive",
+    "src-dfo-abilities-archive",
+    "src-dfo-canon-timeline-entry-99"
+  ],
+  "systems": [
+    {
+      "id": "adventurer-classes",
+      "name": "冒险家职业 / 转职 / 觉醒",
+      "category": "class-progression",
+      "visibility": "public",
+      "summary": "冒险家按出身、武器、魔法、气、枪械、神圣力、鬼神、科技等路线形成职业，继续通过转职、一次/二次/三次觉醒和装备成长提升。",
+      "principle": "职业是战斗技艺、能量适性、组织训练、装备资源和剧情觉醒的组合；同一基础职业可分化为多个转职路线。",
+      "commonResources": [
+        "职业训练",
+        "转职仪式或导师",
+        "觉醒任务",
+        "装备与武器",
+        "地下城实战经验"
+      ],
+      "commonAbilities": [
+        "基础职业技能",
+        "转职专精",
+        "觉醒技",
+        "装备强化"
+      ],
+      "limitations": [
+        "不能把职业名直接等同固定战斗等级；需结合角色等级、转职阶段、装备、剧情时期和个体经验判定。",
+        "部分源条目混有世界书玩法模板和职业扩写，低置信或未校准技能名需记录而非当作硬 canon。"
+      ],
+      "subsystems": [
+        {
+          "id": "ghost-arm-and-ghostblade",
+          "name": "鬼手 / 鬼剑士源流",
+          "summary": "卡赞综合征与鬼手现象关联鬼剑士、鬼泣等路线；鬼神之力可带来强战斗力也伴随诅咒、狂暴或精神风险。",
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "fighter-qi-and-martial-arts",
+          "name": "格斗与念气 / 武学",
+          "summary": "虚祖等地区重视武学，格斗家路线可使用体术、气与专精训练；具体转职需另按职业条目建模。",
+          "sourceRefs": [
+            "src-dfo-factions-archive",
+            "src-dfo-power-systems-archive"
+          ]
+        },
+        {
+          "id": "gunner-and-heaven-tech",
+          "name": "神枪手与天界科技",
+          "summary": "天界封杀魔法后发展机械文明，神枪手、机械师、飞空艇、次元航船等技术线与天界历史紧密相关。",
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "mage-and-pandemonium-magic",
+          "name": "魔法师与魔界魔法",
+          "summary": "赫尔德被记为最初的元素师，魔界诞生召唤师、魔道学、战斗法师等多条魔法路线，并形成多魔法组织。",
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99",
+            "src-dfo-power-systems-archive"
+          ]
+        },
+        {
+          "id": "priest-and-revelation",
+          "name": "圣职者 / 启示 / 神格拳",
+          "summary": "米歇尔受到启示后辨认伪装者，创制巨型兵器战斗术与神格拳，圣职者体系在暗黑圣战中成形。",
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        }
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "apostle-power",
+      "name": "使徒级权能",
+      "category": "transcendent-entity",
+      "visibility": "private",
+      "summary": "使徒是跨世界灾厄级存在，但排名不等于战力顺位；每个使徒的能力、弱点、动机、可沟通性和灾害方式不同。",
+      "principle": "使徒力量常表现为超规格体魄、精神支配、瘟疫、火焰吞噬、创造/建造、混沌污染、龙族支配、空间/维度影响等。",
+      "commonResources": [
+        "使徒本体",
+        "生命之水等传说资源",
+        "追随者或被污染者",
+        "转移/异次元环境"
+      ],
+      "commonAbilities": [
+        "地区级灾厄影响",
+        "高阶战斗能力",
+        "污染或支配",
+        "跨世界牵连"
+      ],
+      "limitations": [
+        "使徒之间不可一刀切排名；源内明确第一/第三等为魔界九使徒排名且和战力不等同。",
+        "冒险家讨伐结果依剧情阶段、联军、装备与特殊条件，不应单凭等级差解决。"
+      ],
+      "representatives": [
+        {
+          "id": "kain",
+          "name": "宿命者卡恩",
+          "traits": [
+            "至高力量",
+            "近乎不可被常规物质和手段破坏",
+            "无统治野心"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-arcs"
+          ]
+        },
+        {
+          "id": "sirocco",
+          "name": "无形之希洛克",
+          "traits": [
+            "转移至悲鸣洞穴",
+            "精神/记忆影响",
+            "复活与神识残留线索"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "lotus",
+          "name": "长脚罗特斯",
+          "traits": [
+            "精神支配",
+            "控制GBL求知者",
+            "天帷巨兽灾厄"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-arcs",
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "diregie",
+          "name": "黑色瘟疫狄瑞吉",
+          "traits": [
+            "瘟疫灾厄",
+            "诺伊佩拉幻影",
+            "诺斯玛尔封印线"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "bakal",
+          "name": "爆龙王巴卡尔",
+          "traits": [
+            "天界统治",
+            "封杀魔法令",
+            "创造狂龙/邪龙/冰龙",
+            "龙之战争与遗产"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        },
+        {
+          "id": "ozma",
+          "name": "混沌之神奥兹玛",
+          "traits": [
+            "血之诅咒",
+            "伪装者",
+            "黑色大地与暗黑圣战"
+          ],
+          "sourceRefs": [
+            "src-dfo-canon-timeline-entry-99"
+          ]
+        }
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "transfer-and-dimensionality",
+      "name": "转移 / 异次元 / 裂缝",
+      "category": "world-event-mechanism",
+      "visibility": "private",
+      "summary": "转移将使徒或区域性灾厄移动到阿拉德、天界或其他地点，并与异次元裂缝、次元风暴、寂静城、瓦哈伊特等后期路线相连。",
+      "principle": "源中多次将重大灾厄描述为赫尔德转移或空间通道破坏/开启的结果；作为RP机制时应视为高危剧情装置而非常规传送技能。",
+      "commonResources": [
+        "赫尔德的转移手段",
+        "寂静城等通道",
+        "异次元裂缝",
+        "次元航船瓦哈伊特"
+      ],
+      "commonAbilities": [
+        "跨地点灾厄投放",
+        "通道封锁/开启",
+        "时间或扭曲次元探索"
+      ],
+      "limitations": [
+        "转移后果常不可控，会造成瘟疫、生态变异、精神控制或地区战争。",
+        "低阶角色通常只能调查、封印或借助组织设施应对，不能自由复刻。"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "divine-revelation-and-imposter-detection",
+      "name": "启示、圣职者与伪装者辨识",
+      "category": "divine-combat-and-exorcism",
+      "visibility": "public",
+      "summary": "米歇尔最初受到启示并辨认伪装者，随后出现能辨别伪装者的人，被称为圣职者；神格拳、巨型兵器战斗术和驱魔师抗魔团用于对抗奥兹玛线。",
+      "principle": "启示使特定人物能辨认血之诅咒造成的伪装者，配合圣职者武技与组织体系形成反伪装者能力。",
+      "commonResources": [
+        "启示",
+        "巨型兵器",
+        "神格拳",
+        "雷米迪亚体系",
+        "虚祖抗魔团"
+      ],
+      "commonAbilities": [
+        "伪装者辨识",
+        "神圣战斗术",
+        "驱魔与抗魔"
+      ],
+      "limitations": [
+        "第二次暗黑圣战后正义审判者被感染一事显示圣职体系也会遭受污染与组织分歧。"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "heaven-mechanical-civilization",
+      "name": "天界机械文明",
+      "category": "technology-and-engineering",
+      "visibility": "public",
+      "summary": "巴卡尔封杀魔法后天界走向机械文明；机械七战神、盖波加、七神之鞘翅、伊顿工业区、海上列车、飞空艇和次元航船构成技术线。",
+      "principle": "在魔法受禁与天界封锁背景下，科学与机械成为天界主要发展路径，后续可与神枪手/机械师职业相连。",
+      "commonResources": [
+        "机械七战神遗产",
+        "七神之鞘翅",
+        "伊顿工业区",
+        "能源中心",
+        "飞空艇与次元航船"
+      ],
+      "commonAbilities": [
+        "大型兵器开发",
+        "航行与运输",
+        "次元探索辅助",
+        "枪械/机械战斗"
+      ],
+      "limitations": [
+        "大型项目需要国家、研究组织和工业基础；盖波加计划曾失败并被转移到另一次元。"
+      ],
+      "evidenceLevel": "B"
+    }
+  ],
+  "scalingNotes": [
+    "本文件不提供统一数值等级；请结合 rules/rp-combat-rating-rules.md 另行换算。",
+    "使徒、机械七战神兵器、觉醒职业、普通士兵、早期冒险家不应混用同一强度模板。"
+  ],
+  "openIssues": [
+    "职业分支 197+ powerSystems / 318 abilities 未逐条拆解；需后续按基础职业分批完成。",
+    "源条目含部分 worldbook 游戏化/状态栏模板内容，已避免纳入硬设定。"
+  ]
+}

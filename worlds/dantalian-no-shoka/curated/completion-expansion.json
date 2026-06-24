@@ -1,0 +1,269 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "dantalian-no-shoka",
+  "completionPass": "retry-03",
+  "sourceRefs": [
+    "src-dantalian-no-shoka-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/dantalian-no-shoka/reports/classification-report.md",
+    "campaigns/world-library/worlds/dantalian-no-shoka/characters/characters.json",
+    "campaigns/world-library/worlds/dantalian-no-shoka/factions/factions.json",
+    "campaigns/world-library/worlds/dantalian-no-shoka/locations/locations.json",
+    "campaigns/world-library/worlds/dantalian-no-shoka/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/dantalian-no-shoka/canon-reference/full-plot.json"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：在现有 46 人物和完整世界主档基础上，补结构化时间线、篇章、幻书/读姬能力约束、关系/RP 钩子、人物外观气质锚点和第 6-8 卷残留缺口。",
+  "coverageNote": "本地分类报告显示 59 条保留条目，characters 39、locations 33、powerSystems 11、canonArcs 21、canonFullPlot 22，但 canonTimeline 为 0、plotSummary 为 0。现有 curated 已较完整；本扩展主要把分散在 world.json/characters-index/notes 中的运行信息压成可检索模块。",
+  "characters": {
+    "coreVisualAndRoleAnchors": [
+      {
+        "id": "hugh-anthony-disward",
+        "name": "修伊·安索尼·迪斯瓦特",
+        "appearanceAndDemeanor": "退役空军飞行员与青年绅士调查者气质；冷静、温和、行动力强，持黄金/红宝石钥匙时成为仪式焦点。",
+        "rpUse": "默认钥匙守护者、调查线主轴；OC 不应无条件取代其身份。"
+      },
+      {
+        "id": "dalian",
+        "name": "妲丽安",
+        "appearanceAndDemeanor": "外表十二三岁的黑衣少女，胸前锁与壶中之天书架是视觉锚点；毒舌、怕生、傲慢，偏爱炸面包和甜食。",
+        "rpUse": "幻书封印、契约问答、哥特日常和知识深渊的核心。"
+      },
+      {
+        "id": "hal-kamhout",
+        "name": "哈尔·卡姆赫德",
+        "appearanceAndDemeanor": "白衣/灰发美男子焚书官意象，银色长杖‘灾厄之枝’和摩托车可视化强。",
+        "rpUse": "保存派与焚毁派冲突、临时合作与灾厄清除。"
+      },
+      {
+        "id": "flamberge",
+        "name": "芙兰蓓尔",
+        "appearanceAndDemeanor": "银之读姬/毁灭读姬，白色拘束衣、锁头、拉链门扉是仪式锚点。",
+        "rpUse": "与哈尔搭档装填幻书，表现焚毁路线的危险美学。"
+      },
+      {
+        "id": "raziel",
+        "name": "拉结尔",
+        "appearanceAndDemeanor": "赤之读姬，左眼书架/锁头眼罩，残酷傲慢。",
+        "rpUse": "幻稿孵化、教授实验和红之书架的 private 对立线。"
+      },
+      {
+        "id": "professor",
+        "name": "教授",
+        "appearanceAndDemeanor": "中性美男子/幻书研究者气质，重视疯狂与新幻书诞生过程。",
+        "rpUse": "幕后实验、幻稿观察、坏结局/回溯风险的 GM 压力源。"
+      }
+    ],
+    "eventCharacterClusters": [
+      {
+        "cluster": "贵族与收藏家事件",
+        "members": ["camilla-cairns", "leslie", "gourmet-grem", "saz-haston", "roy-haston", "mabel-nash", "florence-calabos", "estella-lilburn"],
+        "use": "社交界、宅邸、收藏、实验与血统/永生欲望。"
+      },
+      {
+        "cluster": "战后机关与学校/都市事件",
+        "members": ["eirath-alcock", "paula-dickinson", "renny-lentz", "latisha", "yolanda", "viola-duplessis"],
+        "use": "战后空军、警察、女子学校、报业和都市怪谈。"
+      },
+      {
+        "cluster": "第 6-8 卷低置信候选",
+        "members": ["wesley-prototype", "oliver", "camperson", "mythril-thief", "lifiya", "asquith-marchioness"],
+        "use": "已在 notes 标为待补；只作摘要级钩子，不直接高置信运行。"
+      }
+    ]
+  },
+  "powerSystems": [
+    {
+      "id": "phantom-book-mediums",
+      "name": "幻书媒介与正本/转写本/幻稿",
+      "summary": "幻书不只以纸本存在，也可表现为植物、乐谱、航海日志、时刻表、石板、八音盒旋律、诗稿或报纸转写本。正本、转写本与未完成幻稿之间咒力和稳定性不同。",
+      "rpLimits": [
+        "每个事件先确认媒介、持有者欲望、朗读/触发条件和代价。",
+        "幻稿需疯狂、执念或特定环境孵化，不能随手生成万能书。",
+        "转写本可弱化或扭曲效果，适合调查线留下线索。"
+      ]
+    },
+    {
+      "id": "library-keys-and-reader-princesses",
+      "name": "读姬、钥匙守护者与书架仪式",
+      "summary": "黑之读姬妲丽安、银之读姬芙兰蓓尔、赤之读姬拉结尔代表保存、毁灭、孵化/观察等路线。钥匙、锁、契约问答和门扉仪式决定能否开启书架。",
+      "rpLimits": [
+        "OC 若要开书架，必须有钥匙碎片、副馆权限、读姬认可或等价契约。",
+        "仪式调性应庄严而侵入，不应被写成普通道具栏取书。"
+      ]
+    },
+    {
+      "id": "burning-and-alchemy-routes",
+      "name": "焚书官、炼金术与机械人偶",
+      "summary": "焚书官以幻书为燃料释放青白业火；另一条技术线涉及炼金术、人工生命、机械读姬、人偶与火蜥蜴刻印等。",
+      "rpLimits": [
+        "焚毁会消除灾厄但也可能失去知识或牺牲线索。",
+        "人工生命与人体改造只作为哥特悬疑/恐怖元素处理，不露骨化。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "preservation-vs-burning-axis",
+      "name": "保存派与焚毁派",
+      "summary": "修伊/妲丽安倾向回收、封印、见证；哈尔/芙兰蓓尔主张焚毁灾厄。二者可敌对，也可在大规模灾害前临时合作。",
+      "rpHooks": ["同一本幻书该封存还是焚毁", "受害者是否愿意放弃愿望", "幻书造成的救赎与灾害并存"]
+    },
+    {
+      "id": "professor-raziel-experiment-axis",
+      "name": "教授与赤之读姬实验轴",
+      "summary": "教授/拉结尔关注幻稿如何从疯狂中诞生，常推动受害者、研究者或城市成为实验场。",
+      "visibility": "private"
+    },
+    {
+      "id": "collectors-thieves-and-nobility",
+      "name": "收藏家、窃贼、旧贵族与商会",
+      "summary": "贵族庄园、商会、报业王、学校与收藏家常因欲望、永生、复仇或艺术狂热持有幻书，是单元剧事件主要燃料。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "disward-estate-runtime",
+      "name": "迪斯瓦特宅邸运行层",
+      "summary": "日常休整、烤面包/甜食、钥匙保管、地下室/书库入口和委托接收点。"
+    },
+    {
+      "id": "capital-urban-mystery-network",
+      "name": "王都都市怪谈网络",
+      "summary": "地铁站、音乐厅、足球场、印刷厂、咖啡厅、商会与社交界可承载连续都市幻书事件。"
+    },
+    {
+      "id": "estate-and-school-incidents",
+      "name": "宅邸/寄宿学校事件带",
+      "summary": "哈斯顿庄园、利尔本山庄、卡德菲尔女子学校等地点适合封闭空间调查、贵族秘密和少女学校怪谈。"
+    },
+    {
+      "id": "travel-and-frontier-incidents",
+      "name": "旅行与边境事件带",
+      "summary": "雪国纽德沃尔特、黑暗大陆、幽灵船、战线机场和海岛事件可把故事从英伦/王都扩展到战争余烬和殖民/探险怪谈。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "post-war-baseline",
+      "period": "世界大战结束后",
+      "event": "战后社会、退役军人、铁路/航空/工业与旧贵族庄园共存；幻书事件在现代化裂缝中显现。",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "hugh-inherits-key",
+      "period": "本篇开端",
+      "event": "修伊继承祖父宅邸与钥匙，遇见妲丽安，成为黑之读姬钥匙守护者。",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "case-road-story",
+      "period": "单元剧循环",
+      "event": "求助/怪谈/收藏线索出现；修伊与妲丽安调查幻书媒介、持有者欲望和代价，决定封印、回收、焚毁或见证。",
+      "certainty": "derived-structure"
+    },
+    {
+      "id": "burning-officer-encounters",
+      "period": "中期交错",
+      "event": "哈尔与芙兰蓓尔介入幻书事件，保存派与焚毁派冲突或临时合作。",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "professor-raziel-escalation",
+      "period": "私密/后期",
+      "event": "教授与拉结尔推动幻稿孵化、城市级实验或坏结局分支；需按沙盒开启程度逐步揭示。",
+      "visibility": "private-gm",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "vol6-8-gap-zone",
+      "period": "第 6-8 卷相关",
+      "event": "不死杀手、欧立克宅邸、雷萨姆群岛海魔、奥利佛/坎普森、秘银/莉菲雅/阿斯奎斯侯爵夫人等线仍为摘要级。",
+      "visibility": "low-confidence",
+      "certainty": "known-gap"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "phantom-book-case-procedure",
+      "name": "幻书单元调查篇",
+      "focus": ["怪谈", "持有者欲望", "媒介", "代价", "封印/焚毁选择"],
+      "rpEntry": "OC 可作为委托人、警察、记者、学生、船客、收藏家助手或受害者进入。"
+    },
+    {
+      "id": "reader-princess-conflict",
+      "name": "三色读姬与书架理念篇",
+      "focus": ["妲丽安", "芙兰蓓尔", "拉结尔", "钥匙", "书架仪式"],
+      "rpEntry": "适合中期把单元怪谈连成保存、毁灭与孵化三路线冲突。"
+    },
+    {
+      "id": "war-ashes-and-modernity",
+      "name": "战争余烬与近代都市篇",
+      "focus": ["退役军人", "空军", "铁路", "工业", "都市报业", "旧贵族"],
+      "rpEntry": "把幻书灾害与战后创伤、阶级衰落和技术现代化结合。"
+    },
+    {
+      "id": "bad-end-and-rewind-sandbox",
+      "name": "坏结局/回溯沙盒篇",
+      "focus": ["来源分支", "教授实验", "幻书暴走", "代价重写"],
+      "visibility": "sandbox-only",
+      "rpEntry": "只在明确开启 IF/回溯机制时使用，不写成默认正史。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "hugh-anthony-disward",
+      "to": "dalian",
+      "type": "keykeeper-reader-princess-contract",
+      "note": "钥匙、契约问答与日常信赖共同构成主线关系；冲突通常来自是否使用/封存特定幻书。"
+    },
+    {
+      "from": "hal-kamhout",
+      "to": "flamberge",
+      "type": "burning-officer-reader-princess-partner",
+      "note": "两人以焚毁幻书为行动准则，与修伊/妲丽安形成理念对照。"
+    },
+    {
+      "from": "professor",
+      "to": "raziel",
+      "type": "experimenter-red-library",
+      "visibility": "private",
+      "note": "观察幻稿孵化和疯狂条件，是多个坏结局与幕后实验的来源。"
+    },
+    {
+      "from": "dalian",
+      "to": "raziel",
+      "type": "reader-princess-opposition",
+      "visibility": "private",
+      "note": "同类读姬但理念与书架功能不同；适合中后期揭示。"
+    }
+  ],
+  "rpNotes": [
+    "每个事件按‘委托/怪谈 → 媒介识别 → 持有者欲望 → 代价显现 → 封印/焚毁/牺牲’推进。",
+    "OC 可介入但不得默认拥有完整钥匙守护者权限；若能开书架，需剧情说明权限来源。",
+    "幻书效果可以宏大，但必须受媒介、仪式、读者资格、代价和信息量限制。",
+    "保持哥特悬疑、战后余烬和书籍奇谭风格；血腥/精神操控/人体改造作为黑暗元素处理，不露骨化。"
+  ],
+  "lowConfidenceAndConflicts": [
+    {
+      "topic": "第 6-8 卷人物与幻书",
+      "status": "known-gap",
+      "note": "curation-notes 已标明卫斯理/雏形、欧立克宅邸、雷萨姆群岛、奥利佛、坎普森、秘银、莉菲雅等需细读。"
+    },
+    {
+      "topic": "幻书名称译名混用",
+      "status": "normalized-with-risk",
+      "note": "中文、繁体、音译与意译混用；本扩展不新建 phantom-books-index，避免未核实名称扩散。"
+    },
+    {
+      "topic": "源内坏结局/回溯分支",
+      "status": "sandbox-only",
+      "note": "不写为默认正史；仅在明确 IF 或回溯模式下启用。"
+    }
+  ],
+  "residualGaps": [
+    "仍未为每本幻书建立独立索引。",
+    "第 6-8 卷支线人物、地点与幻书效果仍需逐条补证。",
+    "canonTimeline 源为空；当前 timeline 为保守运行阶段索引，不是官方年表。"
+  ]
+}

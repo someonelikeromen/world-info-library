@@ -48,6 +48,21 @@
       "rules": [
         "非超自然能力；用于规范化骑士角色的 martial 标记。"
       ]
+    },
+    {
+      "id": "dragon-and-monster-ecology",
+      "name": "龙/魔物生态",
+      "rules": [
+        "炎龙等大型魔物是灾害级威胁。",
+        "现代火力可压制但需情报、诱导、地形与交战规则配合。"
+      ]
+    },
+    {
+      "id": "special-region-diplomacy",
+      "name": "特区外交与文化冲击",
+      "rules": [
+        "奴隶制、贵族制、宗教、商品与媒体舆论会改变军事决策。"
+      ]
     }
   ],
   "factions": [
@@ -100,6 +115,21 @@
       "id": "kato-students",
       "name": "加图门下",
       "summary": "蕾莱相关师承归属。"
+    },
+    {
+      "id": "special-operations-group",
+      "name": "特殊作战群",
+      "summary": "执行帝都营救、斩首、潜入和高风险救援的自卫队精锐。"
+    },
+    {
+      "id": "dark-elves",
+      "name": "暗黑精灵部族",
+      "summary": "炎龙灾害受害者与求援方。"
+    },
+    {
+      "id": "italica-authority",
+      "name": "伊塔黎卡伯爵家/城市守备",
+      "summary": "平娜外交线和盗贼防卫战的地方权力节点。"
     }
   ],
   "locations": [
@@ -150,6 +180,22 @@
         "特区各地"
       ],
       "summary": "门另一侧的异世界广域称呼。"
+    },
+    {
+      "id": "dark-elf-forest",
+      "name": "暗黑精灵森林/村落",
+      "summary": "炎龙灾害、姚求援与越权救援的舞台。"
+    },
+    {
+      "id": "imperial-palace",
+      "name": "帝国皇宫",
+      "summary": "政变、囚禁、会见和特殊作战群突入地点。"
+    },
+    {
+      "id": "bellnahgo",
+      "name": "贝尔纳戈/海自外传海域",
+      "summary": "外传海上行动相关地点；细节低置信。",
+      "lowConfidence": true
     }
   ],
   "combatRules": [

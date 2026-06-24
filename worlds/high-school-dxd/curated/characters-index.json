@@ -36,7 +36,7 @@
       ],
       "relationships": [
         "rias-gremory:master/lover",
-        "drianig:partner",
+        "ddraig:partner",
         "asia-argento:protective"
       ],
       "importance": "critical",
@@ -291,6 +291,553 @@
         "factions unresolved (no safe canonical id): fallen-angels",
         "locations unresolved (no safe canonical id): 人界, 堕天使据点"
       ]
+    },
+    {
+      "id": "ddraig",
+      "name": "德莱格",
+      "aliases": [
+        "赤龙帝",
+        "Welsh Dragon"
+      ],
+      "visibility": "private",
+      "summary": "寄宿在一诚赤龙帝笼手中的二天龙之一，倍增能力源头与导师/搭档。",
+      "roles": [
+        "dragon",
+        "sacred-gear-spirit",
+        "mentor"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "赤龙帝的笼手/一诚灵魂内"
+      ],
+      "powerSystems": [
+        "sacred-gear",
+        "dragon-power"
+      ],
+      "abilities": [
+        "倍增",
+        "转让",
+        "龙力指导",
+        "精神对话"
+      ],
+      "items": [
+        "赤龙帝的笼手"
+      ],
+      "relationships": [
+        "issei-hyoudou:partner",
+        "vali-lucifer:rival-via-albion"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "力量源与精神 NPC，避免独立滥战。"
+    },
+    {
+      "id": "vali-lucifer",
+      "name": "瓦利·路西法",
+      "aliases": [
+        "白龙皇"
+      ],
+      "visibility": "private",
+      "summary": "白龙皇光翼宿主，路西法血脉强者，一诚的宿敌兼竞争者。",
+      "roles": [
+        "rival",
+        "sacred-gear-user",
+        "team-leader"
+      ],
+      "factions": [
+        "vali-team",
+        "khaos-brigade"
+      ],
+      "locations": [
+        "瓦利队流动据点",
+        "次元间隙"
+      ],
+      "powerSystems": [
+        "sacred-gear",
+        "dragon-power"
+      ],
+      "abilities": [
+        "Divine Dividing 减半",
+        "白龙皇铠甲",
+        "高机动战"
+      ],
+      "items": [
+        "白龙皇的光翼"
+      ],
+      "relationships": [
+        "issei-hyoudou:rival",
+        "ddraig:rival-via-albion",
+        "kuroka:teammate"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "不同阶段可能从敌对转为竞争/协力。"
+    },
+    {
+      "id": "xenovia-quarta",
+      "name": "洁诺薇亚·夸塔",
+      "aliases": [
+        "杜兰朵持有者"
+      ],
+      "visibility": "public",
+      "summary": "原教会圣剑士，持有杜兰朵，后转入吉蒙里眷族。",
+      "roles": [
+        "knight",
+        "exorcist-former",
+        "holy-sword-user"
+      ],
+      "factions": [
+        "church-exorcists",
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇",
+        "教会据点"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "圣剑术",
+        "杜兰朵爆发",
+        "恶魔化后适应"
+      ],
+      "items": [
+        "杜兰朵"
+      ],
+      "relationships": [
+        "issei-hyoudou:ally-affection",
+        "yuuto-kiba:sacred-sword-conflict-ally",
+        "irina-shidou:friend"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "圣剑事件后阵营转换。"
+    },
+    {
+      "id": "irina-shidou",
+      "name": "紫藤伊莉娜",
+      "aliases": [
+        "伊莉娜"
+      ],
+      "visibility": "public",
+      "summary": "一诚青梅竹马，教会圣剑士/天使线角色，连接天界与驹王镇。",
+      "roles": [
+        "angel-or-exorcist",
+        "childhood-friend"
+      ],
+      "factions": [
+        "church-exorcists",
+        "three-factions"
+      ],
+      "locations": [
+        "驹王镇",
+        "天界"
+      ],
+      "powerSystems": [
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "圣剑术",
+        "圣力",
+        "天使支援"
+      ],
+      "items": [
+        "圣剑/教会装备"
+      ],
+      "relationships": [
+        "issei-hyoudou:childhood-friend",
+        "xenovia-quarta:friend",
+        "michael:superior"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "天使化阶段需按剧情时间点处理。"
+    },
+    {
+      "id": "gasper-vladi",
+      "name": "加斯帕·弗拉迪",
+      "aliases": [
+        "时间停止神器宿主"
+      ],
+      "visibility": "public",
+      "summary": "吉蒙里眷族主教，禁夜与真暗的邪龙宿主，能力强但心理与控制问题显著。",
+      "roles": [
+        "bishop",
+        "sacred-gear-user"
+      ],
+      "factions": [
+        "gremory-peerage"
+      ],
+      "locations": [
+        "驹王镇"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "sacred-gear"
+      ],
+      "abilities": [
+        "Forbidden Balor View 时间停止",
+        "结界内支援",
+        "潜力暴走"
+      ],
+      "items": [
+        "禁夜与真暗的邪龙"
+      ],
+      "relationships": [
+        "rias-gremory:master",
+        "issei-hyoudou:senpai-protector"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "强能力需以视线、精神和封印限制平衡。"
+    },
+    {
+      "id": "kuroka",
+      "name": "黑歌",
+      "aliases": [
+        "猫又黑歌"
+      ],
+      "visibility": "private",
+      "summary": "小猫的姐姐，猫又与仙术使用者，曾隶属祸之团/瓦利队。",
+      "roles": [
+        "youkai",
+        "senjutsu-user",
+        "rogue-ally"
+      ],
+      "factions": [
+        "vali-team",
+        "khaos-brigade",
+        "kyoto-youkai"
+      ],
+      "locations": [
+        "京都妖怪界",
+        "瓦利队流动据点"
+      ],
+      "powerSystems": [
+        "senjutsu-youjutsu",
+        "devil-piece"
+      ],
+      "abilities": [
+        "仙术",
+        "妖术",
+        "分身/变化",
+        "近战"
+      ],
+      "items": [],
+      "relationships": [
+        "koneko-toujou:sister",
+        "vali-lucifer:teammate",
+        "issei-hyoudou:interest-ally"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "小猫创伤与仙术成长线核心。"
+    },
+    {
+      "id": "sona-sitri",
+      "name": "苍那·西迪",
+      "aliases": [
+        "支取苍那"
+      ],
+      "visibility": "public",
+      "summary": "西迪家继承人，驹王学院学生会长，莉雅丝的朋友与排名游戏竞争者。",
+      "roles": [
+        "king",
+        "student-council-president",
+        "devil-noble"
+      ],
+      "factions": [
+        "sitri-peerage",
+        "three-factions"
+      ],
+      "locations": [
+        "驹王学院",
+        "西迪学生会室"
+      ],
+      "powerSystems": [
+        "devil-piece",
+        "rating-game"
+      ],
+      "abilities": [
+        "水系魔法",
+        "战术指挥",
+        "教育理想"
+      ],
+      "items": [
+        "西迪眷族棋子"
+      ],
+      "relationships": [
+        "rias-gremory:friend-rival",
+        "issei-hyoudou:ally"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "校园政治和排名游戏线。"
+    },
+    {
+      "id": "sirzechs-lucifer",
+      "name": "瑟杰克斯·路西法",
+      "aliases": [
+        "魔王路西法",
+        "莉雅丝兄长"
+      ],
+      "visibility": "private",
+      "summary": "现任魔王路西法，莉雅丝兄长，毁灭之力顶级使用者。",
+      "roles": [
+        "maou",
+        "devil-leader",
+        "brother"
+      ],
+      "factions": [
+        "three-factions"
+      ],
+      "locations": [
+        "冥界",
+        "吉蒙里领地/城堡"
+      ],
+      "powerSystems": [
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "毁灭之力",
+        "魔王级魔力",
+        "政治调停"
+      ],
+      "items": [],
+      "relationships": [
+        "rias-gremory:brother-protector",
+        "issei-hyoudou:evaluates",
+        "azazel:peace-negotiation-peer"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "魔王级存在，常作政治/威慑 NPC。"
+    },
+    {
+      "id": "michael",
+      "name": "米迦勒",
+      "aliases": [
+        "大天使米迦勒"
+      ],
+      "visibility": "private",
+      "summary": "天界代表，三大势力和平会谈关键人物。",
+      "roles": [
+        "angel-leader",
+        "diplomat"
+      ],
+      "factions": [
+        "three-factions",
+        "church-exorcists"
+      ],
+      "locations": [
+        "天界"
+      ],
+      "powerSystems": [
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "圣力",
+        "天界调停",
+        "神器/圣剑相关知识"
+      ],
+      "items": [
+        "阿斯卡隆授予线"
+      ],
+      "relationships": [
+        "azazel:peace-negotiation-peer",
+        "sirzechs-lucifer:peace-negotiation-peer",
+        "irina-shidou:superior"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "补齐 world 中 unresolved michael。"
+    },
+    {
+      "id": "ophis",
+      "name": "奥菲斯",
+      "aliases": [
+        "无限龙神"
+      ],
+      "visibility": "gm-only",
+      "summary": "无限龙神，次元间隙相关超规格存在，被祸之团名义利用。",
+      "roles": [
+        "dragon-god",
+        "mythic-axis"
+      ],
+      "factions": [
+        "khaos-brigade"
+      ],
+      "locations": [
+        "次元间隙"
+      ],
+      "powerSystems": [
+        "dragon-power"
+      ],
+      "abilities": [
+        "无限之力",
+        "龙神威压",
+        "超规格存在"
+      ],
+      "items": [],
+      "relationships": [
+        "great-red:rival-or-counterpart",
+        "khaos-brigade:used-as-symbol",
+        "issei-hyoudou:late-stage-link"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "仅高阶龙神线启用。"
+    },
+    {
+      "id": "great-red",
+      "name": "伟大之赤",
+      "aliases": [
+        "真红龙神帝"
+      ],
+      "visibility": "gm-only",
+      "summary": "次元间隙的超规格龙神，与奥菲斯和一诚后期形态相关。",
+      "roles": [
+        "dragon-god",
+        "cosmic-presence"
+      ],
+      "factions": [],
+      "locations": [
+        "次元间隙"
+      ],
+      "powerSystems": [
+        "dragon-power"
+      ],
+      "abilities": [
+        "维度级存在",
+        "龙神之力"
+      ],
+      "items": [],
+      "relationships": [
+        "ophis:rival-or-counterpart",
+        "issei-hyoudou:late-stage-power-link"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "不可作为常规遭遇敌人。"
+    },
+    {
+      "id": "cao-cao",
+      "name": "曹操",
+      "aliases": [
+        "黄昏圣枪持有者"
+      ],
+      "visibility": "private",
+      "summary": "英雄派核心，True Longinus 持有者，以人类英雄主义挑战神魔秩序。",
+      "roles": [
+        "hero-faction-leader",
+        "longinus-user"
+      ],
+      "factions": [
+        "khaos-brigade"
+      ],
+      "locations": [
+        "祸之团隐匿据点"
+      ],
+      "powerSystems": [
+        "sacred-gear",
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "黄昏圣枪",
+        "圣力",
+        "战略领导"
+      ],
+      "items": [
+        "True Longinus"
+      ],
+      "relationships": [
+        "issei-hyoudou:ideological-enemy",
+        "vali-lucifer:temporary-network"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "英雄派线高危。"
+    },
+    {
+      "id": "raynare",
+      "name": "丽娜丽",
+      "aliases": [
+        "Raynare",
+        "夕麻"
+      ],
+      "visibility": "private",
+      "summary": "早期堕天使敌人，以伪装接近并杀害一诚，触发其转生恶魔。",
+      "roles": [
+        "fallen-angel",
+        "early-antagonist"
+      ],
+      "factions": [
+        "fallen-angels"
+      ],
+      "locations": [
+        "驹王镇",
+        "堕天使据点"
+      ],
+      "powerSystems": [
+        "holy-demonic-forces"
+      ],
+      "abilities": [
+        "光之枪",
+        "伪装",
+        "神器夺取"
+      ],
+      "items": [],
+      "relationships": [
+        "issei-hyoudou:killer-trigger",
+        "asia-argento:exploiter",
+        "azazel:faction-background"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-high-school-dxd-001"
+      ],
+      "notes": "早期事件触发器。"
     }
   ],
   "indices": {
@@ -301,10 +848,41 @@
         "akeno-himejima",
         "asia-argento",
         "koneko-toujou",
-        "yuuto-kiba"
+        "yuuto-kiba",
+        "ddraig",
+        "xenovia-quarta",
+        "gasper-vladi"
       ],
       "three-factions": [
-        "azazel"
+        "azazel",
+        "irina-shidou",
+        "sona-sitri",
+        "sirzechs-lucifer",
+        "michael"
+      ],
+      "vali-team": [
+        "vali-lucifer",
+        "kuroka"
+      ],
+      "khaos-brigade": [
+        "vali-lucifer",
+        "kuroka",
+        "ophis",
+        "cao-cao"
+      ],
+      "church-exorcists": [
+        "xenovia-quarta",
+        "irina-shidou",
+        "michael"
+      ],
+      "kyoto-youkai": [
+        "kuroka"
+      ],
+      "sitri-peerage": [
+        "sona-sitri"
+      ],
+      "fallen-angels": [
+        "raynare"
       ]
     },
     "byPowerSystem": {
@@ -314,13 +892,41 @@
         "akeno-himejima",
         "asia-argento",
         "koneko-toujou",
-        "yuuto-kiba"
+        "yuuto-kiba",
+        "xenovia-quarta",
+        "gasper-vladi",
+        "kuroka",
+        "sona-sitri"
       ],
       "sacred-gear": [
         "issei-hyoudou",
         "asia-argento",
         "yuuto-kiba",
-        "azazel"
+        "azazel",
+        "ddraig",
+        "vali-lucifer",
+        "gasper-vladi",
+        "cao-cao"
+      ],
+      "dragon-power": [
+        "ddraig",
+        "vali-lucifer",
+        "ophis",
+        "great-red"
+      ],
+      "holy-demonic-forces": [
+        "xenovia-quarta",
+        "irina-shidou",
+        "sirzechs-lucifer",
+        "michael",
+        "cao-cao",
+        "raynare"
+      ],
+      "senjutsu-youjutsu": [
+        "kuroka"
+      ],
+      "rating-game": [
+        "sona-sitri"
       ]
     },
     "byVisibility": {
@@ -330,10 +936,25 @@
         "akeno-himejima",
         "asia-argento",
         "koneko-toujou",
-        "yuuto-kiba"
+        "yuuto-kiba",
+        "xenovia-quarta",
+        "irina-shidou",
+        "gasper-vladi",
+        "sona-sitri"
       ],
       "private": [
-        "azazel"
+        "azazel",
+        "ddraig",
+        "vali-lucifer",
+        "kuroka",
+        "sirzechs-lucifer",
+        "michael",
+        "cao-cao",
+        "raynare"
+      ],
+      "gm-only": [
+        "ophis",
+        "great-red"
       ]
     },
     "majorCharacters": [
@@ -343,11 +964,225 @@
       "asia-argento",
       "koneko-toujou",
       "yuuto-kiba",
-      "azazel"
+      "azazel",
+      "ddraig",
+      "vali-lucifer",
+      "sirzechs-lucifer",
+      "ophis",
+      "great-red"
     ],
-    "byId": {},
-    "byName": {},
-    "byAffiliation": {},
-    "byTag": {}
+    "byId": {
+      "issei-hyoudou": "兵藤一诚",
+      "rias-gremory": "莉雅丝·吉蒙里",
+      "akeno-himejima": "姬岛朱乃",
+      "asia-argento": "爱西亚·阿基多",
+      "koneko-toujou": "塔城小猫",
+      "yuuto-kiba": "木场佑斗",
+      "azazel": "阿萨谢尔",
+      "ddraig": "德莱格",
+      "vali-lucifer": "瓦利·路西法",
+      "xenovia-quarta": "洁诺薇亚·夸塔",
+      "irina-shidou": "紫藤伊莉娜",
+      "gasper-vladi": "加斯帕·弗拉迪",
+      "kuroka": "黑歌",
+      "sona-sitri": "苍那·西迪",
+      "sirzechs-lucifer": "瑟杰克斯·路西法",
+      "michael": "米迦勒",
+      "ophis": "奥菲斯",
+      "great-red": "伟大之赤",
+      "cao-cao": "曹操",
+      "raynare": "丽娜丽"
+    },
+    "byName": {
+      "兵藤一诚": "issei-hyoudou",
+      "莉雅丝·吉蒙里": "rias-gremory",
+      "姬岛朱乃": "akeno-himejima",
+      "爱西亚·阿基多": "asia-argento",
+      "塔城小猫": "koneko-toujou",
+      "木场佑斗": "yuuto-kiba",
+      "阿萨谢尔": "azazel",
+      "德莱格": "ddraig",
+      "瓦利·路西法": "vali-lucifer",
+      "洁诺薇亚·夸塔": "xenovia-quarta",
+      "紫藤伊莉娜": "irina-shidou",
+      "加斯帕·弗拉迪": "gasper-vladi",
+      "黑歌": "kuroka",
+      "苍那·西迪": "sona-sitri",
+      "瑟杰克斯·路西法": "sirzechs-lucifer",
+      "米迦勒": "michael",
+      "奥菲斯": "ophis",
+      "伟大之赤": "great-red",
+      "曹操": "cao-cao",
+      "丽娜丽": "raynare"
+    },
+    "byAffiliation": {
+      "gremory-peerage": [
+        "issei-hyoudou",
+        "rias-gremory",
+        "akeno-himejima",
+        "asia-argento",
+        "koneko-toujou",
+        "yuuto-kiba",
+        "ddraig",
+        "xenovia-quarta",
+        "gasper-vladi"
+      ],
+      "three-factions": [
+        "azazel",
+        "irina-shidou",
+        "sona-sitri",
+        "sirzechs-lucifer",
+        "michael"
+      ],
+      "vali-team": [
+        "vali-lucifer",
+        "kuroka"
+      ],
+      "khaos-brigade": [
+        "vali-lucifer",
+        "kuroka",
+        "ophis",
+        "cao-cao"
+      ],
+      "church-exorcists": [
+        "xenovia-quarta",
+        "irina-shidou",
+        "michael"
+      ],
+      "kyoto-youkai": [
+        "kuroka"
+      ],
+      "sitri-peerage": [
+        "sona-sitri"
+      ],
+      "fallen-angels": [
+        "raynare"
+      ]
+    },
+    "byTag": {
+      "protagonist": [
+        "issei-hyoudou"
+      ],
+      "devil": [
+        "issei-hyoudou",
+        "akeno-himejima"
+      ],
+      "sacred-gear-user": [
+        "issei-hyoudou",
+        "vali-lucifer",
+        "gasper-vladi"
+      ],
+      "king": [
+        "rias-gremory",
+        "sona-sitri"
+      ],
+      "devil-noble": [
+        "rias-gremory",
+        "sona-sitri"
+      ],
+      "queen": [
+        "akeno-himejima"
+      ],
+      "bishop": [
+        "asia-argento",
+        "gasper-vladi"
+      ],
+      "healer": [
+        "asia-argento"
+      ],
+      "rook": [
+        "koneko-toujou"
+      ],
+      "youkai": [
+        "koneko-toujou",
+        "kuroka"
+      ],
+      "knight": [
+        "yuuto-kiba",
+        "xenovia-quarta"
+      ],
+      "swordsman": [
+        "yuuto-kiba"
+      ],
+      "leader": [
+        "azazel"
+      ],
+      "researcher": [
+        "azazel"
+      ],
+      "dragon": [
+        "ddraig"
+      ],
+      "sacred-gear-spirit": [
+        "ddraig"
+      ],
+      "mentor": [
+        "ddraig"
+      ],
+      "rival": [
+        "vali-lucifer"
+      ],
+      "team-leader": [
+        "vali-lucifer"
+      ],
+      "exorcist-former": [
+        "xenovia-quarta"
+      ],
+      "holy-sword-user": [
+        "xenovia-quarta"
+      ],
+      "angel-or-exorcist": [
+        "irina-shidou"
+      ],
+      "childhood-friend": [
+        "irina-shidou"
+      ],
+      "senjutsu-user": [
+        "kuroka"
+      ],
+      "rogue-ally": [
+        "kuroka"
+      ],
+      "student-council-president": [
+        "sona-sitri"
+      ],
+      "maou": [
+        "sirzechs-lucifer"
+      ],
+      "devil-leader": [
+        "sirzechs-lucifer"
+      ],
+      "brother": [
+        "sirzechs-lucifer"
+      ],
+      "angel-leader": [
+        "michael"
+      ],
+      "diplomat": [
+        "michael"
+      ],
+      "dragon-god": [
+        "ophis",
+        "great-red"
+      ],
+      "mythic-axis": [
+        "ophis"
+      ],
+      "cosmic-presence": [
+        "great-red"
+      ],
+      "hero-faction-leader": [
+        "cao-cao"
+      ],
+      "longinus-user": [
+        "cao-cao"
+      ],
+      "fallen-angel": [
+        "raynare"
+      ],
+      "early-antagonist": [
+        "raynare"
+      ]
+    }
   }
 }

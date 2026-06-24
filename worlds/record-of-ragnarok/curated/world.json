@@ -2,64 +2,624 @@
   "schema": "rp-world-v1",
   "worldId": "record-of-ragnarok",
   "displayName": "终末的女武神",
-  "curationStatus": "manual-initial",
+  "worldName": "终末的女武神",
+  "aliases": [
+    "Record of Ragnarok",
+    "Shuumatsu no Valkyrie",
+    "诸神黄昏"
+  ],
+  "curationStatus": "manual-expanded-r3",
+  "visibility": "public",
   "sourceRefs": [
     "src-record-of-ragnarok-001"
   ],
-  "summary": "神明审判人类存亡，女武神提出人神十三番决斗。核心是擂台式高概念单挑、神话权能与人类技艺的极限碰撞。",
+  "genre": [
+    "神话擂台战",
+    "历史英灵",
+    "高概念单挑",
+    "末日审判"
+  ],
+  "summary": "神明在人类存亡会议上决定毁灭人类，女武神长姊布伦希尔德利用诸神自尊发动十三场人神一对一最终斗争。人类斗士需借女武神的神器炼成/Völundr才有稳定伤神手段；每场战斗以招式揭示、回忆补完、观众解说和心理反转构成。",
+  "sandboxPrinciple": {
+    "defaultMode": "以瓦尔哈拉竞技场为中心的回合制决斗沙盒；玩家可扮演原作斗士、女武神策士、神明观察者、候补英灵或偏离主线的OC。",
+    "canonFlex": "源材料含OC适应法则与动态叙事连续体协议；可允许胜负、出场顺序和干预方式偏离，但必须维护神器炼成、灵魂消逝和神人阵营政治压力。",
+    "rpTone": "宏大旁白、看台群像、招式名宣告、回忆闪回与信念碰撞并行。"
+  },
+  "hasFixedFate": false,
+  "factions": [
+    {
+      "id": "gods",
+      "name": "诸神阵营",
+      "summary": "神明议会与各神系斗士。目标是执行对人类的审判并维护神权威信；内部存在希腊、北欧、印度、冥界与其他神系的竞争。",
+      "notableMembers": [
+        "zeus",
+        "thor",
+        "poseidon",
+        "heracles",
+        "shiva",
+        "zerofuku",
+        "hajun",
+        "hades",
+        "beelzebub",
+        "apollo",
+        "susanoo",
+        "loki",
+        "odin"
+      ],
+      "rpUse": "可作为对手、政治压力源、观众席解说或幕后阴谋方。"
+    },
+    {
+      "id": "humanity",
+      "name": "人类代表",
+      "summary": "从历史与传说中选出的弑神十三人。依靠技艺、意志、经验、异能和女武神搭档对抗神明。",
+      "notableMembers": [
+        "lu-bu",
+        "adam",
+        "sasaki-kojiro",
+        "jack-the-ripper",
+        "raiden-tameemon",
+        "buddha-human-side",
+        "qin-shi-huang",
+        "nikola-tesla",
+        "leonidas",
+        "okita-souji",
+        "simo-hayha",
+        "sakata-kintoki",
+        "nostradamus",
+        "rasputin"
+      ],
+      "rpUse": "适合玩家替代、并肩观战、担任候补或因OC介入改变排兵。"
+    },
+    {
+      "id": "valkyries",
+      "name": "女武神十三姊妹",
+      "summary": "布伦希尔德率领的半神姊妹。通过一莲托生与人类斗士共鸣，化为能伤神的神器；败北时常与斗士一同虚无化。",
+      "notableMembers": [
+        "brunhilde",
+        "goll",
+        "randgriz",
+        "reginleif",
+        "hrist",
+        "hlokk",
+        "thrudd",
+        "alvitr",
+        "gondul",
+        "geirolul",
+        "skalmold",
+        "raskgriz"
+      ],
+      "rpUse": "可作为契约搭档、战略指挥、情报源或战败代价的情感锚点。"
+    },
+    {
+      "id": "audience-and-arbiters",
+      "name": "瓦尔哈拉观众/裁判/议会",
+      "summary": "海姆达尔担任解说，神明与人类英灵观众席不断通过震惊、辩论和助威强化战斗意义。",
+      "notableMembers": [
+        "heimdall",
+        "hermes",
+        "ares",
+        "goll"
+      ],
+      "rpUse": "用于说明规则、制造舆论压力、插入回忆见证者。"
+    }
+  ],
   "powerSystems": [
     {
       "id": "divine-power",
       "name": "神力/神格",
       "rules": [
-        "神明具神话权能、神体耐久与专属神器",
-        "神格属性决定招式逻辑和弱点"
+        "神明拥有神话权能、神体耐久与专属神器或神技。",
+        "神格属性决定招式逻辑、骄傲弱点和回忆主题；跨神系强度不可简单外推。",
+        "高位神明可影响出场顺序、竞技场形态和场外政治。"
+      ],
+      "rpLimits": [
+        "不要把现实神话设定直接当成本作战力；以回合表现和源内设定为准。",
+        "神明失败会动摇神权并触发阵营压力。"
       ]
     },
     {
       "id": "volundr",
-      "name": "神器炼成/Völundr",
+      "name": "神器炼成/Völundr/一莲托生",
       "rules": [
-        "女武神与人类斗士灵魂共鸣化作神器",
-        "神器形态贴合人类战斗风格",
-        "共鸣失败会削弱甚至致命"
+        "女武神与人类斗士灵魂共鸣后化作神器，形态贴合斗士战斗风格。",
+        "神器是人类稳定伤及神躯的关键条件；普通武器通常不足以弑神。",
+        "共鸣失败、神器破坏或斗士败北会给女武神带来重伤、死亡或虚无化风险。",
+        "部分回合出现再神器炼成或变体，例如佐佐木小次郎与荷瑞丝特的双刀升华、释迦与零福残魂的神器莲生。"
+      ],
+      "rpLimits": [
+        "神器能力应服务斗士主题，不宜无代价万能化。",
+        "如果OC有外来武器，应先决定它是否能绕过伤神门槛；不能绕过时需寻找女武神、神造素材或特殊规则。"
       ]
     },
     {
       "id": "human-peak",
-      "name": "人类极限技艺",
+      "name": "人类极限技艺/信念突破",
       "rules": [
-        "历史英雄以武技、经验、意志、异能或策略对抗神",
-        "情绪与信念可制造突破"
+        "历史英雄以武技、经验、意志、异能、科学或策略对抗神。",
+        "回忆、观众声援与守护对象常在临界点制造突破。",
+        "代价通常是肉体崩坏、灵魂燃尽、神器损坏或不可逆损伤。"
+      ]
+    },
+    {
+      "id": "niflhel",
+      "name": "虚无化/Niflhel",
+      "rules": [
+        "在诸神黄昏战败并消散的灵魂不只是死亡，而是彻底从轮回中消失。",
+        "此规则是RP高风险情感核心，应在偏离线中保留。"
+      ]
+    },
+    {
+      "id": "dynamic-divergence",
+      "name": "动态叙事连续体",
+      "rules": [
+        "若OC干预导致回合胜负、死亡或退场不同于源内章节锚点，进入过渡态。",
+        "过渡态需要重算比分、阵营士气、下一回合人选、女武神损失和神明政治反应。",
+        "重新找到稳定锚点后可进入下一回合或生成原创缓冲剧情。"
+      ],
+      "sourceNote": "来自源内技术/控制文本，属于RP运行规则而非严格漫画正史。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "valhalla-council",
+      "name": "瓦尔哈拉议事堂/人类存亡会议",
+      "type": "political",
+      "summary": "众神审判人类存亡的会议场。布伦希尔德在此挑衅神明启动诸神黄昏。",
+      "rpUse": "适合开局、神明争执、临时更改出场顺序。"
+    },
+    {
+      "id": "valhalla-arena",
+      "name": "瓦尔哈拉竞技场/英灵殿斗技场",
+      "type": "combat-arena",
+      "summary": "十三番决斗默认场地，可由神力改造为海上擂台、伦敦街区、土俵、地狱风格、六角柱峡谷、京都街道、芬兰雪原等。",
+      "rpUse": "每回合先定义地形规则、观众可见性、障碍物与是否允许场外干预。"
+    },
+    {
+      "id": "akasha-records",
+      "name": "阿卡夏记录/候补者档案室",
+      "type": "archive",
+      "summary": "布伦希尔德选择、评估人类代表和情报的资料空间。",
+      "rpUse": "适合赛前调查、候补替换、OC背景接入。"
+    },
+    {
+      "id": "god-vip-stands",
+      "name": "神明VIP观赛区",
+      "type": "social-political",
+      "summary": "高位神明观战与评论之处；始皇帝等角色曾以入侵座位制造政治挑衅。",
+      "rpUse": "适合观众席冲突、暗杀企图、神系谈判。"
+    },
+    {
+      "id": "helheim-tartarus",
+      "name": "海姆冥界/奈洛/塔尔塔罗斯",
+      "type": "underworld",
+      "summary": "冥界、禁忌实验和齐格弗里德囚禁相关区域。源内后段将其与奥丁、原初神阴谋连接。",
+      "rpUse": "适合赛间调查、救援、幕后副本。",
+      "confidence": "low-for-main-canon"
+    }
+  ],
+  "combatRules": [
+    "默认一对一擂台决胜，裁判/解说由海姆达尔承担。",
+    "神器炼成是人类伤神的关键条件；若无神器，需给出等价代价或源内理由。",
+    "竞技场可为回合主题重构；地形应影响战术，例如伦敦可被杰克武器化，土俵强调相扑，雪原强调狙击与隐蔽。",
+    "胜负不只改变比分，也改变神明傲慢、人类士气、布伦希尔德可用姊妹和候补名单。",
+    "战斗叙事节奏：入场宣告 -> 试探 -> 招式/神器揭示 -> 回忆解释 -> 反转 -> 最终奥义 -> 胜负与观众反应。",
+    "战败通常意味着斗士与其神器搭档虚无化；存活、平局或救援都应被视为重大偏离并记录。"
+  ],
+  "roundTimeline": [
+    {
+      "round": 0,
+      "title": "人类存亡会议与诸神黄昏启动",
+      "humanSide": "布伦希尔德/女武神阵营",
+      "godSide": "众神议会",
+      "arena": "瓦尔哈拉议事堂",
+      "status": "prelude",
+      "outcome": "布伦希尔德挑衅众神同意十三场最终斗争。",
+      "sourceEntries": [
+        2
+      ]
+    },
+    {
+      "round": 1,
+      "title": "天神与飞将",
+      "humanSide": "吕布奉先",
+      "godSide": "索尔",
+      "valkyrie": "兰蒂格瑞丝/Randgriz",
+      "volundrForm": "方天画戟",
+      "arena": "瓦尔哈拉竞技场",
+      "keyBeats": [
+        "妙尔尼尔觉醒",
+        "吕布双腿粉碎后借赤兔马再起",
+        "天喰/天食对葛瑞德"
+      ],
+      "outcome": "索尔胜；吕布与兰蒂格瑞丝虚无化。",
+      "scoreAfter": "神 1 : 人 0",
+      "confidence": "B",
+      "sourceEntries": [
+        2,
+        3
+      ]
+    },
+    {
+      "round": 2,
+      "title": "父之意志",
+      "humanSide": "亚当",
+      "godSide": "宙斯",
+      "valkyrie": "瑞吉蕾芙/Reginleif",
+      "volundrForm": "手指虎",
+      "arena": "瓦尔哈拉竞技场/伊甸园回忆",
+      "keyBeats": [
+        "宙斯强行替换湿婆出战",
+        "亚当以神虚视复制神技",
+        "阿达玛斯形态与超负荷"
+      ],
+      "outcome": "宙斯胜；亚当站立而死，瑞吉蕾芙战死。",
+      "scoreAfter": "神 2 : 人 0",
+      "confidence": "B",
+      "sourceEntries": [
+        3,
+        4
+      ]
+    },
+    {
+      "round": 3,
+      "title": "大海暴君与最强败者",
+      "humanSide": "佐佐木小次郎",
+      "godSide": "波赛顿",
+      "valkyrie": "荷瑞丝特/Hrist",
+      "volundrForm": "备前长光三尺余寸，后升华为双刀",
+      "arena": "环海/水上竞技场",
+      "keyBeats": [
+        "千手无双模拟死亡",
+        "波赛顿傲慢与阿达玛斯叛乱回忆",
+        "Re-Völundr双刀流"
+      ],
+      "outcome": "佐佐木小次郎胜；人类取得首胜，波赛顿陨落。",
+      "scoreAfter": "神 2 : 人 1",
+      "confidence": "B",
+      "sourceEntries": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "round": 4,
+      "title": "霧都恶魔与正义半神",
+      "humanSide": "开膛手杰克",
+      "godSide": "海克力斯",
+      "valkyrie": "赫萝克/Hlokk",
+      "volundrForm": "手套，可将触碰物化为神器",
+      "arena": "1888年伦敦模拟战场",
+      "keyBeats": [
+        "伦敦街区陷阱战",
+        "杰克情感色彩之眼",
+        "海克力斯第十二试炼刻耳柏洛斯"
+      ],
+      "outcome": "杰克胜；海克力斯战死，人类阵营承受胜者卑劣争议。",
+      "scoreAfter": "神 2 : 人 2",
+      "confidence": "B",
+      "sourceEntries": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "round": 5,
+      "title": "相扑与破坏之舞",
+      "humanSide": "雷电为右卫门",
+      "godSide": "湿婆",
+      "valkyrie": "斯露德/Thrudd",
+      "volundrForm": "超筋外骨缔廻",
+      "arena": "土俵形态竞技场",
+      "keyBeats": [
+        "雷电解除百闭肌肉束缚",
+        "湿婆回忆与楼陀罗攀登印度顶点",
+        "轮回舞踏/提婆天落对八咫乌"
+      ],
+      "outcome": "湿婆胜；雷电与斯露德虚无化。",
+      "scoreAfter": "神 3 : 人 2",
+      "confidence": "B",
+      "sourceEntries": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "round": 6,
+      "title": "唯我独尊与零之救赎",
+      "humanSide": "释迦（从神方倒戈）",
+      "godSide": "零福，后为波旬",
+      "valkyrie": "无常规女武神；与零福残魂发生神器莲生",
+      "volundrForm": "六道棍/大罪镰/零福残魂之神器莲生",
+      "arena": "瓦尔哈拉竞技场",
+      "keyBeats": [
+        "释迦临阵代表人类",
+        "七福神合体为零福",
+        "别西卜种子唤出第六天魔王波旬",
+        "释迦与零福残魂达成一莲托生"
+      ],
+      "outcome": "释迦胜；比分三平。",
+      "scoreAfter": "神 3 : 人 3",
+      "confidence": "B",
+      "sourceEntries": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "round": 7,
+      "title": "王对王",
+      "humanSide": "始皇帝",
+      "godSide": "黑帝斯/哈迪斯",
+      "valkyrie": "亚尔薇特/Alvitr",
+      "volundrForm": "神罗铠袖",
+      "arena": "地狱气息与骷髅石柱竞技场",
+      "keyBeats": [
+        "始皇帝侵占神明VIP座位",
+        "蚩尤五式与气穴之眼",
+        "哈迪斯为波赛顿复仇并以血强化武器"
+      ],
+      "outcome": "始皇帝胜；哈迪斯陨落。",
+      "scoreAfter": "神 3 : 人 4",
+      "confidence": "B",
+      "sourceEntries": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "round": 8,
+      "title": "科学之灯与冥界之暗",
+      "humanSide": "尼古拉·特斯拉",
+      "godSide": "别西卜",
+      "valkyrie": "格恩达尔/Gondul",
+      "volundrForm": "超人自动机械β",
+      "arena": "六角柱峡谷/盖马特里亚禁区",
+      "keyBeats": [
+        "特斯拉构建Gematria Zone",
+        "别西卜振动能力帕尔米拉与虚数解放·混沌",
+        "特斯拉以科学进步信念燃尽"
+      ],
+      "outcome": "别西卜胜；比分再次持平。",
+      "scoreAfter": "神 4 : 人 4",
+      "confidence": "B",
+      "sourceEntries": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "round": 9,
+      "title": "太阳与盾",
+      "humanSide": "列奥尼达一世",
+      "godSide": "阿波罗",
+      "valkyrie": "洁萝露尔/Geirolul",
+      "volundrForm": "锁链盾牌",
+      "arena": "瓦尔哈拉竞技场",
+      "keyBeats": [
+        "斯巴达叛逆意志对太阳神华丽格斗",
+        "阿提米丝之线与阿提米丝之月光金弓",
+        "列奥尼达反弹神箭后的最后一击"
+      ],
+      "outcome": "阿波罗胜；神明暂时领先。",
+      "scoreAfter": "神 5 : 人 4",
+      "confidence": "B",
+      "sourceEntries": [
+        21,
+        22
+      ]
+    },
+    {
+      "round": 10,
+      "title": "剑之极意",
+      "humanSide": "冲田总司",
+      "godSide": "素戔呜尊",
+      "valkyrie": "诗嘉茉尔德/斯嘉茉尔德/Skalmöld",
+      "volundrForm": "菊一文字；剑之时支援",
+      "arena": "京都幕末/池田屋风格竞技场",
+      "keyBeats": [
+        "冲田以鬼子体质提高心率",
+        "素戔呜尊以鬼斩天丛云展现剑术之始祖技艺",
+        "斯嘉茉尔德以剑之时浓缩剑技可能性"
+      ],
+      "outcome": "源内写作包称冲田胜且存活但丧失鬼子疯狂；需视作源内设定，连载/正史同步待核。",
+      "scoreAfter": "神 5 : 人 5（按源内写作包）",
+      "confidence": "low-for-main-canon",
+      "sourceEntries": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "round": 11,
+      "title": "白色死神与诡计之神",
+      "humanSide": "席摩·海赫",
+      "godSide": "洛基",
+      "valkyrie": "拉丝格瑞丝/Raskgriz（源内列表称与席摩搭档，神器形态未稳定归档）",
+      "volundrForm": "狙击/子弹相关能力，具体形态低置信",
+      "arena": "芬兰雪原森林",
+      "keyBeats": [
+        "洛基以安德华拉诺特和幻影大军围剿",
+        "席摩以狙击、生命感知和极致直觉反制",
+        "源内写作包给出7.49秒决胜"
+      ],
+      "outcome": "源内写作包称席摩胜、洛基消逝；需标记为低置信/可能为续写包。",
+      "scoreAfter": "人类关键第六胜（按源内写作包）",
+      "confidence": "low",
+      "sourceEntries": [
+        26,
+        27
+      ]
+    },
+    {
+      "round": 12,
+      "title": "原初神话余波",
+      "humanSide": "坂田金时",
+      "godSide": "奥丁或原初神相关势力（源内指向但未完整定案）",
+      "valkyrie": "未稳定归档",
+      "volundrForm": "未稳定归档",
+      "arena": "瓦尔哈拉/原初神阴谋相关战场",
+      "keyBeats": [
+        "金时展现神性与格尔尼尔意志",
+        "奥丁、齐格弗里德、原初四至柱阴谋浮现",
+        "原始诸神黄昏和格莱普尼尔等设定展开"
+      ],
+      "outcome": "未定；源内仅见剧情包开端。",
+      "scoreAfter": "未定",
+      "confidence": "low",
+      "sourceEntries": [
+        28
       ]
     }
   ],
-  "factions": [
-    "诸神阵营",
-    "人类代表",
-    "女武神十三姊妹",
-    "瓦尔哈拉观众/议会"
+  "plotArcs": [
+    {
+      "id": "arc-opening-despair",
+      "name": "开幕两连败与人类意志觉醒",
+      "rounds": [
+        0,
+        1,
+        2
+      ],
+      "summary": "布伦希尔德启动诸神黄昏，但吕布和亚当相继败北；人类虽处绝望，反抗神明的意志被点燃。"
+    },
+    {
+      "id": "arc-human-counterattack",
+      "name": "凡技、恶意与肉体极限的反攻",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "summary": "佐佐木赢得首胜，杰克用伦敦陷阱击杀海克力斯，随后雷电败给湿婆；比分与道德压力交替推进。"
+    },
+    {
+      "id": "arc-betrayal-and-kings",
+      "name": "释迦倒戈与王道决战",
+      "rounds": [
+        6,
+        7
+      ],
+      "summary": "释迦代表人类并击败零福/波旬，哈迪斯为复仇参战，始皇帝以王道击败冥王。"
+    },
+    {
+      "id": "arc-science-sun-sword",
+      "name": "科学、太阳与剑之极意",
+      "rounds": [
+        8,
+        9,
+        10
+      ],
+      "summary": "特斯拉以科学挑战别西卜但败北，列奥尼达败给阿波罗，冲田与素戔呜尊的剑道回合在源内续写包中拉回平局。"
+    },
+    {
+      "id": "arc-odin-primal-shadow",
+      "name": "奥丁与原初神阴影",
+      "rounds": [
+        10,
+        11,
+        12
+      ],
+      "summary": "诺斯特拉达穆斯、格蕾、齐格弗里德和奥丁阴谋将赛制外危机推向原初神复活线；源内材料低置信。"
+    }
   ],
-  "locations": [
-    "瓦尔哈拉竞技场",
-    "神明议会",
-    "各回合特设擂台"
+  "rpHooks": [
+    {
+      "id": "hook-replace-a-fighter",
+      "title": "第十四名候补/替换出战",
+      "prompt": "玩家OC被布伦希尔德发现足以替代某名斗士，但对应女武神是否愿意一莲托生仍需在赛前证明。",
+      "bestUsedWith": [
+        "akasha-records",
+        "volundr",
+        "dynamic-divergence"
+      ]
+    },
+    {
+      "id": "hook-valkyrie-contract",
+      "title": "神器共鸣试炼",
+      "prompt": "战前，某位女武神拒绝与斗士共鸣；玩家需通过回忆、誓言或试战找出神器形态。",
+      "bestUsedWith": [
+        "valkyries",
+        "volundr"
+      ]
+    },
+    {
+      "id": "hook-arena-sabotage",
+      "title": "竞技场地形被暗改",
+      "prompt": "神明阵营或人类方暗中操纵场地，导致伦敦、土俵、雪原等规则出现漏洞。海姆达尔是否宣布有效将决定政治后果。",
+      "bestUsedWith": [
+        "valhalla-arena",
+        "audience-and-arbiters"
+      ]
+    },
+    {
+      "id": "hook-underworld-investigation",
+      "title": "奈洛救援与奥丁阴谋",
+      "prompt": "赛间，格蕾或玩家发现齐格弗里德囚禁与原初神复活计划线索，需要在不打断下一回合的情况下潜入冥界。",
+      "bestUsedWith": [
+        "helheim-tartarus",
+        "arc-odin-primal-shadow"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "hook-witness-stand",
+      "title": "观众席见证者",
+      "prompt": "玩家不是斗士，而是某名斗士生前的友人、弟子、神系使者或历史仇敌；通过回忆和助威影响临界突破。",
+      "bestUsedWith": [
+        "god-vip-stands",
+        "human-peak"
+      ]
+    }
   ],
-  "combatRules": [
-    "以一对一擂台决胜为默认框架。",
-    "神器炼成是人类伤神的关键条件。",
-    "战斗叙事重视招式揭示、回忆补完和心理反转。"
+  "publicEvents": [
+    "众神投票决定毁灭人类。",
+    "诸神黄昏十三场决斗被启动。",
+    "前九回合在源内材料中形成神5:人4。",
+    "源内写作包继续至第十至十二回合，但后段需低置信处理。"
   ],
-  "visibility": "public",
-  "worldName": "终末的女武神",
-  "aliases": [],
-  "genre": [],
-  "sandboxPrinciple": {},
-  "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
-  "notes": [],
-  "energyEnvironment": {},
-  "worldRules": {},
-  "publicEvents": [],
-  "hiddenEvents": []
+  "hiddenEvents": [
+    "别西卜实验与波旬复活。",
+    "奥丁、齐格弗里德、原初四至柱相关阴谋。",
+    "动态叙事连续体协议可在OC偏离时重算主线。"
+  ],
+  "lowConfidenceNotes": [
+    "主来源为用户导入角色卡/世界书，可靠度B；其中部分后段回合、OC适应法则和技术协议更像RP写作包，不应直接声明为漫画正史。",
+    "第十回合之后的胜负、女武神搭档与神器形态需在正式使用前再次核对连载/用户指定版本。",
+    "源内未分类5条为空内容，未提供可吸收设定。",
+    "角色中文译名存在繁简/异译：黑帝斯/哈迪斯、诗嘉茉尔德/斯嘉茉尔德等需在会话中统一。"
+  ],
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "note": "源内允许OC与外来强者介入，但为保持戏剧性，应通过神器门槛、赛制政治和灵魂代价约束。"
+  },
+  "energyEnvironment": {
+    "default": "神力充盈的瓦尔哈拉；竞技场可按回合主题重构。",
+    "hazards": [
+      "神明观众席政治压力",
+      "神器共鸣失败",
+      "败北虚无化",
+      "场外神系干预"
+    ]
+  },
+  "worldRules": {
+    "ragnarokFormat": "十三名神明对十三名人类，一对一决斗决定人类存亡。",
+    "victoryImpact": "每回合胜负会改变比分、士气、下一位斗士选择和神明议会态度。",
+    "deathImpact": "战败者常进入Niflhel式虚无化；女武神搭档也会承担同等风险。"
+  },
+  "notes": [
+    "本curated版本面向RP快速调用，不替代campaigns原始归档。",
+    "不要修改campaigns源文件或raw文件；详源见curated/source-index.md与source-registry.json。"
+  ]
 }

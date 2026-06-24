@@ -1,0 +1,74 @@
+{
+  "schema": "rp-timeline-extension-v1",
+  "worldId": "hidan-no-aria",
+  "sourceRefs": [
+    "src-hidan-no-aria-001"
+  ],
+  "curationConfidence": "C",
+  "events": [
+    {
+      "id": "butei-system",
+      "order": 1,
+      "name": "武侦制度常态化",
+      "summary": "国家认证武装侦探处理警力难以覆盖的案件，东京武侦高成为核心舞台。",
+      "confidence": "C"
+    },
+    {
+      "id": "kinji-aria-pair",
+      "order": 2,
+      "name": "金次与亚里亚搭档",
+      "summary": "强袭科与福尔摩斯血脉少女结成战斗组合，校园任务转入跨国阴谋。",
+      "confidence": "C"
+    },
+    {
+      "id": "riko-vlad-red-mansion",
+      "order": 2.5,
+      "name": "理子归来与弗拉德红鸣馆事件",
+      "summary": "理子利用金一线索引导金次/亚里亚潜入红鸣馆，最终在横滨陆标塔击败弗拉德。",
+      "confidence": "C"
+    },
+    {
+      "id": "kinichi-kana-reveal",
+      "order": 2.8,
+      "name": "金一/加奈谜团浮现",
+      "summary": "本应死亡的兄长以加奈身份出现并提出刺杀亚里亚的邀约，远山家主线加深。",
+      "confidence": "C"
+    },
+    {
+      "id": "iu-conflict",
+      "order": 3,
+      "name": "伊・幽冲突",
+      "summary": "旧地下秩序与超常犯罪组织牵动远山家、神崎家和各国后裔。",
+      "confidence": "C"
+    },
+    {
+      "id": "post-iu-few",
+      "order": 4,
+      "name": "伊・幽瓦解与极东战役",
+      "summary": "权力真空中师团与眷属对立，冲突规模从校园扩展为全球代理战。",
+      "confidence": "C"
+    },
+    {
+      "id": "lactea-engage",
+      "order": 5,
+      "name": "莱克忒亚接轨危机",
+      "summary": "色金、N 组织和异世界融合成为后期高危扩展；源分类置信度 C。",
+      "confidence": "C"
+    },
+    {
+      "id": "london-royal-butei",
+      "order": 5.4,
+      "name": "伦敦王室武侦与色金调查",
+      "summary": "金次在伦敦接触华生、梅露爱特与 MI6，亚里亚获得王室 R 级武侦身份，色金线推进。",
+      "confidence": "C"
+    },
+    {
+      "id": "nautilus-n-lactea",
+      "order": 5.8,
+      "name": "N、鹦鹉螺号与莱克忒亚接轨",
+      "summary": "尼莫、N、莱克忒亚公会和异世界接轨把武侦案件升级为世界线危机。",
+      "confidence": "C"
+    }
+  ],
+  "notes": "源条目多为 C 置信；本文件只压缩可重复出现的制度、阵营和后期危机节点。 已补入弗拉德红鸣馆、金一/加奈、伦敦王室武侦和 N/莱克忒亚后期线，均按 C 置信处理。"
+}

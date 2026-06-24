@@ -1,0 +1,189 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cross-ange",
+  "module": "power-systems/mana-norma-dragon-ragnamail",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cross-ange-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cross-ange/world/world.json",
+    "campaigns/world-library/worlds/cross-ange/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/cross-ange/power-systems/abilities.json",
+    "campaigns/world-library/worlds/cross-ange/assets/items.json",
+    "campaigns/world-library/worlds/cross-ange/species/species.json"
+  ],
+  "curationPolicy": "补足 Cross Ange 审计中的机体/能量系统细节；按世界总纲与世界知识条目归纳，避免复制完整世界书。",
+  "systems": [
+    {
+      "id": "mana",
+      "name": "玛那 / Mana",
+      "type": "information-energy-system",
+      "visibility": "public-with-gm-truth",
+      "publicSummary": "玛那社会将其视为万能情报能量系统，使用者凭意志干涉物理、共享信息，维持无战争无贫困的乌托邦表象。",
+      "gmTruth": "玛那能量来自被囚禁的龙族始祖奥拉，其体内鑨元素被恩布利欧持续抽取。",
+      "limits": [
+        "龙鸣会扰乱玛那使用者精神。",
+        "玛那使用者依赖社会基础设施与集成系统，失去玛那后容易失序。",
+        "诺玛无法使用玛那，也不受龙鸣影响。"
+      ],
+      "rpUse": "用于社会控制、歧视制度、城市便利和真相揭露的反差。",
+      "confidence": "B"
+    },
+    {
+      "id": "norma-factor",
+      "name": "诺玛因子",
+      "type": "genetic-social-class",
+      "visibility": "public-with-gm-truth",
+      "publicSummary": "诺玛是无法使用玛那的女性，被玛那社会注销姓名并送往阿尔泽纳尔。",
+      "gmTruth": "源称诺玛拥有反抗恩布利欧世界秩序的潜力，是古老基因因子。",
+      "limits": [
+        "主要表现为女性个体。",
+        "社会层面被非人化，不等于生理弱小。",
+        "不受龙鸣影响，因此成为 Para-mail 驾驶员核心。"
+      ],
+      "rpUse": "身份剥夺、军队消耗品、从自我否定到反抗的成长线。",
+      "confidence": "B"
+    },
+    {
+      "id": "dragon-and-dracunium",
+      "name": "DRAGON / 鑨元素",
+      "type": "species-energy-source",
+      "visibility": "gm-only-until-truth-revealed",
+      "publicSummary": "玛那世界初期将 DRAGON 视为通过特异点侵入的巨大攻击性生物。",
+      "gmTruth": "DRAGON 是原始地球人类为适应污染环境而基因转化后的形态；大型龙对应男性且多不可逆，女性可在人形与小型龙间转换；体内鑨结晶被阿尔泽纳尔回收以补充玛那能源。",
+      "limits": [
+        "通过特异点出现。",
+        "龙鸣干扰玛那使用者但对诺玛无效。",
+        "龙族并非单纯怪物，真相揭露后可成为盟友。"
+      ],
+      "rpUse": "从猎龙任务转向真相、同盟和夺回奥拉的政治转折。",
+      "confidence": "B"
+    },
+    {
+      "id": "para-mail",
+      "name": "Para-mail",
+      "type": "variable-mobile-weapon",
+      "visibility": "public",
+      "publicSummary": "诺玛驾驶的可变人型机动兵器，拥有飞行/战斗机形态与人型驱逐形态；驾驶舱为骑乘式设计。",
+      "knownModels": [
+        "Grave",
+        "Arquebus",
+        "Howitzer",
+        "Razor"
+      ],
+      "limits": [
+        "仅诺玛可稳定驾驶。",
+        "量产机性能有限，战死率高。",
+        "战斗需记录机动、残弹、装甲和撤退窗口。"
+      ],
+      "rpUse": "阿尔泽纳尔日常训练、对龙出击、队伍分工和牺牲风险。",
+      "confidence": "B"
+    },
+    {
+      "id": "ragna-mail",
+      "name": "Ragna-mail / 黄昏机铠",
+      "type": "ancient-superweapon",
+      "visibility": "gm-only-until-revealed",
+      "publicSummary": "少数高阶机体被视为神之兵器，具备超越 Para-mail 的机动和次元兵器能力。",
+      "gmTruth": "源称七台 Ragna-mail 是 538 年前第七次世界大战的绝对兵器，可咏唱永遠語り启动收敛时空炮。",
+      "knownUnits": [
+        {
+          "id": "hysterica",
+          "name": "Hysterica",
+          "color": "紫/黑底",
+          "pilot": "embryo",
+          "confidence": "B"
+        },
+        {
+          "id": "cleopatra",
+          "name": "Cleopatra",
+          "color": "蓝/黑底",
+          "pilot": "salia",
+          "confidence": "B"
+        },
+        {
+          "id": "raisia",
+          "name": "Raisia",
+          "color": "橙/黑底",
+          "pilot": "ersha-to-jill",
+          "confidence": "C"
+        },
+        {
+          "id": "theodora",
+          "name": "Theodora",
+          "color": "绿/黑底",
+          "pilot": "chris-to-hilda",
+          "confidence": "C"
+        },
+        {
+          "id": "victoria",
+          "name": "Victoria",
+          "color": "粉红/黑底",
+          "pilot": "tanya",
+          "confidence": "B"
+        },
+        {
+          "id": "eirene",
+          "name": "Eirene",
+          "color": "黄/黑底",
+          "pilot": "irma",
+          "confidence": "B"
+        },
+        {
+          "id": "villkiss",
+          "name": "Villkiss",
+          "color": "白",
+          "pilot": "ange",
+          "activation": "皇家指轮 + 血统/适格性 + 歌",
+          "confidence": "B"
+        }
+      ],
+      "limits": [
+        "收敛时空炮、时空跳跃和模式切换应锁定剧情节点。",
+        "Villkiss 启动需指轮、适格性和歌等条件，不应被普通驾驶员无代价使用。",
+        "七台驾驶者转移仍需逐项核对，低置信条目以 C 标注。"
+      ],
+      "rpUse": "中后期真相、恩布利欧亲卫战、最终战和机体继承。",
+      "confidence": "B"
+    },
+    {
+      "id": "dragon-god-machines",
+      "name": "龙神器",
+      "type": "dragon-made-ragna-derivative",
+      "visibility": "gm-only-until-dragon-arc",
+      "publicSummary": "龙族仿制 Ragna-mail 的机动兵器，驾驶舱封闭坐卧式，推力更高，界面使用汉字。",
+      "knownUnits": [
+        {
+          "id": "enryugo",
+          "name": "焰龙号",
+          "pilot": "salamandinay",
+          "role": "红色主力/收敛时空炮"
+        },
+        {
+          "id": "soryugo",
+          "name": "苍龙号",
+          "pilot": "naga",
+          "role": "蓝色高机动"
+        },
+        {
+          "id": "hekiryuugo",
+          "name": "碧龙号",
+          "pilot": "kaname",
+          "role": "绿色重动力/参谋机"
+        }
+      ],
+      "limits": [
+        "应在萨拉曼蒂妮/龙族真相线后开放。",
+        "性能高但不代表无敌，仍受驾驶员、战术和剧情目标限制。"
+      ],
+      "rpUse": "龙族与诺玛从敌对转为并肩作战的标志。",
+      "confidence": "B"
+    }
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "七台 Ragna-mail 的驾驶者转移源内有箭头记录，但 curation-notes 已列为待逐项核对；本模块对转移项使用 C。",
+    "诺玛繁衍/反抗恩布利欧秩序的表述来自源总纲，属于世界真相层，不建议作为公开开局信息。",
+    "源中包含成人化和玩家模式守卫，本模块未采用为世界事实。"
+  ]
+}

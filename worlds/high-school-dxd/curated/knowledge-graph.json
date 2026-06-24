@@ -1,1 +1,331 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-high-school-dxd","cardId":"high-school-dxd","nodes":[{"id":"kg-sacred-gear","type":"power-system","title":"神器与神灭具","aliases":[],"visibility":"public","summary":"寄宿在人类灵魂中的特殊能力。","fullText":"神灭具是神器中足以威胁神魔平衡的高阶个体。","tags":["power"],"importance":"critical","source":{"kind":"worldbook","ref":"src-dxd-classification-report"},"revealConditions":[],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-three-factions","type":"faction","title":"三大势力","aliases":[],"visibility":"private","summary":"恶魔、天使、堕天使的传统冲突与和平框架。","fullText":"和平会谈可改变超自然世界格局。","tags":["faction"],"importance":"critical","source":{"kind":"worldbook","ref":"src-dxd-import-readme"},"revealConditions":["接触超自然社会"],"evidenceLevel":"A","contradictedBy":[],"metadata":{}},{"id":"kg-dimensional-gap","type":"location","title":"次元间隙","aliases":[],"visibility":"gm-only","summary":"各世界夹缝，奥菲斯与伟大之赤相关。","fullText":"极高危险区域。","tags":["location","dragon"],"importance":"high","source":{"kind":"worldbook","ref":"src-dxd-world-map-sample"},"revealConditions":["高阶龙神线"],"evidenceLevel":"B","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-1","from":"kg-sacred-gear","to":"kg-three-factions","type":"supports","visibility":"private","strength":{"level":"A","score":80,"description":"神器宿主是各势力争夺资源。"},"description":"神器影响三大势力均衡。","gmNotes":""},{"id":"kg-edge-2","from":"kg-dimensional-gap","to":"kg-three-factions","type":"hides","visibility":"gm-only","strength":{"level":"B","score":60,"description":"次元间隙存在超越普通阵营的威胁。"},"description":"龙神线高于常规势力政治。","gmNotes":""}],"indices":{"byVisibility":{"public":["kg-sacred-gear"],"private":["kg-three-factions"],"gm-only":["kg-dimensional-gap"]},"byType":{"power-system":["kg-sacred-gear"],"faction":["kg-three-factions"],"location":["kg-dimensional-gap"]},"byTag":{"power":["kg-sacred-gear"],"faction":["kg-three-factions"],"dragon":["kg-dimensional-gap"]},"activeClues":[],"lockedSecrets":["kg-dimensional-gap"]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-high-school-dxd",
+  "cardId": "high-school-dxd",
+  "nodes": [
+    {
+      "id": "kg-sacred-gear",
+      "type": "power-system",
+      "title": "神器与神灭具",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "寄宿在人类灵魂中的特殊能力。",
+      "fullText": "神灭具是神器中足以威胁神魔平衡的高阶个体。",
+      "tags": [
+        "power"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-dxd-classification-report"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-three-factions",
+      "type": "faction",
+      "title": "三大势力",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "恶魔、天使、堕天使的传统冲突与和平框架。",
+      "fullText": "和平会谈可改变超自然世界格局。",
+      "tags": [
+        "faction"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-dxd-import-readme"
+      },
+      "revealConditions": [
+        "接触超自然社会"
+      ],
+      "evidenceLevel": "A",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-dimensional-gap",
+      "type": "location",
+      "title": "次元间隙",
+      "aliases": [],
+      "visibility": "gm-only",
+      "summary": "各世界夹缝，奥菲斯与伟大之赤相关。",
+      "fullText": "极高危险区域。",
+      "tags": [
+        "location",
+        "dragon"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-dxd-world-map-sample"
+      },
+      "revealConditions": [
+        "高阶龙神线"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-devil-piece",
+      "type": "power-system",
+      "title": "恶魔棋子与眷族",
+      "aliases": [
+        "转生恶魔"
+      ],
+      "visibility": "public",
+      "summary": "上级恶魔通过棋子转生眷属并形成团队战斗结构。",
+      "fullText": "棋子定位影响能力成长、主从契约和排名游戏编组。",
+      "tags": [
+        "power",
+        "devil",
+        "peerage"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-high-school-dxd-001"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-dragon-power",
+      "type": "power-system",
+      "title": "二天龙与龙神",
+      "aliases": [
+        "赤龙帝",
+        "白龙皇",
+        "奥菲斯",
+        "伟大之赤"
+      ],
+      "visibility": "private",
+      "summary": "龙系力量跨度极大，从神器内龙魂到龙神级存在。",
+      "fullText": "一诚/瓦利宿敌结构与奥菲斯、伟大之赤后期线共同构成龙神尺度。",
+      "tags": [
+        "power",
+        "dragon"
+      ],
+      "importance": "critical",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-high-school-dxd-001"
+      },
+      "revealConditions": [
+        "接触赤龙帝或白龙皇真相"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-khaos-brigade",
+      "type": "faction",
+      "title": "祸之团",
+      "aliases": [
+        "Khaos Brigade",
+        "旧魔王派",
+        "英雄派"
+      ],
+      "visibility": "private",
+      "summary": "以奥菲斯名义集结的跨神话恐怖网络。",
+      "fullText": "旧魔王派、瓦利队、英雄派等分支目标不同，不能视为铁板一块。",
+      "tags": [
+        "faction",
+        "terror",
+        "mythology"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-high-school-dxd-001"
+      },
+      "revealConditions": [
+        "三大势力和平会谈后"
+      ],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    },
+    {
+      "id": "kg-rating-game",
+      "type": "system",
+      "title": "排名游戏",
+      "aliases": [
+        "Rating Game"
+      ],
+      "visibility": "public",
+      "summary": "恶魔贵族规则化团队战与政治评价机制。",
+      "fullText": "规则战、转播、裁判、棋子配置和场地条件会改变胜负，不等同无规则死斗。",
+      "tags": [
+        "combat",
+        "politics",
+        "devil"
+      ],
+      "importance": "high",
+      "source": {
+        "kind": "worldbook",
+        "ref": "src-high-school-dxd-001"
+      },
+      "revealConditions": [],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "kg-edge-1",
+      "from": "kg-sacred-gear",
+      "to": "kg-three-factions",
+      "type": "supports",
+      "visibility": "private",
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "神器宿主是各势力争夺资源。"
+      },
+      "description": "神器影响三大势力均衡。",
+      "gmNotes": ""
+    },
+    {
+      "id": "kg-edge-2",
+      "from": "kg-dimensional-gap",
+      "to": "kg-three-factions",
+      "type": "hides",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "B",
+        "score": 60,
+        "description": "次元间隙存在超越普通阵营的威胁。"
+      },
+      "description": "龙神线高于常规势力政治。",
+      "gmNotes": ""
+    },
+    {
+      "id": "kg-edge-devil-rating",
+      "from": "kg-devil-piece",
+      "to": "kg-rating-game",
+      "type": "enables",
+      "visibility": "public",
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "棋子定位和眷族编组是排名游戏基础。"
+      },
+      "description": "恶魔棋子体系支撑排名游戏。",
+      "gmNotes": ""
+    },
+    {
+      "id": "kg-edge-dragon-sacred",
+      "from": "kg-dragon-power",
+      "to": "kg-sacred-gear",
+      "type": "inhabits",
+      "visibility": "private",
+      "strength": {
+        "level": "A",
+        "score": 90,
+        "description": "二天龙力量通过神灭具寄宿在宿主体内。"
+      },
+      "description": "赤龙帝/白龙皇通过神器进入人界冲突。",
+      "gmNotes": "避免开局泄露全部龙神真相。"
+    },
+    {
+      "id": "kg-edge-khaos-ophis-gap",
+      "from": "kg-khaos-brigade",
+      "to": "kg-dimensional-gap",
+      "type": "exploits",
+      "visibility": "gm-only",
+      "strength": {
+        "level": "B",
+        "score": 70,
+        "description": "祸之团利用奥菲斯名义和次元间隙资源。"
+      },
+      "description": "祸之团把常规三大势力冲突升级到龙神线。",
+      "gmNotes": ""
+    }
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": [
+        "kg-sacred-gear",
+        "kg-devil-piece",
+        "kg-rating-game"
+      ],
+      "private": [
+        "kg-three-factions",
+        "kg-dragon-power",
+        "kg-khaos-brigade"
+      ],
+      "gm-only": [
+        "kg-dimensional-gap"
+      ]
+    },
+    "byType": {
+      "power-system": [
+        "kg-sacred-gear",
+        "kg-devil-piece",
+        "kg-dragon-power"
+      ],
+      "faction": [
+        "kg-three-factions",
+        "kg-khaos-brigade"
+      ],
+      "location": [
+        "kg-dimensional-gap"
+      ],
+      "system": [
+        "kg-rating-game"
+      ]
+    },
+    "byTag": {
+      "power": [
+        "kg-sacred-gear",
+        "kg-devil-piece",
+        "kg-dragon-power"
+      ],
+      "faction": [
+        "kg-three-factions",
+        "kg-khaos-brigade"
+      ],
+      "location": [
+        "kg-dimensional-gap"
+      ],
+      "dragon": [
+        "kg-dimensional-gap",
+        "kg-dragon-power"
+      ],
+      "devil": [
+        "kg-devil-piece",
+        "kg-rating-game"
+      ],
+      "peerage": [
+        "kg-devil-piece"
+      ],
+      "terror": [
+        "kg-khaos-brigade"
+      ],
+      "mythology": [
+        "kg-khaos-brigade"
+      ],
+      "combat": [
+        "kg-rating-game"
+      ],
+      "politics": [
+        "kg-rating-game"
+      ]
+    },
+    "activeClues": [],
+    "lockedSecrets": [
+      "kg-dimensional-gap",
+      "kg-khaos-brigade"
+    ]
+  }
+}

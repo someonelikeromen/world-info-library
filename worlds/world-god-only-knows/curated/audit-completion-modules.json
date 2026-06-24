@@ -1,0 +1,471 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "world-god-only-knows",
+  "completionPass": "complete-14",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/world-god-only-knows/characters/characters.json",
+    "campaigns/world-library/worlds/world-god-only-knows/factions/factions.json",
+    "campaigns/world-library/worlds/world-god-only-knows/locations/locations.json",
+    "campaigns/world-library/worlds/world-god-only-knows/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/world-god-only-knows/canon-reference/arcs.json"
+  ],
+  "coverageNote": "既有 curated 已收录主要攻略对象、恶魔、敌对势力和女神线关键人物；本模块补足女神宿主映射、篇章/时间线、驱魂机制、地点与 RP 操作边界。",
+  "characters": {
+    "captureCore": [
+      {
+        "id": "keima",
+        "name": "桂木桂马",
+        "role": "攻略之神/契约者",
+        "rpUse": "策略推理、攻略指挥、现实情感修正。"
+      },
+      {
+        "id": "elsie",
+        "name": "艾鲁西",
+        "role": "恶魔搭档",
+        "rpUse": "任务触发、羽衣支援、喜剧日常。"
+      },
+      {
+        "id": "haqua",
+        "name": "哈克雅",
+        "role": "优秀驱魂队员",
+        "rpUse": "专业调查、内部纪律、危机处理。"
+      }
+    ],
+    "majorTargets": [
+      "高原步美",
+      "青山美生",
+      "中川花音",
+      "汐宫栞",
+      "春日楠",
+      "小阪千寻",
+      "长濑纯",
+      "九条月夜",
+      "生驹南",
+      "日永梨枝子",
+      "上本堇",
+      "榛原七香",
+      "五位堂结",
+      "春日桧",
+      "仓川灯",
+      "鲇川天理"
+    ],
+    "demonAndEnemyLayer": [
+      {
+        "id": "nora",
+        "name": "诺拉",
+        "role": "竞争驱魂队员"
+      },
+      {
+        "id": "fiore",
+        "name": "菲欧蕾",
+        "role": "正统恶魔社潜伏/暗杀执行者"
+      },
+      {
+        "id": "lune",
+        "name": "琉妮",
+        "role": "正统恶魔社高压追击者"
+      },
+      {
+        "id": "nikaido",
+        "name": "二阶堂由梨",
+        "role": "教师/前史知情者"
+      },
+      {
+        "id": "mari",
+        "name": "桂木麻里",
+        "role": "家庭日常压力"
+      }
+    ],
+    "indexingPolicy": "攻略对象保持 RP 功能短条目；若需要完整单元剧情，可按角色另建 case-file。"
+  },
+  "goddessHosts": [
+    {
+      "hostId": "tenri",
+      "hostName": "鲇川天理",
+      "goddessId": "diana",
+      "goddessName": "狄安娜/蒂雅娜",
+      "status": "confirmed-from-local-source",
+      "rpUse": "女神篇入口、过去记忆和宿主/女神共存对话。",
+      "domain": "月亮"
+    },
+    {
+      "hostId": "kanon",
+      "hostName": "中川花音",
+      "goddessId": "apollo",
+      "goddessName": "阿波罗",
+      "status": "confirmed-from-local-source",
+      "rpUse": "偶像身份、暗杀危机和女神唤醒。",
+      "domain": "太阳"
+    },
+    {
+      "hostId": "ayumi",
+      "hostName": "高原步美",
+      "goddessId": "mercurius",
+      "goddessName": "茉丘莉/墨丘利",
+      "status": "confirmed-from-local-source",
+      "rpUse": "田径、直球情感、信使女神的速度/传达意象；女神篇后段回收。",
+      "domain": "信使"
+    },
+    {
+      "hostId": "tsukiyo",
+      "hostName": "九条月夜",
+      "goddessId": "vulcanus",
+      "goddessName": "伏尔坎丝/伏尔甘",
+      "status": "confirmed-from-local-source",
+      "rpUse": "美学、人偶、完美主义与女神保护。",
+      "domain": "工艺"
+    },
+    {
+      "hostId": "yui",
+      "hostName": "五位堂结",
+      "goddessId": "mars",
+      "goddessName": "玛尔丝/玛尔斯",
+      "status": "confirmed-from-local-source",
+      "rpUse": "主动攻略、身体交换后的自我表达，战争女神的直进与保护性格。",
+      "domain": "战争"
+    },
+    {
+      "hostId": "shiori",
+      "hostName": "汐宫栞",
+      "goddessId": "minerva",
+      "goddessName": "弥涅儿娃/密涅瓦",
+      "status": "confirmed-from-local-source",
+      "rpUse": "图书馆、内心语言、智慧女神的安静判断与记忆恢复。",
+      "domain": "智慧"
+    }
+  ],
+  "factions": [
+    {
+      "id": "runaway-spirit-squad",
+      "name": "新地狱驱魂队",
+      "role": "负责侦测、捕获和封印驱魂的行政/执行体系。",
+      "rpHooks": [
+        "契约分配",
+        "捕获报告",
+        "恶魔同僚竞争",
+        "羽衣装备支援"
+      ]
+    },
+    {
+      "id": "vintage",
+      "name": "正统恶魔社/旧地狱派",
+      "role": "敌对势力，试图利用女神和旧地狱力量颠覆新秩序。",
+      "rpHooks": [
+        "潜伏教师或学生",
+        "暗杀女神宿主",
+        "封印/绑架",
+        "旧地狱复兴"
+      ],
+      "visibility": "private-to-gm"
+    },
+    {
+      "id": "jupiter-sisters",
+      "name": "朱比特六姐妹",
+      "role": "寄宿人类少女体内的女神群体，是女神篇核心保护对象。",
+      "rpHooks": [
+        "宿主记忆恢复",
+        "姐妹感应",
+        "力量觉醒",
+        "暴露风险"
+      ],
+      "visibility": "private"
+    },
+    {
+      "id": "maijima-high",
+      "name": "舞岛学园",
+      "role": "校园攻略、社团活动和宿主聚集主舞台。",
+      "rpHooks": [
+        "班级日常",
+        "社团线",
+        "图书馆/天文/田径等场景",
+        "身份伪装"
+      ]
+    },
+    {
+      "id": "keima-support-circle",
+      "name": "桂马攻略协力圈",
+      "role": "桂马、艾鲁西、哈克雅和少数知情者形成的任务协力结构。",
+      "rpHooks": [
+        "多线排程",
+        "信息共享",
+        "误会喜剧",
+        "道德压力"
+      ]
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "loose-soul-capture",
+      "name": "驱魂捕获",
+      "rules": [
+        "驱魂寄宿心灵有空隙的少女；空隙被情感填补后才能捕获。",
+        "恋爱攻略是常见手段，但实际核心是理解目标缺口，不是机械套公式。",
+        "捕获后普通目标通常失去攻略相关记忆，女神宿主和关键个体可例外。"
+      ]
+    },
+    {
+      "id": "demon-raiment",
+      "name": "恶魔羽衣/装备",
+      "rules": [
+        "羽衣可用于探测、拘束、伪装、战斗和封印支援。",
+        "恶魔能力受新地狱规则、个人熟练度和现场隐蔽需求限制。"
+      ]
+    },
+    {
+      "id": "goddess-hosting",
+      "name": "女神宿主",
+      "rules": [
+        "朱比特女神寄宿在特定少女体内，可让宿主保留或恢复攻略记忆。",
+        "女神觉醒会提升被正统恶魔社追踪/暗杀的风险。",
+        "宿主与女神可有独立意志，RP 时应分别处理宿主情感与女神使命。"
+      ]
+    },
+    {
+      "id": "dating-sim-logic",
+      "name": "攻略逻辑",
+      "rules": [
+        "桂马的游戏知识可用于假设、路线拆分和事件 flag 管理。",
+        "现实目标不是游戏 NPC；当公式失败时应转向真实沟通与责任承担。"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "maijima",
+      "name": "舞岛市",
+      "role": "日常都市主舞台，普通生活与超自然任务重叠。"
+    },
+    {
+      "id": "maijima-high",
+      "name": "舞岛学园",
+      "role": "校园攻略、社团、人际误会和女神宿主保护。"
+    },
+    {
+      "id": "keima-room",
+      "name": "桂马房间/游戏据点",
+      "role": "策略分析、任务排程、现实逃避与作战会议。"
+    },
+    {
+      "id": "library",
+      "name": "图书馆",
+      "role": "汐宫栞线与安静观察场景。"
+    },
+    {
+      "id": "idol-stage",
+      "name": "花音演艺舞台",
+      "role": "公众压力、偶像危机和女神暴露风险。"
+    },
+    {
+      "id": "new-hell",
+      "name": "新地狱",
+      "role": "驱魂队行政、报告、惩罚和恶魔社会背景。"
+    },
+    {
+      "id": "old-hell-vintage",
+      "name": "旧地狱/正统恶魔社据点",
+      "role": "敌方阴谋与女神篇高危区域。"
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "contract-start",
+      "title": "桂马签订驱魂捕获契约",
+      "notes": "艾鲁西成为搭档，现实攻略与游戏逻辑冲突开始。"
+    },
+    {
+      "phase": "early-captures",
+      "title": "单元攻略与驱魂捕获",
+      "notes": "步美、美生、花音、栞等目标依次建立心灵空隙规则。"
+    },
+    {
+      "phase": "haqua-and-demon-side",
+      "title": "哈克雅与新地狱侧展开",
+      "notes": "恶魔同僚、竞争、报告制度和羽衣能力更明确。"
+    },
+    {
+      "phase": "tenri-past",
+      "title": "天理/狄安娜与过去篇",
+      "notes": "女神存在浮出水面，记忆例外成为关键线索。"
+    },
+    {
+      "phase": "goddess-arc",
+      "title": "女神宿主搜寻与保护",
+      "notes": "花音袭击、宿主回收、正统恶魔社追杀；多线排程压力最高。"
+    },
+    {
+      "phase": "vintage-conflict",
+      "title": "正统恶魔社冲突",
+      "notes": "潜伏者、封印、旧地狱阴谋和女神力量对抗。"
+    },
+    {
+      "phase": "resolution-or-alt-route",
+      "title": "终盘/沙盒分歧",
+      "notes": "可保留原作收束，也可让 PC 介入导致宿主记忆和关系后果变化。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "capture-case",
+      "title": "驱魂单元案件",
+      "use": "定义目标、心灵空隙、攻略误判、填补方式和捕获后记忆状态。"
+    },
+    {
+      "id": "school-comedy",
+      "title": "校园日常喜剧",
+      "use": "用社团、考试、家人和误会缓冲超自然任务。"
+    },
+    {
+      "id": "goddess-protection",
+      "title": "女神宿主保护",
+      "use": "宿主身份排查、记忆恢复、敌方暗杀和多线时间管理。"
+    },
+    {
+      "id": "vintage-infiltration",
+      "title": "正统恶魔社潜伏",
+      "use": "教师/学生/路人身份伪装，制造谁可信的悬疑。"
+    },
+    {
+      "id": "real-feelings",
+      "title": "现实情感后果",
+      "use": "攻略结束后不把目标当作关卡，处理千寻等角色带来的现实伦理压力。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "keima",
+      "to": "elsie",
+      "type": "contract-partner/fake-siblings",
+      "visibility": "public-disguised"
+    },
+    {
+      "from": "elsie",
+      "to": "haqua",
+      "type": "friends-colleagues",
+      "visibility": "public-to-demons"
+    },
+    {
+      "from": "keima",
+      "to": "targets",
+      "type": "capture-strategy-and-emotional-debt",
+      "visibility": "private"
+    },
+    {
+      "from": "tenri",
+      "to": "diana",
+      "type": "host-goddess-coexistence",
+      "visibility": "private"
+    },
+    {
+      "from": "kanon",
+      "to": "apollo",
+      "type": "host-goddess",
+      "visibility": "private"
+    },
+    {
+      "from": "vintage",
+      "to": "jupiter-sisters",
+      "type": "hunts",
+      "visibility": "gm-only"
+    },
+    {
+      "from": "fiore",
+      "to": "kanon",
+      "type": "assassination-trigger",
+      "visibility": "private"
+    },
+    {
+      "from": "chihiro",
+      "to": "keima",
+      "type": "formula-breaking-real-feelings",
+      "visibility": "private-progressive"
+    }
+  ],
+  "rpNotes": [
+    "每个驱魂案件要先写清：目标表面问题、真实心灵空隙、桂马的初始误判、艾鲁西/哈克雅支援方式、捕获后记忆处理。",
+    "女神宿主线开启后，普通恋爱喜剧会升级为保护战；但宿主本人的感情和日常仍应保留。",
+    "不要把攻略对象当一次性 NPC；即使记忆消失，也可以通过环境、关系网和女神例外产生后果。",
+    "PC 可是新契约者、恶魔队员、舞岛学生、宿主相关者或正统恶魔社潜伏者；需在开局锁定是否与桂马共存或替代。",
+    "正统恶魔社、女神真实身份和二阶堂前史默认 GM-only，逐步揭示。"
+  ],
+  "residualGaps": [
+    "未为每位攻略对象建立独立 case-file 和完整单元剧情。",
+    "女神宿主映射已补入标准对应，但仍未扩展每位女神的能力、性格和觉醒条件。",
+    "新地狱行政层、旧地狱历史和正统恶魔社成员仍需逐条 source 审校。",
+    "已校正女神宿主映射；每位女神的完整能力数值、觉醒条件和台词仍待独立 case-file。"
+  ],
+  "goddessSourceReconciliation": {
+    "basis": "characters/characters.json entries TWGOK 高原步美/中川花音/汐宫栞/九条月夜/五位堂结/鲇川天理 and TWGOK 朱比特六姐妹",
+    "correction": "本次将宿主表统一为本地源：步美=茉丘莉/Mercurius，花音=阿波罗，月夜=伏尔坎丝，天理=蒂雅娜/狄安娜，栞=弥涅儿娃/Minerva，结=玛尔丝/Mars。",
+    "note": "部分中文译名存在“墨丘利/茉丘莉、密涅瓦/弥涅儿娃、玛尔斯/玛尔丝、伏尔甘/伏尔坎丝”差异；id 使用拉丁名小写，显示名保留双译名。"
+  },
+  "hellLoreExpansion": {
+    "looseSoulModel": [
+      {
+        "stage": "潜伏期",
+        "rpCue": "宿主日常基本正常，只用疲惫、情绪波动等细节埋线。"
+      },
+      {
+        "stage": "影响期",
+        "rpCue": "驱魂放大执念、失眠、性格偏移或异常行为。"
+      },
+      {
+        "stage": "暴走/显现期",
+        "rpCue": "空隙恶化，羽衣探测增强，捕获必须进入行动阶段。"
+      },
+      {
+        "stage": "捕获/封印后",
+        "rpCue": "普通攻略对象多失去攻略记忆；女神宿主和关键个体可例外。"
+      }
+    ],
+    "historyAnchors": [
+      "300年前远古大战后，朱比特六姐妹封印古恶魔。",
+      "约10年前封印异常，大量驱魂逃入人界。",
+      "新地狱以行政/驱魂队维持秩序，正统恶魔社/Vintage 试图复兴旧地狱。"
+    ],
+    "rpBoundary": "驱魂案件不是纯恋爱公式；先诊断空隙，再决定沟通、事件 flag、恶魔装备和记忆后果。"
+  },
+  "caseFileSeeds": [
+    {
+      "target": "高原步美",
+      "surface": "田径元气少女",
+      "gap": "对恋爱和失败的羞怯/不安",
+      "location": "田径场/2-B",
+      "goddess": "茉丘莉"
+    },
+    {
+      "target": "青山美生",
+      "surface": "傲娇千金姿态",
+      "gap": "家道中落后无法接受现实",
+      "location": "学校/打工地点",
+      "goddess": "无"
+    },
+    {
+      "target": "中川花音",
+      "surface": "偶像光芒",
+      "gap": "舞台身份与真实自我割裂，害怕不被爱",
+      "location": "演艺舞台/学校",
+      "goddess": "阿波罗"
+    },
+    {
+      "target": "汐宫栞",
+      "surface": "沉默图书委员",
+      "gap": "无法用口头语言建立现实联系",
+      "location": "图书馆",
+      "goddess": "弥涅儿娃"
+    },
+    {
+      "target": "小阪千寻",
+      "surface": "普通现实主义者",
+      "gap": "无驱魂，负责打破攻略公式",
+      "location": "2-B/轻音乐部",
+      "goddess": "无"
+    },
+    {
+      "target": "九条月夜",
+      "surface": "天文部与人偶",
+      "gap": "完美主义与孤独审美",
+      "location": "屋顶/天文部",
+      "goddess": "伏尔坎丝"
+    }
+  ]
+}

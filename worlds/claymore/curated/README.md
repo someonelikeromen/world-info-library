@@ -8,6 +8,11 @@
 - `campaigns/world-library/worlds/claymore/characters/characters.json`
 - `campaigns/world-library/worlds/claymore/world/world.json`
 - `campaigns/world-library/worlds/claymore/factions/factions.json`
+- `campaigns/world-library/worlds/claymore/locations/locations.json`
+- `campaigns/world-library/worlds/claymore/power-systems/abilities.json`
+- `campaigns/world-library/worlds/claymore/style/aesthetic-keywords.json`
+- `campaigns/world-library/worlds/claymore/style/narrative-style.json`
+- `campaigns/world-library/worlds/claymore/style/interaction-patterns.json`
 
 ## 世界定位
 
@@ -21,6 +26,7 @@
 - `knowledge-graph.json`：概念、组织、事件节点。
 - `relationship-graph.json`：人物/势力关系。
 - `curation-notes.md`：整理说明、排除项与风险。
+- `timeline/era-arcs.json`、`factions/organization-and-threats.json`、`locations/island-and-war-sites.json`、`power-systems/yoma-claymore-awakening.json`、`rp-notes/visual-and-roleplay-notes.json`：retry-02/审计补完模块。
 
 ## 整理原则
 

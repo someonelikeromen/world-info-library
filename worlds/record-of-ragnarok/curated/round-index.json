@@ -1,0 +1,35 @@
+{
+  "schema": "rp-curation-round-index-v1",
+  "worldId": "record-of-ragnarok",
+  "displayName": "终末的女武神",
+  "status": "compact-rp-round-index-derived-from-campaign-archive",
+  "updatedAt": "2026-06-24",
+  "sourceRefs": [
+    "campaigns/world-library/worlds/record-of-ragnarok/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/record-of-ragnarok/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/record-of-ragnarok/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/record-of-ragnarok/world/world.json",
+    "world-info-library/worlds/record-of-ragnarok/curated/world.json",
+    "world-info-library/worlds/record-of-ragnarok/curated/source-registry.json"
+  ],
+  "roundFramework": {
+    "premise": "人类与神明以 Ragnarok 擂台战决定人类存续。",
+    "coreLoop": ["宣布回合", "选择神方代表", "选择人类代表", "女武神神器炼成/Volundr 支援", "擂台规则锁定", "战斗与心理/神话叙事", "胜负与阵营反应"],
+    "rpUseRule": "若具体回合/选手未在 curated 文件中列明，必须回查 campaign canon-reference 后再设定。"
+  },
+  "pairingPolicy": {
+    "fighterValkyriePairings": "curated 初版不声明完整配对表；使用前回查 characters-index/world.json 与 campaign canon-reference。",
+    "powerScaling": "以本作回合表现和 Volundr 规则为准，不按外部神话原型直接外推。",
+    "arenaControl": "每回合可按双方叙事需求调整擂台氛围，但不应无代价改变既定胜负。"
+  },
+  "rpHooks": [
+    "替补斗士或未登场代表的出场审议。",
+    "女武神与人类斗士的 Volundr 契合度测试。",
+    "神方内部对人类价值的分裂。",
+    "擂台战外的观众席、神界政治与战后治疗/追悼场景。"
+  ],
+  "knownLimits": [
+    "归档源 157 条且未分类 5 条；本文件是索引，不是完整逐回合考据。",
+    "连载后续新增回合可能超出当前归档截断点。"
+  ]
+}

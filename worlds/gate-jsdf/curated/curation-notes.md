@@ -19,3 +19,7 @@
 - `world.json` 中原字符串型 `factions`/`locations` 已规范化为 `{id,name}` 节点，并补入 `special-region`, `apostles`, `kato-students` 等角色索引需要的安全归一节点。
 - 角色 `locations`/`factions`/`powerSystems` 已改为 canonical id；原显示名保存在 `metadata.originalReferenceLabels`。
 - `political`、`martial` 这类原非 registry 标记被归入非超自然能力节点 `political-authority`、`martial-training`，避免误作魔法体系。
+
+## 2026-06-24 retry-05 补完
+- 补第三侦查队、蔷薇骑士、暗黑精灵、帝都黑街人物；扩展阿尔努斯共同体、地球列强干涉、黑街复仇和封门后重建模块。
+- 低置信：雪莉/菅原线、海自外传、贝尔纳戈与诸神使徒谱系。

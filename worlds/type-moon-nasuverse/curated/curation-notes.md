@@ -21,3 +21,10 @@
 - 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
 - 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。
 - 已补足 `waver-velvet` 与 `romani-archaman` 以对齐 `knownMembers`。
+
+## retry-14 补完记录
+
+- 已确认 `audit-completion-modules.json` 承载多作品路由、Fate/stay night、Fate/Zero、FGO/迦勒底、魔法少女伊莉雅、月姬/空境、妖精国的保守路线锁。
+- 已按 campaigns 大体量源只抽取高层规则、势力与 RP 边界；813 个角色、543 条力量体系和多灵基版本未扁平合并，避免路线混同。
+- 残留缺口：从者职阶/宝具表、Fate/Zero 全员、月姬/空境人物、FGO 各章角色与 LB6 妖精国仍需分批子索引。
+- 验证：2026-06-24 使用 Node.js 解析本目录 JSON，包含本文件相邻 6 个 JSON，全部有效。

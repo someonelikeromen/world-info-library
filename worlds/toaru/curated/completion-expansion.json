@@ -1,0 +1,93 @@
+{
+  "schema": "rp-world-completion-expansion-v1",
+  "worldSlug": "toaru",
+  "displayName": "魔法禁书目录 / 超炮相关",
+  "completionPass": "retry-13",
+  "sourceAssessment": {
+    "primarySourceId": "src-toaru-001",
+    "sourceType": "user-file-source / worldbook-derived-archive with MVU and roleplay-control text",
+    "reliability": "B",
+    "readPaths": [
+      "campaigns/world-library/worlds/toaru/source-registry.json",
+      "campaigns/world-library/worlds/toaru/world/world.json",
+      "campaigns/world-library/worlds/toaru/characters/characters.json",
+      "campaigns/world-library/worlds/toaru/factions/factions.json",
+      "campaigns/world-library/worlds/toaru/canon-reference/full-plot.json",
+      "campaigns/world-library/worlds/toaru/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/toaru/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/toaru/power-systems/abilities.json",
+      "campaigns/world-library/worlds/toaru/locations/locations.json"
+    ],
+    "curationBoundary": "源包含 InitVar、mvu_update、剧情规则、变量输出格式等 RP 控制文本；本扩展只保留世界观、科学侧/魔法侧、旧约早期时间线、人物关系和可用 RP notes。",
+    "confidenceNotes": [
+      "覆盖以旧约第一卷至九三〇篇前后为核心，兼收超炮相关角色；不代表全系列完整时间线。",
+      "部分后期人物（如欧提努斯、木原脑干等）在源角色条目出现，但与旧约早期主线距离较远，作为扩展角色保留低强度使用。"
+    ]
+  },
+  "characterCoverage": [
+    {"id": "kamijou-touma", "name": "上条当麻", "functionForRp": "科学侧与魔法侧交汇的普通学生视角，右手幻想杀手可打破异能与魔法。", "relationshipNotes": ["保护茵蒂克丝", "与御坂美琴反复冲突/协作", "被土御门等情报角色卷入两侧事件"], "powerNotes": ["幻想杀手", "高抗压与说服", "失忆后仍维持行动伦理"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "index", "name": "茵蒂克丝", "functionForRp": "十万三千本魔导书记忆者，魔法侧追索与保护目标。", "relationshipNotes": ["与上条共同生活/被保护", "与史提尔、神裂有旧守护关系", "必要之恶教会相关"], "powerNotes": ["魔导书知识", "自动书记", "强制咏唱"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "misaka-mikoto", "name": "御坂美琴", "functionForRp": "Level 5 超电磁炮，妹妹计划原型与学园都市正义感行动者。", "relationshipNotes": ["常盘台与白井黑子搭档", "与御坂妹妹/最后之作构成实验伦理线", "与上条有冲突和信赖"], "powerNotes": ["电击使", "超电磁炮", "砂铁操控", "电磁感知"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "accelerator", "name": "一方通行", "functionForRp": "Level 5 第一位，从妹妹计划敌对核心转向最后之作守护者。", "relationshipNotes": ["与御坂网络和最后之作强绑定", "与木原数多为敌", "可从黑暗面进入救赎线"], "powerNotes": ["矢量操作", "反射", "黑翼/白翼后期可选但旧约早期谨慎使用"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "shirai-kuroko", "name": "白井黑子", "functionForRp": "风纪委员与空间移动能力者，超炮日常和事件调查入口。", "relationshipNotes": ["御坂美琴后辈/搭档", "与初春饰利、佐天泪子协作"], "powerNotes": ["空间移动", "风纪委员调查与拘束术"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "kamisaki-kaori", "name": "神裂火织", "functionForRp": "圣人级魔法师，英国清教侧高战力和茵蒂克丝旧守护者。", "relationshipNotes": ["与史提尔共同保护/追索茵蒂克丝", "与天草式有深层联系"], "powerNotes": ["七天七刀", "圣人体质", "魔法结界"], "sourceRefs": ["src-toaru-001"]},
+    {"id": "tsuchimikado-motoharu", "name": "土御门元春", "functionForRp": "阴阳师、能力者和多重间谍，适合推动情报任务。", "relationshipNotes": ["上条同学/邻人", "科学侧与魔法侧之间的灰色行动者"], "powerNotes": ["阴阳术", "肉体再生系能力（低强度）", "情报与伪装"], "sourceRefs": ["src-toaru-001"]}
+  ],
+  "factions": [
+    {"id": "academy-city", "name": "学园都市", "role": "科学侧核心城市，230 万人口、多数为学生，科技领先外界 20-30 年。", "rpUse": "校园、研究所、暗部、能力开发与都市封锁。"},
+    {"id": "board-of-directors", "name": "统括理事会/亚雷斯塔体系", "role": "学园都市统治结构与长期计划中枢。", "rpUse": "幕后命令、实验遮掩、都市级棋局。"},
+    {"id": "judgment", "name": "风纪委员", "role": "学生治安组织，处理校园与街区事件。", "rpUse": "调查、巡逻、失踪学生、能力犯罪。"},
+    {"id": "anti-skill", "name": "警备员", "role": "成年人治安力量，与风纪委员配合或互补。", "rpUse": "封锁现场、保护平民、军警冲突。"},
+    {"id": "academy-city-dark-side", "name": "学园都市暗部", "role": "ITEM、SCHOOL、研究机构等黑暗任务网络。", "rpUse": "暗杀、实验、清道夫任务、逃亡线。"},
+    {"id": "church-of-necessary-evil", "name": "英国清教/必要之恶教会", "role": "魔法侧中保护/管理禁书目录和魔法师行动的组织。", "rpUse": "魔导书回收、术式调查、秘密护送。"},
+    {"id": "roman-orthodox", "name": "罗马正教", "role": "巨大宗教魔法势力，法之书、使徒十字等篇章关键。", "rpUse": "宗教术式、修女部队、政治压力。"},
+    {"id": "gods-right-seat", "name": "神之右席", "role": "罗马正教内的顶级敌对势力，九三〇篇后强烈登场。", "rpUse": "高阶魔法威胁、战争前兆、boss 级对抗。"},
+    {"id": "amagusa-style", "name": "天草式十字凄教", "role": "日本魔法结社，与神裂、建宫、五和相关。", "rpUse": "民间术式、潜入救援、同盟支援。"}
+  ],
+  "timeline": [
+    {"order": 1, "period": "7月19日 / 禁书目录篇", "event": "上条当麻在学园都市第七学区遇见茵蒂克丝，科学侧学生生活被魔法侧追索打断。", "visibility": "public-lore"},
+    {"order": 2, "period": "8月8日 / 吸血杀手篇", "event": "三泽塾、姬神秋沙与奥雷欧斯事件显露魔法侧炼金术和特殊能力者。", "visibility": "public-lore"},
+    {"order": 3, "period": "8月20日 / 妹妹篇", "event": "御坂妹妹、绝对能力进化计划与一方通行构成学园都市黑暗实验核心。", "visibility": "public-lore"},
+    {"order": 4, "period": "8月28日 / 天使坠落篇", "event": "天使坠落术式导致大范围外表替换，上条家庭和魔法师共同处理异常。", "visibility": "public-lore"},
+    {"order": 5, "period": "8月31日 / 8月31日篇", "event": "暑假结束前后，多线短篇事件展示学园都市日常与隐藏危机并行。", "visibility": "optional-arc"},
+    {"order": 6, "period": "9月1日 / 风斩冰华篇", "event": "风斩冰华与 AIM 扩散力场相关事件揭示学园都市能力者网络的异常生命现象。", "visibility": "public-lore"},
+    {"order": 7, "period": "9月8日 / 法之书篇", "event": "奥索拉、雅妮丝部队、罗马正教与英国清教围绕《法之书》冲突。", "visibility": "public-lore"},
+    {"order": 8, "period": "9月14日 / 树状图残骸篇", "event": "结标淡希争夺树状图设计者残骸，空间移动和实验残余再度引发冲突。", "visibility": "public-lore"},
+    {"order": 9, "period": "9月19日 / 使徒十字篇", "event": "大霸星祭期间，欧莉安娜与罗马正教围绕使徒十字行动。", "visibility": "public-lore"},
+    {"order": 10, "period": "9月30日 / 九三〇篇", "event": "前方之风入侵学园都市，科学侧与魔法侧冲突升级。", "visibility": "public-lore"}
+  ],
+  "arcs": [
+    {"id": "index-arc", "title": "禁书目录篇", "setup": "上条救下茵蒂克丝，遭遇史提尔和神裂。", "conflicts": ["十万三千本魔导书", "自动书记", "幻想杀手对魔法"], "rpEntryPoints": ["第七学区铁桥", "学生宿舍", "必要之恶教会追索"]},
+    {"id": "sisters-arc", "title": "妹妹计划篇", "setup": "御坂妹妹实验和一方通行的 Level 6 计划曝光。", "conflicts": ["实验伦理", "研究所追踪", "御坂网络"], "rpEntryPoints": ["自动贩卖机偶遇", "研究设施潜入", "桥下决战后救援"]},
+    {"id": "law-book-arc", "title": "法之书篇", "setup": "奥索拉解读《法之书》的情报引发宗教势力争夺。", "conflicts": ["罗马正教追捕", "英国清教介入", "天草式协作"], "rpEntryPoints": ["修女护送", "术式解读", "港口/教会据点"]},
+    {"id": "daihasei-cross", "title": "大霸星祭与使徒十字", "setup": "学园都市大型活动被罗马正教术式计划渗透。", "conflicts": ["公开活动不能恐慌", "欧莉安娜追踪", "使徒十字发动条件"], "rpEntryPoints": ["运动会志愿者", "风纪委员调查", "魔法侧线索翻译"]},
+    {"id": "0930", "title": "九三〇冲突", "setup": "神之右席前方之风入侵学园都市，科学侧防线与魔法侧威胁正面碰撞。", "conflicts": ["城市瘫痪", "上条与一方通行并行线", "木原数多和暗部行动"], "rpEntryPoints": ["警备员封锁", "医院保护", "暗部追击"]}
+  ],
+  "powerSystems": [
+    {"id": "personal-reality", "name": "个人现实与超能力开发", "rules": ["通过药物、催眠、电刺激等方式建立个人现实并干涉现实", "能力等级从 Level 0 到 Level 5，不等于道德或实战经验", "AIM 扩散力场可形成群体性异常现象"], "knownBranches": ["电击使", "矢量操作", "空间移动", "心理掌握", "原子崩坏", "能力追踪"]},
+    {"id": "magic", "name": "魔法术式", "rules": ["以宗教、神话、象征、魔导书和仪式驱动", "非魔法体质或能力者使用魔法可能承受反噬（按剧情谨慎处理）", "术式往往依赖象征、场地、时间与媒介"], "knownBranches": ["符文火焰", "圣人体质", "阴阳术", "罗马正教术式", "天草式术式"]},
+    {"id": "imagine-breaker", "name": "幻想杀手", "rules": ["上条右手可消除异能、魔法和超自然效果", "不能直接解决普通物理攻击、政治问题或后续因果", "适合作为两侧法则冲突的验证点"], "knownBranches": ["异能消除", "结界破坏", "未知右手秘密"]},
+    {"id": "grimoires", "name": "魔导书与禁书目录", "rules": ["魔导书记录危险术式和知识，读解可能造成精神/现实风险", "茵蒂克丝记忆十万三千本魔导书，是魔法侧重要目标", "回收和保护比公开传播更适合 RP"], "knownBranches": ["自动书记", "强制咏唱", "法之书"]},
+    {"id": "dark-side-tech", "name": "学园都市暗部科技", "rules": ["研究机构、暗部小队和实验计划提供非公开装备与伦理冲突", "树状图设计者、妹妹计划、能力体结晶等不应随意公开", "普通学生视角应通过线索逐步接触"], "knownBranches": ["妹妹计划", "树状图残骸", "暗部小队装备", "医疗黑箱"]}
+  ],
+  "relationshipAdditions": [
+    {"from": "kamijou-touma", "to": "index", "type": "protector-housemate", "note": "禁书目录篇后，上条保护并照顾茵蒂克丝。"},
+    {"from": "kamijou-touma", "to": "misaka-mikoto", "type": "rival-trust", "note": "从争执和偶遇发展为多次协作与信赖。"},
+    {"from": "misaka-mikoto", "to": "shirai-kuroko", "type": "senpai-kouhai-partners", "note": "常盘台与风纪委员线的核心搭档。"},
+    {"from": "accelerator", "to": "last-order", "type": "guardian-redemption", "note": "最后之作推动一方通行从实验黑暗面进入守护线。"},
+    {"from": "index", "to": "church-of-necessary-evil", "type": "affiliation-target", "note": "茵蒂克丝由英国清教管理/保护，也因此被魔法侧追索。"},
+    {"from": "kamisaki-kaori", "to": "stiyl-magnus", "type": "former-guardians", "note": "两人曾共同承担茵蒂克丝相关保护与追索任务。"},
+    {"from": "academy-city-dark-side", "to": "accelerator", "type": "experiment-context", "note": "一方通行的妹妹计划和木原线属于学园都市暗部背景。"}
+  ],
+  "rpNotes": {
+    "recommendedPlayerRoles": ["学园都市学生能力者", "风纪委员协力者", "警备员实习联络", "英国清教见习魔法师", "研究所逃出实验体", "普通学生卷入者"],
+    "toneGuidelines": ["同一城市内科学与魔法规则并行", "普通日常与都市级阴谋快速切换", "信息差是主要张力", "上条/御坂/一方通行等强角色应有场景限制与代价"],
+    "doNotUse": ["源内 InitVar", "mvu_update 变量规则", "输出格式控制文本", "把卷号标签作为角色可知信息"],
+    "safeRewritePatterns": ["将卷号条目改写为日期和事件线", "将控制文本改写为 GM 私有时间线工具", "将强角色介入限制在地点、情报和人质保护等具体条件下"]
+  },
+  "remainingGaps": [
+    "新约、创约与大量外传内容未覆盖。",
+    "学园都市暗部角色多但源内条目深度不均，部分仅作为关系/阵营节点使用。",
+    "魔法侧完整神学体系庞大，本次只补旧约早期可运行层。"
+  ]
+}

@@ -26,6 +26,7 @@
 - `knowledge-graph.json`
 - `relationship-graph.json`
 - `curation-notes.md`
+- `completion-expansion.json`：retry-01 补充参考库运行模型、来源分层、代表性人格原型与关系使用策略。
 
 ## 内容安全整理
 

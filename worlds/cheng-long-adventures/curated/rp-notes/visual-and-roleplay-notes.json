@@ -1,0 +1,98 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cheng-long-adventures",
+  "module": "rp-notes/visual-and-roleplay-notes",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cheng-long-adventures-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cheng-long-adventures/characters/characters.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/world/world.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/style/aesthetic-keywords.json"
+  ],
+  "purpose": "补足审计指出的主角团、黑手帮、八大恶魔、鬼影势力外观/服饰/气质缺口；部分为低置信视觉归纳。",
+  "characterVisualProfiles": [
+    {
+      "characterId": "jackie-chan",
+      "name": "成龙",
+      "appearance": "成年男性考古学家兼动作英雄，视觉核心是普通人卷入夸张动作场面的灵活身体。",
+      "outfit": "日常夹克、衬衫、休闲裤或考古/博物馆工作服；动作场面常被临时环境弄脏或破损。",
+      "demeanor": "礼貌、紧张地避免麻烦，但反应极快；边躲边打、顺手使用环境道具。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "jade-chan",
+      "name": "小玉",
+      "appearance": "儿童/少女冒险者气质，动作轻快，表情机灵好奇。",
+      "outfit": "方便潜入和奔跑的现代童装；校园、十三区和古董店场景切换明显。",
+      "demeanor": "大胆、嘴快、好奇心强，常以闯祸方式推进剧情并在关键时刻救场。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "uncle",
+      "name": "老爹",
+      "appearance": "年长气魔法师/古董店主，视觉重点是书卷气、古董店烟尘和驱魔仪式感。",
+      "outfit": "朴素长袖、围裙或便于整理古董的衣物；常携带河豚干、咒符、药材、古籍等。",
+      "demeanor": "暴躁但可靠，强调材料清单、咒语节奏和“还有一件事”。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "tohru",
+      "name": "特鲁",
+      "appearance": "高大强壮，黑手帮时期像沉默打手，转阵营后逐渐显露温和学徒气质。",
+      "outfit": "早期黑手帮打手装；后期老爹学徒/古董店协助者装束。",
+      "demeanor": "外表压迫、内心温和，适合肉盾、搬运、仪式辅助和救赎戏。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "captain-black",
+      "name": "布莱克警长",
+      "appearance": "秘密政府机构负责人，视觉核心是西装/制服式干练和十三区科技背景。",
+      "outfit": "特工/警务风格正装，配通行证、耳麦、十三区设备。",
+      "demeanor": "务实、正直、对成龙有信任，也会被超自然状况压得焦头烂额。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "valmont",
+      "name": "瓦龙",
+      "appearance": "犯罪组织首领，优雅外表与倒霉受害者气质并存。",
+      "outfit": "精致西装、黑手帮首领装束；被圣主附身阶段可出现异常举止或服饰错位。",
+      "demeanor": "贪婪、精明、谈判式威胁，但经常被圣主和成龙事件拖入喜剧失败。",
+      "confidence": "C"
+    },
+    {
+      "characterId": "shendu",
+      "name": "圣主",
+      "appearance": "火之恶魔与龙形石像双重视觉：雕像阶段阴森、复活后是大型龙/恶魔压迫感。",
+      "outfit": "作为恶魔不依赖服饰；可用十二符咒镶嵌、火焰、宫殿、黑影兵团强化画面。",
+      "demeanor": "狡诈、不守承诺、以契约和宝藏诱骗凡人。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "tarakudo",
+      "name": "塔拉",
+      "appearance": "鬼影面具与古老邪恶意志；视觉核心是面具化、阴影、红黑对比和无实体支配感。",
+      "outfit": "面具、黑影、忍者兵团符号；附身宿主时保留宿主外观但叠加邪恶纹样/眼神。",
+      "demeanor": "支配欲强、仪式感强，擅长诱导普通人戴上面具。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "eight-demons-template",
+      "name": "八大恶魔视觉模板",
+      "appearance": "每位恶魔以元素/领域为视觉核心：月、山、雷、风、天、地、水、火对应不同灾害和体型。",
+      "outfit": "不以人类服饰为主；用封印门、神明信物、魔气颜色和地形灾害区分。",
+      "demeanor": "古老、傲慢、互相争斗；圣主之外的恶魔多作为单元 Boss 或魔气源。",
+      "confidence": "B"
+    }
+  ],
+  "sceneStyleNotes": [
+    "动作戏优先使用环境道具、追逐、误会和临场 improvisation。",
+    "老爹古董店适合信息解释、材料收集和家庭喜剧；十三区适合收容、审讯和科技/魔法冲突。",
+    "反派应保留喜剧失败空间，即使世界威胁严重也不要完全写成写实黑暗灾难。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "本地角色条目较少；多数外观为基于角色身份和已知剧情功能的视觉模板，需后续从图像或更细源补证。",
+    "源中有戏谑和非正式描述，本文件统一为 RP 可用中性语气。"
+  ]
+}

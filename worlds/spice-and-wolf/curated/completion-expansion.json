@@ -1,0 +1,140 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "spice-and-wolf",
+  "completionPass": "retry-12",
+  "sourceRefs": [
+    "src-spice-and-wolf-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/spice-and-wolf/source-registry.json",
+    "campaigns/world-library/worlds/spice-and-wolf/characters/characters.json",
+    "campaigns/world-library/worlds/spice-and-wolf/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/spice-and-wolf/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/spice-and-wolf/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/spice-and-wolf/power-systems/abilities.json",
+    "campaigns/world-library/worlds/spice-and-wolf/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/spice-and-wolf/locations/locations.json",
+    "campaigns/world-library/worlds/spice-and-wolf/factions/factions.json",
+    "campaigns/world-library/worlds/spice-and-wolf/sandbox/scenario-seeds.json",
+    "world-info-library/worlds/spice-and-wolf/curated/world.json",
+    "world-info-library/worlds/spice-and-wolf/curated/characters-index.json",
+    "world-info-library/worlds/spice-and-wolf/curated/knowledge-graph.json",
+    "world-info-library/worlds/spice-and-wolf/curated/relationship-graph.json"
+  ],
+  "curationScope": "补足 retry-12 要求的经济旅行运行层：人物、商路时间线、篇章、能力/交易体系、地点、关系与 RP notes。",
+  "coverageNote": "本地归档显示 characters 85、canonArcs 60、fullPlot 63、timeline 3、abilities 53、powerSystems 24、locations 73、factions 63、scenarioSeeds 73；现有 curated 已有罗伦斯、赫萝、寇尔、缪里等基础索引，本文件补充旅途经济模块和阶段化使用规则。",
+  "characters": {
+    "coreTravelParty": [
+      {
+        "id": "kraft-lawrence",
+        "name": "克拉福·罗伦斯",
+        "role": "行商、谈判者、旅途视角锚点",
+        "rpUse": "以账本、货车、商会关系和风险判断推动剧情；战斗解决力低，真正优势是识别价格、信用和人心。",
+        "limits": ["不能凭空知道市场真相。", "错误判断应造成债务、货损、信誉受损或旅程延误。"]
+      },
+      {
+        "id": "holo-wise-wolf",
+        "name": "赫萝",
+        "aliases": ["约伊兹的贤狼"],
+        "role": "狼神、旅伴、情感与信仰线核心",
+        "rpUse": "以长寿记忆、狡黠对话、狼耳尾巴隐藏风险和故乡乡愁制造张力。",
+        "limits": ["狼形与神性暴露会引来教会或地方权力关注。", "她不是全能神；孤独、嫉妒和被遗忘恐惧会影响判断。"]
+      },
+      {
+        "id": "tote-col",
+        "name": "托特·寇尔",
+        "role": "年轻旅伴、学徒/圣职者视角、续作桥梁",
+        "rpUse": "适合承接罗伦斯的商路教学、赫萝与缪里的家族/信仰线，以及教会内部改革路线。"
+      },
+      {
+        "id": "myuri",
+        "name": "缪里",
+        "role": "后日谈/续作线的狼女与旅途继承者",
+        "rpUse": "用于纽希拉之后的家族、年轻旅行、骑士契约与新大陆传闻支线；早期主线默认不提前登场。",
+        "visibility": "post-main-or-if"
+      }
+    ],
+    "recurringAnchors": [
+      "诺儿拉：第二卷牧羊人与教会压力的关键，适合作为宗教秩序、职业污名和救援委托入口。",
+      "艾普·布朗：雷诺斯商战中的高风险商人，可代表野心、债务、木材/毛皮市场与政治交易。",
+      "狄安娜·鲁本斯：异教传说、炼金/书籍、人外记忆与约伊兹线索的重要知识源。",
+      "马克·科尔：城镇商人网络和信用担保节点，适合在商会与地方市场中提供落脚点。",
+      "阿玛缇：年轻商人与感情/契约误会节点，可作为价格波动、嫉妒与信用危机的触发器。",
+      "埃布/德堡商人群体：北方商权、德堡商会、太阳金币与大型商会博弈的运行层。"
+    ],
+    "indexingPolicy": "后续若写入 characters-index，应区分原作旅途阶段、纽希拉后日谈阶段和续作狼与羊皮纸阶段，避免把缪里/寇尔未来关系提前写入早期旅程。"
+  },
+  "powerAndEconomySystems": [
+    {
+      "id": "merchant-arbitrage-credit",
+      "name": "行商套利、信用与契约",
+      "summary": "货物价格、季节、关税、货币成色、远期承诺和商人信誉共同决定收益。",
+      "rpRules": ["每次交易先声明货物、成本、预期卖点、债务和可承受亏损。", "商会信用比现金更难恢复；违约后会影响多个城镇。", "信息不对称应通过酒馆、商会、旅店、教会和竞争者逐步揭开。"],
+      "failureModes": ["货币贬值", "市场被垄断", "货物滞销", "契约陷阱", "路费和税费侵蚀利润"]
+    },
+    {
+      "id": "currency-and-speculation",
+      "name": "货币、兑换、投机与债务",
+      "summary": "银币含量、金币信誉、地方铸币、假消息与赊账构成多卷经济谜题。",
+      "rpRules": ["货币交易应记录币种、纯度传闻和兑换点。", "投机获利前必须承担保证金、违约、追债或货物抵押。", "债务压力可作为旅途节奏计时器。"]
+    },
+    {
+      "id": "church-faith-and-pagan-gods",
+      "name": "教会、异教神与地方信仰",
+      "summary": "赫萝等旧神存在于传说和记忆中，教会则控制异端话语、救济网络和城镇政治合法性。",
+      "rpRules": ["公开神迹会带来保护与追捕双重后果。", "地方祭典可隐藏古神线索，也可被教会重新解释。", "与神相关的真相通常先以故事、书籍、遗物和老人记忆出现。"]
+    },
+    {
+      "id": "road-survival-and-weather",
+      "name": "商路生存、天气与后勤",
+      "summary": "道路、桥梁、森林、冬季、盗贼、马匹和货车状况决定旅途难度。",
+      "rpRules": ["长途旅行应有粮食、饲料、住宿、路况和安全检查。", "赫萝的感知可降低风险但不能替代物流。", "恶劣天气会改变市场价格和情绪温度。"]
+    }
+  ],
+  "factionsAndLocations": {
+    "factions": [
+      {"id": "traveling-merchants", "name": "行商与商会网络", "role": "交易、担保、传言、雇佣护卫和信息流通的基本社会骨架。"},
+      {"id": "church-runtime", "name": "教会/异端审查层", "role": "救济、审判、传教和地方政治合法性来源，对旧神与异端职业高度敏感。"},
+      {"id": "town-councils-and-guilds", "name": "城镇议会、行会与贵族", "role": "控制税、仓库、通行许可、市场规则和大型商战结果。"},
+      {"id": "old-gods-and-legends", "name": "旧神、传说与人外知识源", "role": "约伊兹、狼骨、异教祭典和书籍线索的幕后层。"},
+      {"id": "nyohhira-family-stage", "name": "纽希拉温泉与家族后日谈", "role": "罗伦斯与赫萝旅途后的生活据点，连接缪里/寇尔续作线。"}
+    ],
+    "locations": [
+      {"id": "pasloe-village", "name": "帕斯罗村", "sceneUses": ["赫萝与罗伦斯契约起点", "丰收神被遗忘", "乡村信仰冲突"]},
+      {"id": "rubenheigen", "name": "留宾海根", "sceneUses": ["教会城市", "黄金与债务危机", "诺儿拉支线"]},
+      {"id": "kumerson-festival", "name": "库梅尔森/异教祭典城市", "sceneUses": ["祭典", "阿玛缇契约", "书商与狄安娜线索"]},
+      {"id": "renos", "name": "雷诺斯", "sceneUses": ["毛皮/木材商战", "北方消息", "艾普·布朗风险交易"]},
+      {"id": "kerube", "name": "克尔贝/对立城镇", "sceneUses": ["商权分裂", "一角鲸与海路传闻", "城镇政治谈判"]},
+      {"id": "winfiel-and-north", "name": "温菲尔与北方路线", "sceneUses": ["羊毛", "古狼骨", "约伊兹与北方传说"]},
+      {"id": "nyohhira", "name": "纽希拉", "sceneUses": ["温泉旅馆", "归途后日谈", "缪里与寇尔出发点"]}
+    ]
+  },
+  "timelineAndArcs": [
+    {"id": "arc-01-pasloe", "label": "帕斯罗契约", "beats": ["罗伦斯遇见赫萝", "村落丰收信仰变化", "向北故乡愿望启动"]},
+    {"id": "arc-02-rubenheigen", "label": "留宾海根黄金之赌", "beats": ["债务与金币", "诺儿拉与教会压力", "走私/救援选择"]},
+    {"id": "arc-03-festival-and-diana", "label": "异教祭典与狄安娜线索", "beats": ["祭典", "阿玛缇契约误会", "异教神与书籍知识"]},
+    {"id": "arc-04-renos-and-bone", "label": "雷诺斯商战、罗姆河与狼骨", "beats": ["木材/毛皮交易", "艾普风险合作", "古狼骨与约伊兹线索"]},
+    {"id": "arc-05-kerube-sun-gold", "label": "对立城镇与太阳金币", "beats": ["商权与航运", "德堡商会", "大型金币/北方路线博弈"]},
+    {"id": "arc-06-homecoming", "label": "归途、重逢与纽希拉", "beats": ["故乡真相的接受", "罗伦斯与赫萝关系定型", "温泉旅馆与家庭生活"]},
+    {"id": "arc-07-wolf-and-parchment", "label": "狼与羊皮纸续作线", "beats": ["寇尔与缪里旅行", "教会改革", "骑士契约与新大陆传闻"], "visibility": "optional-sequel"}
+  ],
+  "relationships": [
+    {"source": "罗伦斯", "target": "赫萝", "type": "旅伴/恋人/契约共同体", "runtimeNote": "关系推进应通过交易失败、嫉妒、照顾、离别恐惧和共同选择完成。"},
+    {"source": "罗伦斯", "target": "商会网络", "type": "信用依赖", "runtimeNote": "好名声是通行证，坏账会使后续城镇敌对。"},
+    {"source": "赫萝", "target": "约伊兹", "type": "故乡/记忆", "runtimeNote": "北方不是单纯坐标，而是长寿孤独与时代变迁的象征。"},
+    {"source": "赫萝", "target": "教会", "type": "旧神与新信仰冲突", "runtimeNote": "公开身份会把商业剧转为宗教政治剧。"},
+    {"source": "寇尔", "target": "缪里", "type": "续作旅伴", "runtimeNote": "默认在后日谈后启用，适合年轻角色成长线。"}
+  ],
+  "rpNotes": [
+    "本世界不靠高魔战斗推进；危机应来自价格、天气、债务、信用、信仰和关系误判。",
+    "每个城镇至少设定一种商品、一种权力结构、一条传言和一个交易风险。",
+    "赫萝的神性应与隐藏身份并存：她能震慑敌人，但暴露会改变整个社会场景。",
+    "罗伦斯若被 OC 取代，应保留商路逻辑与赫萝的选择权，而不是直接变成万能恋爱路线。",
+    "续作人物缪里/寇尔默认是后日谈或 IF，不自动进入早期旅途。"
+  ],
+  "residualGaps": [
+    "timeline 分类只有 3 条，仍需后续把 60 个篇章条目拆成更细日期/路线。",
+    "部分源条目含续作和二部剧情，当前只做阶段标记，未逐项核对角色年龄与地点。",
+    "characters-index 现有低置信配角仍需后续按源证据补完。"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "rp-timeline-extension-v1",
+  "worldId": "high-school-dxd",
+  "sourceRefs": [
+    "src-high-school-dxd-001",
+    "src-high-school-dxd-002"
+  ],
+  "curationConfidence": "B",
+  "events": [
+    {
+      "id": "issei-killed-reborn",
+      "order": 1,
+      "name": "一诚被堕天使杀害并转生恶魔",
+      "summary": "丽娜丽伪装接近并杀死一诚，莉雅丝以士兵棋子将其转生。",
+      "confidence": "B"
+    },
+    {
+      "id": "asia-fallen-angel",
+      "order": 2,
+      "name": "爱西亚与堕天使事件",
+      "summary": "治愈神器被堕天使争夺，爱西亚转生恶魔并加入眷族。",
+      "confidence": "B"
+    },
+    {
+      "id": "raiser-rating-game",
+      "order": 3,
+      "name": "莱萨婚约评级游戏",
+      "summary": "莉雅丝被政治婚约束缚，一诚和眷族挑战菲尼克斯家。",
+      "confidence": "B"
+    },
+    {
+      "id": "holy-sword-crisis",
+      "order": 4,
+      "name": "王者之剑/木场圣剑创伤",
+      "summary": "教会圣剑士到来，木场面对圣剑计划创伤。",
+      "confidence": "B"
+    },
+    {
+      "id": "three-factions-summit",
+      "order": 5,
+      "name": "三大势力和平会谈",
+      "summary": "恶魔、天使、堕天使试图建立和平框架。",
+      "confidence": "B"
+    },
+    {
+      "id": "vali-contact",
+      "order": 6,
+      "name": "白龙皇瓦利接触",
+      "summary": "瓦利作为宿敌与镜像强者登场。",
+      "confidence": "B"
+    },
+    {
+      "id": "khaos-brigade-escalation",
+      "order": 7,
+      "name": "祸之团与旧魔王派升级",
+      "summary": "奥菲斯名义、旧魔王派、英雄派与神器宿主争夺使局势跨神话化。",
+      "confidence": "B"
+    },
+    {
+      "id": "kyoto-youkai",
+      "order": 8,
+      "name": "京都妖怪事件",
+      "summary": "京都妖怪界、仙术和小猫/黑歌线纳入主线。",
+      "confidence": "B"
+    },
+    {
+      "id": "world-rating-game-late",
+      "order": 9,
+      "name": "世界排名游戏与后期神话外交",
+      "summary": "毕业、眷族扩编和世界级排名游戏属于后期分支。",
+      "confidence": "C"
+    }
+  ],
+  "notes": "由 campaigns/world-library/worlds/high-school-dxd/world、characters、power-systems 与 plot 条目人工压缩；后期世界排名游戏按低置信分支处理。"
+}

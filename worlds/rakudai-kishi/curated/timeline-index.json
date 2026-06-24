@@ -1,0 +1,49 @@
+{
+  "schema": "rp-curation-timeline-index-v1",
+  "worldId": "rakudai-kishi",
+  "displayName": "落第骑士英雄谭",
+  "status": "compact-rp-index-derived-from-campaign-archive",
+  "updatedAt": "2026-06-24",
+  "sourceRefs": [
+    "campaigns/world-library/worlds/rakudai-kishi/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/rakudai-kishi/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/rakudai-kishi/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/rakudai-kishi/world/world.json",
+    "world-info-library/worlds/rakudai-kishi/curated/source-registry.json"
+  ],
+  "plotArcIndex": [
+    {
+      "arcId": "hagagure-academy-entry",
+      "label": "破军学园/落第骑士起点",
+      "rpUse": "建立一辉的最低等级评价、学园制度、校内对战与名誉压力。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "selection-and-tournament-pressure",
+      "label": "七星剑武祭选拔与校内竞争",
+      "rpUse": "适合训练、擂台、结盟、 rival 对战和能力展示。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "kurogane-family-and-status-conflict",
+      "label": "黑铁家/身份压迫",
+      "rpUse": "处理贵族、家族、才能评价与社会结构冲突。",
+      "confidence": "B"
+    },
+    {
+      "arcId": "international-and-organizational-expansion",
+      "label": "国际组织与后续篇章扩展",
+      "rpUse": "作为长期线使用；具体人物与组织细节需回查 campaign canon-reference。",
+      "confidence": "C"
+    }
+  ],
+  "systemIndex": {
+    "coreTerms": ["伐刀者", "固有灵装", "魔力", "剑技", "Noble Arts/伐刀绝技", "骑士学校制度"],
+    "useRule": "战斗强度以本作学园战/公式战表现为准，不直接外推跨作品强度。",
+    "adultSourceFilter": "character-nsfw/nsfw-rules 作为 raw/source 保留，不进入公开 RP 起始索引。"
+  },
+  "openQuestions": [
+    "后续国际篇具体顺序与人物状态需按 canon-reference/timeline.json 逐条确认。",
+    "自动归档中重复或成人向条目需要在使用前再筛选。"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "rp-curation-completion-addendum-v1",
+  "worldId": "omamori-himari",
+  "stepId": "retry-09",
+  "status": "layered-supplement",
+  "sourceEvidence": {
+    "readableSources": [
+      "campaigns/world-library/worlds/omamori-himari/characters/characters.json",
+      "campaigns/world-library/worlds/omamori-himari/factions/factions.json",
+      "campaigns/world-library/worlds/omamori-himari/locations/locations.json",
+      "campaigns/world-library/worlds/omamori-himari/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/omamori-himari/power-systems/abilities.json",
+      "campaigns/world-library/worlds/omamori-himari/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/omamori-himari/canon-reference/timeline.json",
+      "campaigns/world-library/worlds/omamori-himari/canon-reference/plot-summary.json"
+    ],
+    "sourceCategoryCounts": {
+      "characters": 72,
+      "factions": 33,
+      "locations": 34,
+      "powerSystems": 38,
+      "abilities": 50,
+      "arcs": 38,
+      "timeline": 2,
+      "plotSummary": 1
+    },
+    "sourceRisks": [
+      "自动分类中人物、势力、地点、能力条目高度重复；本补记按可辨识角色卡和章节条目重新分层。",
+      "源世界书含恋爱喜剧/后宫互动与成人化风险；curated 仅保留人物关系和超自然冲突。"
+    ]
+  },
+  "coverageAdditions": {
+    "characterLayers": [
+      {
+        "layer": "天河家核心",
+        "members": ["天河优人", "野井原绯鞠", "静水久", "莉兹丽特·L·查尔斯"],
+        "rpUse": "家宅据点、守护关系、人妖共存日常和妖怪袭击的基础团队。"
+      },
+      {
+        "layer": "人类日常侧",
+        "members": ["九崎凛子", "柾木泰三", "嶋村有", "如月冴"],
+        "rpUse": "高宫学园、普通社会视角、秘密暴露风险和喜剧缓冲。"
+      },
+      {
+        "layer": "鬼斩役十二家",
+        "members": ["神宫寺玖惠澄", "土御门", "各务森飞白", "天河家残存血脉"],
+        "rpUse": "退魔家系政治、追杀令、保护人类使命和家族断绝历史。"
+      },
+      {
+        "layer": "妖怪与中立/敌对来访者",
+        "members": ["明夏羽", "沙砂", "影月", "夜魔姬", "加耶", "酒吞童子关联大妖"],
+        "rpUse": "从单集冲突到群妖阵营的升级池；具体强度需按章节确认。"
+      },
+      {
+        "layer": "政府与监督者",
+        "members": ["镝木兵吾", "公安警卫四部局相关人员"],
+        "rpUse": "现代国家对超自然事件的隐秘管理和信息封锁。"
+      }
+    ],
+    "factionLayers": [
+      {
+        "id": "demon-slayer-twelve-houses",
+        "name": "鬼斩役十二家",
+        "summary": "自古保护人类并斩杀有害妖怪的家族联盟，现多已断绝或衰落；土御门、各务森、神宫寺、天河等为关键残存线索。"
+      },
+      {
+        "id": "amakawa-household",
+        "name": "天河家与守护妖怪",
+        "summary": "优人继承天河血脉，绯鞠作为附庸守护者重返身边，家宅逐渐成为人类、妖怪与付丧神共处据点。"
+      },
+      {
+        "id": "youkai-communities",
+        "name": "妖怪群体",
+        "summary": "包括猫妖、水妖/虬、付丧神、飞缘魔、一本踏鞴、夜魔等；并非全员敌对，常因历史仇恨、求生或误解与鬼斩役冲突。"
+      },
+      {
+        "id": "public-security-occult-branch",
+        "name": "公安警卫四部局",
+        "summary": "国家侧处理超自然现象的隐秘部门，可作为调查、掩盖、征召或压力来源。"
+      }
+    ],
+    "powerSystemLayers": [
+      {
+        "id": "demon-slayer-bloodline",
+        "summary": "鬼斩役依靠家系传承、退魔技艺、结界和武器对抗妖怪；天河血脉的觉醒程度决定优人能否主动介入战斗。"
+      },
+      {
+        "id": "youkai-nature-and-oaths",
+        "summary": "妖怪能力与本体种族相关，如猫妖剑技、水属性妖龙、付丧神器物本体；契约、附庸和恩义会改变敌我关系。"
+      },
+      {
+        "id": "barriers-and-concealment",
+        "summary": "结界、隐秘处置和记忆/信息控制用于维持现代社会表面秩序。"
+      },
+      {
+        "id": "modern-ordinary-constraints",
+        "summary": "学校、警察、媒体、家庭和城市空间会限制公开战斗，适合将冲突压缩到夜间、废弃地或结界内。"
+      }
+    ],
+    "arcLayers": [
+      {
+        "title": "妖猫的觉醒与命运之绊",
+        "anchors": ["优人家", "上学路", "天河家本宅"],
+        "function": "绯鞠归来、优人血脉与守护契约开局。"
+      },
+      {
+        "title": "潜伏的杀机与波光中的水妖",
+        "anchors": ["海滨浴场", "野井原近郊", "优人家"],
+        "function": "静水久登场，妖怪不必然敌对的主题展开。"
+      },
+      {
+        "title": "红茶的香气与付丧神的告白",
+        "anchors": ["Cafe Relish", "后巷", "优人家"],
+        "function": "莉兹丽特加入，日常据点和付丧神设定补强。"
+      },
+      {
+        "title": "山林中的夜魔姬与母亲的面容",
+        "anchors": ["学校后山", "结界内异空间"],
+        "function": "心理诱导、亲情记忆和异空间结界威胁。"
+      },
+      {
+        "title": "鬼斩役的追杀与雨夜的决意",
+        "anchors": ["放学街道", "废弃建筑工地", "优人家"],
+        "function": "鬼斩役立场、妖怪追杀和优人选择立场。"
+      }
+    ],
+    "relationshipPriorities": [
+      "优人-绯鞠：主仆/守护、幼年记忆和战斗保护。",
+      "优人-凛子：青梅竹马、普通世界锚点和秘密暴露压力。",
+      "绯鞠-静水久/莉兹丽特：竞争、同居与妖怪阵营内部的信任建立。",
+      "优人-玖惠澄/鬼斩役：婚约、家系政治与是否斩妖的价值冲突。",
+      "鬼斩役-妖怪：历史仇恨与共存可能性的核心矛盾。"
+    ],
+    "locationLayers": [
+      "高宫学园与通学路线",
+      "优人家/天河家据点",
+      "Cafe Relish",
+      "野井原近郊与山林结界",
+      "废弃建筑工地、海滨浴场等临时战斗场"
+    ]
+  },
+  "residualGaps": [
+    "未将 72 个候选人物逐条去重并落入 characters-index；建议下一轮按天河家、鬼斩役、妖怪三批处理。",
+    "后期大妖与群妖阵营仍缺少完整权力结构；源里可见但需人工清洗重复分类。",
+    "时间线源仅 2 条，章节顺序已按可读章节条目补骨架，完整卷级年表待补。"
+  ]
+}

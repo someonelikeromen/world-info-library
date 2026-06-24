@@ -1,0 +1,64 @@
+{
+  "schema": "rp-curation-completion-index-v1",
+  "worldId": "evangelion",
+  "status": "locally-verified-after-agent-service-failure",
+  "updatedAt": "2026-06-24",
+  "sourceCoverage": {
+    "primarySourceIds": ["src-evangelion-001", "src-evangelion-002"],
+    "campaignArchiveRoot": "campaigns/world-library/worlds/evangelion",
+    "consultedOrIndexedPaths": [
+      "manifest.json",
+      "source-registry.json",
+      "world/world.json",
+      "characters/characters.json",
+      "factions/factions.json",
+      "locations/locations.json",
+      "power-systems/power-systems.json",
+      "canon-reference/timeline.json",
+      "canon-reference/arcs.json",
+      "canon-reference/full-plot.json",
+      "canon-reference/plot-summary.json",
+      "reports/classification-report.md",
+      "reports/conflicts.md",
+      "reports/low-confidence.md"
+    ],
+    "rawPreservedButNotImported": [
+      "raw/original-entry-index.json",
+      "raw/imported-worldbooks/eva_card.worldbook.json",
+      "raw/imported-worldbooks/新世纪福音战士·旧约.worldbook.json"
+    ]
+  },
+  "curatedModules": [
+    "world.json",
+    "characters-index.json",
+    "knowledge-graph.json",
+    "relationship-graph.json",
+    "source-registry.json",
+    "timeline.json",
+    "README.md",
+    "curation-notes.md"
+  ],
+  "continuityPolicy": {
+    "default": "route-lock-required",
+    "branches": ["tv-series", "end-of-evangelion-old-movie", "rebuild-new-movie", "sandbox/old-testament-worldbook"],
+    "rule": "不要在同一 RP 场景中无标记混用 TV、旧剧场、新剧场与导入沙盒扩写。"
+  },
+  "coverageChecks": {
+    "readmeReviewed": true,
+    "curationNotesReviewed": true,
+    "sourceRegistryReviewed": true,
+    "campaignSourcesIndexed": true,
+    "rawSourcesSeparated": true,
+    "jsonValidationPassed": true
+  },
+  "knownLimits": [
+    "世界书归档混有 TV、旧剧场、新剧场和沙盒扩写；timeline.json/world.json 已按分支锁定原则使用。",
+    "部分角色和使徒细节仍需在具体路线确定后再做逐条深挖。",
+    "成人/NSFW 分类源保留在 campaign 归档，不导入公开 RP 索引。"
+  ],
+  "rpStartupGuidance": [
+    "开局必须声明连续性分支。",
+    "TV/旧剧场适合心理压迫、NERV/SEELE 阴谋和补完计划；Rebuild 需单独设定角色状态。",
+    "高冲突术语以 source-registry.json 的 conflictLog 和 timeline.json 的 branch notes 为准。"
+  ]
+}

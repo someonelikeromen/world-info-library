@@ -1,0 +1,81 @@
+{
+  "schema": "rp-timeline-extension-v1",
+  "worldId": "gate-jsdf",
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
+  "curationConfidence": "B",
+  "events": [
+    {
+      "id": "ginza-incident",
+      "order": 1,
+      "name": "银座事件与门开启",
+      "summary": "帝国军与怪物从银座的门入侵，日本将门另一侧定义为特区并派遣自卫队。",
+      "confidence": "B"
+    },
+    {
+      "id": "alnus-base",
+      "order": 2,
+      "name": "阿尔努斯建制",
+      "summary": "自卫队压制阿尔努斯丘陵并建立特地派遣方面队基地，第三侦查队开始与居民接触。",
+      "confidence": "B"
+    },
+    {
+      "id": "italica-defense",
+      "order": 3,
+      "name": "伊塔黎卡防卫",
+      "summary": "伊丹一行、平娜与蔷薇骑士团在伊塔黎卡对抗盗贼，帝国讲和线浮现。",
+      "confidence": "B"
+    },
+    {
+      "id": "alnus-economy",
+      "order": 3.5,
+      "name": "阿尔努斯共同体形成",
+      "summary": "难民、亚人、商人与自卫队协助者围绕基地形成经济圈。",
+      "confidence": "B"
+    },
+    {
+      "id": "fire-dragon-hunt",
+      "order": 4,
+      "name": "炎龙讨伐",
+      "summary": "暗黑精灵求援，伊丹、杜嘉、蕾莱、萝莉等介入炎龙灾害并建立英雄声望。",
+      "confidence": "B"
+    },
+    {
+      "id": "empire-civil-war",
+      "order": 5,
+      "name": "帝国政变与内战",
+      "summary": "索沙尔主战派发动政变，平娜与讲和派借自卫队支援反击。",
+      "confidence": "B"
+    },
+    {
+      "id": "tyuule-black-street",
+      "order": 5.4,
+      "name": "蒂尤蕾黑街复仇线",
+      "summary": "蒂尤蕾利用索沙尔和黑街情报网络制造内战，古田线可介入救赎或失败分歧。",
+      "confidence": "B"
+    },
+    {
+      "id": "gate-collapse",
+      "order": 6,
+      "name": "冥门与门崩塌",
+      "summary": "围绕蕾莱、银座驻地、阿尔努斯防线和虫兽入侵的多线危机导致门关闭。",
+      "confidence": "B"
+    },
+    {
+      "id": "foreign-agents-ginza",
+      "order": 6.2,
+      "name": "地球列强夺门行动",
+      "summary": "外国情报机关围绕银座、阿尔努斯人员和特区情报展开渗透/绑架。",
+      "confidence": "B"
+    },
+    {
+      "id": "four-years-later",
+      "order": 7,
+      "name": "四年后再连通",
+      "summary": "特区与地球分离后重建；伊丹等人以同人志即卖会为锚再次打开通路。",
+      "confidence": "B"
+    }
+  ],
+  "notes": "从 campaigns/world-library/worlds/gate-jsdf/canon-reference 与 world/characters/factions 分类归纳；源保留完整条目。 已补入阿尔努斯共同体、黑街复仇和列强干涉节点。"
+}

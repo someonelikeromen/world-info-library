@@ -1,0 +1,101 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "infinite-stratos",
+  "completionPass": "complete-06",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/infinite-stratos/source-registry.json",
+    "campaigns/world-library/worlds/infinite-stratos/characters/characters.json",
+    "campaigns/world-library/worlds/infinite-stratos/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/infinite-stratos/canon-reference/timeline.json",
+    "campaigns/world-library/worlds/infinite-stratos/factions/factions.json",
+    "campaigns/world-library/worlds/infinite-stratos/power-systems/power-systems.json",
+    "world-info-library/worlds/infinite-stratos/curated/world-expansion.json"
+  ],
+  "coverageNote": "本地源混有大量写卡、状态栏和成人偏好模板；本模块只抽取 IS 学园、核心人物、代表候补生、机体、训练赛与亡国机业/暴走机体等可用世界资料。",
+  "characters": {
+    "coreIndexedAlready": [
+      "ichika-orimura",
+      "chifuyu-orimura",
+      "houki-shinonono",
+      "cecilia-alcott",
+      "huang-lingyin",
+      "charlotte-dunois",
+      "laura-bodewig",
+      "tatenashi-sarashiki",
+      "kanzashi-sarashiki",
+      "maya-yamada",
+      "tabane-shinonono"
+    ],
+    "sourceDerivedSupplements": [
+      {"id": "dan-gotanda", "name": "五反田弹", "role": "一夏校外男性友人，日常侧支点。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "C"},
+      {"id": "ran-gotanda", "name": "五反田兰", "role": "五反田弹的妹妹，校外日常/家族关系线。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "C"},
+      {"id": "natasha-fairs", "name": "娜塔莎·法鲁斯", "role": "银色福音相关驾驶员/失控事件受害者。", "machines": ["silver-gospel"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+      {"id": "madoka-orimura", "name": "织斑圆 / MadoKa", "role": "织斑家身份谜题与亡国机业侧敌对线。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+      {"id": "m", "name": "M", "role": "亡国机业行动人员，适合作为潜入、夺取核心和袭击机体任务的执行者。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"}
+    ]
+  },
+  "timeline": [
+    {"phase": "white-knight-background", "title": "白骑士/IS 核心黑箱背景", "beats": ["篠之之束发明 IS", "白骑士事件和核心来源成为国际秘密", "各国建立代表候补生体系"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"phase": "ichika-exception", "title": "唯一男性驾驶者", "beats": ["织斑一夏误入测试场", "启动白式", "男性适格者身份引发全球关注", "进入 IS 学园接受保护和训练"], "sourceRefs": ["src-infinite-stratos-001"]},
+    {"phase": "class-representative", "title": "班级代表战与基础规则", "beats": ["塞西莉亚挑战一夏", "白式与蓝色眼泪对战", "训练赛护盾/耐久规则建立", "近战与远程 BIT 战术对比"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"phase": "representatives-gather", "title": "各国代表候补生集结", "beats": ["凰铃音、夏洛特、拉芙拉等登场", "国家背景和专用机差异推动校园冲突", "千冬/山田真耶维持教学和安保"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"phase": "runaway-is", "title": "不明机、银色福音和禁忌技术", "beats": ["无人/失控 IS 袭击", "银色福音暴走", "VT 系统与阿拉斯加条约疑云", "学园训练转为实战安全事件"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"phase": "phantom-task", "title": "亡国机业阴谋", "beats": ["地下组织盯上白式和专用机核心", "M/织斑圆等敌对线浮出", "学园、各国和束的技术秘密被迫交汇"], "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"}
+  ],
+  "plotArcs": [
+    {"id": "academy-training", "title": "IS 学园训练赛", "use": "课堂、竞技场、班级代表、团队演习和宿舍日常；默认非致命护盾规则。"},
+    {"id": "national-representatives", "title": "代表候补生外交", "use": "让英国、中国、法国、德国、日本等国家背景成为技术竞争和人际冲突来源。"},
+    {"id": "personal-unit-growth", "title": "专用机成长", "use": "围绕核心同步率、Package 换装、One-off ability 和整备权限安排成长。"},
+    {"id": "runaway-and-phantom", "title": "暴走机体与亡国机业", "use": "把训练赛升级为实战任务、机体失控、核心夺取和校园安全危机。"}
+  ],
+  "machinesAndEquipment": [
+    {"id": "byakushiki", "name": "白式", "pilot": "ichika-orimura", "role": "近战特化与零落白夜，男性驾驶者异常点。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "akatsubaki", "name": "红椿", "pilot": "houki-shinonono", "role": "第四代高阶专用机，束技术和箒成长线。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "blue-tears", "name": "蓝色眼泪", "pilot": "cecilia-alcott", "role": "远程射击和 BIT 武器教学对手。", "sourceRefs": ["src-infinite-stratos-001"]},
+    {"id": "shenlong", "name": "甲龙", "pilot": "huang-lingyin", "role": "冲击炮与近中距离战。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "rafale-revive-custom-ii", "name": "疾风・里凡穆・订制Ⅱ", "pilot": "charlotte-dunois", "role": "多武装切换和企业/身份压力线。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "schwarzer-regen", "name": "黑雨", "pilot": "laura-bodewig", "role": "AIC/越界之瞳与军用风格。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "mysterious-lady", "name": "雾缠的淑女", "pilot": "tatenashi-sarashiki", "role": "学生会长级水/雾战术机体。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"},
+    {"id": "silver-gospel", "name": "银色福音", "pilot": "natasha-fairs", "role": "第三代军用 IS 和暴走事件核心。", "sourceRefs": ["src-infinite-stratos-001"], "confidence": "B"}
+  ],
+  "powerSystems": [
+    {"id": "is-core", "name": "IS 核心", "rules": ["核心是战略资源，决定展开和成长。", "核心来源、数量和白骑士事件默认 GM 机密。"]},
+    {"id": "shield-energy", "name": "绝对防御/护盾能量", "rules": ["训练赛以护盾/耐久归零判负。", "实战中护盾耗尽后可造成驾驶员重伤。"]},
+    {"id": "package-loadout", "name": "Package / 武装配置", "rules": ["任务前可换装，但需要整备、权限和适配。", "待机形态多为饰品或随身物件。"]},
+    {"id": "one-off-ability", "name": "One-off ability", "rules": ["核心与驾驶员高度同步时出现独有能力。", "应作为危机突破或成长节点，不作无代价常驻。"]},
+    {"id": "vt-system", "name": "VT 系统/禁忌技术", "rules": ["涉及阿拉斯加条约和禁忌研究。", "启用时应触发调查、问责或亡国机业线索。"], "confidence": "B"}
+  ],
+  "factions": [
+    {"id": "is-academy", "role": "训练、宿舍、竞技和保护一夏的中心舞台。"},
+    {"id": "national-representatives", "role": "各国代表候补生和专用机技术竞争框架。"},
+    {"id": "shinonono-research", "role": "篠之之束、核心黑箱、白骑士和红椿等高阶技术来源。"},
+    {"id": "phantom-task", "role": "围绕白式、核心和驾驶员发动袭击的地下组织。", "confidence": "B"},
+    {"id": "alaska-treaty-system", "role": "约束 IS 技术共享、军事用途和禁忌研究的国际规则。", "confidence": "B"}
+  ],
+  "locations": [
+    {"id": "is-academy", "name": "IS 学园", "role": "课堂、宿舍、代表候补生日常和安保事件。"},
+    {"id": "arena", "name": "竞技场/训练场", "role": "班级代表战、模拟战、机体测试和突发袭击。"},
+    {"id": "maintenance-bay", "name": "整备库", "role": "Package 更换、机体维修、核心数据保护。"},
+    {"id": "underground-lab", "name": "地下/研发设施", "role": "束、核心黑箱、禁忌系统和黑客潜入线。", "confidence": "B"},
+    {"id": "international-test-site", "name": "国际测试场/军工设施", "role": "银色福音、亡国机业和国家任务。", "confidence": "B"}
+  ],
+  "relationships": [
+    {"from": "ichika-orimura", "to": "chifuyu-orimura", "type": "younger-brother-and-guardian-teacher", "visibility": "public"},
+    {"from": "ichika-orimura", "to": "houki-shinonono", "type": "childhood-friends-and-unit-growth", "visibility": "public-progressive"},
+    {"from": "ichika-orimura", "to": "cecilia-alcott", "type": "rival-to-ally", "visibility": "public-progressive"},
+    {"from": "tabane-shinonono", "to": "is-core", "type": "inventor-secret-holder", "visibility": "gm-only"},
+    {"from": "phantom-task", "to": "is-academy", "type": "hostile-infiltration", "visibility": "private"},
+    {"from": "madoka-orimura", "to": "ichika-orimura", "type": "identity-mystery-hostility", "visibility": "gm-only", "confidence": "B"}
+  ],
+  "rpNotes": [
+    "先声明 RP 重心：校园训练、代表候补生日常、专用机改装、国际任务或亡国机业阴谋。",
+    "训练赛和实战必须区分护盾规则、交战授权、救援窗口和伤害尺度。",
+    "一夏的男性驾驶者身份会触发国家、媒体、学园安保和反派关注，不是普通转校生设定。",
+    "源内成人化状态栏和控制模板不进入 curated 世界规则；只保留机体、角色、阵营和剧情骨架。"
+  ],
+  "residualGaps": [
+    "五反田家、织斑圆、M 等在本地源中多为扩展语境，需独立源条目二次校对。",
+    "IS 核心数量、白骑士事件、阿拉斯加条约和 VT 系统需要更细 canon 表。",
+    "未把所有机体参数、武装包和同步率成长曲线拆成标准机体索引。"
+  ]
+}

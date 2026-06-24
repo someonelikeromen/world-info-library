@@ -1,0 +1,433 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "tokyo-ghoul",
+  "completionPass": "complete-14",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/tokyo-ghoul/reports/classification-report.md",
+    "campaigns/world-library/worlds/tokyo-ghoul/characters/characters.json",
+    "campaigns/world-library/worlds/tokyo-ghoul/factions/factions.json",
+    "campaigns/world-library/worlds/tokyo-ghoul/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/tokyo-ghoul/canon-reference/arcs.json"
+  ],
+  "coverageNote": "本地归档有 87 条保留条目，但 canonTimeline 为 0；本模块按既有 characters/factions/powerSystems/canonArcs 做保守分层，不展开所有 :re 后期与每区小队。",
+  "characters": {
+    "coreIndexed": [
+      {
+        "id": "ken-kaneki",
+        "name": "金木研",
+        "layer": "main",
+        "rpUse": "半喰种视角、身份撕裂、喰种/人类桥梁。"
+      },
+      {
+        "id": "touka-kirishima",
+        "name": "雾岛董香",
+        "layer": "main",
+        "rpUse": "20区日常、安定区保护者、羽赫战斗与情感线。"
+      },
+      {
+        "id": "rize-kamishiro",
+        "name": "神代利世",
+        "layer": "secret-catalyst",
+        "rpUse": "器官移植、V/和修追索、金木体内喰种化源头。"
+      },
+      {
+        "id": "yoshimura",
+        "name": "芳村",
+        "layer": "mentor",
+        "rpUse": "安定区生存伦理、不杀之枭秘密、对艾特线索。"
+      },
+      {
+        "id": "koutarou-amon",
+        "name": "亚门钢太朗",
+        "layer": "ccg-mirror",
+        "rpUse": "人类正义与喰种同情的镜像对手。"
+      },
+      {
+        "id": "kishou-arima",
+        "name": "有马贵将",
+        "layer": "gm-secret",
+        "rpUse": "CCG最强战力、独眼之王计划与终局压力。"
+      }
+    ],
+    "expansionCandidates": [
+      "雾岛绚都：青铜树与雾岛家关系桥。",
+      "高槻泉/艾特：独眼枭、青铜树核心、芳村之女。",
+      "月山习：美食家、月山家/喰种社交圈入口。",
+      "真户吴绪/真户晓：CCG搜查官传承与亚门线。",
+      "铃屋什造、筱原幸纪、黑磐岩、丸手斋、安浦清子：特等/准特等层级与各区作战压力。",
+      ":re 库因克斯：瓜江久生、不知吟士、六月透、米林才子等作为后期 CCG 改造战力保留待补。"
+    ],
+    "indexingPolicy": "扩展候选只做 RP 提示层，不写入 characters-index，避免在未逐条审校原始角色条目前造成关系目标膨胀。"
+  },
+  "factions": [
+    {
+      "id": "anteiku",
+      "name": "安定区",
+      "role": "20区咖啡店与温和喰种避难网络",
+      "rpHooks": [
+        "尸体来源与食物分配",
+        "新人喰种庇护",
+        "CCG侦查时的身份遮掩"
+      ]
+    },
+    {
+      "id": "ccg",
+      "name": "喰种对策局",
+      "role": "人类官方猎杀机构，搜查官以库因克与等级制度运作",
+      "ranks": [
+        "三等",
+        "二等",
+        "一等",
+        "上等",
+        "准特等",
+        "特等"
+      ],
+      "rpHooks": [
+        "两人一组搜查",
+        "库因克素材申请",
+        "区域封锁与晋升任务"
+      ]
+    },
+    {
+      "id": "aogiri-tree",
+      "name": "青铜树",
+      "role": "激进喰种组织，常以绑架、据点战和强者招揽推进冲突",
+      "rpHooks": [
+        "反 CCG 行动",
+        "独眼枭传闻",
+        "强制招募半喰种"
+      ]
+    },
+    {
+      "id": "clowns",
+      "name": "小丑",
+      "role": "以混乱、伪装和情报操盘为特征的第三方势力",
+      "rpHooks": [
+        "错误情报",
+        "伪装成普通人",
+        "煽动 CCG 与喰种冲突"
+      ]
+    },
+    {
+      "id": "v-washuu",
+      "name": "V/和修系暗线",
+      "role": "GM-only 深层秩序，关联利世、独眼之王和 CCG 高层秘密",
+      "rpHooks": [
+        "抹消证人",
+        "维持旧秩序",
+        "把半喰种当作实验变量"
+      ]
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "danger-rank",
+      "name": "危险等级",
+      "levels": [
+        "C",
+        "B",
+        "A",
+        "S",
+        "SS",
+        "SS+",
+        "SSS"
+      ],
+      "rules": [
+        "危险等级同时影响喰种威胁评估与搜查官/库因克对抗尺度。",
+        "SS+ 通常涉及赫者化或共喰进化；SSS 需要复数特等搜查官级压力应对。",
+        "等级不等于绝对胜负；饥饿、地形、情报、库因克相性和是否暴露赫子会改变战局。"
+      ]
+    },
+    {
+      "id": "kagune-types",
+      "name": "赫子类型",
+      "types": [
+        "羽赫",
+        "甲赫",
+        "鳞赫",
+        "尾赫"
+      ],
+      "rules": [
+        "按速度、防御、再生、平衡等倾向区分",
+        "赫包位置与 Rc 细胞状态决定释放与恢复",
+        "赫子显露会暴露喰种身份"
+      ]
+    },
+    {
+      "id": "kakuja",
+      "name": "赫者/半赫者",
+      "rules": [
+        "共喰与大量 Rc 细胞积累可能导致赫者化",
+        "力量、装甲和异形化提升，但人格失控与饥饿风险加剧"
+      ]
+    },
+    {
+      "id": "quinque-operation",
+      "name": "库因克运用",
+      "rules": [
+        "二等以上搜查官可持有库因克",
+        "库因克以赫包制成并带有羽赫/甲赫/鳞赫/尾赫相性",
+        "无库因克保护的人体仍是人类脆弱度"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "ward-20",
+      "name": "20区",
+      "role": "安定区主舞台，表面日常与喰种隐匿生活交叠。"
+    },
+    {
+      "id": "anteiku-cafe",
+      "name": "安定区咖啡店",
+      "role": "喰种食物分配、情报交换和新人保护节点。"
+    },
+    {
+      "id": "ccg-1st-ward",
+      "name": "1区/CCG总部",
+      "role": "搜查官高层、特等会议、库因克与区域调度。"
+    },
+    {
+      "id": "aogiri-hideouts",
+      "name": "青铜树据点",
+      "role": "绑架、训练、突袭与高危险喰种集结地。"
+    },
+    {
+      "id": "gourmet-restaurant",
+      "name": "喰种餐厅",
+      "role": "上层喰种娱乐和狩猎规则暴露场景。"
+    },
+    {
+      "id": "district-frontiers",
+      "name": "各区边界",
+      "role": "势力交界、搜查封锁、面具身份追踪。"
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "pre-canon",
+      "title": "喰种社会隐匿与 CCG 体系成型",
+      "certainty": "source-derived-system",
+      "notes": "危险等级、搜查官等级与库因克制度为开局秩序。"
+    },
+    {
+      "phase": "inciting",
+      "title": "神代利世事件与金木半喰种化",
+      "certainty": "curated-canon",
+      "notes": "适合作为 PC 介入半喰种实验或目击者线。"
+    },
+    {
+      "phase": "20th-ward",
+      "title": "安定区日常与 CCG 搜查逼近",
+      "certainty": "curated-canon",
+      "notes": "低烈度调查、捕食伦理、隐藏身份。"
+    },
+    {
+      "phase": "aogiri",
+      "title": "青铜树行动升级",
+      "certainty": "curated-canon",
+      "notes": "绑架、强者招揽、激进派和安定区路线分裂。"
+    },
+    {
+      "phase": "anteiku-raid",
+      "title": "安定区讨伐与枭相关秘密暴露",
+      "certainty": "curated-canon",
+      "notes": "高强度战役，适合切换到 CCG/喰种多视角。"
+    },
+    {
+      "phase": "re-era",
+      "title": ":re/库因克斯与后期组织战",
+      "certainty": "known-gap",
+      "notes": "仅保留骨架；具体小队、人物状态和结局待二次审校。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "identity-survival",
+      "title": "身份与饥饿",
+      "use": "半喰种/新喰种开局，围绕食物来源、隐藏身份和暴露风险推进。"
+    },
+    {
+      "id": "investigation-hunt",
+      "title": "白鸽搜查",
+      "use": "CCG 双人组调查、危险等级评估、库因克素材和晋升任务。"
+    },
+    {
+      "id": "aogiri-conflict",
+      "title": "青铜树冲突",
+      "use": "激进组织绑架、强者招揽与安定区保护线。"
+    },
+    {
+      "id": "one-eyed-secret",
+      "title": "独眼之王/深层秩序",
+      "use": "中后期 GM-only 暗线，串联有马、艾特、V 与金木路线。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ken-kaneki",
+      "to": "rize-kamishiro",
+      "type": "organ-source/trauma",
+      "visibility": "private"
+    },
+    {
+      "from": "ken-kaneki",
+      "to": "touka-kirishima",
+      "type": "ally-affection",
+      "visibility": "public-progressive"
+    },
+    {
+      "from": "anteiku",
+      "to": "ccg",
+      "type": "hidden-refuge-vs-hunter",
+      "visibility": "public-conflict"
+    },
+    {
+      "from": "aogiri-tree",
+      "to": "anteiku",
+      "type": "radical-pressure",
+      "visibility": "private"
+    },
+    {
+      "from": "v-washuu",
+      "to": "rize-kamishiro",
+      "type": "control-target",
+      "visibility": "gm-only"
+    },
+    {
+      "from": "kishou-arima",
+      "to": "one-eyed-king-secret",
+      "type": "kingmaker-secret",
+      "visibility": "gm-only"
+    },
+    {
+      "from": "clowns",
+      "to": "kokuria",
+      "type": "leader-imprisonment/escape-pressure",
+      "visibility": "private"
+    },
+    {
+      "from": "ccg",
+      "to": "ccg-academy",
+      "type": "trains-investigators",
+      "visibility": "public"
+    },
+    {
+      "from": "ghouls",
+      "to": "feeding-ground",
+      "type": "territory-and-survival",
+      "visibility": "public-to-ghouls"
+    },
+    {
+      "from": "cannibalism",
+      "to": "kakuja",
+      "type": "risk-path-to-evolution",
+      "visibility": "private"
+    }
+  ],
+  "rpNotes": [
+    "开局必须声明 PC 是人类、喰种、半喰种、搜查官还是外围普通人；不同身份决定食物、身份暴露与资源入口。",
+    "战斗先判定赫子/库因克类型、危险等级、饥饿状态、地形和情报差，不直接用等级碾压。",
+    "CCG 线优先使用调查、搭档、晋升和素材管理；喰种线优先使用食物、面具、领地和互助/共喰压力。",
+    "V/和修、独眼之王、利世身体状态默认 GM-only，除非剧情推进到后期。"
+  ],
+  "residualGaps": [
+    ":re 库因克斯小队和后期 CCG/小丑/V 成员未逐条入 characters-index。",
+    "各区支部、面具集团和库因克具体武器清单仍需按 source 条目二次拆分。",
+    "canonTimeline 源为空；当前 timeline 是保守剧情阶段索引，不是逐章年表。",
+    "喰种文化/搜查官训练/小丑与库克利亚已补为 RP 骨架，但未拆成独立完整词条文件。"
+  ],
+  "sourceDerivedAdditions": {
+    "lore": [
+      {
+        "id": "ccg-academy",
+        "name": "喰种搜查官养成学校",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "精英搜查官二年制训练入口；毕业授二等搜查官，适合学院/新任搭档开局。"
+      },
+      {
+        "id": "ccg-education-center",
+        "name": "喰种对策教育所",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "普通搜查官一年制训练入口；毕业授三等搜查官，适合低阶调查线。"
+      },
+      {
+        "id": "feeding-ground",
+        "name": "喰场",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "领地、尸体来源、捕食伦理和 CCG 巡逻冲突的基础场景。"
+      },
+      {
+        "id": "mask-culture",
+        "name": "面具文化",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "喰种用面具隔离日常身份与捕食身份；搜查官多以面具/行为给代号。"
+      },
+      {
+        "id": "cannibalism",
+        "name": "共喰",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "提升 Rc 细胞与赫者化风险；不作为无代价升级，应带来饥饿、精神和社群后果。"
+      },
+      {
+        "id": "ghoul-assimilation",
+        "name": "喰种伪装成人类的生活训练",
+        "source": "characters/characters.json entry comment=专有名词",
+        "rpUse": "日常 RP 中用进食、呕吐、社交餐桌和学校/职场暴露风险制造压力。"
+      }
+    ],
+    "factionDetails": [
+      {
+        "id": "clowns",
+        "name": "小丑",
+        "source": "characters/characters.json entry comment=势力：小丑",
+        "members": [
+          "帆糸萝玛/胡乱之母",
+          "呗",
+          "系璃",
+          "妮可",
+          "多奈托・普鲁普拉",
+          "死堪"
+        ],
+        "rpUse": "不明目的享乐主义喰种集团；平时分散、受召集时组织力强，适合误导与幕后操盘。"
+      },
+      {
+        "id": "kokuria",
+        "name": "库克利亚",
+        "source": "characters/characters.json entry comment=势力：小丑",
+        "rpUse": "高危险喰种拘留/越狱节点，可连接小丑、CCG 与后期组织战。"
+      },
+      {
+        "id": "anteiku-food-network",
+        "name": "安定区食物分配网络",
+        "source": "characters/characters.json multiple Anteiku entries",
+        "rpUse": "温和喰种不主动捕食的后勤基础；尸体来源、分配公平与被追踪风险是常用冲突。"
+      }
+    ],
+    "ccgOperationalLayer": {
+      "ranks": [
+        "三等",
+        "二等",
+        "一等",
+        "上等",
+        "准特等",
+        "特等"
+      ],
+      "trainingRoutes": [
+        "喰种对策教育所：一年制，偏枪械/普通搜查，毕业三等。",
+        "喰种搜查官养成学校：两年制，偏精英库因克/战斗，毕业二等。"
+      ],
+      "rpUse": "CCG 线按“训练/搭档/调查/库因克申请/区域封锁/晋升”推进；人体防御仍是人类级，不能把库因克当全身护甲。"
+    },
+    "reEraSkeleton": {
+      "status": "conservative-skeleton-only",
+      "units": [
+        "库因克斯小队",
+        "后期 CCG 重组线",
+        "小丑/V/和修暗线",
+        "龙与大型灾害线"
+      ],
+      "useBoundary": "仅作后期路线入口；具体角色状态、组织改名和结局不在本次展开。"
+    }
+  }
+}

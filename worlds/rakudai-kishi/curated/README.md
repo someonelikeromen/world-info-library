@@ -16,4 +16,9 @@
 - `characters-index.json`：详细人物清单。
 - `knowledge-graph.json` / `relationship-graph.json`：人工归纳节点与关系。
 - `source-registry.json`：来源追踪。
+- `timeline-index.json`：学园起点、七星剑武祭、黑铁家冲突、国际扩展的轻量 RP 时间线/剧情索引。
+- `completion-index.json`：本地收尾复核、source 覆盖、raw/NSFW 分离、残余风险和 RP 启动建议。
 - `curation-notes.md`：整理记录与风险。
+
+## 验证
+2026-06-24 本地复核：`curated/` 下所有 JSON 均可解析；未修改 `campaigns/world-library/worlds/rakudai-kishi/` 原始归档。

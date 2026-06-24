@@ -15,3 +15,8 @@
 ## 2026-06-22 MED 规范化补记
 - 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
 - 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。
+
+## 2026-06-23 complete-06 补完
+- 新增 `world-expansion.json`，按本地源 `src-ikki-tousen-001` 补充左慈/王允、乐就、董卓、貂蝉、张飞、关西/大和线等人物与阵营线索。
+- 增补早期南阳入学、大斗士大会、龙觉醒、关西/大和线等 plot arcs，以及勾玉等级、斗士武术、龙觉醒和术式/复苏线规则。
+- 为避免把源内成人化战损模板误作世界规则，RP notes 只保留安全的战斗尺度提示；具体尺度需由会话另行设定。

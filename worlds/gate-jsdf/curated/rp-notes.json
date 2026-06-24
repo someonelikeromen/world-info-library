@@ -1,0 +1,56 @@
+{
+  "schema": "rp-notes-extension-v1",
+  "worldId": "gate-jsdf",
+  "sourceRefs": [
+    "src-gate-jsdf-001"
+  ],
+  "curationConfidence": "B",
+  "recommendedEntryPoints": [
+    {
+      "id": "jsdf-scout",
+      "name": "第三侦查队新队员",
+      "summary": "从阿尔努斯接触期切入，负责翻译护卫、救援与侦察。"
+    },
+    {
+      "id": "alnus-civilian",
+      "name": "阿尔努斯居民/商人/佣兵",
+      "summary": "从协同生活组合切入，在文化冲突与基地经济中成长。"
+    },
+    {
+      "id": "imperial-noble",
+      "name": "帝国讲和派贵族",
+      "summary": "参与平娜政治线，在现代军力压力下求存。"
+    },
+    {
+      "id": "apostle-agent",
+      "name": "使徒相关人",
+      "summary": "以神官、眷属或受神谕者身份进入诸神/龙/冥门分支。"
+    },
+    {
+      "id": "special-forces-operative",
+      "name": "特殊作战群队员",
+      "summary": "从帝都潜入、营救平娜或夺回人质切入。"
+    },
+    {
+      "id": "dark-elf-envoy",
+      "name": "暗黑精灵求援者",
+      "summary": "推动炎龙灾害、越权救援与英雄冒险。"
+    },
+    {
+      "id": "earth-intel-handler",
+      "name": "地球情报机关联络人",
+      "summary": "处理列强争门、外交压力与媒体风险。"
+    }
+  ],
+  "constraints": [
+    "现代军力与奇幻个体战力分层处理：战略优势不等于所有场景自动胜利。",
+    "门的控制权是世界格局级变量，夺门/封门/破坏门需显式标记时间线分歧。",
+    "成人/交互控制条目未迁移；curated 只保留世界观、剧情与关系核心。",
+    "跨文化恋爱、贵族婚约和俘虏处理需同时考虑现代法、帝国礼法与军事纪律。"
+  ],
+  "lowConfidenceGaps": [
+    "海自外传、希密斯特和诸神使徒谱系仍只做概要归纳。",
+    "译名存在萝莉/罗莉、杜嘉/杜卡、索沙尔/佐尔札尔等差异。",
+    "雪莉/菅原线、海自外传和贝尔纳戈等外传地点仍需按原卷复核。"
+  ]
+}

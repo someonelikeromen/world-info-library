@@ -1,1 +1,167 @@
-{"schema":"rp-knowledge-graph-v1","campaignId":"world-library-dungeon-fighter-online","cardId":"dungeon-fighter-online","nodes":[{"id":"kg-classes","type":"power-system","title":"职业与觉醒","aliases":[],"visibility":"public","summary":"阿拉德冒险家的成长体系。","fullText":"职业、转职、觉醒和装备构成战斗能力。","tags":["power"],"importance":"critical","source":{"kind":"worldbook","ref":"src-dfo-classification-report"},"revealConditions":[],"evidenceLevel":"B","contradictedBy":[],"metadata":{}},{"id":"kg-apostles","type":"faction","title":"使徒","aliases":[],"visibility":"private","summary":"灾厄级超规格存在。","fullText":"使徒事件推动阿拉德主线。","tags":["apostle"],"importance":"critical","source":{"kind":"worldbook","ref":"src-dfo-import-readme"},"revealConditions":["高阶主线"],"evidenceLevel":"B","contradictedBy":[],"metadata":{}},{"id":"kg-transfer","type":"event","title":"转移现象","aliases":[],"visibility":"public","summary":"空间/灾厄异变，连接地下城与主线事件。","fullText":"可作为跨地区冒险入口。","tags":["event"],"importance":"high","source":{"kind":"worldbook","ref":"src-dfo-classification-report"},"revealConditions":[],"evidenceLevel":"B","contradictedBy":[],"metadata":{}}],"edges":[{"id":"kg-edge-1","from":"kg-transfer","to":"kg-apostles","type":"points-to","visibility":"private","strength":{"level":"B","score":70,"description":"转移事件常与使徒灾厄相关。"},"description":"使徒线索可通过转移事件推进。","gmNotes":""},{"id":"kg-edge-2","from":"kg-classes","to":"kg-apostles","type":"counters","visibility":"public","strength":{"level":"A","score":80,"description":"冒险家成长最终用于挑战灾厄。"},"description":"职业者是讨伐使徒的主力。","gmNotes":""}],"indices":{"byVisibility":{"public":["kg-classes","kg-transfer"],"private":["kg-apostles"]},"byType":{"power-system":["kg-classes"],"faction":["kg-apostles"],"event":["kg-transfer"]},"byTag":{"power":["kg-classes"],"apostle":["kg-apostles"],"event":["kg-transfer"]},"activeClues":[],"lockedSecrets":[]}}
+{
+  "schema": "rp-knowledge-graph-v1",
+  "campaignId": "world-library-dungeon-fighter-online",
+  "cardId": "dungeon-fighter-online",
+  "nodes": [
+    {
+      "id": "kg-classes",
+      "type": "power-system",
+      "title": "职业、转职与觉醒",
+      "aliases": ["冒险家职业"],
+      "visibility": "public",
+      "summary": "冒险家通过基础职业、转职、觉醒、装备和地下城实战成长。",
+      "fullText": "职业体系不是固定战力表；需结合等级、装备、剧情时期和转职阶段判定。",
+      "tags": ["power", "adventurer"],
+      "importance": "critical",
+      "source": {"kind": "curated", "ref": "power-systems.json#adventurer-classes"},
+      "revealConditions": [],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-power-systems-archive", "src-dfo-abilities-archive"]}
+    },
+    {
+      "id": "kg-apostles",
+      "type": "faction",
+      "title": "使徒",
+      "aliases": ["灾厄级存在"],
+      "visibility": "private",
+      "summary": "赫尔德命名的超规格存在群体；成员动机不同，但多次引发转移、污染、统治、复活或讨伐主线。",
+      "fullText": "不要把所有使徒视为同一阵营意志；罗特斯、狄瑞吉、巴卡尔、奥兹玛等都需要单独建模。",
+      "tags": ["apostle", "disaster"],
+      "importance": "critical",
+      "source": {"kind": "curated", "ref": "factions.json#apostles"},
+      "revealConditions": ["高阶主线", "使徒调查"],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99", "src-dfo-canon-arcs"]}
+    },
+    {
+      "id": "kg-transfer",
+      "type": "event",
+      "title": "转移现象",
+      "aliases": ["异次元转移", "转移事件"],
+      "visibility": "private",
+      "summary": "将使徒或灾厄移动至阿拉德、天界等地点的高危剧情装置，与赫尔德、异次元裂缝、次元风暴和寂静城相关。",
+      "fullText": "977年第一次转移将希洛克转移至悲鸣洞穴；后续罗特斯、狄瑞吉、安徒恩等线也与转移相关。",
+      "tags": ["event", "dimensional", "herder"],
+      "importance": "critical",
+      "source": {"kind": "curated", "ref": "power-systems.json#transfer-and-dimensionality"},
+      "revealConditions": ["调查使徒事件"],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    },
+    {
+      "id": "kg-timeline-spine",
+      "type": "event",
+      "title": "阿拉德编年史主轴",
+      "aliases": ["核心时间线"],
+      "visibility": "gm-only",
+      "summary": "从泰拉崩坏、龙之战争、暗黑圣战、第一次转移、天界/魔界、第二次暗黑圣战到神界的主线顺序。",
+      "fullText": "见 curated/timeline.json；该模块从本地 canon-reference/timeline.json 长条目抽取，源 confidence=C。",
+      "tags": ["timeline", "canon-spine"],
+      "importance": "critical",
+      "source": {"kind": "curated", "ref": "timeline.json"},
+      "revealConditions": ["GM planning"],
+      "evidenceLevel": "C",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    },
+    {
+      "id": "kg-grand-magic-array",
+      "type": "rule",
+      "title": "大魔法阵与天空之海威胁",
+      "aliases": ["玛尔大魔法阵"],
+      "visibility": "private",
+      "summary": "玛尔设下大魔法阵改善中央沙漠；格兰之火后精灵牺牲维持魔法阵，阻止天空之海淹没阿拉德。",
+      "fullText": "适合连接格兰之森、精灵消失、贝尔玛尔建国和世界级灾害倒计时。",
+      "tags": ["lore", "magic-array", "gran-floris"],
+      "importance": "high",
+      "source": {"kind": "curated", "ref": "lore.json#lore-grand-magic-array"},
+      "revealConditions": ["森林遗迹调查"],
+      "evidenceLevel": "C",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    },
+    {
+      "id": "kg-dark-crusade",
+      "type": "event",
+      "title": "暗黑圣战与伪装者",
+      "aliases": ["血之诅咒", "奥兹玛灾厄"],
+      "visibility": "private",
+      "summary": "卡赞和奥兹玛悲剧引发血之诅咒、伪装者、圣职者体系和两次暗黑圣战。",
+      "fullText": "米歇尔辨认伪装者并创制圣职者战斗术；1008—1009年第二次暗黑圣战爆发并讨伐奥兹玛。",
+      "tags": ["ozma", "imposter", "priest"],
+      "importance": "critical",
+      "source": {"kind": "curated", "ref": "plot-arcs.json#arc-ozma-and-imposters"},
+      "revealConditions": ["黑色大地线", "圣职者线"],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    },
+    {
+      "id": "kg-heaven-mechanics",
+      "type": "power-system",
+      "title": "天界机械文明",
+      "aliases": ["机械七战神", "盖波加", "七神之鞘翅"],
+      "visibility": "public",
+      "summary": "巴卡尔封杀魔法后天界发展机械文明，形成机械七战神、盖波加、伊顿工业区、飞空艇与次元航船等技术线。",
+      "fullText": "该技术线与神枪手/机械师职业、天界战争、机械崛起时代和神界远征连接。",
+      "tags": ["heaven", "technology", "gunner"],
+      "importance": "high",
+      "source": {"kind": "curated", "ref": "power-systems.json#heaven-mechanical-civilization"},
+      "revealConditions": [],
+      "evidenceLevel": "B",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    },
+    {
+      "id": "kg-seon-gap",
+      "type": "clue",
+      "title": "神界资料缺口",
+      "aliases": ["雾神", "晴烟", "迷雾高原"],
+      "visibility": "gm-only",
+      "summary": "神界、雾神、天之印、晴烟事件与索利达里斯线在本轮仅有时间线级摘要，需后续从对应源条目继续补完。",
+      "fullText": "不要扩写神界社会结构；只使用 timeline 已明确的地点和事件。",
+      "tags": ["gap", "seon", "low-confidence"],
+      "importance": "medium",
+      "source": {"kind": "curated", "ref": "curation-notes.md"},
+      "revealConditions": ["GM planning"],
+      "evidenceLevel": "C",
+      "contradictedBy": [],
+      "metadata": {"sourceRefs": ["src-dfo-canon-timeline-entry-99"]}
+    }
+  ],
+  "edges": [
+    {"id": "kg-edge-transfer-apostles", "from": "kg-transfer", "to": "kg-apostles", "type": "points-to", "visibility": "private", "strength": {"level": "A", "score": 85, "description": "多次转移事件直接涉及使徒。"}, "description": "转移是推动使徒灾厄的核心机制之一。", "gmNotes": "注意赫尔德幕后线。"},
+    {"id": "kg-edge-classes-apostles", "from": "kg-classes", "to": "kg-apostles", "type": "counters", "visibility": "public", "strength": {"level": "A", "score": 80, "description": "冒险家成长用于处理使徒级灾厄。"}, "description": "职业者是地下城和使徒主线的玩家侧主力。", "gmNotes": "不要按职业名直接判定打得过使徒。"},
+    {"id": "kg-edge-timeline-transfer", "from": "kg-timeline-spine", "to": "kg-transfer", "type": "reveals", "visibility": "gm-only", "strength": {"level": "A", "score": 85, "description": "时间线提供转移事件顺序。"}, "description": "时间线主轴用于决定哪些使徒灾厄已经发生。", "gmNotes": "先定年份再定可用事件。"},
+    {"id": "kg-edge-magic-array-gran", "from": "kg-grand-magic-array", "to": "kg-timeline-spine", "type": "supports", "visibility": "private", "strength": {"level": "B", "score": 70, "description": "格兰之火和大魔法阵是早期世界规则线。"}, "description": "魔法阵解释森林、精灵和贝尔玛尔相关事件。", "gmNotes": "可作为长期灾害倒计时。"},
+    {"id": "kg-edge-dark-crusade-apostles", "from": "kg-dark-crusade", "to": "kg-apostles", "type": "belongs-to", "visibility": "private", "strength": {"level": "A", "score": 80, "description": "奥兹玛是使徒/混沌灾厄核心。"}, "description": "暗黑圣战是使徒灾厄的宗教与诅咒分支。", "gmNotes": "圣职者与德洛斯继承线都可接入。"},
+    {"id": "kg-edge-heaven-bakal", "from": "kg-heaven-mechanics", "to": "kg-apostles", "type": "causes", "visibility": "public", "strength": {"level": "B", "score": 75, "description": "巴卡尔封杀魔法推动天界机械文明。"}, "description": "天界机械路线与巴卡尔统治后果相关。", "gmNotes": "可接卡勒特、安徒恩、机械七战神。"},
+    {"id": "kg-edge-seon-timeline", "from": "kg-seon-gap", "to": "kg-timeline-spine", "type": "requires", "visibility": "gm-only", "strength": {"level": "C", "score": 50, "description": "神界只有晚期时间线摘要。"}, "description": "神界运行前需要补源或限制描写。", "gmNotes": "残留缺口。"}
+  ],
+  "indices": {
+    "byVisibility": {
+      "public": ["kg-classes", "kg-heaven-mechanics"],
+      "private": ["kg-apostles", "kg-transfer", "kg-grand-magic-array", "kg-dark-crusade"],
+      "gm-only": ["kg-timeline-spine", "kg-seon-gap"]
+    },
+    "byType": {
+      "power-system": ["kg-classes", "kg-heaven-mechanics"],
+      "faction": ["kg-apostles"],
+      "event": ["kg-transfer", "kg-timeline-spine", "kg-dark-crusade"],
+      "rule": ["kg-grand-magic-array"],
+      "clue": ["kg-seon-gap"]
+    },
+    "byTag": {
+      "apostle": ["kg-apostles"],
+      "power": ["kg-classes"],
+      "dimensional": ["kg-transfer"],
+      "timeline": ["kg-timeline-spine"],
+      "low-confidence": ["kg-seon-gap"]
+    },
+    "activeClues": ["kg-seon-gap"],
+    "lockedSecrets": ["kg-apostles", "kg-transfer", "kg-timeline-spine"]
+  }
+}

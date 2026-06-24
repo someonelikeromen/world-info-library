@@ -1,1 +1,131 @@
-{"schema":"rp-source-registry-v1","campaignId":"world-library-high-school-dxd","sources":[{"sourceId":"src-dxd-import-readme","type":"user-file-source","title":"DxD 导入说明","origin":"manual archive","location":"campaigns/world-library/imports/worldviews/high-school-dxd/README.md","reliability":"A","visibility":"public","summary":"2 个 worldbook。","quotedOrExtractedText":"Worldbook files: 2","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/imports/worldviews/high-school-dxd/README.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"high-school-dxd","field":"sources"}],"conflictsWith":[],"notes":"手工读取。"},{"sourceId":"src-dxd-classification-report","type":"agent-summary-source","title":"DxD 分类报告","origin":"archive report","location":"campaigns/world-library/worlds/high-school-dxd/reports/classification-report.md","reliability":"B","visibility":"public","summary":"442 条保留条目。","quotedOrExtractedText":"preserved entries: 442","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/high-school-dxd/reports/classification-report.md","pageRange":"","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"high-school-dxd","field":"coverage"}],"conflictsWith":[],"notes":"自动归档报告。"},{"sourceId":"src-dxd-world-map-sample","type":"user-file-source","title":"DxD 世界地图抽读","origin":"categorized archive","location":"campaigns/world-library/worlds/high-school-dxd/world/world.json","reliability":"B","visibility":"public","summary":"抽读人界、驹王镇、冥界、天界、次元间隙等地理设定。","quotedOrExtractedText":"世界主要区域设定","capture":{"method":"manual","capturedAt":"2026-06-21","url":"","filePath":"campaigns/world-library/worlds/high-school-dxd/world/world.json","pageRange":"lines 1-100","imageRegion":"","parserOrTool":"read","artifactPath":""},"userCorrection":{"isCorrection":false,"correctedBy":"user","replacesSourceIds":[],"correctionText":"","priority":"high"},"appliesTo":[{"targetType":"world","targetId":"high-school-dxd","field":"locations"}],"conflictsWith":[],"notes":"手工摘录概念，不复制技术指令。"}],"conflictLog":[{"conflictId":"dxd-late-mythology-scope","sourceIds":["src-dxd-classification-report"],"summary":"后期多神话势力范围大，当前抽样不足。","resolution":"unresolved","notes":"需后续按篇章扩展。"}]}
+{
+  "schema": "rp-source-registry-v1",
+  "campaignId": "world-library-high-school-dxd",
+  "sources": [
+    {
+      "sourceId": "src-dxd-import-readme",
+      "type": "user-file-source",
+      "title": "DxD 导入说明",
+      "origin": "manual archive",
+      "location": "campaigns/world-library/imports/worldviews/high-school-dxd/README.md",
+      "reliability": "A",
+      "visibility": "public",
+      "summary": "2 个 worldbook。",
+      "quotedOrExtractedText": "Worldbook files: 2",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/imports/worldviews/high-school-dxd/README.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "high-school-dxd",
+          "field": "sources"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "手工读取。"
+    },
+    {
+      "sourceId": "src-dxd-classification-report",
+      "type": "agent-summary-source",
+      "title": "DxD 分类报告",
+      "origin": "archive report",
+      "location": "campaigns/world-library/worlds/high-school-dxd/reports/classification-report.md",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "442 条保留条目。",
+      "quotedOrExtractedText": "preserved entries: 442",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/high-school-dxd/reports/classification-report.md",
+        "pageRange": "",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "high-school-dxd",
+          "field": "coverage"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "自动归档报告。"
+    },
+    {
+      "sourceId": "src-dxd-world-map-sample",
+      "type": "user-file-source",
+      "title": "DxD 世界地图抽读",
+      "origin": "categorized archive",
+      "location": "campaigns/world-library/worlds/high-school-dxd/world/world.json",
+      "reliability": "B",
+      "visibility": "public",
+      "summary": "抽读人界、驹王镇、冥界、天界、次元间隙等地理设定。",
+      "quotedOrExtractedText": "世界主要区域设定",
+      "capture": {
+        "method": "manual",
+        "capturedAt": "2026-06-21",
+        "url": "",
+        "filePath": "campaigns/world-library/worlds/high-school-dxd/world/world.json",
+        "pageRange": "lines 1-100",
+        "imageRegion": "",
+        "parserOrTool": "read",
+        "artifactPath": ""
+      },
+      "userCorrection": {
+        "isCorrection": false,
+        "correctedBy": "user",
+        "replacesSourceIds": [],
+        "correctionText": "",
+        "priority": "high"
+      },
+      "appliesTo": [
+        {
+          "targetType": "world",
+          "targetId": "high-school-dxd",
+          "field": "locations"
+        }
+      ],
+      "conflictsWith": [],
+      "notes": "手工摘录概念，不复制技术指令。"
+    }
+  ],
+  "conflictLog": [
+    {
+      "conflictId": "dxd-late-mythology-scope",
+      "sourceIds": [
+        "src-dxd-classification-report"
+      ],
+      "summary": "后期多神话势力范围大，当前抽样不足。",
+      "resolution": "unresolved",
+      "notes": "需后续按篇章扩展。"
+    }
+  ],
+  "registryNotes": [
+    "2026-06-24 retry-05: curated expanded from preserved source archive; cross-read README/curation-notes/manifest and retained low-confidence gaps."
+  ]
+}

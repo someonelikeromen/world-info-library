@@ -1,0 +1,81 @@
+{
+  "schema": "rp-timeline-extension-v1",
+  "worldId": "gundam-seed",
+  "sourceRefs": [
+    "src-gundam-seed-001"
+  ],
+  "curationConfidence": "B",
+  "events": [
+    {
+      "id": "george-glenn",
+      "order": 1,
+      "name": "乔治·格伦公开调整者技术",
+      "summary": "基因改造公开化，调整者与自然人的社会裂痕开始扩大。",
+      "confidence": "B"
+    },
+    {
+      "id": "bloody-valentine",
+      "order": 2,
+      "name": "血染情人节",
+      "summary": "C.E.70 尤尼乌斯7号遭核攻击，PLANT 大量平民死亡，全面战争爆发。",
+      "confidence": "B"
+    },
+    {
+      "id": "april-fool-crisis",
+      "order": 3,
+      "name": "愚人节危机",
+      "summary": "ZAFT 散布中子干扰器，地球能源与粮食危机恶化。",
+      "confidence": "B"
+    },
+    {
+      "id": "heliopolis",
+      "order": 4,
+      "name": "赫利奥波利斯夺取战",
+      "summary": "地球联合秘密 GAT-X 与大天使号被 ZAFT 发现，基拉卷入战争。",
+      "confidence": "B"
+    },
+    {
+      "id": "desert-tiger",
+      "order": 4.5,
+      "name": "沙漠之虎战线",
+      "summary": "大天使号在地球沙漠战区与巴尔特菲尔德交战，敌我关系显露人性复杂度。",
+      "confidence": "B"
+    },
+    {
+      "id": "desert-orb",
+      "order": 5,
+      "name": "地球降下与奥布线",
+      "summary": "大天使号穿越地球战区，奥布中立与现实战争压力冲突。",
+      "confidence": "B"
+    },
+    {
+      "id": "three-ships",
+      "order": 6,
+      "name": "三舰同盟形成",
+      "summary": "大天使号、永恒号、草薙号等反极端战争阵营汇合。",
+      "confidence": "B"
+    },
+    {
+      "id": "mendel-revelation",
+      "order": 6.4,
+      "name": "孟德尔真相",
+      "summary": "基拉的超级调整者身世、劳的克隆背景与人类仇恨主题在废弃研究卫星汇合。",
+      "confidence": "B"
+    },
+    {
+      "id": "nuclear-strike-plant",
+      "order": 6.8,
+      "name": "核攻击与创世纪反击",
+      "summary": "蓝色宇宙推动核攻击 PLANT，ZAFT 强硬派以创世纪回击。",
+      "confidence": "B"
+    },
+    {
+      "id": "josh-a-genesis",
+      "order": 7,
+      "name": "JOSH-A、创世纪与终战",
+      "summary": "地球联合与 ZAFT 极端派使用大规模杀伤战略，终局以阻止灭绝升级为核心。",
+      "confidence": "B"
+    }
+  ],
+  "notes": "campaigns 源 canonTimeline 为 0，时间线由 world 概述、canonArcs、factions/locations 条目人工归纳。 已补入沙漠之虎、孟德尔真相、蓝色宇宙核报复等关键节点。"
+}

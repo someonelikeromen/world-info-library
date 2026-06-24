@@ -1,0 +1,185 @@
+{
+  "schema": "rp-setting-modules-extension-v1",
+  "worldId": "high-school-dxd",
+  "sourceRefs": [
+    "src-high-school-dxd-001",
+    "src-high-school-dxd-002"
+  ],
+  "curationConfidence": "B",
+  "plotArcs": [
+    {
+      "id": "fallen-angel-asia",
+      "name": "堕天使/爱西亚开局篇",
+      "summary": "一诚死亡转生、丽娜丽与爱西亚治愈神器争夺。"
+    },
+    {
+      "id": "raiser-rating-game",
+      "name": "莱萨婚约评级游戏篇",
+      "summary": "莉雅丝政治婚约、菲尼克斯不死鸟再生与一诚首次规则战。"
+    },
+    {
+      "id": "holy-sword-kiba",
+      "name": "圣剑/木场创伤篇",
+      "summary": "教会、王者之剑碎片、木场圣剑计划创伤与洁诺薇亚/伊莉娜接入。"
+    },
+    {
+      "id": "three-factions-summit",
+      "name": "三大势力和平会谈篇",
+      "summary": "恶魔、天使、堕天使建立和平框架，同时旧魔王派与祸之团破坏。"
+    },
+    {
+      "id": "vali-khaos-brigade",
+      "name": "瓦利/祸之团篇",
+      "summary": "白龙皇、旧魔王派、英雄派和奥菲斯名义构成跨神话高危敌线。"
+    },
+    {
+      "id": "kyoto-youkai",
+      "name": "京都妖怪/仙术篇",
+      "summary": "京都妖怪界、小猫与黑歌姐妹线，适合非西方神话势力介入。"
+    },
+    {
+      "id": "world-rating-game",
+      "name": "世界排名游戏后期篇",
+      "summary": "毕业、眷族扩编、世界级排名游戏和神话外交；后期分支。",
+      "lowConfidence": true
+    }
+  ],
+  "factions": [
+    {
+      "id": "gremory-peerage",
+      "name": "吉蒙里眷族",
+      "summary": "主角团队，兼具校园社团、恶魔眷族和排名游戏队伍。"
+    },
+    {
+      "id": "fallen-angels",
+      "name": "堕天使",
+      "summary": "光力与神器研究阵营，阿萨谢尔后期转导师/和平派。"
+    },
+    {
+      "id": "church-exorcists",
+      "name": "教会/圣剑士",
+      "summary": "圣剑、圣力和驱魔系统。"
+    },
+    {
+      "id": "sitri-peerage",
+      "name": "西迪眷族",
+      "summary": "学生会团队，提供排名游戏竞争、校园行政和恶魔教育理想线。"
+    },
+    {
+      "id": "khaos-brigade",
+      "name": "祸之团",
+      "summary": "旧魔王派、英雄派和龙神名义的恐怖网络。"
+    },
+    {
+      "id": "vali-team",
+      "name": "瓦利队",
+      "summary": "游离强者队伍，可作为宿敌、镜像主角队或临时盟友。"
+    },
+    {
+      "id": "kyoto-youkai",
+      "name": "京都妖怪势力",
+      "summary": "妖怪/仙术/日本神话入口。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "kuoh-town",
+      "name": "驹王镇",
+      "summary": "表层校园城市，暗中由吉蒙里家管理。"
+    },
+    {
+      "id": "kuoh-academy",
+      "name": "驹王学院/神秘学研究部",
+      "summary": "主角团队基地。"
+    },
+    {
+      "id": "underworld-gremory",
+      "name": "冥界/吉蒙里领地",
+      "summary": "恶魔贵族政治、评级游戏和家族事件所在地。"
+    },
+    {
+      "id": "heaven-church",
+      "name": "天界/教会据点",
+      "summary": "圣力、圣剑、天使外交和驱魔师线。"
+    },
+    {
+      "id": "dimensional-gap",
+      "name": "次元间隙",
+      "summary": "奥菲斯、伟大之赤和龙神级事件场域，默认 GM-only 高危区。"
+    },
+    {
+      "id": "kyoto-youkai-realm",
+      "name": "京都妖怪界",
+      "summary": "妖怪、仙术和结界政治。"
+    },
+    {
+      "id": "khaos-hideouts",
+      "name": "祸之团隐匿据点",
+      "summary": "旧魔王派、英雄派和瓦利相关临时据点。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "devil-piece",
+      "name": "恶魔棋子/转生恶魔",
+      "summary": "眷族身份、棋子定位、主从契约与排名游戏编组。"
+    },
+    {
+      "id": "sacred-gear",
+      "name": "神器/神灭具",
+      "summary": "宿主灵魂能力，可成长至禁手；Longinus 级会动摇势力平衡。"
+    },
+    {
+      "id": "dragon-power",
+      "name": "龙与二天龙/龙神",
+      "summary": "赤龙帝、白龙皇、奥菲斯和伟大之赤跨度极大，必须分阶段锁定。"
+    },
+    {
+      "id": "holy-demonic-forces",
+      "name": "圣力/魔力/光力相克",
+      "summary": "三大势力战斗逻辑。"
+    },
+    {
+      "id": "senjutsu-youjutsu",
+      "name": "仙术/妖术",
+      "summary": "妖怪与气脉体系。"
+    },
+    {
+      "id": "rating-game",
+      "name": "排名游戏",
+      "summary": "规则化团队战，把眷族成长、政治声望和战术演出结合。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "issei-rias-peerage",
+      "name": "一诚—莉雅丝—吉蒙里眷族",
+      "summary": "转生契约、恋爱、家族式团队和排名游戏成长交织。"
+    },
+    {
+      "id": "issei-ddraig-vali",
+      "name": "一诚/德莱格与瓦利/白龙皇",
+      "summary": "二天龙宿敌结构。"
+    },
+    {
+      "id": "kiba-holy-sword",
+      "name": "木场与圣剑计划",
+      "summary": "圣剑创伤、教会敌意和圣魔剑突破构成木场核心线。"
+    },
+    {
+      "id": "koneko-kuroka",
+      "name": "小猫与黑歌",
+      "summary": "姐妹、猫又、仙术与创伤恢复线。"
+    },
+    {
+      "id": "azazel-three-factions",
+      "name": "阿萨谢尔与三大势力和平",
+      "summary": "堕天使总督从敌对背景转为导师和和平框架维护者。"
+    },
+    {
+      "id": "ophis-khaos-brigade",
+      "name": "奥菲斯与祸之团",
+      "summary": "龙神名义被恐怖网络利用，真相揭示后可转向解放/保护线。"
+    }
+  ]
+}

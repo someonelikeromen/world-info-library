@@ -33,6 +33,29 @@
         "特定角色在极限压力下进入高集中状态",
         "提升反应、判断和战斗表现，但非无限常驻"
       ]
+    },
+    {
+      "id": "neutron-jammer-tech",
+      "name": "中子干扰器/NJC",
+      "rules": [
+        "NJ 抑制核能和核裂变武器，改变地球能源与战略平衡。",
+        "NJC 允许核动力 MS、核攻击和创世纪级升级，是重大世界线变量。"
+      ]
+    },
+    {
+      "id": "mobile-suit-os-natural",
+      "name": "自然人用 MS OS/强化人",
+      "rules": [
+        "自然人早期难以直接驾驶 MS，后期通过 OS 与强化人实验弥补。",
+        "强化人和药物依赖是高代价军事技术。"
+      ]
+    },
+    {
+      "id": "political-authority",
+      "name": "政治/军令影响",
+      "rules": [
+        "用于蓝色宇宙、议长、舰桥军令等非超自然影响。"
+      ]
     }
   ],
   "factions": [
@@ -184,6 +207,85 @@
       "aliases": [
         "克莱因派"
       ]
+    },
+    {
+      "id": "blue-cosmos-logos",
+      "name": "蓝色宇宙/LOGOS",
+      "type": "extremist-network",
+      "summary": "反调整者极端组织与军工资本网络，推动核报复、强化人和战略武器升级。",
+      "powerSystemAffinity": [
+        "mobile-suit-tech",
+        "mobile-suit-os-natural"
+      ],
+      "knownMembers": [
+        "muruta-azrael"
+      ],
+      "territories": [
+        "earth-alliance"
+      ],
+      "resources": [
+        "军工资本",
+        "政治宣传",
+        "强化人项目"
+      ],
+      "conflicts": [
+        "zaft-plant",
+        "three-ships-alliance"
+      ],
+      "aliases": [
+        "蓝色宇宙",
+        "LOGOS"
+      ]
+    },
+    {
+      "id": "morgenroete",
+      "name": "曙光社/奥布技术体系",
+      "type": "corporation",
+      "summary": "奥布高端 MS 与战舰技术核心。",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "knownMembers": [],
+      "territories": [
+        "orb",
+        "heliopolis"
+      ],
+      "resources": [
+        "GAT-X 技术",
+        "异端系列",
+        "舰船制造"
+      ],
+      "conflicts": [],
+      "aliases": [
+        "曙光社"
+      ]
+    },
+    {
+      "id": "zala-faction",
+      "name": "萨拉派强硬派",
+      "type": "political-faction",
+      "summary": "以帕特里克·萨拉为代表的 ZAFT 强硬路线，后期走向创世纪灭绝战。",
+      "powerSystemAffinity": [
+        "mobile-suit-tech"
+      ],
+      "knownMembers": [
+        "patrick-zala"
+      ],
+      "territories": [
+        "plant",
+        "yakin-due"
+      ],
+      "resources": [
+        "ZAFT 军令",
+        "创世纪"
+      ],
+      "conflicts": [
+        "earth-alliance",
+        "klein-faction"
+      ],
+      "aliases": [
+        "萨拉派"
+      ]
     }
   ],
   "locations": [
@@ -258,6 +360,33 @@
       "aliases": [
         "宇宙战场"
       ]
+    },
+    {
+      "id": "heliopolis",
+      "name": "赫利奥波利斯",
+      "type": "resource-colony",
+      "summary": "奥布资源卫星，GAT-X 秘密开发与大天使号逃亡开端。",
+      "aliases": [
+        "赫利奥波利斯"
+      ]
+    },
+    {
+      "id": "junius-seven",
+      "name": "尤尼乌斯7号",
+      "type": "space-colony-ruin",
+      "summary": "血染情人节核攻击地点，是 PLANT 集体创伤核心。",
+      "aliases": [
+        "尤尼乌斯7号"
+      ]
+    },
+    {
+      "id": "mendel",
+      "name": "L4 孟德尔殖民卫星",
+      "type": "research-colony",
+      "summary": "超级调整者、克隆与基拉/劳身世真相相关的废弃研究设施。",
+      "aliases": [
+        "孟德尔"
+      ]
     }
   ],
   "combatRules": [
@@ -276,5 +405,8 @@
   "energyEnvironment": {},
   "worldRules": {},
   "publicEvents": [],
-  "hiddenEvents": []
+  "hiddenEvents": [],
+  "timelineNotes": [
+    "默认主线聚焦 C.E.70-71；C.E.73/Destiny 可作为后续低置信扩展处理。"
+  ]
 }

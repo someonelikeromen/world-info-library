@@ -1,0 +1,60 @@
+{
+  "schema": "rp-curation-completion-index-v1",
+  "worldId": "rozen-maiden",
+  "status": "locally-verified-after-agent-service-failure",
+  "updatedAt": "2026-06-24",
+  "sourceCoverage": {
+    "primarySourceIds": ["src-rozen-maiden-001", "src-rozen-maiden-adapted-001"],
+    "campaignArchiveRoot": "campaigns/world-library/worlds/rozen-maiden",
+    "consultedOrIndexedPaths": [
+      "manifest.json",
+      "source-registry.json",
+      "world/world.json",
+      "characters/characters.json",
+      "factions/factions.json",
+      "locations/locations.json",
+      "power-systems/power-systems.json",
+      "power-systems/abilities.json",
+      "canon-reference/timeline.json",
+      "canon-reference/arcs.json",
+      "canon-reference/full-plot.json",
+      "canon-reference/plot-summary.json",
+      "reports/classification-report.md",
+      "reports/conflicts.md",
+      "reports/low-confidence.md",
+      "reports/unclassified-entries.json"
+    ],
+    "rawPreservedButNotImported": [
+      "raw/original-entry-index.json",
+      "raw/imported-worldbooks/qwsn_card.worldbook.json"
+    ]
+  },
+  "curatedModules": [
+    "world.json",
+    "characters-index.json",
+    "knowledge-graph.json",
+    "relationship-graph.json",
+    "source-registry.json",
+    "timeline-branch-index.json",
+    "README.md",
+    "curation-notes.md"
+  ],
+  "coverageChecks": {
+    "readmeReviewed": true,
+    "curationNotesReviewed": true,
+    "sourceRegistryReviewed": true,
+    "campaignSourcesIndexed": true,
+    "rawSourcesSeparated": true,
+    "jsonValidationPassed": true
+  },
+  "knownLimits": [
+    "蔷薇水晶、槐等动画原创/改编元素需显式分支化。",
+    "人物最终状态与沙盒初始状态可能冲突，默认按爱丽丝游戏进行中处理。",
+    "未分类条目较多，逐条深挖需回查 campaign reports/unclassified-entries.json。"
+  ],
+  "rpStartupGuidance": [
+    "先声明漫画/动画原创/沙盒初始分支。",
+    "默认可从契约、媒介日常、N之领域探索或爱丽丝游戏压力线启动。",
+    "使用人工精灵、Rosa Mystica 或 N-field 战斗时加载 timeline-branch-index.json 与 world.json。"
+  ]
+}

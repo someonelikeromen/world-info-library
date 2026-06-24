@@ -1,0 +1,400 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "date-a-live",
+  "completionPass": "retry-03",
+  "sourceRefs": [
+    "src-date-a-live-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/date-a-live/source-registry.json",
+    "campaigns/world-library/worlds/date-a-live/characters/characters.json",
+    "campaigns/world-library/worlds/date-a-live/factions/factions.json",
+    "campaigns/world-library/worlds/date-a-live/locations/locations.json",
+    "campaigns/world-library/worlds/date-a-live/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/date-a-live/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/date-a-live/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/date-a-live/canon-reference/timeline.json",
+    "world-info-library/worlds/date-a-live/curated/world.json",
+    "world-info-library/worlds/date-a-live/curated/characters-index.json",
+    "world-info-library/worlds/date-a-live/curated/knowledge-graph.json",
+    "world-info-library/worlds/date-a-live/curated/relationship-graph.json"
+  ],
+  "curationScope": "补足 retry-03 要求的可检索扩展层：人物锚点、组织/地点运行层、精灵/显现装置/邻界能力约束、时间线与剧情篇章、关系、RP 钩子、低置信与冲突记录。只采用本地导入世界书与现有 curated；过滤成人向身体描写、露骨互动规则和技术控制文本。",
+  "coverageNote": "本地归档仅有 1 个 B 级导入源；分类文件显示 characters 36、factions 12、locations 26、powerSystems 22、canonArcs 5、canonFullPlot 6、canonTimeline 1。现有 characters-index 已收 24 个角色/集合，本扩展不重写索引，只把运行规则和待补模块集中化。",
+  "characters": {
+    "indexedCoreAnchors": [
+      {
+        "id": "ch-itsuka-shido",
+        "name": "五河士道",
+        "appearanceAndDemeanor": "来禅高中学生与料理/照顾型调停者；战斗锚点不是火力而是高危约会谈判、情绪稳定和封印仪式。",
+        "rpUse": "Ratatoskr 路线核心、精灵社会化桥梁、DEM 与澪因果中的目标；若 PC 取代士道，必须显式开启 IF。",
+        "sourceEvidence": "curated characters-index；timeline entryIndex 28。"
+      },
+      {
+        "id": "ch-yatogami-tohka",
+        "name": "夜刀神十香",
+        "appearanceAndDemeanor": "天真、重情、食欲旺盛；战斗以灵装、近战剑与高爆发灵力为锚点。",
+        "rpUse": "相遇篇和精灵共存路线的第一块样板；反转/DEM 绑架可作为中期高压事件。"
+      },
+      {
+        "id": "ch-tobiichi-origami",
+        "name": "鸢一折纸",
+        "appearanceAndDemeanor": "银白短发、冷静无表情的优等生与 AST/DEM/精灵阶段多重身份；世界线变动后形态与记忆状态需锁定。",
+        "rpUse": "AST 对精灵仇恨、五年前真相、反转与世界重置线的核心。",
+        "spoilerGate": "11 月前按普通人类/AST 队员处理；11 月后才开放精灵化与双重记忆。"
+      },
+      {
+        "id": "ch-tokisaki-kurumi",
+        "name": "时崎狂三",
+        "appearanceAndDemeanor": "危险优雅、时间能力与多重分身构成行动锚点；真实动机需按终局前后分层。",
+        "rpUse": "梦魇篇、时间回溯、二亚/邻界支线和终局真相的关键变量。",
+        "spoilerGate": "2 月14日前真实目标保持谜团；之后可揭示悲剧英雄层。"
+      },
+      {
+        "id": "ch-itsuka-kotori",
+        "name": "五河琴里",
+        "appearanceAndDemeanor": "义妹与 Ratatoskr 司令官双层身份，发带/指挥室/炎魔力量是主要锚点。",
+        "rpUse": "Fraxinus 指挥、约会作战投票、琴里觉醒与封印危机。"
+      },
+      {
+        "id": "ch-honjo-nia",
+        "name": "本条二亚",
+        "appearanceAndDemeanor": "漫画家、眼镜、颓废宅气质与全知之书形成反差。",
+        "rpUse": "情报战、DEM 囚禁后创伤、反转灵结晶与全知限制。",
+        "safetyNote": "源条目混入成人向内容；curated 只保留身份、能力和创伤修复结构。"
+      },
+      {
+        "id": "ch-hoshimiya-mukuro",
+        "name": "星宫六喰",
+        "appearanceAndDemeanor": "宇宙漂流、金发、古风口吻与钥匙/封印概念能力构成视觉与能力锚点。",
+        "rpUse": "宇宙篇、记忆封锁、家人/独占欲创伤修复；高规格能力需严格限权。"
+      },
+      {
+        "id": "ch-takamiya-mio",
+        "name": "崇宫澪 / 始源精灵",
+        "appearanceAndDemeanor": "终局级真相角色；常态运行中不应提前公开。",
+        "rpUse": "始源因果、灵结晶回收、士道/真士真相和最终战争。",
+        "visibility": "gm-only-until-final-arc"
+      }
+    ],
+    "expansionCandidatesFromSource": [
+      "八舞耶俱矢与八舞夕弦：暴风与歌姬篇入口，需按封印前/后区分决斗、合体与校园日常状态。",
+      "诱宵美九：偶像/歌姬、天央祭、洗脑与创伤修复；源中语气和成人向标签需过滤后再扩写。",
+      "镜野七罪：伪装、赝造魔女、全员变小/身份游戏；适合作为心理自卑与恶作剧型事件。",
+      "崇宫真那、艾伦、阿尔缇米希亚、维斯考特：AST/DEM 高端显现装置线核心，已索引但可补装备阶段表。",
+      "村雨令音：终局前只能作为温柔但不可靠的分析官；澪身份需按 2 月下旬后解锁。",
+      "绯衣响、白之女王与邻界领域支配者：Date A Bullet 支线候选，默认不覆盖主线天宫市基线。"
+    ],
+    "indexingPolicy": "候选人物后续入 characters-index 时应标注篇章日期、封印状态、反转状态、组织归属和 sourceRefs；不得把未来记忆提前混入早期时间点。"
+  },
+  "powerSystems": [
+    {
+      "id": "spirit-sephira-spatial-quake",
+      "name": "精灵、灵结晶、空间震与反转",
+      "summary": "精灵以灵结晶/灵力为核心，展开神威灵装和天使；显现或灵力扰动会引发空间震。精神状态、绝望和外部干预可能导致反转与魔王。",
+      "rpLimits": [
+        "每次精灵现界先声明空间震预警、避难状态、AST/DEM/Ratatoskr 是否介入。",
+        "封印不是消灭，封印后仍可在限定条件下短暂显现能力。",
+        "反转必须由创伤、绝望、外部强制或灵力失衡触发，不能当作普通二阶段爆发。"
+      ],
+      "sourceEvidence": "world.json powerSystems；timeline entryIndex 28。"
+    },
+    {
+      "id": "angel-and-demon-king-rules",
+      "name": "天使、魔王与角色专属能力",
+      "summary": "天使能力映射精灵创伤、愿望或人格主题；魔王多为反转后对应的破坏性/扭曲形态。能力跨度从近战炮击到时间、知识、封印、声音控制和概念操作。",
+      "rpLimits": [
+        "二亚的全知需保留‘不可直接读取人心’等限制，并避免无限剧透。",
+        "六喰的封解主属于高规格概念操作，应以剧情代价和目标范围限制。",
+        "狂三的时间能力消耗时间/灵力，回溯线必须记录分支与记忆保留。"
+      ]
+    },
+    {
+      "id": "ratatoskr-sealing-operation",
+      "name": "Ratatoskr 约会作战与封印流程",
+      "summary": "Fraxinus 指挥层通过监控、选项投票、心理分析和士道的封印能力稳定精灵；流程以信赖建立、情绪稳定和亲密仪式为关键。",
+      "rpLimits": [
+        "约会作战失败会升级为空间震、AST/DEM 交火或反转风险。",
+        "封印前需处理目标创伤与信任，不应靠单句告白跳过事件。",
+        "若不是士道路线，必须说明替代封印机制或改走非封印 IF。"
+      ]
+    },
+    {
+      "id": "realizer-cr-unit-and-wizards",
+      "name": "显现装置、随意领域、CR-Unit 与魔术师",
+      "summary": "AST、DEM 和部分独立魔术师使用显现装置与 CR-Unit 对抗精灵，能力包括飞行、防御、武装投射、身体强化和高端实验机体。",
+      "rpLimits": [
+        "装备性能、使用者适性和组织后勤决定战力；普通 AST 不能无代价压制高位精灵。",
+        "DEM 高端装备和实验技术常伴随伦理风险、捕获目的和信息封锁。"
+      ]
+    },
+    {
+      "id": "neighboring-world-quasi-spirit",
+      "name": "邻界、准精灵与领域规则",
+      "summary": "Date A Bullet 支线将战场移至邻界，准精灵在领域规则、时间/记忆资源和支配者结构中求生；狂三分身、绯衣响和白之女王为核心。",
+      "rpLimits": [
+        "邻界默认是可选支线，不自动替代主世界。",
+        "各领域规则应先定义通关条件、资源代价和支配者关系。",
+        "邻界狂三与主线狂三需明确是否为分身/本体/记忆投影。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "ratatoskr-runtime",
+      "name": "Ratatoskr / Fraxinus 运行层",
+      "summary": "秘密封印组织，以琴里、神无月、令音和舰桥成员为现场运行核心；同时连接士道、被封印精灵和社会伪装网络。",
+      "rpHooks": [
+        "空间震警报后临时约会作战",
+        "舰桥选项投票造成喜剧或危机",
+        "封印后精灵转学/寄宿/社会化安排",
+        "令音情报是否可信的终局伏笔"
+      ]
+    },
+    {
+      "id": "ast-runtime",
+      "name": "AST 对精灵部队运行层",
+      "summary": "官方防卫线，成员通常以精灵为灾害/敌人处理；折纸与真那等角色可在讨伐、保护和真相揭露之间转变。",
+      "rpHooks": [
+        "空间震现场与 Ratatoskr 互相干扰",
+        "CR-Unit 装备升级或损毁",
+        "折纸仇恨线与五年前真相冲突"
+      ]
+    },
+    {
+      "id": "dem-runtime",
+      "name": "DEM Industry 运行层",
+      "summary": "跨国企业/军事组织，以维斯考特、艾伦和高端魔术师为核心，倾向捕获、研究、利用或摧毁精灵。",
+      "visibility": "private-until-conflict",
+      "rpHooks": [
+        "绑架精灵或夺取灵结晶",
+        "实验机体与伦理风险",
+        "天央祭、二亚、终局总攻等阶段性升级"
+      ]
+    },
+    {
+      "id": "spirits-school-household",
+      "name": "被封印精灵、来禅高中与五河家日常层",
+      "summary": "封印后的精灵进入校园、五河家或周边社会；日常喜剧与创伤修复是灾害叙事的低烈度反面。",
+      "rpHooks": [
+        "转学与身份伪装",
+        "料理、家务、考试、社团与约会训练",
+        "封印稳定度因嫉妒、误会或外部袭击波动"
+      ]
+    },
+    {
+      "id": "neighboring-world-runtime",
+      "name": "邻界准精灵群体与领域支配者",
+      "summary": "以 Date A Bullet 为支线运行层，准精灵、领域支配者、白之女王和狂三分身围绕生存与返回现实展开。",
+      "visibility": "optional-branch"
+    }
+  ],
+  "locations": [
+    {
+      "id": "tengu-city-runtime",
+      "name": "天宫市灾害/日常双层舞台",
+      "summary": "空间震高发城市，同时承载学校、家庭、商业街、约会地点和避难体系；适合在同一地图上切换灾害与恋爱喜剧。",
+      "sceneUses": ["空间震警报", "城市约会", "AST 交火", "普通社会身份伪装"]
+    },
+    {
+      "id": "raizen-high-and-school-network",
+      "name": "来禅高中及校园网络",
+      "summary": "士道与多名精灵伪装生活的校园层，适合转学、文化祭、修学旅行、恋爱误会和身份暴露风险。"
+    },
+    {
+      "id": "fraxinus-command-stage",
+      "name": "Fraxinus 指挥舞台",
+      "summary": "Ratatoskr 空中舰与约会作战指挥中心；舰桥投票、通信延迟、战术选择和琴里司令模式构成运行乐趣。"
+    },
+    {
+      "id": "dem-ast-conflict-sites",
+      "name": "AST/DEM 交战与设施节点",
+      "summary": "训练场、封锁区、DEM 设施、空战区域和捕获现场，适合作为高火力战斗和组织阴谋场景。",
+      "visibility": "private-or-conflict"
+    },
+    {
+      "id": "space-and-orbit-stage",
+      "name": "宇宙/轨道战场",
+      "summary": "六喰篇扩展战场，处理太空距离、通信、生命维持、DEM 高端装备与封解主概念能力。",
+      "visibility": "arc-05"
+    },
+    {
+      "id": "neighboring-world-fields",
+      "name": "邻界各领域",
+      "summary": "Date A Bullet 支线异空间，由不同领域规则、支配者、资源和通关条件组成；默认作为独立分支场景。",
+      "visibility": "optional-branch"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "eurasia-spacequake-baseline",
+      "period": "三十年前",
+      "event": "欧亚大空灾奠定空间震与精灵灾害的世界背景。",
+      "certainty": "curated-baseline"
+    },
+    {
+      "id": "arc-01-encounter",
+      "period": "4月10日-5月31日",
+      "event": "相遇篇：十香现界、士道得知世界真相，四糸乃篇处理手偶与失控风险。",
+      "certainty": "source-derived-b"
+    },
+    {
+      "id": "arc-02-nightmare-efreet",
+      "period": "6月1日-6月30日",
+      "event": "梦魇与炎魔篇：狂三转学、真那登场、琴里炎魔力量与五年前真相逐步浮出。",
+      "certainty": "source-derived-b"
+    },
+    {
+      "id": "arc-03-storm-diva",
+      "period": "7月1日-9月30日",
+      "event": "暴风与歌姬篇：八舞姐妹修学旅行、美九与天央祭、DEM 绑架十香和十香反转风险。",
+      "certainty": "source-derived-b"
+    },
+    {
+      "id": "arc-04-natsumi-origami-reset",
+      "period": "10月1日-11月30日",
+      "event": "变身与救赎篇：七罪伪装游戏、折纸精灵化/反转、士道借狂三力量改写历史。",
+      "visibility": "spoiler-gated-after-november",
+      "certainty": "source-derived-b"
+    },
+    {
+      "id": "arc-05-nia-mukuro-space",
+      "period": "12月1日-1月31日",
+      "event": "二亚与宇宙篇：士道灵力暴走、二亚被 DEM 夺取反转灵结晶、六喰宇宙线与记忆封锁。",
+      "visibility": "route-dependent",
+      "certainty": "source-derived-b"
+    },
+    {
+      "id": "arc-06-mio-finale",
+      "period": "2月1日之后",
+      "event": "终局与轮回篇：狂三复学、情人节 DEM 总攻、澪苏醒、灵结晶回收、士道/真士真相与最终战争。",
+      "visibility": "gm-only-until-final-arc",
+      "certainty": "source-derived-b"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "spacequake-first-contact",
+      "name": "空间震与初次封印篇",
+      "focus": ["十香", "四糸乃", "空间震", "Ratatoskr", "AST"],
+      "rpEntry": "OC 可作为来禅高中学生、避难市民、AST 新人、Ratatoskr 支援人员或被卷入现界的普通人进入。"
+    },
+    {
+      "id": "organization-conflict-and-dem",
+      "name": "组织冲突与 DEM 浮上篇",
+      "focus": ["AST", "DEM", "CR-Unit", "美九", "十香反转"],
+      "rpEntry": "适合把校园日常升级为高火力空战、绑架救援和组织阴谋。"
+    },
+    {
+      "id": "identity-reset-and-time",
+      "name": "身份、时间与世界重置篇",
+      "focus": ["七罪", "折纸", "狂三", "五年前真相", "世界线记忆"],
+      "visibility": "spoiler-gated",
+      "rpEntry": "需要明确当前日期和角色知识，不得提前公开重置后记忆。"
+    },
+    {
+      "id": "angel-high-spec-escalation",
+      "name": "规则系天使与高规格升级篇",
+      "focus": ["二亚", "六喰", "全知", "封印概念", "宇宙战场"],
+      "rpEntry": "适合后期把能力从城市灾害升级到情报战、概念封锁和轨道战。"
+    },
+    {
+      "id": "origin-spirit-finale",
+      "name": "始源精灵与终局轮回篇",
+      "focus": ["澪", "真士", "令音", "狂三", "灵结晶"],
+      "visibility": "gm-only-until-triggered",
+      "rpEntry": "只有当日期/路线进入 2 月后才逐步开放核心真相。"
+    },
+    {
+      "id": "neighboring-world-date-a-bullet",
+      "name": "邻界与准精灵支线篇",
+      "focus": ["邻界", "准精灵", "狂三分身", "绯衣响", "白之女王"],
+      "visibility": "optional-branch",
+      "rpEntry": "作为独立支线或狂三相关外传插入，不覆盖主线天宫市。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ch-itsuka-shido",
+      "to": "f-ratatoskr",
+      "type": "strategic-sealing-core",
+      "note": "士道的封印能力使其成为 Ratatoskr 战略核心，也使他成为 DEM 与澪因果目标。"
+    },
+    {
+      "from": "ch-itsuka-shido",
+      "to": "ch-yatogami-tohka",
+      "type": "first-sealed-spirit-trust",
+      "note": "十香是精灵共存路线的第一例；关系状态决定早期封印稳定度与日常基调。"
+    },
+    {
+      "from": "ch-tobiichi-origami",
+      "to": "ch-itsuka-kotori",
+      "type": "misidentified-enemy-to-ally",
+      "visibility": "spoiler-gated",
+      "note": "折纸曾将琴里视为杀亲仇人；五年前真相和世界线重置后才转为复杂战友。"
+    },
+    {
+      "from": "ch-tokisaki-kurumi",
+      "to": "ch-itsuka-shido",
+      "type": "predator-mystery-to-tragic-protector",
+      "visibility": "private-until-final-arc",
+      "note": "终局前保留狂三真实动机，避免提前把她简化为盟友或反派。"
+    },
+    {
+      "from": "ch-honjo-nia",
+      "to": "f-dem",
+      "type": "former-captive-experiment-trauma",
+      "visibility": "private",
+      "note": "二亚线可通过 DEM 囚禁、全知厌世和反转灵结晶推进。"
+    },
+    {
+      "from": "ch-hoshimiya-mukuro",
+      "to": "ch-itsuka-shido",
+      "type": "closed-heart-family-attachment",
+      "visibility": "arc-05",
+      "note": "六喰从封闭心门到家人依恋的转变需用宇宙篇事件逐步触发。"
+    },
+    {
+      "from": "ch-takamiya-mio",
+      "to": "ch-takamiya-shinji",
+      "type": "origin-causal-bond",
+      "visibility": "gm-only-final-arc",
+      "note": "澪、真士和士道转生/因果链属于终局核心剧透。"
+    }
+  ],
+  "rpNotes": [
+    "开局必须声明日期或篇章；timeline entryIndex 28 明确 Past/Present/Future 知识屏蔽，未来事件只能作后台伏笔。",
+    "若用户不扮演士道，默认不自动启用完整士道剧情引擎；需选择共存 OC、AST/DEM/Ratatoskr 视角、精灵 OC 或 IF 替代封印机制。",
+    "每次精灵事件按：空间震预警 → 避难/AST 反应 → Ratatoskr 判断 → 情绪与创伤调查 → 约会/战斗 → 封印或后果 运行。",
+    "终局信息门控：令音=澪、士道/真士真相、狂三真实动机、折纸双重记忆必须按日期解锁。",
+    "源文件混入成人向身体描写和露骨互动，curated 只保留 SFW 世界观、能力、组织冲突、创伤修复和 RP 结构。"
+  ],
+  "lowConfidenceAndConflicts": [
+    {
+      "topic": "单一导入源且含角色卡化口吻",
+      "status": "medium-confidence",
+      "note": "source-registry 仅列 src-date-a-live-001，可靠性 B；部分条目为角色卡强化语气，不等同逐字官方设定。"
+    },
+    {
+      "topic": "成人向与技术控制文本混入",
+      "status": "filtered",
+      "note": "characters/powerSystems 等分类保留了 characterNsfw/nsfwRules/technical 内容；本扩展明确排除露骨身体描写和控制文本。"
+    },
+    {
+      "topic": "剧情时间轴是否按士道路线运行",
+      "status": "route-dependent",
+      "note": "源 timeline 注明‘非扮演士道不推荐开’；若玩家不是士道，需把主线作为背景或 IF，而非强推原路线。"
+    },
+    {
+      "topic": "Date A Bullet 与主线混用",
+      "status": "optional-branch",
+      "note": "邻界、准精灵、白之女王为支线层；默认不覆盖天宫市主线基线。"
+    }
+  ],
+  "residualGaps": [
+    "未为所有 36 个源人物逐条补正式 characters-index 状态表；尤其令音、村雨令音/澪双层身份和普通舰桥成员仍可细分。",
+    "AST/DEM 装备、CR-Unit 型号和精灵天使招式仍需从 abilities/items 分类拆成独立索引。",
+    "邻界各领域、支配者、通关规则和准精灵名册仍只保留支线运行骨架。",
+    "各篇章具体日期、封印后状态、反转状态和角色记忆需在具体 RP 开局时再锁定。"
+  ]
+}

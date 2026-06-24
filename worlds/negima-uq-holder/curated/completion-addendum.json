@@ -1,0 +1,140 @@
+{
+  "schema": "rp-curation-completion-addendum-v1",
+  "worldId": "negima-uq-holder",
+  "stepId": "retry-09",
+  "status": "layered-supplement",
+  "sourceEvidence": {
+    "readableSources": [
+      "campaigns/world-library/worlds/negima-uq-holder/characters/characters.json",
+      "campaigns/world-library/worlds/negima-uq-holder/factions/factions.json",
+      "campaigns/world-library/worlds/negima-uq-holder/locations/locations.json",
+      "campaigns/world-library/worlds/negima-uq-holder/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/negima-uq-holder/power-systems/abilities.json",
+      "campaigns/world-library/worlds/negima-uq-holder/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/negima-uq-holder/canon-reference/timeline.json",
+      "campaigns/world-library/worlds/negima-uq-holder/canon-reference/plot-summary.json"
+    ],
+    "sourceCategoryCounts": {
+      "characters": 217,
+      "factions": 90,
+      "locations": 82,
+      "powerSystems": 165,
+      "abilities": 183,
+      "arcs": 60,
+      "timeline": 3,
+      "plotSummary": 1
+    },
+    "sourceRisks": [
+      "源档同时覆盖《魔法老师》2003 年代与《UQ HOLDER》80 年后公开魔法时代；人物年龄、阵营和恋爱归属不可跨时代混用。",
+      "自动分类将模式规则、回复格式和角色生成模板归入世界资料分类；本补记只保留可用于 RP 世界观的结构信息。"
+    ]
+  },
+  "coverageAdditions": {
+    "eraModel": [
+      {
+        "id": "negima-2003-mahora-era",
+        "name": "魔法老师 / 麻帆良学园时代",
+        "anchors": ["涅吉担任 3-A 班老师", "麻帆良学园祭", "暂定契约扩展", "魔法世界远征与造物主危机"],
+        "defaultTone": "校园喜剧、秘密魔法、师生/同伴成长、逐步升级的大战"
+      },
+      {
+        "id": "uq-holder-future-era",
+        "name": "UQ HOLDER / 魔法公开化时代",
+        "anchors": ["魔法与科技融合", "轨道电梯与新东京", "不死者组织 UQ Holder", "造物主/尤达相关未来危机"],
+        "defaultTone": "近未来奇幻、长寿者政治、宿命继承、宇宙规模威胁"
+      }
+    ],
+    "characterLayers": [
+      {
+        "layer": "Negima 主角与 3-A 核心",
+        "members": ["涅吉·史普林菲尔德", "神乐坂明日菜", "近卫木乃香", "樱咲刹那", "宫崎和香", "绫濑夕映", "络缲茶茶丸", "长濑枫", "古菲", "佐佐木莳绘"],
+        "rpUse": "校园日常、契约卡、学园祭和魔法世界远征的主要互动池。"
+      },
+      {
+        "layer": "导师与高阶魔法侧",
+        "members": ["依文洁琳·A·K·麦道威尔", "纳吉·史普林菲尔德", "阿尔比雷欧·伊玛", "杰克·拉坎", "菲特·阿维伦克斯"],
+        "rpUse": "高阶魔法、旧战争、造物主阵营和战力标尺。"
+      },
+      {
+        "layer": "UQ Holder 核心",
+        "members": ["近卫刀太", "雪姬/依文洁琳", "时坂九郎丸", "夏凛", "樱雨桐衣", "结城忍", "甚兵卫", "一空"],
+        "rpUse": "不死者据点、未来主线、身份继承和高危任务。"
+      },
+      {
+        "layer": "敌对与灰色势力",
+        "members": ["造物主", "尤达·巴奥", "完全魔王化涅吉", "魔法世界议会与旧世界权力集团"],
+        "rpUse": "后期锁定威胁和跨时代秘密；默认不在早期开局公开。"
+      }
+    ],
+    "factionLayers": [
+      {
+        "id": "mahora-academy",
+        "name": "麻帆良学园",
+        "scope": "现代日本中的魔法据点、学园结界和大型日常/战斗舞台。"
+      },
+      {
+        "id": "mundus-magicus",
+        "name": "魔法世界 / 火星异空间",
+        "scope": "古老魔法文明、种族差异、战争与移民问题。"
+      },
+      {
+        "id": "uq-holder",
+        "name": "UQ Holder",
+        "scope": "未来时代的不死者组织，接纳长寿/不死/异常能力者并执行高危任务。"
+      },
+      {
+        "id": "cosmo-entellecheia",
+        "name": "完全世界/造物主关联阵营",
+        "scope": "以救赎或终结为名推动世界级灾难的高阶敌对网络。"
+      }
+    ],
+    "powerSystemLayers": [
+      {
+        "id": "western-magic-and-incantation",
+        "summary": "魔法通过咒文、魔力、阵式和道具发动；战斗描写应保留咏唱与解除/反制空间。"
+      },
+      {
+        "id": "pactio-and-artifact",
+        "summary": "暂定契约以接吻缔结，生成契约卡与 Artifact；Artifact 能力映射从者本质，是队伍协作和剧情解谜核心。"
+      },
+      {
+        "id": "magia-erebea",
+        "summary": "黑暗魔法可吸收、融合或转化敌方力量，但伴随侵蚀、失控和精神风险。"
+      },
+      {
+        "id": "anti-magic",
+        "summary": "明日菜等反魔法能力可破除咒术、结界或契约效果，是高阶术式的硬 counter。"
+      },
+      {
+        "id": "immortality-classes",
+        "summary": "UQ Holder 时代需区分吸血鬼、不老不死、再生、灵魂/时间系生存等不死类型与封印条件。"
+      },
+      {
+        "id": "time-space-and-parallel-worlds",
+        "summary": "时间跳跃、平行世界和未来分歧是高风险剧情工具，必须锁定因果规则后使用。"
+      }
+    ],
+    "arcLayers": [
+      {
+        "era": "Negima",
+        "arcs": ["学园日常与秘密魔法", "京都/关西魔法协会冲突", "麻帆良学园祭与时间跳跃", "魔法世界远征", "造物主与父亲线索"]
+      },
+      {
+        "era": "UQ Holder",
+        "arcs": ["刀太觉醒与 UQ Holder 入团", "轨道电梯/新东京任务", "平行世界的挽歌", "黑暗未来倒计时", "涅吉/造物主最终危机"]
+      }
+    ],
+    "relationshipPriorities": [
+      "涅吉-3A：教师身份、契约从者和团队信任。",
+      "涅吉-纳吉/造物主：父亲追寻与世界级危机。",
+      "明日菜-木乃香-刹那：守护、友情和反魔法/治愈/剑士三角。",
+      "刀太-雪姬：UQ Holder 时代的导师、同伴和长寿者秘密。",
+      "刀太-涅吉：血缘/继承与未来危机的核心张力。"
+    ]
+  },
+  "residualGaps": [
+    "未逐条补齐 3-A 全班与 UQ Holder 全员状态；建议按 Negima 学园批、魔法世界批、UQH 批拆分。",
+    "源只给 3 个明确 timeline 条目，跨时代完整年表仍需另行补。",
+    "恋爱/后宫归属规则来自源档控制层，已作为风险记录，未写入硬性世界规则；具体团本应单独决定。"
+  ]
+}

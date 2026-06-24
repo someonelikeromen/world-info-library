@@ -7,123 +7,896 @@
       "name": "主角猎人/OC猎人",
       "role": "旅者与学习者",
       "affiliation": "猎人公会",
-      "notes": "串联各区域，学习当地规则，逐步从技巧追求者转为生态守护者。"
+      "notes": "串联各区域，学习当地规则，逐步从技巧追求者转为生态守护者。",
+      "id": "role-00",
+      "visibility": "public",
+      "summary": "串联各区域，学习当地规则，逐步从技巧追求者转为生态守护者。",
+      "factions": [
+        "猎人公会"
+      ],
+      "roles": [
+        "旅者与学习者"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "公会受付员",
       "role": "任务发布与手续管理",
       "affiliation": "猎人公会",
-      "notes": "负责委托登记、任务星级说明、报酬与风险提示。"
+      "notes": "负责委托登记、任务星级说明、报酬与风险提示。",
+      "id": "role-01",
+      "visibility": "public",
+      "summary": "负责委托登记、任务星级说明、报酬与风险提示。",
+      "factions": [
+        "猎人公会"
+      ],
+      "roles": [
+        "任务发布与手续管理"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "公会主管/集会所负责人",
       "role": "地区公会管理者",
       "affiliation": "各地猎人公会",
-      "notes": "协调猎人、村庄、王国与研究机构之间的需求。"
+      "notes": "协调猎人、村庄、王国与研究机构之间的需求。",
+      "id": "role-02",
+      "visibility": "public",
+      "summary": "协调猎人、村庄、王国与研究机构之间的需求。",
+      "factions": [
+        "各地猎人公会"
+      ],
+      "roles": [
+        "地区公会管理者"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "村长",
       "role": "地方委托人与社区代表",
       "affiliation": "各地村落",
-      "notes": "代表村落发布村任务，体现当地文化与价值冲突。"
+      "notes": "代表村落发布村任务，体现当地文化与价值冲突。",
+      "id": "role-03",
+      "visibility": "public",
+      "summary": "代表村落发布村任务，体现当地文化与价值冲突。",
+      "factions": [
+        "各地村落"
+      ],
+      "roles": [
+        "地方委托人与社区代表"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "加工屋工匠",
       "role": "武器防具锻造者",
       "affiliation": "工匠体系/村落",
-      "notes": "将素材转化为装备，体现装备驱动成长。"
+      "notes": "将素材转化为装备，体现装备驱动成长。",
+      "id": "role-04",
+      "visibility": "public",
+      "summary": "将素材转化为装备，体现装备驱动成长。",
+      "factions": [
+        "工匠体系/村落"
+      ],
+      "roles": [
+        "武器防具锻造者"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "艾露猫伙伴",
       "role": "狩猎搭档/支援者",
       "affiliation": "猎人/猫猫岛等",
-      "notes": "提供采集、支援、搬运与日常互动。"
+      "notes": "提供采集、支援、搬运与日常互动。",
+      "id": "role-05",
+      "visibility": "public",
+      "summary": "提供采集、支援、搬运与日常互动。",
+      "factions": [
+        "猎人/猫猫岛等"
+      ],
+      "roles": [
+        "狩猎搭档/支援者"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "王立书士队学者",
       "role": "生态记录与分类",
       "affiliation": "王立书士队",
-      "notes": "记录已知/未知物种并提供图鉴式生态知识。"
+      "notes": "记录已知/未知物种并提供图鉴式生态知识。",
+      "id": "role-06",
+      "visibility": "public",
+      "summary": "记录已知/未知物种并提供图鉴式生态知识。",
+      "factions": [
+        "王立书士队"
+      ],
+      "roles": [
+        "生态记录与分类"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "古龙观测员",
       "role": "灾害预警与追踪",
       "affiliation": "古龙观测局",
-      "notes": "追踪活动天灾级古龙，发布高危情报。"
+      "notes": "追踪活动天灾级古龙，发布高危情报。",
+      "id": "role-07",
+      "visibility": "public",
+      "summary": "追踪活动天灾级古龙，发布高危情报。",
+      "factions": [
+        "古龙观测局"
+      ],
+      "roles": [
+        "灾害预警与追踪"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "龙历院研究员",
       "role": "怪物研究/技术传授",
       "affiliation": "龙历院",
-      "notes": "兼具学术机构与猎人公会功能。"
+      "notes": "兼具学术机构与猎人公会功能。",
+      "id": "role-08",
+      "visibility": "public",
+      "summary": "兼具学术机构与猎人公会功能。",
+      "factions": [
+        "龙历院"
+      ],
+      "roles": [
+        "怪物研究/技术传授"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "调查团总司令",
       "role": "新大陆调查领导",
       "affiliation": "调查团",
-      "notes": "统合新大陆据点、生态调查与大型作战。"
+      "notes": "统合新大陆据点、生态调查与大型作战。",
+      "id": "role-09",
+      "visibility": "public",
+      "summary": "统合新大陆据点、生态调查与大型作战。",
+      "factions": [
+        "调查团"
+      ],
+      "roles": [
+        "新大陆调查领导"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "调查班队长",
       "role": "前线队长",
       "affiliation": "调查团",
-      "notes": "带队勘察新区域与应对异常生态。"
+      "notes": "带队勘察新区域与应对异常生态。",
+      "id": "role-10",
+      "visibility": "public",
+      "summary": "带队勘察新区域与应对异常生态。",
+      "factions": [
+        "调查团"
+      ],
+      "roles": [
+        "前线队长"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "生态研究所所长",
       "role": "新大陆生态学者",
       "affiliation": "调查团/研究机构",
-      "notes": "分析怪物迁徙、食物链与古龙渡。"
+      "notes": "分析怪物迁徙、食物链与古龙渡。",
+      "id": "role-11",
+      "visibility": "public",
+      "summary": "分析怪物迁徙、食物链与古龙渡。",
+      "factions": [
+        "调查团/研究机构"
+      ],
+      "roles": [
+        "新大陆生态学者"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "教官",
       "role": "训练与武器教学",
       "affiliation": "猎人公会/训练场",
-      "notes": "教授武器、回避、陷阱、团队协作。"
+      "notes": "教授武器、回避、陷阱、团队协作。",
+      "id": "role-12",
+      "visibility": "public",
+      "summary": "教授武器、回避、陷阱、团队协作。",
+      "factions": [
+        "猎人公会/训练场"
+      ],
+      "roles": [
+        "训练与武器教学"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "商队领队",
       "role": "区域旅行与补给",
       "affiliation": "商队/公会",
-      "notes": "连接村落、港口和未知地区。"
+      "notes": "连接村落、港口和未知地区。",
+      "id": "role-13",
+      "visibility": "public",
+      "summary": "连接村落、港口和未知地区。",
+      "factions": [
+        "商队/公会"
+      ],
+      "roles": [
+        "区域旅行与补给"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "保守派长老",
       "role": "传统狩猎价值代表",
       "affiliation": "传统村落",
-      "notes": "与技术激进派形成价值对话。"
+      "notes": "与技术激进派形成价值对话。",
+      "id": "role-14",
+      "visibility": "public",
+      "summary": "与技术激进派形成价值对话。",
+      "factions": [
+        "传统村落"
+      ],
+      "roles": [
+        "传统狩猎价值代表"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "激进派技师",
       "role": "新技术与改造代表",
       "affiliation": "研究基地/工房",
-      "notes": "推动翔虫、机关、船舰、特殊装备等规则变化。"
+      "notes": "推动翔虫、机关、船舰、特殊装备等规则变化。",
+      "id": "role-15",
+      "visibility": "public",
+      "summary": "推动翔虫、机关、船舰、特殊装备等规则变化。",
+      "factions": [
+        "研究基地/工房"
+      ],
+      "roles": [
+        "新技术与改造代表"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "生态顶点怪物",
       "role": "区域主线挑战",
       "affiliation": "自然生态",
-      "notes": "每个区域的主要危机与成长阶梯。"
+      "notes": "每个区域的主要危机与成长阶梯。",
+      "id": "role-16",
+      "visibility": "public",
+      "summary": "每个区域的主要危机与成长阶梯。",
+      "factions": [
+        "自然生态"
+      ],
+      "roles": [
+        "区域主线挑战"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "古龙",
       "role": "活动天灾",
       "affiliation": "自然/超常生态",
-      "notes": "不以善恶定义，是区域异变和史诗狩猎核心。"
+      "notes": "不以善恶定义，是区域异变和史诗狩猎核心。",
+      "id": "role-17",
+      "visibility": "public",
+      "summary": "不以善恶定义，是区域异变和史诗狩猎核心。",
+      "factions": [
+        "自然/超常生态"
+      ],
+      "roles": [
+        "活动天灾"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
     },
     {
       "name": "禁忌怪物",
       "role": "主线谜团/终极灾厄",
       "affiliation": "未知",
-      "notes": "通过区域任务埋线索，驱动长期剧情。"
+      "notes": "通过区域任务埋线索，驱动长期剧情。",
+      "id": "role-18",
+      "visibility": "gm-only",
+      "summary": "通过区域任务埋线索，驱动长期剧情。",
+      "factions": [
+        "未知"
+      ],
+      "roles": [
+        "主线谜团/终极灾厄"
+      ],
+      "powerSystems": [],
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "importance": "medium",
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rathalos",
+      "name": "雄火龙",
+      "visibility": "public",
+      "summary": "代表性飞龙种与天空王者，适合领空、巢穴、火属性与尾部素材任务。",
+      "roles": [
+        "large-monster",
+        "flying-wyvern"
+      ],
+      "factions": [
+        "natural-ecology"
+      ],
+      "locations": [
+        "ancient-forest",
+        "kokoto-village"
+      ],
+      "powerSystems": [
+        "ecology-tracking"
+      ],
+      "abilities": [
+        "飞行",
+        "火球",
+        "毒爪",
+        "领地巡逻"
+      ],
+      "items": [
+        "火龙鳞",
+        "火龙逆鳞"
+      ],
+      "relationships": [
+        "rathian:mate/ecological-pair"
+      ],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "notes": "分类索引条目，不等同完整图鉴。"
+    },
+    {
+      "id": "zinogre",
+      "name": "雷狼龙",
+      "visibility": "public",
+      "summary": "带电牙龙种，结云/溪流等区域的高机动强敌。",
+      "roles": [
+        "large-monster",
+        "fanged-wyvern"
+      ],
+      "factions": [
+        "natural-ecology"
+      ],
+      "locations": [
+        "yukumo-village"
+      ],
+      "powerSystems": [
+        "ecology-tracking"
+      ],
+      "abilities": [
+        "蓄电",
+        "雷光虫共生",
+        "高速扑击"
+      ],
+      "items": [
+        "雷狼龙甲壳",
+        "超电雷光虫"
+      ],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "notes": "适合中阶生态顶点任务。"
+    },
+    {
+      "id": "kushala-daora",
+      "name": "钢龙",
+      "visibility": "gm-only",
+      "summary": "古龙种，风暴与龙风压可改变区域天气和狩猎方式。",
+      "roles": [
+        "elder-dragon",
+        "disaster"
+      ],
+      "factions": [
+        "elder-dragon-ecology"
+      ],
+      "locations": [
+        "elder-recess"
+      ],
+      "powerSystems": [
+        "elder-dragon-disaster"
+      ],
+      "abilities": [
+        "风暴操控",
+        "龙风压",
+        "金属外壳"
+      ],
+      "items": [
+        "钢龙鳞",
+        "钢龙宝玉"
+      ],
+      "relationships": [
+        "elder-dragon-observatory:tracked-by"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "notes": "古龙任务需高阶许可。"
+    },
+    {
+      "id": "fatalis",
+      "name": "黑龙",
+      "visibility": "gm-only",
+      "summary": "与旧修雷德和文明毁灭传说相关的禁忌怪物。",
+      "roles": [
+        "forbidden-monster",
+        "endgame-threat"
+      ],
+      "factions": [
+        "forbidden-ecology"
+      ],
+      "locations": [
+        "schrade"
+      ],
+      "powerSystems": [
+        "elder-dragon-disaster"
+      ],
+      "abilities": [
+        "毁灭级火焰",
+        "城塞破坏",
+        "禁忌传说"
+      ],
+      "items": [
+        "黑龙素材/高度封存"
+      ],
+      "relationships": [
+        "royal-scribes:classified-by",
+        "hunter-guild:sealed-record"
+      ],
+      "importance": "critical",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "src-monster-hunter-001"
+      ],
+      "notes": "长线终局，不应早期直接遭遇。"
     }
   ],
   "worldId": "monster-hunter",
   "indices": {
-    "byId": {},
-    "byName": {},
-    "byAffiliation": {},
-    "byTag": {}
+    "byId": {
+      "role-00": 0,
+      "role-01": 1,
+      "role-02": 2,
+      "role-03": 3,
+      "role-04": 4,
+      "role-05": 5,
+      "role-06": 6,
+      "role-07": 7,
+      "role-08": 8,
+      "role-09": 9,
+      "role-10": 10,
+      "role-11": 11,
+      "role-12": 12,
+      "role-13": 13,
+      "role-14": 14,
+      "role-15": 15,
+      "role-16": 16,
+      "role-17": 17,
+      "role-18": 18,
+      "rathalos": 19,
+      "zinogre": 20,
+      "kushala-daora": 21,
+      "fatalis": 22
+    },
+    "byName": {
+      "主角猎人/OC猎人": "role-00",
+      "公会受付员": "role-01",
+      "公会主管/集会所负责人": "role-02",
+      "村长": "role-03",
+      "加工屋工匠": "role-04",
+      "艾露猫伙伴": "role-05",
+      "王立书士队学者": "role-06",
+      "古龙观测员": "role-07",
+      "龙历院研究员": "role-08",
+      "调查团总司令": "role-09",
+      "调查班队长": "role-10",
+      "生态研究所所长": "role-11",
+      "教官": "role-12",
+      "商队领队": "role-13",
+      "保守派长老": "role-14",
+      "激进派技师": "role-15",
+      "生态顶点怪物": "role-16",
+      "古龙": "role-17",
+      "禁忌怪物": "role-18",
+      "雄火龙": "rathalos",
+      "雷狼龙": "zinogre",
+      "钢龙": "kushala-daora",
+      "黑龙": "fatalis"
+    },
+    "byAffiliation": {
+      "猎人公会": [
+        "role-00",
+        "role-00",
+        "role-01",
+        "role-01"
+      ],
+      "各地猎人公会": [
+        "role-02",
+        "role-02"
+      ],
+      "各地村落": [
+        "role-03",
+        "role-03"
+      ],
+      "工匠体系/村落": [
+        "role-04",
+        "role-04"
+      ],
+      "猎人/猫猫岛等": [
+        "role-05",
+        "role-05"
+      ],
+      "王立书士队": [
+        "role-06",
+        "role-06"
+      ],
+      "古龙观测局": [
+        "role-07",
+        "role-07"
+      ],
+      "龙历院": [
+        "role-08",
+        "role-08"
+      ],
+      "调查团": [
+        "role-09",
+        "role-09",
+        "role-10",
+        "role-10"
+      ],
+      "调查团/研究机构": [
+        "role-11",
+        "role-11"
+      ],
+      "猎人公会/训练场": [
+        "role-12",
+        "role-12"
+      ],
+      "商队/公会": [
+        "role-13",
+        "role-13"
+      ],
+      "传统村落": [
+        "role-14",
+        "role-14"
+      ],
+      "研究基地/工房": [
+        "role-15",
+        "role-15"
+      ],
+      "自然生态": [
+        "role-16",
+        "role-16"
+      ],
+      "自然/超常生态": [
+        "role-17",
+        "role-17"
+      ],
+      "未知": [
+        "role-18",
+        "role-18"
+      ],
+      "natural-ecology": [
+        "rathalos",
+        "zinogre"
+      ],
+      "elder-dragon-ecology": [
+        "kushala-daora"
+      ],
+      "forbidden-ecology": [
+        "fatalis"
+      ]
+    },
+    "byTag": {
+      "旅者与学习者": [
+        "role-00"
+      ],
+      "任务发布与手续管理": [
+        "role-01"
+      ],
+      "地区公会管理者": [
+        "role-02"
+      ],
+      "地方委托人与社区代表": [
+        "role-03"
+      ],
+      "武器防具锻造者": [
+        "role-04"
+      ],
+      "狩猎搭档/支援者": [
+        "role-05"
+      ],
+      "生态记录与分类": [
+        "role-06"
+      ],
+      "灾害预警与追踪": [
+        "role-07"
+      ],
+      "怪物研究/技术传授": [
+        "role-08"
+      ],
+      "新大陆调查领导": [
+        "role-09"
+      ],
+      "前线队长": [
+        "role-10"
+      ],
+      "新大陆生态学者": [
+        "role-11"
+      ],
+      "训练与武器教学": [
+        "role-12"
+      ],
+      "区域旅行与补给": [
+        "role-13"
+      ],
+      "传统狩猎价值代表": [
+        "role-14"
+      ],
+      "新技术与改造代表": [
+        "role-15"
+      ],
+      "区域主线挑战": [
+        "role-16"
+      ],
+      "活动天灾": [
+        "role-17"
+      ],
+      "主线谜团/终极灾厄": [
+        "role-18"
+      ],
+      "large-monster": [
+        "rathalos",
+        "zinogre"
+      ],
+      "flying-wyvern": [
+        "rathalos"
+      ],
+      "fanged-wyvern": [
+        "zinogre"
+      ],
+      "elder-dragon": [
+        "kushala-daora"
+      ],
+      "disaster": [
+        "kushala-daora"
+      ],
+      "forbidden-monster": [
+        "fatalis"
+      ],
+      "endgame-threat": [
+        "fatalis"
+      ]
+    },
+    "byFaction": {
+      "猎人公会": [
+        "role-00",
+        "role-00",
+        "role-01",
+        "role-01"
+      ],
+      "各地猎人公会": [
+        "role-02",
+        "role-02"
+      ],
+      "各地村落": [
+        "role-03",
+        "role-03"
+      ],
+      "工匠体系/村落": [
+        "role-04",
+        "role-04"
+      ],
+      "猎人/猫猫岛等": [
+        "role-05",
+        "role-05"
+      ],
+      "王立书士队": [
+        "role-06",
+        "role-06"
+      ],
+      "古龙观测局": [
+        "role-07",
+        "role-07"
+      ],
+      "龙历院": [
+        "role-08",
+        "role-08"
+      ],
+      "调查团": [
+        "role-09",
+        "role-09",
+        "role-10",
+        "role-10"
+      ],
+      "调查团/研究机构": [
+        "role-11",
+        "role-11"
+      ],
+      "猎人公会/训练场": [
+        "role-12",
+        "role-12"
+      ],
+      "商队/公会": [
+        "role-13",
+        "role-13"
+      ],
+      "传统村落": [
+        "role-14",
+        "role-14"
+      ],
+      "研究基地/工房": [
+        "role-15",
+        "role-15"
+      ],
+      "自然生态": [
+        "role-16",
+        "role-16"
+      ],
+      "自然/超常生态": [
+        "role-17",
+        "role-17"
+      ],
+      "未知": [
+        "role-18",
+        "role-18"
+      ],
+      "natural-ecology": [
+        "rathalos",
+        "zinogre"
+      ],
+      "elder-dragon-ecology": [
+        "kushala-daora"
+      ],
+      "forbidden-ecology": [
+        "fatalis"
+      ]
+    },
+    "byPowerSystem": {
+      "ecology-tracking": [
+        "rathalos",
+        "zinogre"
+      ],
+      "elder-dragon-disaster": [
+        "kushala-daora",
+        "fatalis"
+      ]
+    },
+    "byVisibility": {
+      "public": [
+        "role-00",
+        "role-01",
+        "role-02",
+        "role-03",
+        "role-04",
+        "role-05",
+        "role-06",
+        "role-07",
+        "role-08",
+        "role-09",
+        "role-10",
+        "role-11",
+        "role-12",
+        "role-13",
+        "role-14",
+        "role-15",
+        "role-16",
+        "role-17",
+        "rathalos",
+        "zinogre"
+      ],
+      "gm-only": [
+        "role-18",
+        "kushala-daora",
+        "fatalis"
+      ]
+    },
+    "majorCharacters": [
+      "rathalos",
+      "zinogre",
+      "kushala-daora",
+      "fatalis"
+    ]
   },
   "runtimeUseGate": {
     "gateType": "role-and-ecology-index-caveat",
@@ -133,7 +906,7 @@
       "summary": "",
       "notes": []
     },
-    "runtimePolicy": "do not treat hunter/guild/ecology role entries or monster categories as a complete fixed canon NPC list"
+    "runtimePolicy": "do not treat occupational role entries, ecological roles, or selected monster examples as a complete fixed canon NPC/monster list"
   },
   "notCompleteCanonRoster": {
     "enabled": true,

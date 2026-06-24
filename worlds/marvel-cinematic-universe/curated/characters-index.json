@@ -447,6 +447,322 @@
         "factions: avengers-adjacent 是邻接关系标签，不等同于 Avengers 正式成员；未强行改写。",
         "factions: avengers-adjacent 保留为 notes 中的关系标签；未伪造为 canonical faction。"
       ]
+    },
+    {
+      "id": "wanda-maximoff",
+      "name": "旺达·马克西莫夫",
+      "aliases": [
+        "绯红女巫",
+        "Scarlet Witch"
+      ],
+      "visibility": "public",
+      "summary": "超能力者/魔法使用者，创伤与混沌魔法可引发现实改写风险。",
+      "roles": [
+        "hero",
+        "magic-user"
+      ],
+      "factions": [
+        "avengers"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [
+        "chaos-magic"
+      ],
+      "abilities": [
+        "念动力",
+        "心灵操控",
+        "能量投射",
+        "局部现实改写"
+      ],
+      "items": [
+        "黑暗神书/阶段限定"
+      ],
+      "relationships": [],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "loki",
+      "name": "洛基",
+      "aliases": [
+        "诡计之神"
+      ],
+      "visibility": "public",
+      "summary": "阿斯加德王族/冰霜巨人血统的诡计者，常在反派、盟友与变体之间变化。",
+      "roles": [
+        "trickster",
+        "asgardian"
+      ],
+      "factions": [
+        "asgard",
+        "tva"
+      ],
+      "locations": [
+        "asgard",
+        "cosmos"
+      ],
+      "powerSystems": [
+        "asgardian-divinity",
+        "mystic-arts"
+      ],
+      "abilities": [
+        "幻术",
+        "变形",
+        "匕首格斗",
+        "权谋"
+      ],
+      "items": [
+        "宇宙魔方/阶段限定"
+      ],
+      "relationships": [],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "clint-barton",
+      "name": "克林特·巴顿",
+      "aliases": [
+        "鹰眼"
+      ],
+      "visibility": "public",
+      "summary": "神盾局特工与复仇者弓箭手。",
+      "roles": [
+        "agent",
+        "archer",
+        "hero"
+      ],
+      "factions": [
+        "avengers",
+        "shield"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "神射",
+        "潜入",
+        "近战",
+        "战术支援"
+      ],
+      "items": [
+        "复合弓",
+        "特种箭矢"
+      ],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "nick-fury",
+      "name": "尼克·弗瑞",
+      "aliases": [
+        "Nick Fury"
+      ],
+      "visibility": "public",
+      "summary": "神盾局关键领导者，推动复仇者倡议并维持地球超常情报网。",
+      "roles": [
+        "spymaster",
+        "coordinator"
+      ],
+      "factions": [
+        "shield"
+      ],
+      "locations": [
+        "earth"
+      ],
+      "powerSystems": [],
+      "abilities": [
+        "情报统筹",
+        "秘密行动",
+        "危机召集"
+      ],
+      "items": [
+        "神盾局权限"
+      ],
+      "relationships": [],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "bucky-barnes",
+      "name": "巴基·巴恩斯",
+      "aliases": [
+        "冬日战士"
+      ],
+      "visibility": "public",
+      "summary": "史蒂夫挚友，被九头蛇洗脑改造成冬日战士。",
+      "roles": [
+        "super-soldier",
+        "assassin"
+      ],
+      "factions": [
+        "hydra",
+        "avengers"
+      ],
+      "locations": [
+        "earth",
+        "wakanda"
+      ],
+      "powerSystems": [
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "超级士兵体能",
+        "机械臂",
+        "暗杀训练"
+      ],
+      "items": [
+        "振金手臂/阶段限定"
+      ],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "tchalla",
+      "name": "特查拉",
+      "aliases": [
+        "黑豹",
+        "Black Panther"
+      ],
+      "visibility": "public",
+      "summary": "瓦坎达国王/黑豹，连接王位政治、振金科技与复仇者战线。",
+      "roles": [
+        "king",
+        "hero"
+      ],
+      "factions": [
+        "wakanda",
+        "avengers"
+      ],
+      "locations": [
+        "wakanda"
+      ],
+      "powerSystems": [
+        "vibranium-tech",
+        "super-soldier-tech"
+      ],
+      "abilities": [
+        "黑豹战衣",
+        "心形草强化",
+        "王权统筹"
+      ],
+      "items": [
+        "黑豹战衣"
+      ],
+      "relationships": [],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "shuri",
+      "name": "舒莉",
+      "aliases": [
+        "Shuri"
+      ],
+      "visibility": "public",
+      "summary": "瓦坎达公主与天才科学家，振金科技开发核心。",
+      "roles": [
+        "scientist",
+        "royalty"
+      ],
+      "factions": [
+        "wakanda"
+      ],
+      "locations": [
+        "wakanda"
+      ],
+      "powerSystems": [
+        "vibranium-tech"
+      ],
+      "abilities": [
+        "振金科研",
+        "医疗分析",
+        "战衣开发"
+      ],
+      "items": [
+        "实验室"
+      ],
+      "relationships": [],
+      "importance": "high",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
+    },
+    {
+      "id": "carol-danvers",
+      "name": "卡罗尔·丹弗斯",
+      "aliases": [
+        "惊奇队长",
+        "Captain Marvel"
+      ],
+      "visibility": "public",
+      "summary": "受宇宙能量改造的空军飞行员，具备宇宙级机动与能量输出。",
+      "roles": [
+        "cosmic-hero",
+        "pilot"
+      ],
+      "factions": [
+        "avengers"
+      ],
+      "locations": [
+        "cosmos",
+        "earth"
+      ],
+      "powerSystems": [
+        "cosmic-alien-biology"
+      ],
+      "abilities": [
+        "光子能量",
+        "飞行",
+        "太空作战",
+        "高耐久"
+      ],
+      "items": [],
+      "relationships": [],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "src-mcu-classification-report"
+      ],
+      "notes": "retry-08 分层补完条目。",
+      "normalizationNotes": []
     }
   ],
   "indices": {
@@ -456,22 +772,40 @@
         "steve-rogers",
         "thor-odinson",
         "bruce-banner",
-        "natasha-romanoff"
+        "natasha-romanoff",
+        "wanda-maximoff",
+        "clint-barton",
+        "bucky-barnes",
+        "tchalla",
+        "carol-danvers"
       ],
       "stark-industries": [
         "tony-stark"
       ],
       "asgard": [
-        "thor-odinson"
+        "thor-odinson",
+        "loki"
       ],
       "shield": [
-        "natasha-romanoff"
+        "natasha-romanoff",
+        "clint-barton",
+        "nick-fury"
       ],
       "masters-of-mystic-arts": [
         "doctor-strange"
       ],
       "black-order": [
         "thanos"
+      ],
+      "tva": [
+        "loki"
+      ],
+      "hydra": [
+        "bucky-barnes"
+      ],
+      "wakanda": [
+        "tchalla",
+        "shuri"
       ]
     },
     "byPowerSystem": {
@@ -479,16 +813,30 @@
         "tony-stark",
         "steve-rogers",
         "bruce-banner",
-        "peter-parker"
+        "peter-parker",
+        "bucky-barnes",
+        "tchalla"
       ],
       "asgardian-divinity": [
-        "thor-odinson"
+        "thor-odinson",
+        "loki"
       ],
       "mystic-arts": [
-        "doctor-strange"
+        "doctor-strange",
+        "loki"
       ],
       "infinity-stones": [
         "thanos"
+      ],
+      "chaos-magic": [
+        "wanda-maximoff"
+      ],
+      "vibranium-tech": [
+        "tchalla",
+        "shuri"
+      ],
+      "cosmic-alien-biology": [
+        "carol-danvers"
       ]
     },
     "byVisibility": {
@@ -499,7 +847,15 @@
         "bruce-banner",
         "natasha-romanoff",
         "doctor-strange",
-        "peter-parker"
+        "peter-parker",
+        "wanda-maximoff",
+        "loki",
+        "clint-barton",
+        "nick-fury",
+        "bucky-barnes",
+        "tchalla",
+        "shuri",
+        "carol-danvers"
       ],
       "private": [
         "thanos"
@@ -513,7 +869,15 @@
       "natasha-romanoff",
       "doctor-strange",
       "thanos",
-      "peter-parker"
+      "peter-parker",
+      "wanda-maximoff",
+      "loki",
+      "clint-barton",
+      "nick-fury",
+      "bucky-barnes",
+      "tchalla",
+      "shuri",
+      "carol-danvers"
     ],
     "byId": {
       "tony-stark": 0,
@@ -523,7 +887,15 @@
       "natasha-romanoff": 4,
       "doctor-strange": 5,
       "thanos": 6,
-      "peter-parker": 7
+      "peter-parker": 7,
+      "wanda-maximoff": 8,
+      "loki": 9,
+      "clint-barton": 10,
+      "nick-fury": 11,
+      "bucky-barnes": 12,
+      "tchalla": 13,
+      "shuri": 14,
+      "carol-danvers": 15
     },
     "byName": {
       "托尼·斯塔克": "tony-stark",
@@ -533,9 +905,58 @@
       "娜塔莎·罗曼诺夫": "natasha-romanoff",
       "史蒂芬·斯特兰奇": "doctor-strange",
       "灭霸": "thanos",
-      "彼得·帕克": "peter-parker"
+      "彼得·帕克": "peter-parker",
+      "旺达·马克西莫夫": "wanda-maximoff",
+      "洛基": "loki",
+      "克林特·巴顿": "clint-barton",
+      "尼克·弗瑞": "nick-fury",
+      "巴基·巴恩斯": "bucky-barnes",
+      "特查拉": "tchalla",
+      "舒莉": "shuri",
+      "卡罗尔·丹弗斯": "carol-danvers"
     },
-    "byAffiliation": {},
+    "byAffiliation": {
+      "avengers": [
+        "tony-stark",
+        "steve-rogers",
+        "thor-odinson",
+        "bruce-banner",
+        "natasha-romanoff",
+        "wanda-maximoff",
+        "clint-barton",
+        "bucky-barnes",
+        "tchalla",
+        "carol-danvers"
+      ],
+      "stark-industries": [
+        "tony-stark"
+      ],
+      "asgard": [
+        "thor-odinson",
+        "loki"
+      ],
+      "shield": [
+        "natasha-romanoff",
+        "clint-barton",
+        "nick-fury"
+      ],
+      "masters-of-mystic-arts": [
+        "doctor-strange"
+      ],
+      "black-order": [
+        "thanos"
+      ],
+      "tva": [
+        "loki"
+      ],
+      "hydra": [
+        "bucky-barnes"
+      ],
+      "wakanda": [
+        "tchalla",
+        "shuri"
+      ]
+    },
     "byTag": {}
   }
 }

@@ -1,1 +1,421 @@
-{"schema":"rp-relationship-graph-v1","campaignId":"world-library-high-school-dxd","cardId":"high-school-dxd","nodes":[{"id":"issei-hyoudou","type":"character","name":"兵藤一诚","aliases":[],"visibility":"public","summary":"赤龙帝宿主。","tags":["protagonist"],"metadata":{}},{"id":"rias-gremory","type":"character","name":"莉雅丝","aliases":[],"visibility":"public","summary":"吉蒙里眷族国王。","tags":["king"],"metadata":{}},{"id":"gremory-peerage","type":"faction","name":"吉蒙里眷族","aliases":[],"visibility":"public","summary":"超自然研究部。","tags":["peerage"],"metadata":{}},{"id":"azazel","type":"character","name":"阿萨谢尔","aliases":[],"visibility":"private","summary":"堕天使总督。","tags":["fallen-angel"],"metadata":{}}],"edges":[{"id":"rel-issei-rias","from":"rias-gremory","to":"issei-hyoudou","type":"contract","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"S","score":90,"description":"转生契约、主从与恋爱关系交织。"},"facets":{"trust":"A","affection":"S","fear":null,"suspicion":null,"debt":"B","loyalty":"A","hostility":null},"publicDescription":"莉雅丝是一诚的主人和核心羁绊。","gmTruth":"眷族契约和个人感情同时存在。","evidence":["src-dxd-import-readme"],"history":[],"conditions":[],"notes":""},{"id":"rel-issei-peerage","from":"issei-hyoudou","to":"gremory-peerage","type":"loyalty","directional":true,"visibility":"public","playerKnown":true,"strength":{"level":"A","score":85,"description":"一诚为眷族战斗。"},"facets":{"trust":"A","affection":"A","fear":null,"suspicion":null,"debt":"A","loyalty":"A","hostility":null},"publicDescription":"一诚忠于吉蒙里眷族。","gmTruth":"神器成长会改变眷族战略价值。","evidence":["src-dxd-classification-report"],"history":[],"conditions":[],"notes":""},{"id":"rel-azazel-issei","from":"azazel","to":"issei-hyoudou","type":"mentor","directional":true,"visibility":"private","playerKnown":false,"strength":{"level":"B","score":65,"description":"阿萨谢尔指导神器与战术。"},"facets":{"trust":"B","affection":null,"fear":null,"suspicion":"C","debt":"B","loyalty":null,"hostility":null},"publicDescription":"堕天使总督与赤龙帝有合作可能。","gmTruth":"阿萨谢尔更重视整体和平与研究价值。","evidence":["src-dxd-import-readme"],"history":[],"conditions":[],"notes":""}],"views":{"playerVisibleNodeIds":["issei-hyoudou","rias-gremory","gremory-peerage"],"gmHighlightedNodeIds":["azazel"],"activeSceneNodeIds":[]}}
+{
+  "schema": "rp-relationship-graph-v1",
+  "campaignId": "world-library-high-school-dxd",
+  "cardId": "high-school-dxd",
+  "nodes": [
+    {
+      "id": "issei-hyoudou",
+      "type": "character",
+      "name": "兵藤一诚",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "赤龙帝宿主。",
+      "tags": [
+        "protagonist"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "rias-gremory",
+      "type": "character",
+      "name": "莉雅丝",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "吉蒙里眷族国王。",
+      "tags": [
+        "king"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "gremory-peerage",
+      "type": "faction",
+      "name": "吉蒙里眷族",
+      "aliases": [],
+      "visibility": "public",
+      "summary": "超自然研究部。",
+      "tags": [
+        "peerage"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "azazel",
+      "type": "character",
+      "name": "阿萨谢尔",
+      "aliases": [],
+      "visibility": "private",
+      "summary": "堕天使总督。",
+      "tags": [
+        "fallen-angel"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ddraig",
+      "type": "character",
+      "name": "德莱格",
+      "aliases": [
+        "赤龙帝"
+      ],
+      "visibility": "private",
+      "summary": "赤龙帝笼手内的龙魂。",
+      "tags": [
+        "dragon",
+        "mentor"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "vali-lucifer",
+      "type": "character",
+      "name": "瓦利·路西法",
+      "aliases": [
+        "白龙皇"
+      ],
+      "visibility": "private",
+      "summary": "一诚的二天龙宿敌。",
+      "tags": [
+        "rival",
+        "dragon"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "khaos-brigade",
+      "type": "faction",
+      "name": "祸之团",
+      "aliases": [
+        "Khaos Brigade"
+      ],
+      "visibility": "private",
+      "summary": "跨神话恐怖网络。",
+      "tags": [
+        "terror",
+        "mythology"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "xenovia-quarta",
+      "type": "character",
+      "name": "洁诺薇亚",
+      "aliases": [
+        "杜兰朵持有者"
+      ],
+      "visibility": "public",
+      "summary": "原教会圣剑士，后加入吉蒙里眷族。",
+      "tags": [
+        "holy-sword",
+        "peerage"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "kuroka",
+      "type": "character",
+      "name": "黑歌",
+      "aliases": [
+        "猫又黑歌"
+      ],
+      "visibility": "private",
+      "summary": "小猫的姐姐，仙术使用者。",
+      "tags": [
+        "youkai",
+        "senjutsu"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ophis",
+      "type": "character",
+      "name": "奥菲斯",
+      "aliases": [
+        "无限龙神"
+      ],
+      "visibility": "gm-only",
+      "summary": "龙神级存在。",
+      "tags": [
+        "dragon-god"
+      ],
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel-issei-rias",
+      "from": "rias-gremory",
+      "to": "issei-hyoudou",
+      "type": "contract",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "S",
+        "score": 90,
+        "description": "转生契约、主从与恋爱关系交织。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "S",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "莉雅丝是一诚的主人和核心羁绊。",
+      "gmTruth": "眷族契约和个人感情同时存在。",
+      "evidence": [
+        "src-dxd-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-issei-peerage",
+      "from": "issei-hyoudou",
+      "to": "gremory-peerage",
+      "type": "loyalty",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "A",
+        "score": 85,
+        "description": "一诚为眷族战斗。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": "A",
+        "fear": null,
+        "suspicion": null,
+        "debt": "A",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "一诚忠于吉蒙里眷族。",
+      "gmTruth": "神器成长会改变眷族战略价值。",
+      "evidence": [
+        "src-dxd-classification-report"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-azazel-issei",
+      "from": "azazel",
+      "to": "issei-hyoudou",
+      "type": "mentor",
+      "directional": true,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "B",
+        "score": 65,
+        "description": "阿萨谢尔指导神器与战术。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": null,
+        "fear": null,
+        "suspicion": "C",
+        "debt": "B",
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "堕天使总督与赤龙帝有合作可能。",
+      "gmTruth": "阿萨谢尔更重视整体和平与研究价值。",
+      "evidence": [
+        "src-dxd-import-readme"
+      ],
+      "history": [],
+      "conditions": [],
+      "notes": ""
+    },
+    {
+      "id": "rel-issei-ddraig",
+      "from": "ddraig",
+      "to": "issei-hyoudou",
+      "type": "partner-mentor",
+      "directional": false,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "S",
+        "score": 95,
+        "description": "一诚的核心力量源和精神导师。"
+      },
+      "facets": {
+        "trust": "A",
+        "affection": null,
+        "fear": null,
+        "suspicion": null,
+        "debt": "A",
+        "loyalty": "A",
+        "hostility": null
+      },
+      "publicDescription": "赤龙帝笼手内存在龙魂。",
+      "gmTruth": "德莱格会推动一诚理解倍增、转让和龙化风险。",
+      "evidence": [
+        "src-high-school-dxd-001"
+      ],
+      "history": [],
+      "conditions": [
+        "神器真相揭示"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rel-issei-vali",
+      "from": "vali-lucifer",
+      "to": "issei-hyoudou",
+      "type": "rivalry",
+      "directional": false,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "A",
+        "score": 88,
+        "description": "赤龙帝与白龙皇宿敌结构。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": null,
+        "fear": null,
+        "suspicion": "B",
+        "debt": null,
+        "loyalty": null,
+        "hostility": "B"
+      },
+      "publicDescription": "白龙皇会挑战赤龙帝。",
+      "gmTruth": "关系可从敌对转为竞争性协力。",
+      "evidence": [
+        "src-high-school-dxd-001"
+      ],
+      "history": [],
+      "conditions": [
+        "瓦利登场"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rel-koneko-kuroka",
+      "from": "kuroka",
+      "to": "koneko-toujou",
+      "type": "sibling-trauma",
+      "directional": false,
+      "visibility": "private",
+      "playerKnown": false,
+      "strength": {
+        "level": "A",
+        "score": 80,
+        "description": "姐妹关系、猫又血脉与过去创伤交织。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": "B",
+        "fear": "B",
+        "suspicion": "B",
+        "debt": null,
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "黑歌与小猫是姐妹。",
+      "gmTruth": "仙术线可成为创伤恢复或再次决裂。",
+      "evidence": [
+        "src-high-school-dxd-001"
+      ],
+      "history": [],
+      "conditions": [
+        "黑歌线揭示"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rel-khaos-ophis",
+      "from": "khaos-brigade",
+      "to": "ophis",
+      "type": "exploitation",
+      "directional": true,
+      "visibility": "gm-only",
+      "playerKnown": false,
+      "strength": {
+        "level": "A",
+        "score": 82,
+        "description": "祸之团利用奥菲斯名义组织跨神话行动。"
+      },
+      "facets": {
+        "trust": null,
+        "affection": null,
+        "fear": "A",
+        "suspicion": "A",
+        "debt": null,
+        "loyalty": null,
+        "hostility": null
+      },
+      "publicDescription": "祸之团宣称与无限龙神有关。",
+      "gmTruth": "组织内部对奥菲斯的利用和真实目的可分歧。",
+      "evidence": [
+        "src-high-school-dxd-001"
+      ],
+      "history": [],
+      "conditions": [
+        "祸之团真相"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rel-xenovia-peerage",
+      "from": "xenovia-quarta",
+      "to": "gremory-peerage",
+      "type": "joins",
+      "directional": true,
+      "visibility": "public",
+      "playerKnown": true,
+      "strength": {
+        "level": "B",
+        "score": 70,
+        "description": "圣剑事件后可加入吉蒙里眷族。"
+      },
+      "facets": {
+        "trust": "B",
+        "affection": "B",
+        "fear": null,
+        "suspicion": null,
+        "debt": "B",
+        "loyalty": "B",
+        "hostility": null
+      },
+      "publicDescription": "洁诺薇亚从教会线转入吉蒙里阵营。",
+      "gmTruth": "转阵营会触发圣力/恶魔相性与信仰危机。",
+      "evidence": [
+        "src-high-school-dxd-001"
+      ],
+      "history": [],
+      "conditions": [
+        "圣剑事件后"
+      ],
+      "notes": ""
+    }
+  ],
+  "views": {
+    "playerVisibleNodeIds": [
+      "issei-hyoudou",
+      "rias-gremory",
+      "gremory-peerage",
+      "xenovia-quarta"
+    ],
+    "gmHighlightedNodeIds": [
+      "azazel",
+      "ddraig",
+      "vali-lucifer",
+      "khaos-brigade",
+      "kuroka",
+      "ophis"
+    ],
+    "activeSceneNodeIds": []
+  }
+}

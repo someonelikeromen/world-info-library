@@ -1,0 +1,522 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "type-moon-nasuverse",
+  "completionPass": "complete-14",
+  "sourceBasis": [
+    "campaigns/world-library/worlds/type-moon-nasuverse/reports/classification-report.md",
+    "campaigns/world-library/worlds/type-moon-nasuverse/reports/conflicts.md",
+    "campaigns/world-library/worlds/type-moon-nasuverse/factions/factions.json",
+    "campaigns/world-library/worlds/type-moon-nasuverse/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/type-moon-nasuverse/power-systems/power-systems.json"
+  ],
+  "coverageNote": "本地归档有 8 个 worldbook、1038 条保留条目，包含 FGO、Fate/stay night、Fate/Zero、妖精国、魔法少女伊莉雅等多源；本模块只做多作品路由与高层骨架，避免混同路线。",
+  "routeLocks": [
+    {
+      "id": "fuyuki-fsn",
+      "name": "冬木/第五次圣杯战争",
+      "defaultCharacters": [
+        "shirou-emiya",
+        "saber-artoria",
+        "rin-tohsaka",
+        "sakura-matou",
+        "illyasviel",
+        "kirei-kotomine",
+        "gilgamesh"
+      ],
+      "gmRisks": [
+        "三路线差异",
+        "圣杯污染",
+        "Archer 真相",
+        "樱线黑幕"
+      ]
+    },
+    {
+      "id": "fgo-chaldea",
+      "name": "FGO/迦勒底人理修复",
+      "defaultCharacters": [
+        "ritsuka-fujimaru",
+        "mash-kyrielight",
+        "romani-archaman"
+      ],
+      "gmRisks": [
+        "特异点顺序",
+        "终局所罗门",
+        "异闻带剪定",
+        "大量从者灵基差异"
+      ]
+    },
+    {
+      "id": "fate-zero",
+      "name": "第四次圣杯战争/Fate Zero",
+      "defaultCharacters": [
+        "waver-velvet",
+        "kirei-kotomine"
+      ],
+      "gmRisks": [
+        "与 FSN 时间差",
+        "御主/从者配对需另表",
+        "结局影响第五次战争"
+      ]
+    },
+    {
+      "id": "prisma-illya",
+      "name": "魔法少女伊莉雅平行线",
+      "defaultCharacters": [
+        "illyasviel"
+      ],
+      "gmRisks": [
+        "平行世界设定",
+        "职阶卡与圣杯战争系统不同",
+        "角色年龄/日常氛围变化"
+      ]
+    },
+    {
+      "id": "tsukihime-kara-no-kyoukai",
+      "name": "月姬/空之境界侧",
+      "defaultCharacters": [],
+      "gmRisks": [
+        "死徒、真祖、直死魔眼与魔术协会/教会关系需独立审校"
+      ],
+      "status": "placeholder-for-later"
+    },
+    {
+      "id": "fairy-britain",
+      "name": "妖精国/阿瓦隆·勒·菲",
+      "defaultCharacters": [],
+      "gmRisks": [
+        "LB6 高剧透",
+        "妖精社会规则与泛人类史不同"
+      ],
+      "status": "placeholder-for-later"
+    }
+  ],
+  "characters": {
+    "indexedCore": [
+      "shirou-emiya",
+      "saber-artoria",
+      "rin-tohsaka",
+      "sakura-matou",
+      "illyasviel",
+      "gilgamesh",
+      "ritsuka-fujimaru",
+      "mash-kyrielight",
+      "kirei-kotomine",
+      "waver-velvet",
+      "romani-archaman"
+    ],
+    "expansionCandidates": [
+      "Fate/Zero：卫宫切嗣、爱丽丝菲尔、韦伯/伊斯坎达尔、远坂时臣、间桐雁夜等需按第四次战争独立表。",
+      "FGO 从者：按章节/职阶/灵基版本索引，不应将 Alter、泳装、活动版本自动合并。",
+      "月姬侧：远野志贵、爱尔奎特、希耶尔、远野秋叶等需建立真祖/死徒/直死魔眼专表。",
+      "空之境界：两仪式、黑桐干也、苍崎橙子等需与根源/直死魔眼/魔术协会接口区分。",
+      "魔法少女伊莉雅：伊莉雅、美游、克洛伊与职阶卡系统需单独路由。"
+    ],
+    "indexingPolicy": "大体量角色只记录路由与待补名单；不在本次把 813 个 source characters 扁平合并。"
+  },
+  "factions": [
+    {
+      "id": "mage-association",
+      "name": "魔术协会/时钟塔",
+      "role": "魔术师学术、血统、专利与隐匿秩序中心。",
+      "rpHooks": [
+        "工房调查",
+        "封印指定",
+        "魔术刻印继承",
+        "学部政治"
+      ]
+    },
+    {
+      "id": "holy-church",
+      "name": "圣堂教会",
+      "role": "监管异端、执行代行者任务、监督圣杯战争的宗教侧组织。",
+      "rpHooks": [
+        "监督者",
+        "代行者猎杀",
+        "圣遗物保管",
+        "与协会合作/冲突"
+      ]
+    },
+    {
+      "id": "chaldea",
+      "name": "迦勒底",
+      "role": "人理保障机构，通过灵子转移修复特异点/异闻带。",
+      "rpHooks": [
+        "灵子转移",
+        "从者编成",
+        "人理烧却",
+        "观测与任务简报"
+      ]
+    },
+    {
+      "id": "fuyuki-founders",
+      "name": "冬木御三家",
+      "role": "远坂、间桐、爱因兹贝伦围绕圣杯仪式的家族结构。",
+      "rpHooks": [
+        "令咒与召唤",
+        "圣杯污染",
+        "家族伦理",
+        "灵地争夺"
+      ]
+    },
+    {
+      "id": "dead-apostles-true-ancestors",
+      "name": "死徒/真祖侧",
+      "role": "月姬侧与教会/协会冲突的重要超自然生态。",
+      "rpHooks": [
+        "吸血冲动",
+        "埋葬机关",
+        "真祖压制",
+        "夜间都市猎杀"
+      ],
+      "status": "under-indexed"
+    },
+    {
+      "id": "counter-force-throne",
+      "name": "英灵座/抑止力",
+      "role": "英灵召唤、守护者和世界自我修正的高阶机制。",
+      "rpHooks": [
+        "从者召唤",
+        "守护者介入",
+        "特异点修正",
+        "灵基限制"
+      ],
+      "visibility": "private-to-gm"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "magecraft",
+      "name": "魔术",
+      "rules": [
+        "魔术通过魔术回路将小源/大源转化为魔力，并依赖基盘、咏唱、礼装或工房。",
+        "神秘公开会削弱；越古老、越隐秘的神秘通常越强。",
+        "魔术不能替代魔法：时间旅行、平行世界干涉、灵魂物质化等需按魔法/特殊机制处理。"
+      ]
+    },
+    {
+      "id": "true-magic",
+      "name": "魔法",
+      "rules": [
+        "魔法是当前人类文明无法实现的奇迹，数量极少，不能当高级魔术泛用。",
+        "涉及平行世界、灵魂物质化等时必须锁定具体魔法与使用者。"
+      ]
+    },
+    {
+      "id": "servant-system",
+      "name": "英灵/从者系统",
+      "rules": [
+        "从者是英灵座记录的分灵，受职阶容器、御主供魔和令咒约束。",
+        "宝具全力通常需要真名解放与大量魔力；灵基受损可导致退场。",
+        "同一英灵的不同职阶/Alter/活动灵基不可默认同一状态。"
+      ]
+    },
+    {
+      "id": "noble-phantasm-concepts",
+      "name": "宝具/概念武装",
+      "rules": [
+        "宝具效果由传说、真名、神秘度和相性决定，不只看破坏力。",
+        "对军、对城、对界、结界、因果、概念防御需按效果类型处理。"
+      ]
+    },
+    {
+      "id": "human-order-singularities",
+      "name": "人理/特异点/异闻带",
+      "rules": [
+        "FGO 线需按章节顺序推进；不允许从早期特异点直接跳到异闻带，除非剧情明确世界线跃迁。",
+        "异闻带是被剪定的历史竞争，不等同普通平行世界旅行。"
+      ]
+    },
+    {
+      "id": "dead-apostle-true-ancestor",
+      "name": "死徒/真祖/吸血种生态",
+      "rules": [
+        "吸血种与教会、埋葬机关和魔术协会形成独立冲突面。",
+        "真祖、死徒祖、普通死徒不能混级处理。"
+      ],
+      "status": "under-indexed"
+    }
+  ],
+  "locations": [
+    {
+      "id": "fuyuki-city",
+      "name": "冬木市",
+      "route": "fuyuki-fsn",
+      "role": "圣杯战争主舞台，灵地、柳洞寺、远坂邸等节点。"
+    },
+    {
+      "id": "clock-tower",
+      "name": "时钟塔",
+      "route": "mage-association",
+      "role": "魔术协会核心，适合政治、学术、封印指定线。"
+    },
+    {
+      "id": "chaldea-base",
+      "name": "迦勒底",
+      "route": "fgo-chaldea",
+      "role": "任务简报、召唤、灵子转移和人理观测基地。"
+    },
+    {
+      "id": "singularity-map",
+      "name": "特异点序列",
+      "route": "fgo-chaldea",
+      "role": "FGO 章节路由，不应与冬木日常线混在同一时间状态。"
+    },
+    {
+      "id": "lostbelt-front",
+      "name": "异闻带战线",
+      "route": "fgo-chaldea",
+      "role": "后期高剧透剪定世界线。"
+    },
+    {
+      "id": "fairy-britain",
+      "name": "妖精国",
+      "route": "fairy-britain",
+      "role": "LB6 子路线，需独立社会规则。"
+    }
+  ],
+  "timeline": [
+    {
+      "route": "fuyuki-fsn",
+      "phase": "pre-war",
+      "title": "御三家与圣杯仪式准备",
+      "notes": "召唤前的家族、灵地、监督者和圣遗物准备。"
+    },
+    {
+      "route": "fuyuki-fsn",
+      "phase": "holy-grail-war",
+      "title": "冬木圣杯战争",
+      "notes": "御主/从者配对、令咒、宝具真名和圣杯污染逐步暴露。"
+    },
+    {
+      "route": "fgo-chaldea",
+      "phase": "singularity-f-to-solomon",
+      "title": "特异点 F 至终局特异点",
+      "notes": "按源中变量列出的 F、奥尔良、七丘之城、俄刻阿诺斯、伦敦、合众为一、卡美洛、巴比伦尼亚、所罗门顺序推进。"
+    },
+    {
+      "route": "fgo-chaldea",
+      "phase": "pseudo-singularities",
+      "title": "亚种特异点",
+      "notes": "新宿、雅戈泰、下总国、塞勒姆等后续章节，需锁定人理修复后状态。"
+    },
+    {
+      "route": "fgo-chaldea",
+      "phase": "lostbelts",
+      "title": "异闻带与断章",
+      "notes": "LB1 至 LB7、平安京、通古斯卡、Traum 等为高剧透后期。"
+    },
+    {
+      "route": "fgo-chaldea",
+      "phase": "ordeal-call",
+      "title": "奏章",
+      "notes": "纸月、伊德、统合等记录在源路由中；本次仅保留序列。"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "grail-war-route",
+      "title": "圣杯战争沙盒",
+      "use": "7 对御主/从者、令咒、灵地与秘密身份；开局需锁定第四次或第五次。"
+    },
+    {
+      "id": "chaldea-mission",
+      "title": "迦勒底任务制",
+      "use": "按特异点/异闻带给出任务、当地时代、伴随从者和修正目标。"
+    },
+    {
+      "id": "mage-politics",
+      "title": "魔术协会政治",
+      "use": "工房、刻印、专利、封印指定和时钟塔学部冲突。"
+    },
+    {
+      "id": "church-hunt",
+      "title": "圣堂教会/死徒猎杀",
+      "use": "代行者、吸血种、都市夜战；需要与月姬侧设定隔离。"
+    },
+    {
+      "id": "prisma-card",
+      "title": "职阶卡/魔法少女平行线",
+      "use": "只在 Prisma 路由启用，不能混作普通冬木圣杯战争规则。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "shirou-emiya",
+      "to": "saber-artoria",
+      "type": "master-servant",
+      "route": "fuyuki-fsn"
+    },
+    {
+      "from": "rin-tohsaka",
+      "to": "archer-emiya",
+      "type": "master-servant/future-conflict",
+      "route": "fuyuki-fsn",
+      "visibility": "private"
+    },
+    {
+      "from": "sakura-matou",
+      "to": "matou-family",
+      "type": "adoption-and-trauma",
+      "route": "fuyuki-fsn",
+      "visibility": "private"
+    },
+    {
+      "from": "chaldea",
+      "to": "ritsuka-fujimaru",
+      "type": "master-command-structure",
+      "route": "fgo-chaldea"
+    },
+    {
+      "from": "mash-kyrielight",
+      "to": "ritsuka-fujimaru",
+      "type": "demi-servant-partner",
+      "route": "fgo-chaldea"
+    },
+    {
+      "from": "mage-association",
+      "to": "holy-church",
+      "type": "cooperate-and-compete",
+      "route": "common"
+    },
+    {
+      "from": "counter-force-throne",
+      "to": "servant-system",
+      "type": "source-mechanism",
+      "route": "common",
+      "visibility": "private"
+    }
+  ],
+  "rpNotes": [
+    "第一步必须选择路线：冬木圣杯战争、迦勒底任务、时钟塔政治、死徒都市战或魔法少女伊莉雅平行线。",
+    "任何跨作品混合都要声明交叉方式：同一世界自然共存、特异点异常、平行世界误入或圣杯/魔法造成。",
+    "战斗判定先看神秘度、魔力来源、相性、准备时间和真名/术式信息，不用通用 RPG 数值。",
+    "从者不得无供魔长期现界；御主令咒、工房资源、灵地和社会隐匿要作为持续消耗。",
+    "高剧透节点（所罗门、异闻带、妖精国、圣杯污染、Archer 真相）默认 GM-only。"
+  ],
+  "residualGaps": [
+    "未按作品线完整拆分 813 个角色和 852 条能力。",
+    "月姬、空之境界、Fate/Zero、魔法少女伊莉雅与妖精国仅有路由骨架。",
+    "FGO 每一特异点/异闻带的当地人物、敌方、从者编成和事件仍需章节专表。",
+    "多源冲突仍需后续按主设定/可选变体裁决。",
+    "已补 FGO 章节索引和多路线安全矩阵；仍未拆每条作品线的完整人物/能力专表。"
+  ],
+  "multiWorkExpansion": {
+    "source": "campaigns/world-library/worlds/type-moon-nasuverse raw/imported-worldbooks plus canon-reference timeline/arcs summaries; local source is very large, so this is route-safe skeleton.",
+    "fgoChapterIndex": {
+      "part1": [
+        "特异点F 冬木",
+        "第一特异点 奥尔良",
+        "第二特异点 七丘之城/罗马",
+        "第三特异点 俄刻阿诺斯",
+        "第四特异点 伦敦",
+        "第五特异点 合众为一",
+        "第六特异点 卡美洛",
+        "第七特异点 巴比伦尼亚",
+        "终局特异点 所罗门"
+      ],
+      "pseudoSingularities": [
+        "新宿",
+        "雅戈泰",
+        "下总国",
+        "塞勒姆"
+      ],
+      "lostbelts": [
+        "LB1 俄罗斯",
+        "LB2 北欧",
+        "LB3 中国",
+        "LB4 印度",
+        "LB5 亚特兰蒂斯/奥林波斯",
+        "LB6 妖精国不列颠",
+        "LB7 纳维·米克特兰"
+      ],
+      "interludesAndOrdealCall": [
+        "平安京",
+        "通古斯卡",
+        "Traum",
+        "奏章I 纸月",
+        "奏章II Id",
+        "奏章III Archetype Inception"
+      ],
+      "rule": "FGO 线按章节顺序/人理状态推进；不得把后期异闻带 NPC 无解释地放入早期冬木。"
+    },
+    "routeSafetyMatrix": [
+      {
+        "route": "fuyuki-fsn",
+        "mustLock": [
+          "第四次还是第五次",
+          "FSN 三路线之一或沙盒变体",
+          "圣杯污染公开程度"
+        ],
+        "doNotMix": [
+          "FGO 迦勒底编队常驻",
+          "Prisma 职阶卡规则"
+        ]
+      },
+      {
+        "route": "fate-zero",
+        "mustLock": [
+          "第四次御主/从者配对",
+          "切嗣/言峰/韦伯等人物年龄与立场",
+          "结局是否通向第五次"
+        ],
+        "doNotMix": [
+          "第五次幸存者状态直接套用"
+        ]
+      },
+      {
+        "route": "fgo-chaldea",
+        "mustLock": [
+          "人理修复前/后",
+          "特异点或异闻带编号",
+          "可用从者灵基与迦勒底设施状态"
+        ],
+        "doNotMix": [
+          "冬木圣杯战争的御主-从者契约常驻规则"
+        ]
+      },
+      {
+        "route": "prisma-illya",
+        "mustLock": [
+          "平行世界",
+          "职阶卡",
+          "魔法少女日常/危机尺度"
+        ],
+        "doNotMix": [
+          "普通冬木圣杯战争召唤七骑规则"
+        ]
+      },
+      {
+        "route": "tsukihime-kara-no-kyoukai",
+        "mustLock": [
+          "死徒/真祖/直死魔眼",
+          "教会埋葬机关与协会关系",
+          "都市夜战尺度"
+        ],
+        "doNotMix": [
+          "FGO 人理修复章节结构"
+        ]
+      },
+      {
+        "route": "fairy-britain",
+        "mustLock": [
+          "LB6 高剧透",
+          "妖精历/女王历社会规则",
+          "泛人类史隔离"
+        ],
+        "doNotMix": [
+          "普通不列颠史或冬木日常"
+        ]
+      }
+    ],
+    "gmOnlyConcepts": [
+      "根源",
+      "魔法",
+      "抑止力",
+      "英灵座真实机制",
+      "圣杯污染",
+      "异闻带剪定",
+      "妖精国核心真相",
+      "Archer 真相/各路线结局"
+    ]
+  }
+}

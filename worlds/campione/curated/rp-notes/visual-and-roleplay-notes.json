@@ -1,0 +1,76 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "campione",
+  "module": "rp-notes/visual-and-roleplay-notes",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-campione-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/campione/characters/characters.json",
+    "campaigns/world-library/worlds/campione/style/aesthetic-keywords.json",
+    "campaigns/world-library/worlds/campione/style/interaction-patterns.json"
+  ],
+  "purpose": "补足 CONTENT-AUDIT-Q7 对人物外表/服装/气质的缺口；不覆盖 characters-index 的既有事实。",
+  "characterVisualProfiles": [
+    {
+      "characterId": "godou-kusanagi",
+      "name": "草薙护堂",
+      "appearance": "外观基调应是普通日本少年与地上魔王咒力的反差：日常不夸饰，进入神战时以咒力、权能化身和不退让的眼神制造压迫感。",
+      "outfit": "日常学生/旅行服为主；神战不依赖华丽装备，重点表现权能发动时的神话征兆。",
+      "demeanor": "平时温和、被动卷入；面对神和魔王时变得顽固、护短、敢于正面对峙。",
+      "confidence": "C",
+      "notes": "现有已读源未抽到完整护堂外观卡；该条为基于角色定位的低置信 RP 提示。"
+    },
+    {
+      "characterId": "erica-blandelli",
+      "name": "艾莉卡·布兰德里",
+      "appearance": "源称其为意大利赤铜黑十字大骑士、深红恶魔，视觉核心是耀眼、高傲、贵族式美貌与锋利骑士气。",
+      "outfit": "红/黑骑士风、名门魔术结社礼服或便于剑术的战斗装；代表物为爱剑“狮王之心”。",
+      "demeanor": "自信、主动、戏剧化，常作为王身边最醒目的剑与外交门面。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "yuri-mariya",
+      "name": "万里谷祐理",
+      "appearance": "武藏野媛巫女气质，端庄、洁净、神社仪式感强；视觉重点是白衣绯袴和大和抚子式克制。",
+      "outfit": "巫女服、学校制服或正史编纂委员会任务服；仪式场景应突出净化与灵视道具。",
+      "demeanor": "温和但有底线，灵视触发时可表现为恍惚、预感和精神负担。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "athena",
+      "name": "雅典娜",
+      "appearance": "不从之神形态应兼具少女外观、古老地母神威严、蛇/死亡/智慧意象；形态随剧情阶段变化。",
+      "outfit": "黑暗、蛇、冥府与古希腊神性符号优先；可伴随死神之镰、戈尔贡之石等代表物。",
+      "demeanor": "高傲、冷静、审判式观察凡人和魔王；敌对与盟友之间保持神的距离感。",
+      "confidence": "B"
+    },
+    {
+      "characterId": "luo-hao",
+      "name": "罗濠 / 罗翠莲",
+      "appearance": "视觉核心是武侠宗师、绝世武人和古老弑神者的压迫感；动作比服饰更重要。",
+      "outfit": "中式武侠/教主式服饰、长袖或便于展示武术身法的装束；不建议现代化过度。",
+      "demeanor": "唯我独尊、礼法与威严并存；对同级王可视为竞争者或需要管教的后辈。",
+      "confidence": "C",
+      "notes": "具体发色、服装细节未在本批逐条抽取，保留低置信。"
+    },
+    {
+      "characterId": "aisha",
+      "name": "爱莎夫人",
+      "appearance": "源描述为黑发、深色眼眸、棕色皮肤、外表约十七岁的异域圣女式旅行者。",
+      "outfit": "异域色彩修女服、长袍或旅行地当地服饰；旅行包和圣物可作为道具。",
+      "demeanor": "温柔、天然、善意过剩，却因幸运和时空权能成为超时空灾害源。",
+      "confidence": "B"
+    }
+  ],
+  "sceneStyleNotes": [
+    "神战场面要同时写出现代城市/遗迹破坏与神话意象。",
+    "结社政治场面可用礼仪、称号、魔术文献和王权压力表达层级。",
+    "普通角色可通过神话考据、仪式准备、救援和善后获得戏份。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "护堂、罗濠的可视化细节需要继续从本地 characters 条目逐段提取。",
+    "源中存在成人化/玩家关系语句；本文件只保留 SFW 外观、服装与气质。"
+  ]
+}

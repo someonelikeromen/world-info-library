@@ -27,7 +27,8 @@
   "conflictLog": [],
   "registryNotes": [
     "结构修复：conflictLog 为空表示当前未登记冲突；需后续人工复核是否确无冲突。",
-    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed."
+    "Source-quality repair 2026-06-22: conflictLog empty classified as not-reviewed; absence of entries is not evidence of confirmed no conflicts unless later reviewed.",
+    "2026-06-24 retry-05: curated expanded from preserved source archive; cross-read README/curation-notes/manifest and retained low-confidence gaps."
   ],
   "conflictReviewStatus": {
     "status": "not-reviewed",

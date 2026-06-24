@@ -1,0 +1,170 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cross-ange",
+  "module": "locations/world-sites",
+  "status": "audit-completion-2026-06-24",
+  "sourceRefs": [
+    "src-cross-ange-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cross-ange/world/world.json",
+    "campaigns/world-library/worlds/cross-ange/locations/locations.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/cross-ange/canon-reference/plot-summary.json"
+  ],
+  "curationPolicy": "源 locations 分类包含系统条目、剧情条目和人物条目重复归档；本模块按地点/舞台功能归纳，保持轻量可检索。",
+  "locations": [
+    {
+      "id": "mana-utopian-cities",
+      "name": "玛那乌托邦城市圈",
+      "type": "public-utopia-with-hidden-violence",
+      "visibility": "public-with-gm-truth",
+      "summary": "玛那使用者生活在便利、洁净、信息共享的都市与皇国宫廷中；诺玛筛查、身份注销和宣传暴力被社会视为理所当然。",
+      "associatedFactions": [
+        "mana-world-states",
+        "misurugi-empire"
+      ],
+      "sceneUses": [
+        "洗礼仪式和身份暴露",
+        "玛那便利与龙鸣失控对比",
+        "诺玛猎捕和公众歧视",
+        "战后玛那崩坏"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "misurugi-palace",
+      "name": "米斯尔奇皇宫与仪式场",
+      "type": "royal-origin-site",
+      "visibility": "public",
+      "summary": "安琪皇女身份、索菲亚之死、朱利奥篡位和皇家指轮/永遠語り线索的核心舞台。",
+      "associatedFactions": [
+        "misurugi-empire"
+      ],
+      "sceneUses": [
+        "皇室礼仪和洗礼",
+        "家族背叛",
+        "指轮与歌的回忆",
+        "处刑或宣传仪式"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "arzenal-base",
+      "name": "阿尔泽纳尔海上军事基地",
+      "type": "military-prison-base",
+      "visibility": "public",
+      "summary": "罗森布鲁姆管辖的海上对龙基地兼诺玛隔离所，全员女性，包含司令部、格纳库、营房、训练场、医疗室、整备区、禁闭室和雅思敏商场。",
+      "associatedFactions": [
+        "arzenal"
+      ],
+      "sceneUses": [
+        "Para-mail 出击和返航",
+        "新兵训练与惩罚",
+        "机体维护和战死报告",
+        "食堂/商场日常与黑色幽默"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "dragon-singularity-battlefields",
+      "name": "特异点与对龙战场",
+      "type": "combat-zone-class",
+      "visibility": "public-with-gm-truth",
+      "summary": "DRAGON 通过特异点出现，初期被视为怪物入侵；真相揭露后这些战场同时意味着玛那世界对龙族的能源掠夺。",
+      "associatedFactions": [
+        "arzenal",
+        "dragon-people"
+      ],
+      "sceneUses": [
+        "警报、升空、变形、接敌四拍战斗",
+        "龙鸣扰乱玛那使用者",
+        "鑨回收和战后道德反转",
+        "人形龙族初次接触"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "tusk-island-underground-ruins",
+      "name": "塔斯克孤岛地下遗迹",
+      "type": "hidden-ancient-people-base",
+      "visibility": "gm-only",
+      "summary": "偏远无人孤岛与地下旧时代设施，上古之民守护 Villkiss 的隐秘据点；海风、生存日常和机械机库形成与阿尔泽纳尔相反的喘息空间。",
+      "associatedFactions": [
+        "ancient-people"
+      ],
+      "sceneUses": [
+        "安琪坠落后的生存恢复",
+        "Villkiss 机库和旧世界资料",
+        "塔斯克的机械维修与庇护",
+        "Libertas 旧线索"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "original-earth-wasteland",
+      "name": "原始地球废土",
+      "type": "post-ragnarok-world",
+      "visibility": "gm-only-until-revealed",
+      "summary": "538 年前第七次世界大战后遭污染毁灭的原始地球，源称拉格纳美露收敛时空炮导致鑨元素反应堆爆炸，龙族在废土上延续文明。",
+      "associatedFactions": [
+        "dragon-people",
+        "ancient-people"
+      ],
+      "sceneUses": [
+        "污染遗迹探索",
+        "龙族社会和奥拉真相",
+        "玛那世界伪乌托邦反差",
+        "旧时代战争遗产"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "aura-captivity-core",
+      "name": "奥拉囚禁/鑨能源核心",
+      "type": "hidden-energy-source",
+      "visibility": "gm-only",
+      "summary": "龙族始祖奥拉被囚禁并持续抽取鑨元素，供给玛那系统能源；这是玛那社会最核心的隐藏罪证。",
+      "associatedFactions": [
+        "embryo-faction",
+        "dragon-people",
+        "mana-world-states"
+      ],
+      "sceneUses": [
+        "中后期真相揭露",
+        "夺回奥拉作战",
+        "玛那崩坏风险",
+        "恩布利欧最终战目标"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "embryo-dimensional-space",
+      "name": "恩布利欧次元空间",
+      "type": "boss-domain",
+      "visibility": "gm-only",
+      "summary": "恩布利欧开辟或支配的次元舞台，适合钻石玫瑰骑士团训练、Ragna-mail 战斗和最终战前的心理诱导。",
+      "associatedFactions": [
+        "embryo-faction",
+        "diamond-rose-knights"
+      ],
+      "sceneUses": [
+        "时空调律展示",
+        "亲卫队据点",
+        "被诱导角色的隔离/招募",
+        "高阶机体战"
+      ],
+      "confidence": "C",
+      "notes": "源中相关空间描写含扩写成分；作为 GM 舞台使用，不当作完整地图。"
+    }
+  ],
+  "locationRules": [
+    "阿尔泽纳尔是低中阶 RP 的默认枢纽；原始地球、奥拉核心和恩布利欧空间属于中后期秘密舞台。",
+    "同一地点应随真相公开改变意义：猎龙战场初期是防卫线，后期是误杀同盟者的证据。",
+    "场景切换应明确时间/地点，符合源叙事规则中的时间推进约束。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源 locations 分类包含大量非地点条目，本模块不尝试全量地图化。",
+    "恩布利欧次元空间、上古之民据点细节可能混合世界书扩写；使用 C/B 置信并保留 notes。"
+  ]
+}

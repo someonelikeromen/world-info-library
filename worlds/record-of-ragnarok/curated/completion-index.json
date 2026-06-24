@@ -1,0 +1,60 @@
+{
+  "schema": "rp-curation-completion-index-v1",
+  "worldId": "record-of-ragnarok",
+  "status": "locally-verified-after-agent-service-failure",
+  "updatedAt": "2026-06-24",
+  "sourceCoverage": {
+    "primarySourceIds": ["src-record-of-ragnarok-001"],
+    "campaignArchiveRoot": "campaigns/world-library/worlds/record-of-ragnarok",
+    "consultedOrIndexedPaths": [
+      "manifest.json",
+      "source-registry.json",
+      "world/world.json",
+      "characters/characters.json",
+      "factions/factions.json",
+      "locations/locations.json",
+      "power-systems/power-systems.json",
+      "power-systems/abilities.json",
+      "canon-reference/timeline.json",
+      "canon-reference/arcs.json",
+      "canon-reference/full-plot.json",
+      "canon-reference/plot-summary.json",
+      "reports/classification-report.md",
+      "reports/conflicts.md",
+      "reports/low-confidence.md",
+      "reports/unclassified-entries.json"
+    ],
+    "rawPreservedButNotImported": [
+      "raw/original-entry-index.json",
+      "raw/imported-worldbooks/vs_card.worldbook.json"
+    ]
+  },
+  "curatedModules": [
+    "world.json",
+    "characters-index.json",
+    "knowledge-graph.json",
+    "relationship-graph.json",
+    "source-registry.json",
+    "round-index.json",
+    "README.md",
+    "curation-notes.md"
+  ],
+  "coverageChecks": {
+    "readmeReviewed": true,
+    "curationNotesReviewed": true,
+    "sourceRegistryReviewed": true,
+    "campaignSourcesIndexed": true,
+    "rawSourcesSeparated": true,
+    "jsonValidationPassed": true
+  },
+  "knownLimits": [
+    "curated 初版不声明最终完整赛果或所有斗士-女武神配对。",
+    "连载新增回合和当前归档截断点可能不一致。",
+    "神话原型与本作表现可能冲突，RP 应以本作回合表现为准。"
+  ],
+  "rpStartupGuidance": [
+    "先选择具体回合、替补回合或赛外政治场景。",
+    "战斗场景加载 world.json 与 round-index.json；关系场景加载 relationship-graph.json。",
+    "Volundr/神器炼成规则应先确定女武神与斗士契合度。"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "rp-curation-completion-index-v1",
+  "worldId": "rakudai-kishi",
+  "status": "locally-verified-after-agent-service-failure",
+  "updatedAt": "2026-06-24",
+  "sourceCoverage": {
+    "primarySourceIds": ["src-rakudai-kishi-001"],
+    "campaignArchiveRoot": "campaigns/world-library/worlds/rakudai-kishi",
+    "consultedOrIndexedPaths": [
+      "manifest.json",
+      "source-registry.json",
+      "world/world.json",
+      "characters/characters.json",
+      "power-systems/power-systems.json",
+      "factions/factions.json",
+      "locations/locations.json",
+      "canon-reference/timeline.json",
+      "canon-reference/arcs.json",
+      "canon-reference/full-plot.json",
+      "reports/classification-report.md",
+      "reports/conflicts.md",
+      "reports/low-confidence.md"
+    ],
+    "rawPreservedButNotImported": [
+      "raw/original-entry-index.json",
+      "raw/imported-worldbooks/ldqs_card.worldbook.json",
+      "characters/character-nsfw.json",
+      "style/nsfw-rules.json"
+    ]
+  },
+  "curatedModules": [
+    "world.json",
+    "characters-index.json",
+    "knowledge-graph.json",
+    "relationship-graph.json",
+    "source-registry.json",
+    "timeline-index.json",
+    "README.md",
+    "curation-notes.md"
+  ],
+  "coverageChecks": {
+    "readmeReviewed": true,
+    "curationNotesReviewed": true,
+    "sourceRegistryReviewed": true,
+    "campaignSourcesIndexed": true,
+    "rawSourcesSeparated": true,
+    "jsonValidationPassed": true
+  },
+  "knownLimits": [
+    "后续国际篇与组织扩张线只作为低置信索引入口，具体细节需回查 campaign canon-reference。",
+    "成人/NSFW 分类源保留但不作为公开 RP 初始资料。",
+    "world.json 同时保留早期 coreSystems/majorLocations 结构和通用 world-info-library 字段。"
+  ],
+  "rpStartupGuidance": [
+    "先确定学园战/七星剑武祭/后续国际篇阶段。",
+    "战斗以伐刀者、固有灵装、魔力与公式战规则为核心。",
+    "人物关系图较丰富，启动时建议加载 relationship-graph.json 与 timeline-index.json。"
+  ]
+}

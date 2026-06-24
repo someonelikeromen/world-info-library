@@ -1,0 +1,200 @@
+{
+  "schema": "rp-timeline-v1",
+  "worldId": "dungeon-fighter-online",
+  "title": "阿拉德编年史核心时间线",
+  "sourceRefs": [
+    "src-dfo-canon-timeline-entry-99",
+    "src-dfo-archive-manifest"
+  ],
+  "curationPolicy": {
+    "scope": "从本地 canon-reference/timeline.json 的长条目抽取高影响节点，保留原始纪年与不确定性，不补写未见细节。",
+    "confidence": "C for archive entry confidence; B for event ordering copied directly from source text."
+  },
+  "eras": [
+    {
+      "id": "tera-collapse-and-pandemonium",
+      "name": "泰拉崩坏与魔界漂流",
+      "timeframe": "史前 / 年份不详",
+      "summary": "卡洛索与12位人造神之战导致泰拉灭亡；泰拉遗民逃至阿拉德，魔界作为泰拉城市残片在异次元漂流并开始接触魔法、生命之水传说与多位使徒。",
+      "keyEvents": [
+        "艾泽拉·洛伊率泰拉人乘创世纪号逃离并在阿拉德定居。",
+        "赫尔德首次发现魔法并掌握连接魔界与其他行星的方法。",
+        "卡恩、普雷、卡西利亚斯、希洛克、狄瑞吉、安徒恩、罗特斯、卢克、巴卡尔等因魔界游离或赫尔德转移进入魔界。",
+        "赫尔德将同类存在称为使徒；卢克使魔界获得电力并建造寂静城。"
+      ],
+      "involvedFactions": [
+        "apostles",
+        "kashipa",
+        "terra-survivors"
+      ],
+      "involvedLocations": [
+        "pandemonium",
+        "arad-continent",
+        "silent-city"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "ancient-arad-and-bakal",
+      "name": "古代阿拉德、龙之战争与天界封锁",
+      "timeframe": "阿拉德历前15年—526年",
+      "summary": "巴卡尔在魔界战争失败后逃往天界并实施封杀魔法令；阿拉德大陆经历佩鲁斯帝国兴起、奥兹玛与卡赞悲剧、暗黑圣战和天界机械反抗。",
+      "keyEvents": [
+        "公元前15年，巴卡尔经寂静城逃往天界；公元前14年成为天界统治者并封杀魔法。",
+        "68年佩鲁斯帝国出现；152年卡赞与奥兹玛讨伐狂龙赫斯；157—158年卡赞与奥兹玛相继死亡，血之诅咒与伪装者出现。",
+        "253—347年暗黑圣战推进，奥兹玛与黑色大地被封印，米歇尔建立后续圣职者教团基础。",
+        "303年盖波加计划失败；526年巴卡尔死亡，天界开始机械崛起。"
+      ],
+      "involvedFactions": [
+        "perus-empire",
+        "apostles",
+        "remidia-order",
+        "eternal-light"
+      ],
+      "involvedLocations": [
+        "heaven",
+        "black-earth",
+        "pandemonium",
+        "perus-empire"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "nations-and-pre-transfer",
+      "name": "诸国重组与转移前夜",
+      "timeframe": "阿拉德历527年—976年",
+      "summary": "德洛斯取代佩鲁斯，贝尔玛尔、虚祖、班图与暗精灵王国形成区域格局；鬼手、黑咒术、蓝色真谛、卡勒特等线索逐步成形。",
+      "keyEvents": [
+        "527年鬼手/卡赞综合征出现；652年鬼神之乱后鬼泣概念首次出现；655年德洛斯帝国正式成立。",
+        "867—879年莱斯利·贝伊兰斯发现天帷巨兽遗迹并创建蓝色真谛组织。",
+        "968年德洛斯突袭夏特利，引发第二次雪色战役。",
+        "974年卡勒特军队化整编，旋魔会创立；976年凯丽成为沙影贝利特弟子，天鹰逃出天界。"
+      ],
+      "involvedFactions": [
+        "de-los-empire",
+        "bel-myre-principality",
+        "suju",
+        "bantu",
+        "dark-elf-kingdom",
+        "gbl",
+        "kartel"
+      ],
+      "involvedLocations": [
+        "hendon-myere",
+        "strou-mountains",
+        "behemoth",
+        "mosphise"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "transfer-and-classic-adventure",
+      "name": "第一次转移与早期冒险主线",
+      "timeframe": "阿拉德历977年—1000年",
+      "summary": "希洛克转移至悲鸣洞穴，格兰之森与卡赞综合征恶化；冒险家救出赛丽亚后陆续处理罗特斯、狄瑞吉、冰龙斯卡萨、天界道路与卡勒特线索。",
+      "keyEvents": [
+        "977年第一次转移事件，希洛克被转移到悲鸣洞穴，格兰之森动植物变异。",
+        "980年四剑圣讨伐希洛克；985年格兰之火爆发。",
+        "990年冒险家在艾尔文防线救出赛丽亚；赫尔德将狄瑞吉转移至诺伊佩拉。",
+        "994—995年罗特斯降临天帷巨兽并被击败；诺伊佩拉瘟疫真相指向狄瑞吉幻影。",
+        "996—999年冰龙斯卡萨、安徒恩转移、狄瑞吉封印、登上天界与皇女艾丽婕被绑架等线索推进。"
+      ],
+      "involvedFactions": [
+        "adventurers",
+        "apostles",
+        "gbl",
+        "de-los-empire",
+        "kartel"
+      ],
+      "involvedLocations": [
+        "elvenguard",
+        "gran-floris",
+        "screaming-cavern",
+        "behemoth",
+        "noire-ferra",
+        "northmyre",
+        "heaven"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "silent-city-to-pandemonium",
+      "name": "寂静城、魔界与使徒讨伐升级",
+      "timeframe": "阿拉德历1003年—1007年",
+      "summary": "冒险家揭露艾丽丝与赫尔德线索，解决卡勒特、安徒恩、卢克、超时空、普雷·伊希斯、魔界大战和希洛克复活等重大主线。",
+      "keyEvents": [
+        "1003年通过时间旅行查明艾丽丝阴谋与赫尔德幕后线索，救出皇女艾丽婕并瓦解卡勒特。",
+        "1004年安徒恩被消灭，克洛诺斯岛与寂静城线索开启。",
+        "1005年冒险家抵达魔界并消灭卢克；艾泽拉·洛伊被强硬派杀害。",
+        "1006年超时空之战、普雷·伊希斯事件、第二届魔界盟会和魔界大战推进。",
+        "1007年阿拉德联合军成立，希洛克复活后被阿拉德联合军与天界军阻止并消灭。"
+      ],
+      "involvedFactions": [
+        "adventurers",
+        "heaven-army",
+        "de-los-empire",
+        "grim-seeker",
+        "kashipa",
+        "arad-allied-forces"
+      ],
+      "involvedLocations": [
+        "kronos-island",
+        "silent-city",
+        "pandemonium",
+        "sky-tower-abyss"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    },
+    {
+      "id": "second-black-crusade-and-seon",
+      "name": "第二次暗黑圣战、机械崛起与神界",
+      "timeframe": "阿拉德历1008年—1011年",
+      "summary": "黑暗教团与奥兹玛复活线推进至第二次暗黑圣战；随后冒险家追踪希洛克神识，经机械崛起时代与巴卡尔遗产前往神界。",
+      "keyEvents": [
+        "1008年黑暗教团入侵、夺走卡赞尸体，混沌之门开启。",
+        "1009年第二次暗黑圣战爆发，奥兹玛被冒险家消灭，德洛斯第一皇子范恩感染伪装者之血。",
+        "1011年冒险家追踪希洛克神识进入扭曲异次元裂缝，协助机械七战神完成盖波加并击败吉赛尔。",
+        "冒险家与天界联合军在失落之地：伊斯大陆击败龙族并战胜巴卡尔，取得命运通途。",
+        "冒险家与各国代表前往神界，在雾之都晴烟、迷雾高原与大舰队索利达里斯线索中推进新篇章。"
+      ],
+      "involvedFactions": [
+        "adventurers",
+        "black-order",
+        "remidia-order",
+        "heaven-allied-forces",
+        "seon"
+      ],
+      "involvedLocations": [
+        "black-earth",
+        "dimension-storm",
+        "ispins",
+        "white-ocean",
+        "clearmist",
+        "mist-plateau"
+      ],
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ]
+    }
+  ],
+  "openIssues": [
+    {
+      "id": "timeline-archive-confidence",
+      "summary": "源条目自身 confidence=C；本文件只做结构化抽取，不解决版本差异。",
+      "recordedIn": [
+        "curation-notes.md",
+        "source-registry.json"
+      ]
+    }
+  ]
+}

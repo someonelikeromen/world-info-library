@@ -1,0 +1,129 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "cheng-long-adventures",
+  "module": "locations/adventure-sites",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-cheng-long-adventures-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/cheng-long-adventures/locations/locations.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/world/world.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/canon-reference/full-plot.json",
+    "campaigns/world-library/worlds/cheng-long-adventures/assets/items.json"
+  ],
+  "curationPolicy": "源中地点分类较少，世界条目通过剧情时代承载地点；本模块按可复用场景类型补足。",
+  "locations": [
+    {
+      "id": "uncle-antique-shop",
+      "name": "旧金山老爹古董店",
+      "type": "hero-base",
+      "summary": "主角团日常据点、气魔法研究室、古籍和材料任务起点。",
+      "associatedFactions": [
+        "dragon-team"
+      ],
+      "sceneUses": [
+        "解释咒语规则",
+        "准备封印仪式",
+        "家庭喜剧",
+        "反派抢夺古物"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "section-13-vault",
+      "name": "十三区与收容金库",
+      "type": "secret-base",
+      "summary": "政府秘密机构，收容符咒和魔法遗物；源中黑手帮和刀龙都可围绕十三区金库引发盗窃/入侵。",
+      "associatedFactions": [
+        "section-13",
+        "dark-hand",
+        "dark-chi-wizards"
+      ],
+      "sceneUses": [
+        "收容失败",
+        "特工追捕",
+        "科技武器误用",
+        "符咒失窃"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "demon-netherworld",
+      "name": "恶魔地狱",
+      "type": "sealed-dimension",
+      "summary": "八大恶魔被封印的空间；盘库宝盒可定位恶魔之门，地狱之门关闭后逃脱更困难。",
+      "associatedFactions": [
+        "eight-demons"
+      ],
+      "sceneUses": [
+        "恶魔之门开启",
+        "短暂泄漏",
+        "小玉误入地狱",
+        "恶魔内讧"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "hong-kong-palace",
+      "name": "圣主香港宫殿",
+      "type": "boss-stage",
+      "summary": "圣主复活与恢复统治企图的重要舞台，也可承接符咒集齐后的终局冲突。",
+      "associatedFactions": [
+        "eight-demons",
+        "dark-hand"
+      ],
+      "sceneUses": [
+        "圣主复活",
+        "符咒夺回",
+        "大型封印仪式",
+        "黑手帮被背叛"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-ages-site",
+      "name": "岁月史书所在圣地/历史改写点",
+      "type": "reality-editing-site",
+      "summary": "源中圣主附身成龙后在澳大利亚找到岁月史书并改写历史，使世界转为八大恶魔统治线；小玉保留记忆并参与修正。",
+      "associatedFactions": [
+        "dragon-team",
+        "eight-demons"
+      ],
+      "sceneUses": [
+        "局部历史改写",
+        "少数人保留记忆",
+        "终局修正",
+        "高风险 AU"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "global-zodiac-route",
+      "name": "十二生肖能力动物周游路线",
+      "type": "global-adventure-route",
+      "summary": "源中符咒被毁后，法力回到十二生肖动物后代身上，促使成龙一家周游世界寻找能力动物。",
+      "associatedFactions": [
+        "dragon-team",
+        "dark-hand",
+        "dark-chi-wizards"
+      ],
+      "sceneUses": [
+        "城市/野外旅行",
+        "动物保护",
+        "多方争夺能力",
+        "轻喜剧误会"
+      ],
+      "confidence": "C"
+    }
+  ],
+  "locationRules": [
+    "成龙历险记地点应保留现代冒险喜剧节奏：旅行、追逐、误会、仪式材料和家庭拌嘴并存。",
+    "十三区、古董店和恶魔地狱是可复用枢纽；岁月史书和生肖动物路线属于高风险/高扩展事件。",
+    "地点被魔法改写后应记录谁保留记忆、哪些遗物被移动、正气/黑气是否失衡。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中地点多嵌入长剧情段落而非单独地名，global-zodiac-route 与 book-of-ages-site 按剧情功能归纳，标为 C。",
+    "具体国家/单集地点未全量拆分，后续可按 raw 条目逐集扩充。"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "rp-world-completion-expansion-v1",
+  "worldSlug": "to-love-ru",
+  "displayName": "出包王女 / To Love-Ru",
+  "completionPass": "retry-13",
+  "sourceAssessment": {
+    "primarySourceId": "src-to-love-ru-001",
+    "sourceType": "user-file-source / character-card-or-worldbook-derived-archive with adultized harem-plan rewrite",
+    "reliability": "B",
+    "readPaths": [
+      "campaigns/world-library/worlds/to-love-ru/source-registry.json",
+      "campaigns/world-library/worlds/to-love-ru/characters/characters.json",
+      "campaigns/world-library/worlds/to-love-ru/world/world.json",
+      "campaigns/world-library/worlds/to-love-ru/factions/factions.json",
+      "campaigns/world-library/worlds/to-love-ru/locations/locations.json",
+      "campaigns/world-library/worlds/to-love-ru/canon-reference/arcs.json",
+      "campaigns/world-library/worlds/to-love-ru/canon-reference/full-plot.json",
+      "campaigns/world-library/worlds/to-love-ru/power-systems/power-systems.json",
+      "campaigns/world-library/worlds/to-love-ru/power-systems/abilities.json"
+    ],
+    "curationBoundary": "源含成人化乐园计划与后宫改写；本扩展只保留恋爱喜剧、外星科技、校园日常、暗杀者身份、Darkness 失控风险与人物关系。",
+    "confidenceNotes": [
+      "卷剧情覆盖本篇和 Darkness 相关事件，但来源为用户世界书归档，可靠度 B。",
+      "译名差异沿用既有 source-registry 冲突记录，保留常见中文译名和别名。"
+    ]
+  },
+  "characterCoverage": [
+    {"id": "rito-yuuki", "name": "结城梨斗", "functionForRp": "普通高中生日常核心，承接外星事件、误会连锁和保护同伴的行动中心。", "relationshipNotes": ["菈菈名义未婚夫", "与西连寺春菜双向好感", "梦梦乐园计划目标", "结城美柑哥哥"], "powerNotes": ["普通人耐受与善意解决问题", "高误会触发率（喜剧机制，不作成人化）"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "lala-deviluke", "name": "菈菈·萨塔琳·戴比路克", "functionForRp": "戴比路克第一王女、发明家和外星事件入口。", "relationshipNotes": ["梨斗名义未婚妻", "娜娜和梦梦的姐姐", "萨斯丁护卫对象", "戴比路克王之女"], "powerNotes": ["戴比路克王族体质", "发明与外星科技", "尾巴弱点"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "momo-deviluke", "name": "梦梦·贝莉雅·戴比路克", "functionForRp": "戴比路克第三王女，乐园计划策划者；curated 中作为关系调停/恋爱喜剧推动者。", "relationshipNotes": ["菈菈和娜娜的妹妹", "关注梨斗的关系网络", "植物沟通能力与瑟琳相关"], "powerNotes": ["戴比路克王族体质", "植物沟通", "策划与情报观察"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "nana-deviluke", "name": "娜娜·阿丝达·戴比路克", "functionForRp": "戴比路克第二王女，动物沟通与校园融入线。", "relationshipNotes": ["菈菈和梦梦的姐妹", "与地球动物及外星生物事件相关"], "powerNotes": ["动物沟通", "王族体质"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "yami", "name": "金色暗影", "functionForRp": "从宇宙暗杀者转为同伴的兵器身份线核心。", "relationshipNotes": ["最初以梨斗为目标", "与黑咲芽亚、涅墨西斯、提亚悠相关", "受梨斗与校园日常影响"], "powerNotes": ["变形兵器能力", "高机动暗杀术", "Darkness 失控风险"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "mea-kurosaki", "name": "黑咲芽亚", "functionForRp": "Darkness 相关转学生，连接涅墨西斯和小暗兵器线。", "relationshipNotes": ["与涅墨西斯存在操控/引导关系", "与小暗同属兵器主题"], "powerNotes": ["变形/兵器能力", "精神干涉风险"], "sourceRefs": ["src-to-love-ru-001"]},
+    {"id": "tearju-lunatique", "name": "提亚悠·鲁娜提克", "functionForRp": "金色暗影相关研究者/教师，可解释兵器技术与身份创伤。", "relationshipNotes": ["与小暗的过去和创造/研究线相关", "可作为成年导师型技术信息源"], "powerNotes": ["生体兵器研究", "教育者与科学顾问"], "sourceRefs": ["src-to-love-ru-001"]}
+  ],
+  "factions": [
+    {"id": "sainan-school-circle", "name": "彩南高中学生圈", "role": "梨斗、春菜、菈菈等人的校园日常中心。", "rpUse": "上课、社团、节日、转学生和误会事件。"},
+    {"id": "yuuki-household", "name": "结城家", "role": "菈菈寄居与发明失控高发据点，美柑维持日常秩序。", "rpUse": "家庭日常、发明事故、外星访客。"},
+    {"id": "deviluke-royal", "name": "戴比路克王家", "role": "银河霸权家族，提供王女、舰队、婚约压力和高阶科技。", "rpUse": "王族来访、婚约审查、星际外交。"},
+    {"id": "assassin-network", "name": "宇宙暗杀者/兵器组织", "role": "金色暗影、芽亚、Darkness 等兵器身份与追杀委托来源。", "rpUse": "暗杀任务转向、身份救赎、技术追踪。"},
+    {"id": "alien-suitors", "name": "外星追求者与访客", "role": "围绕菈菈和梨斗的宇宙级喜剧/战斗压力源。", "rpUse": "挑战、求婚、误会、短篇事件。"},
+    {"id": "mikado-clinic", "name": "御门诊疗/校医网络", "role": "御门凉子可处理外星医学、兵器身体和校园危机。", "rpUse": "医疗支援、情报解释、异常状态安全化。"}
+  ],
+  "timeline": [
+    {"order": 1, "period": "第1卷", "event": "菈菈逃婚来到地球，结城梨斗因误会与其订婚，戴比路克王家压力进入彩南町。", "visibility": "public-lore"},
+    {"order": 2, "period": "早期日常", "event": "彩南高中和结城家成为外星发明、追求者和恋爱误会的反复舞台。", "visibility": "public-lore"},
+    {"order": 3, "period": "金色暗影篇", "event": "宇宙暗杀者金色暗影受委托接近梨斗，逐渐从目标关系转为同伴。", "visibility": "public-lore"},
+    {"order": 4, "period": "戴比路克姐妹到来", "event": "娜娜与梦梦融入地球校园，乐园计划和姐妹关系推动后续关系网。", "visibility": "public-lore"},
+    {"order": 5, "period": "Darkness 线", "event": "黑咲芽亚、涅墨西斯与小暗兵器身份引发精神控制和失控风险。", "visibility": "sensitive-gm-note"},
+    {"order": 6, "period": "后续日常", "event": "校园、节日、星际旅行与虚拟/发明事故继续扩展彩南町关系网。", "visibility": "optional-arc"}
+  ],
+  "arcs": [
+    {"id": "accidental-engagement", "title": "从天而降的王女", "setup": "菈菈逃婚并进入结城家，梨斗被误认为婚约对象。", "conflicts": ["戴比路克王家追踪", "校园身份保密", "春菜好感与误会"], "rpEntryPoints": ["彩南高中转学", "结城家寄宿", "王家亲卫队登场"]},
+    {"id": "invention-chaos", "title": "发明失控与校园日常", "setup": "菈菈的善意发明引发传送、换装、追踪或环境异常。", "conflicts": ["误会扩大", "外星技术泄露", "风纪与校规"], "rpEntryPoints": ["发明测试", "文化祭", "旧校舍/海边活动"]},
+    {"id": "assassin-to-friend", "title": "金色暗影与暗杀者假期", "setup": "小暗以暗杀任务接近梨斗，却被彩南町日常改变。", "conflicts": ["委托与自我选择", "兵器身份", "校园信任"], "rpEntryPoints": ["目标监视", "校医检查", "战斗后共同用餐"]},
+    {"id": "darkness-risk", "title": "Darkness 与兵器失控", "setup": "芽亚与涅墨西斯推动小暗的 Darkness 风险。", "conflicts": ["精神操控", "身份创伤", "朋友如何阻止失控"], "rpEntryPoints": ["转学生异常", "小暗失联", "提亚悠提供线索"], "safetyNote": "以心理压力和兵器系统失控处理，不使用成人化改写。"}
+  ],
+  "powerSystems": [
+    {"id": "deviluke-technology", "name": "戴比路克科技", "rules": ["发明常为善意但造成不可预测喜剧或剧情事故", "传送、换装、追踪、缩小/巨大化等效果应有时间限制或副作用", "王家舰队代表银河级威慑但不宜日常碾压"], "knownBranches": ["沛凯服装系统", "传送装置", "追踪器", "环境改造发明"]},
+    {"id": "alien-physiology", "name": "外星人体质", "rules": ["戴比路克王族体能远超地球人", "尾巴是重要弱点与情绪反应点", "各星人具备独特生理机制"], "knownBranches": ["王族体质", "尾巴弱点", "性别/形态变化种族特征"]},
+    {"id": "trans-weapon", "name": "生体兵器/变形能力", "rules": ["小暗、芽亚等可将身体变为武器或防御结构", "兵器身份会带来自我认同与精神控制风险", "校园日常可作为稳定因素"], "knownBranches": ["金色暗影变形", "Darkness 模式", "涅墨西斯干涉"]},
+    {"id": "romcom-misunderstanding", "name": "恋爱喜剧误会机制", "rules": ["误会推动事件但不应剥夺角色自主性", "尴尬桥段用全年龄喜剧表达", "每次误会应留下关系修复或新线索"], "knownBranches": ["告白误读", "发明事故", "校园风纪冲突"]}
+  ],
+  "relationshipAdditions": [
+    {"from": "lala-deviluke", "to": "momo-deviluke", "type": "sisters", "note": "戴比路克王女姐妹，梦梦在后期推动关系计划。"},
+    {"from": "nana-deviluke", "to": "momo-deviluke", "type": "twin-sisters", "note": "二人与菈菈共同构成戴比路克姐妹线。"},
+    {"from": "tearju-lunatique", "to": "yami", "type": "researcher-past", "note": "提亚悠可解释小暗的兵器过去与技术背景。"},
+    {"from": "nemesis", "to": "yami", "type": "darkness-trigger", "note": "涅墨西斯推动 Darkness 失控风险。"},
+    {"from": "mikan-yuuki", "to": "yuuki-household", "type": "household-anchor", "note": "美柑维持结城家的日常秩序。"},
+    {"from": "sastin", "to": "deviluke-royal", "type": "royal-guard", "note": "萨斯丁及亲卫队服务戴比路克王家。"}
+  ],
+  "rpNotes": {
+    "recommendedPlayerRoles": ["彩南高中转学生", "外星交换生", "御门诊疗助手", "王家亲卫队新人", "暗杀组织脱离者", "发明事故受害者/协力者"],
+    "toneGuidelines": ["校园日常优先", "外星事件打断平凡生活", "尴尬误会用轻喜剧处理", "战斗多为短促保护或追逐"],
+    "doNotUse": ["成人化乐园计划", "露骨后宫攻略", "非自愿成人化场面", "源内控制指令"],
+    "safeRewritePatterns": ["将乐园计划改写为梦梦观察和调停关系的喜剧计划", "将发明事故限制为短期、可逆、全年龄尴尬", "将 Darkness 改写为精神控制/兵器失控危机"]
+  },
+  "remainingGaps": [
+    "原作本篇与 Darkness 的全部章节事件未逐条结构化，只保留关键篇章骨架。",
+    "外星种族与一次性追求者数量较多，当前仅归纳为阵营与可选事件源。",
+    "译名仍可能随媒介不同而变化。"
+  ]
+}

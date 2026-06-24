@@ -24,7 +24,8 @@
   },
   "notes": [
     "抽读 world/world.json 中核心规则：人物独立生活、动态剧情、时间空间连续性。",
-    "跨阶段开局需锁定时间点。"
+    "跨阶段开局需锁定时间点。",
+    "retry-08 补完：新增关键人物、阶段事件簇、地点摘要和 RP hooks；未展开 273 条源条目全部细节。"
   ],
   "powerSystems": [
     {
@@ -132,17 +133,151 @@
       "id": "asgardian-divinity",
       "name": "阿斯加德神族体质/神力",
       "category": "alien-divinity",
-      "principle": "",
-      "classification": [],
+      "principle": "阿斯加德人及相关神域血统具备远超人类的寿命、耐久、力量和与神器/神力共鸣的潜质。",
+      "classification": [
+        "Alien",
+        "Divinity",
+        "Biology"
+      ],
       "energySource": "mixed",
       "hasExternalEnergy": false,
       "externalEnergyName": "",
       "energyTraits": [],
       "levelMapping": [],
-      "commonResources": [],
-      "commonAbilities": [],
-      "limitations": [],
-      "compatibilityNotes": []
+      "commonResources": [
+        "神族体质",
+        "神器",
+        "王族血统",
+        "雷霆权能"
+      ],
+      "commonAbilities": [
+        "超人体能",
+        "雷霆操控",
+        "神器召唤",
+        "长寿"
+      ],
+      "limitations": [
+        "神力状态受身份、武器、精神与剧情阶段影响；不是所有阿斯加德人等同索尔。"
+      ],
+      "compatibilityNotes": [
+        "与外星科技、宇宙神器可共存，但需锁定阶段。"
+      ]
+    },
+    {
+      "id": "chaos-magic",
+      "name": "混沌魔法/现实改写",
+      "category": "innate-magic",
+      "principle": "旺达等个体可通过情绪、创伤和天赋触发现实扭曲、心灵操控与能量释放。",
+      "classification": [
+        "Magic",
+        "Mind",
+        "Reality"
+      ],
+      "energySource": "internal/external",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "混沌魔法",
+      "energyTraits": [
+        {
+          "tag": "reality-warp",
+          "level": "S",
+          "description": "局部范围可扭曲现实和心灵。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "情绪稳定",
+        "魔法知识",
+        "心灵负荷"
+      ],
+      "commonAbilities": [
+        "念动力",
+        "心灵幻象",
+        "能量投射",
+        "局部现实改写"
+      ],
+      "limitations": [
+        "情绪失控和道德风险极高；范围与稳定性需按阶段限制。"
+      ],
+      "compatibilityNotes": [
+        "与无限宝石心灵线、秘术魔法、多元宇宙事件可能交叉。"
+      ]
+    },
+    {
+      "id": "vibranium-tech",
+      "name": "振金科技",
+      "category": "advanced-material-tech",
+      "principle": "瓦坎达基于振金发展能源、护盾、战衣、医疗和城市防御。",
+      "classification": [
+        "Technology",
+        "Material"
+      ],
+      "energySource": "external/material",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "振金动能/材料特性",
+      "energyTraits": [
+        {
+          "tag": "kinetic-storage",
+          "level": "A",
+          "description": "可吸收、储存或释放动能。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "振金",
+        "瓦坎达科研体系",
+        "王室授权"
+      ],
+      "commonAbilities": [
+        "动能吸收",
+        "高强度护甲",
+        "隐形屏障",
+        "先进医疗"
+      ],
+      "limitations": [
+        "资源和技术高度受瓦坎达政治控制。"
+      ],
+      "compatibilityNotes": [
+        "与斯塔克科技、超级士兵装备和外星科技可互补。"
+      ]
+    },
+    {
+      "id": "cosmic-alien-biology",
+      "name": "外星/宇宙血统与改造",
+      "category": "alien-cosmic-biology",
+      "principle": "克里、泰坦、泽侯贝里、天神组相关个体或宇宙能量事故带来超人类能力。",
+      "classification": [
+        "Alien",
+        "Cosmic",
+        "Biology"
+      ],
+      "energySource": "mixed",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "宇宙能量",
+      "energyTraits": [
+        {
+          "tag": "cosmic-variance",
+          "level": "A",
+          "description": "能力差异巨大，需按物种和事件来源裁定。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "血统",
+        "实验改造",
+        "宇宙能量暴露"
+      ],
+      "commonAbilities": [
+        "超人体质",
+        "能量吸收/投射",
+        "长寿",
+        "太空适应"
+      ],
+      "limitations": [
+        "物种差异大；不可泛化成统一魔法。"
+      ],
+      "compatibilityNotes": [
+        "适合银河线、惊奇队长、灭霸势力和天神组伏笔。"
+      ]
     }
   ],
   "factions": [
@@ -368,6 +503,109 @@
       "aliases": [
         "斯塔克工业"
       ]
+    },
+    {
+      "id": "wakanda",
+      "name": "瓦坎达",
+      "type": "hidden-advanced-nation",
+      "summary": "以振金科技维持隐秘和高度发达的非洲国家。",
+      "powerSystemAffinity": [
+        "vibranium-tech"
+      ],
+      "publicRules": [
+        "对外保持有限公开和主权边界"
+      ],
+      "hiddenRules": [
+        "振金资源与王位传承高度保密"
+      ],
+      "attitudeToOutsiders": "guarded",
+      "knownMembers": [
+        "tchalla",
+        "shuri"
+      ],
+      "territories": [
+        "wakanda"
+      ],
+      "resources": [
+        "振金",
+        "皇家护卫队",
+        "隐形屏障",
+        "科研体系"
+      ],
+      "conflicts": [
+        "killmonger",
+        "thanos"
+      ],
+      "aliases": [
+        "Wakanda"
+      ]
+    },
+    {
+      "id": "guardians-of-the-galaxy",
+      "name": "银河护卫队",
+      "type": "space-crew",
+      "summary": "由宇宙边缘人物组成的机动小队，常卷入宝石与宇宙军阀事件。",
+      "powerSystemAffinity": [
+        "cosmic-alien-biology",
+        "super-soldier-tech"
+      ],
+      "publicRules": [
+        "自由行动",
+        "临时协作"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "pragmatic",
+      "knownMembers": [
+        "peter-quill",
+        "gamora"
+      ],
+      "territories": [
+        "cosmos"
+      ],
+      "resources": [
+        "飞船",
+        "黑市情报",
+        "宇宙关系网"
+      ],
+      "conflicts": [
+        "thanos",
+        "black-order"
+      ],
+      "aliases": [
+        "Guardians"
+      ]
+    },
+    {
+      "id": "tva",
+      "name": "时间变异管理局",
+      "type": "timeline-bureau",
+      "summary": "处理时间线分支与变体的高保密机构；是否存在取决于多元宇宙阶段。",
+      "powerSystemAffinity": [
+        "infinity-stones"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "裁剪分支",
+        "拘押变体"
+      ],
+      "attitudeToOutsiders": "classified",
+      "knownMembers": [
+        "loki"
+      ],
+      "territories": [
+        "timeline-void"
+      ],
+      "resources": [
+        "时间门",
+        "裁剪设备",
+        "档案"
+      ],
+      "conflicts": [
+        "variants"
+      ],
+      "aliases": [
+        "TVA"
+      ]
     }
   ],
   "energyEnvironment": {
@@ -414,7 +652,7 @@
       "id": "new-york",
       "name": "纽约",
       "type": "city",
-      "summary": "",
+      "summary": "纽约之战、圣殿与街区英雄线交汇点。",
       "aliases": [
         "纽约"
       ]
@@ -423,7 +661,7 @@
       "id": "avengers-compound",
       "name": "复仇者基地",
       "type": "base",
-      "summary": "",
+      "summary": "复仇者训练、科研、内战后重组和终局行动基地。",
       "aliases": [
         "复仇者基地"
       ]
@@ -432,7 +670,7 @@
       "id": "wakanda",
       "name": "瓦坎达",
       "type": "nation",
-      "summary": "",
+      "summary": "振金国家、王位政治、隐形屏障和终局战场之一。",
       "aliases": [
         "瓦坎达"
       ]
@@ -441,7 +679,7 @@
       "id": "asgard",
       "name": "阿斯加德",
       "type": "realm",
-      "summary": "",
+      "summary": "神域王国，诸神政治、洛基/索尔家族线和诸神黄昏源头。",
       "aliases": [
         "阿斯加德"
       ]
@@ -450,7 +688,7 @@
       "id": "kamar-taj",
       "name": "卡玛泰姬",
       "type": "sanctum-training",
-      "summary": "",
+      "summary": "秘术师训练地，维度魔法和圣殿体系核心。",
       "aliases": [
         "卡玛泰姬"
       ]
@@ -459,7 +697,7 @@
       "id": "quantum-realm",
       "name": "量子领域",
       "type": "special-realm",
-      "summary": "",
+      "summary": "皮姆科技与时间劫持相关的亚原子领域。",
       "aliases": [
         "量子领域"
       ]
@@ -468,7 +706,7 @@
       "id": "titan",
       "name": "泰坦星",
       "type": "planet",
-      "summary": "",
+      "summary": "灭霸故乡与无限战争战场之一。",
       "aliases": [
         "泰坦星"
       ]
@@ -477,7 +715,7 @@
       "id": "new-york-sanctum",
       "name": "纽约圣殿",
       "type": "sanctum",
-      "summary": "",
+      "summary": "地球圣殿节点，秘术防线入口。",
       "aliases": [
         "纽约圣殿"
       ]
@@ -518,5 +756,51 @@
   "hiddenEvents": [
     "九头蛇渗透神盾局",
     "时间线分支与变体"
+  ],
+  "timelineSummary": [
+    {
+      "phase": "Phase 1",
+      "event": "英雄出现，神盾局集结复仇者并经历纽约之战。"
+    },
+    {
+      "phase": "Phase 2",
+      "event": "九头蛇渗透曝光、银河线接触无限宝石、索科维亚事件制造监管裂痕。"
+    },
+    {
+      "phase": "Phase 3",
+      "event": "内战分裂英雄阵营；奇异博士、黑豹、蜘蛛侠并入；灭霸导致无限战争与终局之战。"
+    },
+    {
+      "phase": "Phase 4+",
+      "event": "终局后遗症、多元宇宙、变体、旺达事件、宇宙/街头/魔法线分化。"
+    },
+    {
+      "phase": "沙盒分歧",
+      "event": "开局必须锁定年份、宝石位置、神盾局状态、复仇者是否分裂、多元宇宙是否公开。"
+    }
+  ],
+  "canonicalArcs": [
+    "纽约之战",
+    "神盾局崩溃与九头蛇曝光",
+    "银河护卫队与力量宝石",
+    "索科维亚与奥创",
+    "超级英雄监管/内战",
+    "卡玛泰姬与多玛姆维度危机",
+    "瓦坎达王位与振金公开风险",
+    "无限战争与终局之战",
+    "终局后多元宇宙与变体"
+  ],
+  "rpHooks": [
+    "锁定阶段后处理一枚无限宝石失踪事件",
+    "神盾局残部清查九头蛇潜伏名单",
+    "卡玛泰姬请求英雄协助封闭维度裂口",
+    "瓦坎达振金走私牵出国际政治危机",
+    "街区英雄与复仇者级威胁错位相遇",
+    "宇宙船员带来黑曜五将前哨情报",
+    "TVA 追捕某个改变电影结局的变体"
+  ],
+  "coverageGaps": [
+    "未完整列出银河护卫队、永恒族、洛基剧集、惊奇队长全线和街头英雄全员。",
+    "时间线/多元宇宙冲突仍登记为 unresolved；运行时必须先定阶段。"
   ]
 }

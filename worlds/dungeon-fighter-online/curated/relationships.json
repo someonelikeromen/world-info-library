@@ -1,0 +1,174 @@
+{
+  "schema": "rp-relationships-v1",
+  "worldId": "dungeon-fighter-online",
+  "sourceRefs": [
+    "src-dfo-canon-timeline-entry-99",
+    "src-dfo-factions-archive",
+    "src-dfo-canon-arcs"
+  ],
+  "relationships": [
+    {
+      "id": "rel-adventurers-seria-support",
+      "from": "seria-kirmin",
+      "to": "adventurers",
+      "type": "guide-support",
+      "visibility": "public",
+      "summary": "赛丽亚作为冒险旅途关键引导者和支援人物，可帮助冒险家进入阿拉德主线。",
+      "rpUse": "早期任务引导、据点支援、玩家情感锚点。",
+      "sourceRefs": [
+        "src-dfo-import-readme",
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-adventurers-apostles-crisis",
+      "from": "adventurers",
+      "to": "apostles",
+      "type": "recurring-crisis-opposition",
+      "visibility": "private",
+      "summary": "冒险家多次处理使徒转移、污染、复活、封印或讨伐事件，但不同使徒不应被视为单一敌对组织。",
+      "rpUse": "主线推进的高阶威胁框架。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-herder-apostles-naming-transfer",
+      "from": "herder",
+      "to": "apostles",
+      "type": "namer-and-manipulator",
+      "visibility": "private",
+      "summary": "赫尔德将同类存在称为使徒，并在希洛克、狄瑞吉、罗特斯、安徒恩等转移事件中被源条目点名。",
+      "rpUse": "幕后线索、阴谋推理、使徒命运主题。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-bakal-heaven-oppression",
+      "from": "bakal",
+      "to": "heaven",
+      "type": "oppressor-and-ruler",
+      "visibility": "public",
+      "summary": "巴卡尔逃往天界后成为统治者，实施封杀魔法令，使天界进入黑暗时代。",
+      "rpUse": "解释天界机械文明、反巴卡尔联盟和后续遗产线。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-bakal-dragons-created",
+      "from": "bakal",
+      "to": "dragon-creations",
+      "type": "creator-command",
+      "visibility": "private",
+      "summary": "巴卡尔创造狂龙赫斯、邪龙斯皮兹、冰龙斯卡萨等并派往阿拉德大陆，成为多场历史灾厄源头。",
+      "rpUse": "龙族战役、三龙材料破阵登天界、巴卡尔遗产铺垫。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-ozma-kazan-tragedy",
+      "from": "ozma",
+      "to": "kazan",
+      "type": "former-comrades-tragedy",
+      "visibility": "private",
+      "summary": "卡赞与奥兹玛曾同为佩鲁斯讨伐狂龙赫斯主力，后相继死亡并引出鬼手、血之诅咒、伪装者和暗黑圣战线。",
+      "rpUse": "鬼剑士/圣职者/奥兹玛主线的共同历史根。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-michael-ozma-opposition",
+      "from": "michael",
+      "to": "ozma",
+      "type": "saint-vs-chaos",
+      "visibility": "private",
+      "summary": "米歇尔辨认伪装者并创制圣职者战斗体系，暗黑圣战中成为对抗奥兹玛线的核心圣者。",
+      "rpUse": "圣职者启示、伪装者识别、雷米迪亚与黑色大地剧情。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-de-los-bantu-hostility",
+      "from": "de-los-empire",
+      "to": "bantu",
+      "type": "hostile-history",
+      "visibility": "public",
+      "summary": "德洛斯秘密培养的紫雾团突袭租借给班图族的夏特利，引发第二次雪色战役，造成长期不信任。",
+      "rpUse": "边境战争、外交谈判、雪山支线。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-factions-archive"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "rel-dark-elves-humans-noire-ferra",
+      "from": "dark-elf-kingdom",
+      "to": "bel-myre-principality",
+      "type": "conflict-then-repair",
+      "visibility": "public",
+      "summary": "诺伊佩拉瘟疫导致暗精灵误认人类为元凶并宣战；冒险家查明狄瑞吉幻影并与诺顿协助解除误会。",
+      "rpUse": "瘟疫调查、跨种族外交、暗精灵元老院政治。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99",
+        "src-dfo-factions-archive"
+      ],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "rel-gbl-lotus-control",
+      "from": "lotus",
+      "to": "gbl",
+      "type": "mental-control",
+      "visibility": "private",
+      "summary": "罗特斯降临天帷巨兽后精神支配GBL教求知者，部分甚至变成章鱼怪，组织由此没落。",
+      "rpUse": "救援幸存者、精神抗性、遗迹污染。",
+      "sourceRefs": [
+        "src-dfo-canon-arcs"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "rel-kashipa-magic-groups-war",
+      "from": "kashipa",
+      "to": "pandemonium-magic-groups",
+      "type": "aggressor",
+      "visibility": "private",
+      "summary": "佧修派袭击魔界主要势力，控制黑暗之眼并引发魔界大战与次元风暴。",
+      "rpUse": "魔界盟会、组织战、黑暗之眼调查。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "rel-grim-seeker-sirocco-revival",
+      "from": "grim-seeker",
+      "to": "sirocco",
+      "type": "revival-plot",
+      "visibility": "private",
+      "summary": "1007年暴戾搜捕团温和派未被阻止，希洛克复活；随后阿拉德联合军与天界军阻止并消灭希洛克。",
+      "rpUse": "绝望之塔、艾泽拉死亡后组织分裂、希洛克复活主线。",
+      "sourceRefs": [
+        "src-dfo-canon-timeline-entry-99"
+      ],
+      "evidenceLevel": "B"
+    }
+  ],
+  "openIssues": [
+    "多名关系节点尚未在 characters-index.json 拥有独立人物条目；relationship-graph 使用 metadata 标记 unresolved-candidate。",
+    "关系强度未数值化为固定好感/仇恨，需按具体主线阶段调整。"
+  ]
+}

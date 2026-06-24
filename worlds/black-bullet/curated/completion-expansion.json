@@ -1,0 +1,280 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "black-bullet",
+  "completionPass": "retry-01",
+  "sourceRefs": [
+    "src-black-bullet-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/black-bullet/world/world.json entry 28 东京地区",
+    "campaigns/world-library/worlds/black-bullet/characters/characters.json entries 0-25",
+    "campaigns/world-library/worlds/black-bullet/locations/locations.json entries 28,31,32,41,42,43,52,58",
+    "campaigns/world-library/worlds/black-bullet/power-systems/power-systems.json entries 8,28,53,73,103,110,112",
+    "campaigns/world-library/worlds/black-bullet/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/black-bullet/canon-reference/full-plot.json"
+  ],
+  "curationScope": "补足东京区域末世结构、民警/受诅之子搭档、原肠动物分级、巨石碑与錵防线、章节剧情和外围区社会问题；对缺失时间线用章节摘要替代。",
+  "coverageNote": "本地自动分类显示 world 79、characters 82、factions 56、locations 87、powerSystems 16、canonArcs 53，但 canonTimeline 为 0。现有 curated 世界条目已覆盖核心末世设定，本扩展补时间线、RP 钩子和低置信缺口。",
+  "timeline": [
+    {
+      "id": "gastrea-war-loss",
+      "order": 1,
+      "name": "原肠动物战争与人类败北",
+      "summary": "十年前原肠动物席卷全球，人类战败退守东京地区等巨石碑包围区，形成最后乐土。",
+      "confidence": "B"
+    },
+    {
+      "id": "rentaro-enju-partnership",
+      "order": 2,
+      "name": "莲太郎与延珠搭档",
+      "summary": "里见莲太郎成为天童民间警备公司促进者，与蓝原延珠组成经典民警搭档。",
+      "confidence": "B"
+    },
+    {
+      "id": "saten-shining-events",
+      "order": 3,
+      "name": "七星的遗产与外围冲突",
+      "summary": "七星的遗产、蛭子影胤危机、蒂娜等事件推动东京区域从日常转向更大规模危机。",
+      "confidence": "B"
+    },
+    {
+      "id": "third-kanto-war",
+      "order": 4,
+      "name": "第三次关东会战",
+      "summary": "第 32 号巨石碑白化、前线集结、毕宿五决战、区域防线动员构成核心大事件。",
+      "confidence": "B"
+    },
+    {
+      "id": "post-war-social-strain",
+      "order": 5,
+      "name": "会战后持续的社会歧视与重建压力",
+      "summary": "受诅之子歧视、补给匮乏、政治保护伞和民警体系继续影响东京地区。",
+      "confidence": "B"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "tokyo-last-land",
+      "name": "东京地区最后乐土",
+      "summary": "东京地区是巨石碑防线内的最后定居点，内部维持现代文明但外部则是彻底崩坏的世界。",
+      "rpHooks": [
+        "外围区求生",
+        "巨石碑巡查",
+        "资源短缺与物价波动"
+      ]
+    },
+    {
+      "id": "promoter-initiator-partnership",
+      "name": "促进者与起始者搭档机制",
+      "summary": "民警公司以促进者+起始者为基础运作，战斗和情感支撑绑定，侵蚀率与任务风险并行。",
+      "rpHooks": [
+        "新搭档磨合",
+        "侵蚀率管理",
+        "受诅之子社会歧视"
+      ]
+    },
+    {
+      "id": "gastrea-threat-and-zodiac",
+      "name": "原肠动物与黄道带级威胁",
+      "summary": "原肠动物由病毒感染引发，阶段越高越难对付；黄道带级和畸变体是区域灾害源。",
+      "rpHooks": [
+        "战区讨伐",
+        "錵武器补给",
+        "高再生敌人的围捕"
+      ]
+    },
+    {
+      "id": "outer-district-lifeline",
+      "name": "外围区救助与社会底层",
+      "summary": "松崎、乞讨少女、第三十九区下水道和露天教室等条目提示本作的重要人道线。",
+      "rpHooks": [
+        "受诅之子收容",
+        "地下教室避难",
+        "平民食物与居住问题"
+      ]
+    },
+    {
+      "id": "original-and-variant-lines",
+      "name": "原著与用户支线",
+      "summary": "源中含 user-假面骑士、掩体抽签、回归之炎等扩展条目，应视为支线或 OC 可选内容。",
+      "visibility": "optional-variant"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "gastrea-virus",
+      "name": "原肠动物病毒",
+      "summary": "感染会造成生物异形化与再生强化，阶段越高越危险；部分条目将特定个体定义为黄道带级或不死级威胁。",
+      "rules": [
+        "病毒可制造灾害、变异和感染恐惧。",
+        "高阶段原肠动物应显著压迫战斗与侦查。"
+      ]
+    },
+    {
+      "id": "cursed-children",
+      "name": "受诅之子 / 起始者",
+      "summary": "胎内感染的少女拥有动物因子能力和超人体能，但侵蚀率上升会带来失控/原肠动物化风险；她们是社会歧视对象也是前线战力。",
+      "rules": [
+        "起始者需要促进者搭档支持。",
+        "侵蚀率是长期资源和剧情压力。",
+        "不得把受诅之子写成无痛超人。"
+      ]
+    },
+    {
+      "id": "varanium",
+      "name": "錵/瓦拉尼姆与巨石碑防线",
+      "summary": "錵金属可抑制原肠动物再生并构成巨石碑、武器和设施核心；资源分配决定地区命运。",
+      "rules": [
+        "无錵武器对高再生敌人效果有限。",
+        "巨石碑既是防线也是社会隔离墙。"
+      ]
+    },
+    {
+      "id": "ranking-and-municipal-military",
+      "name": "IP 排行与民警制度",
+      "summary": "IP 排行衡量民警搭档任务效率和社会地位，影响资源、奖励和任务机会。",
+      "rules": [
+        "排名制度应带出职业压力，而非单纯数值榜。",
+        "民警公司可作为雇佣、保护或黑市情报中枢。"
+      ]
+    },
+    {
+      "id": "special-tech-and-research",
+      "name": "特殊装备、研究与机械化计划",
+      "summary": "义肢、思考驱动介面、翻译装置、机械化士兵计划和四贤者等条目提示科技与黑箱研究线。",
+      "rules": [
+        "科技奇物多与实验、军方和伦理冲突绑定。",
+        "不应把所有装备都当成通用加成。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "tendo-private-security",
+      "name": "天童民间警备公司",
+      "summary": "莲太郎和木更的核心民警公司，兼有调查、护卫和与官方协作的功能。",
+      "anchors": [
+        "里见莲太郎",
+        "天童木更",
+        "蓝原延珠"
+      ]
+    },
+    {
+      "id": "tokyo-region-government",
+      "name": "东京地区政府 / 圣天子体系",
+      "summary": "以圣天子和中央官僚维持东京区域统治，试图在末世保护区中平衡安全与人权。",
+      "anchors": [
+        "圣天子",
+        "保胁卓人",
+        "联邦/地区警务"
+      ]
+    },
+    {
+      "id": "cursed-children-group",
+      "name": "受诅之子群体",
+      "summary": "被社会歧视与边缘化的少女群体，既是保护对象也是研究、政争和道德冲突焦点。",
+      "anchors": [
+        "延珠",
+        "夏世",
+        "蒂娜",
+        "布施翠",
+        "玛莉亚"
+      ]
+    },
+    {
+      "id": "gastrea-threathorde",
+      "name": "原肠动物 / 黄道带",
+      "summary": "以感染变异形成的灾害生态群落，阶段 IV/V 和黄道带个体构成世界级威胁。",
+      "anchors": [
+        "毕宿五",
+        "昴宿",
+        "天蝎座"
+      ]
+    },
+    {
+      "id": "iiso-and-other-powers",
+      "name": "IISO / 国际与外部势力",
+      "summary": "国际组织、外国科学家和其他地区军政势力都可能介入东京区域事务，通常伴随技术、实验或政治交易。",
+      "confidence": "B"
+    }
+  ],
+  "locations": [
+    {
+      "id": "tokyo-region",
+      "name": "东京地区",
+      "summary": "巨石碑环绕的最后乐土，人类社会与原肠动物世界的交界。"
+    },
+    {
+      "id": "outer-district",
+      "name": "外围区",
+      "summary": "资源匮乏、歧视和暴力集中的底层区域，受诅之子与贫民生存地。"
+    },
+    {
+      "id": "muroto-lab",
+      "name": "室户堇实验室 / 中央控制开发机构",
+      "summary": "研究原肠动物与相关技术的关键场所。"
+    },
+    {
+      "id": "forty-district-front",
+      "name": "第40区前线司令部",
+      "summary": "第三次关东会战的动员与集结地点。"
+    },
+    {
+      "id": "thirty-nine-sewer-school",
+      "name": "第三十九区下水道 / 露天教室",
+      "summary": "受诅之子避难、学习与生活的重要空间。"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rentaro-enju-partner",
+      "summary": "莲太郎与延珠是促进者/起始者经典搭档，既是战斗配对也是彼此的日常支柱。"
+    },
+    {
+      "id": "kisara-rentaro",
+      "summary": "木更对莲太郎既是雇主也是复仇和信任交织的关系中心。"
+    },
+    {
+      "id": "seitenshi-protection",
+      "summary": "圣天子与莲太郎之间的政治委托和信任，推动多起核心事件。"
+    },
+    {
+      "id": "hiruko-family-conflict",
+      "summary": "蛭子影胤与蛭子小比奈代表扭曲的父女/犯罪搭档关系，承担危机反派功能。"
+    }
+  ],
+  "rpNotes": {
+    "recommendedEntryPoints": [
+      {
+        "id": "promoter-initiator-case",
+        "name": "民警搭档案件",
+        "summary": "从委托、护卫、讨伐或外围区营救开始，逐步暴露侵蚀率与社会冲突。"
+      },
+      {
+        "id": "cursed-child-protection",
+        "name": "受诅之子保护线",
+        "summary": "以收容、教育和社会歧视冲突为主，适合人道主义与城市生存 RP。"
+      },
+      {
+        "id": "frontline-war",
+        "name": "前线决战 / 毕宿五线",
+        "summary": "适合大规模会战、极限防线、战损与临时同盟。"
+      },
+      {
+        "id": "tech-black-ops",
+        "name": "黑色研究与机械化计划",
+        "summary": "适合四贤者、机械化士兵、翻译装置和实验伦理剧情。"
+      }
+    ],
+    "constraints": [
+      "受诅之子和外围区贫民不是装饰性背景，应保留社会压力和资源稀缺。",
+      "高阶原肠动物不应被轻易秒杀。",
+      "源中未逐条迁移所有章节，故部分事件仅能以高层摘要运行。"
+    ],
+    "lowConfidenceGaps": [
+      "canonTimeline 为空，本扩展以章节剧情摘要补位而非伪造完整年表。",
+      "部分条目是用户/自定义扩展，如掩体抽签、回归之炎、假面骑士线，需按 optional-variant 使用。",
+      "一些条目译名、章节名和能力细节需后续核对原始 worldbook。"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "claymore",
+  "module": "factions/organization-and-threats",
+  "status": "audit-completion-2026-06-23",
+  "sourceRefs": [
+    "src-claymore-001",
+    "characters.json entryIndex 8",
+    "factions.json entryIndex 2",
+    "factions.json entryIndex 3"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/claymore/factions/factions.json",
+    "campaigns/world-library/worlds/claymore/world/world.json",
+    "campaigns/world-library/worlds/claymore/characters/characters.json",
+    "campaigns/world-library/worlds/claymore/assets/items.json"
+  ],
+  "curationPolicy": "源中混有强制叙事和成人/状态栏内容；本模块只保留 SFW 阵营结构、世界真相层级和 RP 风险。",
+  "factions": [
+    {
+      "id": "organization",
+      "name": "组织",
+      "type": "shadow-research-control",
+      "visibility": "gm-only",
+      "summary": "制造、编号和调度大剑的黑衣人组织；通过代理人、佣金、黑函和铁律维持岛上秩序。源中隐藏设定称其将岛屿作为实验场，收集妖魔与战士数据。",
+      "publicFace": "接受人类委托并派遣大剑讨伐妖魔。",
+      "hiddenAgenda": "以妖魔制造恐惧、以大剑维持控制并改良半人半妖武器；岛外世界和更高技术水平属于后期真相。",
+      "resources": [
+        "黑衣代理人",
+        "战士编号系统",
+        "黑函",
+        "训练场/总部",
+        "实验数据"
+      ],
+      "rpUse": "任务派发、铁律压力、叛逃追杀、隐藏真相揭露。",
+      "confidence": "B"
+    },
+    {
+      "id": "claymore-warriors",
+      "name": "大剑战士",
+      "type": "numbered-hybrid-warriors",
+      "visibility": "public",
+      "summary": "被植入妖魔血肉的女性战士，背负巨剑和编号，为人类讨伐妖魔却被恐惧和排斥。",
+      "publicFace": "收取佣金斩杀妖魔的银眼魔女。",
+      "hiddenRisks": [
+        "妖力释放过度会觉醒",
+        "不得杀害人类",
+        "违令会被处刑队追杀"
+      ],
+      "resources": [
+        "巨剑",
+        "妖力感知",
+        "编号等级",
+        "同伴黑函"
+      ],
+      "rpUse": "低级讨伐、同伴压力、排名差距、觉醒前请求。",
+      "confidence": "B"
+    },
+    {
+      "id": "yoma",
+      "name": "妖魔",
+      "type": "infiltrating-predators",
+      "visibility": "public",
+      "summary": "捕食人类内脏、伪装身份潜入村镇的怪物；源中描述其可吞噬宿主记忆以长期隐藏。",
+      "resources": [
+        "伪装成人类",
+        "记忆窃取",
+        "金色瞳孔/裂唇等暴露信号",
+        "恐惧扩散"
+      ],
+      "rpUse": "调查谁被替换、保护村民、处理委托金与人类排斥。",
+      "confidence": "B"
+    },
+    {
+      "id": "awakened-beings",
+      "name": "觉醒者",
+      "type": "fallen-warriors",
+      "visibility": "public",
+      "summary": "大剑越过妖力临界后的不可逆怪物形态，强度与执念远超普通妖魔。",
+      "resources": [
+        "巨大异形形态",
+        "战士残留人格",
+        "区域压迫",
+        "同伴讨伐责任"
+      ],
+      "rpUse": "悲剧转折、黑函后果、强敌或谈判对象。",
+      "confidence": "B"
+    },
+    {
+      "id": "abyssal-ones",
+      "name": "深渊者",
+      "type": "apex-awakened",
+      "visibility": "gm-only",
+      "summary": "极强觉醒者顶点。源中列出伊斯力、莉芙露、露西艾拉等过去/未来线人物，并要求按时代门控出现。",
+      "knownMembersOrExamples": [
+        "isley",
+        "riful",
+        "luciela",
+        "priscilla"
+      ],
+      "rpUse": "区域级长期压力，不宜作为普通讨伐任务；可用于战争阶段、阴谋或谈判。",
+      "confidence": "B"
+    },
+    {
+      "id": "human-settlements",
+      "name": "人类聚落",
+      "type": "civilian-clients",
+      "visibility": "public",
+      "summary": "村庄和城镇长期受妖魔威胁，需凑佣金求助组织；同时畏惧、排斥或利用大剑。",
+      "resources": [
+        "委托金",
+        "谣言",
+        "旅馆/城门",
+        "道德困境"
+      ],
+      "rpUse": "人类禁令、委托压力、盗贼和妖魔夹击、保护与被憎恨并存。",
+      "confidence": "B"
+    }
+  ],
+  "conflictRules": [
+    "组织控制大剑，大剑狩猎妖魔，但组织也制造/利用妖魔恐惧维持实验场。",
+    "人类雇佣大剑却恐惧她们；不得杀人铁律会让盗贼、人类恶意和妖魔威胁交织。",
+    "觉醒者与深渊者的出现应按时代门控，不要让未来线人物无解释穿越到 146 年初始线。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "源中隐藏设定涉及岛外世界、龙族容器和实验目的；本模块以 gm-only 标记，避免开局公开剧透。",
+    "rigaldo/里卡鲁多等深渊者归属在源与常见译名间可能冲突，未在本模块强化具体称号。"
+  ]
+}

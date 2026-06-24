@@ -1,0 +1,78 @@
+{
+  "schema": "rp-world-expansion-v1",
+  "worldId": "ikki-tousen",
+  "displayName": "一骑当千 / Ikki Tousen",
+  "curationStatus": "manual-completion-06-expanded",
+  "sourceRefs": ["src-ikki-tousen-001"],
+  "sourceFilesConsulted": [
+    "campaigns/world-library/worlds/ikki-tousen/source-registry.json",
+    "campaigns/world-library/worlds/ikki-tousen/characters/characters.json",
+    "campaigns/world-library/worlds/ikki-tousen/canon-reference/arcs.json",
+    "campaigns/world-library/worlds/ikki-tousen/factions/factions.json",
+    "world-info-library/worlds/ikki-tousen/curated/world.json",
+    "world-info-library/worlds/ikki-tousen/curated/characters-index.json"
+  ],
+  "charactersSupplement": [
+    {"id": "saji-genpou", "name": "左慈元放 / 王允子师", "role": "神秘保护者与洛阳相关干部身份线", "factions": ["nanyo-academy", "luoyang-high"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"], "notes": "源中明确标注左慈实为王允，适合作为早期谜底。"},
+    {"id": "gakushu", "name": "乐就", "role": "南阳早期斗士；废弃工厂伏击线", "factions": ["nanyo-academy"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "toutaku-chuuei", "name": "董卓仲颖", "role": "洛阳高校首领/幕后黑手；大斗士大会推动者", "factions": ["luoyang-high"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "chousen", "name": "貂蝉", "role": "董卓副手与洛阳暗线观察者", "factions": ["luoyang-high"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "chouhi-ekitoku", "name": "张飞益德", "role": "成都学园斗士；刘备与关羽的同伴", "factions": ["seito-academy"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "kakouton-genjou", "name": "夏侯惇元让", "role": "许昌阵营曹操侧核心斗士", "factions": ["xuchang-academy"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"id": "kakuka-houkou", "name": "郭嘉奉孝", "role": "许昌谋略/术式相关人物", "factions": ["xuchang-academy"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"id": "kanpei", "name": "关平", "role": "成都/关羽关联后续斗士", "factions": ["seito-academy"], "powerSystems": ["magatama", "toushi"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"id": "himiko", "name": "卑弥呼", "role": "大和/卑弥呼线关键人物；后期命运/复苏线", "factions": ["yamato-himiko-line", "kansai-faction"], "powerSystems": ["magatama", "dragon-destiny"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"id": "yagyu-mitsuyoshi", "name": "柳生三严", "role": "关西/大和线扩展斗士", "factions": ["kansai-faction"], "powerSystems": ["toushi"], "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"}
+  ],
+  "timeline": [
+    {"id": "it-tl-01", "summary": "孙策伯符转学南阳，街头初战暴露勾玉与霸王资质，吕蒙与洛阳势力开始关注。", "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "it-tl-02", "summary": "南阳内部暗流与废弃工厂伏击，孙策在劣势中出现水龙/霸王力量预兆。", "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "it-tl-03", "summary": "吕蒙试探孙策，左慈/王允介入救下孙策，董卓推动大斗士大会。", "sourceRefs": ["src-ikki-tousen-001"]},
+    {"id": "it-tl-04", "summary": "南阳、成都、许昌、洛阳围绕三国宿命、龙觉醒与霸王命运扩大战争。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"},
+    {"id": "it-tl-05", "summary": "关西与大和/卑弥呼线介入，宿命复现从关东高校扩展到更广域的斗士体系。", "sourceRefs": ["src-ikki-tousen-001"], "confidence": "B"}
+  ],
+  "plotArcs": [
+    {"id": "hakufu-arrival", "name": "霸王降临与勾玉宿命", "beats": ["转学南阳", "街头初战", "废弃工厂伏击", "吕蒙试探", "左慈介入"], "rpUse": "适合作为入门章，说明斗士、勾玉、学校势力和宿命牵引。"},
+    {"id": "great-toushi-tournament", "name": "大斗士大会", "beats": ["董卓命令", "各校斗士参战", "排名与勾玉争夺", "联盟与背叛"], "rpUse": "适合竞技战、学校外交、保护/夺取关键人物。", "confidence": "B"},
+    {"id": "dragon-awakening", "name": "龙觉醒与霸王失控", "beats": ["孙策/刘备/曹操命运共振", "暴走预兆", "同伴制止", "意志改写宿命"], "rpUse": "作为高阶战斗和角色心理转折，不应常态化。"},
+    {"id": "kansai-yamato", "name": "关西与大和/卑弥呼线", "beats": ["关西势力登场", "大和线情报", "复苏/秘术", "关东关西全面冲突"], "rpUse": "后期扩展主线；当前源信息需二次校对。", "confidence": "B"}
+  ],
+  "powerSystemsSupplement": [
+    {"id": "magatama-rank", "name": "勾玉等级与武将宿命", "rules": ["勾玉记录三国武将名号、资质与命运牵引。", "斗士等级影响常规胜负，但强烈意志、龙觉醒和剧情抉择可突破宿命。", "勾玉不等于完全人格覆盖；可出现记忆、冲动或宿命再演的阶段差异。"]},
+    {"id": "ki-and-martial-arts", "name": "气与斗士武术", "rules": ["基础战斗以近身格斗、武器术、关节技、身法和气为主。", "战斗伤害可重，但 RP 中需明确是否采用竞技、重伤、昏迷或死亡尺度。"]},
+    {"id": "dragon-awakening", "name": "龙觉醒/霸王化", "rules": ["关键斗士在极端情绪、濒死或宿命节点触发。", "觉醒提高力量但带来失控、误伤同伴或被宿命吞噬风险。", "一次场景内应设代价、终止条件和事后影响。"]},
+    {"id": "ritual-revival", "name": "术式/复苏/秘法线", "rules": ["源中关西、大和、卑弥呼等后期线涉及更高神秘度。", "在未经二次校对前应作为低频 GM 线索，不直接覆盖早期校园斗士规则。"], "confidence": "B"}
+  ],
+  "factionsSupplement": [
+    {"id": "nanyo-four-kings", "name": "南阳四天王", "summary": "南阳学院强力斗士层级，吕蒙等人负责试探、护卫或权力斗争。"},
+    {"id": "luoyang-inner-circle", "name": "洛阳董卓派", "summary": "董卓、貂蝉、王允等推动大斗士大会与暗线操控。"},
+    {"id": "seito-ryubi-guard", "name": "成都刘备护卫线", "summary": "关羽、张飞等围绕刘备龙之命运形成保护与战斗核心。"},
+    {"id": "xuchang-sosou-circle", "name": "许昌曹操派", "summary": "曹操及其干部组成的强权阵营，常作为霸王/魔王宿命对照。", "confidence": "B"}
+  ],
+  "locationsSupplement": [
+    {"id": "kanto-streets", "name": "关东街头", "use": "初战、伏击、校际斗争与低等级斗士冲突。"},
+    {"id": "abandoned-factory", "name": "废弃工厂", "use": "南阳伏击、底层斗士争夺勾玉的典型场景。"},
+    {"id": "nanyo-rooftop", "name": "南阳高校天台", "use": "吕蒙试探孙策与高风险单挑场景。"},
+    {"id": "luoyang-command-room", "name": "洛阳指挥点", "use": "董卓颁布大会命令、暗线观察和反派会议。"}
+  ],
+  "relationshipsSupplement": [
+    {"from": "sonsaku-hakufu", "to": "shuyu-koukin", "relation": "cousin-guardian", "summary": "周瑜是孙策的表兄和早期保护者，常在实力不足时承担支援。"},
+    {"from": "sonsaku-hakufu", "to": "ryomou-shimei", "relation": "tested-by-ally", "summary": "吕蒙早期以严厉方式确认孙策是否配承载霸王名号，后可转为可靠战友。"},
+    {"from": "saji-genpou", "to": "sonsaku-hakufu", "relation": "secret-protector", "summary": "左慈/王允身份线适合做救场、情报和谜底。"},
+    {"from": "toutaku-chuuei", "to": "kanto-schools", "relation": "manipulates-conflict", "summary": "通过大斗士大会煽动关东斗士互相厮杀。"},
+    {"from": "ryubi-gentoku", "to": "kanu-unchou", "relation": "protected-by", "summary": "成都阵营的忠诚与龙暴走约束核心。"},
+    {"from": "sonsaku-hakufu", "to": "sosou-moutoku", "relation": "rival-destiny", "summary": "霸王/魔王宿命对照，可能竞争也可能临时联盟。", "confidence": "B"}
+  ],
+  "rpNotes": [
+    "先确定时间点：早期南阳入学、大斗士大会、三校争霸、关西/大和后期。不同阶段生死与阵营状态强相关。",
+    "斗士战以武术、气和勾玉为核心；福利/战损原源存在，但 curated RP notes 保持安全表述，按当前 RP 尺度另行设定。",
+    "OC 可以是转学生、流浪斗士、学校干部、医疗/情报人员等，但不要强迫其替孙策完成专属命运节点。",
+    "龙觉醒和宿命暴走应作为高阶事件，触发前给出预兆和同伴干预机会。",
+    "三国名号提供命运压力而不是绝对剧本；核心主题是能否改写既定宿命。"
+  ],
+  "pending": [
+    "外传人物、献帝/玉玺线、幻影复苏线和关西/大和线仍需按源条目逐章校对。",
+    "许昌与洛阳人物的生死、真实身份和阵营反转需按具体卷/章标注。",
+    "既有 knowledge-graph 中部分 id 使用 nanyo/seito/kyosho/rakuyo，world.json 使用 nanyo-academy/seito-academy/xuchang-academy/luoyang-high；后续可统一 canonical id。"
+  ]
+}

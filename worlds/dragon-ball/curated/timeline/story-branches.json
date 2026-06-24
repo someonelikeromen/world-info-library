@@ -1,0 +1,279 @@
+{
+  "schema": "rp-curated-extension-v1",
+  "worldId": "dragon-ball",
+  "module": "timeline/story-branches",
+  "status": "retry-dragon-ball-2026-06-24",
+  "sourceRefs": [
+    "src-dragon-ball-001"
+  ],
+  "consultedLocalArchivePaths": [
+    "campaigns/world-library/worlds/dragon-ball/canon-reference/timeline.json"
+  ],
+  "curationPolicy": "源时间线条目为“多选一”分支；本模块不把 GT、超、剧场版异闻强行并入同一主线，跑团前必须锁定 branchSet 与 cutoffDate。",
+  "branchSets": [
+    {
+      "id": "main-db-to-z",
+      "name": "第一部至 Z 主干",
+      "sourceEntryIndexes": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "defaultUse": "recommended-mainline",
+      "coverage": "749年悟空与布尔玛相遇至 784年第28届天下第一武道会/欧布传承。",
+      "branchRule": "可包含源中标注的剧场版异闻作为支线，但默认不要把异闻事件当作主线必然发生。"
+    },
+    {
+      "id": "gt-branch",
+      "name": "GT 分支",
+      "sourceEntryIndexes": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "defaultUse": "optional-branch",
+      "coverage": "789年黑星龙珠宇宙冒险、贝比、超级17号、邪恶龙至龙珠离去。",
+      "branchRule": "与超分支存在时代和设定取舍冲突；仅在明确选择 GT 时启用。"
+    },
+    {
+      "id": "super-branch",
+      "name": "超 分支",
+      "sourceEntryIndexes": [
+        17,
+        18,
+        19
+      ],
+      "defaultUse": "optional-branch",
+      "coverage": "破坏神比鲁斯、复活的弗利萨、第六宇宙、未来黑悟空、力量大会、新布罗利、超级英雄。",
+      "branchRule": "启用神之气、破坏神/天使体系与多宇宙规则；不要同时默认启用 GT 超4/黑星龙珠后续。"
+    }
+  ],
+  "eras": [
+    {
+      "id": "db-beginning-pilaf-red-ribbon",
+      "name": "第一部上：寻珠、龟仙流、红缎带",
+      "sourceEntryIndex": 7,
+      "dateRange": "749年9月1日-750年6月2日起",
+      "anchorEvents": [
+        "冒险启航",
+        "皮拉夫的野心",
+        "龟仙流拜师",
+        "第二十一届武道会",
+        "红缎带军团初临",
+        "卡林塔的超圣水",
+        "覆灭红缎带总部",
+        "占卜婆婆的五战士"
+      ],
+      "rpEntryPoints": [
+        "新队伍加入寻珠旅程或争夺四星珠。",
+        "红缎带残部、桃白白或地方军团残党制造支线。",
+        "龟仙流初训、天下第一武道会和卡林塔试炼作为低战力成长线。"
+      ],
+      "branchNotes": [
+        "源条目含《神龙传说》《魔神城内的睡美人》《摩诃不可思议大冒险》等剧场版异闻；默认标为 optional-movie-side-events。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "db-tien-king-piccolo-23rd-tournament",
+      "name": "第一部下：天津饭、比克大魔王、神殿修行",
+      "sourceEntryIndex": 8,
+      "dateRange": "753年4月15日-756年5月10日起",
+      "anchorEvents": [
+        "第二十二届武道会",
+        "大魔王的恐怖降临",
+        "超神水与最终反击",
+        "天界复苏与神殿修行",
+        "第二十三届武道会",
+        "烈火中的婚礼"
+      ],
+      "rpEntryPoints": [
+        "鹤仙流、天津饭和龟仙流的门派冲突。",
+        "比克大魔王复苏或魔族残党支线。",
+        "神殿修行与魔封波/神龙复原任务。"
+      ],
+      "branchNotes": [
+        "源条目为 disabled 多选一；启用时需确认是否接续第一部上。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "z-saiyan-arc",
+      "name": "Z：赛亚人篇",
+      "sourceEntryIndex": 9,
+      "dateRange": "761年9月1日-762年11月20日起",
+      "anchorEvents": [
+        "拉蒂兹降临",
+        "悟空之死",
+        "悟饭荒野生存",
+        "界王星特训",
+        "赛亚人抵达地球",
+        "比克战死与龙珠消失",
+        "界王拳对决贝吉塔",
+        "巨猿化与元气弹"
+      ],
+      "rpEntryPoints": [
+        "地球战士一年备战。",
+        "赛亚人入侵战役的支援、疏散或分歧。",
+        "贝吉塔被放走后的追踪、救治或改写分支。"
+      ],
+      "branchNotes": [
+        "源条目含卡利克二世、威洛博士、达列斯等剧场版异闻；默认不视为主线必经。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "z-namek-frieza-arc",
+      "name": "Z：那美克星/弗利萨篇",
+      "sourceEntryIndex": 10,
+      "dateRange": "762年11月20日-763年9月3日起",
+      "anchorEvents": [
+        "前往那美克星",
+        "弗利萨军团屠村夺珠",
+        "大长老引出潜能",
+        "基纽特战队登场",
+        "波伦加与比克复活",
+        "弗利萨多阶段变身",
+        "超级赛亚人觉醒",
+        "那美克星毁灭"
+      ],
+      "rpEntryPoints": [
+        "三方夺珠潜入与外交：地球小队、贝吉塔、弗利萨军。",
+        "那美克村落保护、龙珠语言与大长老潜力仪式。",
+        "弗利萨最终战的撤离、复活愿望和星球倒计时。"
+      ],
+      "branchNotes": [
+        "源条目含史拉格和魔凶星等异闻；与主线日期相邻但需单独开关。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "z-android-cell-arc",
+      "name": "Z：人造人/沙鲁篇",
+      "sourceEntryIndex": 11,
+      "dateRange": "764年8月14日-767年9月2日起",
+      "anchorEvents": [
+        "未来特兰克斯预言",
+        "人造人19号/20号袭击",
+        "17号与18号登场",
+        "神与比克同化",
+        "沙鲁初现",
+        "精神时光屋修行",
+        "完全体沙鲁诞生",
+        "沙鲁游戏",
+        "超2悟饭觉醒",
+        "父子龟派气功"
+      ],
+      "rpEntryPoints": [
+        "三年备战和时间旅行情报差。",
+        "盖洛博士研究室调查、16/17/18号唤醒分歧。",
+        "沙鲁吸收路线、精神时光屋训练、沙鲁游戏擂台支线。"
+      ],
+      "branchNotes": [
+        "源条目含古拉、超级13号、布罗利、金属古拉、波杰克等剧场版异闻，建议作为 optional-movie-side-events。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "z-majin-buu-arc",
+      "name": "Z：魔人布欧篇",
+      "sourceEntryIndex": 12,
+      "dateRange": "774年4月15日-784年5月8日起",
+      "anchorEvents": [
+        "和平七年与赛亚蒙面超人",
+        "第二十五届武道会",
+        "巴比迪阴谋",
+        "魔人贝吉塔",
+        "超级赛亚人3",
+        "悟天克斯与精神时光屋",
+        "神秘悟饭",
+        "贝吉特",
+        "小布欧毁灭地球",
+        "超级元气弹",
+        "欧布传承"
+      ],
+      "rpEntryPoints": [
+        "高中/武道会日常被巴比迪行动打断。",
+        "合体术训练、界王神界潜力解放或巴特拉合体。",
+        "布欧分裂/吸收带来的敌我形态切换。"
+      ],
+      "branchNotes": [
+        "源条目含布罗利、生化布罗利、邪念波、龙拳等剧场版异闻；默认不并入主线。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "gt-black-star-baby-super17-shadow-dragons",
+      "name": "GT：黑星龙珠至邪恶龙",
+      "sourceEntryIndexes": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "dateRange": "789年5月1日-后续沙盒",
+      "anchorEvents": [
+        "黑星龙珠让悟空变小",
+        "宇宙寻珠",
+        "M2机械行星与贝比胚胎",
+        "贝比寄生贝吉塔",
+        "超4降临",
+        "超级17号",
+        "邪恶龙诞生",
+        "神龙离去"
+      ],
+      "rpEntryPoints": [
+        "宇宙旅行寻珠与黑星龙珠倒计时。",
+        "贝比寄生/洗脑渗透与新兹夫尔星。",
+        "龙珠负向能源导致邪恶龙逐个登场。"
+      ],
+      "branchNotes": [
+        "GT 与超默认互斥；若启用超4、黑星龙珠和邪恶龙，应关闭超分支默认神之气主线。"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "super-god-frieza-u6-future-tournament-broly-hero",
+      "name": "超：神与多宇宙分支",
+      "sourceEntryIndexes": [
+        17,
+        18,
+        19
+      ],
+      "dateRange": "778年-后续沙盒",
+      "anchorEvents": [
+        "破坏神比鲁斯",
+        "超级赛亚人之神",
+        "黄金弗利萨",
+        "第六宇宙大会",
+        "黑悟空/未来危机",
+        "力量大会",
+        "自在极意功",
+        "新布罗利",
+        "红缎带超级英雄"
+      ],
+      "rpEntryPoints": [
+        "破坏神/天使以美食、训练或宇宙平衡介入。",
+        "多宇宙擂台赛、跨宇宙赛亚人和全王抹消风险。",
+        "红缎带残党和超级英雄线接回地球局部危机。"
+      ],
+      "branchNotes": [
+        "源条目为 disabled 多选一；启用需同步神之气、破坏神形态、自在极意功等高阶系统。"
+      ],
+      "confidence": "B"
+    }
+  ],
+  "continuityRules": [
+    "每次开局先选择 branchSet：main-db-to-z、gt-branch 或 super-branch；不要默认把所有分支同时发生。",
+    "剧场版异闻可作为支线事件、平行世界或一次性剧场 Boss；若启用，必须在 curation-notes/session notes 标记。",
+    "龙珠复活、时间旅行、合体和神之气会改变战役结构；进入对应时代前需确认这些资源是否可用。"
+  ],
+  "lowConfidenceAndConflictNotes": [
+    "本模块只根据本地源 `timeline.json` 的条目标题与摘要归纳，不补入外部百科细节。",
+    "源可靠度为 B 且含大量 disabled 多选一条目；默认只把第一部上作为已启用源，其余为可选分支。"
+  ]
+}

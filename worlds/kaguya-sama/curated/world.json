@@ -2,34 +2,44 @@
   "schema": "rp-world-v1",
   "worldId": "kaguya-sama",
   "worldName": "辉夜大小姐想让我告白",
+  "displayName": "辉夜大小姐想让我告白",
   "aliases": [
-    "Kaguya-sama"
+    "Kaguya-sama",
+    "Kaguya-sama: Love Is War"
   ],
   "genre": [
     "校园恋爱喜剧",
     "心理博弈",
     "学园日常"
   ],
-  "summary": "秀知院学园学生会内，四宫辉夜与白银御行以‘谁先告白谁就输’的恋爱头脑战互相试探；周围同伴与财阀背景将轻喜剧与门第差距交织。",
+  "sourceRefs": [
+    "src-kaguya-sama-001"
+  ],
+  "curationStatus": "manual-expanded-retry-07",
+  "summary": "秀知院学园学生会内，四宫辉夜与白银御行以‘谁先告白谁就输’的恋爱头脑战互相试探；学生会同伴、家族门第、升学选择和文化祭事件把轻喜剧日常推向更明确的告白与成长线。",
   "sandboxPrinciple": {
-    "summary": "不固定恋爱胜负；可走告白、误会、会长选举、学生会日常或后续人生路线。",
-    "notes": []
+    "summary": "不固定恋爱胜负；可走告白前头脑战、文化祭前后分歧、学生会连任、家族压力、石上/伊井野成长或后续人生路线。",
+    "notes": [
+      "保留喜剧误会和心理战节奏，不把后期婚恋走向写成初始事实。",
+      "玩家介入可改变告白时机，但不应自动解除家族、留学与自尊问题。"
+    ]
   },
   "hasFixedFate": false,
   "foreignPowerSuppressionDefault": {
     "enabled": false,
-    "summary": "",
+    "summary": "非战斗现代校园世界，外来超常能力会显著破坏题材；默认不启用压制，但 GM 应限制其对社交谜题的直接解法。",
     "notes": []
   },
   "notes": [
-    "非超自然世界，核心为社交、学园与心理攻防。"
+    "非超自然世界，核心为社交、学园与心理攻防。",
+    "源时间线包含多季细节，curated 只抽取 RP 锚点。"
   ],
   "powerSystems": [
     {
       "id": "kaguya-social-battle",
       "name": "恋爱头脑战",
       "category": "social-strategy",
-      "principle": "通过言行、情报、诱导、误会和心理压迫争取对话主导权。",
+      "principle": "通过言行、情报、诱导、误会和心理压迫争取对话主导权，使对方先暴露好感或主动告白。",
       "classification": [
         "Social",
         "Strategy",
@@ -39,21 +49,41 @@
       "hasExternalEnergy": false,
       "externalEnergyName": "",
       "energyTraits": [],
-      "levelMapping": [],
+      "levelMapping": [
+        {
+          "level": "daily",
+          "description": "日常对话、社团活动和小型误会。"
+        },
+        {
+          "level": "operation",
+          "description": "提前布置情报、拉同伴入局、设计约会或活动流程。"
+        },
+        {
+          "level": "crisis",
+          "description": "升学、家族、告白和公开场合导致无法轻易撤退。"
+        }
+      ],
       "commonResources": [
         "学生会职权",
         "情报差",
-        "面子"
+        "面子",
+        "同伴误读",
+        "家族资源"
       ],
       "commonAbilities": [
         "心理战",
         "社交操盘",
-        "误会制造/解除"
+        "误会制造/解除",
+        "表情管理",
+        "借活动制造二人空间"
       ],
       "limitations": [
-        "不依靠超常战力，情报错误会反噬。"
+        "不依靠超常战力，情报错误会反噬。",
+        "过度算计会伤害信任并触发喜剧性失败。"
       ],
-      "compatibilityNotes": []
+      "compatibilityNotes": [
+        "适合把冲突写成选择、台词和场面调度，而非数值对抗。"
+      ]
     }
   ],
   "factions": [
@@ -61,15 +91,17 @@
       "id": "shuchiin-council",
       "name": "秀知院学生会",
       "type": "school-body",
-      "summary": "以白银御行为会长的学生会团队。",
+      "summary": "以白银御行为会长的学生会团队，也是恋爱头脑战和日常事件的主要舞台。",
       "powerSystemAffinity": [
         "kaguya-social-battle"
       ],
       "publicRules": [
-        "会议、活动与职务协作"
+        "会议、活动与职务协作",
+        "对外维持精英学生会形象"
       ],
       "hiddenRules": [
-        "恋爱攻防长期占据内部议程"
+        "恋爱攻防长期占据内部议程",
+        "成员彼此的好意常被误读或掩饰"
       ],
       "attitudeToOutsiders": "polite",
       "knownMembers": [
@@ -80,15 +112,53 @@
         "iino"
       ],
       "territories": [
-        "shuchiin-school"
+        "shuchiin-school",
+        "council-room"
       ],
       "resources": [
         "学园资源",
         "宣传",
-        "社交网络"
+        "社交网络",
+        "活动筹备权"
       ],
       "conflicts": [
-        "family-pressure"
+        "family-pressure",
+        "confession-war"
+      ]
+    },
+    {
+      "id": "shinomiya-family",
+      "name": "四宫家",
+      "type": "zaibatsu-family",
+      "summary": "辉夜背后的名门财阀压力源，决定门第、教育和行动自由的边界。",
+      "knownMembers": [
+        "kaguya",
+        "hayasaka"
+      ],
+      "conflicts": [
+        "family-pressure",
+        "hayasaka-autonomy"
+      ]
+    },
+    {
+      "id": "shirogane-household",
+      "name": "白银家",
+      "type": "ordinary-family",
+      "summary": "家境压力与努力型自尊的来源；与四宫家的阶层差形成主线张力。",
+      "knownMembers": [
+        "shirogane"
+      ],
+      "conflicts": [
+        "class-gap"
+      ]
+    },
+    {
+      "id": "fujiwara-family",
+      "name": "藤原家",
+      "type": "political-family",
+      "summary": "千花及其家族带来政治家教、奔放性格与高压家教的喜剧/支线资源。",
+      "knownMembers": [
+        "chika"
       ]
     }
   ],
@@ -99,26 +169,173 @@
   },
   "worldRules": {
     "publicLaws": [
-      "现代日本学园制度"
+      "现代日本学园制度",
+      "秀知院内部的精英社交礼仪"
     ],
     "supernaturalRules": [],
     "taboos": [
-      "在高傲或自尊受损时正面告白"
+      "在高傲或自尊受损时正面告白",
+      "当众破坏学生会或家族体面"
     ],
-    "knownExceptions": []
+    "knownExceptions": [
+      "文化祭、生日、观星等高情绪场景可短暂突破自尊防线。"
+    ]
   },
   "locations": [
     {
       "id": "shuchiin-school",
       "name": "秀知院学园",
       "type": "elite-school",
-      "summary": "主舞台。"
+      "summary": "主舞台，精英制度与校园日常并存。"
     },
     {
       "id": "council-room",
       "name": "学生会活动室",
       "type": "social-stage",
-      "summary": "恋爱头脑战最常发生的地点。"
+      "summary": "恋爱头脑战最常发生的地点，适合会议、茶点、误会和二人独处。"
+    },
+    {
+      "id": "school-rooftop",
+      "name": "秀知院学园屋顶",
+      "type": "emotional-stage",
+      "summary": "观星、独处和高情绪对话场景；源时间线中与白银真诚表达相关。"
+    },
+    {
+      "id": "culture-festival-clocktower",
+      "name": "奉心祭钟楼/屋顶",
+      "type": "climax-stage",
+      "summary": "文化祭告白计划与心形气球事件的高潮地点。"
+    },
+    {
+      "id": "shinomiya-residence",
+      "name": "四宫家宅邸",
+      "type": "family-pressure-stage",
+      "summary": "家族规训、早坂任务和辉夜私人情绪的场景。"
+    },
+    {
+      "id": "station-district",
+      "name": "站前商业街/KTV",
+      "type": "urban-daily-stage",
+      "summary": "联谊、购物、偶遇和校外误会适用。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "council-daily-war",
+      "title": "学生会日常与告白战争",
+      "phase": "open",
+      "summary": "辉夜与白银在活动室内持续互相设计告白局，千花、石上、伊井野等人不断打乱或推进局势。",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "birthday-and-phone",
+      "title": "生日、手机与私人距离",
+      "phase": "mid",
+      "summary": "生日礼物、LINE/智能手机、购物和电话事件让两人的私人距离缩短，也放大自尊和误会。",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "council-election-transition",
+      "title": "学生会解散与连任",
+      "phase": "transition",
+      "summary": "学生会任期结束、称呼变化和连任选择构成关系转折；白银的努力负荷成为可见问题。",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "culture-festival-confession",
+      "title": "奉心祭与双告白",
+      "phase": "climax",
+      "summary": "文化祭筹备、心形赠礼、怪盗亚森计划、斯坦福留学宣言和钟楼气球把恋爱头脑战推向告白高潮。",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "post-confession-sandbox",
+      "title": "告白后沙盒",
+      "phase": "sandbox",
+      "summary": "可从文化祭后继续处理家族、留学、同伴成长和未解决支线；不预设唯一结局。",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "confession-war",
+      "name": "谁先告白谁就输",
+      "summary": "辉夜与白银互相诱导对方先告白，胜负往往被意外、千花或自我误读打乱。",
+      "stakes": [
+        "面子",
+        "对等关系",
+        "真实好感暴露"
+      ]
+    },
+    {
+      "id": "family-pressure",
+      "name": "门第与家庭压力",
+      "summary": "四宫家、白银家和藤原家等背景让恋爱与升学问题不只是学生会喜剧。",
+      "stakes": [
+        "自由选择",
+        "阶层差",
+        "家族体面"
+      ]
+    },
+    {
+      "id": "ishigami-growth",
+      "name": "石上优的复归",
+      "summary": "石上从误解和自我封闭中恢复，适合校园支线、文化祭和伊井野张力。",
+      "stakes": [
+        "信任",
+        "青春再起",
+        "被误解的善意"
+      ]
+    },
+    {
+      "id": "hayasaka-autonomy",
+      "name": "早坂爱的自主性",
+      "summary": "早坂在侍从任务、伪装身份和少女友谊之间寻求喘息空间。",
+      "stakes": [
+        "忠诚",
+        "秘密",
+        "自我选择"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "shirogane",
+      "to": "kaguya",
+      "type": "mutual-love-rivalry",
+      "publicSummary": "彼此竞争谁先告白。",
+      "gmNotes": "双方已动情；自尊、阶层差与留学计划会阻碍直接表白。"
+    },
+    {
+      "from": "kaguya",
+      "to": "hayasaka",
+      "type": "mistress-servant-friends",
+      "publicSummary": "主从与亲密友人并存。",
+      "gmNotes": "早坂的任务压力和自主性适合独立支线。"
+    },
+    {
+      "from": "ishigami",
+      "to": "iino",
+      "type": "rivalry-growth-tension",
+      "publicSummary": "两人意见不合却频繁交集。",
+      "gmNotes": "可发展为互相理解的成长线，不预设进度。"
+    },
+    {
+      "from": "chika",
+      "to": "shuchiin-council",
+      "type": "chaos-catalyst",
+      "publicSummary": "千花常以游戏、训练或突发行动打乱局面。",
+      "gmNotes": "适合制造喜剧反转，但不要让她永久解决核心矛盾。"
     }
   ],
   "publicEvents": [
@@ -126,6 +343,11 @@
       "id": "student-council-daily",
       "name": "学生会日常",
       "summary": "会议、考试、文化祭与各种误会组成主线。"
+    },
+    {
+      "id": "culture-festival-public",
+      "name": "奉心祭",
+      "summary": "校园公开活动，适合把私密情感放进公开舞台。"
     }
   ],
   "hiddenEvents": [
@@ -133,6 +355,173 @@
       "id": "confession-threat",
       "name": "告白与身份压力",
       "summary": "家世、面子与自尊构成真正障碍。"
+    },
+    {
+      "id": "stanford-plan",
+      "name": "海外升学计划",
+      "summary": "白银的留学规划会压缩告白和关系确认的时间窗口。"
     }
+  ],
+  "rpNotes": [
+    "每个社交局都应给出至少一个误判点、一个退路和一个反转触发器。",
+    "喜剧失败不等于关系倒退；失败可暴露真实好感或推动同伴介入。",
+    "低置信/未验证：后期婚恋走向、番外/同人梗、源内原创角色不作为初始事实。",
+    "资料丰富但分散在时间线条目中；curated 未逐事件搬运所有日期。"
+  ],
+  "characters": [
+    {
+      "id": "shirogane",
+      "name": "白银御行",
+      "role": "学生会长/努力型天才",
+      "rpUse": "自尊、贫富差、留学计划和纯情反应的核心推动者",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "kaguya",
+      "name": "四宫辉夜",
+      "role": "副会长/财阀千金",
+      "rpUse": "恋爱头脑战、家族压力和私人情绪反差的核心",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "chika",
+      "name": "藤原千花",
+      "role": "学生会书记/混沌催化剂",
+      "rpUse": "用游戏、训练、误读打乱局面并制造喜剧反转",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "ishigami",
+      "name": "石上优",
+      "role": "会计/阴郁正义少年",
+      "rpUse": "误解、复归、文化祭和成长支线",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "iino",
+      "name": "伊井野弥子",
+      "role": "风纪委员/学生会成员",
+      "rpUse": "规则意识、石上张力和学生会秩序冲突",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    },
+    {
+      "id": "hayasaka",
+      "name": "早坂爱",
+      "role": "侍从/伪装专家",
+      "rpUse": "辉夜秘密支援、自主性和四宫家压力支线",
+      "sourceRefs": [
+        "src-kaguya-sama-001"
+      ]
+    }
+  ],
+  "itemsArtifacts": [
+    {
+      "id": "smartphone-line",
+      "name": "智能手机/LINE",
+      "type": "social-tool",
+      "summary": "推动辉夜与白银私人联系、误会和即时情绪反应。"
+    },
+    {
+      "id": "heart-balloon-plan",
+      "name": "心形气球/怪盗计划",
+      "type": "confession-stage-prop",
+      "summary": "奉心祭高潮的告白装置和视觉锚点。"
+    },
+    {
+      "id": "birthday-fan",
+      "name": "生日折扇",
+      "type": "gift",
+      "summary": "辉夜送给白银的生日礼物，适合触发暧昧和追问。"
+    }
+  ],
+  "culturePolitics": {
+    "summary": "秀知院精英文化强调体面、家世、成绩和社交礼仪；四宫家财阀、藤原家政治背景与白银家普通经济压力构成隐性阶层政治。",
+    "rpUse": [
+      "公开场合要顾及面子",
+      "家族压力常通过日程、护卫、升学和交友边界表现",
+      "普通恋爱行为会被精英礼仪放大为事件"
+    ]
+  },
+  "toneStyleGuide": {
+    "keywords": [
+      "轻喜剧",
+      "心理旁白",
+      "夸张推理",
+      "误会反转",
+      "青春甜酸"
+    ],
+    "do": [
+      "把小事件写成头脑战",
+      "让台词与内心判断形成反差",
+      "保留失败后的关系推进"
+    ],
+    "avoid": [
+      "把恋爱战写成真实恶意操控",
+      "无铺垫固定婚恋结局",
+      "用超自然能力解决社交谜题"
+    ]
+  },
+  "rpScenarios": [
+    {
+      "id": "council-room-trap",
+      "title": "学生会活动室二人局",
+      "hook": "其他成员临时离开，双方都想让对方先开口。"
+    },
+    {
+      "id": "festival-divergence",
+      "title": "奉心祭分歧",
+      "hook": "怪盗计划被玩家提前发现或打乱，告白时机改变。"
+    },
+    {
+      "id": "family-interference",
+      "title": "四宫家干涉",
+      "hook": "家族日程或护卫安排打断学生会计划。"
+    }
+  ],
+  "canonDivergence": {
+    "safeDivergences": [
+      "改变某次告白局胜负",
+      "让玩家协助或破坏文化祭计划",
+      "提前揭露留学压力"
+    ],
+    "highImpactDivergences": [
+      "公开挑战四宫家安排",
+      "让白银放弃或改变海外计划",
+      "让辉夜提前摊牌家族压力"
+    ],
+    "guardrails": [
+      "不默认删除阶层差",
+      "不把误会永久化成恶意"
+    ]
+  },
+  "sourceIndex": {
+    "readNotes": [
+      "campaigns/world-library/worlds/kaguya-sama/curation-notes.md",
+      "campaigns/world-library/worlds/kaguya-sama/source-registry.json",
+      "campaigns/world-library/worlds/kaguya-sama/curated/README.md",
+      "campaigns/world-library/worlds/kaguya-sama/curated/curation-notes.md",
+      "world-info-library/worlds/kaguya-sama/curated/README.md",
+      "world-info-library/worlds/kaguya-sama/curated/source-registry.json"
+    ],
+    "rawMaterials": [
+      "campaigns/world-library/worlds/kaguya-sama/raw/imported-worldbooks/hydxj_card.worldbook.json",
+      "campaigns/world-library/worlds/kaguya-sama/raw/original-entry-index.json"
+    ],
+    "longFormStatus": "未发现独立小说原文、游戏原文或剧本长文；主要为导入世界书条目。"
+  },
+  "openQuestions": [
+    "是否需要把分季时间线逐事件拆为 chronology/episode-guide？",
+    "源内原创/同人化角色是否应进入独立非 canon 索引？",
+    "文化祭之后的关系进度应按哪个起点供 RP 选择？"
   ]
 }

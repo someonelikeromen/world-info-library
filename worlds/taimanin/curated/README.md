@@ -13,3 +13,8 @@
 
 ## RP 使用
 适合五车学园训练、魔界裂隙调查、潜入任务、家族忍法传承、魔族追踪、失踪对魔忍救援等剧情。源内成人化控制文本、状态栏和玩家怪物设定未纳入 curated。
+
+## retry-13 completion expansion
+- 新增 `completion-expansion.json`，补全人物覆盖、势力、时间线、篇章、能力体系、关系补充和 RP notes。
+- 来源标注为 `user-file-source / adult-game-derived-worldbook`，可信度 B；成人化/改写内容只作为风险边界记录，不纳入可用正文。
+- 仍缺官方向完整时间线、黄泉原势力细分和魔族种类层级。

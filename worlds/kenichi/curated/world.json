@@ -1,110 +1,654 @@
 {
   "schema": "rp-world-v1",
   "worldId": "kenichi",
+  "worldName": "史上最强弟子兼一",
   "displayName": "史上最强弟子兼一",
-  "curationStatus": "manual-initial",
+  "aliases": [
+    "History's Strongest Disciple Kenichi"
+  ],
+  "genre": [
+    "现代武术",
+    "热血修行",
+    "校园不良",
+    "武道理念冲突"
+  ],
+  "curationStatus": "manual-expanded-retry-07",
   "sourceRefs": [
     "src-kenichi-001"
   ],
-  "summary": "现代武术世界，表面社会下存在武术达人、弟子组织与暗之武术集团。战斗以人体训练、流派技法、杀人拳/活人拳理念冲突为核心。",
+  "summary": "现代社会暗面存在达人、弟子组织与暗之武术集团。白滨兼一在梁山泊接受地狱式训练，从校园不良冲突进入新白联合、诸神黄昏、YOMI 与暗的多阶段武术战争；核心冲突是活人拳与杀人拳的理念、训练强度和实战觉悟。",
+  "sandboxPrinciple": {
+    "summary": "允许原创弟子、道场、流派与分歧事件介入，但需维持弟子级、妙手级、达人级的阶层差。",
+    "notes": [
+      "达人直接代打会压扁弟子级剧情，应作为威慑、训练或幕后交锋。",
+      "原创剧情可在任意原作节点分歧，结束后按影响大小回归或生成变异锚点。"
+    ]
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": true,
+    "summary": "外来超能力默认被武道世界的体术、距离、气势和经验框架重解释；若保留原能力，需限制其不能无视达人阶层。",
+    "notes": [
+      "枪械和武器仍危险，但不是替代修行的万能解。"
+    ]
+  },
   "powerSystems": [
     {
       "id": "martial-arts",
       "name": "武术/达人体系",
+      "category": "body-training",
       "rules": [
-        "力量来自长期训练、技巧、经验和精神",
-        "弟子、妙手、达人等级差距明显",
-        "多流派兼修可提高适应性但训练负荷极大"
+        "力量来自长期训练、技巧、经验、身体条件和精神觉悟。",
+        "弟子、妙手、达人等级差距明显；跨级胜利需地形、情报、相性或牺牲。",
+        "多流派兼修可提高适应性但训练负荷极大。",
+        "同一招式在不同阶层表现差异巨大：弟子是技术，达人是压倒性战场控制。"
+      ],
+      "levels": [
+        {
+          "id": "ordinary",
+          "name": "普通人/不良",
+          "description": "可被训练有素的弟子迅速压制，人数和武器仍可造成风险。"
+        },
+        {
+          "id": "disciple",
+          "name": "弟子级",
+          "description": "主线战斗层级，依靠流派技、毅力和临场成长取胜。"
+        },
+        {
+          "id": "expert",
+          "name": "妙手级",
+          "description": "介于弟子与达人之间，可作为强敌、教官或小组织首领。"
+        },
+        {
+          "id": "master",
+          "name": "达人级",
+          "description": "战斗规则近乎改写场面，不宜频繁下场解决弟子问题。"
+        },
+        {
+          "id": "legend",
+          "name": "传奇/无敌级",
+          "description": "风林寺隼人等压倒性存在，主要承担世界边界和威慑功能。"
+        }
       ]
     },
     {
       "id": "killing-fist",
       "name": "杀人拳",
+      "category": "ideology-combat",
       "rules": [
-        "以击杀和压制为目标，常使用武器、暗杀、致残技",
-        "心理威压与实战经验是重要部分"
+        "以击杀、致残和压制为目标，常使用武器、暗杀、心理威压与实战经验。",
+        "胜负标准是消灭威胁而非保护对手，容易诱发复仇和势力升级。",
+        "暗与 YOMI 是主要承载势力。"
       ]
     },
     {
       "id": "saving-fist",
       "name": "活人拳",
+      "category": "ideology-combat",
       "rules": [
-        "以制止暴力和保护为目标，强调不杀与人格成长",
-        "防御、投技、关节、气势控制可越级拖延"
+        "以制止暴力和保护为目标，强调不杀、人格成长与承担后果。",
+        "防御、投技、关节、气势控制和救人选择可在弱势时拖延或逆转。",
+        "梁山泊是核心象征，但并非所有盟友都完全理解其代价。"
       ]
     },
     {
       "id": "strategy",
-      "name": "情报/策略"
+      "name": "情报/策略",
+      "category": "social-tactical",
+      "rules": [
+        "新岛式情报、威吓、宣传和战场安排可改变弟子级战斗环境。",
+        "策略不能替代硬实力，但能制造单挑、撤退、支援和名望优势。"
+      ]
     }
   ],
   "factions": [
     {
       "id": "ryozanpaku",
-      "name": "梁山泊"
+      "name": "梁山泊",
+      "type": "dojo",
+      "summary": "活人拳达人聚集地，兼一的训练场和庇护所。",
+      "powerSystemAffinity": [
+        "martial-arts",
+        "saving-fist"
+      ],
+      "knownMembers": [
+        "kenichi-shirahama",
+        "miu-furinji",
+        "hayato-furinji",
+        "shigure-kosaka"
+      ],
+      "territories": [
+        "ryozanpaku-dojo"
+      ],
+      "conflicts": [
+        "yami-war",
+        "disciple-training"
+      ]
     },
     {
       "id": "shin-white-union",
-      "name": "新白联合"
+      "name": "新白联合",
+      "type": "disciple-alliance",
+      "summary": "由新岛春男组织的不良与同伴联盟，承担校园和街头层面的支援、情报和防卫。",
+      "powerSystemAffinity": [
+        "strategy",
+        "martial-arts"
+      ],
+      "knownMembers": [
+        "nijima-haruo",
+        "kenichi-shirahama"
+      ],
+      "conflicts": [
+        "ragnarok-conflict",
+        "yomi-attacks"
+      ]
     },
     {
-      "id": "dark",
-      "name": "暗"
+      "id": "ragnarok",
+      "name": "诸神黄昏",
+      "type": "delinquent-martial-group",
+      "summary": "前期弟子级强敌组织，由拳豪体系统治校园街头。",
+      "powerSystemAffinity": [
+        "martial-arts"
+      ],
+      "conflicts": [
+        "ragnarok-conflict"
+      ]
+    },
+    {
+      "id": "yami",
+      "name": "暗",
+      "type": "secret-martial-organization",
+      "summary": "杀人拳集合体，潜伏于世界之影，拥有达人和弟子分支。",
+      "powerSystemAffinity": [
+        "martial-arts",
+        "killing-fist"
+      ],
+      "knownMembers": [
+        "ikkyo-kyuken",
+        "yomi"
+      ],
+      "territories": [
+        "dark-training-base",
+        "dark-base"
+      ],
+      "conflicts": [
+        "yami-war",
+        "one-shadow-final"
+      ]
     },
     {
       "id": "ikkyo-kyuken",
-      "name": "一影九拳"
+      "name": "一影九拳",
+      "type": "master-circle",
+      "summary": "暗侧达人级核心圈，推动杀人拳理念与大型阴谋。",
+      "powerSystemAffinity": [
+        "killing-fist"
+      ],
+      "conflicts": [
+        "master-level-shadow-war"
+      ]
     },
     {
       "id": "yomi",
-      "name": "YOMI"
+      "name": "YOMI",
+      "type": "disciple-branch",
+      "summary": "暗的弟子组织，与兼一和新白联合构成同代对抗。",
+      "powerSystemAffinity": [
+        "martial-arts",
+        "killing-fist"
+      ],
+      "conflicts": [
+        "yomi-attacks",
+        "d-of-d"
+      ]
     },
     {
       "id": "various-dojos",
-      "name": "诸流派道场"
+      "name": "诸流派道场",
+      "type": "martial-community",
+      "summary": "世界各地武术流派、师徒和道场，可生成支线挑战。"
     },
     {
       "id": "delinquent-gangs",
-      "name": "学校不良集团"
+      "name": "学校不良集团",
+      "type": "street-threat",
+      "summary": "校园前期冲突来源，适合作为新白联合扩张和弟子成长素材。"
     }
   ],
   "locations": [
     {
       "id": "huangliang-high-school",
-      "name": "荒凉高中"
+      "name": "荒凉高中",
+      "type": "school",
+      "summary": "兼一日常和校园不良冲突的起点。"
     },
     {
       "id": "ryozanpaku-dojo",
-      "name": "梁山泊道场"
+      "name": "梁山泊道场",
+      "type": "dojo",
+      "summary": "训练、恢复、师徒互动和高压修行场景。"
+    },
+    {
+      "id": "city-streets",
+      "name": "城市街区",
+      "type": "street-stage",
+      "summary": "新白联合、诸神黄昏和不良团体发生遭遇战的常用场景。"
     },
     {
       "id": "dark-training-base",
-      "name": "暗之训练据点"
+      "name": "暗之训练据点",
+      "type": "secret-base",
+      "summary": "YOMI 或暗侧弟子训练、伏击和审查的场所。"
     },
     {
       "id": "international-martial-stage",
-      "name": "各国武术舞台"
+      "name": "各国武术舞台",
+      "type": "global-stage",
+      "summary": "D of D、提达特王国与海外流派支线适用。"
     },
     {
       "id": "dark-base",
-      "name": "暗据点"
+      "name": "暗据点",
+      "type": "master-level-threat-zone",
+      "summary": "达人级冲突高危地点，弟子单独潜入风险极高。"
     }
   ],
   "combatRules": [
-    "普通枪械和武器仍危险，但达人可通过预判与距离控制应对。",
+    "普通枪械和武器仍危险，但达人可通过预判、距离控制、杀气感知和地形应对。",
     "师傅级角色不宜直接介入弟子级剧情，否则压倒性改变战局。",
-    "战斗胜负由流派相性、地形、意志与是否下杀手共同决定。"
+    "战斗胜负由流派相性、地形、意志、伤势、是否下杀手与保护目标共同决定。",
+    "训练收益必须伴随疲劳、伤痛、恐惧或人际代价；不要无成本升级。",
+    "活人拳角色胜利后要处理对手、旁观者和后续复仇，而非只追求击倒。"
+  ],
+  "timeline": [
+    {
+      "id": "prologue-ryozanpaku",
+      "title": "梁山泊序章",
+      "phase": "start",
+      "summary": "兼一拜入梁山泊，结识美羽和多位师傅，首次理解活人拳/杀人拳差异并对抗低阶不良。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-shinpaku-alliance",
+      "title": "新白联合篇",
+      "phase": "early",
+      "summary": "新岛春男建立新白联合，兼一成为核心战力，对抗校园与街头暴力组织。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-ragnarok",
+      "title": "诸神黄昏篇",
+      "phase": "early-climax",
+      "summary": "逐步挑战拳豪体系，揭示奥丁/朝宫龙斗等宿敌与过往，完成前期弟子级决战。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-yomi-attack",
+      "title": "YOMI 袭击篇",
+      "phase": "middle",
+      "summary": "暗的弟子组织登场，YOMI 轮番袭击，梁山泊师傅与一影九拳开始出现达人级影子交锋。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-d-of-d",
+      "title": "D of D 锦标赛篇",
+      "phase": "middle-climax",
+      "summary": "世界级武术锦标赛把各国弟子、YOMI 主力和暗的阴谋集中到高压赛场。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-tidat-kingdom",
+      "title": "提达特王国篇",
+      "phase": "late-reserved",
+      "summary": "源维度节点标记为未来预留；curated 保留为海外政治/武术支线入口，未展开细节。",
+      "confidence": "low",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "arc-one-shadow",
+      "title": "一影最终决战",
+      "phase": "late-reserved",
+      "summary": "源维度节点标记为最终决战预留；适合作为高影响分歧或后期达人战争目标。",
+      "confidence": "low",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    },
+    {
+      "id": "future-arc",
+      "title": "未来篇/达人篇",
+      "phase": "sandbox",
+      "summary": "原作主线后可进入新一代达人、收徒、世界战争或新流派威胁。",
+      "sourceRefs": [
+        "src-kenichi-001"
+      ]
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "disciple-training",
+      "name": "地狱修行与自我突破",
+      "summary": "兼一或原创弟子通过训练、失败和师傅压迫成长。",
+      "stakes": [
+        "身体极限",
+        "保护他人的资格",
+        "是否逃避战斗"
+      ]
+    },
+    {
+      "id": "ragnarok-conflict",
+      "name": "校园霸权与拳豪挑战",
+      "summary": "前期强敌以不良组织和拳豪身份塑造弟子级升级阶梯。",
+      "stakes": [
+        "同伴安全",
+        "街头名望",
+        "新白联合存续"
+      ]
+    },
+    {
+      "id": "yomi-attacks",
+      "name": "YOMI 同代对决",
+      "summary": "暗侧弟子与活人拳弟子对撞，强调流派相性和理念诱惑。",
+      "stakes": [
+        "是否下杀手",
+        "师门荣耀",
+        "同代最强"
+      ]
+    },
+    {
+      "id": "master-level-shadow-war",
+      "name": "达人阴影战争",
+      "summary": "师傅与一影九拳在幕后交锋，给弟子剧情制造边界和倒计时。",
+      "stakes": [
+        "世界武术秩序",
+        "杀人拳扩张",
+        "梁山泊是否被拖入全面战争"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "kenichi-shirahama",
+      "to": "ryozanpaku",
+      "type": "student-of",
+      "publicSummary": "兼一在梁山泊接受多流派地狱训练。",
+      "gmNotes": "训练强度可作为成长代价和喜剧来源。"
+    },
+    {
+      "from": "kenichi-shirahama",
+      "to": "miu-furinji",
+      "type": "romantic-tension-ally",
+      "publicSummary": "美羽是兼一进入武术世界的重要连接点。",
+      "gmNotes": "感情线应服务成长，不自动替代兼一的选择。"
+    },
+    {
+      "from": "ryozanpaku",
+      "to": "yami",
+      "type": "ideological-enemies",
+      "publicSummary": "活人拳与杀人拳代表阵营互相冲突。",
+      "gmNotes": "冲突不只是谁更强，还包括战斗目的和战后处理。"
+    },
+    {
+      "from": "shin-white-union",
+      "to": "ragnarok",
+      "type": "street-war-rivals",
+      "publicSummary": "新白联合与诸神黄昏争夺校园街头秩序。",
+      "gmNotes": "可让原敌人被感化或转入暗侧。"
+    },
+    {
+      "from": "yomi",
+      "to": "ikkyo-kyuken",
+      "type": "disciples-of",
+      "publicSummary": "YOMI 是暗侧达人培养的弟子分支。",
+      "gmNotes": "每个 YOMI 对手最好对应一位师承理念或战斗课题。"
+    }
+  ],
+  "worldRules": {
+    "publicLaws": [
+      "现代日本社会秩序仍存在",
+      "学校和警察无法理解或处理大部分达人级冲突"
+    ],
+    "supernaturalRules": [
+      "气势、杀气和身体控制可表现得夸张，但根基仍是武术训练。"
+    ],
+    "taboos": [
+      "无成本获得达人级实力",
+      "让达人替弟子解决主线战斗",
+      "把活人拳写成没有代价的圣母选择"
+    ],
+    "knownExceptions": [
+      "喜剧训练可夸张化伤害，但关键战斗后果应真实。"
+    ]
+  },
+  "energyEnvironment": {
+    "externalEnergies": [
+      "杀气/气势（叙事表现）"
+    ],
+    "restrictedZones": [
+      "达人级战场",
+      "暗据点"
+    ],
+    "specialFields": []
+  },
+  "publicEvents": [
+    {
+      "id": "dojo-training-days",
+      "name": "梁山泊修行日",
+      "summary": "师傅布置不合理训练，推动能力、关系和喜剧。"
+    },
+    {
+      "id": "street-challenge",
+      "name": "街头挑战",
+      "summary": "弟子或不良组织发起挑战，测试近期训练成果。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "yami-war",
+      "name": "暗的扩张",
+      "summary": "暗通过达人和 YOMI 推动杀人拳秩序，逐步从幕后压向主角圈。"
+    },
+    {
+      "id": "one-shadow-final",
+      "name": "一影最终计划",
+      "summary": "后期大规模冲突锚点；当前细节未完全校验。",
+      "confidence": "low"
+    }
   ],
   "visibility": "public",
-  "worldName": "史上最强弟子兼一",
-  "aliases": [],
-  "genre": [],
-  "sandboxPrinciple": {},
-  "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
-  "notes": [],
-  "energyEnvironment": {},
-  "worldRules": {},
-  "publicEvents": [],
-  "hiddenEvents": []
+  "notes": [
+    "初版将力量体系定义为可跑团的武术阶层和理念冲突。",
+    "低置信：绪方等暗侧成员细节、提达特王国和一影最终决战需继续对照源条目。"
+  ],
+  "rpNotes": [
+    "战斗前明确双方层级、目标、是否下杀手、地形和保护对象。",
+    "弟子级剧情优先写训练反馈、伤势累积和临场领悟。",
+    "新岛春男适合作为情报/策略推进器，但他的计划应有反噬或道德风险。",
+    "保留漫画式称号和夸张登场，但避免把技术描述成无来源超能力。",
+    "未分类与控制文本较多，未验证条目不要作为硬事实导入。"
+  ],
+  "characters": [
+    {
+      "id": "kenichi-shirahama",
+      "name": "白滨兼一",
+      "role": "主角/梁山泊弟子",
+      "rpUse": "弱者成长、活人拳选择和多流派训练承压点"
+    },
+    {
+      "id": "miu-furinji",
+      "name": "风林寺美羽",
+      "role": "风林寺家少女/武术高手",
+      "rpUse": "引导兼一进入武术世界、情感和保护动机"
+    },
+    {
+      "id": "hayato-furinji",
+      "name": "风林寺隼人",
+      "role": "无敌超人/梁山泊长老",
+      "rpUse": "世界战力上限和达人威慑，不应频繁代打"
+    },
+    {
+      "id": "shigure-kosaka",
+      "name": "香坂时雨",
+      "role": "武器达人/师傅",
+      "rpUse": "兵器训练、沉默喜剧和高危战斗支援"
+    },
+    {
+      "id": "nijima-haruo",
+      "name": "新岛春男",
+      "role": "新白联合总督/情报怪人",
+      "rpUse": "策略、宣传、撤退路线和道德风险"
+    },
+    {
+      "id": "yomi-disciples",
+      "name": "YOMI 同代高手",
+      "role": "暗侧弟子群",
+      "rpUse": "为每个流派和理念冲突生成对手",
+      "confidence": "medium"
+    }
+  ],
+  "combatSystem": {
+    "tiers": [
+      "普通人/不良",
+      "弟子级",
+      "妙手级",
+      "达人级",
+      "传奇/无敌级"
+    ],
+    "resolutionFactors": [
+      "层级差",
+      "流派相性",
+      "地形",
+      "伤势",
+      "是否下杀手",
+      "保护目标",
+      "情报准备",
+      "临场觉悟"
+    ],
+    "advancement": "升级必须通过训练、败北反馈、师傅课题和实战代价体现。"
+  },
+  "trainingRegimens": [
+    {
+      "id": "multi-master-hell",
+      "name": "多师傅地狱训练",
+      "risk": "伤痛、睡眠不足、恐惧和喜剧性濒死",
+      "reward": "适应多流派、基础体能和防御意识"
+    },
+    {
+      "id": "sparring-after-defeat",
+      "name": "败北复盘对练",
+      "risk": "伤势恶化和心理挫败",
+      "reward": "针对强敌招式生成对策"
+    },
+    {
+      "id": "street-field-test",
+      "name": "街头实战检验",
+      "risk": "同伴卷入和对手下杀手",
+      "reward": "确认训练成果并提升名望"
+    }
+  ],
+  "itemsArtifacts": [
+    {
+      "id": "training-gear",
+      "name": "梁山泊训练器材",
+      "type": "dojo-prop",
+      "summary": "可夸张到近乎陷阱，用于训练与喜剧。"
+    },
+    {
+      "id": "weapons-cache",
+      "name": "兵器组/时雨武器",
+      "type": "weaponry",
+      "summary": "武器达人相关素材，需区分活人拳制止与杀人拳致杀。"
+    },
+    {
+      "id": "nijima-intel-files",
+      "name": "新岛情报档案",
+      "type": "information",
+      "summary": "敌人资料、弱点、舆论和撤退路线，但可能有操控风险。"
+    }
+  ],
+  "toneStyleGuide": {
+    "keywords": [
+      "热血",
+      "夸张登场",
+      "师徒喜剧",
+      "身体极限",
+      "武道信念"
+    ],
+    "do": [
+      "用称号和流派强化登场",
+      "写出训练代价",
+      "让战斗选择体现理念"
+    ],
+    "avoid": [
+      "无成本越级",
+      "达人代打弟子剧情",
+      "把杀人拳/活人拳简化为善恶标签"
+    ]
+  },
+  "rpScenarios": [
+    {
+      "id": "new-disciple-trial",
+      "title": "新弟子试炼",
+      "hook": "原创弟子想拜入梁山泊，必须承受第一轮不合理训练。"
+    },
+    {
+      "id": "yomi-targeted-attack",
+      "title": "YOMI 指名袭击",
+      "hook": "暗侧弟子选择主角或同伴作为证明自己的目标。"
+    },
+    {
+      "id": "shinpaku-rescue",
+      "title": "新白联合救援战",
+      "hook": "新岛情报显示同伴被不良或暗侧势力包围。"
+    }
+  ],
+  "canonDivergence": {
+    "safeDivergences": [
+      "原创弟子加入训练",
+      "改变某个街头挑战顺序",
+      "让新白联合提前获得情报"
+    ],
+    "highImpactDivergences": [
+      "达人级角色死亡或倒戈",
+      "YOMI 核心成员提前被击败/感化",
+      "暗公开发动全面战争"
+    ],
+    "guardrails": [
+      "维持阶层差",
+      "胜利后处理伤势和报复",
+      "高影响分歧需重构后续锚点"
+    ]
+  },
+  "sourceIndex": {
+    "readNotes": [
+      "campaigns/world-library/worlds/kenichi/source-registry.json",
+      "campaigns/world-library/worlds/kenichi/curated/README.md",
+      "campaigns/world-library/worlds/kenichi/curated/curation-notes.md",
+      "world-info-library/worlds/kenichi/curated/README.md",
+      "world-info-library/worlds/kenichi/curated/source-registry.json"
+    ],
+    "rawMaterials": [
+      "campaigns/world-library/worlds/kenichi/raw/imported-worldbooks/shzqdz_card.worldbook.json",
+      "campaigns/world-library/worlds/kenichi/raw/original-entry-index.json"
+    ],
+    "longFormStatus": "未发现独立小说/漫画/游戏/剧本文本；主要为导入世界书及分类归档，含控制/沙盒文本风险。"
+  },
+  "openQuestions": [
+    "是否拆分具体招式与师承图谱？",
+    "YOMI 与一影九拳成员是否需逐人核对 canonical id？",
+    "提达特王国和最终决战应保留到哪个 RP 阶段？"
+  ]
 }

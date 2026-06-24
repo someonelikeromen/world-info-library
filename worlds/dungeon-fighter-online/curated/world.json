@@ -12,7 +12,7 @@
     "多职业战斗",
     "奇幻灾厄"
   ],
-  "summary": "阿拉德是多国家、多种族和多职业者并存的大陆。转移现象、使徒、帝国战争、魔界与天界科技构成主要冲突；冒险家通过职业技艺、魔法、鬼手、枪械、格斗等体系成长。",
+  "summary": "阿拉德是多国家、多种族和多职业者并存的大陆/多世界舞台。泰拉崩坏、魔界漂流、转移现象、使徒、帝国战争、天界机械文明、魔界组织冲突与神界远征构成主要冲突；冒险家通过职业技艺、魔法、鬼手、枪械、格斗、圣职者体系和装备成长参与各篇章。",
   "sandboxPrinciple": {
     "summary": "不固定使徒讨伐与主线，冒险者行动可改变地区政治和灾厄进程。",
     "notes": []
@@ -24,7 +24,9 @@
     "notes": []
   },
   "notes": [
-    "职业体系过多，本档只做上位分类。"
+    "职业体系过多，本档只做上位分类。",
+    "r1 retry split modules added 2026-06-24; see curatedModules.",
+    "源归档大量 confidence=C；低置信和冲突记录见 source-registry.json 与 curation-notes.md。"
   ],
   "powerSystems": [
     {
@@ -220,14 +222,57 @@
     "天界",
     "魔界",
     "暗黑城",
-    "德洛斯帝国"
+    "德洛斯帝国",
+    "艾尔文防线",
+    "西海岸",
+    "天空之城",
+    "天空之海",
+    "天帷巨兽",
+    "悲鸣洞穴",
+    "诺伊佩拉",
+    "诺斯玛尔",
+    "斯特鲁山脉",
+    "寂静城",
+    "黑色大地",
+    "神界",
+    "雾之都晴烟"
   ],
   "publicEvents": [
     "地下城讨伐",
-    "转移事件"
+    "转移事件",
+    "阿拉德编年史",
+    "龙之战争",
+    "暗黑圣战",
+    "第一次转移事件",
+    "格兰之火",
+    "天帷巨兽罗特斯事件",
+    "诺伊佩拉瘟疫",
+    "卡勒特战争",
+    "魔界大战",
+    "第二次暗黑圣战",
+    "神界远征"
   ],
   "hiddenEvents": [
     "使徒阴谋",
-    "帝国实验"
+    "帝国实验",
+    "赫尔德转移布局",
+    "希洛克复活",
+    "生命之水传说",
+    "巴卡尔遗产",
+    "雾神与天之印"
+  ],
+  "curatedModules": [
+    "timeline.json",
+    "plot-arcs.json",
+    "characters-index.json",
+    "factions.json",
+    "locations.json",
+    "power-systems.json",
+    "relationships.json",
+    "lore.json",
+    "knowledge-graph.json",
+    "relationship-graph.json",
+    "source-registry.json",
+    "rp-notes.md"
   ]
 }

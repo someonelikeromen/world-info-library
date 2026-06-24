@@ -1,0 +1,280 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "d-gray-man",
+  "completionPass": "retry-03",
+  "sourceRefs": [
+    "src-d-gray-man-001"
+  ],
+  "sourceBasis": [
+    "campaigns/world-library/worlds/d-gray-man/reports/classification-report.md",
+    "campaigns/world-library/worlds/d-gray-man/characters/characters.json",
+    "campaigns/world-library/worlds/d-gray-man/factions/factions.json",
+    "campaigns/world-library/worlds/d-gray-man/locations/locations.json",
+    "campaigns/world-library/worlds/d-gray-man/power-systems/power-systems.json",
+    "campaigns/world-library/worlds/d-gray-man/canon-reference/timeline.json"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：按本地单一世界书归档扩展人物可扮演锚点、黑色教团/诺亚/中央厅层级、圣洁/恶魔/诺亚规则、地点、沙盒时间线、关系与 RP 钩子；不将后期真相无条件公开化。",
+  "coverageNote": "本地分类报告显示 113 条保留条目，characters 106、factions 36、locations 51、powerSystems 42、canonArcs 45、canonTimeline 4。现有 characters-index 只收 13 个核心角色；本扩展补语义层和候选名单，但不把所有候选写入正式 characters-index。",
+  "characters": {
+    "indexedCoreAnchors": [
+      {
+        "id": "allen-walker",
+        "name": "亚连·沃克",
+        "appearanceAndDemeanor": "白发、左眼诅咒与左臂寄生型圣洁是主要可视锚点；礼貌温和但在自责、诺亚宿主压力和恶魔悲剧前会显出黑暗面。",
+        "rpUse": "适合作为驱魔师新兵的同伴/导师镜像、十四号宿主暗线、圣洁痛感与恶魔救赎主题的中心。"
+      },
+      {
+        "id": "kanda-yu",
+        "name": "神田优",
+        "appearanceAndDemeanor": "冷峻寡言的剑士形象，六幻与封印纹身/再生设定构成战斗与秘密锚点。",
+        "rpUse": "适合高压训练、同僚冲突、阿尔玛与第二驱魔师计划的 GM-only 逐步揭示。"
+      },
+      {
+        "id": "lenalee-lee",
+        "name": "李娜丽·李",
+        "appearanceAndDemeanor": "黑靴高速机动是战斗锚点；日常温柔、重视同伴，战斗时坚定不屈。",
+        "rpUse": "适合教团家庭感、医疗后勤与前线损伤之间的情感桥。"
+      },
+      {
+        "id": "lavi",
+        "name": "拉比",
+        "appearanceAndDemeanor": "爽朗热络的书人继承者，眼罩/大槌小槌/记录者身份可作为视觉与立场锚点。",
+        "rpUse": "适合历史记录、旁观者伦理、书人中立性与战友情感冲突。"
+      },
+      {
+        "id": "millennium-earl",
+        "name": "千年伯爵",
+        "appearanceAndDemeanor": "夸张绅士/玩偶式外观与残酷恶魔制造形成反差；语气可嬉笑转为威胁。",
+        "rpUse": "作为恶魔悲剧、诺亚家族和第三次黑暗之日预言的主压迫源。"
+      }
+    ],
+    "expansionCandidatesFromSource": [
+      "亚历斯特·柯洛利三世：寄生型驱魔师、吸血牙与半吸血鬼意象；现仅在 indexed 核心中略写。",
+      "诺伊兹·马利、赵治、提摩西·哈斯特：源角色速览列为驱魔师候选，后续可按圣洁类型补人物卡。",
+      "书人、莫·张、芙、利巴·温汉姆、乔尼·吉尔、杰利：适合扩充教团非战斗/支部运行。",
+      "芙罗·狄耶特、可萝德·奈因、维达兹·索卡罗等元帅：源总览列出但当前正式索引未逐条建卡。",
+      "斯金·博利克、贾斯迪洛&迪比特、露露贝尔、卫斯理、谢利尔等诺亚成员：源总览列出但需要逐条核对记忆/能力与出场阶段。",
+      "阿波克利夫斯、第三驱魔师计划成员：属于后期真相/中央厅暗线，建议 GM-only 扩展。"
+    ],
+    "indexingPolicy": "候选人物只作为补完提示，不自动写入 characters-index；若后续扩写，应保留 sourceRefs 并标明 public/private/gm-only。"
+  },
+  "powerSystems": [
+    {
+      "id": "innocence-compatibility",
+      "name": "圣洁适配、同步率与类型",
+      "summary": "圣洁为神之结晶碎片，是能真正毁灭恶魔的核心力量。源世界观列出装备型、寄生型、结晶型、独立型等表现；同步率、破损、觉醒和适配失败会改变战力与代价。",
+      "rpLimits": [
+        "圣洁激活应体现痛感、负荷、同步风险和装备/身体形态变化。",
+        "新 OC 适合者需先说明圣洁类型、发现方式、同步率阶段和教团监管。",
+        "独立型/心脏相关圣洁默认 GM-only，不能作为普通开局奖励。"
+      ]
+    },
+    {
+      "id": "akuma-tragedy-levels",
+      "name": "恶魔制造与等级进化",
+      "summary": "千年伯爵利用失去亲人的悲愿诱导亡者灵魂进入机械骨架，制造 Akuma。恶魔是武器也是被囚禁灵魂，等级越高越具身体恐怖与人格化表现。",
+      "rpLimits": [
+        "每只恶魔都应保留悲剧内核；战斗不是单纯刷怪。",
+        "普通武器难以净化恶魔，驱魔师失去圣洁时应优先撤退或求援。",
+        "高等级恶魔和等级 3+ 遭遇需显著提高伤亡与情报压力。"
+      ]
+    },
+    {
+      "id": "noah-memory-dark-matter",
+      "name": "诺亚记忆与暗物质",
+      "summary": "诺亚一族承载古老记忆与家族职责，具高再生、规则性异能和暗物质相关力量。能力与宿主觉醒、家族席位和千年伯爵计划绑定。",
+      "rpLimits": [
+        "诺亚不应按普通冒险者等级处理；其强弱取决于记忆觉醒、环境和心理游戏。",
+        "第十四号、坎贝尔家族和伯爵真相默认分层揭示。"
+      ]
+    },
+    {
+      "id": "order-experiments",
+      "name": "第二/第三驱魔师计划与中央厅实验",
+      "summary": "源世界知识记录第二驱魔师计划、第三驱魔师计划和阿波克利夫斯相关真相。该线涉及人体实验、克隆/脑移植、阿尔玛细胞和中央厅监控。",
+      "rpLimits": [
+        "该体系默认 private/gm-only，开局不向普通 PC 公开。",
+        "人体实验内容作为黑暗设定处理，避免露骨化或猎奇化。",
+        "阿尔玛、神田、第三驱魔师角色状态需按具体篇章锁定。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "black-order-expanded",
+      "name": "黑色教团扩展结构",
+      "summary": "源势力条目将黑色教团描述为约百年前由梵蒂冈资助的跨国组织，设欧洲总部及亚洲、中东、非洲、北美洲、南美洲、大洋洲等分部；分部内有科学班、情报、医疗、后勤、战斗等功能。",
+      "rpHooks": [
+        "新驱魔师/候补适配者报到与同步率测试。",
+        "科学班道具暴走、医疗抢救、Finder 情报失联。",
+        "中央厅命令与前线驱魔师伦理冲突。"
+      ]
+    },
+    {
+      "id": "central-hall",
+      "name": "中央厅/梵蒂冈官僚层",
+      "summary": "源生成规则将中央厅口吻归为冷漠官僚；其可作为监管、隐瞒实验、命令前线的上层压力。",
+      "visibility": "private",
+      "rpHooks": [
+        "封锁阿尔玛与第二驱魔师资料。",
+        "要求回收特定圣洁而牺牲现场人员。",
+        "以命令和审问限制亚连/OC 的行动。"
+      ]
+    },
+    {
+      "id": "noah-family-expanded",
+      "name": "诺亚一族扩展名单",
+      "summary": "源人物总览除千年伯爵、缇奇、罗德外，还列斯金、贾斯迪洛&迪比特、露露贝尔、卫斯理、谢利尔等；当前仅作为待逐条补证名单。",
+      "visibility": "private"
+    },
+    {
+      "id": "bookman-neutrality",
+      "name": "书人中立记录者",
+      "summary": "拉比与书人谱系在教团侧行动，但其职责是记录历史而非完全归属某阵营；这会制造同伴情感与记录者使命的冲突。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "black-order-europe-hq-expanded",
+      "name": "黑色教团欧洲总部细分",
+      "summary": "源地点条目将总部描写为悬崖上的哥特式城堡，包含科学班楼层、驱魔师居住区、食堂、训练场、医务室、地下圣洁保管室等。",
+      "sceneUses": ["日常恢复", "适配测试", "科学班事故", "恶魔/诺亚突袭前的安全错觉"]
+    },
+    {
+      "id": "asian-branch-expanded",
+      "name": "亚洲支部与第六实验室",
+      "summary": "源地点条目记录亚洲支部位于中国山区深处，含训练设施、地下实验室和第六实验室；与亚连重训、第二驱魔师计划和阿尔玛线相关。",
+      "visibility": "private"
+    },
+    {
+      "id": "ark-expanded",
+      "name": "诺亚方舟",
+      "summary": "源世界知识描述方舟为伯爵与诺亚持有的异空间，形态近似埃舍尔式欧洲城邦，以钢琴/键盘界面操控，仅伯爵与第十四号能弹奏。",
+      "visibility": "private"
+    },
+    {
+      "id": "global-battlefields",
+      "name": "全球战场与支部线路",
+      "summary": "世界背景横跨欧、亚、非、美等大洲；Finder、驱魔师小队与分部通信可作为旅行任务结构。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "order-founded",
+      "period": "约百年前",
+      "event": "黑色教团成立，对抗千年伯爵、恶魔与诺亚一族。",
+      "certainty": "source-derived"
+    },
+    {
+      "id": "sandbox-days-1-30",
+      "period": "沙盒第1-30天",
+      "event": "亚连加入教团初期，日常训练、科穆伊发明、低等级恶魔任务与米兰达加入前后适合作为低烈度开局。",
+      "certainty": "source-sandbox"
+    },
+    {
+      "id": "sandbox-days-31-90",
+      "period": "沙盒第31-90天",
+      "event": "拉比和书人登场，柯洛利加入，科学班秘密项目若隐若现，首次高等级恶魔压力出现。",
+      "certainty": "source-sandbox"
+    },
+    {
+      "id": "noah-pressure",
+      "period": "沙盒第91-180天",
+      "event": "诺亚成员开始活跃，元帅们陆续出场，缇奇可能以人类身份出现，中央厅开始特别关注。",
+      "certainty": "source-sandbox"
+    },
+    {
+      "id": "ark-and-fourteenth",
+      "period": "沙盒第181-365天及以后",
+      "event": "方舟线索、第二驱魔师计划、克劳斯踪迹、阿波克利夫斯暗线和第十四号苏醒迹象逐步进入深水区。",
+      "visibility": "gm-only",
+      "certainty": "source-sandbox"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "rookie-exorcist-order-life",
+      "name": "教团新人和日常裂缝",
+      "focus": ["黑色教团总部", "圣洁适配", "低级恶魔", "科学班", "同伴关系"],
+      "rpEntry": "OC 可作为驱魔师候补、Finder、科学班助理或被救助的适配者进入。"
+    },
+    {
+      "id": "noah-and-akuma-escalation",
+      "name": "诺亚阴影与恶魔升级",
+      "focus": ["诺亚一族", "千年伯爵", "高等级恶魔", "元帅失踪/出场", "中央厅压力"],
+      "rpEntry": "适合中期把普通任务升级为阵营战与心理战。"
+    },
+    {
+      "id": "ark-fourteenth-campbell",
+      "name": "方舟、第十四号与坎贝尔真相",
+      "focus": ["方舟", "亚连宿主", "内亚", "克劳斯", "伯爵真相"],
+      "visibility": "gm-only-until-triggered",
+      "rpEntry": "需要先设置剧透等级，避免开局泄露世界核心反转。"
+    },
+    {
+      "id": "alma-second-exorcist",
+      "name": "阿尔玛与第二驱魔师计划",
+      "focus": ["神田", "阿尔玛", "亚洲支部", "第六实验室", "中央厅人体实验"],
+      "visibility": "private-gm-only",
+      "rpEntry": "适合神田关系达标或亚洲支部调查线后开启。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "allen-walker",
+      "to": "millennium-earl",
+      "type": "enemy-and-host-secret-pressure",
+      "visibility": "private",
+      "note": "公开层是驱魔师与伯爵敌对；私密层牵涉第十四号、马纳/内亚与坎贝尔真相。"
+    },
+    {
+      "from": "black-order-expanded",
+      "to": "central-hall",
+      "type": "subordinate-under-surveillance",
+      "visibility": "private",
+      "note": "教团前线依赖中央厅资源，但中央厅会隐瞒实验与发布冷酷命令。"
+    },
+    {
+      "from": "lavi",
+      "to": "bookman-neutrality",
+      "type": "heir-duty-vs-friendship",
+      "note": "拉比越接近同伴，越容易与书人记录者中立使命冲突。"
+    },
+    {
+      "from": "kanda-yu",
+      "to": "alma-karma",
+      "type": "second-exorcist-past",
+      "visibility": "gm-only",
+      "note": "关系应随阿尔玛线逐步揭示，不在普通教团日常公开。"
+    }
+  ],
+  "rpNotes": [
+    "开局先声明身份模式：亚连视角、取代亚连、共存 OC、教团非战斗人员、诺亚/第三方观察者。",
+    "秘密门控必须开启：第十四号、坎贝尔家族、第二/第三驱魔师、阿波克利夫斯和伯爵本质不得无触发公开。",
+    "战斗强调圣洁痛感、恶魔悲剧、哥特场景与战后代价；不要把恶魔写成无背景怪物。",
+    "教团总部适合低烈度日常和训练；亚洲支部/方舟/北美分部适合中后期真相线。",
+    "源内存在取代模式规则与状态变量；curated 只保留其作为可选 RP 入口，不当作默认正史。"
+  ],
+  "lowConfidenceAndConflicts": [
+    {
+      "topic": "后期真相与连载阶段",
+      "status": "low-confidence / spoiler-gated",
+      "note": "单一世界书可能混合不同连载阶段；伯爵、马纳、内亚、阿波克利夫斯相关信息需按开局时期锁定。"
+    },
+    {
+      "topic": "人物完整名单",
+      "status": "incomplete-index",
+      "note": "源人物总览远多于现有 13 名正式索引；本扩展列候选但未逐条补人物卡。"
+    },
+    {
+      "topic": "成人向/控制文本排除",
+      "status": "filtered",
+      "note": "分类报告含 characterNsfw/nsfwRules/technical；本扩展只保留 SFW 世界观与 RP 结构。"
+    }
+  ],
+  "residualGaps": [
+    "诺亚全员、元帅全员、科学班/支部人员仍需逐条补 characters-index。",
+    "北美分部和后期章节地点仅保留骨架，未逐卷校勘。",
+    "圣洁具体清单与恶魔等级个体仍需从 abilities/items/species 分类补表。"
+  ]
+}

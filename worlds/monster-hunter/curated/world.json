@@ -1,69 +1,12 @@
 {
   "schema": "rp-world-v1",
   "worldSlug": "monster-hunter",
-  "displayName": "怪物猎人",
-  "curationMethod": "manual reading of existing archive files",
-  "premise": "人类文明在巨型怪物生态圈中发展，猎人由公会认证并承担调查、狩猎、护卫、灾害应对和生态调节任务。故事以区域巡礼、装备成长与禁忌怪物线索推进。",
-  "coreSystems": [
-    {
-      "name": "猎人公会",
-      "description": "管理猎人、发布任务、避免恶性狩猎和无经验牺牲的民间大型组织；各地公会相互独立但制度趋同。"
-    },
-    {
-      "name": "任务星级",
-      "description": "以村任务、集会所任务、特殊许可任务等评定猎人阶位，替代纯游戏化HR/MR。"
-    },
-    {
-      "name": "狩猎准备",
-      "description": "承接任务、猫饭、道具、环境观察、陷阱、素材剥取和装备锻造构成稳定流程。"
-    },
-    {
-      "name": "生态平衡",
-      "description": "怪物不是单纯邪恶，狩猎是对异常生态和人类生存风险的调节。"
-    },
-    {
-      "name": "古龙/禁忌怪物",
-      "description": "活动天灾级存在，由古龙观测局等机构追踪预警。"
-    }
-  ],
-  "majorLocations": [
-    "修雷德地区",
-    "科科特村",
-    "东多尔玛",
-    "洛克拉克",
-    "结云村",
-    "炎火村",
-    "贝尔纳村",
-    "埃尔迦德",
-    "新大陆调查据点星辰",
-    "月辰",
-    "古代树森林",
-    "陆珊瑚台地",
-    "瘴气之谷",
-    "龙结晶之地",
-    "封禁之地"
-  ],
-  "majorFactions": [
-    "猎人公会",
-    "王立书士队",
-    "古龙观测局",
-    "龙历院",
-    "调查团",
-    "各地村落与王国",
-    "加工屋/工匠体系",
-    "艾露猫伙伴"
-  ],
-  "tone": [
-    "生态奇观",
-    "狩猎冒险",
-    "匠人精神",
-    "旅程成长",
-    "人与自然的敬畏"
-  ],
-  "rpUse": "OC通常作为猎人、学者、受付员、工匠、调查员、艾露伙伴或村落居民介入；狩猎应强调准备和生态逻辑。",
   "worldId": "monster-hunter",
+  "displayName": "怪物猎人",
   "worldName": "怪物猎人",
-  "aliases": [],
+  "aliases": [
+    "Monster Hunter"
+  ],
   "genre": [
     "生态奇观",
     "狩猎冒险",
@@ -71,21 +14,150 @@
     "旅程成长",
     "人与自然的敬畏"
   ],
-  "summary": "",
-  "sandboxPrinciple": {},
+  "summary": "人类文明在大型怪物与古龙生态圈中发展。猎人由公会认证，承担调查、护卫、狩猎、素材采集、灾害应对与生态调节；成长来自任务星级、装备锻造、区域知识和对自然的敬畏。",
+  "sandboxPrinciple": {
+    "summary": "不把怪物视为纯恶；任务由生态异常、村落需求、公会规章和研究线索推动，允许跨区域巡礼与长期禁忌怪物伏笔。",
+    "notes": [
+      "去游戏化：HR/MR 作为任务星级、资格和社会认证处理。"
+    ]
+  },
   "hasFixedFate": false,
-  "foreignPowerSuppressionDefault": {},
+  "foreignPowerSuppressionDefault": {
+    "enabled": false,
+    "summary": "默认不抑制外来能力，但外来能力若破坏生态或公会秩序会被视为高危异常。",
+    "notes": [
+      "跨作品能力需服从生态后果、装备维护和公会监管。"
+    ]
+  },
   "notes": [
     "Runtime caveat: characters-index is not a complete Monster Hunter canon named NPC roster.",
-    "Hunter/guild/village/research/ecology entries are occupational or ecological role slots unless a later entry supplies a fixed canon name."
+    "Hunter/guild/village/research/ecology entries are occupational or ecological role slots unless a later entry supplies a fixed canon name.",
+    "retry-08 补完：源地理和怪物目录体量很大，本轮采用关键地区、制度和怪物分类的分层摘要。"
   ],
-  "powerSystems": [],
-  "factions": [],
-  "energyEnvironment": {},
-  "worldRules": {},
-  "locations": [],
-  "publicEvents": [],
-  "hiddenEvents": [],
+  "powerSystems": [
+    {
+      "id": "guild-rank-and-quests",
+      "name": "猎人公会认证/任务星级",
+      "category": "social-combat-progression",
+      "principle": "猎人实力以村任务、集会所任务、特殊许可、大师位/古龙任务资格体现。",
+      "classification": ["Social", "Training", "Combat"],
+      "energySource": "none",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [
+        {"label": "村下位1-6星", "meaning": "地方基础委托与低阶大型怪物"},
+        {"label": "村上位7-10星/集会所上位", "meaning": "区域高危和多人协作任务"},
+        {"label": "大师位/古龙任务", "meaning": "顶级猎人与灾害级威胁"}
+      ],
+      "commonResources": ["公会许可", "任务情报", "队友协作", "补给品"],
+      "commonAbilities": ["承接委托", "调查痕迹", "团队狩猎", "晋级任务"],
+      "limitations": ["无许可狩猎会触犯公会规则；星级代表资格不是经验值。"],
+      "compatibilityNotes": ["适合把游戏等级转译为社会身份。"]
+    },
+    {
+      "id": "weapon-arts-and-crafting",
+      "name": "武器招式/素材锻造",
+      "category": "equipment-technique",
+      "principle": "十四类武器、护甲技能、素材剥取和加工屋构成猎人成长循环。",
+      "classification": ["Technique", "Equipment", "Craft"],
+      "energySource": "material",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": ["怪物素材", "矿石", "护石", "装饰珠", "加工屋技术"],
+      "commonAbilities": ["武器熟练", "部位破坏", "属性/异常利用", "装备技能搭配"],
+      "limitations": ["装备需要维护；素材来源、生态许可和工匠水平限制升级。"],
+      "compatibilityNotes": ["避免凭空原创过强装备，优先使用原作素材逻辑。"]
+    },
+    {
+      "id": "ecology-tracking",
+      "name": "生态调查/痕迹追踪",
+      "category": "fieldcraft-research",
+      "principle": "通过脚印、粪便、食痕、领地、气候与迁徙判断怪物行为。",
+      "classification": ["Knowledge", "Survival"],
+      "energySource": "none",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": ["地图", "书士队记录", "当地向导", "追踪工具"],
+      "commonAbilities": ["怪物习性分析", "环境利用", "陷阱布置", "非致命驱离"],
+      "limitations": ["错误情报会造成村落损失或生态失衡。"],
+      "compatibilityNotes": ["适合调查型 RP。"]
+    },
+    {
+      "id": "elder-dragon-disaster",
+      "name": "古龙/禁忌怪物灾害等级",
+      "category": "ecological-catastrophe",
+      "principle": "古龙与禁忌怪物以天灾或文明毁灭风险处理，需观测、疏散和高阶猎人联合行动。",
+      "classification": ["Monster", "Disaster", "Mystery"],
+      "energySource": "ecological/cosmic",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "古龙级生态影响",
+      "energyTraits": [
+        {"tag": "weather/ecosystem-warp", "level": "S", "description": "风暴、炎热、瘴气、地脉或文明毁灭级异变。"}
+      ],
+      "levelMapping": [],
+      "commonResources": ["古龙观测局情报", "大师位猎人", "攻城兵器", "禁忌记录"],
+      "commonAbilities": ["灾害预警", "大型作战", "封锁区域", "史诗狩猎"],
+      "limitations": ["不能以普通怪物讨伐流程轻率处理；情报不足可能导致整座城市毁灭。"],
+      "compatibilityNotes": ["适合作为长线主线终局。"]
+    }
+  ],
+  "factions": [
+    {"id": "hunter-guild", "name": "猎人公会", "type": "transregional-guild", "summary": "认证猎人、发布任务、分配报酬、限制滥猎并协调村落/王国/研究机构。", "powerSystemAffinity": ["guild-rank-and-quests"], "publicRules": ["任务许可", "报酬结算", "禁止恶性滥猎"], "hiddenRules": ["高危情报分级", "禁忌怪物资料封存"], "attitudeToOutsiders": "regulated", "knownMembers": ["guild-receptionist", "guild-manager", "hunter-instructor"], "territories": ["东多尔玛", "各地集会所", "村落公会窗口"], "resources": ["任务板", "补给", "猎人名册", "后勤"], "conflicts": ["poachers", "ecological-crisis"]},
+    {"id": "wycademy", "name": "龙历院", "type": "research-guild-hybrid", "summary": "研究怪物、传授技术并支援跨地区调查的机构。", "powerSystemAffinity": ["ecology-tracking"], "publicRules": ["研究协作", "技术传授"], "hiddenRules": ["危险样本管控"], "attitudeToOutsiders": "curious", "knownMembers": ["wycademy-researcher"], "territories": ["贝尔纳村", "龙识船"], "resources": ["研究记录", "技术顾问", "移动调查平台"], "conflicts": ["unknown-monsters"]},
+    {"id": "royal-scribes", "name": "王立书士队", "type": "scholarly-order", "summary": "记录、分类和维护怪物生态资料的学术组织。", "powerSystemAffinity": ["ecology-tracking"], "publicRules": ["图鉴记录", "生态分类"], "hiddenRules": ["古代文明与禁忌资料分级"], "attitudeToOutsiders": "cautious", "knownMembers": ["royal-scribe-scholar"], "territories": ["修雷德地区", "书库"], "resources": ["图鉴", "旧记录", "学术网络"], "conflicts": ["data-gaps", "forbidden-monsters"]},
+    {"id": "elder-dragon-observatory", "name": "古龙观测局", "type": "disaster-monitoring", "summary": "追踪古龙活动、发布灾害预警并协调撤离/讨伐。", "powerSystemAffinity": ["elder-dragon-disaster"], "publicRules": ["灾害预警", "封锁危险区域"], "hiddenRules": ["古龙迁徙机密", "禁忌级警报"], "attitudeToOutsiders": "classified", "knownMembers": ["elder-dragon-observer"], "territories": ["观测塔", "灾害前线"], "resources": ["观测记录", "高阶猎人联络", "预警网络"], "conflicts": ["elder-dragons", "forbidden-monsters"]},
+    {"id": "smithy-network", "name": "加工屋/工匠体系", "type": "craft-network", "summary": "将怪物素材、矿石和护石转化为武器防具，是猎人成长与地方经济核心。", "powerSystemAffinity": ["weapon-arts-and-crafting"], "publicRules": ["素材加工", "装备维护"], "hiddenRules": ["稀有素材配方保护"], "attitudeToOutsiders": "transactional", "knownMembers": ["smithy-artisan"], "territories": ["各地加工屋", "工房"], "resources": ["熔炉", "图纸", "素材仓库"], "conflicts": ["material-shortage"]},
+    {"id": "palico-network", "name": "艾露猫伙伴与支援网络", "type": "companion-support", "summary": "艾露猫作为随从、采集者、厨师、搬运与村落伙伴支撑狩猎生活。", "powerSystemAffinity": ["guild-rank-and-quests"], "publicRules": ["随从契约", "猫饭与支援"], "hiddenRules": [], "attitudeToOutsiders": "friendly", "knownMembers": ["palico-companion"], "territories": ["村落", "猫猫岛", "营地"], "resources": ["猫饭", "采集支援", "救援搬运"], "conflicts": ["camp-danger"]}
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      {"name": "生态场/古龙级影响", "density": "localized", "distribution": "古龙活动地、地脉、火山、瘴气之谷、龙结晶之地、封禁之地等高密度", "traits": ["天气改变", "地貌影响", "生物迁徙", "素材异变"], "recoveryImpact": "普通猎人不直接吸收，主要通过装备素材、环境利用和调查情报体现。"}
+    ],
+    "restrictedZones": ["古龙活动封锁区", "禁忌怪物遗址", "生态失衡区域", "未开拓封禁之地"],
+    "specialFields": ["瘴气环境", "火山高热", "暴风圈", "地脉能量", "怪物领地威压"]
+  },
+  "worldRules": {
+    "publicLaws": ["公会任务许可与报酬制度", "地方村落/王国法规", "禁止无意义滥猎和破坏生态"],
+    "supernaturalRules": ["怪物能力是生态、生理、古龙影响或环境适应的结果。", "素材可转化为装备性能，但不能脱离物理维护与工匠加工。"],
+    "taboos": ["偷猎", "伪造任务许可", "私藏禁忌怪物资料", "在村落附近诱导怪物迁徙"],
+    "knownExceptions": ["禁忌怪物和部分古龙超出常规生态解释，需要保守分层揭露。"]
+  },
+  "locations": [
+    {"id": "schrade", "name": "修雷德地区/旧修雷德", "type": "historic-region", "summary": "古代文明、旧王城与黑龙传说相关的核心历史地区。"},
+    {"id": "kokoto-village", "name": "科科特村", "type": "village", "summary": "经典猎人村落，可作为低阶猎人起点。"},
+    {"id": "dondurma", "name": "东多尔玛", "type": "guild-city", "summary": "大型公会城市和战斗街，适合都市防卫与高阶任务。"},
+    {"id": "loc-lac", "name": "洛克拉克", "type": "desert-guild-city", "summary": "沙漠商贸/公会节点，适合大沙漠巡礼。"},
+    {"id": "yukumo-village", "name": "结云村", "type": "hot-spring-village", "summary": "温泉文化村落，适合溪流、雷狼龙与地方委托。"},
+    {"id": "kamura-village", "name": "炎火村", "type": "fortified-village", "summary": "百龙夜行防卫与翔虫/机关文化代表。"},
+    {"id": "beruna-village", "name": "贝尔纳村", "type": "research-village", "summary": "龙历院与跨区域研究线入口。"},
+    {"id": "elgado", "name": "埃尔迦德", "type": "observation-outpost", "summary": "王国观测据点，适合城塞高地与灾厄调查。"},
+    {"id": "astera", "name": "调查据点星辰", "type": "new-world-base", "summary": "新大陆调查团主据点，生态研究与大型作战中枢。"},
+    {"id": "seliana", "name": "月辰", "type": "iceborne-base", "summary": "永霜冻土前线据点。"},
+    {"id": "ancient-forest", "name": "古代树森林", "type": "biome", "summary": "立体森林生态，飞龙、牙龙和采集任务密集。"},
+    {"id": "coral-highlands", "name": "陆珊瑚台地", "type": "biome", "summary": "高地珊瑚生态，与瘴气之谷上下生态相连。"},
+    {"id": "rotten-vale", "name": "瘴气之谷", "type": "biome", "summary": "尸骸、瘴气和食物链循环明显的危险生态。"},
+    {"id": "elder-recess", "name": "龙结晶之地", "type": "biome", "summary": "古龙能量和结晶地貌活跃的高危区域。"},
+    {"id": "forbidden-lands", "name": "封禁之地", "type": "frontier-region", "summary": "新近/未开拓区域，适合长期调查和未知生态。"}
+  ],
+  "publicEvents": ["猎人注册与新手训练", "村任务晋级", "集会所多人委托", "怪物异常迁徙预警", "加工屋完成新装备", "调查团开拓新区域"],
+  "hiddenEvents": ["古龙渡/异常迁徙真因", "禁忌怪物苏醒迹象", "古代文明遗址与黑龙记录", "偷猎团诱发的生态灾难", "公会封存的失踪猎人档案"],
+  "monsterTaxonomy": [
+    {"class": "飞龙种", "examples": ["雄火龙", "雌火龙", "轰龙", "迅龙"], "rpUse": "领空、巢穴、迁徙和部位破坏教学。"},
+    {"class": "鸟龙种", "examples": ["大怪鸟", "毒妖鸟", "搔鸟"], "rpUse": "低阶生态入门和异常行为观察。"},
+    {"class": "兽龙种", "examples": ["恐暴龙", "爆锤龙", "蛮颚龙"], "rpUse": "地面冲撞、领地破坏和资源争夺。"},
+    {"class": "牙龙种/牙兽种", "examples": ["雷狼龙", "惨爪龙", "金狮子"], "rpUse": "速度、群落、带电/狂暴状态和高机动战。"},
+    {"class": "海龙种/鱼龙种", "examples": ["海龙", "水兽", "砂龙"], "rpUse": "水域/沙地地形与环境装备需求。"},
+    {"class": "古龙种", "examples": ["钢龙", "炎王龙", "霞龙", "灭尽龙"], "rpUse": "灾害预警、天气/地貌影响和大师位联合行动。"},
+    {"class": "禁忌怪物", "examples": ["黑龙", "红黑龙", "祖龙"], "rpUse": "文明毁灭级长线终局，不应早期随意投放。"}
+  ],
+  "canonicalArcs": ["新手村任务与公会注册", "区域巡礼和装备成长", "异常迁徙调查", "上位/大师位资格晋升", "古龙观测与城市防卫", "新大陆调查团生态研究", "禁忌怪物历史伏笔"],
+  "rpHooks": ["村庄牲畜失踪被误判为普通怪物，调查发现生态顶点迁徙", "受付员发布低星任务但书士队记录显示异常足迹", "加工屋缺少关键素材，猎人需选择狩猎、捕获或交易", "古龙观测局要求疏散村落但地方长老拒绝离开", "偷猎团用诱饵改变怪物领地导致连锁灾害", "艾露伙伴发现营地补给被小型怪物搬空", "封禁之地传回未知鳞片，公会只给出模糊许可"],
+  "coverageGaps": ["源地理目录极大，本轮仅保留关键地区和生态层级；未逐条复刻全部地点。", "固定 canon NPC 姓名库仍未完整补齐，characters-index 继续以职业/组织/生态角色槽位为主。", "怪物例表是分类索引，不是完整图鉴。"],
   "runtimeUseGate": {
     "gateType": "role-and-ecology-index-caveat",
     "characterIndexPolicy": "characters-index is primarily occupational, institutional, and ecological role slots because sources emphasize systems over named NPCs",

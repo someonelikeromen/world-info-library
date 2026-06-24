@@ -1,0 +1,424 @@
+{
+  "schema": "rp-curated-completion-expansion-v1",
+  "worldSlug": "senran-kagura",
+  "sourceRefs": [
+    "src-senran-kagura-001"
+  ],
+  "curationScope": "补足 audit incomplete/uncertain 标记：忍术/阴阳变化/忍转身/妖魔/千年祭体系、忍者队伍与组织、人物、地点、时间线、篇章和关系；仅使用 campaigns/world-library/worlds/senran-kagura 本地源。",
+  "powerSystems": [
+    {
+      "id": "shinobi-and-alignment-system",
+      "name": "现代忍者、善忍/恶忍/逃忍",
+      "summary": "现代日本表层社会之下，忍者以国家、企业、政客或个人信念为主君执行秘密任务。善忍是国家公务员型忍者，通常在指定学院受训并维护公共利益；恶忍受私人利益驱动，手段限制更少；逃忍背弃所属组织，会被善恶双方追杀。",
+      "rpLimits": [
+        "善忍与恶忍不是简单道德二分，任务来源、保护对象和手段应成为冲突焦点。",
+        "逃忍身份应带来补给、藏身、追捕和社会身份断裂问题。",
+        "OC 忍者的阵营、血统与能力方向必须由玩家定义，不预设为原作角色替代。"
+      ]
+    },
+    {
+      "id": "inyo-shinobi-transformation",
+      "name": "阴阳变化、忍转身、命驱与闪乱属性",
+      "summary": "阴阳变化是核心战斗资源。阳属性支撑忍转身，使忍服作为精神具现的战斗装甲显化，并在阳乱状态提升忍力回复；阴属性支撑命驱，以舍弃防御换取极端攻击，并在阴乱状态进一步放大风险；阴阳双乱可进入闪乱属性，兼具回复与攻击优势。",
+      "rpLimits": [
+        "忍转身不是无代价换装，应暴露忍者身份、消耗精神力并让战斗进入暗面层。",
+        "命驱和血暴走属于高风险状态，使用后必须体现防御下降、创伤、失控或关系后果。",
+        "闪乱属性可作为高潮奖励，不应在开局稳定常驻。"
+      ]
+    },
+    {
+      "id": "secret-ninja-arts-and-scrolls",
+      "name": "秘传忍法、超秘传忍法书与个人武装",
+      "summary": "秘传忍法是忍力积蓄后的大型忍术，每名忍者以自身武器、属性和信念形成独特表现。超秘传忍法书分阴阳等高阶卷物，牵涉飞鸟、焰及更大规模冲突。武器从飞鸟双刀、斑鸠刀术、葛城踢技、柳生伞型武器、焰多刀流到雪泉冰忍法等，各自决定战术位置。",
+      "rpLimits": [
+        "秘传忍法应作为决胜技或剧情转折，而非普通连招。",
+        "卷物类道具默认由任务、学院或主线事件引出，不能作为 OC 免费开局装备。",
+        "战斗叙事应声明目标、场地、站位、忍力状态和撤退条件。"
+      ]
+    },
+    {
+      "id": "shinobi-barrier-and-yoma",
+      "name": "忍结界、妖魔与毕业级机密",
+      "summary": "忍结界可隔绝普通社会感知，创造战斗空间；结界内流血会吸引妖魔。妖魔来自异次元，从杂兵级到大蛇、人形妖魔、妖魔神不等，普通社会与低阶学生多不了解真相，毕业忍者才会被告知完整威胁。",
+      "rpLimits": [
+        "妖魔事件应逐步揭露，不能在校园日常开局一次性公开全部真相。",
+        "大蛇或妖魔神级威胁默认需要多队伍协作、封印或阶段性削弱。",
+        "忍结界可保护日常社会，但破损、血迹和目击者会制造善后剧情。"
+      ]
+    },
+    {
+      "id": "kagura-millennium-festival",
+      "name": "神乐千年祭、巫神乐与护身之民",
+      "summary": "神乐千年祭每千年举办一次，表面是忍者比武祭典，实质牵涉世界命运轮回。巫神乐三姐妹与神乐千年祭执行部管理祭典，护身之民如神乐/奈乐是轮回与妖魔讨伐的关键。",
+      "rpLimits": [
+        "千年祭属于中后期世界级主线，开局只以传闻、任务异常和巫女线索埋伏。",
+        "神乐/奈乐相关设定应保持使命感与代价，不把她们简化为普通参赛者。"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "kiria",
+      "name": "雾夜",
+      "role": "国立半藏学院忍科教师兼普通科数学教师",
+      "affiliations": ["hanzo-academy"],
+      "abilities": ["忍术教学", "资质识别", "任务调度", "秘密社会规则解释"],
+      "notes": "适合作为 OC 入门导师；他可察觉玩家自定忍者血统，但不能替玩家定义其来源。"
+    },
+    {
+      "id": "hanzo-grandfather",
+      "name": "半藏",
+      "role": "传说级忍者、国立半藏学院创立者、飞鸟祖父",
+      "affiliations": ["hanzo-academy"],
+      "abilities": ["传说级忍术", "特別講師", "半藏饭团"],
+      "notes": "用于高阶训练、喜剧缓冲和善忍传统线。"
+    },
+    {
+      "id": "daidoji",
+      "name": "大道寺",
+      "role": "半藏学院强者/前辈级战力",
+      "affiliations": ["hanzo-academy"],
+      "abilities": ["压倒性近战", "高阶忍者经验", "危机时增援"],
+      "notes": "源中常作为紧急战场强者出场，适合检验主角团成长。"
+    },
+    {
+      "id": "rin-suzune",
+      "name": "凛/铃音",
+      "role": "前半藏学生、秘立蛇女子学园教师身份者",
+      "affiliations": ["hebi-jo", "hanzo-academy-past"],
+      "abilities": ["潜伏", "恶忍教学", "双重身份压力"],
+      "notes": "连接半藏与蛇女的过去，适合揭示善恶阵营边界并非绝对。"
+    },
+    {
+      "id": "yomi",
+      "name": "咏",
+      "role": "焰红莲队成员、战力记录与现实主义担当",
+      "affiliations": ["homura-crimson-squad"],
+      "abilities": ["战力观察", "数据记录", "团队支援"],
+      "notes": "可在半藏 vs 蛇女前期作为冷静观察者，记录对手战力。"
+    },
+    {
+      "id": "hikage",
+      "name": "日影",
+      "role": "焰红莲队成员、寡言杀手型忍者",
+      "affiliations": ["homura-crimson-squad"],
+      "abilities": ["暗杀", "无表情压迫", "近身战"],
+      "notes": "适合作为逃忍队伍的危险感与沉默行动锚点。"
+    },
+    {
+      "id": "mirai",
+      "name": "未来",
+      "role": "焰红莲队成员、远程火力与年轻成员",
+      "affiliations": ["homura-crimson-squad"],
+      "abilities": ["远程射击", "机关武器", "牵制"],
+      "notes": "用于队伍保护、火力压制和逃亡补给冲突。"
+    },
+    {
+      "id": "haruka",
+      "name": "春花",
+      "role": "焰红莲队成员、药学/傀儡/支援系恶忍",
+      "affiliations": ["homura-crimson-squad"],
+      "abilities": ["药物", "傀儡/操控", "治疗与陷阱"],
+      "notes": "可作为逃忍队伍医疗、陷阱和道德灰区担当。"
+    },
+    {
+      "id": "miyabi",
+      "name": "雅绯",
+      "role": "秘立蛇女子学园选备队核心、昏迷后苏醒的恶忍领袖",
+      "affiliations": ["hebi-jo-elite"],
+      "abilities": ["强力忍法", "血暴走阴影", "队伍统率"],
+      "notes": "与焰叛离线、蛇女新旧体制和妖魔创伤强相关。"
+    },
+    {
+      "id": "murasaki",
+      "name": "紫",
+      "role": "蛇女子选备队成员、内向高危能力者",
+      "affiliations": ["hebi-jo-elite"],
+      "abilities": ["异常忍法", "封闭式防御", "情绪爆发"],
+      "notes": "适合处理恶忍学校中的心理创伤和保护/接近难题。"
+    },
+    {
+      "id": "ryobi-ryona",
+      "name": "两备与两奈",
+      "role": "蛇女子选备队双人关系核心",
+      "affiliations": ["hebi-jo-elite"],
+      "abilities": ["双人协同", "枪械/近战切换", "高张力互动"],
+      "notes": "建议作为组合出场，保持全年龄处理。"
+    },
+    {
+      "id": "yumi",
+      "name": "雪泉",
+      "role": "死塾月闪女学馆精英队长、冰之忍法使",
+      "affiliations": ["gessen-academy"],
+      "abilities": ["冰之忍法", "礼仪", "队伍统率", "完美主义战斗"],
+      "notes": "与飞鸟形成火热直率/冰冷完美的对照，也是月闪秩序主题的入口。"
+    },
+    {
+      "id": "murakumo",
+      "name": "丛",
+      "role": "月闪成员、沉默评估型战士",
+      "affiliations": ["gessen-academy"],
+      "abilities": ["面具/武器战", "战力评估", "精准战斗"],
+      "notes": "适合作为月闪队伍的侦察与压迫感节点。"
+    },
+    {
+      "id": "yozakura-shiki-minori",
+      "name": "夜樱、四季与美野里",
+      "role": "月闪女学馆队员群",
+      "affiliations": ["gessen-academy"],
+      "abilities": ["重拳/体术", "机动与牵制", "支援与喜剧缓冲"],
+      "notes": "三人共同补足月闪队伍的战术多样性与日常层。"
+    },
+    {
+      "id": "kagura-naraku",
+      "name": "神乐与奈乐",
+      "role": "护身之民/千年祭关键人物",
+      "affiliations": ["kagura-millennium-festival"],
+      "abilities": ["妖魔讨伐", "轮回使命", "高阶封印/战斗"],
+      "notes": "中后期揭示世界命运轮回，不宜在开局作为普通学生随意投放。"
+    }
+  ],
+  "factions": [
+    {
+      "id": "hanzo-academy",
+      "name": "国立半藏学院",
+      "type": "zen-nin-academy",
+      "summary": "位于东京都台东区浅草的善忍学院，表面是普通升学高校，地下隐藏忍科训练设施。由传说忍者半藏创立，雾夜负责日常教学，飞鸟、斑鸠、葛城、柳生、云雀构成核心学生队伍。",
+      "resources": ["地下忍科教室", "训练场", "善忍任务渠道", "半藏与大道寺等前辈"],
+      "conflicts": ["hebi-jo", "yoma", "homura-crimson-squad-early", "gessen-academy-rivalry"]
+    },
+    {
+      "id": "hebi-jo",
+      "name": "秘立蛇女子学园",
+      "type": "aku-nin-academy",
+      "summary": "位于东京地下秘密设施的恶忍养成机构，旧体制与道元、妖魔实验和残酷上下级规则相关。焰红莲队叛离后，雅绯等选备队代表新蛇女线。",
+      "resources": ["地下设施", "企业/政客委托", "恶忍训练", "铃音/凛的教学"],
+      "conflicts": ["hanzo-academy", "homura-crimson-squad", "internal-old-new-order"]
+    },
+    {
+      "id": "homura-crimson-squad",
+      "name": "焰红莲队",
+      "type": "nuke-nin-household-team",
+      "summary": "焰带领咏、日影、未来、春花脱离蛇女后形成的逃忍队伍。她们既是被追捕者，也是能与半藏临时共斗的独立势力；洞穴基地和五人互助构成家庭型据点。",
+      "members": ["homura", "yomi", "hikage", "mirai", "haruka"],
+      "resources": ["洞穴基地", "多刀流与火焰忍法", "药物/陷阱/远程火力", "逃忍生存经验"],
+      "conflicts": ["hebi-jo", "hanzo-academy-rivalry", "yoma"]
+    },
+    {
+      "id": "gessen-academy",
+      "name": "死塾月闪女学馆",
+      "type": "old-zen-nin-academy",
+      "summary": "位于北海道雪山环绕之地的古老善忍学院，重视家族传承、优雅、精准和冷静。雪泉带领丛、夜樱、四季、美野里等精英访问东京，引出四校乱战和秩序主题。",
+      "members": ["yumi", "murakumo", "yozakura", "shiki", "minori"],
+      "resources": ["古老忍者家族传承", "冰雪环境训练", "严酷礼法", "黑影/王牌线"],
+      "conflicts": ["hanzo-academy-rivalry", "hebi-jo", "fubuki-truth", "yoma"]
+    },
+    {
+      "id": "kagura-festival-groups",
+      "name": "神乐千年祭执行部、巫神乐三姐妹与护身之民",
+      "type": "ritual-world-fate-system",
+      "summary": "管理千年祭与轮回使命的高阶势力，牵涉巫女、护身之民、妖魔讨伐和世界命运。神乐与奈乐是此线核心人物。",
+      "visibility": "gm-secret-until-mid-or-late-arc"
+    },
+    {
+      "id": "new-link-groups",
+      "name": "天城封魔众、战姬众、黄道十二宫等扩展势力",
+      "type": "expanded-mobile-game-factions",
+      "summary": "源资料保留 New Link 等扩展势力。天城封魔众偏妖魔封印，战姬众偏恶忍与妖魔武器化，黄道十二宫星导会提供占星/特殊忍法线；适合作为沙盒支线，不应压过主干四校线。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "asakusa-hanzo-academy",
+      "name": "浅草/国立半藏学院",
+      "type": "surface-school-hidden-shinobi-site",
+      "summary": "日常层是普通高校与浅草街区，暗面层包含忍科暗门、地下训练场和善忍任务调度。适合开局报到、训练、半藏 vs 蛇女初接触。"
+    },
+    {
+      "id": "hanzo-underground-training-ground",
+      "name": "半藏学院地下忍科训练场",
+      "type": "training-stage",
+      "summary": "雾夜测试 OC 资质、飞鸟等人陪练、忍转身首次展示的低风险起点；可通过忍结界升级为真战场。"
+    },
+    {
+      "id": "hebi-jo-underground-facility",
+      "name": "秘立蛇女子学园地下设施",
+      "type": "aku-nin-school-base",
+      "summary": "恶忍课程、残酷上下级规则、蛇女旧体制与选备队活动的据点；适合潜入、营救、追捕和道元/雅绯线。"
+    },
+    {
+      "id": "homura-cave-base",
+      "name": "焰红莲队洞穴基地",
+      "type": "nuke-nin-safehouse",
+      "summary": "焰红莲队叛离后的第一个家；食物、水源、防御与队内情感修复都可转化为逃忍生存剧情。"
+    },
+    {
+      "id": "gessen-hokkaido-campus",
+      "name": "死塾月闪女学馆北海道校地",
+      "type": "snow-mountain-traditional-academy",
+      "summary": "雪山与日式庭园环绕的古老学院，强调家族传承和完美训练；适合月闪访问前后的背景、修行与秩序冲突。"
+    },
+    {
+      "id": "shinobi-barrier-battlefield",
+      "name": "忍结界战场",
+      "type": "sealed-combat-space",
+      "summary": "忍者以结界隔绝普通社会的战斗空间，可在街区、屋顶、地下或废墟临时展开；血与破损结界会引来妖魔。"
+    },
+    {
+      "id": "yoma-incident-sites",
+      "name": "妖魔出现地/东京地下禁忌仪式场",
+      "type": "high-risk-yoma-stage",
+      "summary": "道元召唤大蛇、妖魔突破结界、毕业级机密公开的高危地点；应作为阶段高潮而非日常随机遭遇。"
+    },
+    {
+      "id": "festival-ritual-sites",
+      "name": "神乐千年祭仪式场",
+      "type": "ritual-endgame-stage",
+      "summary": "千年祭、护身之民和世界命运轮回相关场域，可用于中后期阵营集结、妖魔讨伐和使命选择。"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "modern-hidden-shinobi-order",
+      "period": "现代前史",
+      "event": "明治维新后忍者没有消失，而是转入国家、企业和秘密组织体系；半藏学院等忍者学校维系训练与任务传统。"
+    },
+    {
+      "id": "hebi-yoma-trauma",
+      "period": "数年前/蛇女背景",
+      "event": "蛇女与妖魔事件、雅绯昏迷、恶忍机构化和道元线交织，形成焰红莲队日后叛离的背景。",
+      "visibility": "gm-secret-or-gradual-reveal"
+    },
+    {
+      "id": "current-entry-hanzo",
+      "period": "开局",
+      "event": "OC 初入忍者世界，半藏学院表面普通、暗藏忍科；雾夜测试资质，飞鸟等半藏小队成为第一批接触角色。"
+    },
+    {
+      "id": "hanzo-vs-hebi-contact",
+      "period": "前期",
+      "event": "蛇女子学园首次挑衅半藏，焰与飞鸟形成宿敌关系；善忍/恶忍理念冲突被引出。"
+    },
+    {
+      "id": "orochi-yoma-crisis",
+      "period": "前期高潮",
+      "event": "道元发动禁忌仪式召唤大蛇妖魔，半藏与蛇女学生被迫联手，妖魔真相从训练传闻升级为真实危机。"
+    },
+    {
+      "id": "homura-defection",
+      "period": "前中期",
+      "event": "焰斩杀道元并带领五人叛离蛇女，焰红莲队成为逃忍；洞穴基地和追捕压力构成独立篇章。"
+    },
+    {
+      "id": "gessen-and-four-school-conflict",
+      "period": "中期",
+      "event": "月闪女学馆访问东京并与半藏、蛇女、焰红莲队交汇，四校乱战把冲突从二元对立扩展为多阵营选择。"
+    },
+    {
+      "id": "kagura-festival-and-yoma-war",
+      "period": "后期",
+      "event": "神乐千年祭、护身之民、巫神乐和妖魔战争逐步浮现，忍者之间的理念之争升级为世界命运轮回问题。",
+      "visibility": "gm-secret-until-late-arc"
+    }
+  ],
+  "plotArcs": [
+    {
+      "id": "hanzo-entry-and-training",
+      "name": "半藏入门与忍者日常篇",
+      "focus": ["OC资质", "飞鸟", "雾夜", "忍科暗门", "忍转身/基础战"],
+      "endState": "玩家理解现代日常与忍者暗面双层结构，完成第一轮训练或任务。"
+    },
+    {
+      "id": "hanzo-vs-hebi-and-orochi",
+      "name": "半藏 vs 蛇女与大蛇妖魔篇",
+      "focus": ["善忍/恶忍", "飞鸟与焰", "道元", "大蛇", "临时共斗"],
+      "endState": "善恶二分被打破，妖魔威胁与蛇女内部问题公开给核心角色。"
+    },
+    {
+      "id": "homura-crimson-defection",
+      "name": "焰红莲队逃忍生存篇",
+      "focus": ["焰", "咏", "日影", "未来", "春花", "洞穴基地"],
+      "endState": "焰红莲队从敌对学生转为独立逃忍家庭，玩家可选择追捕、支援或保持宿敌关系。"
+    },
+    {
+      "id": "gessen-four-school-battle",
+      "name": "月闪登场与四校乱战篇",
+      "focus": ["雪泉", "月闪精英", "雅绯选备队", "四校临时结盟", "秩序与完美"],
+      "endState": "多阵营关系网展开，任务目标比击败敌人更重要。"
+    },
+    {
+      "id": "millennium-festival-endgame",
+      "name": "千年祭与妖魔战争篇",
+      "focus": ["神乐", "奈乐", "巫神乐", "护身之民", "妖魔神", "轮回"],
+      "endState": "RP 可导向世界命运、封印、牺牲或跨阵营联防的终盘路线。"
+    },
+    {
+      "id": "expanded-sandbox-factions",
+      "name": "New Link 扩展势力沙盒篇",
+      "focus": ["天城封魔众", "战姬众", "黄道十二宫", "客串/联动角色", "阵营立场"],
+      "endState": "作为主线外支线或长期沙盒内容使用，避免稀释四校主干。"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "asuka",
+      "to": "homura",
+      "type": "rivalry-to-mutual-recognition",
+      "note": "飞鸟与焰从半藏/蛇女敌对开局，经过大蛇危机和焰叛离后可转化为宿敌式信任。"
+    },
+    {
+      "from": "hanzo-academy",
+      "to": "hebi-jo",
+      "type": "ideological-school-conflict",
+      "note": "善忍与恶忍学院互为对手，但妖魔危机和蛇女内部腐败会迫使临时合作。"
+    },
+    {
+      "from": "homura",
+      "to": "homura-crimson-squad",
+      "type": "leader-found-family",
+      "note": "焰带领五人从蛇女脱离，队伍关系应体现逃亡压力、补给困境和互相守护。"
+    },
+    {
+      "from": "miyabi",
+      "to": "homura",
+      "type": "new-hebi-vs-defector-tension",
+      "note": "雅绯苏醒后的蛇女选备队与焰红莲队代表新旧蛇女裂痕，不应只写成普通复仇。"
+    },
+    {
+      "from": "yumi",
+      "to": "asuka",
+      "type": "gessen-hanzo-contrast",
+      "note": "雪泉的冰冷完美与飞鸟的直率热血形成善忍内部不同理想的对照。"
+    },
+    {
+      "from": "yagyu",
+      "to": "hibari",
+      "type": "protector-bond",
+      "note": "柳生守护云雀是半藏队内关系锚点，适合引出保护、成长和过度保护冲突。"
+    },
+    {
+      "from": "rin-suzune",
+      "to": "hanzo-academy",
+      "type": "former-student-shadow",
+      "note": "凛/铃音连接半藏过去与蛇女现状，可用于揭露阵营边界和教师责任。"
+    },
+    {
+      "from": "kagura-naraku",
+      "to": "kagura-festival-groups",
+      "type": "ritual-key-and-guardian",
+      "note": "神乐与奈乐承载护身之民/千年祭核心使命，中后期关系应围绕轮回责任与个人选择。"
+    }
+  ],
+  "rpNotes": [
+    "OC 可作为新入学忍者、转入半藏/蛇女/月闪的学生、逃忍、任务协力者、封印势力观察员或完全中立者介入；所有身份细节由玩家定义。",
+    "每场忍者战应声明：是否展开忍结界、参战阵营、忍转身/命驱状态、忍力消耗、任务目标、撤退条件和普通社会善后。",
+    "剧情强度分层：学院日常与训练 → 半藏/蛇女冲突 → 大蛇妖魔 → 逃忍生存 → 四校乱战 → 千年祭/妖魔战争。",
+    "保持全年龄 curated 视图；源资料中的成人化身体描写、羞辱化服装破损和非必要亲密桥段不进入本扩展。",
+    "联动/客串角色和 New Link 大量扩展势力仅作沙盒资源，默认不抢占主线。"
+  ],
+  "residualGaps": [
+    "New Wave/New Link 大量原创与联动角色未逐一拆分入 characters-index，当前仅保留组织级入口。",
+    "各角色秘传忍法的正式招式名、具体日文写法和不同游戏时间点仍需按源逐条校勘。",
+    "源资料混合本篇、动画、New Link、联动与沙盒控制文本，本扩展按 RP 可用主干整理，不等同官方设定集逐条确认。"
+  ]
+}

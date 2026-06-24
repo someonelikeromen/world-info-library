@@ -10,3 +10,4 @@
 - `knowledge-graph.json`：学园、联邦学生会、神秘、武装生态关系。
 - `relationship-graph.json`：学院与组织关系。
 - `curation-notes.md`：整理说明与风险。
+- `completion-expansion.json`：retry-01 补充学园自治模型、学院/组织、神秘与武装日常、凯撒集团、数秘术和 RP 切入点。

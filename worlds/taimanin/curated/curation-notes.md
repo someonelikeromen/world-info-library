@@ -16,4 +16,5 @@
 
 ## 验证状态
 - 已创建 7 个 curated 标准文件。
-- 未运行 JSON 解析器；JSON 为人工书写。
+- retry-13 新增 `completion-expansion.json`，覆盖人物、势力、时间线、篇章、能力体系、关系和 RP notes。
+- 2026-06-24 运行 Python `json.load` 校验本目录全部 JSON：通过。

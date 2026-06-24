@@ -1,1 +1,390 @@
-{"schema":"rp-world-v1","worldId":"evangelion","worldName":"新世纪福音战士 / EVA","aliases":["Neon Genesis Evangelion","EVA"],"genre":["机甲","心理剧","末世神秘学"],"summary":"第二次冲击后的世界由 NERV 以 EVA 对抗使徒。AT Field 是自我边界也是战斗屏障；SEELE 与碇源堂围绕人类补完计划进行隐秘博弈。","sandboxPrinciple":{"summary":"不固定补完结局；使徒袭击、驾驶员心理和组织阴谋动态变化。","notes":[]},"hasFixedFate":false,"foreignPowerSuppressionDefault":{"enabled":false,"summary":"","notes":[]},"notes":["不同动画/剧场版需区分。"],"powerSystems":[{"id":"at-field","name":"AT Field","category":"soul-barrier","principle":"生命个体维持自我边界的绝对领域，可显化为防御/攻击屏障。","classification":["Barrier","Soul"],"energySource":"internal","hasExternalEnergy":false,"externalEnergyName":"","energyTraits":[{"tag":"ego-boundary","level":"S","description":"与个体心灵、自我和生命本质相关。"}],"levelMapping":[],"commonResources":["同步率","自我边界","EVA供电"],"commonAbilities":["屏障","中和使徒 AT Field"],"limitations":["驾驶员精神状态会影响同步和表现。"],"compatibilityNotes":[]},{"id":"eva-unit","name":"EVA 机体","category":"bio-mecha","principle":"以亚当/莉莉丝系生命体为核心的生体兵器，由驾驶员同步操控。","classification":["Construct","BioMecha"],"energySource":"mixed","hasExternalEnergy":true,"externalEnergyName":"外接电源/内在生命力","energyTraits":[],"levelMapping":[],"commonResources":["同步率","外接电源","装甲与武器"],"commonAbilities":["巨大格斗","AT Field 展开","暴走"],"limitations":["电源限制、精神污染、暴走风险。"],"compatibilityNotes":[]}],"factions":[{"id":"nerv","name":"NERV","type":"paramilitary-research","summary":"特务机关，负责 EVA 与使徒防御。","powerSystemAffinity":["eva-unit","at-field"],"publicRules":[],"hiddenRules":["源堂的补完计划"],"attitudeToOutsiders":"classified","knownMembers":["shinji-ikari","rei-ayanami","asuka-langley-soryu","misato-katsuragi","gendo-ikari"],"territories":["第三新东京市","NERV本部"],"resources":["EVA机体","MAGI"],"conflicts":["angels","seele"]},{"id":"seele","name":"SEELE","type":"secret-cabal","summary":"推动人类补完计划的秘密组织。","powerSystemAffinity":["at-field"],"publicRules":[],"hiddenRules":["死海文书计划"],"attitudeToOutsiders":"manipulative","knownMembers":[],"territories":[],"resources":["委员会","量产机"],"conflicts":["nerv"]}],"energyEnvironment":{"externalEnergies":[],"restrictedZones":["NERV本部","最终教条区"],"specialFields":["AT Field","LCL环境"]},"worldRules":{"publicLaws":["第二次冲击后联合国与军事管制"],"supernaturalRules":["使徒拥有 AT Field；EVA 可中和并近战对抗。"],"taboos":["接触/冲击触发","补完计划泄密"],"knownExceptions":["初号机暴走与觉醒。"]},"locations":["第三新东京市","NERV本部","GeoFront","最终教条区"],"publicEvents":["第二次冲击","使徒袭击"],"hiddenEvents":["人类补完计划","莉莉丝/亚当真相"]}
+{
+  "schema": "rp-world-v1",
+  "worldId": "evangelion",
+  "worldName": "新世纪福音战士 / EVA",
+  "aliases": [
+    "Neon Genesis Evangelion",
+    "EVA",
+    "新世纪エヴァンゲリオン"
+  ],
+  "genre": [
+    "机甲",
+    "心理剧",
+    "末世神秘学",
+    "军事科幻"
+  ],
+  "summary": "第二次冲击后的世界由NERV以EVA对抗使徒。AT Field既是生命个体的自我边界，也是使徒/EVA战斗的绝对屏障；SEELE、碇源堂与NERV围绕人类补完计划进行隐秘博弈。",
+  "continuityPolicy": {
+    "requiredAtSessionStart": true,
+    "defaultBranch": "tv",
+    "rule": "开局必须锁定TV版、旧剧场版EOE或新剧场版之一；不得混用使徒编号、角色版本、组织状态、机体编号和结局机制。",
+    "branches": [
+      {
+        "id": "tv",
+        "name": "TV版主线",
+        "allowedWorks": [
+          "新世纪福音战士TV版",
+          "Director's Cut补充"
+        ],
+        "excludedWorks": [
+          "旧剧场版结局事件可作为未来分支但不得提前发生",
+          "新剧场版序/破/Q/终独有设定"
+        ],
+        "anchorPeriod": "2015年6月22日至2015年11月25日",
+        "branchNotes": "第三至第十七使徒编号按TV体系；惣流·明日香·兰格雷、NERV本部、SEELE、MAGI和Terminal Dogma为核心。"
+      },
+      {
+        "id": "old-movie-eoe",
+        "name": "旧剧场版 / THE END OF EVANGELION",
+        "allowedWorks": [
+          "THE END OF EVANGELION / Air / 真心为你"
+        ],
+        "excludedWorks": [
+          "TV第25-26话的内心剧可作主题参照但不替代EOE外部事件",
+          "新剧场版Mark.06、第13号机、WILLE、Additional Impact"
+        ],
+        "anchorPeriod": "2015年12月31日至2016年1月2日起",
+        "branchNotes": "作为TV后继终局分支处理：战略自卫队进攻NERV、量产型EVA、丽/莉莉丝、反AT Field和红海沙滩是核心节点。"
+      },
+      {
+        "id": "rebuild",
+        "name": "新剧场版序/破/Q/终",
+        "allowedWorks": [
+          "序",
+          "破",
+          "Q",
+          "终"
+        ],
+        "excludedWorks": [
+          "TV版使徒编号体系",
+          "惣流设定",
+          "旧剧场版EOE终局事件"
+        ],
+        "anchorPeriod": "2015年6月22日至2029年8月4日起",
+        "branchNotes": "式波·明日香、真希波、Mark.06、第13号机、WILLE、AAA Wunder、第三村和Additional Impact只属于本分支。"
+      }
+    ]
+  },
+  "sandboxPrinciple": {
+    "summary": "不固定补完结局；使徒袭击、驾驶员心理、组织阴谋和分支结局可以在锁定版本内动态变化。",
+    "notes": [
+      "若玩家介入改变事件，必须先记录当前分支、时间点和角色状态，再判断可偏离范围。",
+      "跨分支元素只可作为元知识或GM注记，不可在同一正史局内实体化。"
+    ]
+  },
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": {
+    "enabled": true,
+    "summary": "外来力量体系默认不兼容；所有超常表现需翻译为AT Field、同步率、精神污染、EVA/使徒生命现象或现实物理延伸。",
+    "notes": [
+      "来源边界过滤器明确禁止混入修仙、网游、魔法等非EVA体系。"
+    ]
+  },
+  "powerSystems": [
+    {
+      "id": "at-field",
+      "name": "AT Field",
+      "category": "soul-barrier",
+      "principle": "生命个体维持自我边界的绝对领域，可显化为防御、攻击、空间压迫或反AT Field式的边界解除。",
+      "classification": [
+        "Barrier",
+        "Soul",
+        "EgoBoundary"
+      ],
+      "energySource": "internal",
+      "hasExternalEnergy": false,
+      "externalEnergyName": "",
+      "energyTraits": [
+        {
+          "tag": "ego-boundary",
+          "level": "S",
+          "description": "与个体心灵、自我和生命边界相关。"
+        }
+      ],
+      "levelMapping": [],
+      "commonResources": [
+        "同步率",
+        "自我边界",
+        "精神稳定度"
+      ],
+      "commonAbilities": [
+        "屏障",
+        "中和使徒AT Field",
+        "精神/存在边界干涉"
+      ],
+      "limitations": [
+        "未中和AT Field时常规攻击难以触及使徒核心。",
+        "驾驶员精神状态会影响同步和表现。"
+      ],
+      "compatibilityNotes": [
+        "反AT Field与补完计划相关，应作为GM-only机制。"
+      ]
+    },
+    {
+      "id": "eva-unit",
+      "name": "EVA机体",
+      "category": "bio-mecha",
+      "principle": "以亚当/莉莉丝系生命体为核心的人造生体兵器，由驾驶员经神经同步操控。",
+      "classification": [
+        "Construct",
+        "BioMecha",
+        "SoulLinked"
+      ],
+      "energySource": "mixed",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "外接电源/内部电源/S2机关",
+      "energyTraits": [],
+      "levelMapping": [],
+      "commonResources": [
+        "同步率",
+        "外接电源",
+        "内部电源倒计时",
+        "装甲与武器",
+        "驾驶员SAN"
+      ],
+      "commonAbilities": [
+        "巨大格斗",
+        "AT Field展开",
+        "同步反馈",
+        "暴走/觉醒"
+      ],
+      "limitations": [
+        "断开脐带电缆后内部电源约5分钟。",
+        "同步率越高神经反馈越强；超高同步有LCL化风险。",
+        "暴走与觉醒不可当作可控必杀技。"
+      ],
+      "compatibilityNotes": [
+        "新剧场版机体和武装不得引入TV/EOE分支。"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "nerv",
+      "name": "NERV",
+      "type": "paramilitary-research",
+      "summary": "特务机关，表面负责EVA与使徒防御，内部执行EVA计划和补完相关研究。",
+      "branchScope": [
+        "tv",
+        "old-movie-eoe",
+        "rebuild"
+      ],
+      "powerSystemAffinity": [
+        "eva-unit",
+        "at-field"
+      ],
+      "publicRules": [
+        "对使徒作战最高优先",
+        "驾驶员、EVA和Terminal Dogma相关资料高度保密"
+      ],
+      "hiddenRules": [
+        "源堂版本的人类补完计划",
+        "丽、莉莉丝、亚当与EVA真相"
+      ],
+      "attitudeToOutsiders": "classified",
+      "knownMembers": [
+        "shinji-ikari",
+        "rei-ayanami",
+        "asuka-langley-soryu",
+        "misato-katsuragi",
+        "ritsuko-akagi",
+        "gendo-ikari",
+        "kozo-fuyutsuki"
+      ],
+      "territories": [
+        "tokyo-3",
+        "geofront",
+        "nerv-hq",
+        "terminal-dogma"
+      ],
+      "resources": [
+        "EVA机体",
+        "MAGI",
+        "EVA格纳库",
+        "N2与常规军方支援"
+      ],
+      "conflicts": [
+        "angels",
+        "seele",
+        "jsdf-eoe",
+        "wille"
+      ]
+    },
+    {
+      "id": "seele",
+      "name": "SEELE",
+      "type": "secret-cabal",
+      "summary": "推动人类补完计划的秘密委员会，利用联合国、NERV和量产EVA推进预定剧本。",
+      "branchScope": [
+        "tv",
+        "old-movie-eoe",
+        "rebuild"
+      ],
+      "powerSystemAffinity": [
+        "at-field",
+        "eva-unit"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "死海文书/剧本式计划",
+        "必要时清除NERV并夺取初号机"
+      ],
+      "attitudeToOutsiders": "manipulative",
+      "knownMembers": [
+        "keel-lorenz"
+      ],
+      "territories": [],
+      "resources": [
+        "委员会",
+        "联合国影响力",
+        "量产型EVA",
+        "朗基努斯之枪/复制枪"
+      ],
+      "conflicts": [
+        "nerv",
+        "gendo-ikari"
+      ]
+    },
+    {
+      "id": "angels",
+      "name": "使徒",
+      "type": "existential-threat",
+      "summary": "拥有AT Field与核心的超常生命体；其目标、形态和编号随分支变化。",
+      "branchScope": [
+        "tv",
+        "rebuild"
+      ],
+      "powerSystemAffinity": [
+        "at-field"
+      ],
+      "publicRules": [],
+      "hiddenRules": [
+        "接触亚当/莉莉丝与冲击风险相关"
+      ],
+      "attitudeToOutsiders": "alien/hostile",
+      "knownMembers": [],
+      "territories": [],
+      "resources": [
+        "AT Field",
+        "S2机关/核心",
+        "精神污染或特异空间能力"
+      ],
+      "conflicts": [
+        "nerv",
+        "humanity"
+      ]
+    },
+    {
+      "id": "wille",
+      "name": "WILLE",
+      "type": "anti-nerv-fleet",
+      "summary": "新剧场版14年后出现的反NERV组织，由美里指挥AAA Wunder，目标是阻止NERV继续引发冲击。",
+      "branchScope": [
+        "rebuild"
+      ],
+      "powerSystemAffinity": [
+        "eva-unit"
+      ],
+      "publicRules": [
+        "反NERV",
+        "阻止冲击"
+      ],
+      "hiddenRules": [],
+      "attitudeToOutsiders": "suspicious-survivor-military",
+      "knownMembers": [
+        "misato-katsuragi",
+        "ritsuko-akagi",
+        "asuka-shikinami-langley",
+        "mari-makinami"
+      ],
+      "territories": [
+        "aaa-wunder",
+        "village-3"
+      ],
+      "resources": [
+        "AAA Wunder",
+        "改修EVA",
+        "DSS项圈",
+        "反转系统"
+      ],
+      "conflicts": [
+        "nerv-rebuild",
+        "eva-series"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "externalEnergies": [
+      "LCL",
+      "EVA外接电源",
+      "S2机关",
+      "反AT Field"
+    ],
+    "restrictedZones": [
+      "nerv-hq",
+      "terminal-dogma",
+      "central-dogma",
+      "geofront",
+      "moon-tabuha-base",
+      "antarctica-black-moon"
+    ],
+    "specialFields": [
+      "AT Field",
+      "LCL环境",
+      "Dirac之海",
+      "古夫之门",
+      "核心化赤地"
+    ]
+  },
+  "worldRules": {
+    "publicLaws": [
+      "第二次冲击后联合国与军事管制影响世界秩序。",
+      "第三新东京市以使徒防御为城市设计核心。"
+    ],
+    "supernaturalRules": [
+      "使徒拥有AT Field；EVA可中和并近战对抗。",
+      "EVA不是普通机甲，而是带灵魂/生命体性质的生体兵器。",
+      "冲击事件涉及亚当/莉莉丝、朗基努斯之枪、EVA、反AT Field和人类灵魂/边界。"
+    ],
+    "taboos": [
+      "接触/冲击触发",
+      "补完计划泄密",
+      "Terminal Dogma真相外泄",
+      "跨分支设定混用"
+    ],
+    "knownExceptions": [
+      "初号机暴走与觉醒。",
+      "渚薰等特殊使徒/驾驶员身份。",
+      "新剧场版Additional Impact仅在rebuild分支有效。"
+    ]
+  },
+  "locations": [
+    "tokyo-3",
+    "geofront",
+    "nerv-hq",
+    "terminal-dogma",
+    "misato-apartment",
+    "matsushiro-test-site",
+    "lcl-sea",
+    "aaa-wunder",
+    "village-3",
+    "antarctica-black-moon"
+  ],
+  "publicEvents": [
+    "第二次冲击",
+    "使徒袭击",
+    "EVA出击",
+    "第三新东京市疏散"
+  ],
+  "hiddenEvents": [
+    "人类补完计划",
+    "莉莉丝/亚当真相",
+    "丽克隆体与灵魂真相",
+    "初号机内唯的存在",
+    "SEELE与源堂的计划分歧"
+  ],
+  "notes": [
+    "TV、旧剧场版、新剧场版已拆为分支；timeline.json保留阶段时间线索引。",
+    "源材料含世界书风格和沙盒协议，部分精确日期/强约束为RP整理用而非官方逐字事实，已在curation-notes标注。"
+  ]
+}

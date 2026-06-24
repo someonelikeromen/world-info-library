@@ -9,3 +9,7 @@
 - 已将可明确对应的 world registry 条目规范化为 canonical id，并同步更新角色字段。
 - 原始显示名保存在角色 `metadata.originalReferenceLabels` 与 `normalizationNotes` 中；无法确定的条目未硬改。
 - 已补入 `anti-magic` 以承接明日菜的反魔法标记。
+
+## retry-09 补完
+- 新增 `completion-addendum.json`，将《魔法老师》2003 麻帆良时代与《UQ HOLDER》未来时代拆分整理。
+- 源内 217 人物/183 能力条目仍未逐条去重；后续按 Negima 学园、魔法世界、UQ Holder 三批补索引。

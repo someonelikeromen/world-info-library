@@ -12,3 +12,7 @@
 - `campaigns/world-library/worlds/hidan-no-aria/manifest.json`
 - `campaigns/world-library/worlds/hidan-no-aria/characters/characters.json`
 - `campaigns/world-library/worlds/hidan-no-aria/world/world.json`
+
+## 2026-06-24 retry-05 补完
+- 补弗拉德红鸣馆、金一/加奈、夏洛克、华生、尼莫/N、莱克忒亚等后期入口，统一按 C/低置信使用。
+- 残留：后期卷序、GIII 译名与色金/莱克忒亚体系仍需逐卷复核。

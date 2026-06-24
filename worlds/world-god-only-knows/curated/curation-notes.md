@@ -14,6 +14,13 @@
 
 ## 风险与验证
 
-- JSON 为人工编写，未运行机器校验。
-- 女神具体对应关系未全部展开到每位宿主，后续可按女神篇专表补充。
+- JSON 为人工编写，retry-14 已运行机器校验。
+- 女神具体对应关系已在 `audit-completion-modules.json` 展开为宿主映射；完整单元剧情仍可按 case-file 后续补充。
 - 未修改 raw/imports/既有自动归档文件。
+
+## retry-14 补完记录
+
+- 已确认 `audit-completion-modules.json` 承载女神宿主、驱魂四阶段、新地狱/正统恶魔社、舞岛地点、篇章与 RP 边界。
+- 已从 campaigns 源的 characters/factions/locations/power-systems/canon-reference 抽取高置信条目；女神宿主按本地源保留译名差异和 RP 用途。
+- 残留缺口：每位攻略对象完整单元剧情、驱魂案件 case-file、旧地狱政治细节和大型时间旅行篇细表仍需分批扩展。
+- 验证：2026-06-24 使用 Node.js 解析本目录 JSON，包含本文件相邻 6 个 JSON，全部有效。
